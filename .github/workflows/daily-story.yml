@@ -33,7 +33,7 @@ jobs:
               \"max_tokens\": 1000,
               \"messages\": [{
                 \"role\": \"user\",
-                \"content\": \"Du bist Chefredakteur von 'Der tägliche Stauner' im Geist von 'Im Grunde Gut' und 'Factfulness'. Thema heute: '${THEMA}'. Schreibe eine faszinierende, belegte Geschichte die mit einer verbreiteten Annahme beginnt und zeigt, dass die Wirklichkeit nuancierter ist. Füge eine kurze Reflexionsfrage hinzu die den Leser einlädt, die Erkenntnis auf seinen Alltag zu beziehen. Ton: ruhig, präzise, nie kitschig. Niemals Krieg, Katastrophen oder politische Konflikte. Antworte NUR mit diesem JSON: {\\\"kategorie\\\":\\\"...\\\",\\\"titel\\\":\\\"...\\\",\\\"stauner\\\":\\\"2-3 Sätze\\\",\\\"absaetze\\\":[\\\"...\\\",\\\"...\\\",\\\"...\\\"],\\\"frage\\\":\\\"...\\\",\\\"quelle\\\":\\\"...\\\"}\"
+                \"content\": \"Du bist Chefredakteur von 'Der tägliche Stauner' im Geist von 'Im Grunde Gut' und 'Factfulness'. Thema heute: '${THEMA}'. Schreibe eine faszinierende, belegte Geschichte die mit einer verbreiteten Annahme beginnt und zeigt, dass die Wirklichkeit nuancierter ist. Füge eine kurze Reflexionsfrage hinzu die den Leser einlädt, die Erkenntnis auf seinen Alltag zu beziehen. Ton: ruhig, präzise, nie kitschig. Niemals Krieg, Katastrophen oder politische Konflikte. Antworte NUR mit diesem JSON: {\\\"kategorie\\\":\\\"...\\\",\\\"titel\\\":\\\"...\\\",\\\"stauner\\\":\\\"2-3 Sätze\\\",\\\"absaetze\\\":[\\\"...\\\",\\\"...\\\",\\\"...\\\"],\\\"quelle\\\":\\\"...\\\"}\"
               }]
             }")
 
