@@ -132,15 +132,34 @@
     color:#2e8b57;
   }
 
-  /* ── Tagesfrage ── */
-  .tagesfrage{
+  /* ── Schon gewusst ── */
+  .schon-gewusst{
     max-width:var(--max-text);
     margin-top:var(--space-l);
-    padding:clamp(1rem,2.5vw,1.5rem) clamp(1rem,2.5vw,1.75rem);
-    border:1px solid var(--rule);
+    padding:clamp(.85rem,2vw,1.25rem) clamp(1rem,2.5vw,1.75rem);
+    border-left:3px solid var(--rule);
     background:var(--paper-2);
+    display:flex;
+    gap:.85rem;
+    align-items:flex-start;
   }
-  .tagesfrage-label{font-family:var(--sans);font-size:clamp(.5rem,.75vw,.6rem);font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-bottom:.6rem}  .tagesfrage-text{font-family:var(--serif);font-style:italic;font-size:clamp(.95rem,1.8vw,1.1rem);line-height:1.65;color:var(--ink-2)}
+  .schon-gewusst-label{
+    font-family:var(--sans);
+    font-size:clamp(.5rem,.75vw,.6rem);
+    font-weight:600;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    color:var(--muted);
+    white-space:nowrap;
+    padding-top:.2rem;
+    flex-shrink:0;
+  }
+  .schon-gewusst-text{
+    font-family:var(--sans);
+    font-size:clamp(.82rem,1.4vw,.9rem);
+    line-height:1.65;
+    color:var(--ink-3);
+  }
 
   /* ── Divider ── */
   .divider{max-width:var(--max-text);display:flex;align-items:center;gap:1rem;margin:var(--space-l) 0}
@@ -246,6 +265,7 @@ const STORIES = [
     stauner:"Wälder gelten als fragile Ökosysteme, die menschlichen Schutz brauchen. Doch die Forschung zeigt: Wenn man sie lässt, heilen sie sich mit erstaunlicher Kraft selbst — schneller als wir je gedacht haben.",
     absaetze:["Jahrzehntelang gingen Ökologen davon aus, dass ein zerstörter Wald Jahrhunderte braucht, um sich zu erholen. Diese Annahme prägte Naturschutzpolitik weltweit — und führte dazu, dass manche Gebiete als 'verloren' aufgegeben wurden.","Eine große Metastudie der ETH Zürich, die 2019 in der Fachzeitschrift Nature veröffentlicht wurde, analysierte 77 Regenwaldgebiete in Mittel- und Südamerika. Das Ergebnis war verblüffend: Aufgegebene Landwirtschaftsflächen entwickelten innerhalb von nur 20 Jahren wieder über 80 Prozent ihrer ursprünglichen Artenvielfalt. Die Natur braucht keine menschliche Hilfe — sie braucht nur Ruhe.","Was das bedeutet: Ein erheblicher Teil der weltweiten Waldverluste ist nicht permanent. Wenn Druck nachlässt, kehrt das Leben zurück. Das gibt der Naturschutzforschung völlig neue Perspektiven — und uns Grund zum Staunen über die Resilienz des Lebendigen."],
     quelle:"Poorter et al. (2016): 'Biomass resilience of Neotropical secondary forests', Nature 530. ETH Zürich, Institut für Terrestrische Ökosysteme.",
+    schon_gewusst:"Brasilien beherbergt mit dem Amazonas rund 10 Prozent aller Tier- und Pflanzenarten der Erde — auf nur 1 Prozent der globalen Landfläche.",
     frage:"Gibt es in deinem eigenen Leben einen Bereich, dem du zu wenig zutraust, sich von selbst zu erholen — wenn du ihm einfach Raum lässt?"
   },
   {
@@ -254,6 +274,7 @@ const STORIES = [
     stauner:"Als 1995 Wölfe in den Yellowstone-Nationalpark zurückkehrten, veränderte sich nicht nur die Tierwelt — auch die Flüsse begannen sich zu bewegen. Ein Phänomen, das Biologen 'trophische Kaskade' nennen.",
     absaetze:["Seit der Ausrottung der Wölfe in Yellowstone Anfang des 20. Jahrhunderts hatten Elche die Vegetation unkontrolliert abgeweidet. Flussufer waren kahl, Erosion weit verbreitet, viele Tierarten verschwunden. Die Abwesenheit eines einzigen Raubtieres hatte das gesamte Ökosystem aus dem Gleichgewicht gebracht.","Nach der Wiederansiedlung der Wölfe 1995 beobachteten Biologen der Oregon State University etwas Unerwartetes: Elche mieden plötzlich Talauen und Flussufer — nicht weil weniger Elche da waren, sondern weil sie sich dort nicht mehr sicher fühlten. Die Vegetation erholte sich. Biber kehrten zurück, bauten Dämme, stauten Wasser. Die Flüsse begannen langsamer zu fließen, die Ufer zu stabilisieren. Sogar der Lauf mancher Bäche veränderte sich physisch.","Dieser Mechanismus — wie ein Raubtier durch bloße Präsenz ein gesamtes Ökosystem neu ordnet — hat die Ökologie revolutioniert. Er zeigt: Natur ist kein statisches System, das man verwalten kann. Sie ist ein dynamisches Netzwerk, in dem jeder Teil jeden anderen berührt."],
     quelle:"Ripple & Beschta (2012): 'Trophic cascades in Yellowstone', Biological Conservation. Terborgh & Estes (Hrsg.): 'Trophic Cascades', Island Press.",
+    schon_gewusst:"In Yellowstone leben heute über 100 Wolfsrudel — 1995 waren es gerade einmal 31 wiederangesiedelte Tiere aus Kanada.",
     frage:"Welche unsichtbare Präsenz oder Abwesenheit in deinem Umfeld könnte Dinge beeinflussen, die du bisher für unabhängig gehalten hast?"
   },
   {
@@ -262,6 +283,7 @@ const STORIES = [
     stauner:"Finnland gehört seit Jahren zu den Ländern mit den besten Bildungsergebnissen weltweit — ohne Hausaufgaben, ohne Noten in den ersten Jahren, mit den kürzesten Schulstunden Europas. Das Gegenteil von dem, was wir für selbstverständlich halten.",
     absaetze:["Die gängige Bildungslogik lautet: Mehr Unterricht, mehr Hausaufgaben, mehr Tests führen zu besseren Ergebnissen. Diese Annahme treibt Bildungspolitik in vielen Ländern an — und fühlt sich intuitiv richtig an.","Finnische Kinder beginnen die Schule mit sieben Jahren — zwei Jahre später als in Deutschland. Sie bekommen in den ersten sechs Schuljahren kaum Hausaufgaben, keine Noten und deutlich mehr Spielzeit als ihre europäischen Peers. Trotzdem schneiden sie bei den PISA-Tests der OECD seit 2000 regelmäßig an der Spitze ab. Die OECD-Bildungsforscherin Pasi Sahlberg dokumentiert: Finlands Erfolg beruht auf hochqualifizierten Lehrern, Vertrauen statt Kontrolle und intrinsischer Motivation statt externer Bewertung.","Was Finnland zeigt, ist kein pädagogischer Zufall — es ist ein Beweis dafür, dass unsere intuitiven Annahmen über Lernen oft falsch sind. Weniger Druck, mehr Vertrauen in Kinder: das ist kein naiver Idealismus, sondern evidenzbasierte Bildungspolitik."],
     quelle:"Sahlberg, P. (2011): 'Finnish Lessons', Teachers College Press. OECD PISA-Ergebnisse 2022. Finnish National Agency for Education.",
+    schon_gewusst:"Finnische Lehrer gehören zu den am höchsten angesehenen Berufsgruppen des Landes — vergleichbar mit Ärzten und Juristen.",
     frage:"Wo in deinem Leben bringst du durch mehr Druck weniger heraus — und würde mehr Vertrauen etwas verändern?"
   },
   {
@@ -647,9 +669,6 @@ async function getTodayStory() {
 ═══════════════════════════════════════════════ */
 function render(story) {
   const paras = (story.absaetze || []).map(p => `<p>${p}</p>`).join('');
-  const frageHtml = story.frage
-    ? `<div class="tagesfrage"><div class="tagesfrage-label">Denkimpuls für heute</div><p class="tagesfrage-text">${story.frage}</p></div>`
-    : '';
 
   const el = document.getElementById('js-article');
   el.className = 'article';
@@ -664,7 +683,7 @@ function render(story) {
       <p class="stauner-text">${story.stauner || ''}</p>
     </div>
     <div class="a-body">${paras}</div>
-    ${frageHtml}
+    ${story.schon_gewusst ? `<div class="schon-gewusst"><span class="schon-gewusst-label">Schon gewusst?</span><p class="schon-gewusst-text">${story.schon_gewusst}</p></div>` : ''}
     <div class="divider"><span class="divider-mark">✦ ✦ ✦</span></div>
     <div class="colophon">
       <span class="colophon-source"><strong>Quelle:</strong> ${story.quelle || ''}</span>
