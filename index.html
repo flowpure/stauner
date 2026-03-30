@@ -686,8 +686,7 @@ function render(story) {
     ${story.schon_gewusst ? `<div class="schon-gewusst"><span class="schon-gewusst-label">Schon gewusst?</span><p class="schon-gewusst-text">${story.schon_gewusst}</p></div>` : ''}
     <div class="divider"><span class="divider-mark">✦ ✦ ✦</span></div>
     <div class="colophon">
-      <span class="colophon-source"><strong>Quelle:</strong> ${story.quelle_url ? `<a href="${story.quelle_url}" target="_blank" rel="noopener" style="color:var(--green);text-decoration:none;">${story.quelle}</a>` : (story.quelle || '')}</span>
-      <span class="counter"><img src="https://hits.sh/hirnholz.cnud.me.svg?style=flat&label=Stauner+gelesen&color=2e8b57&labelColor=1a1a14" alt="Leser" style="height:18px;vertical-align:middle;opacity:.7;"></span>
+      <span class="colophon-source"><strong>Quelle:</strong> ${story.quelle_url ? `<a href="${story.quelle_url}" target="_blank" rel="noopener" style="color:#2e8b57;text-decoration:none;">${story.quelle}</a>` : (story.quelle || '')}</span>
     </div>
   `;
 }
