@@ -19,65 +19,96 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          TODAY_DATE=$(date +%Y-%m-%d)
-
-          # Lade bisherige Titel aus dem Archiv (verhindert Wiederholungen)
-          if [ -f "sammlung.json" ]; then
-            PREVIOUS_TITLES=$(python3 -c "
-          import json
-          with open('sammlung.json', 'r', encoding='utf-8') as f:
-              archiv = json.load(f)
-          titles = [entry.get('titel', '') for entry in archiv[-60:]]
-          print(', '.join(titles))
-          ")
-          else
-            PREVIOUS_TITLES="keine"
-          fi
-
-          echo "Bereits behandelte Themen: $PREVIOUS_TITLES"
-
-          RESPONSE=$(curl -s https://api.anthropic.com/v1/messages \
-            -H "Content-Type: application/json" \
-            -H "x-api-key: $ANTHROPIC_API_KEY" \
-            -H "anthropic-version: 2023-06-01" \
-            -d "{
-              \"model\": \"claude-haiku-4-5-20251001\",
-              \"max_tokens\": 1200,
-              \"messages\": [{
-                \"role\": \"user\",
-                \"content\": \"Du bist Chefredakteur von 'Der tägliche Stauner' im Geist von 'Im Grunde Gut' und 'Factfulness'. Heute ist der ${TODAY_DATE}. Diese Titel wurden bereits verwendet — wähle ein KOMPLETT anderes Thema: ${PREVIOUS_TITLES}. Wähle ein spezifisches, faszinierendes Thema aus Wissenschaft, Biologie, Astronomie, Verhaltensökonomie, Neurologie, Geologie, Linguistik, Materialwissenschaft, Epigenetik, Meeresbiologie, Quantenphysik, Archaeologie, Spieltheorie oder Anthropologie. Die Geschichte beginnt mit einer konkreten verbreiteten Fehlannahme und zeigt dann mit präzisen Fakten was wirklich stimmt. Ton: sachlich, präzise, faszinierend. Niemals Krieg, Katastrophen, politische Konflikte. Füge einen Bonusfakt unter 'Schon gewusst?' hinzu. Quelle: eine echte existierende Studie mit echter URL. Antworte NUR mit diesem JSON: {\\\"kategorie\\\":\\\"...\\\",\\\"titel\\\":\\\"...\\\",\\\"stauner\\\":\\\"2-3 Sätze\\\",\\\"absaetze\\\":[\\\"...\\\",\\\"...\\\",\\\"...\\\"],\\\"schon_gewusst\\\":\\\"...\\\",\\\"quelle\\\":\\\"...\\\",\\\"quelle_url\\\":\\\"https://...\\\"}\"
-              }]
-            }")
-
           python3 << 'PYEOF'
-          import json, sys, os
+          import json, os, urllib.request, urllib.error
+          from datetime import date
 
-          response_text = ''''"'"'$RESPONSE'"'"'''
+          today = date.today().isoformat()
+          api_key = os.environ.get('ANTHROPIC_API_KEY', '')
 
-          # Parse API Response
-          data = json.loads(response_text)
+          # Lade bisherige Titel aus sammlung.json
+          previous_titles = "keine"
+          if os.path.exists('sammlung.json'):
+              try:
+                  with open('sammlung.json', 'r', encoding='utf-8') as f:
+                      sammlung = json.load(f)
+                  titles = [e.get('titel', '') for e in sammlung[-60:] if e.get('titel')]
+                  if titles:
+                      previous_titles = ', '.join(titles)
+              except Exception as e:
+                  print(f"Sammlung konnte nicht geladen werden: {e}")
+
+          print(f"Bereits behandelte Themen: {previous_titles[:300]}")
+
+          prompt = (
+              f"Du bist Chefredakteur von 'Der tägliche Stauner' im Geist von 'Im Grunde Gut' und 'Factfulness'. "
+              f"Heute ist der {today}. "
+              f"Diese Titel wurden bereits verwendet — waehle ein KOMPLETT anderes Thema: {previous_titles}. "
+              f"Waehle ein spezifisches, faszinierendes Thema aus Wissenschaft, Biologie, Astronomie, "
+              f"Verhaltensoeokonomie, Neurologie, Geologie, Linguistik, Materialwissenschaft, Epigenetik, "
+              f"Meeresbiologie, Quantenphysik, Archaeologie, Spieltheorie, Anthropologie, Oekologie, "
+              f"Forstwirtschaft oder Geschichte. "
+              f"Die Geschichte beginnt mit einer konkreten verbreiteten Fehlannahme und zeigt dann mit "
+              f"praezisen Fakten was wirklich stimmt. Ton: sachlich, praezise, faszinierend. "
+              f"Niemals Krieg, Katastrophen, politische Konflikte. "
+              f"Fuege einen Bonusfakt unter 'Schon gewusst?' hinzu. "
+              f"Quelle: eine echte existierende Studie oder Institution mit echter URL. "
+              f"Antworte NUR mit diesem JSON ohne Markdown-Backticks: "
+              '{{"kategorie":"...","titel":"...","stauner":"2-3 Saetze","absaetze":["...","...","..."],'
+              '"schon_gewusst":"...","quelle":"...","quelle_url":"https://..."}}'
+          )
+
+          payload = {
+              "model": "claude-haiku-4-5-20251001",
+              "max_tokens": 1200,
+              "messages": [{"role": "user", "content": prompt}]
+          }
+
+          req = urllib.request.Request(
+              'https://api.anthropic.com/v1/messages',
+              data=json.dumps(payload).encode('utf-8'),
+              headers={
+                  'Content-Type': 'application/json',
+                  'x-api-key': api_key,
+                  'anthropic-version': '2023-06-01'
+              },
+              method='POST'
+          )
+
+          try:
+              with urllib.request.urlopen(req) as response:
+                  data = json.loads(response.read().decode('utf-8'))
+          except urllib.error.HTTPError as e:
+              print(f"API Fehler: {e.code} {e.read().decode('utf-8')}")
+              exit(1)
+
           text = data['content'][0]['text'].strip()
           if text.startswith('```'):
-              text = text.split('\n', 1)[1].rsplit('```', 1)[0]
-          story = json.loads(text)
-          story['datum'] = os.environ.get('TODAY_DATE', '')
+              text = text.split('\n', 1)[1].rsplit('```', 1)[0].strip()
 
-          # Speichere in story.json (heutige Geschichte)
+          story = json.loads(text)
+          story['datum'] = today
+
+          # Speichere story.json
           with open('story.json', 'w', encoding='utf-8') as f:
               json.dump(story, f, ensure_ascii=False, indent=2)
 
-          # Füge zum Archiv hinzu
-          archiv = []
+          # Fuege zur Sammlung hinzu
+          sammlung = []
           if os.path.exists('sammlung.json'):
-              with open('sammlung.json', 'r', encoding='utf-8') as f:
-                  archiv = json.load(f)
+              try:
+                  with open('sammlung.json', 'r', encoding='utf-8') as f:
+                      sammlung = json.load(f)
+              except:
+                  sammlung = []
 
-          archiv.append(story)
+          sammlung.append(story)
 
           with open('sammlung.json', 'w', encoding='utf-8') as f:
-              json.dump(archiv, f, ensure_ascii=False, indent=2)
+              json.dump(sammlung, f, ensure_ascii=False, indent=2)
 
           print(f"Geschichte erfolgreich generiert: {story.get('titel', '')}")
+          print(f"Sammlung enthaelt jetzt {len(sammlung)} Geschichten")
           PYEOF
 
       - name: Dateien committen
