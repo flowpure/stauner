@@ -1,11 +1,14 @@
 {
-  "kategorie": "Ökologie",
-  "titel": "Warum der Wald die Kettensäge manchmal braucht",
-  "stauner": "Wir nehmen an, dass Wälder am besten gedeihen, wenn wir sie völlig in Ruhe lassen. Doch die Realität zeigt: Viele europäische Ökosysteme sind auf regelmäßige menschliche Eingriffe angewiesen – nur eben auf die richtigen.",
+  "kategorie": "Meeresbiologie",
+  "titel": "Warum Fische nicht stumm sind – Die verborgene Soundscape der Ozeane",
+  "stauner": "Viele Menschen denken, dass Fische völlig lautlos sind. Tatsächlich produzieren sie ständig Geräusche – von Schnappern über Grunzen bis zu ultrasonischen Klicks – und nutzen Schall zur Navigation, Kommunikation und Jagd.",
   "absaetze": [
-    "Die romantische Vorstellung vom 'unberührten Urwald' prägt unser Denken über Naturschutz. Doch ein Blick auf die Heidelandschaften der Lüneburger Heide oder die Bergmähwiesen der Alpen offenbart eine unbequeme Wahrheit: Diese wertvollen Ökosysteme mit ihrer einzigartigen Biodiversität entstanden nicht trotz, sondern wegen jahrhundertelanger Bewirtschaftung. Ohne regelmäßiges Mähen oder gezieltes Auslichten würden sie innerhalb weniger Jahrzehnte zu dichten Wäldern verwachsen – und damit ihre Artenvielfalt verlieren.",
-    "Moderne Ökologiestudien zeigen, dass eine pauschale 'Hände weg'-Strategie oft kontraproduktiv wirkt. Sümpfe benötigen manchmal Entwässerung und späteren Rückstau im Wechsel. Wälder profitieren von moderatem Holzeinschlag, der Licht für Unterholz und Verjüngung schafft. Selbst Brände spielen in manchen Ökosystemen eine natürliche Rolle – manche Kiefernzapfen öffnen sich nur bei Hitze. Diese Einsicht führte zu einem neuen Verständnis: Nicht 'keine Eingriffe', sondern 'die richtigen Eingriffe' ist das Ziel.",
-    "Das Paradoxe: Naturschutz erfordert oft aktive Arbeit und sogar störende Eingriffe. Ein Förster, der einen Wald gezielt lichtet, kann mehr für den Artenschutz tun als der, der den Wald sich selbst überlässt. Diese Erkenntnis führt weg von der Dichotomie zwischen 'Natur' und 'Mensch' – und hin zu einer reiferen Sicht: Der Mensch ist Teil von Ökosystemen und kann, wenn er es richtig macht, ein Element ihrer Gesundheit sein."
+    "Die weit verbreitete Vorstellung des 'stummen Fisches' entstand hauptsächlich, weil der menschliche Gehörsinn unter Wasser sehr begrenzt ist. Ohne spezialisierte Ausrüstung können wir die meisten Unterwassergeräusche nicht hören. Doch unter der Oberfläche herrscht ein faszinierendes akustisches Orchester: Grunzende Grundeln, schnappende Makrelen, zirpende Zahnkarpfen und sogar singende Wale bilden komplexe Soundscapes.",
+    "Forscher des Scripps Institution of Oceanography haben dokumentiert, dass Korallenriffgebiete mit intakten Fischbeständen zwei- bis dreimal lauter sind als Riffe, deren Fischpopulationen dezimiert wurden. Diese Geräusche entstehen durch Bewegungen beim Fressen, durch Kammerventilation und vor allem durch spezialisierte Lauterzeuger wie Schallenrauschmuskeln neben der Schwimmblase.",
+    "Besonders beeindruckend ist die Funktion dieser Laute: Sie dienen nicht nur der Partnersuche, sondern auch der Orientierung in Dunkelheit und Trübheit, der Warnung vor Raubtieren und der Koordination von Schwarmverhalten. Larven von Korallen-Fischen orientieren sich beim Einzug ins Riff sogar anhand von artspezifischen Geräuschen – sie 'hören' buchstäblich ihr Zuhause."
   ],
-  "quelle": "Vera Luthardt, Naturschutz und Waldgeschichte; BUND-Studien zu Habitatmanagement; Forschungen des Max-Planck-Instituts für Biogeochemie zu Störungsökologie"
+  "schon_gewusst": "Der Lärm von Schiffsverkehr hat die Unterwasserlautstärke in den letzten 100 Jahren um etwa das Dreifache erhöht, was für lärmempfindliche Arten wie Meeressäuger zu chronischem Stress führt.",
+  "quelle": "Scripps Institution of Oceanography – MarineLife Research Group",
+  "quelle_url": "https://scripps.ucsd.edu/research/",
+  "datum": "2026-03-31"
 }
