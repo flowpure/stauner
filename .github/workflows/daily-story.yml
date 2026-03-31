@@ -2,7 +2,7 @@ name: Täglicher Stauner
 
 on:
   schedule:
-    - cron: '0 4 * * *'  # täglich um 5:00 Uhr deutscher Zeit (UTC+1)
+    - cron: '0 3 * * *'  # täglich um 5:00 Uhr deutscher Zeit (UTC+2 Sommerzeit)
   workflow_dispatch:       # auch manuell auslösbar zum Testen
 
 jobs:
@@ -19,10 +19,22 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          TODAY=$(date +%j)
-          THEMEN=("Ökologie und natürliche Systeme" "Nachhaltige Wirtschaft und gesellschaftlicher Fortschritt" "Menschliches Verhalten und Zusammenleben" "Wissenschaftliche Entdeckungen der letzten Jahrzehnte" "Globale Entwicklung und was sich wirklich verbessert hat" "Forstwirtschaft, Boden und natürliche Kreisläufe" "Innovationen die der Welt nützen" "Faszinierende Tierarten und Ökosysteme" "Wirtschaft und was Märkte wirklich bewirken" "Astronomie und unser Platz im Universum" "Bildung und wie Menschen wirklich lernen" "Ernährung, Landwirtschaft und die Zukunft des Essens")
-          INDEX=$((TODAY % ${#THEMEN[@]}))
-          THEMA="${THEMEN[$INDEX]}"
+          TODAY_DATE=$(date +%Y-%m-%d)
+
+          # Lade bisherige Titel aus dem Archiv (verhindert Wiederholungen)
+          if [ -f "sammlung.json" ]; then
+            PREVIOUS_TITLES=$(python3 -c "
+          import json
+          with open('sammlung.json', 'r', encoding='utf-8') as f:
+              archiv = json.load(f)
+          titles = [entry.get('titel', '') for entry in archiv[-60:]]
+          print(', '.join(titles))
+          ")
+          else
+            PREVIOUS_TITLES="keine"
+          fi
+
+          echo "Bereits behandelte Themen: $PREVIOUS_TITLES"
 
           RESPONSE=$(curl -s https://api.anthropic.com/v1/messages \
             -H "Content-Type: application/json" \
@@ -30,31 +42,48 @@ jobs:
             -H "anthropic-version: 2023-06-01" \
             -d "{
               \"model\": \"claude-haiku-4-5-20251001\",
-              \"max_tokens\": 1000,
+              \"max_tokens\": 1200,
               \"messages\": [{
                 \"role\": \"user\",
-                \"content\": \"Du bist Chefredakteur von 'Der tägliche Stauner' im Geist von 'Im Grunde Gut' und 'Factfulness'. Thema heute: '${THEMA}'. Schreibe eine faszinierende, belegte Geschichte die mit einer verbreiteten Annahme beginnt und zeigt, dass die Wirklichkeit nuancierter ist. Füge eine kurze Reflexionsfrage hinzu die den Leser einlädt, die Erkenntnis auf seinen Alltag zu beziehen. Ton: ruhig, präzise, nie kitschig. Niemals Krieg, Katastrophen oder politische Konflikte. Antworte NUR mit diesem JSON: {\\\"kategorie\\\":\\\"...\\\",\\\"titel\\\":\\\"...\\\",\\\"stauner\\\":\\\"2-3 Sätze\\\",\\\"absaetze\\\":[\\\"...\\\",\\\"...\\\",\\\"...\\\"],\\\"quelle\\\":\\\"...\\\"}\"
+                \"content\": \"Du bist Chefredakteur von 'Der tägliche Stauner' im Geist von 'Im Grunde Gut' und 'Factfulness'. Heute ist der ${TODAY_DATE}. Diese Titel wurden bereits verwendet — wähle ein KOMPLETT anderes Thema: ${PREVIOUS_TITLES}. Wähle ein spezifisches, faszinierendes Thema aus Wissenschaft, Biologie, Astronomie, Verhaltensökonomie, Neurologie, Geologie, Linguistik, Materialwissenschaft, Epigenetik, Meeresbiologie, Quantenphysik, Archaeologie, Spieltheorie oder Anthropologie. Die Geschichte beginnt mit einer konkreten verbreiteten Fehlannahme und zeigt dann mit präzisen Fakten was wirklich stimmt. Ton: sachlich, präzise, faszinierend. Niemals Krieg, Katastrophen, politische Konflikte. Füge einen Bonusfakt unter 'Schon gewusst?' hinzu. Quelle: eine echte existierende Studie mit echter URL. Antworte NUR mit diesem JSON: {\\\"kategorie\\\":\\\"...\\\",\\\"titel\\\":\\\"...\\\",\\\"stauner\\\":\\\"2-3 Sätze\\\",\\\"absaetze\\\":[\\\"...\\\",\\\"...\\\",\\\"...\\\"],\\\"schon_gewusst\\\":\\\"...\\\",\\\"quelle\\\":\\\"...\\\",\\\"quelle_url\\\":\\\"https://...\\\"}\"
               }]
             }")
 
-          echo $RESPONSE | python3 -c "
-          import sys, json
-          data = json.load(sys.stdin)
-          text = data['content'][0]['text']
-          # Bereinige JSON
-          text = text.strip()
-          if text.startswith('\`\`\`'):
-              text = text.split('\n', 1)[1].rsplit('\`\`\`', 1)[0]
+          python3 << 'PYEOF'
+          import json, sys, os
+
+          response_text = ''''"'"'$RESPONSE'"'"'''
+
+          # Parse API Response
+          data = json.loads(response_text)
+          text = data['content'][0]['text'].strip()
+          if text.startswith('```'):
+              text = text.split('\n', 1)[1].rsplit('```', 1)[0]
           story = json.loads(text)
+          story['datum'] = os.environ.get('TODAY_DATE', '')
+
+          # Speichere in story.json (heutige Geschichte)
           with open('story.json', 'w', encoding='utf-8') as f:
               json.dump(story, f, ensure_ascii=False, indent=2)
-          print('Geschichte erfolgreich generiert:', story.get('titel', ''))
-          "
 
-      - name: story.json committen
+          # Füge zum Archiv hinzu
+          archiv = []
+          if os.path.exists('sammlung.json'):
+              with open('sammlung.json', 'r', encoding='utf-8') as f:
+                  archiv = json.load(f)
+
+          archiv.append(story)
+
+          with open('sammlung.json', 'w', encoding='utf-8') as f:
+              json.dump(archiv, f, ensure_ascii=False, indent=2)
+
+          print(f"Geschichte erfolgreich generiert: {story.get('titel', '')}")
+          PYEOF
+
+      - name: Dateien committen
         run: |
           git config user.name "Täglicher Stauner"
           git config user.email "stauner@hirnholz.de"
-          git add story.json
+          git add story.json sammlung.json
           git diff --staged --quiet || git commit -m "Stauner: $(date +%Y-%m-%d)"
           git push
