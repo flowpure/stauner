@@ -26,5 +26,19 @@
     "quelle": "University of California, Irvine – Memory and Neuroscience Laboratory",
     "quelle_url": "https://neuroscience.uci.edu/labs/memory-lab",
     "datum": "2026-04-01"
+  },
+  {
+    "kategorie": "Neurologie",
+    "titel": "Die Illusion der Multitasking-Meister: Warum unser Gehirn tatsächlich nur hintereinander arbeitet",
+    "stauner": "Wir glauben, mehrere Dinge gleichzeitig zu tun – doch unser Gehirn wechselt nur blitzschnell zwischen Aufgaben hin und her. Diese ständigen Schaltmomente kosten uns bis zu 40% unserer kognitiven Leistung, und besonders komplexe Aufgaben leiden massiv darunter.",
+    "absaetze": [
+      "Die verbreitete Annahme ist hartnäckig: Menschen mit einem trainierten Gehirn können mehrere komplexe Aufgaben gleichzeitig bewältigen. Millionen von Produktivitätsratgebern versprechen, dass Multitasking trainierbar ist. Doch Neurowissenschaftler haben längst herausgefunden, dass dies eine neurologische Unmöglichkeit darstellt – nicht eine Fähigkeitsfrage.",
+      "Der präfrontale Kortex, unser Zentrum für Aufmerksamkeit und Planung, kann sich immer nur einer anspruchsvollen Aufgabe vollständig widmen. Was wir als Multitasking empfinden, ist ein rasantes Umschalten zwischen Aufgaben. Eine bahnbrechende Studie der University of Michigan zeigte: Jeder Wechsel verursacht messbare Verzögerungen im Gehirn. Bei zwei ähnlich komplexen Aufgaben verlieren wir etwa 40% unserer Effizienz – nicht wegen mangelnder Konzentration, sondern weil das Gehirn neu kalibrieren muss.",
+      "Besonders interessant: Routineaufgaben wie Spazierengehen während eines Telefonats funktionieren tatsächlich, weil die automatisierte motorische Kontrolle aus dem Zerebellum läuft, nicht aus dem präfrontalen Kortex. Sobald aber beide Aufgaben Aufmerksamkeit brauchen, sinkt die Leistung dramatisch. Führungskräfte, die während eines Meetings E-Mails beantworten, verlieren nachweislich 23% der Informationen aus dem Gespräch – eine neurobiologische Tatsache, keine Disziplinlosigkeit."
+    ],
+    "schon_gewusst": "Hochleistungssportler nutzen diese Erkenntnisse bewusst: Sie trainieren bewusste Aufmerksamkeitswechsel statt echter Parallelverarbeitung. Ein Tennisspieler konzentriert sich sequenziell auf Ballflug, dann Beinposition, dann Schlag – nicht auf alle gleichzeitig.",
+    "quelle": "University of Michigan, Human-Computer Interaction Institute",
+    "quelle_url": "https://www.umich.edu/news-releases/multitasking-takes-its-toll/",
+    "datum": "2026-04-01"
   }
 ]
