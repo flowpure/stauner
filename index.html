@@ -16,7 +16,14 @@
     --body:'Source Serif 4',Georgia,serif;
     --sans:'DM Sans',system-ui,sans-serif;
   }
-  /* Theme & Lang overrides */
+  @media(prefers-color-scheme:dark){
+    :root{
+      --paper:#1c1c14;--paper-2:#242418;--paper-3:#2c2c20;
+      --ink:#f5f0e4;--ink-2:#ddd8c8;--ink-3:#b8b4a0;
+      --muted:#888070;--rule:#3a3a2c;
+      --green:#2e8b57;--green-2:#256f47;--green-3:#52b788;--green-pale:#1a3d2b;
+    }
+  /* Theme overrides — must come AFTER @media to take precedence */
   [data-theme="dark"]{
     --paper:#1c1c14;--paper-2:#242418;--paper-3:#2c2c20;
     --ink:#f5f0e4;--ink-2:#ddd8c8;--ink-3:#b8b4a0;
@@ -29,13 +36,7 @@
     --muted:#787060;--rule:#ccc8b8;
     --green:#2e8b57;--green-2:#256f47;--green-3:#52b788;--green-pale:#d4edda;
   }
-  @media(prefers-color-scheme:dark){
-    :root{
-      --paper:#1c1c14;--paper-2:#242418;--paper-3:#2c2c20;
-      --ink:#f5f0e4;--ink-2:#ddd8c8;--ink-3:#b8b4a0;
-      --muted:#888070;--rule:#3a3a2c;
-      --green:#2e8b57;--green-2:#256f47;--green-3:#52b788;--green-pale:#1a3d2b;
-    }
+
   }
   /* ── Fluid spacing scale — alles skaliert stufenlos ── */
   :root {
@@ -89,36 +90,35 @@
   /* ── Theme & Lang Switches ── */
   .switches{display:flex;align-items:center;gap:.5rem}
   .switch-btn{
-    font-family:var(--sans);
-    font-size:.75rem;
-    background:rgba(255,255,255,0.12);
-    border:1px solid rgba(255,255,255,0.2);
-    color:rgba(255,255,255,0.85);
+    font-size:.8rem;
+    background:#fff;
+    border:1px solid rgba(255,255,255,0.6);
+    color:#1a1a14;
     width:2rem;height:2rem;
     border-radius:50%;
     cursor:pointer;
     display:flex;align-items:center;justify-content:center;
     transition:all .2s;
     flex-shrink:0;
+    line-height:1;
   }
-  .switch-btn:hover{background:rgba(255,255,255,0.25);border-color:rgba(255,255,255,0.5)}
-  .switch-btn.active{background:#2e8b57;border-color:#2e8b57;color:#fff}
+  .switch-btn:hover{background:#f0ece0;transform:scale(1.05)}
   .lang-switch-btn{
     font-family:var(--sans);
-    font-size:clamp(.5rem,.7vw,.6rem);
-    font-weight:600;
+    font-size:clamp(.55rem,.8vw,.65rem);
+    font-weight:700;
     letter-spacing:.1em;
-    background:rgba(255,255,255,0.12);
-    border:1px solid rgba(255,255,255,0.2);
-    color:rgba(255,255,255,0.85);
-    padding:.3rem .6rem;
+    background:#fff;
+    border:1px solid rgba(255,255,255,0.6);
+    color:#1a1a14;
+    padding:.35rem .75rem;
     border-radius:2px;
     cursor:pointer;
     display:flex;align-items:center;gap:.3rem;
     transition:all .2s;
     white-space:nowrap;
   }
-  .lang-switch-btn:hover{background:rgba(255,255,255,0.25)}
+  .lang-switch-btn:hover{background:#f0ece0}
   .lang-switch-btn.active{background:#2e8b57;border-color:#2e8b57;color:#fff}
 
 
@@ -750,6 +750,10 @@ async function getTodayStory() {
    RENDERING
 ═══════════════════════════════════════════════ */
 function render(story) {
+  renderInLang(story, currentLang);
+}
+
+function render_unused(story) {
   const paras = (story.absaetze || []).map(p => `<p>${p}</p>`).join('');
 
   const el = document.getElementById('js-article');
