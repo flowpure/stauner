@@ -1,44 +1,498 @@
-[
-  {
-    "kategorie": "Meeresbiologie",
-    "titel": "Warum Fische nicht stumm sind – Die verborgene Soundscape der Ozeane",
-    "stauner": "Viele Menschen denken, dass Fische völlig lautlos sind. Tatsächlich produzieren sie ständig Geräusche – von Schnappern über Grunzen bis zu ultrasonischen Klicks – und nutzen Schall zur Navigation, Kommunikation und Jagd.",
-    "absaetze": [
-      "Die weit verbreitete Vorstellung des 'stummen Fisches' entstand hauptsächlich, weil der menschliche Gehörsinn unter Wasser sehr begrenzt ist. Ohne spezialisierte Ausrüstung können wir die meisten Unterwassergeräusche nicht hören. Doch unter der Oberfläche herrscht ein faszinierendes akustisches Orchester: Grunzende Grundeln, schnappende Makrelen, zirpende Zahnkarpfen und sogar singende Wale bilden komplexe Soundscapes.",
-      "Forscher des Scripps Institution of Oceanography haben dokumentiert, dass Korallenriffgebiete mit intakten Fischbeständen zwei- bis dreimal lauter sind als Riffe, deren Fischpopulationen dezimiert wurden. Diese Geräusche entstehen durch Bewegungen beim Fressen, durch Kammerventilation und vor allem durch spezialisierte Lauterzeuger wie Schallenrauschmuskeln neben der Schwimmblase.",
-      "Besonders beeindruckend ist die Funktion dieser Laute: Sie dienen nicht nur der Partnersuche, sondern auch der Orientierung in Dunkelheit und Trübheit, der Warnung vor Raubtieren und der Koordination von Schwarmverhalten. Larven von Korallen-Fischen orientieren sich beim Einzug ins Riff sogar anhand von artspezifischen Geräuschen – sie 'hören' buchstäblich ihr Zuhause."
-    ],
-    "schon_gewusst": "Der Lärm von Schiffsverkehr hat die Unterwasserlautstärke in den letzten 100 Jahren um etwa das Dreifache erhöht, was für lärmempfindliche Arten wie Meeressäuger zu chronischem Stress führt.",
-    "quelle": "Scripps Institution of Oceanography – MarineLife Research Group",
-    "quelle_url": "https://scripps.ucsd.edu/research/",
-    "datum": "2026-03-31"
-  },
-  {
-    "kategorie": "Neurologie",
-    "titel": "Das Mythos-Gedächtnis: Warum wir falsche Erinnerungen als real erleben",
-    "stauner": "Wir glauben, unsere Erinnerungen seien wie Videoaufnahmen unseres Lebens – doch unser Gehirn rekonstruiert sie jedes Mal aufs Neue. Dabei können wir uns an Dinge erinnern, die nie passiert sind, mit derselben neurologischen Intensität wie an echte Ereignisse.",
-    "absaetze": [
-      "Die verbreitete Annahme lautet: Unser Gedächtnis funktioniert wie ein digitales Speichermedium – wir kodieren Erlebnisse ab, lagern sie ein und rufen sie später ab. Diese Metapher ist so intuitiv, dass sie sich fest in unserer Kultur verankert hat. Doch die moderne Neurowissenschaft zeigt ein völlig anderes Bild: Jedes Mal, wenn wir uns an etwas erinnern, rekonstruiert unser Gehirn die Erinnerung aktiv neu, dabei können sich Details verändern, Informationen hinzukommen oder verschwinden.",
-      "Forscher der University of California haben 2021 nachgewiesen, dass das menschliche Gehirn bei der Erinnerungsabruf die gleichen neuronalen Netzwerke aktiviert wie beim ursprünglichen Ereignis – aber mit Unterschieden. Diese Rekonstruktion ist nicht fehlerhaft im klassischen Sinne; sie ist adaptiv. Das Gehirn integriert neue Informationen, emotionale Kontexte und sogar Suggestionskraft von außen in die Erinnerung ein. Besonders faszinierend: Vollständig erfundene Erinnerungen (sogenannte 'false memories') aktivieren die gleichen Hirnregionen wie authentische Erinnerungen und fühlen sich subjektiv identisch real an.",
-      "Dieser Mechanismus hatte evolutionär einen Vorteil: Statt statische Videoaufnahmen zu lagern, konnte sich unser Gehirn flexibel an verändernde Umwelten anpassen und Lernprozesse in bestehende Wissensschemata integrieren. Für modernes Leben bedeutet das allerdings auch, dass Zeugenaussagen weniger verlässlich sind als lange angenommen und dass wir unseren Erinnerungen nicht blind vertrauen sollten – ohne dass dies ein Zeichen von Gedächtnisverlust wäre."
-    ],
-    "schon_gewusst": "In Studien konnten Psychologen Menschen erfolgreich dazu bringen, sich an Ereignisse zu erinnern, die unter kontrollierten Bedingungen definitiv nicht stattgefunden haben – etwa das Reiten auf einem Elefanten im Freizeitpark. Die 'Erinnerungen' waren neurologisch messbar genauso stabil wie echte.",
-    "quelle": "University of California, Irvine – Memory and Neuroscience Laboratory",
-    "quelle_url": "https://neuroscience.uci.edu/labs/memory-lab",
-    "datum": "2026-04-01"
-  },
-  {
-    "kategorie": "Neurologie",
-    "titel": "Die Illusion der Multitasking-Meister: Warum unser Gehirn tatsächlich nur hintereinander arbeitet",
-    "stauner": "Wir glauben, mehrere Dinge gleichzeitig zu tun – doch unser Gehirn wechselt nur blitzschnell zwischen Aufgaben hin und her. Diese ständigen Schaltmomente kosten uns bis zu 40% unserer kognitiven Leistung, und besonders komplexe Aufgaben leiden massiv darunter.",
-    "absaetze": [
-      "Die verbreitete Annahme ist hartnäckig: Menschen mit einem trainierten Gehirn können mehrere komplexe Aufgaben gleichzeitig bewältigen. Millionen von Produktivitätsratgebern versprechen, dass Multitasking trainierbar ist. Doch Neurowissenschaftler haben längst herausgefunden, dass dies eine neurologische Unmöglichkeit darstellt – nicht eine Fähigkeitsfrage.",
-      "Der präfrontale Kortex, unser Zentrum für Aufmerksamkeit und Planung, kann sich immer nur einer anspruchsvollen Aufgabe vollständig widmen. Was wir als Multitasking empfinden, ist ein rasantes Umschalten zwischen Aufgaben. Eine bahnbrechende Studie der University of Michigan zeigte: Jeder Wechsel verursacht messbare Verzögerungen im Gehirn. Bei zwei ähnlich komplexen Aufgaben verlieren wir etwa 40% unserer Effizienz – nicht wegen mangelnder Konzentration, sondern weil das Gehirn neu kalibrieren muss.",
-      "Besonders interessant: Routineaufgaben wie Spazierengehen während eines Telefonats funktionieren tatsächlich, weil die automatisierte motorische Kontrolle aus dem Zerebellum läuft, nicht aus dem präfrontalen Kortex. Sobald aber beide Aufgaben Aufmerksamkeit brauchen, sinkt die Leistung dramatisch. Führungskräfte, die während eines Meetings E-Mails beantworten, verlieren nachweislich 23% der Informationen aus dem Gespräch – eine neurobiologische Tatsache, keine Disziplinlosigkeit."
-    ],
-    "schon_gewusst": "Hochleistungssportler nutzen diese Erkenntnisse bewusst: Sie trainieren bewusste Aufmerksamkeitswechsel statt echter Parallelverarbeitung. Ein Tennisspieler konzentriert sich sequenziell auf Ballflug, dann Beinposition, dann Schlag – nicht auf alle gleichzeitig.",
-    "quelle": "University of Michigan, Human-Computer Interaction Institute",
-    "quelle_url": "https://www.umich.edu/news-releases/multitasking-takes-its-toll/",
-    "datum": "2026-04-01"
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Die Sammlung — Hirnholz</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper:#faf7f0;--paper-2:#f0ece0;--paper-3:#e8e2d0;
+    --ink:#1a1a14;--ink-2:#2e2e24;--ink-3:#4a4a3a;
+    --muted:#787060;--rule:#ccc8b8;
+    --green:#2e8b57;--green-pale:#d4edda;
+    --serif:'Playfair Display',Georgia,serif;
+    --body:'Source Serif 4',Georgia,serif;
+    --sans:'DM Sans',system-ui,sans-serif;
+    --pad-x:clamp(1rem,5vw,2rem);
   }
-]
+  [data-theme="dark"]{
+    --paper:#1c1c14;--paper-2:#242418;--paper-3:#2c2c20;
+    --ink:#f5f0e4;--ink-2:#ddd8c8;--ink-3:#b8b4a0;
+    --muted:#888070;--rule:#3a3a2c;--green-pale:#1a3d2b;
+  }
+  [data-theme="light"]{
+    --paper:#faf7f0;--paper-2:#f0ece0;--paper-3:#e8e2d0;
+    --ink:#1a1a14;--ink-2:#2e2e24;--ink-3:#4a4a3a;
+    --muted:#787060;--rule:#ccc8b8;--green-pale:#d4edda;
+  }
+  @media(prefers-color-scheme:dark){
+    :root{
+      --paper:#1c1c14;--paper-2:#242418;--paper-3:#2c2c20;
+      --ink:#f5f0e4;--ink-2:#ddd8c8;--ink-3:#b8b4a0;
+      --muted:#888070;--rule:#3a3a2c;--green-pale:#1a3d2b;
+    }
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{font-size:clamp(15px,1.4vw,18px)}
+  body{background:var(--paper);color:var(--ink);font-family:var(--body);min-height:100vh}
+
+/* Masthead */
+.masthead{background:var(–ink)}
+.masthead-inner{max-width:960px;margin:0 auto;padding:1.5rem var(–pad-x)}
+.m-top{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;margin-bottom:1rem;padding-bottom:1rem;border-bottom:1px solid rgba(255,255,255,0.12)}
+.m-tag{font-family:var(–sans);font-size:clamp(.55rem,.8vw,.65rem);font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#52b788}
+.back-link{font-family:var(–sans);font-size:clamp(.55rem,.8vw,.65rem);letter-spacing:.15em;text-transform:uppercase;color:rgba(255,255,255,0.4);text-decoration:none;transition:color .2s}
+.back-link:hover{color:#52b788}
+.m-title{font-family:var(–serif);font-size:clamp(1.8rem,4vw,3.5rem);font-weight:900;line-height:.95;letter-spacing:-.02em;color:var(–paper)}
+.m-title em{color:#2e8b57;font-style:italic}
+.m-subtitle{font-family:var(–body);font-style:italic;font-size:clamp(.8rem,1.2vw,.95rem);color:rgba(255,255,255,0.4);margin-top:.5rem}
+.green-band{background:#2e8b57;padding:.5rem var(–pad-x)}
+.green-band-inner{max-width:960px;margin:0 auto;font-family:var(–sans);font-size:clamp(.55rem,.8vw,.62rem);font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,0.85)}
+
+/* Main */
+.main{max-width:960px;margin:0 auto;padding:clamp(2rem,4vw,3.5rem) var(–pad-x) clamp(4rem,8vw,7rem)}
+
+/* Loading */
+.state-loading{text-align:center;padding:5rem 1rem;color:var(–muted);font-family:var(–sans);font-size:clamp(.55rem,.8vw,.65rem);letter-spacing:.2em;text-transform:uppercase}
+
+/* Empty */
+.state-empty{text-align:center;padding:5rem 1rem}
+.state-empty h2{font-family:var(–serif);font-size:1.5rem;font-style:italic;margin-bottom:.75rem}
+.state-empty p{color:var(–muted);font-size:.9rem;line-height:1.7}
+.state-empty a{color:#2e8b57;text-decoration:none}
+
+/* Category section */
+.category-section{margin-bottom:clamp(2.5rem,5vw,4rem)}
+
+.category-header{
+display:flex;
+align-items:center;
+gap:1rem;
+margin-bottom:1.5rem;
+padding-bottom:.75rem;
+border-bottom:2px solid #2e8b57;
+}
+
+.category-dot{width:10px;height:10px;border-radius:50%;background:#2e8b57;flex-shrink:0}
+
+.category-name{
+font-family:var(–sans);
+font-size:clamp(.6rem,.9vw,.72rem);
+font-weight:700;
+letter-spacing:.22em;
+text-transform:uppercase;
+color:var(–ink);
+}
+
+.category-count{
+font-family:var(–sans);
+font-size:clamp(.55rem,.75vw,.62rem);
+color:var(–ink-3);
+letter-spacing:.1em;
+margin-left:auto;
+font-weight:500;
+}
+
+/* Story cards */
+.story-grid{
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+gap:1px;
+background:var(–rule);
+border:1px solid var(–rule);
+}
+
+.story-card{
+background:var(–paper);
+padding:clamp(1.25rem,2.5vw,1.75rem);
+cursor:pointer;
+transition:background .15s;
+text-decoration:none;
+display:block;
+}
+
+.story-card:hover{background:var(–paper-2)}
+
+.card-date{
+font-family:var(–sans);
+font-size:clamp(.5rem,.72vw,.58rem);
+letter-spacing:.15em;
+text-transform:uppercase;
+color:var(–muted);
+margin-bottom:.6rem;
+}
+
+.card-title{
+font-family:var(–serif);
+font-size:clamp(1rem,1.8vw,1.2rem);
+font-weight:700;
+line-height:1.2;
+color:var(–ink);
+margin-bottom:.6rem;
+transition:color .15s;
+}
+
+.story-card:hover .card-title{color:#2e8b57}
+
+.card-stauner{
+font-family:var(–body);
+font-style:italic;
+font-size:clamp(.82rem,1.3vw,.9rem);
+line-height:1.55;
+color:var(–muted);
+display:-webkit-box;
+-webkit-line-clamp:3;
+-webkit-box-orient:vertical;
+overflow:hidden;
+}
+
+/* Story modal / full view */
+.story-view{display:none;position:fixed;inset:0;background:var(–paper);z-index:100;overflow-y:auto}
+.story-view.active{display:block}
+
+.story-view-inner{max-width:720px;margin:0 auto;padding:clamp(2rem,5vw,4rem) var(–pad-x) clamp(4rem,8vw,7rem)}
+
+.sv-back{
+font-family:var(–sans);
+font-size:clamp(.55rem,.8vw,.65rem);
+letter-spacing:.18em;
+text-transform:uppercase;
+color:var(–muted);
+background:none;
+border:none;
+cursor:pointer;
+margin-bottom:2rem;
+display:flex;
+align-items:center;
+gap:.5rem;
+transition:color .2s;
+padding:0;
+}
+.sv-back:hover{color:#2e8b57}
+
+.sv-kicker{
+display:inline-flex;
+align-items:center;
+gap:.6rem;
+margin-bottom:1rem;
+}
+.sv-dot{width:7px;height:7px;border-radius:50%;background:#2e8b57;flex-shrink:0}
+.sv-cat{font-family:var(–sans);font-size:clamp(.55rem,.8vw,.65rem);font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#2e8b57}
+
+.sv-date{
+font-family:var(–sans);
+font-size:clamp(.52rem,.75vw,.6rem);
+letter-spacing:.15em;
+text-transform:uppercase;
+color:var(–muted);
+margin-bottom:1.25rem;
+}
+
+.sv-headline{
+font-family:var(–serif);
+font-size:clamp(1.5rem,4vw,3rem);
+font-weight:900;
+line-height:1.06;
+letter-spacing:-.02em;
+margin-bottom:1.5rem;
+}
+
+.sv-stauner-box{
+background:var(–green-pale);
+border-left:5px solid #2e8b57;
+padding:clamp(1rem,2.5vw,1.75rem);
+margin-bottom:2.5rem;
+}
+.sv-stauner-label{font-family:var(–sans);font-size:clamp(.5rem,.72vw,.58rem);font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:#2e8b57;margin-bottom:.6rem}
+.sv-stauner-text{font-family:var(–serif);font-style:italic;font-size:clamp(1rem,2vw,1.2rem);line-height:1.65;color:var(–ink-2)}
+
+.sv-body{font-size:clamp(.95rem,1.8vw,1.05rem);line-height:1.9;color:var(–ink-3)}
+.sv-body p{margin-bottom:1.25em}
+.sv-body p:last-child{margin-bottom:0}
+.sv-body p:first-child::first-letter{font-family:var(–serif);font-size:clamp(2.2rem,5vw,3.5rem);font-weight:900;line-height:.8;float:left;margin-right:.1em;margin-top:.05em;color:#2e8b57}
+
+.sv-bonus{
+margin-top:2rem;
+padding:clamp(.85rem,2vw,1.25rem) clamp(1rem,2vw,1.5rem);
+border-left:3px solid var(–rule);
+background:var(–paper-2);
+}
+.sv-bonus-label{font-family:var(–sans);font-size:clamp(.5rem,.72vw,.58rem);font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(–muted);margin-bottom:.5rem}
+.sv-bonus-text{font-family:var(–sans);font-size:clamp(.82rem,1.4vw,.9rem);line-height:1.65;color:var(–ink-3)}
+
+.sv-divider{display:flex;align-items:center;gap:1rem;margin:2.5rem 0}
+.sv-divider::before,.sv-divider::after{content:’’;flex:1;height:1px;background:var(–rule)}
+.sv-divider-mark{font-family:var(–serif);font-size:.8rem;letter-spacing:.5em;color:var(–rule)}
+
+.sv-colophon{padding-top:1.25rem;border-top:2px solid var(–green-pale)}
+.sv-source{font-family:var(–sans);font-size:clamp(.58rem,.85vw,.65rem);color:var(–muted);line-height:1.6}
+.sv-source strong{color:var(–ink-3);font-weight:600}
+.sv-source a{color:#2e8b57;text-decoration:none}
+.sv-source a:hover{text-decoration:underline}
+
+/* ── Switches ── */
+.header-switches{display:flex;align-items:center;gap:.5rem}
+.switch-btn{
+font-size:.8rem;
+background:rgba(255,255,255,0.12);
+border:1px solid rgba(255,255,255,0.2);
+color:rgba(255,255,255,0.85);
+width:2rem;height:2rem;
+border-radius:50%;
+cursor:pointer;
+display:flex;align-items:center;justify-content:center;
+transition:all .2s;
+}
+.switch-btn:hover{background:rgba(255,255,255,0.25)}
+.lang-switch-btn{
+font-family:var(–sans);
+font-size:clamp(.5rem,.7vw,.6rem);
+font-weight:600;
+letter-spacing:.1em;
+background:rgba(255,255,255,0.12);
+border:1px solid rgba(255,255,255,0.2);
+color:rgba(255,255,255,0.85);
+padding:.3rem .6rem;
+border-radius:2px;
+cursor:pointer;
+display:flex;align-items:center;gap:.3rem;
+transition:all .2s;
+}
+.lang-switch-btn:hover{background:rgba(255,255,255,0.25)}
+/* Footer */
+.site-footer{background:var(–paper-3);border-top:1px solid var(–rule)}
+.footer-inner{max-width:960px;margin:0 auto;padding:1.25rem var(–pad-x);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+.footer-brand{font-family:var(–serif);font-size:1rem;font-weight:700;color:var(–ink-3)}
+.footer-brand span{color:#2e8b57;font-style:italic}
+.footer-copy{font-family:var(–sans);font-size:clamp(.52rem,.75vw,.6rem);letter-spacing:.1em;color:var(–muted)}
+
+@media(max-width:540px){
+.story-grid{grid-template-columns:1fr}
+.footer-inner{flex-direction:column;text-align:center}
+}
+</style>
+
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="m-top">
+      <span class="m-tag" id="js-m-tag">✦ Hirnholz</span>
+      <div style="display:flex;align-items:center;gap:.75rem;flex-wrap:wrap">
+        <a href="index.html" class="back-link" id="js-back-link">← Zurück zum Stauner</a>
+        <div class="header-switches">
+          <button class="switch-btn" id="js-theme-btn" onclick="toggleTheme()">🌙</button>
+          <button class="lang-switch-btn" id="js-lang-btn" onclick="toggleLang()">🌐 <span id="js-lang-label">DE</span></button>
+        </div>
+      </div>
+    </div>
+    <h1 class="m-title"><span id="js-title-plain">Die </span><em id="js-title-accent">Sammlung</em></h1>
+    <p class="m-subtitle" id="js-subtitle">Wissen das bleibt — täglich gewachsen</p>
+  </div>
+</header>
+
+<div class="green-band">
+  <div class="green-band-inner" id="js-count">Sammlung wird geladen…</div>
+</div>
+
+<main class="main">
+  <div id="js-loading" class="state-loading">🌿 &nbsp; Sammlung wird geladen …</div>
+  <div id="js-empty" class="state-empty" style="display:none">
+    <h2>Noch keine Geschichten</h2>
+    <p>Die Sammlung wächst täglich. <a href="index.html">Zur heutigen Story →</a></p>
+  </div>
+  <div id="js-content"></div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span class="footer-brand">Hirn<span>holz</span></span>
+    <span class="footer-copy">Täglich wachsend seit 2026</span>
+  </div>
+</footer>
+
+<!-- Full story view -->
+
+<div id="js-story-view" class="story-view">
+  <div class="story-view-inner">
+    <button class="sv-back" onclick="closeStory()">← Zurück zur Sammlung</button>
+    <div id="js-story-content"></div>
+  </div>
+</div>
+
+<script>
+
+const LABELS = {
+  de: { back: '← Zurück zum Stauner', tag: '✦ Hirnholz', title: 'Die', accent: 'Sammlung', subtitle: 'Wissen das bleibt — täglich gewachsen', band: 'Sammlung wird geladen…' },
+  en: { back: '← Back to Wonder', tag: '✦ BrainGrain', title: 'The', accent: 'Collection', subtitle: 'Knowledge that stays — growing daily', band: 'Loading collection…' }
+};
+
+let currentTheme = localStorage.getItem('stauner-theme') || 'auto';
+let currentLang = localStorage.getItem('stauner-lang') || 'de';
+
+function applyTheme(theme) {
+  const root = document.documentElement;
+  if (theme === 'auto') root.removeAttribute('data-theme');
+  else root.setAttribute('data-theme', theme);
+  const btn = document.getElementById('js-theme-btn');
+  if (btn) btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+}
+
+function toggleTheme() {
+  currentTheme = (currentTheme === 'dark') ? 'light' : 'dark';
+  localStorage.setItem('stauner-theme', currentTheme);
+  applyTheme(currentTheme);
+}
+
+function applyLang(lang) {
+  const l = LABELS[lang];
+  const s = id => document.getElementById(id);
+  if (s('js-lang-label')) s('js-lang-label').textContent = lang.toUpperCase();
+  if (s('js-m-tag')) s('js-m-tag').textContent = l.tag;
+  if (s('js-back-link')) s('js-back-link').textContent = l.back;
+  if (s('js-title-plain')) s('js-title-plain').textContent = l.title + ' ';
+  if (s('js-title-accent')) s('js-title-accent').textContent = l.accent;
+  if (s('js-subtitle')) s('js-subtitle').textContent = l.subtitle;
+  document.documentElement.lang = lang;
+  document.title = lang === 'de' ? 'Die Sammlung — Hirnholz' : 'The Collection — BrainGrain';
+}
+
+function toggleLang() {
+  currentLang = currentLang === 'de' ? 'en' : 'de';
+  localStorage.setItem('stauner-lang', currentLang);
+  applyLang(currentLang);
+}
+
+applyTheme(currentTheme);
+applyLang(currentLang);
+
+function formatDate(dateStr) {
+  if (!dateStr) return '';
+  try {
+    return new Date(dateStr).toLocaleDateString('de-DE', {
+      day: 'numeric', month: 'long', year: 'numeric'
+    });
+  } catch { return dateStr; }
+}
+
+function groupByCategory(stories) {
+  const groups = {};
+  stories.forEach(s => {
+    const cat = s.kategorie || 'Sonstiges';
+    if (!groups[cat]) groups[cat] = [];
+    groups[cat].push(s);
+  });
+  // Sort each category by date descending
+  Object.values(groups).forEach(g => g.sort((a, b) => b.datum?.localeCompare(a.datum)));
+  // Sort categories alphabetically
+  return Object.fromEntries(Object.entries(groups).sort());
+}
+
+function openStory(story) {
+  const paras = (story.absaetze || []).map(p => `<p>${p}</p>`).join('');
+  const bonusHtml = story.schon_gewusst
+    ? `<div class="sv-bonus"><div class="sv-bonus-label">Schon gewusst?</div><p class="sv-bonus-text">${story.schon_gewusst}</p></div>`
+    : '';
+  const sourceHtml = story.quelle_url
+    ? `<a href="${story.quelle_url}" target="_blank" rel="noopener">${story.quelle}</a>`
+    : (story.quelle || '');
+
+  document.getElementById('js-story-content').innerHTML = `
+    <div class="sv-kicker"><span class="sv-dot"></span><span class="sv-cat">${story.kategorie || ''}</span></div>
+    <div class="sv-date">${formatDate(story.datum)}</div>
+    <h2 class="sv-headline">${story.titel || ''}</h2>
+    <div class="sv-stauner-box">
+      <div class="sv-stauner-label">Das Staunen des Tages</div>
+      <p class="sv-stauner-text">${story.stauner || ''}</p>
+    </div>
+    <div class="sv-body">${paras}</div>
+    ${bonusHtml}
+    <div class="sv-divider"><span class="sv-divider-mark">✦ ✦ ✦</span></div>
+    <div class="sv-colophon">
+      <p class="sv-source"><strong>Quelle:</strong> ${sourceHtml}</p>
+    </div>
+  `;
+
+  const view = document.getElementById('js-story-view');
+  view.classList.add('active');
+  view.scrollTop = 0;
+  document.body.style.overflow = 'hidden';
+}
+
+function closeStory() {
+  document.getElementById('js-story-view').classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+// Close on escape key
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeStory(); });
+
+async function loadSammlung() {
+  try {
+    const res = await fetch('sammlung.json?v=' + Date.now());
+    if (!res.ok) throw new Error();
+    const stories = await res.json();
+
+    if (!stories || !stories.length) {
+      show('empty');
+      return;
+    }
+
+    // Update count banner
+    document.getElementById('js-count').textContent =
+      `${stories.length} ${stories.length === 1 ? 'Geschichte' : 'Geschichten'} in der Sammlung`;
+
+    const groups = groupByCategory(stories);
+    const container = document.getElementById('js-content');
+    container.innerHTML = '';
+
+    Object.entries(groups).forEach(([cat, catStories]) => {
+      const section = document.createElement('div');
+      section.className = 'category-section';
+      section.id = 'cat-' + encodeURIComponent(cat);
+      section.innerHTML = `
+        <div class="category-header">
+          <span class="category-dot"></span>
+          <span class="category-name">${cat}</span>
+          <span class="category-count">${catStories.length} ${catStories.length === 1 ? 'Geschichte' : 'Geschichten'}</span>
+        </div>
+        <div class="story-grid" id="grid-${cat.replace(/\s+/g,'-')}"></div>
+      `;
+      container.appendChild(section);
+
+      const grid = section.querySelector('.story-grid');
+      catStories.forEach(story => {
+        const card = document.createElement('a');
+        card.className = 'story-card';
+        card.href = '#';
+        card.innerHTML = `
+          <div class="card-date">${formatDate(story.datum)}</div>
+          <div class="card-title">${story.titel || ''}</div>
+          <div class="card-stauner">${story.stauner || ''}</div>
+        `;
+        card.addEventListener('click', e => { e.preventDefault(); openStory(story); });
+        grid.appendChild(card);
+      });
+    });
+
+    show('content');
+  } catch {
+    show('empty');
+  }
+}
+
+function show(id) {
+  document.getElementById('js-loading').style.display = id === 'loading' ? 'block' : 'none';
+  document.getElementById('js-empty').style.display = id === 'empty' ? 'block' : 'none';
+  document.getElementById('js-content').style.display = id === 'content' ? 'block' : 'none';
+}
+
+loadSammlung();
+</script>
+
+</body>
+</html>
