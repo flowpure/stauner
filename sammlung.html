@@ -17,6 +17,16 @@
     --sans:'DM Sans',system-ui,sans-serif;
     --pad-x:clamp(1rem,5vw,2rem);
   }
+  [data-theme="dark"]{
+    --paper:#1c1c14;--paper-2:#242418;--paper-3:#2c2c20;
+    --ink:#f5f0e4;--ink-2:#ddd8c8;--ink-3:#b8b4a0;
+    --muted:#888070;--rule:#3a3a2c;--green-pale:#1a3d2b;
+  }
+  [data-theme="light"]{
+    --paper:#faf7f0;--paper-2:#f0ece0;--paper-3:#e8e2d0;
+    --ink:#1a1a14;--ink-2:#2e2e24;--ink-3:#4a4a3a;
+    --muted:#787060;--rule:#ccc8b8;--green-pale:#d4edda;
+  }
   @media(prefers-color-scheme:dark){
     :root{
       --paper:#1c1c14;--paper-2:#242418;--paper-3:#2c2c20;
@@ -70,18 +80,19 @@
   .category-name{
     font-family:var(--sans);
     font-size:clamp(.6rem,.9vw,.72rem);
-    font-weight:600;
+    font-weight:700;
     letter-spacing:.22em;
     text-transform:uppercase;
-    color:#2e8b57;
+    color:var(--ink);
   }
 
   .category-count{
     font-family:var(--sans);
     font-size:clamp(.55rem,.75vw,.62rem);
-    color:var(--muted);
+    color:var(--ink-3);
     letter-spacing:.1em;
     margin-left:auto;
+    font-weight:500;
   }
 
   /* Story cards */
@@ -221,6 +232,36 @@
   .sv-source a{color:#2e8b57;text-decoration:none}
   .sv-source a:hover{text-decoration:underline}
 
+
+  /* ── Switches ── */
+  .header-switches{display:flex;align-items:center;gap:.5rem}
+  .switch-btn{
+    font-size:.8rem;
+    background:rgba(255,255,255,0.12);
+    border:1px solid rgba(255,255,255,0.2);
+    color:rgba(255,255,255,0.85);
+    width:2rem;height:2rem;
+    border-radius:50%;
+    cursor:pointer;
+    display:flex;align-items:center;justify-content:center;
+    transition:all .2s;
+  }
+  .switch-btn:hover{background:rgba(255,255,255,0.25)}
+  .lang-switch-btn{
+    font-family:var(--sans);
+    font-size:clamp(.5rem,.7vw,.6rem);
+    font-weight:600;
+    letter-spacing:.1em;
+    background:rgba(255,255,255,0.12);
+    border:1px solid rgba(255,255,255,0.2);
+    color:rgba(255,255,255,0.85);
+    padding:.3rem .6rem;
+    border-radius:2px;
+    cursor:pointer;
+    display:flex;align-items:center;gap:.3rem;
+    transition:all .2s;
+  }
+  .lang-switch-btn:hover{background:rgba(255,255,255,0.25)}
   /* Footer */
   .site-footer{background:var(--paper-3);border-top:1px solid var(--rule)}
   .footer-inner{max-width:960px;margin:0 auto;padding:1.25rem var(--pad-x);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
@@ -239,11 +280,17 @@
 <header class="masthead">
   <div class="masthead-inner">
     <div class="m-top">
-      <span class="m-tag">✦ Hirnholz</span>
-      <a href="index.html" class="back-link">← Zurück zum Stauner</a>
+      <span class="m-tag" id="js-m-tag">✦ Hirnholz</span>
+      <div style="display:flex;align-items:center;gap:.75rem;flex-wrap:wrap">
+        <a href="index.html" class="back-link" id="js-back-link">← Zurück zum Stauner</a>
+        <div class="header-switches">
+          <button class="switch-btn" id="js-theme-btn" onclick="toggleTheme()">🌙</button>
+          <button class="lang-switch-btn" id="js-lang-btn" onclick="toggleLang()">🌐 <span id="js-lang-label">DE</span></button>
+        </div>
+      </div>
     </div>
-    <h1 class="m-title">Die <em>Sammlung</em></h1>
-    <p class="m-subtitle">Wissen das bleibt — täglich gewachsen</p>
+    <h1 class="m-title"><span id="js-title-plain">Die </span><em id="js-title-accent">Sammlung</em></h1>
+    <p class="m-subtitle" id="js-subtitle">Wissen das bleibt — täglich gewachsen</p>
   </div>
 </header>
 
@@ -276,6 +323,51 @@
 </div>
 
 <script>
+
+const LABELS = {
+  de: { back: '← Zurück zum Stauner', tag: '✦ Hirnholz', title: 'Die', accent: 'Sammlung', subtitle: 'Wissen das bleibt — täglich gewachsen', band: 'Sammlung wird geladen…' },
+  en: { back: '← Back to Wonder', tag: '✦ BrainGrain', title: 'The', accent: 'Collection', subtitle: 'Knowledge that stays — growing daily', band: 'Loading collection…' }
+};
+
+let currentTheme = localStorage.getItem('stauner-theme') || 'auto';
+let currentLang = localStorage.getItem('stauner-lang') || 'de';
+
+function applyTheme(theme) {
+  const root = document.documentElement;
+  if (theme === 'auto') root.removeAttribute('data-theme');
+  else root.setAttribute('data-theme', theme);
+  const btn = document.getElementById('js-theme-btn');
+  if (btn) btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+}
+
+function toggleTheme() {
+  currentTheme = (currentTheme === 'dark') ? 'light' : 'dark';
+  localStorage.setItem('stauner-theme', currentTheme);
+  applyTheme(currentTheme);
+}
+
+function applyLang(lang) {
+  const l = LABELS[lang];
+  const s = id => document.getElementById(id);
+  if (s('js-lang-label')) s('js-lang-label').textContent = lang.toUpperCase();
+  if (s('js-m-tag')) s('js-m-tag').textContent = l.tag;
+  if (s('js-back-link')) s('js-back-link').textContent = l.back;
+  if (s('js-title-plain')) s('js-title-plain').textContent = l.title + ' ';
+  if (s('js-title-accent')) s('js-title-accent').textContent = l.accent;
+  if (s('js-subtitle')) s('js-subtitle').textContent = l.subtitle;
+  document.documentElement.lang = lang;
+  document.title = lang === 'de' ? 'Die Sammlung — Hirnholz' : 'The Collection — BrainGrain';
+}
+
+function toggleLang() {
+  currentLang = currentLang === 'de' ? 'en' : 'de';
+  localStorage.setItem('stauner-lang', currentLang);
+  applyLang(currentLang);
+}
+
+applyTheme(currentTheme);
+applyLang(currentLang);
+
 function formatDate(dateStr) {
   if (!dateStr) return '';
   try {
