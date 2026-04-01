@@ -359,14 +359,54 @@ function applyLang(lang) {
   document.title = lang === 'de' ? 'Die Sammlung — Hirnholz' : 'The Collection — BrainGrain';
 }
 
-function toggleLang() {
-  currentLang = currentLang === 'de' ? 'en' : 'de';
+async function toggleLang() {
+  const next = currentLang === 'de' ? 'en' : 'de';
+  currentLang = next;
   localStorage.setItem('stauner-lang', currentLang);
   applyLang(currentLang);
+  // Re-render open story if any
+  if (currentOpenStory) {
+    if (next === 'en') {
+      try {
+        const translated = await translateStory(currentOpenStory, 'en');
+        renderStoryView(translated);
+      } catch {}
+    } else {
+      renderStoryView(currentOpenStory);
+    }
+  }
 }
 
 applyTheme(currentTheme);
 applyLang(currentLang);
+
+
+async function translateStory(story, targetLang) {
+  const cacheKey = `trans_${story.datum}_${targetLang}`;
+  const cached = localStorage.getItem(cacheKey);
+  if (cached) {
+    try { return JSON.parse(cached); } catch {}
+  }
+  const response = await fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'anthropic-version': '2023-06-01' },
+    body: JSON.stringify({
+      model: 'claude-haiku-4-5-20251001',
+      max_tokens: 1200,
+      messages: [{ role: 'user', content: `Translate this JSON from German to English. Keep exact JSON structure and keys. Only translate values. Return ONLY the JSON, no markdown.
+
+${JSON.stringify({ kategorie: story.kategorie, titel: story.titel, stauner: story.stauner, absaetze: story.absaetze, schon_gewusst: story.schon_gewusst || '', quelle: story.quelle })}` }]
+    })
+  });
+  if (!response.ok) throw new Error('Translation failed');
+  const data = await response.json();
+  const raw = (data.content?.[0]?.text || '').replace(/```json|```/g, '').trim();
+  const translated = JSON.parse(raw);
+  translated.datum = story.datum;
+  translated.quelle_url = story.quelle_url;
+  localStorage.setItem(cacheKey, JSON.stringify(translated));
+  return translated;
+}
 
 function formatDate(dateStr) {
   if (!dateStr) return '';
@@ -390,7 +430,25 @@ function groupByCategory(stories) {
   return Object.fromEntries(Object.entries(groups).sort());
 }
 
-function openStory(story) {
+let currentOpenStory = null;
+
+async function openStory(story) {
+  currentOpenStory = story;
+  renderStoryView(story);
+  const view = document.getElementById('js-story-view');
+  view.classList.add('active');
+  view.scrollTop = 0;
+  document.body.style.overflow = 'hidden';
+  // Auto-translate if lang is EN
+  if (currentLang === 'en') {
+    try {
+      const translated = await translateStory(story, 'en');
+      if (currentOpenStory === story) renderStoryView(translated);
+    } catch {}
+  }
+}
+
+function renderStoryView(story) {
   const paras = (story.absaetze || []).map(p => `<p>${p}</p>`).join('');
   const bonusHtml = story.schon_gewusst
     ? `<div class="sv-bonus"><div class="sv-bonus-label">Schon gewusst?</div><p class="sv-bonus-text">${story.schon_gewusst}</p></div>`
@@ -415,10 +473,6 @@ function openStory(story) {
     </div>
   `;
 
-  const view = document.getElementById('js-story-view');
-  view.classList.add('active');
-  view.scrollTop = 0;
-  document.body.style.overflow = 'hidden';
 }
 
 function closeStory() {
