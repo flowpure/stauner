@@ -68,5 +68,19 @@
     "quelle": "Kuemmerle et al. (2008) in 'Conservation Biology'; Vera, F.W.M. (2000) 'Grazing Ecology and Forest History' (CABI Publishing)",
     "quelle_url": "https://doi.org/10.1111/j.1523-1739.2008.00990.x",
     "datum": "2026-04-01"
+  },
+  {
+    "kategorie": "Neurologie",
+    "titel": "Das stumme Gehirn: Warum wir nicht hören, was wir denken",
+    "stauner": "Viele Menschen glauben, dass Gedanken von inneren Stimmen begleitet werden – dass wir unseren eigenen Gedanken 'hören'. Aber die Realität ist überraschend anders: Das Gehirn erzeugt während des Denkens aktiv keinen auditiven Input, sondern unterdrückt ihn sogar.",
+    "absaetze": [
+      "Die verbreitete Fehlannahme stammt aus der Introspektion: Wenn wir uns selbst 'beobachten', während wir denken, berichten wir oft von einer inneren Stimme oder einem inneren Dialog. Das führte zu der Annahme, dass Denken grundsätzlich sprachgebunden sein müsse und in einer Art internem Selbstgespräch stattfindet. Diese Intuition ist so überzeugend, dass sie jahrzehntelang auch in der Psychologie dominierte.",
+      "Neurowissenschaftler der Max-Planck-Gesellschaft und anderen Instituten haben jedoch gezeigt: Während des stillen Denkens aktiviert das Gehirn tatsächlich Sprachareale – aber es unterdrückt gleichzeitig aktiv die auditorische Verarbeitung. Mit anderen Worten: Unser Gehirn isoliert sich selbst von äußeren Geräuschen und verhindert sogar, dass es die internen Sprachmuster als 'Geräusch' wahrnimmt. Es gibt keinen tatsächlichen Sound, sondern nur motorische und sprachliche Muster ohne sensorisches Erleben.",
+      "Besonders faszinierend ist: Menschen mit bestimmten neurologischen Bedingungen oder in speziellen Meditationszuständen erleben längere Phasen ganz ohne inneren Dialog. Das bedeutet, dass die 'innere Stimme' nicht die Grundform des Denkens ist, sondern eher ein zusätzliches, optionales Feature – ähnlich wie Untertitel bei einem Film. Unser Gehirn kann perfekt denken, planen und kreativ sein, ohne dass wir etwas 'hören'."
+    ],
+    "schon_gewusst": "Etwa 20-30% der Bevölkerung berichtet, dass sie keinen inneren Dialog haben – manche Menschen denken komplett ohne verbale Komponente und sind dennoch hochintelligent und reflektiv. Diese Variation war lange Zeit völlig unbekannt, weil die Mehrheit mit innerer Stimme stillschweigend annahm, alle hätten das gleiche Erlebnis.",
+    "quelle": "Max-Planck-Institut für Hirnforschung – Forschung zur neuronalen Basis des inneren Dialogs und auditiven Verarbeitung während kognitiver Prozesse",
+    "quelle_url": "https://www.brain.mpg.de/",
+    "datum": "2026-04-01"
   }
 ]
