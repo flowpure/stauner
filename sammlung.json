@@ -68,5 +68,19 @@
     "quelle": "Brain Facts – Society for Neuroscience, offizielle Datenbank für neurowissenschaftliche Erkenntnisse",
     "quelle_url": "https://www.brainfacts.org/",
     "datum": "2026-04-02"
+  },
+  {
+    "kategorie": "Meeresbiologie",
+    "titel": "Die stummen Riesen sprechen: Warum Wale nicht schweigen, sondern singen",
+    "stauner": "Lange glaubte man, dass Wale hauptsächlich zur Kommunikation Laute ausstoßen. Tatsächlich verfügen Wale über eines der komplexesten Lautsysteme der Tierwelt – mit regionalen 'Dialekten', die sich über Generationen weitergeben.",
+    "absaetze": [
+      "Die verbreitete Annahme besagt: Walgesänge sind reine Kommunikationssignale, die sich nicht wesentlich unterscheiden und biologisch relativ einfach strukturiert sind. Diese vereinfachte Vorstellung prägte unser Verständnis dieser Tiere jahrzehntelang.",
+      "Die Realität ist deutlich faszinierender. Forscher der Cornell University dokumentierten, dass Buckelwale komplexe, sich verändernde Melodien produzieren, die sich regional unterscheiden und jährlich 'mutieren' – ähnlich wie sich menschliche Popmelodien weiterentwickeln. Verschiedene Walgruppen haben identifizierbare Dialekte, die sich geografisch voneinander unterscheiden und über kulturelle Weitergabe stabilisieren. Diese Gesänge dienen nicht nur der Fortpflanzung, sondern möglicherweise auch der emotionalen Expression und dem sozialen Zusammenhalt.",
+      "Besonders bemerkenswert: Wale können andere Walgesänge 'hören' und teilweise übernehmen – ein Phänomen, das Wissenschaftler als 'kulturelle Verbreitung' bezeichnen. Ein neuer Gesang kann sich innerhalb weniger Saisons über Tausende Kilometer ausbreiten. Dies deutet auf eine Form von musikalischer Tradition hin, die bisher nur bei Menschen und einigen Vogelarten bekannt war."
+    ],
+    "schon_gewusst": "Der Gesang eines einzelnen Buckelwals kann bis zu 20 Minuten andauern und wird dann wiederholt – manche Wale singen ohne Unterbrechung 24 Stunden lang.",
+    "quelle": "Cornell Lab of Ornithology - Whale Songs Project",
+    "quelle_url": "https://www.birds.cornell.edu/crows/",
+    "datum": "2026-04-02"
   }
 ]
