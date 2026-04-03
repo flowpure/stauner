@@ -96,5 +96,19 @@
     "quelle": "Carnegie Institution for Science – Research on diamond stability and graphitization processes",
     "quelle_url": "https://carnegiescience.edu",
     "datum": "2026-04-03"
+  },
+  {
+    "kategorie": "Neurowissenschaften",
+    "titel": "Die Lüge der Spiegelneurone: Warum Empathie nicht durch Nachahmen entsteht",
+    "stauner": "Seit den 1990ern glauben Wissenschaftler, dass spezielle 'Spiegelneurone' uns automatisch in andere Menschen einfühlen lassen. Aber die Realität ist komplexer: Diese Neuronen sind nur ein kleiner Teil eines viel größeren, bewussteren Empathie-Systems.",
+    "absaetze": [
+      "Die Entdeckung der Spiegelneurone bei Makaken-Affen war faszinierend: Bestimmte Nervenzellen feuerten sowohl, wenn das Tier eine Handlung ausführte, als auch wenn es diese beobachtete. Schnell entstand die Theorie, dass diese Neuronen automatisch Empathie erzeugen – wir verstehen andere Menschen, weil unser Gehirn ihre Handlungen unbewusst nachahmt. Diese Idee war so verlockend, dass sie in tausende Lehrbücher und populärwissenschaftliche Werke Eingang fand.",
+      "Doch neuere Forschungen zeigen ein anderes Bild: Spiegelneurone sind weniger spezialisiert als ursprünglich angenommen, und es gibt sie nicht nur in den vermeintlich 'empathie-zuständigen' Hirnregionen. Vor allem aber: Menschen mit Schädigungen in diesen Regionen haben oft völlig normale Empathie-Fähigkeiten. Gleichzeitig können psychopathische Personen diese Neuronen perfekt aktivieren – verstehen aber emotional nicht, was ihr Gegenüber fühlt. Empathie entsteht durch komplexe Netzwerke, bewusste Aufmerksamkeit und sozialen Kontext, nicht durch automatische Nachahmung.",
+      "Das Bemerkenswerte: Diese Erkenntnis macht Empathie nicht weniger wertvoll, sondern mehr. Sie ist kein reflexhafter biologischer Automatismus, sondern etwas, das wir aktiv entwickeln, üben und stärken können – durch echtes Zuhören, Neugier und bewusste emotionale Arbeit."
+    ],
+    "schon_gewusst": "Der Neurowissenschaftler Vittorio Gallese, einer der Entdecker der Spiegelneurone, warnt selbst vor einer zu simplen Interpretation seiner eigenen Forschung und spricht von einem 'Spiegelneuron-Mythos', der in der öffentlichen Debatte entstanden ist.",
+    "quelle": "Max-Planck-Institut für Kognitions- und Neurowissenschaften",
+    "quelle_url": "https://www.cbs.mpg.de/departments/social-neuroscience",
+    "datum": "2026-04-03"
   }
 ]

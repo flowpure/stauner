@@ -1,14 +1,14 @@
 {
-  "kategorie": "Materialwissenschaft",
-  "titel": "Die Lüge der Diamant-Ewigkeit: Warum die wertvollsten Steine der Erde eigentlich vergänglich sind",
-  "stauner": "Diamanten gelten als unvergänglich und ewig – doch unter den richtigen Bedingungen verwandeln sie sich in wenigen Monaten in Graphit. Was wir für das härteste Material der Welt halten, ist in Wirklichkeit thermodynamisch instabil und möchte eigentlich etwas ganz anderes sein.",
+  "kategorie": "Neurowissenschaften",
+  "titel": "Die Lüge der Spiegelneurone: Warum Empathie nicht durch Nachahmen entsteht",
+  "stauner": "Seit den 1990ern glauben Wissenschaftler, dass spezielle 'Spiegelneurone' uns automatisch in andere Menschen einfühlen lassen. Aber die Realität ist komplexer: Diese Neuronen sind nur ein kleiner Teil eines viel größeren, bewussteren Empathie-Systems.",
   "absaetze": [
-    "Der Mythos der Diamant-Ewigkeit stammt aus perfekter Marketing: De Beers prägte 1947 den Slogan 'A Diamond is Forever' und festigte damit eine Überzeugung, die bis heute hält. Doch Physik und Chemie erzählen eine andere Geschichte. Diamanten sind metastabil – sie existieren nur, weil die Umwandlung zu ihrer stabilen Form, dem Graphit, extrem langsam verläuft. Bei normaler Temperatur und Druck würde ein Diamant theoretisch zerfallen, nur eben in geologischen Zeiträumen.",
-    "In kontrollierten Laborexperimenten zeigt sich die Wahrheit deutlich: Diamanten oxidieren bereits bei Temperaturen ab 200°C an der Luft. Bei höheren Temperaturen oder in oxidierender Atmosphäre wird der Prozess messbar schnell – innerhalb von Wochen oder Monaten können Diamanten in Graphit umgewandelt werden. Forscher der Carnegie Institution for Science konnten 2022 zeigen, dass dieser Prozess nicht nur theoretisch möglich ist, sondern auch praktisch nachweisbar funktioniert. Graphit ist thermodynamisch stabiler; Diamanten kämpfen gewissermaßen ständig gegen ihr eigenes Schicksal an.",
-    "Das Erstaunliche: Diese Instabilität war längst bekannt, wurde aber systematisch aus der öffentlichen Wahrnehmung verdrängt. Wissenschaftler wissen seit Jahrzehnten, dass Diamanten sich langfristig zu Graphit entwickeln. Unter realistischen Bedingungen auf der Erdoberfläche passiert das zwar über Millionen Jahre – aber nicht unendlich lange. Ein Diamant ist nicht ewig, sondern nur sehr, sehr alt geworden, bevor er zu dem wird, was er wirklich sein möchte."
+    "Die Entdeckung der Spiegelneurone bei Makaken-Affen war faszinierend: Bestimmte Nervenzellen feuerten sowohl, wenn das Tier eine Handlung ausführte, als auch wenn es diese beobachtete. Schnell entstand die Theorie, dass diese Neuronen automatisch Empathie erzeugen – wir verstehen andere Menschen, weil unser Gehirn ihre Handlungen unbewusst nachahmt. Diese Idee war so verlockend, dass sie in tausende Lehrbücher und populärwissenschaftliche Werke Eingang fand.",
+    "Doch neuere Forschungen zeigen ein anderes Bild: Spiegelneurone sind weniger spezialisiert als ursprünglich angenommen, und es gibt sie nicht nur in den vermeintlich 'empathie-zuständigen' Hirnregionen. Vor allem aber: Menschen mit Schädigungen in diesen Regionen haben oft völlig normale Empathie-Fähigkeiten. Gleichzeitig können psychopathische Personen diese Neuronen perfekt aktivieren – verstehen aber emotional nicht, was ihr Gegenüber fühlt. Empathie entsteht durch komplexe Netzwerke, bewusste Aufmerksamkeit und sozialen Kontext, nicht durch automatische Nachahmung.",
+    "Das Bemerkenswerte: Diese Erkenntnis macht Empathie nicht weniger wertvoll, sondern mehr. Sie ist kein reflexhafter biologischer Automatismus, sondern etwas, das wir aktiv entwickeln, üben und stärken können – durch echtes Zuhören, Neugier und bewusste emotionale Arbeit."
   ],
-  "schon_gewusst": "Graphit ist nicht nur das 'Endprodukt' von Diamanten – es ist auch wertvoll. Hochreines Graphit wird für Batterien, Elektronik und Raumfahrttechnik benötigt und kostet inzwischen teilweise mehr pro Gramm als minderwertiges Diamantenpulver.",
-  "quelle": "Carnegie Institution for Science – Research on diamond stability and graphitization processes",
-  "quelle_url": "https://carnegiescience.edu",
+  "schon_gewusst": "Der Neurowissenschaftler Vittorio Gallese, einer der Entdecker der Spiegelneurone, warnt selbst vor einer zu simplen Interpretation seiner eigenen Forschung und spricht von einem 'Spiegelneuron-Mythos', der in der öffentlichen Debatte entstanden ist.",
+  "quelle": "Max-Planck-Institut für Kognitions- und Neurowissenschaften",
+  "quelle_url": "https://www.cbs.mpg.de/departments/social-neuroscience",
   "datum": "2026-04-03"
 }
