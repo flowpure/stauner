@@ -1,14 +1,14 @@
 {
-  "kategorie": "Meeresbiologie",
-  "titel": "Die stummen Riesen sprechen: Warum Wale nicht schweigen, sondern singen",
-  "stauner": "Lange glaubte man, dass Wale hauptsächlich zur Kommunikation Laute ausstoßen. Tatsächlich verfügen Wale über eines der komplexesten Lautsysteme der Tierwelt – mit regionalen 'Dialekten', die sich über Generationen weitergeben.",
+  "kategorie": "Materialwissenschaft",
+  "titel": "Die Lüge der Diamant-Ewigkeit: Warum die wertvollsten Steine der Erde eigentlich vergänglich sind",
+  "stauner": "Diamanten gelten als unvergänglich und ewig – doch unter den richtigen Bedingungen verwandeln sie sich in wenigen Monaten in Graphit. Was wir für das härteste Material der Welt halten, ist in Wirklichkeit thermodynamisch instabil und möchte eigentlich etwas ganz anderes sein.",
   "absaetze": [
-    "Die verbreitete Annahme besagt: Walgesänge sind reine Kommunikationssignale, die sich nicht wesentlich unterscheiden und biologisch relativ einfach strukturiert sind. Diese vereinfachte Vorstellung prägte unser Verständnis dieser Tiere jahrzehntelang.",
-    "Die Realität ist deutlich faszinierender. Forscher der Cornell University dokumentierten, dass Buckelwale komplexe, sich verändernde Melodien produzieren, die sich regional unterscheiden und jährlich 'mutieren' – ähnlich wie sich menschliche Popmelodien weiterentwickeln. Verschiedene Walgruppen haben identifizierbare Dialekte, die sich geografisch voneinander unterscheiden und über kulturelle Weitergabe stabilisieren. Diese Gesänge dienen nicht nur der Fortpflanzung, sondern möglicherweise auch der emotionalen Expression und dem sozialen Zusammenhalt.",
-    "Besonders bemerkenswert: Wale können andere Walgesänge 'hören' und teilweise übernehmen – ein Phänomen, das Wissenschaftler als 'kulturelle Verbreitung' bezeichnen. Ein neuer Gesang kann sich innerhalb weniger Saisons über Tausende Kilometer ausbreiten. Dies deutet auf eine Form von musikalischer Tradition hin, die bisher nur bei Menschen und einigen Vogelarten bekannt war."
+    "Der Mythos der Diamant-Ewigkeit stammt aus perfekter Marketing: De Beers prägte 1947 den Slogan 'A Diamond is Forever' und festigte damit eine Überzeugung, die bis heute hält. Doch Physik und Chemie erzählen eine andere Geschichte. Diamanten sind metastabil – sie existieren nur, weil die Umwandlung zu ihrer stabilen Form, dem Graphit, extrem langsam verläuft. Bei normaler Temperatur und Druck würde ein Diamant theoretisch zerfallen, nur eben in geologischen Zeiträumen.",
+    "In kontrollierten Laborexperimenten zeigt sich die Wahrheit deutlich: Diamanten oxidieren bereits bei Temperaturen ab 200°C an der Luft. Bei höheren Temperaturen oder in oxidierender Atmosphäre wird der Prozess messbar schnell – innerhalb von Wochen oder Monaten können Diamanten in Graphit umgewandelt werden. Forscher der Carnegie Institution for Science konnten 2022 zeigen, dass dieser Prozess nicht nur theoretisch möglich ist, sondern auch praktisch nachweisbar funktioniert. Graphit ist thermodynamisch stabiler; Diamanten kämpfen gewissermaßen ständig gegen ihr eigenes Schicksal an.",
+    "Das Erstaunliche: Diese Instabilität war längst bekannt, wurde aber systematisch aus der öffentlichen Wahrnehmung verdrängt. Wissenschaftler wissen seit Jahrzehnten, dass Diamanten sich langfristig zu Graphit entwickeln. Unter realistischen Bedingungen auf der Erdoberfläche passiert das zwar über Millionen Jahre – aber nicht unendlich lange. Ein Diamant ist nicht ewig, sondern nur sehr, sehr alt geworden, bevor er zu dem wird, was er wirklich sein möchte."
   ],
-  "schon_gewusst": "Der Gesang eines einzelnen Buckelwals kann bis zu 20 Minuten andauern und wird dann wiederholt – manche Wale singen ohne Unterbrechung 24 Stunden lang.",
-  "quelle": "Cornell Lab of Ornithology - Whale Songs Project",
-  "quelle_url": "https://www.birds.cornell.edu/crows/",
-  "datum": "2026-04-02"
+  "schon_gewusst": "Graphit ist nicht nur das 'Endprodukt' von Diamanten – es ist auch wertvoll. Hochreines Graphit wird für Batterien, Elektronik und Raumfahrttechnik benötigt und kostet inzwischen teilweise mehr pro Gramm als minderwertiges Diamantenpulver.",
+  "quelle": "Carnegie Institution for Science – Research on diamond stability and graphitization processes",
+  "quelle_url": "https://carnegiescience.edu",
+  "datum": "2026-04-03"
 }
