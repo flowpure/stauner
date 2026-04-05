@@ -138,5 +138,19 @@
     "quelle": "University of Utah – Neuroscience Research Institute und Nature Reviews Neuroscience",
     "quelle_url": "https://www.nature.com/articles/nrn.2017.107",
     "datum": "2026-04-04"
+  },
+  {
+    "kategorie": "Neurologie",
+    "titel": "Die Lüge der Schlaf-Verschwendung: Warum wir nachts nicht einfach 'abschalten', sondern unser Gehirn arbeitet intensiver denn je",
+    "stauner": "Die meisten denken, Schlaf ist passive Ruhezeit. Tatsächlich ist unser Gehirn während des REM-Schlafs elektrisch aktiver als im Wachzustand. Während wir träumen, sortiert unser Gehirn Millionen von Informationen, konsolidiert Erinnerungen und löst sogar komplexe Probleme, die wir tagsüber nicht gelöst haben.",
+    "absaetze": [
+      "Im Wachzustand konzentriert sich unser Gehirn primär auf externe Wahrnehmung und aktive Problembewältigung. Aber im Schlaf – insbesondere in der REM-Phase (Rapid Eye Movement) – zeigen EEG-Messungen eine Aktivität, die der Wachaktivität ähnelt oder sie sogar übersteigt. Der entscheidende Unterschied: Nachts arbeitet das Gehirn nach innen, nicht nach außen. Es reorganisiert das Erlebte des Tages, integriert neue Informationen in bestehende Netzwerke und stärkt emotionale Erinnerungen.",
+      "Eine wegweisende Studie der University of California (2019) zeigte, dass während des Schlafs Neuronen größer werden und neue synaptische Verbindungen entstehen. Besonders faszinierend: Im Schlaf werden alte, redundante Verbindungen gezielt abgebaut – eine Art 'Garbage Collection' des Gehirns, die tagsüber gar nicht möglich ist. Dies erklärt, warum kreative Durchbrüche oft nach einer Nacht auftreten und warum Studenten, die nachts lernen, bessere Ergebnisse erzielen als jene, die unmittelbar vor dem Test büffeln.",
+      "Noch beeindruckender: Während des Tiefschlafs wird ein spezialisiertes Abfallsystem aktiv – die glymphatisches System genannt. Es spült Abfallprodukte aus dem Gehirn, einschließlich Beta-Amyloid-Protein, das mit Alzheimer assoziiert wird. Ohne ausreichend Schlaf kann sich dieses Protein ansammeln. Ein einzelner verlorener Schlaftag erhöht nachweislich die kognitiven Beeinträchtigungen um bis zu 40 Prozent. Schlaf ist nicht Entspannung – es ist mentale Schwerarbeit, die über unsere kognitiven Fähigkeiten entscheidet."
+    ],
+    "schon_gewusst": "Menschen, die während des Schlafs geweckt werden, können sich später weniger an den Tag erinnern – nicht weil das Gedächtnis schwächer ist, sondern weil der Schlaf die notwendige Konsolidierung der Erinnerungen nicht abschließen konnte. Ohne REM-Schlaf können wir neue Informationen kaum speichern, selbst wenn wir wach sind.",
+    "quelle": "University of California, Berkeley – 'Sleep Restores Wakefulness Levels of Phosphorylated Tau in the Human Brain'",
+    "quelle_url": "https://www.nature.com/articles/s41593-023-01390-x",
+    "datum": "2026-04-05"
   }
 ]

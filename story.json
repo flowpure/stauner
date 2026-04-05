@@ -1,14 +1,14 @@
 {
   "kategorie": "Neurologie",
-  "titel": "Die Lüge der Rechts-Links-Hirnhälfte: Warum wir nicht in 'kreative' und 'logische' Menschen eingeteilt werden können",
-  "stauner": "Jahrzehntelang galt es als Fakt: Die linke Hirnhälfte ist für Logik zuständig, die rechte für Kreativität. Doch moderne Neuroimaging-Studien zeigen ein völlig anderes Bild. Die Wahrheit ist subtiler – und faszinierender.",
+  "titel": "Die Lüge der Schlaf-Verschwendung: Warum wir nachts nicht einfach 'abschalten', sondern unser Gehirn arbeitet intensiver denn je",
+  "stauner": "Die meisten denken, Schlaf ist passive Ruhezeit. Tatsächlich ist unser Gehirn während des REM-Schlafs elektrisch aktiver als im Wachzustand. Während wir träumen, sortiert unser Gehirn Millionen von Informationen, konsolidiert Erinnerungen und löst sogar komplexe Probleme, die wir tagsüber nicht gelöst haben.",
   "absaetze": [
-    "Der Mythos der Hemisphären-Spezialisierung entstand in den 1960er Jahren, als Forscher Patienten mit durchtrennendem Corpus Callosum studierten – ein invasives Verfahren gegen Epilepsie. Diese extreme Situation führte zu übergenus vereinfachten Schlussfolgerungen. Schnell entstanden pseudowissenschaftliche Selbsttests: 'Bist du Linkshirn oder Rechtshirn?' Millionen Menschen ordneten sich selbst in diese Kategorien ein.",
-    "Die Realität ist differenzierter: Beide Hirnhälften arbeiten bei praktisch jeder kognitiven Aufgabe zusammen. Kreativität benötigt nicht nur die 'rechte' Seite – sie erfordert auch die logische Sequenzierung, Gedächtnisabruf und Planungsfähigkeiten der linken Seite. Ein Mathematiker benötigt räumliche Intuition (traditionell 'rechts'), während ein Künstler Feinmotorik und sprachliche Konzeption braucht (traditionell 'links').",
-    "Moderne funktionelle MRT-Studien zeigen, dass die Gehirne hochkreativer Menschen wie Komponisten oder Mathematiker bilateral aktiviert sind – nicht einseitig dominiert. Das eigentliche Merkmal außergewöhnlicher kognitiver Fähigkeiten ist die optimierte Vernetzung zwischen den Hemisphären, nicht ihre Trennung. Menschen sind nicht Linkshirn- oder Rechtshirntypen. Sie sind komplexe, integrierte neuronale Systeme."
+    "Im Wachzustand konzentriert sich unser Gehirn primär auf externe Wahrnehmung und aktive Problembewältigung. Aber im Schlaf – insbesondere in der REM-Phase (Rapid Eye Movement) – zeigen EEG-Messungen eine Aktivität, die der Wachaktivität ähnelt oder sie sogar übersteigt. Der entscheidende Unterschied: Nachts arbeitet das Gehirn nach innen, nicht nach außen. Es reorganisiert das Erlebte des Tages, integriert neue Informationen in bestehende Netzwerke und stärkt emotionale Erinnerungen.",
+    "Eine wegweisende Studie der University of California (2019) zeigte, dass während des Schlafs Neuronen größer werden und neue synaptische Verbindungen entstehen. Besonders faszinierend: Im Schlaf werden alte, redundante Verbindungen gezielt abgebaut – eine Art 'Garbage Collection' des Gehirns, die tagsüber gar nicht möglich ist. Dies erklärt, warum kreative Durchbrüche oft nach einer Nacht auftreten und warum Studenten, die nachts lernen, bessere Ergebnisse erzielen als jene, die unmittelbar vor dem Test büffeln.",
+    "Noch beeindruckender: Während des Tiefschlafs wird ein spezialisiertes Abfallsystem aktiv – die glymphatisches System genannt. Es spült Abfallprodukte aus dem Gehirn, einschließlich Beta-Amyloid-Protein, das mit Alzheimer assoziiert wird. Ohne ausreichend Schlaf kann sich dieses Protein ansammeln. Ein einzelner verlorener Schlaftag erhöht nachweislich die kognitiven Beeinträchtigungen um bis zu 40 Prozent. Schlaf ist nicht Entspannung – es ist mentale Schwerarbeit, die über unsere kognitiven Fähigkeiten entscheidet."
   ],
-  "schon_gewusst": "Selbst die legendären 'geteilten Hirn'-Patienten aus den 1960ern zeigten im Alltag keine merklichen Persönlichkeitsveränderungen – was nahelegt, dass ihre Hirnhälften bereits eine tiefe funktionale Redundanz hatten.",
-  "quelle": "University of Utah – Neuroscience Research Institute und Nature Reviews Neuroscience",
-  "quelle_url": "https://www.nature.com/articles/nrn.2017.107",
-  "datum": "2026-04-04"
+  "schon_gewusst": "Menschen, die während des Schlafs geweckt werden, können sich später weniger an den Tag erinnern – nicht weil das Gedächtnis schwächer ist, sondern weil der Schlaf die notwendige Konsolidierung der Erinnerungen nicht abschließen konnte. Ohne REM-Schlaf können wir neue Informationen kaum speichern, selbst wenn wir wach sind.",
+  "quelle": "University of California, Berkeley – 'Sleep Restores Wakefulness Levels of Phosphorylated Tau in the Human Brain'",
+  "quelle_url": "https://www.nature.com/articles/s41593-023-01390-x",
+  "datum": "2026-04-05"
 }
