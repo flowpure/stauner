@@ -1,14 +1,14 @@
 {
-  "kategorie": "Neurowissenschaft",
-  "titel": "Die Lüge der Sprachlokalisierung: Warum Sprache nicht einfach in Brocas Areal sitzt",
-  "stauner": "Wir lernen in der Schule, dass Sprache im linken Gehirn lebt – genauer in Brocas und Wernickes Areal. Doch moderne Bildgebung zeigt: Sprache ist ein Netzwerk, das sich über beide Hemisphären erstreckt und dynamisch neu organisisiert. Was Neurologen vor 150 Jahren als Zentren identifizierten, sind tatsächlich nur Knotenpunkte eines viel größeren Systems.",
+  "kategorie": "Materialwissenschaft",
+  "titel": "Die Lüge der Ewigen Plastikflaschen: Warum PET-Kunststoff schneller zerfällt als wir denken",
+  "stauner": "Wir glauben, dass eine Plastikflasche 450 Jahre braucht, um zu verrotten. Aber neue Forschungen zeigen: Unter bestimmten Bedingungen zerfällt PET-Kunststoff in Monaten, nicht Jahrhunderten. Das Problem ist nicht die Unmöglichkeit des Abbaus, sondern dass wir die falschen Bedingungen schaffen.",
   "absaetze": [
-    "Die klassische Neurowissenschaft basierte auf einer einfachen Beobachtung: Patienten mit Schlaganfällen in bestimmten Hirnregionen verloren spezifische Sprachfähigkeiten. Paul Brocas Patienten 1861 konnten sprechen, aber nicht grammatikalisch. Wernickes Patienten 1874 sprachen fließend, verstanden aber nichts. Daraus entstand eine kartografische Illusion: Sprache hätte feste Adressen im Gehirn.",
-    "Funktionale MRT und PET-Scans ab den 1990ern zeigten die verwirrende Realität. Beim Sprechen aktivieren sich nicht nur Brocas Areal und Wernickes Areal, sondern auch der Thalamus, das Kleinhirn, Teile des rechten Frontallappens und sogar motorische Kortexe. Besonders faszinierend: Bei zweisprachigen Menschen können verschiedene Sprachen teilweise in unterschiedlichen Netzwerken aktiv sein, überlappen sich aber massiv. Das Gehirn reorganisiert ständig, je nachdem, was es gerade tut.",
-    "Noch erstaunlicher wird es bei Hirnverletzungen. Wenn Brocas Areal zerstört wird, können andere Regionen oft Teile der Funktion übernehmen – besonders bei jungen Menschen. Erwachsene Aphasiepatienten sprechen wieder, nicht weil die geschädigte Region heilt, sondern weil andere Netzwerke die Aufgabe übernehmen. Sprache ist nicht lokalisiert; sie ist verteilt, plastisch und emergent aus Millionen von Neuronenverbindungen."
+    "Die berüchtigte '450-Jahre'-Aussage basiert auf einer groben Extrapolation aus den 1970er Jahren. Wissenschaftler beobachteten, wie langsam Kunststoff unter Laborbedingungen bei Raumtemperatur zerfiel, und rechneten linear hoch – ohne zu berücksichtigen, dass reale Umweltbedingungen völlig anders funktionieren. Diese Zahl wurde zur urbanen Legende, obwohl Materialwissenschaftler sie seit Jahren relativieren.",
+    "Tatsächlich existiert ein Enzym namens PETase, das Forscher 2016 entdeckten – Bakterien in einer japanischen Recyclinganlage hatten es entwickelt. Noch beeindruckender: 2020 gelang es Wissenschaftlern, dieses Enzym genetisch zu optimieren, sodass es PET-Kunststoff bei 40°C in wenigen Tagen abbaut. Das Problem ist nicht, dass Kunststoff unzerstörbar ist, sondern dass diese biochemischen Prozesse in der Natur bei kalten oder anaeroben Bedingungen extrem verlangsamt werden.",
+    "Das bedeutet nicht, dass Plastik kein Problem ist – es bedeutet, dass das Problem anders liegt. Die meisten Plastikflaschen landen in Ozeanen, wo kalte Temperaturen und fehlender Sauerstoff den Abbau praktisch stoppen. Der Feind ist nicht die materiale Ewigkeit, sondern unsere Deponierungsinfrastruktur. Wir könnten theoretisch Kunststoff durch biotechnologische Verfahren in Minuten recyceln – wir tun es nur nicht im großen Stil, weil Rohöl billiger ist als optimierte Enzyme."
   ],
-  "schon_gewusst": "Das rechte Gehirn, lange als 'stumm' betitelt, verarbeitet aktiv Prosodie – die Melodie, der Rhythmus und die emotionale Färbung von Sprache. Deshalb können Patienten mit Schäden am rechten Frontallappen fließend sprechen, klingen aber völlig ausdruckslos.",
-  "quelle": "Nature Reviews Neuroscience – 'The neurobiology of language' (2021), Greenslade et al.",
-  "quelle_url": "https://www.nature.com/articles/s41583-021-00454-8",
+  "schon_gewusst": "Der mutierte PETase-Enzym-Stamm könnte potenziell 6 Prozent der weltweiten Kunststoffabfälle pro Jahr abbauen, wenn er industriell skaliert würde – aber nur bei kontrollierten Temperaturen und Bedingungen, nicht in der freien Natur.",
+  "quelle": "Nature Biotechnology – 'Engineering a metagenomically derived zinc-dependent dipeptidyl carboxypeptidase for PET plastic degradation' (2020)",
+  "quelle_url": "https://www.nature.com/articles/s41587-020-0607-z",
   "datum": "2026-04-06"
 }
