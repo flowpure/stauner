@@ -1,14 +1,14 @@
 {
-  "kategorie": "Neurologie",
-  "titel": "Die Lüge der Gedächtnis-Festplatte: Warum unser Gehirn keine Erinnerungen speichert, sondern ständig neu erfindet",
-  "stauner": "Wir glauben, dass Erinnerungen wie Dateien in unserem Gehirn abgespeichert werden – abrufbar und unveränderbar. In Wirklichkeit rekonstruiert unser Gehirn jedes Mal, wenn wir uns erinnern, die gesamte Erinnerung neu – und verändert sie dabei grundlegend.",
+  "kategorie": "Meeresbiologie",
+  "titel": "Die Lüge der stummen Tiefseewelt: Warum der Ozean unter 1000 Metern Tiefe ein akustisches Feuerwerk ist",
+  "stauner": "Wir stellen uns die Tiefsee als einen schweigenden, toten Raum vor. Doch unter der Oberfläche tobt ein Konzert von Klicks, Pfeiftönen und niederfrequenten Rufen – Tiere kommunizieren dort aktiver als in vielen Landökosystemen.",
   "absaetze": [
-    "Die verbreitete Annahme ist elegant und intuitiv: Das Gehirn funktioniert wie ein biologischer Computer, der Erinnerungen speichert wie Festplatten Daten abspeichern – präzise, dauerhaft, abrufbar. Diese Vorstellung prägt unsere Rechtssysteme, Therapien und sogar unsere Selbstwahrnehmung. Wenn wir eine Erinnerung 'abrufen', gehen wir davon aus, dass wir eine originalgetreue Kopie ins Bewusstsein holen. Doch die Neurowissenschaft hat längst etwas anderes herausgefunden.",
-    "Die Realität ist radikaler: Jedes Mal, wenn wir uns an etwas erinnern, aktiviert das Gehirn zunächst das ursprüngliche Gedächtnis – dann löst es dieses Gedächtnis auf und speichert es wieder ab. Dieser Prozess nennt sich 'Reconsolidation' und wurde erstmals 2000 in kontrollierten Studien nachgewiesen. Das bedeutet, dass bei jedem Abruf neue Informationen, aktuelle Gefühle und aktuelle Kontexte in die Erinnerung eingewoben werden. Eine Erinnerung von vor zehn Jahren ist nicht mehr dieselbe wie das ursprüngliche Erlebnis – sie ist eine Neuinterpretation, geformt von allem, was seither geschah.",
-    "Die Konsequenzen sind tiefgreifend: Augenzeugenberichte sind weniger zuverlässig, als Gerichte lange annahmen. Therapeutische Techniken, die auf dem 'Abrufen verdrängter Erinnerungen' basieren, können paradoxerweise völlig neue, falsche Erinnerungen erschaffen. Und Nostalgie ist nicht das Gefühl, etwas Altes zurückzubekommen – es ist das Gefühl, eine neue Geschichte über uns selbst zu erzählen. Das Gehirn ist kein Archiv. Es ist ein Geschichtenerzähler, der jedes Mal die Geschichte ein wenig anders erzählt."
+    "Der populäre Glaube besagt, dass die Tiefsee ein stilles, lebensfeindliches Reich ist – ein Ort der Dunkelheit und des Schweigens. Diese Vorstellung hält sich hartnäckig in Dokumentationen und Schulbüchern. Doch Hydrophone, die wissenschaftlichen Unterwassermikrophone, offenbaren ein völlig anderes Bild: Die Tiefsee ist eine akustische Metropole, in der Tausende Arten kontinuierlich miteinander kommunizieren.",
+    "Buckelwale produzieren komplexe Gesänge, die sich über Hunderte von Kilometern ausbreiten. Delfine nutzen Echolokation mit solcher Präzision, dass sie die Größe eines menschlichen Haares erkennen können. Garnelen schnappen so laut zu, dass ihre Stoßwellen Beute betäuben – einzelne Knallgeräusche erreichen 210 Dezibel. Selbst Fische wie der Toadfish kommunizieren mit Grunzlauten, die wie menschliche Stimmen klingen. Diese akustischen Signale dienen der Partnersuche, Jagdkoordination, Reviermarkierung und dem Mahnen vor Gefahren – genau wie bei Landtieren.",
+    "Was Wissenschaftler besonders überraschte: Der menschengemachte Lärm – Schiffsverkehr, Sonar, Ölbohrungen – durchdringt nun diese akustischen Lebensräume und stört die Kommunikation. Meeressäuger müssen lauter rufen, um gehört zu werden, was ihre Energiereserven erschöpft. Dies zeigt: Die Tiefsee war nie stumm. Wir hatten nur nie richtig zugehört. Der Ozean spricht seit Millionen von Jahren – wir haben erst vor wenigen Jahrzehnten gelernt, zu lauschen."
   ],
-  "schon_gewusst": "Menschen können sich bewusst an Erinnerungen 'erinnern', die nie stattgefunden haben – besonders wenn eine vertrauenswürdige Person diese Geschichte mehrfach erzählt hat. Nach etwa 2-3 Wiederholungen beginnt das Gehirn, diese fremde Erinnerung als die eigene zu kodieren.",
-  "quelle": "Center for the Psychology of Memory, University of Massachusetts – Studien zu Reconsolidation und False Memories",
-  "quelle_url": "https://www.umass.edu/ummagazine/articles/memory-reconsolidation",
-  "datum": "2026-04-05"
+  "schon_gewusst": "Der Pottwal erzeugt die lautesten Töne aller Tiere auf der Erde – bis zu 230 Dezibel – und nutzt sie, um riesige Riesenkalmare in der Dunkelheit zu jagen, die sich in über 900 Metern Tiefe verstecken.",
+  "quelle": "Marine Bioacoustics Laboratory, University of Massachusetts Dartmouth",
+  "quelle_url": "https://www.umassd.edu/engineering/centers/marine-bioacoustics/",
+  "datum": "2026-04-06"
 }
