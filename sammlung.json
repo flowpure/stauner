@@ -223,5 +223,19 @@
     "quelle": "Scheibehenne, B., Greifeneder, R., & Todo, P. (2010). Can there ever be too many options? A meta-analytic review of choice overload. Journal of Consumer Research, 37(3), 409-425. + Chernev, A., et al. (2015). Acta Psychologica. Replikation durch Universität Amsterdam (2022).",
     "quelle_url": "https://www.jstor.org/stable/10.1086/651235",
     "datum": "2026-04-07"
+  },
+  {
+    "kategorie": "Epigenetik",
+    "titel": "Die Lüge der unveränderlichen Gene: Warum deine DNA nicht dein Schicksal ist, sondern dein Lebensstil",
+    "stauner": "Wir wurden jahrzehntelang gelehrt, dass unsere Gene in Stein gemeißelt sind – aber die Epigenetik zeigt: Dein Verhalten schaltet Gene an und aus, ohne die DNA-Sequenz zu verändern. Das bedeutet, dass Stress, Ernährung und sogar Zuneigung buchstäblich verändern, welche Gene aktiv sind.",
+    "absaetze": [
+      "Die klassische Genetik verbreitete lange Zeit die Vorstellung, dass wir 'für etwas bestimmt' sind – wenn Alzheimer in der Familie liegt, entwickelt man es; wenn man Veranlagung für Übergewicht hat, wird man dick. Aber diese Interpretation ignoriert völlig die epigenetische Dimension: Chemische Markierungen (vor allem Methylgruppen) können sich an die DNA anlagern und Gene zum Schweigen bringen oder aktivieren – ohne einen einzigen Buchstaben der Sequenz zu verändern.",
+      "Die wegweisende Dutch Hunger Winter Study zeigt das dramatischste Beispiel: Frauen, die 1944/45 während der Hungersnot schwanger waren, bekamen Kinder mit veränderten epigenetischen Markierungen – diese Kinder hatten ein Leben lang erhöhtes Diabetes-Risiko, obwohl ihre DNA völlig unverändert war. Noch faszinierender: Diese epigenetischen Veränderungen waren noch bei deren Enkeln messbar, die nie hungern mussten.",
+      "Das Revolutionäre ist die Umkehrbarkeit: Anders als genetische Mutationen können epigenetische Veränderungen durch Lebensstiländerungen rückgängig gemacht werden. Studien zeigen, dass intensive Bewegung, Meditation und ausreichend Schlaf tatsächlich Gene reaktivieren können, die durch Stress oder schlechte Ernährung 'stummgeschaltet' worden waren. Du bist also nicht dein genetischer Code – du bist das, was du damit machst."
+    ],
+    "schon_gewusst": "Bienen demonstrieren das perfekt: Eine Larve, die ausschließlich Gelee Royale erhält, wird zur Königin – mit völlig anderer Körpergröße, Lebensdauer und Fortpflanzungskapazität. Doch ihre DNA ist identisch mit der Larve, die zur Arbeitsbiene wird. Reine epigenetische Umschaltung.",
+    "quelle": "Dutch Hunger Winter Famine Study (Roseboom et al.), Max-Planck-Institut für Molekulargenetik",
+    "quelle_url": "https://www.mpg.de/epigenetik",
+    "datum": "2026-04-07"
   }
 ]
