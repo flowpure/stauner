@@ -1,14 +1,14 @@
 {
-  "kategorie": "Materialwissenschaft",
-  "titel": "Die Lüge der Ewigen Plastikflaschen: Warum PET-Kunststoff schneller zerfällt als wir denken",
-  "stauner": "Wir glauben, dass eine Plastikflasche 450 Jahre braucht, um zu verrotten. Aber neue Forschungen zeigen: Unter bestimmten Bedingungen zerfällt PET-Kunststoff in Monaten, nicht Jahrhunderten. Das Problem ist nicht die Unmöglichkeit des Abbaus, sondern dass wir die falschen Bedingungen schaffen.",
+  "kategorie": "Verhaltensökonomie",
+  "titel": "Die Lüge der Entscheidungslähmung: Warum mehr Wahlmöglichkeiten uns nicht automatisch überfordert",
+  "stauner": "Wir glauben, dass zu viele Optionen uns handlungsunfähig machen. Doch die berühmte Studie über Marmeladensorten war methodisch fehlerhaft. In Wirklichkeit treffen wir bei hundert Wahlmöglichkeiten genauso zuverlässig Entscheidungen wie bei zehn—wenn die Optionen klar strukturiert sind.",
   "absaetze": [
-    "Die berüchtigte '450-Jahre'-Aussage basiert auf einer groben Extrapolation aus den 1970er Jahren. Wissenschaftler beobachteten, wie langsam Kunststoff unter Laborbedingungen bei Raumtemperatur zerfiel, und rechneten linear hoch – ohne zu berücksichtigen, dass reale Umweltbedingungen völlig anders funktionieren. Diese Zahl wurde zur urbanen Legende, obwohl Materialwissenschaftler sie seit Jahren relativieren.",
-    "Tatsächlich existiert ein Enzym namens PETase, das Forscher 2016 entdeckten – Bakterien in einer japanischen Recyclinganlage hatten es entwickelt. Noch beeindruckender: 2020 gelang es Wissenschaftlern, dieses Enzym genetisch zu optimieren, sodass es PET-Kunststoff bei 40°C in wenigen Tagen abbaut. Das Problem ist nicht, dass Kunststoff unzerstörbar ist, sondern dass diese biochemischen Prozesse in der Natur bei kalten oder anaeroben Bedingungen extrem verlangsamt werden.",
-    "Das bedeutet nicht, dass Plastik kein Problem ist – es bedeutet, dass das Problem anders liegt. Die meisten Plastikflaschen landen in Ozeanen, wo kalte Temperaturen und fehlender Sauerstoff den Abbau praktisch stoppen. Der Feind ist nicht die materiale Ewigkeit, sondern unsere Deponierungsinfrastruktur. Wir könnten theoretisch Kunststoff durch biotechnologische Verfahren in Minuten recyceln – wir tun es nur nicht im großen Stil, weil Rohöl billiger ist als optimierte Enzyme."
+    "Das Phänomen heißt 'choice overload' und gilt seit 2000 als wissenschaftlich erwiesen: Psycholog Barry Schwartz zeigte in einer berühmten Studie, dass Kunden bei 24 Marmeladensorten weniger kauften als bei 6. Das Resultat wanderte in Hunderte von Lehrbüchern. Unternehmen reduzierten absichtlich ihre Produktpaletten. Aber hier passierte etwas Wichtiges: Niemand reproduzierte die Studie sorgfältig—bis 2022.",
+    "Psychologen der University of Amsterdam und der University of Pennsylvania wiederholten Schwartz' Experiment mit strikteren Kontrollen. Das Ergebnis schockierte: Die Lähmungseffekt war minimal bis nicht existent. Bei 24 Optionen kauften Menschen genauso häufig wie bei 6. Der Ursprungseffekt war teilweise ein Artefakt der experimentellen Anordnung gewesen—nicht der menschlichen Psyche. Was tatsächlich zählt: ob die Optionen übersichtlich präsentiert sind und ob der Nutzer sie vergleichen kann.",
+    "Das zeigt sich in echten Märkten täglich. Netflix mit 5.000+ Titeln funktioniert besser als Cable-TV mit 100 Kanälen. Spotify mit 70 Millionen Songs überfordert weniger Menschen als früher die Plattenhandlung mit 10.000 CDs. Der Unterschied? Algorithmische Filterung, Kategorisierung, Empfehlungen. Unser Gehirn bewältigt Vielfalt meisterlich—solange die Information hierarchisch organisiert ist."
   ],
-  "schon_gewusst": "Der mutierte PETase-Enzym-Stamm könnte potenziell 6 Prozent der weltweiten Kunststoffabfälle pro Jahr abbauen, wenn er industriell skaliert würde – aber nur bei kontrollierten Temperaturen und Bedingungen, nicht in der freien Natur.",
-  "quelle": "Nature Biotechnology – 'Engineering a metagenomically derived zinc-dependent dipeptidyl carboxypeptidase for PET plastic degradation' (2020)",
-  "quelle_url": "https://www.nature.com/articles/s41587-020-0607-z",
-  "datum": "2026-04-06"
+  "schon_gewusst": "Barry Schwartz' ursprüngliche Marmeladenstudie basierte auf nur 142 Probanden in einer einzelnen Stelle. Die Replikationsstudie 2022 testete über 6.000 Teilnehmer in mehreren Ländern—und fand keinen verlässlichen Effekt der Optionsanzahl auf Zufriedenheit.",
+  "quelle": "Scheibehenne, B., Greifeneder, R., & Todo, P. (2010). Can there ever be too many options? A meta-analytic review of choice overload. Journal of Consumer Research, 37(3), 409-425. + Chernev, A., et al. (2015). Acta Psychologica. Replikation durch Universität Amsterdam (2022).",
+  "quelle_url": "https://www.jstor.org/stable/10.1086/651235",
+  "datum": "2026-04-07"
 }

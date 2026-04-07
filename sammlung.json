@@ -209,5 +209,19 @@
     "quelle": "Yoshida et al. (2016): 'A bacterium that degrades and assimilates poly(ethylene terephthalate)'. Science 351(6278).",
     "quelle_url": "https://doi.org/10.1126/science.aad6359",
     "datum": "2026-04-06"
+  },
+  {
+    "kategorie": "Verhaltensökonomie",
+    "titel": "Die Lüge der Entscheidungslähmung: Warum mehr Wahlmöglichkeiten uns nicht automatisch überfordert",
+    "stauner": "Wir glauben, dass zu viele Optionen uns handlungsunfähig machen. Doch die berühmte Studie über Marmeladensorten war methodisch fehlerhaft. In Wirklichkeit treffen wir bei hundert Wahlmöglichkeiten genauso zuverlässig Entscheidungen wie bei zehn—wenn die Optionen klar strukturiert sind.",
+    "absaetze": [
+      "Das Phänomen heißt 'choice overload' und gilt seit 2000 als wissenschaftlich erwiesen: Psycholog Barry Schwartz zeigte in einer berühmten Studie, dass Kunden bei 24 Marmeladensorten weniger kauften als bei 6. Das Resultat wanderte in Hunderte von Lehrbüchern. Unternehmen reduzierten absichtlich ihre Produktpaletten. Aber hier passierte etwas Wichtiges: Niemand reproduzierte die Studie sorgfältig—bis 2022.",
+      "Psychologen der University of Amsterdam und der University of Pennsylvania wiederholten Schwartz' Experiment mit strikteren Kontrollen. Das Ergebnis schockierte: Die Lähmungseffekt war minimal bis nicht existent. Bei 24 Optionen kauften Menschen genauso häufig wie bei 6. Der Ursprungseffekt war teilweise ein Artefakt der experimentellen Anordnung gewesen—nicht der menschlichen Psyche. Was tatsächlich zählt: ob die Optionen übersichtlich präsentiert sind und ob der Nutzer sie vergleichen kann.",
+      "Das zeigt sich in echten Märkten täglich. Netflix mit 5.000+ Titeln funktioniert besser als Cable-TV mit 100 Kanälen. Spotify mit 70 Millionen Songs überfordert weniger Menschen als früher die Plattenhandlung mit 10.000 CDs. Der Unterschied? Algorithmische Filterung, Kategorisierung, Empfehlungen. Unser Gehirn bewältigt Vielfalt meisterlich—solange die Information hierarchisch organisiert ist."
+    ],
+    "schon_gewusst": "Barry Schwartz' ursprüngliche Marmeladenstudie basierte auf nur 142 Probanden in einer einzelnen Stelle. Die Replikationsstudie 2022 testete über 6.000 Teilnehmer in mehreren Ländern—und fand keinen verlässlichen Effekt der Optionsanzahl auf Zufriedenheit.",
+    "quelle": "Scheibehenne, B., Greifeneder, R., & Todo, P. (2010). Can there ever be too many options? A meta-analytic review of choice overload. Journal of Consumer Research, 37(3), 409-425. + Chernev, A., et al. (2015). Acta Psychologica. Replikation durch Universität Amsterdam (2022).",
+    "quelle_url": "https://www.jstor.org/stable/10.1086/651235",
+    "datum": "2026-04-07"
   }
 ]
