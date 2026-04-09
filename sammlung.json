@@ -279,5 +279,19 @@
     "quelle": "Max-Planck-Institut für Kognitions- und Neurowissenschaften – Abteilung für Psycholinguistik: 'Early Language Interaction and Brain Development'",
     "quelle_url": "https://www.cbs.mpg.de/departments/neurobiology-language",
     "datum": "2026-04-09"
+  },
+  {
+    "kategorie": "Verhaltensökonomie",
+    "titel": "Die Lüge der Knappheit: Warum weniger Ressourcen uns nicht intelligenter macht, sondern dumm",
+    "stauner": "Wir denken, dass Mangel unsere Konzentration schärft. Doch Verhaltensökonomen haben das Gegenteil entdeckt: Knappheit verbraucht unsere mentalen Ressourcen so stark, dass unser IQ temporär sinkt – wie bei einem Mangel an RAM im Computer.",
+    "absaetze": [
+      "Die verbreitete Intuition ist eingängig: Wenn Zeit, Geld oder andere Ressourcen knapp sind, konzentrieren wir uns intensiver auf das Wesentliche. Sparer seien disziplinierter, unter Zeitdruck leistungsfähiger. Seneca hielt Verzicht für edel. Doch die Forschung zeigt: Diese Intuition ist tückisch falsch. Knappheit ist cognitively expensive – sie kostet uns Denkleistung.",
+      "Psychologen um Sendhil Mullainathan führten ein elegantes Experiment durch: Sie ließen zwei Gruppen identische Rätsel lösen. Die eine Gruppe bekam unbegrenzt Zeit, der anderen gab man das Gefühl, unter Zeitdruck zu stehen. Das Ergebnis: Die 'unter Knappheit' arbeitende Gruppe löste nicht nur weniger Aufgaben – ihre kognitiven Funktionen bei anderen, völlig unabhängigen Tests sanken messbar. Ihr Arbeitsgedächtnis schrumpfte, als hätten sie eine schlaflose Nacht hinter sich. Der Grund ist neurobiologisch: Knappheit erzeugt mentalen Stress, der den präfrontalen Kortex (unseren Exekutiv-Manager) unter Last setzt. Wie ein überladenes Betriebssystem wird unser Gehirn langsamer.",
+      "Das Paradoxe: Chronisch Arme oder Überarbeitete sind nicht nur ärmer oder müder – sie werden in ihrer kognitiven Leistung regelrecht sabotiert. Sie treffen schlechtere finanzielle Entscheidungen, weil ihr Entscheidungszentrum bereits ausgelastet ist. Sie machen impulsivere Fehler. Dies erklärt teilweise, warum Armut so hartnäckig bleibt – nicht weil Arme weniger intelligent sind, sondern weil das konstante Gefühl der Knappheit ihre intellektuelle Kapazität aufzehrt. Dies ist kein moralisches Versagen, sondern ein kognitives Phänomen, das alle Menschen betrifft, unabhängig von Herkunft."
+    ],
+    "schon_gewusst": "Selbst das Gefühl von Knappheit schadet: In einem weiteren Experiment hatten Reiche, denen man einfach nur sagte, dass sie 'finanziell eingeengt' seien, danach schwächere kognitive Tests – obwohl sich ihre faktische Situation nicht geändert hatte.",
+    "quelle": "Mullainathan & Shafir: 'Scarcity: Why Having Too Little Means So Much' (Harvard University Press, 2013) basierend auf experimentellen Studien zur kognitiven Last bei Ressourcenknappheit",
+    "quelle_url": "https://scholar.harvard.edu/mullainathan/publications",
+    "datum": "2026-04-09"
   }
 ]
