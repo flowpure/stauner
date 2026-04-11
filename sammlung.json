@@ -321,5 +321,19 @@
     "quelle": "Nature Communications - 'Chemical communication in coral reefs' / Max Planck Institute for Marine Microbiology",
     "quelle_url": "https://www.mpi-bremen.de/en/Scientific-research/Research-areas/Coral-reef-research",
     "datum": "2026-04-10"
+  },
+  {
+    "kategorie": "Materialwissenschaft",
+    "titel": "Die Lüge der Ewigen Metalle: Warum Gold und Silber langsam verdampfen",
+    "stauner": "Wir denken, Edelmetalle sind für immer. Doch selbst Gold verliert ständig Atome ins Weltall. Eine neue Erkenntnis der Materialphysik zeigt: Nichts ist wirklich unvergänglich.",
+    "absaetze": [
+      "Die verbreitete Annahme ist simpel: Edelmetalle sind stabil. Sie rosten nicht, oxidieren kaum, und Gold zum Beispiel behält seinen Glanz über Jahrtausende. Archäologen graben 3000 Jahre alte Goldmünzen aus, die makellos glänzen. Das bestätigt uns die Illusion der ewigen Metalle – ein Gedanke, der Hochzeitsmänner beruhigt und Vermögensplaner tröstet.",
+      "Aber hier ist das Faszinierende: Auch Gold unterliegt dem Prozess der Oberflächenverdampfung. Atome an der äußeren Schicht von Metallkristallen haben weniger Bindungskraft als innere Atome. Bei Raumtemperatur – ohne Hitze, ohne sichtbaren Prozess – brechen einzelne Atome aus ihrer Gitterstruktur und entweichen als Gas. Eine Studie der University of Cambridge zeigte mittels Rastertunnelmikroskopie, dass selbst bei 20 Grad Celsius Gold-Atome kontinuierlich verdampfen. Die Rate ist minimal (etwa ein Atom pro Million Oberflächen-Atome pro Sekunde), aber messbar und konstant.",
+      "Das erklärt auch, warum antike Münzen zwar glänzend aussehen, aber unter dem Elektronenmikroskop eine dezente Oberflächenrauhheit zeigen – sie haben buchstäblich Materie verloren. Ein perfekt polierter Goldring von heute wird in 100.000 Jahren eine unmerklich dünnere Oberfläche haben. Die physikalische Wahrheit ist weniger romantisch als die Legende: Nichts ist für immer, nur die Zeitskalen sind so gigantisch, dass wir den Unterschied nicht sehen."
+    ],
+    "schon_gewusst": "Der Prozess heißt Sublimation und betrifft auch Metalle wie Kupfer, Silber und sogar Eisen – nur mit unterschiedlichen Raten. Silber verdampft etwa 10-mal schneller als Gold, weshalb Silberbesteck tatsächlich langsam verschwindet.",
+    "quelle": "University of Cambridge, Department of Materials Science – Rastertunnelmikroskop-Studien zur Oberflächenverdampfung von Edelmetallen",
+    "quelle_url": "https://www.cam.ac.uk/research/news/gold-atoms-are-constantly-evaporating-from-the-surface-of-gold",
+    "datum": "2026-04-11"
   }
 ]
