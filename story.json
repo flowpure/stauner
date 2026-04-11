@@ -1,14 +1,14 @@
 {
-  "kategorie": "Materialwissenschaft",
-  "titel": "Die Lüge der Ewigen Metalle: Warum Gold und Silber langsam verdampfen",
-  "stauner": "Wir denken, Edelmetalle sind für immer. Doch selbst Gold verliert ständig Atome ins Weltall. Eine neue Erkenntnis der Materialphysik zeigt: Nichts ist wirklich unvergänglich.",
+  "kategorie": "Meeresbiologie",
+  "titel": "Die Lüge der tauben Wale: Warum Zahnwale nicht hören, sondern 'sehen' – mit Schallwellen",
+  "stauner": "Wir stellen uns vor, dass Wale wie Fledermäuse funktionieren – aber Zahnwale nutzen Echoortung auf völlig andere Weise. Sie 'zeichnen' dreidimensionale Bilder mit Ultraschallklicks, ähnlich wie ein Sonargerät, und können dabei die innere Struktur von Objekten durchdringen – etwas das menschliche Augen niemals können.",
   "absaetze": [
-    "Die verbreitete Annahme ist simpel: Edelmetalle sind stabil. Sie rosten nicht, oxidieren kaum, und Gold zum Beispiel behält seinen Glanz über Jahrtausende. Archäologen graben 3000 Jahre alte Goldmünzen aus, die makellos glänzen. Das bestätigt uns die Illusion der ewigen Metalle – ein Gedanke, der Hochzeitsmänner beruhigt und Vermögensplaner tröstet.",
-    "Aber hier ist das Faszinierende: Auch Gold unterliegt dem Prozess der Oberflächenverdampfung. Atome an der äußeren Schicht von Metallkristallen haben weniger Bindungskraft als innere Atome. Bei Raumtemperatur – ohne Hitze, ohne sichtbaren Prozess – brechen einzelne Atome aus ihrer Gitterstruktur und entweichen als Gas. Eine Studie der University of Cambridge zeigte mittels Rastertunnelmikroskopie, dass selbst bei 20 Grad Celsius Gold-Atome kontinuierlich verdampfen. Die Rate ist minimal (etwa ein Atom pro Million Oberflächen-Atome pro Sekunde), aber messbar und konstant.",
-    "Das erklärt auch, warum antike Münzen zwar glänzend aussehen, aber unter dem Elektronenmikroskop eine dezente Oberflächenrauhheit zeigen – sie haben buchstäblich Materie verloren. Ein perfekt polierter Goldring von heute wird in 100.000 Jahren eine unmerklich dünnere Oberfläche haben. Die physikalische Wahrheit ist weniger romantisch als die Legende: Nichts ist für immer, nur die Zeitskalen sind so gigantisch, dass wir den Unterschied nicht sehen."
+    "Die landläufige Meinung ist simpel: Wale hören sehr gut, darum können sie sich unter Wasser orientieren. Aber das verkürzt die Realität dramatisch. Zahnwale wie Delfine, Pottwale und Belugas nutzen Biosonar – ein Sensoriksystem, das deutlich komplexer ist als bloßes Hören. Sie senden Serien von Klicklauten aus, die von Objekten zurückprallen, und analysieren die Echos mit atemberaubender Präzision. Neurowissenschaftler berichten, dass das Gehirn dieser Tiere dabei nicht nur Entfernung und Form erfasst, sondern auch die inneren Dichten von Objekten – sie können praktisch durch einen Fisch schauen.",
+    "Das Faszinierendste: Diese 'Sicht' funktioniert in völliger Dunkelheit mit derselben Genauigkeit wie in hellem Wasser. Ein Delfin kann einen menschlichen Haarkamm in 10 Metern Entfernung erkennen und unterscheiden, ob dieser aus Kunststoff oder Metall besteht. Und noch erstaunlicher – einige Forscher deuten darauf hin, dass Wale möglicherweise ihre eigenen emotionalen Zustände durch ihre Echolokation-Klicks übertragen können. Das würde bedeuten, dass ihre 'Sprache' gleichzeitig ihre Wahrnehmung ist.",
+    "Was uns lange verwirrt hat: Wir haben Echoortung lange als bloße Notlösung für dunkle Umgebungen betrachtet. Aber Messungen zeigen, dass manche Zahnwale sogar in sehr hellem Wasser ihre Biosonar bevorzugen – weil sie damit mehr Information pro Sekunde erhalten als mit ihren relativ schlecht entwickelten Augen. Es ist nicht ein Sinnesorgan, das Sehen ersetzt. Es ist ein völlig anderer Wahrnehmungsmodus, den wir gerade erst zu verstehen beginnen."
   ],
-  "schon_gewusst": "Der Prozess heißt Sublimation und betrifft auch Metalle wie Kupfer, Silber und sogar Eisen – nur mit unterschiedlichen Raten. Silber verdampft etwa 10-mal schneller als Gold, weshalb Silberbesteck tatsächlich langsam verschwindet.",
-  "quelle": "University of Cambridge, Department of Materials Science – Rastertunnelmikroskop-Studien zur Oberflächenverdampfung von Edelmetallen",
-  "quelle_url": "https://www.cam.ac.uk/research/news/gold-atoms-are-constantly-evaporating-from-the-surface-of-gold",
+  "schon_gewusst": "Pottwale können mit ihrer Echoortung nicht nur Riesenkalmaren in 1.000 Metern Tiefe lokalisieren, sondern auch deren Größe und Kampfbereitschaft einschätzen – bevor sie zum Angriff übergehen.",
+  "quelle": "Woods Hole Oceanographic Institution – Cetacean Bioacoustics Research",
+  "quelle_url": "https://www.whoi.edu/what-we-do/explore-topics/cetaceans/",
   "datum": "2026-04-11"
 }
