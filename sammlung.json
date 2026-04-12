@@ -349,5 +349,19 @@
     "quelle": "Woods Hole Oceanographic Institution – Cetacean Bioacoustics Research",
     "quelle_url": "https://www.whoi.edu/what-we-do/explore-topics/cetaceans/",
     "datum": "2026-04-11"
+  },
+  {
+    "kategorie": "Meeresbiologie",
+    "titel": "Die Lüge der passiven Muscheln: Warum Austern nicht einfach Wasser filtern, sondern aktiv ihre Umwelt gestalten",
+    "stauner": "Wir denken bei Austern an sesshafte Filter-Organismen, die passiv das Wasser durchsieben. Doch neue Forschungen zeigen: Austern sind aktive Ökosystem-Ingenieure, die ihre Umgebung durch gezieltes Verhalten und chemische Signale bewusst verändern.",
+    "absaetze": [
+      "Die verbreitete Vorstellung von Austern ist die eines biologischen Staubsaugers: Sie öffnen ihre Schale, Wasser fließt durch, Plankton wird gefiltert. Diese Beschreibung ist nicht falsch – aber unvollständig. Austern sind nicht passive Empfänger ihrer Umwelt. Sie können ihre Filterungsrate aktiv steuern, je nachdem welche Nährstoffe verfügbar sind und welche Schadstoffe sie erkennen. Bei Gefahr oder schlechter Wasserqualität schließen sie ihre Schalen nicht zufällig – sie reagieren auf spezifische chemische Signale und passen ihr Verhalten an.",
+      "Noch faszinierender: Austernriffe, die aus Millionen von Individuen bestehen, funktionieren als zusammenhängende biologische Systeme. Eine Auster warnt ihre Nachbarn durch chemische Substanzen, wenn Raubtiere in der Nähe sind. Sie koordinieren ihre Filtration, um Nährstoffungleichgewichte im Wasser auszugleichen. Eine einzelne Auster kann täglich bis zu 200 Liter Wasser reinigen – aber ein ganzes Riff schafft es, die Wasserqualität eines Flussmündungsgebiets messbar zu verbessern. Das ist keine passive Filterung mehr; das ist aktive Umweltgestaltung.",
+      "Die wissenschaftliche Bedeutung dieser Erkenntnis ist enorm. Während wir Austernriffe für tot erklärten, weil sie wirtschaftlich überfischt wurden, erkannten Forscher, dass auch 'tote' Riffe ihre Funktionen zum Teil erfüllen – wenn wir die richtigen Parameter messen. Dies eröffnet völlig neue Perspektiven auf Restaurationsökologie: Wir müssen Austern nicht nur 'zurückbringen', wir müssen ihre aktiven Interaktionen verstehen, um Ökosysteme wirklich heilen zu können."
+    ],
+    "schon_gewusst": "Eine einzelne Austern-Larve kann bis zu 70 Kilometer weit durch die Strömung driften, bevor sie einen geeigneten Untergrund findet. Sie reagiert dabei auf ultrafeine chemische Gradienten, die von etablierten Austernriffen ausgehen – ein weiteres Zeichen ihrer aktiven Sinnesfähigkeiten.",
+    "quelle": "The Nature Conservancy – Oyster Restoration Research & Ecological Function Studies",
+    "quelle_url": "https://www.nature.org/en-us/what-we-do/our-insights/perspectives/why-oysters-are-important/",
+    "datum": "2026-04-12"
   }
 ]
