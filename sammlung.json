@@ -363,5 +363,19 @@
     "quelle": "The Nature Conservancy – Oyster Restoration Research & Ecological Function Studies",
     "quelle_url": "https://www.nature.org/en-us/what-we-do/our-insights/perspectives/why-oysters-are-important/",
     "datum": "2026-04-12"
+  },
+  {
+    "kategorie": "Neurologie",
+    "titel": "Die Lüge der Hirnverschwendung: Warum dein Gehirn im Schlaf nicht ruht, sondern seine wichtigsten Arbeiten erledigt",
+    "stauner": "Während du schläfst, arbeitet dein Gehirn nicht weniger – es arbeitet anders und intensiver. Die vermeintliche 'Ruhezeit' ist in Wahrheit eine der aktivsten Phasen deines Gehirns.",
+    "absaetze": [
+      "Wir stellen uns Schlaf oft als 'Ausschaltphase' vor – der Körper ruht, das Gehirn nimmt Dienste auf, Punkt. Diese Vorstellung ist fundamental falsch. Während du schläfst, zeigen Gehirnscans nicht etwa Ruhe, sondern ein komplexes Muster von Aktivität, die sich vom Wachzustand unterscheidet. Besonders während der REM-Phase (Rapid Eye Movement) ist die Gehirnaktivität ähnlich intensiv wie im Wachzustand – teilweise sogar höher in bestimmten Regionen.",
+      "Das Gehirn nutzt den Schlaf für Prozesse, die während des Wachens unmöglich sind: die Konsolidierung von Erinnerungen (der Hippocampus 'speichert' das Gelernte des Tages dauerhaft ab), die Reinigung toxischer Proteine (das glymphatische System arbeitet 60% aktiver im Schlaf), und die Umstrukturierung neuronaler Verbindungen. Forscher der University of Wisconsin entdeckten, dass sich während des Schlafs bestimmte Synapsen verkleinern, während andere verstärkt werden – ein Prozess namens 'synaptic homeostasis', der essentiell für Lernen ist.",
+      "Wer regelmäßig zu wenig schläft, verliert nicht nur Energie – sein Gehirn verliert die Chance zur kognitiven Hausreinigung. Das erklärt, warum Schlafmangel zu Gedächtnisstörungen, schlechterer Problemlösungsfähigkeit und erhöhtem Risiko für neurodegenerative Erkrankungen führt. Schlaf ist nicht das Gegenteil von Produktivität – Schlaf ist die Voraussetzung dafür."
+    ],
+    "schon_gewusst": "Das glymphatische System deines Gehirns nutzt den Schlaf, um Abfallstoffe (besonders Beta-Amyloid-Proteine, die mit Alzheimer verbunden sind) herauszuspülen. Ein einzige Nacht mit nur 4 Stunden Schlaf reduziert diese 'Hirnwäsche' um etwa 30%.",
+    "quelle": "Walker, M., et al. (2017) - UC Berkeley Sleep and Neuroimaging Lab",
+    "quelle_url": "https://www.sleepanddreamlab.org",
+    "datum": "2026-04-12"
   }
 ]
