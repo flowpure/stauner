@@ -391,5 +391,19 @@
     "quelle": "Max-Planck-Institut für Marine Mikrobiologie – Abteilung Schwamm-Mikrobiologie",
     "quelle_url": "https://www.mpi-bremen.de/",
     "datum": "2026-04-13"
+  },
+  {
+    "kategorie": "Neurologie",
+    "titel": "Die Lüge der Sprachlernfenster: Warum Kinder nicht nach einem magischen Alter 'zu alt' zum Sprachenlernen werden",
+    "stauner": "Wir glauben, dass es ein kritisches Zeitfenster für den Spracherwerb gibt – nach dem dritten oder siebten Geburtstag ist angeblich Schluss. Doch die neurowissenschaftliche Forschung zeigt: Das Gehirn bleibt sein Leben lang plastisch genug, um neue Sprachen zu erwerben.",
+    "absaetze": [
+      "Die verbreitete Annahme stammt aus den 1960er Jahren, als Neurowissenschaftler wie Eric Lenneberg postulierten, dass es ein 'kritisches Fenster' für den Spracherwerb gibt – idealerweise vor der Pubertät, spätestens bis zum dritten Lebensjahr für perfekte Aussprache. Diese Theorie wurde zur Dogma in Schulen, Elternratgebern und sogar in der Sprachwissenschaft selbst. Eltern bekamen Panik, wenn ihre Kinder mit vier Jahren noch nicht vollständig zweisprachig waren.",
+      "Die Realität ist differenzierter: Zwar erwerben Kinder unter drei Jahren Sprachen tatsächlich effizienter und mit natürlicherer Aussprache – aber nicht weil ihr Gehirn danach 'zuschneidet', sondern weil sie weniger bewusste Hemmungen haben und mehr Zeit investieren. Ein Neunjähriger kann eine neue Sprache lernen und wird im Vergleich zu einem Dreijährigen sogar schneller Grammatik verstehen. Ein Erwachsener lernt schneller komplexe Strukturen als ein Kleinkind. Langzeitstudien der University of Cambridge zeigen, dass Menschen, die nach dem 12. Lebensjahr eine zweite Sprache lernen, diese mit nahezu nativer Kompetenz beherrschen können – wenn sie ausreichend exponiert werden.",
+      "Der Schlüssel ist nicht das Alter, sondern die Häufigkeit der Exposition und die emotionale Investition. Das Gehirn eines 14-Jährigen, der in ein neues Land zieht, reorganisiert seine neuronalen Netzwerke für die neue Sprache genauso effektiv wie ein Sechsjähriger – nur eben mit einem bewussteren, analytischeren Ansatz. Die Hirnplastizität endet nie wirklich; sie wechselt nur ihre Mechanismen. Das sollte Millionen von Erwachsenen Mut machen, die dachten, sie seien zu alt zum Sprachenlernen."
+    ],
+    "schon_gewusst": "Menschen, die im Erwachsenenalter eine neue Sprache fließend lernen, entwickeln in ihren Sprachzentren die gleichen physischen Veränderungen wie jemand, der zweisprachig aufwächst – nur dass die Synapsenreorganisation länger dauert.",
+    "quelle": "The Myth of the Critical Period for Language Learning – University of Cambridge, Department of Psychology",
+    "quelle_url": "https://www.cam.ac.uk/research/news/the-myth-of-the-critical-period-for-language-learning",
+    "datum": "2026-04-13"
   }
 ]
