@@ -448,5 +448,19 @@
     "quelle": "Smithsonian Institution – Department of Mineral Sciences: Diamond Oxidation and Surface Degradation Studies",
     "quelle_url": "https://www.si.edu/research/departments/mineral-sciences",
     "datum": "2026-04-15"
+  },
+  {
+    "kategorie": "Quantenphysik",
+    "titel": "Die Lüge der Schrödingers Katze: Warum Quantenobjekte nicht wirklich gleichzeitig existieren und tot sind",
+    "stauner": "Schrödingers berühmtes Gedankenexperiment wird ständig missverstanden: Die Katze ist nicht wirklich lebendig UND tot. Tatsächlich zeigt das Experiment nur, dass wir unsere klassische Logik nicht einfach auf die Quantenwelt übertragen können.",
+    "absaetze": [
+      "Das populärwissenschaftliche Verständnis besagt, dass Quantenobjekte in einer 'Superposition' existieren – also gleichzeitig in mehreren Zuständen. Schrödingers 1935 erdachte Katze sollte dies veranschaulichen: eine Katze in einer versiegelten Box, die durch ein Quantenereignis getötet oder überlebt haben könnte – und daher angeblich sowohl lebendig als auch tot ist, bis wir nachsehen.",
+      "Aber hier liegt das Missverständnis: Schrödinger erdachte dieses Gedankenexperiment NICHT, um die Quantenmechanik zu erklären, sondern um sie zu kritisieren. Er wollte zeigen, dass diese Interpretation absurd wird, wenn man sie auf makroskopische Objekte anwendet. In der Quantenmechanik gibt es tatsächlich Superposition für Elektronen oder Photonen – aber eine Katze existiert nicht in zwei Zuständen gleichzeitig. Das Gedankenexperiment enthüllt vielmehr ein fundamentales Messproblem: Erst durch Messung kollabiert die Wellenfunktion in einen definierten Zustand.",
+      "Die moderne Quantenmechanik zeigt, dass Superposition eine spezifische Eigenschaft mikroskopischer Systeme ist, nicht eine allgemeingültige Realität. Eine Katze ist dekoherent – ihre Zustände können nicht überlagert bleiben. Das Experiment lehrt uns also nicht, dass die Realität bizarr ist, sondern dass unsere Intuition für die subatomare Welt schlecht geeignet ist. Schrödinger hätte das sehr gefallen."
+    ],
+    "schon_gewusst": "Schrödinger war selbst so unzufrieden mit dieser Interpretation, dass er 1952 eine alternative Interpretation der Quantenmechanik mitentwickelte – um genau dieses Problem zu vermeiden.",
+    "quelle": "Stanford Encyclopedia of Philosophy – Schrödinger's Cat Entry",
+    "quelle_url": "https://plato.stanford.edu/entries/qt-schrodcat/",
+    "datum": "2026-04-15"
   }
 ]

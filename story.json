@@ -1,14 +1,14 @@
 {
-  "kategorie": "Materialwissenschaft",
-  "titel": "Die Lüge der ewigen Diamanten: Warum die 'wertvollsten' Steine der Erde langsam verdampfen",
-  "stauner": "Diamanten gelten als Inbegriff von Ewigkeit und Unvergänglichkeit – doch sie sind sterblich. Unter bestimmten Bedingungen oxidieren sie und verwandeln sich buchstäblich in Luft. Selbst im Museum können kostbare Steine langsam verschwinden.",
+  "kategorie": "Quantenphysik",
+  "titel": "Die Lüge der Schrödingers Katze: Warum Quantenobjekte nicht wirklich gleichzeitig existieren und tot sind",
+  "stauner": "Schrödingers berühmtes Gedankenexperiment wird ständig missverstanden: Die Katze ist nicht wirklich lebendig UND tot. Tatsächlich zeigt das Experiment nur, dass wir unsere klassische Logik nicht einfach auf die Quantenwelt übertragen können.",
   "absaetze": [
-    "Der Marketing-Slogan 'A Diamond is Forever' hat sich seit 1938 in unsere Köpfe gebrannt. Wir denken an Diamanten als ultimative Ewigkeit, als das Material, das Millionen Jahre überdauert und niemals altert. Diese Vorstellung ist nicht nur falsch – sie ist chemisch unmöglich. Diamanten sind metastabil. Das bedeutet: Sie befinden sich in einem energetisch ungünstigen Zustand und wollen eigentlich zu Graphit zurück, ihrer thermodynamisch stabilen Form.",
-    "Der Prozess verläuft normalerweise extrem langsam – bei Raumtemperatur würde es Billionen Jahre dauern. Aber unter bestimmten Bedingungen beschleunigt sich die Oxidation dramatisch. Diamanten können ab etwa 750 Grad Celsius in Luft einfach verbrennen und zu Kohlendioxid werden. Noch faszinierender: Diamanten an der Erdoberfläche werden durch UV-Strahlung und Sauerstoff oberflächlich oxidiert. Ein Diamant in einem Museumsschaukasten verliert täglich mikroskopisch kleine Schichten seiner Oberfläche – er verdampft wortwörtlich in Luft auf.",
-    "Archäologen und Schmuckexperten kennen dieses Phänomen längst. Historische Diamanten in europäischen Kronsammlungen zeigen messbare Massenanforderungen über Jahrhunderte. Das berühmteste Beispiel ist der Koh-i-Noor-Diamant, der nachweislich an Masse und Gewicht abgenommen hat, seit er in europäischem Besitz ist. Nicht durch Schleifen – sondern durch Oxidation. Ein Diamant ist nicht ewig. Er ist nur sehr, sehr langlebig. Und unter den richtigen – oder besser: falschen – Bedingungen kann selbst der wertvollste Schmuck des Planeten zu Staub werden."
+    "Das populärwissenschaftliche Verständnis besagt, dass Quantenobjekte in einer 'Superposition' existieren – also gleichzeitig in mehreren Zuständen. Schrödingers 1935 erdachte Katze sollte dies veranschaulichen: eine Katze in einer versiegelten Box, die durch ein Quantenereignis getötet oder überlebt haben könnte – und daher angeblich sowohl lebendig als auch tot ist, bis wir nachsehen.",
+    "Aber hier liegt das Missverständnis: Schrödinger erdachte dieses Gedankenexperiment NICHT, um die Quantenmechanik zu erklären, sondern um sie zu kritisieren. Er wollte zeigen, dass diese Interpretation absurd wird, wenn man sie auf makroskopische Objekte anwendet. In der Quantenmechanik gibt es tatsächlich Superposition für Elektronen oder Photonen – aber eine Katze existiert nicht in zwei Zuständen gleichzeitig. Das Gedankenexperiment enthüllt vielmehr ein fundamentales Messproblem: Erst durch Messung kollabiert die Wellenfunktion in einen definierten Zustand.",
+    "Die moderne Quantenmechanik zeigt, dass Superposition eine spezifische Eigenschaft mikroskopischer Systeme ist, nicht eine allgemeingültige Realität. Eine Katze ist dekoherent – ihre Zustände können nicht überlagert bleiben. Das Experiment lehrt uns also nicht, dass die Realität bizarr ist, sondern dass unsere Intuition für die subatomare Welt schlecht geeignet ist. Schrödinger hätte das sehr gefallen."
   ],
-  "schon_gewusst": "Graphit, die 'schwache' Schwester des Diamanten, ist thermodynamisch stabiler und wird sich niemals von selbst zu Diamant umwandeln – Diamanten wollen aber gerne zu Graphit zurück. Das macht Diamanten zu einer Art Zeitbombe in chemischer Zeitlupe.",
-  "quelle": "Smithsonian Institution – Department of Mineral Sciences: Diamond Oxidation and Surface Degradation Studies",
-  "quelle_url": "https://www.si.edu/research/departments/mineral-sciences",
+  "schon_gewusst": "Schrödinger war selbst so unzufrieden mit dieser Interpretation, dass er 1952 eine alternative Interpretation der Quantenmechanik mitentwickelte – um genau dieses Problem zu vermeiden.",
+  "quelle": "Stanford Encyclopedia of Philosophy – Schrödinger's Cat Entry",
+  "quelle_url": "https://plato.stanford.edu/entries/qt-schrodcat/",
   "datum": "2026-04-15"
 }
