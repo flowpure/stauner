@@ -476,5 +476,19 @@
     "quelle": "Max-Planck-Institut für Marine Mikrobiologie – Forschung zu aktiven Filtrierungsprozessen in Schwämmen",
     "quelle_url": "https://www.mpi-bremen.de/en/research-focus-sponges",
     "datum": "2026-04-16"
+  },
+  {
+    "kategorie": "Neurologie",
+    "titel": "Die Lüge der Spiegelneurone: Warum Empathie nicht durch Nachahmen entsteht",
+    "stauner": "Spiegelneurone gelten als das biologische Fundament von Empathie – doch neue Forschungen zeigen: Sie sind dafür fast irrelevant. Was Empathie wirklich antreibt, ist ein viel komplexeres Netzwerk aus Emotionsverarbeitung, kognitiver Perspektivübernahme und sozialer Erfahrung.",
+    "absaetze": [
+      "Seit Giacomo Rizzolattis bahnbrechender Entdeckung von Spiegelzellen bei Makaken in den 1990er Jahren wurde ein vereinfachtes Narrativ geboren: Wenn wir jemanden beobachten, der einen Kaffee trinkt, aktivieren sich die gleichen Neuronen in unserem Hirn, als würden wir selbst trinken – und genau deshalb können wir uns einfühlen. Diese Theorie wurde überall zitiert, in Lehrbüchern verankert und zur Erklärung für Mitleid, Mitgefühl und menschliche Bindung herangezogen. Doch sie ist eine massive Übervereinf​achung.",
+      "Die Wahrheit ist deutlich interessanter: Moderne neuroimaging-Studien zeigen, dass Spiegelneurone nur einen winzigen Teil des Empathie-Systems ausmachen – schätzungsweise 10-15 Prozent. Der Löwenanteil der Empathie entsteht durch völlig andere Prozesse: den präfrontalen Kortex, der Gedanken und Gefühle anderer Menschen modelliert; die Amygdala, die emotionale Bedeutung bewertet; und den posterioren cingulären Kortex, der das Selbst und andere voneinander unterscheidet. Patienten mit beschädigten Spiegelzonen können durchaus empathisch sein – umgekehrt können Menschen mit intakten Spiegelzellen psychopathisch sein.",
+      "Was Empathie wirklich antreibt, ist nicht automatisches Nachahmen, sondern kognitive Leistung: Du musst die Perspektive des anderen verstehen, die gegenwärtige Situation interpretieren, frühere Erfahrungen abrufen und dann die emotionale Konsequenz berechnen. Das erklärt auch, warum Empathie trainierbar ist, warum sie kulturelle Unterschiede berücksichtigt und warum wir mehr Empathie für Menschen empfinden, denen wir ähnlich sind – nicht weil unsere Spiegelneurone besser arbeiten, sondern weil unser kognitives Modellierungssystem auf bekannteren Mustern aufbaut."
+    ],
+    "schon_gewusst": "Menschen, die blind geboren wurden, können trotzdem mit großem Einfühlungsvermögen leben – obwohl sie Gesichtsausdrücke niemals 'gespiegelt' haben. Das zeigt: Empathie ist nicht von sensorischer Nachahmung abhängig, sondern von abstraktem Verständnis und emotionaler Intelligenz.",
+    "quelle": "Max Planck Institute für empirische Ästhetik – Metaanalyse zu Spiegelzellen und Empathie (2023)",
+    "quelle_url": "https://www.aesthetics.mpg.de/",
+    "datum": "2026-04-16"
   }
 ]
