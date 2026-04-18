@@ -518,5 +518,19 @@
     "quelle": "Lund University - Center for Behavioral Research in Economics and Finance",
     "quelle_url": "https://www.lunduniversity.lu.se/",
     "datum": "2026-04-17"
+  },
+  {
+    "kategorie": "Neurologie",
+    "titel": "Die Lüge der Dopamin-Sucht: Warum dein Belohnungsstoff nicht dich kontrolliert, sondern deine Erwartung",
+    "stauner": "Wir denken, Dopamin sei der Stoff der Lust und Sucht. Aber Dopamin wird nicht ausgelöst, wenn wir Vergnügen erleben – sondern wenn wir *erwarten*, dass etwas gut wird. Das ändert alles, was wir über Motivation, Sucht und Glück wissen.",
+    "absaetze": [
+      "Die verbreitete Fehlannahme ist hartnäckig: Dopamin sei der 'Glücksstoff', der uns in den Moment der Belohnung versetzt. Desshalb würden Menschen süchtig nach Drogen, Spielen oder Zucker – weil Dopamin ausgelöst wird und sie mehr wollen. Doch die Neurowissenschaft hat das Gegenteil herausgefunden: Dopamin wird nicht beim Genuss selbst freigesetzt, sondern *vorher*, bei der Erwartung. Ein Versuch mit Affen zeigte dies deutlich: Als Forscher den Affen Fruchtsaft gaben, stieg die Dopamin-Aktivität *nicht* während des Trinkens, sondern einige Sekunden davor, wenn sie das Licht sahen, das Saft ankündigte.",
+      "Das hat tiefgreifende Konsequenzen für unser Verständnis von Sucht und Motivation. Menschen werden nicht süchtig, weil ihnen etwas im Moment Spaß macht – sondern weil ihr Gehirn gelernt hat, dass etwas kommt. Ein Raucher wird nicht von der Zigarette selbst abhängig, sondern von der Erwartung, die die Zigarette auslöst. Das erklärt auch, warum die meisten Süchte tatsächlich *Erwartungssüchte* sind: Das Gehirn verlangt nach dem Gefühl der unmittelbar bevorstehenden Belohnung, nicht nach der Belohnung selbst. Wenn die Erwartung wegfällt – wenn die Zigarette nicht mehr die alte Erleichterung bringt – sinkt das Verlangen oft dramatisch.",
+      "Diese Erkenntnis öffnet auch das Verständnis für menschliche Motivation völlig neu. Menschen, die in monotonen Jobs arbeiten, leiden nicht, weil ihnen Dopamin fehlt – sie leiden, weil es nichts mehr zu erwarten gibt. Dopamin ist nicht das Glücksmolekül, es ist das *Appetitmolekül*. Es treibt uns an, weil es uns auf Chancen hinweist. Ein sauberes Haus gibt weniger Dopamin-Kicks als ein messy Zimmer, das man aufräumt – nicht weil Sauberkeit schlecht ist, sondern weil die Veränderung und der Fortschritt dopaminär wirken. Das bedeutet auch: Wer ständig optimiert und perfektioniert, läuft schneller leer, weil es keine neuen Erwartungen mehr gibt."
+    ],
+    "schon_gewusst": "Deshalb werden Menschen oft süchtig nach dem Streben selbst, nicht dem Ziel. Sobald man ein Ziel erreicht, stürzt die Dopamin-Kurve ab – ein Phänomen, das Psychologen den 'Hedonic Treadmill' nennen. Menschen, die ihre Erwartungen ständig neu kalibrieren, leben psychologisch gesünder.",
+    "quelle": "Wolfram Schultz, Cambridge University – Dopamine Reward Prediction Error Signaling",
+    "quelle_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1940158/",
+    "datum": "2026-04-18"
   }
 ]
