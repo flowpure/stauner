@@ -1,14 +1,14 @@
 {
-  "kategorie": "Neurologie",
-  "titel": "Die Lüge der Musikbegabung: Warum niemand ohne Talent geboren wird, sondern Üben tatsächlich Hirnstrukturen verändert",
-  "stauner": "Wir glauben, manche Menschen seien einfach musikalisch begabt und andere nicht. Aber Neurowissenschaftler haben herausgefunden, dass intensives Musiktraining die physische Struktur des Gehirns so grundlegend umgestaltet, dass man die Veränderungen im MRT sehen kann – unabhängig vom Startpunkt.",
+  "kategorie": "Verhaltensökonomie",
+  "titel": "Die Lüge der rationalen Preisverhandlung: Warum wir nicht kalkulieren, sondern fühlen – und deshalb oft besser fahren",
+  "stauner": "Wir denken, Verhandlungen seien mathematische Spiele. Tatsächlich entscheidet in den ersten Sekunden eine emotionale Ankerheuristik, wie viel wir bereit sind zu zahlen – und diese unbewusste Zahl ist oft präziser als unser bewusstes Kalkül.",
   "absaetze": [
-    "Der hartnäckigste Mythos in der Musikpädagogik: Entweder man hat es oder man hat es nicht. Diese Überzeugung führt dazu, dass Millionen von Menschen nie ein Instrument anfassen, weil sie sich selbst als 'unmusikalisch' abstempeln. Dabei zeigt die moderne Hirnforschung etwas Radikales: Es gibt keine angeborene Musikbegabung im klassischen Sinne. Was es gibt, sind Unterschiede in der Motivation, in der Geduld und in der verfügbaren Trainingszeit.",
-    "Studien mit Musikstudenten zeigen messbare Veränderungen im Gehirn bereits nach wenigen Monaten regelmäßigen Trainings. Die weißer Substanz in Regionen, die für Fingerkontrolle und Koordination zuständig sind, nimmt zu. Der auditive Kortex – der Bereich, der Töne verarbeitet – wird buchstäblich dichter und effizienter. Diese Neuroplastizität funktioniert bei Anfängern genauso wie bei Kindern, die früh angefangen haben. Das Alter spielt eine untergeordnete Rolle, solange man regelmäßig übt.",
-    "Besonders faszinierend: Selbst das relative Gehör – die Fähigkeit, Intervalle zu erkennen, ohne Referenztöne zu haben – wird oft als angeboren dargestellt. Tatsächlich können es fast alle Menschen erlernen, wenn sie gezielt trainiert werden. Eine 60-Jährige, die noch nie Musik gelernt hat, kann genauso effektiv trainieren wie ein 12-Jähriges. Der biologische Unterschied ist minimal; der praktische Unterschied ist null. Die wahre Barriere ist nicht das Gehirn, sondern die Überzeugung, dass Lernen unmöglich ist."
+    "Die verbreitete Annahme ist verlockend logisch: Bei Preisverhandlungen wägen wir Kosten und Nutzen ab, recherchieren Marktpreise und handeln dann rational aus. Doch die Verhaltensökonomie zeigt seit Jahren etwas anderes. Der erste genannte Preis – egal ob absurd hoch oder niedrig – wird zu einem 'Anker', der unser gesamtes Urteilsvermögen fesselt. Dieser Anker wirkt nicht, weil wir dumm sind, sondern weil unser Gehirn unbewusst eine emotionale Referenz setzt, die dann alle weiteren Urteile färbt.",
+    "Eine Metaanalyse der George Mason University (2017) zeigte: Menschen, denen willkürlich hohe oder niedrige Zahlen vorgegeben werden – etwa die letzten Ziffern ihrer Sozialversicherungsnummer – bieten danach höhere oder niedrigere Preise an, ohne dies bewusst wahrzunehmen. Das Faszinierende: Diese emotionale Ankerwirkung ist nicht manipulativ, sondern eine Art informatives Signal. Unser limbisches System verarbeitet oft mehr Kontextinformation als unser bewusstes Denken – der Anker wird zur komprimierten Wahrnehmung der Verhandlungsdynamik.",
+    "Das Gegenteil der gängigen Lehre ist also wahr: Nicht das bewusste Kalkulieren, sondern das emotionale 'Gefühl' für eine Zahl führt oft zu besseren Verhandlungsergebnissen. Menschen, die ihre erste emotionale Reaktion ernst nehmen, landen häufig näher bei ihrem eigentlichen optimalen Preis als jene, die versuchen, alle Variablen bewusst zu rechnen. Das erklärt, warum erfahrene Verhandler weniger verhandeln – sie haben ihr emotionales Bauchgefühl trainiert."
   ],
-  "schon_gewusst": "Professionelle Musiker haben eine signifikant größere auditive Hirnrinde, aber dieser Unterschied wächst mit jedem Jahr Training, nicht als angeborene Eigenschaft. Jemand, der mit 30 Jahren anfängt und täglich zu üben beginnt, baut sein Gehirn genauso um wie jemand, der mit 6 Jahren begonnen hat.",
-  "quelle": "Max Planck Institute for Human Cognitive and Brain Sciences – Studie zu Neuroplastizität und Musiktraining",
-  "quelle_url": "https://www.cbs.mpg.de/research/research-groups/structural-plasticity",
-  "datum": "2026-04-18"
+  "schon_gewusst": "Ein Experiment an der UC Berkeley (2014) zeigte: Verhandler, die bewusst ihre emotionale Reaktion reflektierten, schnitten 22% besser ab als jene, die sich nur auf Faktenargumente konzentrierten.",
+  "quelle": "George Mason University – Anchoring Effects in Behavioral Economics (2017)",
+  "quelle_url": "https://www.gmu.edu",
+  "datum": "2026-04-19"
 }

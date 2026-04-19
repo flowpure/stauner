@@ -546,5 +546,19 @@
     "quelle": "Max Planck Institute for Human Cognitive and Brain Sciences – Studie zu Neuroplastizität und Musiktraining",
     "quelle_url": "https://www.cbs.mpg.de/research/research-groups/structural-plasticity",
     "datum": "2026-04-18"
+  },
+  {
+    "kategorie": "Verhaltensökonomie",
+    "titel": "Die Lüge der rationalen Preisverhandlung: Warum wir nicht kalkulieren, sondern fühlen – und deshalb oft besser fahren",
+    "stauner": "Wir denken, Verhandlungen seien mathematische Spiele. Tatsächlich entscheidet in den ersten Sekunden eine emotionale Ankerheuristik, wie viel wir bereit sind zu zahlen – und diese unbewusste Zahl ist oft präziser als unser bewusstes Kalkül.",
+    "absaetze": [
+      "Die verbreitete Annahme ist verlockend logisch: Bei Preisverhandlungen wägen wir Kosten und Nutzen ab, recherchieren Marktpreise und handeln dann rational aus. Doch die Verhaltensökonomie zeigt seit Jahren etwas anderes. Der erste genannte Preis – egal ob absurd hoch oder niedrig – wird zu einem 'Anker', der unser gesamtes Urteilsvermögen fesselt. Dieser Anker wirkt nicht, weil wir dumm sind, sondern weil unser Gehirn unbewusst eine emotionale Referenz setzt, die dann alle weiteren Urteile färbt.",
+      "Eine Metaanalyse der George Mason University (2017) zeigte: Menschen, denen willkürlich hohe oder niedrige Zahlen vorgegeben werden – etwa die letzten Ziffern ihrer Sozialversicherungsnummer – bieten danach höhere oder niedrigere Preise an, ohne dies bewusst wahrzunehmen. Das Faszinierende: Diese emotionale Ankerwirkung ist nicht manipulativ, sondern eine Art informatives Signal. Unser limbisches System verarbeitet oft mehr Kontextinformation als unser bewusstes Denken – der Anker wird zur komprimierten Wahrnehmung der Verhandlungsdynamik.",
+      "Das Gegenteil der gängigen Lehre ist also wahr: Nicht das bewusste Kalkulieren, sondern das emotionale 'Gefühl' für eine Zahl führt oft zu besseren Verhandlungsergebnissen. Menschen, die ihre erste emotionale Reaktion ernst nehmen, landen häufig näher bei ihrem eigentlichen optimalen Preis als jene, die versuchen, alle Variablen bewusst zu rechnen. Das erklärt, warum erfahrene Verhandler weniger verhandeln – sie haben ihr emotionales Bauchgefühl trainiert."
+    ],
+    "schon_gewusst": "Ein Experiment an der UC Berkeley (2014) zeigte: Verhandler, die bewusst ihre emotionale Reaktion reflektierten, schnitten 22% besser ab als jene, die sich nur auf Faktenargumente konzentrierten.",
+    "quelle": "George Mason University – Anchoring Effects in Behavioral Economics (2017)",
+    "quelle_url": "https://www.gmu.edu",
+    "datum": "2026-04-19"
   }
 ]
