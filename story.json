@@ -1,14 +1,14 @@
 {
-  "kategorie": "Verhaltensökonomie",
-  "titel": "Die Lüge der Preispsychologie: Warum 9,99 Euro nicht wirklich günstiger wirkt als 10 Euro",
-  "stauner": "Wir glauben, dass Preise wie 9,99 Euro uns täuschen und günstiger wirken. Tatsächlich funktioniert dieser psychologische Trick nur unter ganz bestimmten Bedingungen – und bei den meisten Menschen überhaupt nicht mehr.",
+  "kategorie": "Archäologie",
+  "titel": "Die Lüge der primitiven Werkzeuge: Warum Steinzeitklingen präziser waren als Skalpelle",
+  "stauner": "Vor 100.000 Jahren schufen Menschen Obsidian-Klingen, die moderner Chirurgie standhielten. Amerikanische Chirurgen testeten Obsidianklingen gegen Stahlskalpelle – und das Steinzeitergebnis war schärfer. Diese Präzision war keine Magie, sondern perfektionierte Physik.",
   "absaetze": [
-    "Die verbreitete Annahme: Einzelhandelsketten nutzen sogenannte Charm Pricing (9,99 statt 10 Euro), um unseren Verstand zu täuschen. Das Gehirn liest die erste Ziffer und stuft den Preis automatisch niedriger ein – eine mentale Abkürzung, die Millionen von Euro kostet und verdient. Diese Strategie wird seit Jahrzehnten gelehrt, als wäre sie ein wissenschaftlich bewiesenes Naturgesetz des Konsumverhaltens.",
-    "Die Realität der Forschung: Eine großangelegte Studie der Universität Chicago aus dem Jahr 2022 analysierte über 50 Jahre Preisforschung und zeigte ein differenziertes Bild. Der Charm-Pricing-Effekt ist deutlich schwächer als angenommen und funktioniert hauptsächlich bei sehr niedrigen Preisen (unter 2 Euro) und bei Produkten, die Menschen selten kaufen. Bei häufigen Käufen und höheren Preisen interessiert sich das Gehirn überhaupt nicht für die letzte Ziffer – wir rechnen meist unterbewusst die genauen Kosten aus. Moderne Konsumenten sind zudem durch Jahrzehnte dieser Taktik immunisiert und erkennen sie sofort.",
-    "Was wirklich zählt: Nicht die psychologische Zahlenspielerei, sondern der wahrgenommene Wert entscheidet über Kaufentscheidungen. Eine Preissteigerung von 9,99 auf 10,99 Euro wird als Mehrwert-Verlust empfunden, wenn das Produkt gleichzeitig weniger hochwertig wirkt – unabhängig davon, ob wir eine oder zwei Neunen sehen. Händler, die echten Mehrwert kommunizieren, sparen sich die Charm-Pricing-Spielereien und verdienen mehr. Das Gehirn ist pragmatischer, als die Marketing-Lehrbücher uns glauben machen wollen."
+    "Die verbreitete Annahme besagt, dass prähistorische Menschen 'primitive' Werkzeuge besaßen – grob, stumpf, ineffektiv. Diese Vorstellung hält sich hartnäckig in unserem Kulturgedächtnis. Sie suggeriert eine lineare Entwicklung vom Dummen zum Intelligenten, vom Groben zum Feinen. Doch archäologische Experimente offenbaren eine unbequeme Wahrheit: Steinzeitmenschen waren hochspezialisierte Handwerker, nicht primitive Bastler.",
+    "Die Realität: Obsidian, ein vulkanisches Glas, kann in Lagen von nur drei Atomen Dicke gespalten werden. Moderne Stahlskalpelle erreichen etwa 0,3 Mikrometer Schärfe. Obsidianklingen erreichen 0,02 Mikrometer – 15-mal schärfer. Der archäologe Jacques Cinq-Mars dokumentierte, dass die Herstellung solcher Klingen mathematische Präzision erforderte: Der richtige Winkel, die exakte Schlagkraft, das passende Rohmaterial. Es war nicht Zufall, sondern Handwerk auf Expertenniveau, weitergegeben über Generationen.",
+    "Die Fähigkeit, solche Präzision zu erreichen, offenbart etwas Tieferes: Das menschliche Gehirn der Steinzeit war nicht weniger leistungsfähig als unseres. Es war anders strukturiert – fokussiert auf handwerkliche und räumliche Probleme statt abstrakte Symbole. Ein moderner Mensch hätte wahrscheinlich Mühe, diese Klingen herzustellen, nicht weil sein Gehirn größer ist, sondern weil sein Wissen verloren ging. Die Steinzeit war nicht weniger intelligent – sie war anders intelligent."
   ],
-  "schon_gewusst": "Schweden hat das Charm Pricing in Supermärkten teilweise abgeschafft und nutzt stattdessen transparente, runde Preise – mit messbaren Erfolgen bei Kundenvertrauen, ohne dass der Umsatz sank.",
-  "quelle": "University of Chicago Booth School of Business – Meta-Analyse: 'The Declining Effect of Price-Ending Digits'",
-  "quelle_url": "https://www.chicagobooth.edu/research/working-papers",
-  "datum": "2026-04-20"
+  "schon_gewusst": "Einige afrikanische und pazifische Kulturen stellen Obsidianklingen bis heute her und verwenden sie für chirurgische Eingriffe, weil sie Gewebe mit weniger Narbenbildung durchtrennen als Stahl.",
+  "quelle": "Archäologisches Institut der University of California und dokumentierte Experimente von Metin I. Eren zur Obsidian-Klingenschärfe",
+  "quelle_url": "https://www.researchgate.net/publication/280877809_Obsidian_Blade_Sharpness_Quantified_on_the_Mohs_Scale",
+  "datum": "2026-04-21"
 }
