@@ -616,5 +616,19 @@
     "quelle": "Archäologisches Institut der University of California und dokumentierte Experimente von Metin I. Eren zur Obsidian-Klingenschärfe",
     "quelle_url": "https://www.researchgate.net/publication/280877809_Obsidian_Blade_Sharpness_Quantified_on_the_Mohs_Scale",
     "datum": "2026-04-21"
+  },
+  {
+    "kategorie": "Neurobiologie",
+    "titel": "Die Lüge der Amygdala-Angst: Warum unsere Mandelkern nicht einfach Furcht erzeugt, sondern Bedeutung verarbeitet",
+    "stauner": "Die Amygdala gilt als unser 'Angstschalter' – aber sie reagiert gar nicht automatisch auf Bedrohungen. Stattdessen bewertet sie, ob etwas für uns *persönlich* bedeutsam ist. Das Gleiche Ereignis kann in einer Person Furcht auslösen und in einer anderen Aufregung – je nachdem, welche Bedeutung das Gehirn dem Signal beimisst.",
+    "absaetze": [
+      "Jahrzehntelang lehrten Neurowissenschaftler, dass die Amygdala – eine mandelförmige Struktur tief im Gehirn – unser evolutionäres Alarmsystem ist. Sie sollte blitzschnell Gefahren erkennen und den Körper in Kampf-oder-Flucht-Modus versetzen. Diese Vorstellung ist eleganter, aber falsch. Neue Forschungen zeigen: Die Amygdala reagiert auf *bedeutsame* Information, nicht auf Gefahr.",
+      "Was tatsächlich passiert, ist subtiler: Die Amygdala bewertet jeden Input darauf, ob er für unser Überleben, unsere Ziele oder unsere sozialen Bindungen relevant ist. Ein lauter Knall löst starke Amygdala-Aktivität aus – aber ob das Angst, Überraschung oder Freude wird, entscheidet der Kontext. Beim Feuerwerk ist es Freude, auf der dunklen Straße Angst. Die gleiche neurobiologische Antwort, völlig unterschiedliche Emotionen.",
+      "Besonders faszinierend: Menschen können ihre Amygdala umtrainieren, indem sie die *Bedeutung* neu interpretieren. Ein Pilot empfindet beim nächsten Flugzittern weniger Angst, nicht weil die Amygdala weniger aktiv wird, sondern weil sie gelernt hat, dass Turbulenzen *für ihn* ungefährlich sind. Das erklärt auch, warum dieselbe Situation bei verschiedenen Menschen völlig verschiedene emotionale Reaktionen auslöst – die Amygdala arbeitet nicht allein, sondern mit dem präfrontalen Kortex zusammen, der *Sinn* macht."
+    ],
+    "schon_gewusst": "Menschen, die mit Angststörungen kämpfen, haben keine überaktive Amygdala – ihre Amygdala und ihr präfrontaler Kortex kommunizieren einfach schlecht miteinander. Deshalb funktioniert kognitive Verhaltenstherapie so gut: Sie lehrt dem Gehirn, Situationen neu zu bewerten, nicht die Angstschaltung auszuschalten.",
+    "quelle": "Ledoux, J. E., & Pine, D. S. (2016). Using Neuroscience to Understand Fear and Anxiety. American Journal of Psychiatry",
+    "quelle_url": "https://ajp.psychiatryonline.org/doi/full/10.1176/appi.ajp.2016.16030353",
+    "datum": "2026-04-21"
   }
 ]
