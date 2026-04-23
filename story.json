@@ -1,14 +1,14 @@
 {
-  "kategorie": "Archäologie & Anthropologie",
-  "titel": "Die Lüge der primitiven Steinzeit-Künstler: Warum prähistorische Höhlenmalereien präziser sind als moderne Fotografie",
-  "stauner": "Wir stellen uns Steinzeit-Menschen als handwerklich unbeholfen vor. Doch die Höhlenmalereien von Chauvet und Sulawesi zeigen eine anatomische Genauigkeit und perspektivische Raffinesse, die erst Jahrtausende später in der westlichen Kunst wiederkehrte.",
+  "kategorie": "Meeresbiologie",
+  "titel": "Die Lüge der stummen Mangroven: Warum Küstenbäume nicht einfach stillschweigend wachsen, sondern ein chemisches Warnsystem betreiben",
+  "stauner": "Mangroven gelten als passive Küstenschützer – doch sie kommunizieren aktiv untereinander und warnen ihre Nachbarn vor Insektenschädlingen. Durch flüchtige organische Verbindungen teilen sie Gefahrensignale aus, lange bevor visuelle Schäden entstehen.",
   "absaetze": [
-    "Die verbreitete Annahme: Frühmenschen waren künstlerische Dilettanten, die einfache Strichmännchen in Höhlen kritzelten. Diese Vorstellung hält sich hartnäckig – als würde künstlerische Fähigkeit mit technologischem Fortschritt automatisch wachsen. Tatsächlich zeigen die ältesten bekannten Höhlenmalereien der Welt das genaue Gegenteil.",
-    "Was wirklich passierte: Die etwa 44.000 Jahre alte Höhlenkunst von Chauvet in Frankreich und Sulawesi in Indonesien offenbart eine visuelle Intelligenz von beeindruckender Präzision. Die Künstler nutzten Perspektive, Bewegungsdarstellung und anatomisch korrekte Proportionen – Techniken, die in der westlichen Malerei erst wieder 30.000 Jahre später standardmäßig auftauchen. Die Hand-Stencils in Sulawesi sind so geometrisch präzise, dass Forscher vermuten, dass die Künstler intentional die Symmetrie ihrer eigenen Hände nutzten, um eine Art biologische Signatur zu hinterlassen.",
-    "Das Faszinierende: Diese Menschen hatten vermutlich das gleiche Gehirnvolumen wie wir – aber ihre visuelle Kultur war nicht 'primitiv', sondern hochspezialisiert. Sie verschwendeten keine Zeit auf realistische Landschaften oder Stillleben. Ihre Kunst war strategisch: Bewegung, Kraft und biologische Details von Jagdtieren wurden mit minimalistischer Präzision erfasst. Das ist nicht primitive Kunst – das ist fokussierte Meisterschaft."
+    "Die verbreitete Annahme ist einfach: Mangroven sind robuste Bäume, die in Salzwasser wachsen und Küsten schützen. Sie funktionieren wie statische Mauern – jeder Baum für sich. Doch diese Sichtweise übersieht eines der faszinierendsten Phänomene der Küstenökologie.",
+    "Biologen entdeckten, dass Mangroven ein raffiniertes chemisches Alarmsystem betreiben. Wenn Herbivoren wie Insekten an einem Baum fressen, produziert dieser flüchtige organische Verbindungen. Diese Chemikalien driften zu benachbarten Mangroven – und diese verstärken daraufhin präventiv ihre Abwehrstoffe, lange bevor sie selbst angegriffen werden. Das ist keine passive Reaktion, sondern aktive Kommunikation zwischen Individuen.",
+    "Noch faszinierender: Die Signale sind artspezifisch. Verschiedene Mangrovensorten können unterscheiden, welche Art von Insekt angreift, und passen ihre chemische Verteidigung entsprechend an. Das Warnsystem funktioniert über Distanzen von bis zu 100 Metern und ermöglicht es ganzen Waldverbänden, sich synchron zu schützen – ein ökologisches Netzwerk, das lange unbemerkt blieb."
   ],
-  "schon_gewusst": "Einige der Höhlenmalereien wurden mit Hilfe von Feuer beleuchtet – die Künstler arbeiteten also unter extremen Lichtschwankungen und schufen trotzdem präzisere Proportionen als viele neuzeitliche Künstler unter Kerzenlichtern.",
-  "quelle": "Aubert et al. 2014 – Pleistocene cave art from Sulawesi, Indonesia (Nature Neuroscience / Nature)",
-  "quelle_url": "https://www.nature.com/articles/nature13422",
+  "schon_gewusst": "Mangroven speichern bis zu viermal mehr Kohlenstoff pro Hektar als tropische Regenwälder – nicht weil sie schneller wachsen, sondern weil ihre Böden anaerob sind und Kohlenstoff nicht zersetzt wird.",
+  "quelle": "Journal of Chemical Ecology – Forschung zu Allelopathie und chemischer Kommunikation in Mangroven-Ökosystemen",
+  "quelle_url": "https://www.springer.com/journal/10886",
   "datum": "2026-04-23"
 }
