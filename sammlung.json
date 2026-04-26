@@ -742,5 +742,19 @@
     "quelle": "Massachusetts Institute of Technology (MIT) – Studie über Betonalterung und Nachhaltigkeit",
     "quelle_url": "https://www.csail.mit.edu/news/how-concrete-ages",
     "datum": "2026-04-26"
+  },
+  {
+    "kategorie": "Neurowissenschaft",
+    "titel": "Die Lüge der Hirnalterung: Warum unser Gehirn im Alter nicht einfach abbaut, sondern sich fundamental reorganisiert",
+    "stauner": "Wir denken, dass ein 70-jähriges Gehirn zwangsläufig langsamer und schlechter funktioniert als ein 30-jähriges. Doch Neurowissenschaftler haben entdeckt, dass ältere Menschen oft neue neuronale Verbindungen schaffen – nur auf andere Weise. Was wir als kognitiven Verfall interpretieren, ist tatsächlich ein neurologischer Umbau mit eigenen Vorteilen.",
+    "absaetze": [
+      "Die verbreitete Überzeugung ist simpel: Mit jedem Lebensjahrzehnt verlieren wir Nervenzellen und Synapsen. Das Gedächtnis wird schlechter, die Reaktionszeit langsamer, die Konzentration lässt nach. Diese lineare Abbauthese hat sich seit Jahrzehnten in Köpfen festgesetzt – auch bei Neurologen. Doch die Realität ist differenzierter. Moderne Neuroimaging-Studien zeigen, dass das alternde Gehirn nicht passiv schrumpft, sondern aktiv umgestaltet wird, ähnlich wie ein Baum, der seine Äste neu strukturiert.",
+      "Ältere Menschen zeigen tatsächlich eine verstärkte bilaterale Hirnaktivierung – beide Gehirnhälften arbeiten stärker zusammen, während jüngere Menschen oft nur eine Seite dominieren. Dies könnte erklären, warum Ältere bei komplexen Problemlösungen oft besser abschneiden: Ihr Gehirn nutzt mehr Ressourcen und verbindet verschiedene Regionen stärker. Gleichzeitig nimmt die Verarbeitungsgeschwindigkeit zwar ab, doch die Fähigkeit zu kontextualisieren und Muster zu erkennen, steigt. Ein 65-Jähriger mag langsamer rechnen, aber schneller Verbindungen zwischen Konzepten erkennen.",
+      "Der Kernpunkt ist: Hirnalterung ist nicht Degeneration, sondern Transformation. Bestimmte kognitive Funktionen wie Verarbeitungsgeschwindigkeit und episodisches Gedächtnis nehmen ab, während kristalline Intelligenz (angesammeltes Wissen) und emotionale Regulierung zunehmen. Menschen, die körperlich aktiv bleiben, soziale Kontakte pflegen und kognitiv gefordert werden, zeigen minimal beschleunigten kognitiven Verfall – und einige dieser Individuen verbessern sogar spezifische Fähigkeiten noch mit 80 Jahren."
+    ],
+    "schon_gewusst": "Neurogenese – die Bildung neuer Nervenzellen – findet auch im alternden Gehirn statt, besonders im Hippocampus. Menschen über 70 können also buchstäblich neue Hirnzellen wachsen lassen, wenn die Bedingungen stimmen.",
+    "quelle": "Max-Planck-Institut für Kognitions- und Neurowissenschaften – Langzeitstudien zur Neuroplastizität im Alter",
+    "quelle_url": "https://www.cbs.mpg.de/departments/lifespan-neural-dynamics",
+    "datum": "2026-04-26"
   }
 ]
