@@ -22,41 +22,138 @@ jobs:
           python3 << 'PYEOF'
           import json, os, urllib.request, urllib.error
           from datetime import date
+          from collections import Counter
 
           today = date.today().isoformat()
           api_key = os.environ.get('ANTHROPIC_API_KEY', '')
 
-          # Lade bisherige Titel aus sammlung.json
-          previous_titles = "keine"
+          # ── KATEGORIE-SYSTEM ────────────────────────────────────────
+          # 4 Hauptkategorien, 27 Unterkategorien in deterministischer
+          # Rotation. Jede Hauptkategorie erscheint gleichmäßig verteilt.
+          # Neurologie: 1x alle 27 Tage. Meeresbiologie: 1x alle 27 Tage.
+
+          ROTATION = [
+              "Astronomie",            # Naturwissenschaften
+              "Evolutionsbiologie",    # Biologie & Ökologie
+              "Neurologie",            # Mensch & Gesellschaft
+              "Geschichte",            # Geschichte & Kultur
+              "Meeresbiologie",        # Biologie & Ökologie
+              "Physik",                # Naturwissenschaften
+              "Psychologie",           # Mensch & Gesellschaft
+              "Archäologie",           # Geschichte & Kultur
+              "Botanik",               # Biologie & Ökologie
+              "Mathematik",            # Naturwissenschaften
+              "Linguistik",            # Mensch & Gesellschaft
+              "Klimaforschung",        # Geschichte & Kultur
+              "Mikrobiologie",         # Biologie & Ökologie
+              "Quantenphysik",         # Naturwissenschaften
+              "Verhaltensökonomie",    # Mensch & Gesellschaft
+              "Technologiegeschichte", # Geschichte & Kultur
+              "Ozeanographie",         # Biologie & Ökologie
+              "Chemie",                # Naturwissenschaften
+              "Anthropologie",         # Mensch & Gesellschaft
+              "Ökologie",              # Biologie & Ökologie
+              "Medizingeschichte",     # Mensch & Gesellschaft
+              "Materialwissenschaft",  # Naturwissenschaften
+              "Epigenetik",            # Biologie & Ökologie
+              "Soziologie",            # Mensch & Gesellschaft
+              "Forstwirtschaft",       # Biologie & Ökologie
+              "Spieltheorie",          # Mensch & Gesellschaft
+              "Geschichte",            # Geschichte & Kultur
+          ]
+
+          HAUPTKATEGORIEN = {
+              "Astronomie": "Naturwissenschaften",
+              "Physik": "Naturwissenschaften",
+              "Chemie": "Naturwissenschaften",
+              "Quantenphysik": "Naturwissenschaften",
+              "Mathematik": "Naturwissenschaften",
+              "Materialwissenschaft": "Naturwissenschaften",
+              "Evolutionsbiologie": "Biologie & Ökologie",
+              "Mikrobiologie": "Biologie & Ökologie",
+              "Botanik": "Biologie & Ökologie",
+              "Epigenetik": "Biologie & Ökologie",
+              "Ökologie": "Biologie & Ökologie",
+              "Forstwirtschaft": "Biologie & Ökologie",
+              "Meeresbiologie": "Biologie & Ökologie",
+              "Ozeanographie": "Biologie & Ökologie",
+              "Neurologie": "Mensch & Gesellschaft",
+              "Psychologie": "Mensch & Gesellschaft",
+              "Medizingeschichte": "Mensch & Gesellschaft",
+              "Anthropologie": "Mensch & Gesellschaft",
+              "Linguistik": "Mensch & Gesellschaft",
+              "Soziologie": "Mensch & Gesellschaft",
+              "Verhaltensökonomie": "Mensch & Gesellschaft",
+              "Spieltheorie": "Mensch & Gesellschaft",
+              "Geschichte": "Geschichte & Kultur",
+              "Archäologie": "Geschichte & Kultur",
+              "Technologiegeschichte": "Geschichte & Kultur",
+              "Klimaforschung": "Geschichte & Kultur",
+          }
+
+          day_of_year = date.today().timetuple().tm_yday
+          today_kategorie = ROTATION[day_of_year % len(ROTATION)]
+          today_hauptkategorie = HAUPTKATEGORIEN.get(today_kategorie, "")
+          print(f"Heutige Kategorie (Tag {day_of_year}): {today_kategorie} [{today_hauptkategorie}]")
+
+          # ── SAMMLUNG LADEN & DEDUPLIZIEREN ──────────────────────────
+          sammlung = []
+          previous_titles = []
+          existing_in_category = []
+
           if os.path.exists('sammlung.json'):
               try:
                   with open('sammlung.json', 'r', encoding='utf-8') as f:
                       sammlung = json.load(f)
-                  titles = [e.get('titel', '') for e in sammlung[-60:] if e.get('titel')]
-                  if titles:
-                      previous_titles = ', '.join(titles)
+                  previous_titles = [e.get('titel', '') for e in sammlung if e.get('titel')]
+                  # Alle bisherigen Stauner-Texte in dieser Kategorie für Deduplizierung
+                  for e in sammlung:
+                      if e.get('kategorie') == today_kategorie:
+                          existing_in_category.append(
+                              f"- {e.get('titel', '')}: {e.get('stauner', '')[:120]}"
+                          )
               except Exception as e:
                   print(f"Sammlung konnte nicht geladen werden: {e}")
 
-          print(f"Bereits behandelte Themen: {previous_titles[:300]}")
+          print(f"Beiträge gesamt: {len(sammlung)}")
+          print(f"Bereits in '{today_kategorie}': {len(existing_in_category)}")
 
+          titles_str = '\n'.join(f"- {t}" for t in previous_titles[-80:]) if previous_titles else "keine"
+          existing_str = '\n'.join(existing_in_category) if existing_in_category else "keine"
+
+          # ── PROMPT ──────────────────────────────────────────────────
           prompt = (
-              f"Du bist Chefredakteur von 'Der tägliche Stauner' im Geist von 'Im Grunde Gut' und 'Factfulness'. "
-              f"Heute ist der {today}. "
-              f"Diese Titel wurden bereits verwendet — waehle ein KOMPLETT anderes Thema: {previous_titles}. "
-              f"Waehle ein spezifisches, faszinierendes Thema aus Wissenschaft, Biologie, Astronomie, "
-              f"Verhaltensoeokonomie, Neurologie, Geologie, Linguistik, Materialwissenschaft, Epigenetik, "
-              f"Meeresbiologie, Quantenphysik, Archaeologie, Spieltheorie, Anthropologie, Oekologie, "
-              f"Forstwirtschaft oder Geschichte. "
-              f"Die Geschichte beginnt mit einer konkreten verbreiteten Fehlannahme und zeigt dann mit "
-              f"praezisen Fakten was wirklich stimmt. Ton: sachlich, praezise, faszinierend. "
-              f"Niemals Krieg, Katastrophen, politische Konflikte. "
-              f"Fuege einen Bonusfakt unter 'Schon gewusst?' hinzu. "
-              f"Quelle: eine echte existierende Studie oder Institution mit echter URL. "
-              f"Antworte NUR mit diesem JSON ohne Markdown-Backticks: "
-              '{{"kategorie":"...","titel":"...","stauner":"2-3 Saetze","absaetze":["...","...","..."],'
-              '"schon_gewusst":"...","quelle":"...","quelle_url":"https://..."}}'
-          )
+              f"Du bist Chefredakteur von 'Der tägliche Stauner' im Geist von "
+              f"'Im Grunde Gut' (Rutger Bregman) und 'Factfulness' (Hans Rosling). "
+              f"Heute ist der {today}.\n\n"
+              f"HEUTIGE KATEGORIE (Pflicht, nicht ändern): {today_kategorie}\n"
+              f"HAUPTKATEGORIE: {today_hauptkategorie}\n\n"
+              f"BEREITS VORHANDENE TITEL — diese Themen nicht wiederholen:\n{titles_str}\n\n"
+              f"BEREITS IN '{today_kategorie}' BEHANDELT — inhaltlich deutlich unterscheiden:\n{existing_str}\n\n"
+              f"Wähle ein SPEZIFISCHES, ÜBERRASCHENDES Phänomen aus '{today_kategorie}' "
+              f"das sich klar von allen obigen Titeln und Inhalten unterscheidet.\n\n"
+              f"Die Geschichte:\n"
+              f"1. Beginnt mit einer konkreten, verbreiteten Fehlannahme\n"
+              f"2. Zeigt mit präzisen, belegten Fakten was wirklich stimmt\n"
+              f"3. Endet mit der überraschenden, positiven Bedeutung\n\n"
+              f"Ton: sachlich, präzise, faszinierend, ermutigend. "
+              f"Niemals Krieg, Katastrophen, politische Konflikte.\n\n"
+              f"QUELLE (wichtig): Nenne eine SPEZIFISCHE Studie:\n"
+              f"Format: 'Nachname et al. (Jahr): Vollständiger Titel. Zeitschrift Band(Nummer).'\n"
+              f"URL: Direkte DOI-URL (https://doi.org/...) oder direkter Artikel-Link. "
+              f"KEINE Institutshauptseiten, KEINE allgemeinen Journal-Homepages.\n\n"
+              f"Bonusfakt unter 'Schon gewusst?': Ein überraschender Fakt aus '{today_kategorie}' "
+              f"der NICHT in der Geschichte vorkommt.\n\n"
+              f"Antworte NUR mit diesem JSON ohne Markdown:\n"
+              '{{"kategorie":"{kat}",'
+              '"hauptkategorie":"{hkat}",'
+              '"titel":"...",'
+              '"stauner":"2-3 prägnante Sätze",'
+              '"absaetze":["...","...","..."],'
+              '"schon_gewusst":"...",'
+              '"quelle":"Autor(en) (Jahr): Titel. Zeitschrift.",'
+              '"quelle_url":"https://doi.org/..."}}'
+          ).replace('{kat}', today_kategorie).replace('{hkat}', today_hauptkategorie)
 
           payload = {
               "model": "claude-haiku-4-5-20251001",
@@ -88,33 +185,31 @@ jobs:
 
           story = json.loads(text)
           story['datum'] = today
+          # Sicherstellen dass Kategorie korrekt ist
+          story['kategorie'] = today_kategorie
+          story['hauptkategorie'] = today_hauptkategorie
 
-          # Speichere story.json
+          print(f"Titel: {story.get('titel', '')}")
+          print(f"Kategorie: {story.get('kategorie', '')} [{story.get('hauptkategorie', '')}]")
+          print(f"Quelle: {story.get('quelle', '')}")
+          print(f"URL: {story.get('quelle_url', '')}")
+
+          # ── SPEICHERN ───────────────────────────────────────────────
           with open('story.json', 'w', encoding='utf-8') as f:
               json.dump(story, f, ensure_ascii=False, indent=2)
-
-          # Fuege zur Sammlung hinzu
-          sammlung = []
-          if os.path.exists('sammlung.json'):
-              try:
-                  with open('sammlung.json', 'r', encoding='utf-8') as f:
-                      sammlung = json.load(f)
-              except:
-                  sammlung = []
 
           sammlung.append(story)
 
           with open('sammlung.json', 'w', encoding='utf-8') as f:
               json.dump(sammlung, f, ensure_ascii=False, indent=2)
 
-          print(f"Geschichte erfolgreich generiert: {story.get('titel', '')}")
-          print(f"Sammlung enthaelt jetzt {len(sammlung)} Geschichten")
+          print(f"Sammlung enthält jetzt {len(sammlung)} Beiträge")
           PYEOF
 
       - name: Dateien committen
         run: |
           git config user.name "Täglicher Stauner"
-          git config user.email "stauner@hirnholz.de"
+          git config user.email "actions@github.com"
           git add story.json sammlung.json
           git diff --staged --quiet || git commit -m "Stauner: $(date +%Y-%m-%d)"
           git push
