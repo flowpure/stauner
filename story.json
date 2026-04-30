@@ -1,15 +1,15 @@
 {
-  "kategorie": "Klimaforschung",
-  "hauptkategorie": "Geschichte & Kultur",
-  "titel": "Die Lüge der Windstille: Warum die Atmosphäre in der vorindustriellen Zeit nicht ruhiger war, sondern wilder",
-  "stauner": "Wir nehmen an, dass die Atmosphäre vor der Industrialisierung ein friedliches Gleichgewicht war. Doch Klimadaten zeigen: Windmuster waren volatiler, Stürme intensiver, und die natürliche Variabilität größer als heute oft angenommen.",
+  "kategorie": "Mikrobiologie",
+  "hauptkategorie": "Biologie & Ökologie",
+  "titel": "Die Lüge der tödlichen Bakterien: Warum die meisten Mikroben uns nicht angreifen, sondern beschützen",
+  "stauner": "Weniger als 1% aller bekannten Bakterien sind pathogen. Unser Körper beherbergt etwa 38 Billionen mikrobielle Zellen, die uns nicht trotz ihrer Präsenz überleben lassen – sondern weil sie da sind.",
   "absaetze": [
-    "Die vorherrschende Annahme lautet: Die vorindustrielle Atmosphäre war stabil und vorhersehbar. Das 'Anthropozän' habe erst mit der Industrialisierung begonnen, die Atmosphäre zu destabilisieren. Doch diese Sicht unterschätzt die natürliche Dynamik unseres Klimasystems fundamental. Paläoklimatische Rekonstruktionen aus Baumringen, Eisbohrkernen und Seesedimenten enthüllen ein differenzierteres Bild: Die letzten 2.000 Jahre waren geprägt von signifikanten Schwankungen in Zirkulationsmustern, Windgeschwindigkeiten und Sturmhäufigkeit.",
-    "Forscher wie Stoffel und Kollegen analysierten hochauflösende Proxydaten und fanden heraus, dass die atlantische Zirkulation (Golfstrom, AMOC) in der vorindustriellen Zeit regelmäßigen Fluktuationen unterlag – teilweise stärker als in modernen instrumentellen Messreihen dokumentiert. Die Häufigkeit von Extremstürmen in Nordeuropa variierte in Mehrzahnjahrhundert-Zyklen dramatisch. Dies ist kein Beweis gegen den anthropogenen Klimawandel; es zeigt nur: Natürliche Variabilität war nie das Gegenteil von 'wild'.",
-    "Warum ist das ermutigend? Weil es uns lehrt, dass Klimasysteme inhärent dynamisch und anpassungsfähig sind – nicht fragil. Die Natur selbst operiert in Veränderung. Das bedeutet nicht, dass menschengemachte Emissionen harmlos sind. Es bedeutet vielmehr: Ein System, das natürlicherweise mit großen Schwankungen umgeht, hat möglicherweise größere Pufferkräfte als Catastrophism-Narrative vermitteln. Die Aufgabe ist, diese Resilienz zu verstehen und intelligente Anpassung zu unterstützen, nicht passive Lähmung durch 'nie dagewesene Instabilität'."
+    "Wir denken an Bakterien wie an winzige Eindringlinge: Salmonellen, die uns krank machen, E. coli, die Infektionen verursachen, Staphylokokken, die in Krankenhäusern lauern. Die medizinische Geschichte hat uns gelehrt, Mikroben als Feinde zu fürchten. Doch dieser Fokus auf die wenigen gefährlichen Arten hat uns eine gigantische biologische Wahrheit verschleiert: Die überwiegende Mehrheit der Bakterien, die mit uns koexistieren, sind nicht neutral, sondern aktiv lebenswichtig.",
+    "Das Mikrobiom-Paradigma der letzten zwei Jahrzehnte hat revolutionär gezeigt, was bereits da war, aber ignoriert wurde. Unsere Darmflora – dominiert von harmlosen, sogar nützlichen Bakterien – reguliert unser Immunsystem, produziert essentielle Vitamine wie K und B12, die wir selbst nicht synthetisieren können, und kontrolliert die Ausbreitung pathogener Arten durch pure ökologische Konkurrenz. Eine Studie von Ley et al. (2006) zeigte, dass die mikrobielle Vielfalt in unserem Darm direkt mit Stoffwechsel, Immunfunktion und sogar psychischer Gesundheit korreliert. Ohne diese 'unwichtigen' Kommensalen würden wir verhungern, obwohl wir aßen.",
+    "Die positiven Implikationen sind tiefgreifend: Antibiotika, die alle Bakterien ohne Unterscheidung töten, schädigen oft mehr, als sie heilen. Die Wiederherstellung einer gesunden Mikrobiota durch Probiotika oder Fecal Microbiota Transplantation heilt heute Infektionen, die Antibiotika nicht kontrollieren konnten. Wir beginnen zu verstehen, dass der Mensch kein isoliertes Individuum ist, sondern ein lebendiges Ökosystem – und dass unsere beste Verteidigung nicht Sterilität, sondern Vielfalt ist."
   ],
-  "schon_gewusst": "Während der Maunder-Minima (1645–1715) – einer Phase minimaler Sonnenfleckenaktivität – erlebte die Nordhemisphäre stärkere Winterstürme und schnellere Polaroszillationen als in vielen modernen Jahrzehnten, obwohl die globalen Durchschnittstemperaturen 0,3–0,5°C kälter waren.",
-  "quelle": "Stoffel M et al. (2018): Clustering of proxy-based Holocene climate intervals analogous to the 2σ temperature state of the 1981–2010 period. Climate of the Past, 14(6)",
-  "quelle_url": "https://doi.org/10.5194/cp-14-809-2018",
-  "datum": "2026-04-29"
+  "schon_gewusst": "Bakterien können untereinander kommunizieren: Durch einen Prozess namens 'Quorum Sensing' teilen Mikroben chemische Signale aus und koordinieren ihr Verhalten wie ein einzeller Organismus – eine Entdeckung, die unser Verständnis von Einzellern grundlegend verändert hat.",
+  "quelle": "Ley RE, Peterson DA, Gordon JI (2006): Ecological and evolutionary forces shaping microbial diversity in the human intestine. Cell 124(4).",
+  "quelle_url": "https://doi.org/10.1016/j.cell.2006.02.017",
+  "datum": "2026-04-30"
 }
