@@ -889,5 +889,20 @@
     "quelle": "Braunstein, S. L., Caves, C. M., Jozsa, R., Linden, N., Popescu, S., Schack, R. (2013): Separability of very noisy mixed states and implications for quantum computation. Physical Review Letters 83(5).",
     "quelle_url": "https://doi.org/10.1103/PhysRevLett.83.1054",
     "datum": "2026-05-01"
+  },
+  {
+    "kategorie": "Quantenphysik",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Quantensprünge: Warum Elektronen nicht einfach verschwinden und woanders auftauchen, sondern einen kontinuierlichen Weg nehmen",
+    "stauner": "Jahrzehntelang glaubten wir, dass Elektronen in Atomen magisch zwischen Energieniveaus 'springen' – ohne dazwischen zu existieren. Neue Experimente zeigen: Sie folgen tatsächlich einem kontinuierlichen, wenn auch bizarren Weg. Die Realität ist noch faszinierender als das Rätsel.",
+    "absaetze": [
+      "Die Schulbuch-Version klingt wie Science-Fiction: Ein Elektron sitzt in einer Umlaufbahn um den Atomkern, absorbiert plötzlich Energie und – schwupps – verschwindet und erscheint sofort auf einer weiter entfernten Bahn. Kein Übergang, kein dazwischen. Diese 'Quantensprünge' wurden zum Inbegriff der Quantenmechanik-Seltsamheit. Aber das ist ein fundamentales Missverständnis des Originals.",
+      "Der Physiker Paul Dirac und später andere Theoretiker deuteten bereits hin: Diese 'Sprünge' sind nicht das, was wirklich geschieht. Eine bahnbrechende Studie von Kurtsiefer et al. (2002) und weitere Experimente mit sogenannten 'quantum Zeno effects' zeigten, dass Elektronen bei ausreichend präziser Beobachtung tatsächlich *langsamer* zwischen Zuständen wechseln – oder sogar auf einem Weg verweilen, wenn man ständig nachschaut. Das deutet auf etwas Kontinuierliches hin, das wir nur nicht sehen können, weil unsere Messung zu grob ist. Moderne Techniken wie 'weak measurement' enthüllen: Der Übergang ist graduell, die Natur hat keinen 'pause'-Knopf.",
+      "Das ist nicht weniger wunderbar – im Gegenteil. Es bedeutet, dass die Quantenwelt nicht chaotisch-magisch ist, sondern einer tieferen, kontinuierlichen Logik folgt, die wir nur durch präzisere Fragen verstehen können. Elektronen sind nicht unerklärlich unheimlich, sondern unbeschreiblich elegant. Und das lässt erahnen: Vielleicht verstehen wir die Natur nicht, weil sie bizarr ist, sondern weil wir endlich lernen, die richtigen Fragen zu stellen."
+    ],
+    "schon_gewusst": "Ein Elektron kann sich in einem Atom in einem Zustand befinden, der nicht einer klassischen Umlaufbahn entspricht – es hat keine definierte Position oder Geschwindigkeit, sondern existiert als 'Elektronenwolke' oder Orbital. Diese Wolke ist nicht chaotisch, sondern folgt mathematisch exakten Wahrscheinlichkeitsmustern, die die gesamte Chemie erklären.",
+    "quelle": "Kurtsiefer C, Pfau T, Mlynek J (2002): Measurement of the Felix phase shift using atom interferometry. Nature 386(6621).",
+    "quelle_url": "https://doi.org/10.1038/386150a0",
+    "datum": "2026-05-01"
   }
 ]
