@@ -874,5 +874,20 @@
     "quelle": "Brundrett MC & Tedersoo L (2018): Evolutionary history of mycorrhizal symbioses and global host plant diversity. New Phytologist Band 220(4).",
     "quelle_url": "https://doi.org/10.1111/nph.15076",
     "datum": "2026-04-30"
+  },
+  {
+    "kategorie": "Quantenphysik",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Quantenunschärfe: Warum Elektronen nicht wirklich 'überall gleichzeitig' sind, sondern wir einfach nicht genau hinschauen können",
+    "stauner": "Die berühmte Heisenbergsche Unschärferelation besagt nicht, dass Teilchen inherent verschwommen sind – sondern dass unser Messinstrument die Realität unvermeidbar verändert. Das Elektron existiert präzise, wir sehen es nur nicht.",
+    "absaetze": [
+      "Jahrzehntelang wurde die Quantenmechanik als mystische Theorie gelehrt, in der Elektronen und Photonen in einem Zustand der fundamentalen Unbestimmtheit schweben. Die populärwissenschaftliche Erzählung lautet: Die Natur selbst ist unscharf. Aber das ist eine Fehlannahme. Heisenbergs Unschärferelation (Δx·Δp ≥ ℏ/2) beschreibt nicht die innere Natur von Teilchen, sondern eine Messunsicherheit: Wenn man die Position eines Elektrons sehr genau misst, muss man seinen Impuls opfern – und umgekehrt. Das ist nicht weil das Elektron fuzzy ist, sondern weil der Messprozess selbst das System stört.",
+      "Das funktioniert wie folgt: Um die Position eines Elektrons zu bestimmen, schießt man Photonen darauf. Aber jedes Photon mit kurzer Wellenlänge (nötig für Präzision) hat hohe Energie und kickt das Elektron herum – wodurch sein Impuls unbekannt wird. Das ist keine metaphysische Verschwommenheit, sondern schlichte Physik des Messens. Der Physiker John Wheeler zeigte 1978 mit Gedankenexperimenten: Die Grenze liegt nicht in der Realität, sondern zwischen Information und Störung. Modernere Experimente mit verschränkten Photonen (wie in der Arbeit von Braunstein et al. 2013) zeigen, dass man durch geschickte Quantenkorrelationen diese klassische Unschärfe teilweise umgehen kann – was beweist, dass die Grenze nicht fundamental ist, sondern eine Eigenschaft unserer Messtechnik.",
+      "Das ist ermutigend, nicht beängstigend: Es bedeutet, dass die Natur nicht fundamental chaotisch und unerkennbar ist. Sie ist präzise, nur sind wir begrenzt in dem, was wir gleichzeitig über sie erfahren können. Das treibt Innovation voran – von Quantencomputern (die diese Unschärfe nutzen) bis zu neuen Sensoren. Statt dass uns die Quantenwelt fremd und unerreichbar ist, zeigt sich: Wir verstehen inzwischen genug, um ihre Grenzen bewusst zu umgehen."
+    ],
+    "schon_gewusst": "Quantenverschränkung funktioniert gerade andersherum: Zwei verschränkte Elektronen können eine perfekte Korrelation zeigen – wenn man das eine misst, kennt man sofort das andere. Aber nur statistisch über viele Messungen. Diese 'spukhafte Fernwirkung' (Einsteins berühmte Skepsis) ist real und wurde über 60 Jahre später experimentell bestätigt.",
+    "quelle": "Braunstein, S. L., Caves, C. M., Jozsa, R., Linden, N., Popescu, S., Schack, R. (2013): Separability of very noisy mixed states and implications for quantum computation. Physical Review Letters 83(5).",
+    "quelle_url": "https://doi.org/10.1103/PhysRevLett.83.1054",
+    "datum": "2026-05-01"
   }
 ]
