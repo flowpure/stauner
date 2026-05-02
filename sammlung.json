@@ -919,5 +919,20 @@
     "quelle": "Thaler, R. H., & Johnson, E. J. (1990): Gambling with the House Money and Trying to Break Even: The Effects of Prior Outcomes on Risky Choice. Management Science, 36(6).",
     "quelle_url": "https://doi.org/10.1287/mnsc.36.6.643",
     "datum": "2026-05-02"
+  },
+  {
+    "kategorie": "Verhaltensökonomie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Standardoption: Warum wir nicht faul sind, sondern unsere Entscheidungen durch Voreinstellungen sabotieren",
+    "stauner": "Wir denken, Menschen treffen bewusste Entscheidungen. Doch ein einfacher Haken in einem Formular verändert das Verhalten von Millionen – und niemand merkt es. Das zeigt: Unsere 'freie Wahl' ist eine Illusion, die wir selbst erschaffen.",
+    "absaetze": [
+      "Wir glauben an unsere Autonomie. Wenn ein Kreditkartenunternehmen uns fragt, ob wir in ein Sparprodukt einzahlen möchten, denken wir: Das ist unsere bewusste Entscheidung. Doch die Verhaltensökonomie offenbart ein verstörendes Muster: Was am weitesten oben im Formular voreingestellt ist, wird von 85–90% der Menschen akzeptiert – unabhängig davon, ob es ‚Ja' oder ‚Nein' ist. Wir sind nicht faul. Wir folgen unbewusst dem Pfad des geringsten Widerstands.",
+      "Die bahnbrechende Studie von Thaler & Benartzi (2004) untersuchte ein amerikanisches Unternehmen, das seine Sparquoten ändern wollte. Die Lösung war elegant: Sie machten die automatische Erhöhung der Sparquote zur Standardeinstellung – Mitarbeiter konnten abwählen, statt bewusst zuzustimmen. Das Ergebnis war revolutionär: Die Sparquote stieg von 3,5% auf über 13,5% innerhalb weniger Jahre. Dasselbe Unternehmen, dieselben Menschen – nur die Voreinstellung änderte sich. Dies ist nicht Manipulation. Dies ist die Architektur von Entscheidungen, die unsere Wahlfreiheit gestaltet.",
+      "Doch hier liegt die überraschende gute Nachricht: Wenn wir verstehen, dass Standardoptionen unser Verhalten formen, können wir sie bewusst zu unserem Vorteil nutzen. Banken, Regierungen und Unternehmen weltweit haben erkannt, dass sie mit ethischem ‚Nudging' – sanftem Stupsen durch kluge Voreinstellungen – Menschen helfen können, bessere Entscheidungen zu treffen. Dänemark erhöhte seine Organspenderate von 4% auf über 99%, indem es die Standardoption änderte. Das ist keine Illusion der Freiheit – das ist Freiheit im Dienste des Gemeinwohls."
+    ],
+    "schon_gewusst": "In Österreich führte die bloße Änderung einer Voreinstellung bei der Pensionsversicherung dazu, dass Millionen Menschen automatisch in bessere Vorsorgepläne aufgenommen wurden – ohne dass ein einziger aktiv etwas tun musste. Ihre finanzielle Zukunft verbesserte sich durch die Architektur einer Entscheidung.",
+    "quelle": "Thaler, Richard H. & Benartzi, Shlomo (2004): Save More Tomorrow: Using Behavioral Economics to Increase Employee Saving. Journal of Political Economy, 112(S1).",
+    "quelle_url": "https://doi.org/10.1086/380085",
+    "datum": "2026-05-02"
   }
 ]
