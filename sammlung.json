@@ -904,5 +904,20 @@
     "quelle": "Kurtsiefer C, Pfau T, Mlynek J (2002): Measurement of the Felix phase shift using atom interferometry. Nature 386(6621).",
     "quelle_url": "https://doi.org/10.1038/386150a0",
     "datum": "2026-05-01"
+  },
+  {
+    "kategorie": "Verhaltensökonomie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Verlustangst: Warum wir nicht vor Verlusten fliehen, sondern sie aktiv suchen – wenn wir vorher gewonnen haben",
+    "stauner": "Wir denken, Menschen vermeiden Risiken um jeden Preis. Doch Verhaltensökonomen haben entdeckt: Nach einem Gewinn werden wir plötzlich mutig und nehmen größere Risiken in Kauf. Dieser 'House Money Effect' erklärt, warum Pokerspieler nach einem Gewinn wild wetten – und warum das eigentlich weise sein könnte.",
+    "absaetze": [
+      "Die klassische Verhaltensökonomie lehrte uns: Menschen sind Verlustvermeider. Wir fühlen einen Verlust intensiver als einen gleich großen Gewinn. Deshalb – so die Theorie – sollten wir nach einem Gewinn vorsichtig werden und unser Geld schützen. Doch seit den 1980er Jahren beobachten Forscher ein faszinierendes Phänomen: Genau das Gegenteil passiert. Nach einem Gewinn werden Menschen plötzlich risikofreudiger, nicht vorsichtiger. Psychologe Richard Thaler nannte dieses Phänomen den 'House Money Effect' – als würden wir Gewinne mental als 'Spielgeld' kategorisieren, das nicht wirklich 'zu uns' gehört.",
+      "Die Forschung zeigt: Dieser Effekt ist nicht irrational, sondern hochlogisch. Wenn Sie 100 Euro gewonnen haben, hat sich Ihre finanzielle Situation bereits verbessert. Ein neues Risiko kann Sie nicht unter Ihre Ausgangslage bringen – Sie haben ja bereits gewonnen. Psychologisch bedeutet das: Der emotionale 'Schmerz' eines Verlusts ist neutralisiert, weil er sich auf ein Gewinnszenario bezieht. Menschen, die gerade einen Erfolg erlebt haben, investieren daher mutiger in neue Projekte, gründen Unternehmen oder probieren innovative Strategien aus. Sie haben weniger zu verlieren gefühlt, obwohl die objektive Risikosituation gleich ist.",
+      "Das ist überraschend ermutigend: Nach Erfolgen werden wir nicht gieriger oder dumm – wir werden psychologisch freier. Ein Künstler, der sein erstes Bild verkauft hat, kann sich jetzt ein risikoreiches Experiment leisten. Ein Unternehmer, der ein erfolgreiches Projekt abgeschlossen hat, kann jetzt mutig in Richtung Wachstum experimentieren. Der 'House Money Effect' zeigt uns, dass psychologische Sicherheit – nicht mangelnde – zu Innovation und Mut führt. Erfolg schafft nicht Stagnation, sondern den inneren Raum für den nächsten, größeren Sprung."
+    ],
+    "schon_gewusst": "Der umgekehrte Effekt existiert auch: Nach einem Verlust neigen Menschen zu riskanten 'Wiederherstellungswetten'. Wenn Sie 100 Euro verloren haben, wetten Sie wild, um den Verlust auszugleichen – obwohl mathematisch die Chancen gegen Sie stehen. Dieses Phänomen heißt 'Loss Chasing' und erklärt, warum Spielsucht so schwer zu bekämpfen ist.",
+    "quelle": "Thaler, R. H., & Johnson, E. J. (1990): Gambling with the House Money and Trying to Break Even: The Effects of Prior Outcomes on Risky Choice. Management Science, 36(6).",
+    "quelle_url": "https://doi.org/10.1287/mnsc.36.6.643",
+    "datum": "2026-05-02"
   }
 ]
