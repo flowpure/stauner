@@ -964,5 +964,20 @@
     "quelle": "Schroeder et al. (2016): Understanding latent sector errors and how to protect against them. ACM Transactions on Storage. 12(3).",
     "quelle_url": "https://doi.org/10.1145/2934667",
     "datum": "2026-05-03"
+  },
+  {
+    "kategorie": "Ozeanographie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der toten Sedimente: Warum der Meeresboden nicht einfach Schlamm ist, sondern eine verborgene Mikrobenfabrik",
+    "stauner": "Der Meeresboden gilt als ökologisch inert – doch unter wenigen Zentimetern Sediment findet eine der intensivsten biologischen Aktivitäten unseres Planeten statt. Meeresböden beherbergen mehr einzellige Organismen als alle Ozeane zusammen enthalten.",
+    "absaetze": [
+      "Wer von Meeresböden spricht, denkt an tote Ablagerungen – schlammige, stille Schichten, die sich seit Jahrmillionen ansammeln. Diese Vorstellung prägt noch immer Lehrbücher und populärwissenschaftliche Darstellungen. Der Meeresboden gilt als passiver Speicherort, als Endzustand organischer Materie, die irgendwann zu Fossilien wird oder verschwindet. Doch diese Intuition täuscht fundamental.",
+      "Die Realität ist dramatisc anders: In den obersten 10 Zentimetern Sediment existiert eine dichte Metropole aus Mikroorganismen – Bakterien, Archaeen und Protozoen – die dort eine der höchsten Biomassen des gesamten Planeten bildet. Diese Mikroben sind nicht passiv; sie katalysieren intensive Stoffwechselprozesse, bauen Nährstoffe ab, produzieren Gase wie Methan und Kohlendioxid und regeln damit große Biogeochemische Kreisläufe. Die Sedimente sind tatsächlich ein aktives Bioreaktorsystem. Schätzungen zeigen, dass die Menge an mikrobieller Biomasse in Meeressedimenten etwa 350 Milliarden Tonnen Kohlenstoff entspricht – vergleichbar mit der gesamten Biomasse aller Pflanzen auf der Erde.",
+      "Diese Erkenntnis hat revolutionäre Implikationen für unser Verständnis des Ozeans als Ganzes. Meeresböden sind nicht Friedhöfe, sondern chemische Fabriken, die kontinuierlich Nährstoffe recyceln, Energie aus chemischen Gradienten extrahieren und damit indirekt die Produktivität der gesamten Wassersäule beeinflussen. Sie spielen eine Schlüsselrolle im globalen Kohlenstoffzyklus und helfen zu regulieren, wie viel CO₂ in den Ozeanen verbleibt oder freigesetzt wird. Wenn wir den Ozean verstehen wollen – seine Gesundheit, seine Widerstandskraft, seine Zukunft – müssen wir anfangen, die unsichtbaren Arbeiter unter dem Sediment ernst zu nehmen. Sie sind nicht marginal. Sie sind zentral."
+    ],
+    "schon_gewusst": "Manche Meeresböden erzeugen spontan Methanhydrate – ein eisähnliches Gemisch aus Wasser und Methan, das unter Druck in der Kälte stabil bleibt. An manchen Stellen 'brennt' der Meeresboden buchstäblich, wenn dieses gefrorene Methan an die Oberfläche gelangt und entzündet wird.",
+    "quelle": "Whitman et al. (1998): Prokaryotes: The unseen majority. Proceedings of the National Academy of Sciences 95(12).",
+    "quelle_url": "https://doi.org/10.1073/pnas.95.12.6578",
+    "datum": "2026-05-04"
   }
 ]
