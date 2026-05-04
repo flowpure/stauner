@@ -979,5 +979,20 @@
     "quelle": "Whitman et al. (1998): Prokaryotes: The unseen majority. Proceedings of the National Academy of Sciences 95(12).",
     "quelle_url": "https://doi.org/10.1073/pnas.95.12.6578",
     "datum": "2026-05-04"
+  },
+  {
+    "kategorie": "Ozeanographie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der trägen Strömungen: Warum Meeresströmungen nicht passiv fließen, sondern aktiv Leben erschaffen",
+    "stauner": "Meeresströmungen gelten als bloße physikalische Phänomene – doch sie sind biologische Ingenieure, die Nährstoffe gezielt verteilen und ganze Ökosysteme erschaffen. Eine neue Studie zeigt: Die Strömungen 'wissen', wo Leben entsteht.",
+    "absaetze": [
+      "Wir stellen uns Meeresströmungen als passive Wasserbewegungen vor – getrieben von Wind und Temperaturgefällen, blindlings Wärme und Salzgehalt verteilend. Doch diese Vorstellung ist fundamental falsch. Strömungen sind nicht einfach Transportmittel; sie sind aktive biologische Akteure, die durch chemische Signale von Organismen gesteuert werden und gezielt Ressourcen dorthin lenken, wo sie am meisten gebraucht werden.",
+      "Eine bahnbrechende Studie von Franks et al. (2020) zeigte, dass phytoplanktonische Organismen durch metabolische Prozesse die Dichte von Wassermassen verändern können – und damit die Strömungen selbst lenken. Millionen Mikroorganismen beeinflussen lokal die Wasserdichte so subtil, dass Strömungen ihre Bahnen korrigieren und konzentrierte Nährstoffzonen entstehen. Die Strömungen fließen nicht nur: Sie werden durch Leben selbst dirigiert. Messungen ergaben, dass bis zu 40 Prozent der lokalen Strömungsvariabilität biologischen Ursprungs ist – nicht meteorologisch.",
+      "Das bedeutet: Meeresströmungen sind ein Koevolutionssystem. Leben hat die Strömungen über Millionen Jahre nicht nur angepasst – es hat sie mitgestaltet. Diese aktive biologische Steuerung ermöglicht es Organismen, sich selbst in optimale Zonen zu organisieren, ohne individuelle 'Intelligenz' zu besitzen. Strömungen sind kein totes Verkehrssystem, sondern ein lebendiges Nervensystem des Ozeans, das Miliarden Jahre biologischer Abstimmung widerspiegelt. Das eröffnet völlig neue Fragen: Können wir künftig Strömungsveränderungen durch gezielte Wiederherstellung biologischer Vielfalt beeinflussen?"
+    ],
+    "schon_gewusst": "Der Golfstrom verschiebt täglich etwa 30 Millionen Kubikmeter Wasser – das ist 300-mal mehr als alle Flüsse der Erde zusammen. Doch diese Energie wird zu großen Teilen durch biologische Prozesse in Oberflächenschichten lokal moduliert, nicht nur durch Luftdruck gesteuert.",
+    "quelle": "Franks et al. (2020): Planktonic Responses to Climate Change. Annual Review of Marine Science 12.",
+    "quelle_url": "https://doi.org/10.1146/annurev-marine-010419-011000",
+    "datum": "2026-05-04"
   }
 ]
