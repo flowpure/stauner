@@ -1,15 +1,15 @@
 {
-  "kategorie": "Ozeanographie",
-  "hauptkategorie": "Biologie & Ökologie",
-  "titel": "Die Lüge der trägen Strömungen: Warum Meeresströmungen nicht passiv fließen, sondern aktiv Leben erschaffen",
-  "stauner": "Meeresströmungen gelten als bloße physikalische Phänomene – doch sie sind biologische Ingenieure, die Nährstoffe gezielt verteilen und ganze Ökosysteme erschaffen. Eine neue Studie zeigt: Die Strömungen 'wissen', wo Leben entsteht.",
+  "kategorie": "Chemie",
+  "hauptkategorie": "Naturwissenschaften",
+  "titel": "Die Lüge der trägen Rost-Zerstörung: Warum Oxidation nicht einfach Material aufzehrt, sondern oft Leben rettet",
+  "stauner": "Wir denken, Rost ist der Feind – eine zerstörerische Kraft, die Metalle aufzehrt. Doch in Wahrheit ist Oxidation einer der wichtigsten chemischen Prozesse, der Elektrizität erzeugt, Giftstoffe neutralisiert und sogar Krankheiten bekämpft.",
   "absaetze": [
-    "Wir stellen uns Meeresströmungen als passive Wasserbewegungen vor – getrieben von Wind und Temperaturgefällen, blindlings Wärme und Salzgehalt verteilend. Doch diese Vorstellung ist fundamental falsch. Strömungen sind nicht einfach Transportmittel; sie sind aktive biologische Akteure, die durch chemische Signale von Organismen gesteuert werden und gezielt Ressourcen dorthin lenken, wo sie am meisten gebraucht werden.",
-    "Eine bahnbrechende Studie von Franks et al. (2020) zeigte, dass phytoplanktonische Organismen durch metabolische Prozesse die Dichte von Wassermassen verändern können – und damit die Strömungen selbst lenken. Millionen Mikroorganismen beeinflussen lokal die Wasserdichte so subtil, dass Strömungen ihre Bahnen korrigieren und konzentrierte Nährstoffzonen entstehen. Die Strömungen fließen nicht nur: Sie werden durch Leben selbst dirigiert. Messungen ergaben, dass bis zu 40 Prozent der lokalen Strömungsvariabilität biologischen Ursprungs ist – nicht meteorologisch.",
-    "Das bedeutet: Meeresströmungen sind ein Koevolutionssystem. Leben hat die Strömungen über Millionen Jahre nicht nur angepasst – es hat sie mitgestaltet. Diese aktive biologische Steuerung ermöglicht es Organismen, sich selbst in optimale Zonen zu organisieren, ohne individuelle 'Intelligenz' zu besitzen. Strömungen sind kein totes Verkehrssystem, sondern ein lebendiges Nervensystem des Ozeans, das Miliarden Jahre biologischer Abstimmung widerspiegelt. Das eröffnet völlig neue Fragen: Können wir künftig Strömungsveränderungen durch gezielte Wiederherstellung biologischer Vielfalt beeinflussen?"
+    "Rost gilt als Schädling: Ein rötliches Zeichen von Verfall, das Autos, Brücken und Maschinen zerstört. Diese Wahrnehmung ist so etabliert, dass wir Millionen in Rostschutz investieren. Doch diese Sicht ist grundlegend unvollständig. Oxidation – die chemische Reaktion zwischen Metallen und Sauerstoff – ist nicht einfach Zerstörung, sondern eine der produktivsten Chemikalien-Transformationen in der Natur und Medizin.",
+    "Die Realität ist faszinierend: Oxidation ist die Grundlage von Batterien und Brennstoffzellen, die erneuerbare Energien speichern. Sie ist das Prinzip hinter Antioxidantien, die in Blaubeeren und grünem Tee Zellschäden verhindern – indem sie *selbst* oxidiert werden, um andere Moleküle zu schützen. Noch überraschender: Ärzte nutzen kontrollierte Oxidation in der Krebstherapie, wo Wasserstoffperoxid gezielt Tumorzellen angreift. Eine Studie von Trachootham et al. (2009) zeigte, dass erhöhte oxidative Belastung Krebszellen selektiv zerstört, während gesunde Zellen durch ihre natürliche Abwehr geschützt bleiben.",
+    "Das Paradoxe: Das gleiche chemische Prinzip, das Eisenbrücken schwächt, kann menschliche Krankheiten heilen. Oxidation ist nicht gut oder böse – es ist ein universelles Werkzeug der Transformation. Wenn wir verstehen, dass Rost nicht nur Verfall bedeutet, sondern auch die Sprache ist, in der Chemie Leben erschafft, ändern wir unsere Sicht auf einen der ältesten Prozesse der Erde."
   ],
-  "schon_gewusst": "Der Golfstrom verschiebt täglich etwa 30 Millionen Kubikmeter Wasser – das ist 300-mal mehr als alle Flüsse der Erde zusammen. Doch diese Energie wird zu großen Teilen durch biologische Prozesse in Oberflächenschichten lokal moduliert, nicht nur durch Luftdruck gesteuert.",
-  "quelle": "Franks et al. (2020): Planktonic Responses to Climate Change. Annual Review of Marine Science 12.",
-  "quelle_url": "https://doi.org/10.1146/annurev-marine-010419-011000",
-  "datum": "2026-05-04"
+  "schon_gewusst": "Flamingos verdanken ihre rosa Farbe nicht ihrer Genetik, sondern einer kontrollierten Oxidation: Carotinoid-Pigmente in ihrer Nahrung (Algen und Krebstiere) werden durch enzymatische Oxidation in leuchtende rosa Farbstoffe umgewandelt – ein biologisches 'Rost-Äquivalent' der Natur.",
+  "quelle": "Trachootham et al. (2009): Targeting cancer cells by ROS-mediated mechanisms: a radical therapeutic approach? Nature Reviews Drug Discovery, 8(7).",
+  "quelle_url": "https://doi.org/10.1038/nrd2803",
+  "datum": "2026-05-05"
 }
