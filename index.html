@@ -289,6 +289,9 @@
   }
   .colophon-source{font-family:var(--sans);font-size:clamp(.58rem,.85vw,.65rem);color:var(--muted);letter-spacing:.05em;line-height:1.6}
   .colophon-source strong{color:var(--ink-3);font-weight:600}
+  .colophon-disclaimer{font-family:var(--sans);font-size:clamp(.52rem,.75vw,.6rem);color:var(--muted);letter-spacing:.05em;line-height:1.6;margin-top:.5rem;opacity:.7}
+  .colophon-disclaimer a{color:#2e8b57;text-decoration:none}
+  .colophon-disclaimer a:hover{text-decoration:underline}
 
   /* ── Footer ── */
   .site-footer{background:var(--paper-3);border-top:1px solid var(--rule)}
@@ -897,6 +900,8 @@ const TRANSLATIONS = {
     errorTitle: 'Heute keine Verbindung',
     errorText: 'Der Stauner konnte nicht geladen werden. Bitte versuche es gleich noch einmal.',
     errorBtn: 'Erneut versuchen',
+    disclaimer: 'KI-generierte Inhalte — Fakten können Fehler enthalten. Bitte eigenständig prüfen:',
+    scholarLink: 'Google Scholar',
     sammlung_url: 'sammlung.html'
   },
   en: {
@@ -917,6 +922,8 @@ const TRANSLATIONS = {
     errorTitle: 'No connection today',
     errorText: "The wonder could not be loaded. Please try again in a moment.",
     errorBtn: 'Try again',
+    disclaimer: 'AI-generated content — facts may contain errors. Please verify independently:',
+    scholarLink: 'Google Scholar',
     sammlung_url: 'sammlung.html'
   }
 };
@@ -1085,6 +1092,7 @@ function renderInLang(story, lang) {
     <div class="divider"><span class="divider-mark">✦ ✦ ✦</span></div>
     <div class="colophon">
       <span class="colophon-source"><strong>${t.quelleLabel}:</strong> ${sourceHtml}</span>
+      <p class="colophon-disclaimer">🤖 ${t.disclaimer} <a href="https://scholar.google.com/scholar?q=${encodeURIComponent(story.titel)}" target="_blank" rel="noopener">${t.scholarLink}</a></p>
     </div>
   `;
 }
