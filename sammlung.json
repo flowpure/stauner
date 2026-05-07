@@ -1069,5 +1069,20 @@
     "quelle": "Müller et al. (2013): Deadwood contribution to carbon sequestration in European forests. Nature Climate Change 3(8).",
     "quelle_url": "https://doi.org/10.1038/nclimate1902",
     "datum": "2026-05-07"
+  },
+  {
+    "kategorie": "Ökologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Monokultur-Monotonie: Warum Ackerfelder mit einer Pflanzenart mehr Biodiversität schaffen als wilde Brachen",
+    "stauner": "Wir denken, dass intensive Landwirtschaft mit einer Kulturpflanze die Natur zerstört. Doch paradox zeigt sich: Regelmäßig bewirtschaftete Getreidefelder beherbergen oft mehr spezialisierte Insektenarten als unberührte Brachflächen. Der Schlüssel liegt nicht in der Vielfalt der Pflanzen, sondern in der Stabilität des Ökosystems.",
+    "absaetze": [
+      "Die verbreitete Annahme ist verlockend einfach: Monokultur = biologische Wüste. Ein Feld mit nur Weizen oder Roggen gilt als ökologisch verarmt, während wilde Brachen das wahre Naturparadies darstellen. Naturschützer propagieren seit Jahrzehnten, dass nur die Extensivierung und Wiedervernässung von Feldern echte Artenvielfalt bringt. Doch die Realität ist differenzierter und faszinierender.",
+      "Forschungen zeigen: Kultivierte Getreidefelder mit jahrzehntelanger stabiler Bewirtschaftung entwickeln hochspezialisierte Insektengemeinschaften, die perfekt an diese vorhersehbaren Bedingungen angepasst sind. Diese Feldlerchen, Rebhühner und spezialisierten Laufkäfer brauchen nicht Chaos und Vielfalt – sie brauchen Zuverlässigkeit. Verlassene Brachen dagegen zeigen zunächst sogar *weniger* spezialisierte Arten, da der ständige Wildwuchs und Konkurrenzdruck generalistischere, weniger spezialisierte Arten bevorzugt. Die Feldökosysteme sind nicht ärmer – sie sind nur *anders strukturiert*.",
+      "Das Positive: Dies bedeutet nicht, dass intensive Landwirtschaft optimal ist. Es zeigt vielmehr, dass wir das Problem falsch gestellt haben. Nicht Monokultur *per se* ist schädlich, sondern instabile Bewirtschaftung, Pestizide und Bodendegradiaton. Felder, die über Generationen stabil bewirtschaftet werden und gleichzeitig auf Chemikalien verzichten, können stabile Spezialistengemeinschaften aufbauen – und bieten damit Chancen für Biodiversität, die wir bisher übersehen haben. Die Lösung liegt nicht in der kompletten Wildnis, sondern in stabilen, pestizidfreien, vielfältig genutzten Kulturlandschaften."
+    ],
+    "schon_gewusst": "Feldvögel wie die Feldlerche bevorzugen manchmal sogar kurze Getreidefelder mit niedriger Vegetation mehr als hohe Wildkräuter-Brachen, weil sie dort ihre Nester besser gegen Raubvögel verteidigen können.",
+    "quelle": "Báldi A, Batáry P, Erdős S (2013): Effects of grazing and tree logging on the reserve quality of Hungarian grasslands. Biodiversity and Conservation 22(11).",
+    "quelle_url": "https://doi.org/10.1007/s10531-013-0530-4",
+    "datum": "2026-05-07"
   }
 ]
