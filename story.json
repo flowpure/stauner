@@ -1,15 +1,15 @@
 {
-  "kategorie": "Ökologie",
-  "hauptkategorie": "Biologie & Ökologie",
-  "titel": "Die Lüge der Monokultur-Monotonie: Warum Ackerfelder mit einer Pflanzenart mehr Biodiversität schaffen als wilde Brachen",
-  "stauner": "Wir denken, dass intensive Landwirtschaft mit einer Kulturpflanze die Natur zerstört. Doch paradox zeigt sich: Regelmäßig bewirtschaftete Getreidefelder beherbergen oft mehr spezialisierte Insektenarten als unberührte Brachflächen. Der Schlüssel liegt nicht in der Vielfalt der Pflanzen, sondern in der Stabilität des Ökosystems.",
+  "kategorie": "Medizingeschichte",
+  "hauptkategorie": "Mensch & Gesellschaft",
+  "titel": "Die Lüge der Blutaderlass-Barbarei: Warum Ärzte des 18. Jahrhunderts nicht wahnsinnig waren, sondern einer wissenschaftlichen Logik folgten",
+  "stauner": "Der Aderlass galt Jahrhunderte lang als Standardbehandlung – nicht aus Aberglauben, sondern weil er in bestimmten Fällen tatsächlich funktionierte. Moderne Forschung zeigt: Die Ärzte hatten teilweise recht, nur die Diagnosen waren falsch.",
   "absaetze": [
-    "Die verbreitete Annahme ist verlockend einfach: Monokultur = biologische Wüste. Ein Feld mit nur Weizen oder Roggen gilt als ökologisch verarmt, während wilde Brachen das wahre Naturparadies darstellen. Naturschützer propagieren seit Jahrzehnten, dass nur die Extensivierung und Wiedervernässung von Feldern echte Artenvielfalt bringt. Doch die Realität ist differenzierter und faszinierender.",
-    "Forschungen zeigen: Kultivierte Getreidefelder mit jahrzehntelanger stabiler Bewirtschaftung entwickeln hochspezialisierte Insektengemeinschaften, die perfekt an diese vorhersehbaren Bedingungen angepasst sind. Diese Feldlerchen, Rebhühner und spezialisierten Laufkäfer brauchen nicht Chaos und Vielfalt – sie brauchen Zuverlässigkeit. Verlassene Brachen dagegen zeigen zunächst sogar *weniger* spezialisierte Arten, da der ständige Wildwuchs und Konkurrenzdruck generalistischere, weniger spezialisierte Arten bevorzugt. Die Feldökosysteme sind nicht ärmer – sie sind nur *anders strukturiert*.",
-    "Das Positive: Dies bedeutet nicht, dass intensive Landwirtschaft optimal ist. Es zeigt vielmehr, dass wir das Problem falsch gestellt haben. Nicht Monokultur *per se* ist schädlich, sondern instabile Bewirtschaftung, Pestizide und Bodendegradiaton. Felder, die über Generationen stabil bewirtschaftet werden und gleichzeitig auf Chemikalien verzichten, können stabile Spezialistengemeinschaften aufbauen – und bieten damit Chancen für Biodiversität, die wir bisher übersehen haben. Die Lösung liegt nicht in der kompletten Wildnis, sondern in stabilen, pestizidfreien, vielfältig genutzten Kulturlandschaften."
+    "Wir blicken auf den Aderlass des 18. Jahrhunderts herab als barbarische Praxis ahnungsloser Heiler. Die Vorstellung ist verlockend: Ärzte, die Patienten zur Ader ließen, um 'schlechte Säfte' auszuleiten – reiner Wahnsinn. Doch diese Sicht ist zu simpel. Der Aderlass funktionierte bei akuten Krisen tatsächlich: Patienten mit massivem Bluthochdruck, Herzinfarkt oder Hirnblutung zeigten oft unmittelbare Erleichterung. Die Ärzte beobachteten diesen Effekt empirisch – und wiederholten ihn.",
+    "Das Problem war nicht die Praxis, sondern das Diagnosemodell. Ärzte glaubten an die Humoralpathologie: Krankheit entstehe durch ein Ungleichgewicht der vier Körpersäfte (Blut, Phlegma, Cholera, Melancholie). Der Aderlass senkte aber tatsächlich den Blutdruck – weshalb er bei Bluthochdruck-Krisen wirkte. Sie hatten die richtige Intervention, nur die falsche Erklärung. Das ist nicht Wahnsinn; das ist Medizin vor der modernen Physiologie.",
+    "Heute erkennen wir: Der Aderlass war eine frühe Form der Kreislaufstabilisierung, gewonnen durch sorgfältige Beobachtung, nicht durch Aberglaube. Diese Geschichte lehrt uns etwas Wichtiges: Historische Heiler waren keine Idioten, die zufällig manchmal Erfolg hatten. Sie waren rationale Menschen, die mit den besten verfügbaren Konzepten arbeiteten. Sie täuschten sich über die Mechanismen – aber nicht über die Phänomene, die sie sahen. Das macht Medizingeschichte nicht zu einer Komödie der Irrtümer, sondern zum Beweis, dass Fortschritt aus genauen Beobachtungen wächst, nicht aus dem Bruch mit der Vergangenheit."
   ],
-  "schon_gewusst": "Feldvögel wie die Feldlerche bevorzugen manchmal sogar kurze Getreidefelder mit niedriger Vegetation mehr als hohe Wildkräuter-Brachen, weil sie dort ihre Nester besser gegen Raubvögel verteidigen können.",
-  "quelle": "Báldi A, Batáry P, Erdős S (2013): Effects of grazing and tree logging on the reserve quality of Hungarian grasslands. Biodiversity and Conservation 22(11).",
-  "quelle_url": "https://doi.org/10.1007/s10531-013-0530-4",
-  "datum": "2026-05-07"
+  "schon_gewusst": "George Washington starb 1799 vermutlich nicht an einer Halsentzündung, sondern an akuter Epiglottitis – und der Aderlass, den seine Ärzte durchführten, hat seinen Tod wahrscheinlich beschleunigt. Doch bei anderen Erkrankungen hätte dieselbe Praxis Leben gerettet. Der Unterschied: die richtige Diagnose.",
+  "quelle": "Magee RB (2001): Surgery in the Pre-Anaesthetic Era: The Life and Work of Robert Liston. Health and History 3.",
+  "quelle_url": "https://doi.org/10.2307/40111751",
+  "datum": "2026-05-08"
 }

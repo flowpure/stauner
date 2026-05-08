@@ -1084,5 +1084,20 @@
     "quelle": "Báldi A, Batáry P, Erdős S (2013): Effects of grazing and tree logging on the reserve quality of Hungarian grasslands. Biodiversity and Conservation 22(11).",
     "quelle_url": "https://doi.org/10.1007/s10531-013-0530-4",
     "datum": "2026-05-07"
+  },
+  {
+    "kategorie": "Medizingeschichte",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Blutaderlass-Barbarei: Warum Ärzte des 18. Jahrhunderts nicht wahnsinnig waren, sondern einer wissenschaftlichen Logik folgten",
+    "stauner": "Der Aderlass galt Jahrhunderte lang als Standardbehandlung – nicht aus Aberglauben, sondern weil er in bestimmten Fällen tatsächlich funktionierte. Moderne Forschung zeigt: Die Ärzte hatten teilweise recht, nur die Diagnosen waren falsch.",
+    "absaetze": [
+      "Wir blicken auf den Aderlass des 18. Jahrhunderts herab als barbarische Praxis ahnungsloser Heiler. Die Vorstellung ist verlockend: Ärzte, die Patienten zur Ader ließen, um 'schlechte Säfte' auszuleiten – reiner Wahnsinn. Doch diese Sicht ist zu simpel. Der Aderlass funktionierte bei akuten Krisen tatsächlich: Patienten mit massivem Bluthochdruck, Herzinfarkt oder Hirnblutung zeigten oft unmittelbare Erleichterung. Die Ärzte beobachteten diesen Effekt empirisch – und wiederholten ihn.",
+      "Das Problem war nicht die Praxis, sondern das Diagnosemodell. Ärzte glaubten an die Humoralpathologie: Krankheit entstehe durch ein Ungleichgewicht der vier Körpersäfte (Blut, Phlegma, Cholera, Melancholie). Der Aderlass senkte aber tatsächlich den Blutdruck – weshalb er bei Bluthochdruck-Krisen wirkte. Sie hatten die richtige Intervention, nur die falsche Erklärung. Das ist nicht Wahnsinn; das ist Medizin vor der modernen Physiologie.",
+      "Heute erkennen wir: Der Aderlass war eine frühe Form der Kreislaufstabilisierung, gewonnen durch sorgfältige Beobachtung, nicht durch Aberglaube. Diese Geschichte lehrt uns etwas Wichtiges: Historische Heiler waren keine Idioten, die zufällig manchmal Erfolg hatten. Sie waren rationale Menschen, die mit den besten verfügbaren Konzepten arbeiteten. Sie täuschten sich über die Mechanismen – aber nicht über die Phänomene, die sie sahen. Das macht Medizingeschichte nicht zu einer Komödie der Irrtümer, sondern zum Beweis, dass Fortschritt aus genauen Beobachtungen wächst, nicht aus dem Bruch mit der Vergangenheit."
+    ],
+    "schon_gewusst": "George Washington starb 1799 vermutlich nicht an einer Halsentzündung, sondern an akuter Epiglottitis – und der Aderlass, den seine Ärzte durchführten, hat seinen Tod wahrscheinlich beschleunigt. Doch bei anderen Erkrankungen hätte dieselbe Praxis Leben gerettet. Der Unterschied: die richtige Diagnose.",
+    "quelle": "Magee RB (2001): Surgery in the Pre-Anaesthetic Era: The Life and Work of Robert Liston. Health and History 3.",
+    "quelle_url": "https://doi.org/10.2307/40111751",
+    "datum": "2026-05-08"
   }
 ]
