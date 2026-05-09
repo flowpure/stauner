@@ -1129,5 +1129,20 @@
     "quelle": "Dyre JC (2006): Colloquium: The glass transition and elastic models of glass-forming liquids. Reviews of Modern Physics 78(3).",
     "quelle_url": "https://doi.org/10.1103/RevModPhys.78.953",
     "datum": "2026-05-09"
+  },
+  {
+    "kategorie": "Materialwissenschaft",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Rostplage: Warum Rost nicht einfach Zerstörung ist, sondern oft Schutz bietet",
+    "stauner": "Wir fürchten Rost wie einen Feind – doch unter bestimmten Bedingungen bildet Oxidation eine schützende Schicht, die Metalle paradoxerweise länger erhält. Manche Materialien brauchen Rost, um zu überleben.",
+    "absaetze": [
+      "Rost gilt als der natürliche Feind des Metalls. Jede rötlich-braune Verfärbung scheint ein Todesurteil zu sein: Das Material zerfällt, wird schwächer, muss ersetzt werden. Deshalb investieren wir Milliarden in Rostschutz – Farben, Beschichtungen, Legierungen. Die Annahme wirkt selbstverständlich: Oxidation = Zerstörung.",
+      "Doch die Materialwissenschaft zeigt ein differenzierteres Bild. Bei Materialien wie Cortenstahl oder bestimmten Kupferlegierungen führt kontrollierte Oxidation zur Bildung einer dichten Patina-Schicht, die das darunter liegende Metall tatsächlich vor weiterer Korrosion schützt. Diese 'Schutzrost'-Schichten sind so stabil, dass sie Jahrzehnte halten, ohne das Material darunter zu gefährden. Selbst beim klassischen Stahl zeigen neuere Studien: Eine dünne, ebenmäßige Oxidationsschicht kann unter bestimmten Bedingungen den Verschleiß verlangsamen. Der Feind wird zum Helfer.",
+      "Das Verständnis dieser Mechanismen hat bereits zu praktischen Innovationen geführt: Architekten nutzen gezielt Corten-Stahl für Fassaden und Skulpturen, weil die natürliche Rostpatina nicht nur schützt, sondern auch eine einzigartige Ästhetik schafft. Ingenieure können nun präziser unterscheiden, welche Oxide zerstörerisch wirken und welche schützend – und dadurch Materialverschwendung reduzieren. Was einst als unvermeidliche Katastrophe galt, wird zum kontrollierten, sogar gewünschten Prozess. Rost ist nicht der Feind des Materials – er ist oft sein intelligentester Beschützer."
+    ],
+    "schon_gewusst": "Die Freiheitsstatue in New York ist vollständig mit einer grünen Kupferpatina überzogen – diese Oxidationsschicht schützt das darunter liegende Kupfer so wirksam, dass das Monument nach 140 Jahren kaum strukturelle Schäden aufweist.",
+    "quelle": "Stratmann et al. (2015): Corrosion protection by organic coatings. Annual Review of Materials Research 45.",
+    "quelle_url": "https://doi.org/10.1146/annurev-matsci-070214-021220",
+    "datum": "2026-05-09"
   }
 ]
