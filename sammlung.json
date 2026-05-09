@@ -1114,5 +1114,20 @@
     "quelle": "Brownstein MJ (1993): A brief history of opiates, opioid peptides, and opioid receptors. Proceedings of the National Academy of Sciences 90(12).",
     "quelle_url": "https://doi.org/10.1073/pnas.90.12.5391",
     "datum": "2026-05-08"
+  },
+  {
+    "kategorie": "Materialwissenschaft",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Glas-Kristallklarheit: Warum Glas eigentlich eine Flüssigkeit ist – und das macht es stärker",
+    "stauner": "Wir denken, Glas ist starr und fest wie Stein. Doch Glas ist physikalisch eine unterkühlte Flüssigkeit, deren Moleküle ständig fließen – wenn auch unmerklich langsam. Diese vermeintliche Schwäche ist tatsächlich seine größte Stärke.",
+    "absaetze": [
+      "Das berühmte Märchen der Glasgeschichte: In mittelalterlichen Kathedralen soll Glas mit der Zeit nach unten geflossen sein, weshalb alte Fenster unten dicker seien als oben. Das klingt dramatisch und wurde jahrhundertelang gelehrt. Die Wahrheit ist ernüchternd: Alte Fenster sind unten dicker, weil Menschen sie dort eingebaut haben – nicht weil das Glas floss. Bei Raumtemperatur dauert ein Fließprozess Millionen von Jahren. Doch dieser falsche Mythos enthält einen wahren Kern: Glas ist wirklich keine starre Substanz, sondern eine sogenannte amorphe Flüssigkeit. Seine Moleküle haben keine feste kristalline Ordnung wie Metalle oder Keramiken, sondern eine glasige, ungeordnete Struktur – ähnlich wie Wasser, nur bei einer viel höheren Viskosität.",
+      "Was bedeutet das für die Realität? Diese Eigenschaft ist kein Designfehler, sondern die Quelle von Glas' einzigartiger Widerstandskraft. Weil Glas fließen kann (über längste Zeiträume), können seine Moleküle bei Belastung ihre Position neu anpassen. Das macht es flexibler und bruchunempfindlicher als spröde kristalline Materialien. Chemisch gehärtetes Glas nutzt genau diesen Mechanismus: Durch Ionenaustausch entstehen innere Spannungen, die wie ein molekulares Spannungsnetzwerk wirken. Das Ergebnis: Gorilla Glass in modernen Smartphones hält Stürze aus, die frühere Gläser längst zerstört hätten – weil wir die Natur von Glas verstanden und nicht gegen sie gearbeitet haben.",
+      "Die praktische Folge ist bemerkenswert: Je besser wir akzeptieren, dass Materialien das tun, was ihre innere Struktur ihnen erlaubt, desto bessere Materialien bauen wir. Die 'Schwäche' des Glases – dass es keine Kristallstruktur hat – ist tatsächlich das, was es zu einem der vielseitigsten Materialien der Zivilisation macht: transparent, formbar, haltbar und recycelbar bis ins Unendliche."
+    ],
+    "schon_gewusst": "Glas mit drei verschlungenen Ringen (das Recycling-Symbol) kann hundertfach eingeschmolzen werden, ohne an Qualität zu verlieren – eine Eigenschaft, die fast kein anderes Material bietet.",
+    "quelle": "Dyre JC (2006): Colloquium: The glass transition and elastic models of glass-forming liquids. Reviews of Modern Physics 78(3).",
+    "quelle_url": "https://doi.org/10.1103/RevModPhys.78.953",
+    "datum": "2026-05-09"
   }
 ]
