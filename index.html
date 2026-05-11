@@ -982,20 +982,18 @@ function applyLang(lang) {
 function toggleLang() {
   currentLang = currentLang === 'de' ? 'en' : 'de';
   localStorage.setItem('stauner-lang', currentLang);
-  // Update button label
-  const lbl = document.getElementById('js-lang-label');
-  if (lbl) lbl.textContent = currentLang.toUpperCase();
-  // Re-render story in selected language
-  if (currentStoryDE) renderInLang(currentStoryDE, currentLang);
+  applyLang(currentLang);
 }
 
 function renderInLang(story, lang) {
   const t = TRANSLATIONS[lang];
   // Use language-specific fields if available, fall back to base fields
+  const hasEN = !!(story.titel_en || story.stauner_en);
   const titel = lang === 'en' ? (story.titel_en || story.titel || '') : (story.titel_de || story.titel || '');
   const stauner = lang === 'en' ? (story.stauner_en || story.stauner || '') : (story.stauner_de || story.stauner || '');
   const absaetze_raw = lang === 'en' ? (story.absaetze_en || story.absaetze || []) : (story.absaetze_de || story.absaetze || []);
   const schon = lang === 'en' ? (story.schon_gewusst_en || story.schon_gewusst || '') : (story.schon_gewusst_de || story.schon_gewusst || '');
+  const langNote = (lang === 'en' && !hasEN) ? '<p style="font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);color:var(--muted);font-style:italic;margin-bottom:1rem;">This story is only available in German.</p>' : '';
   const paras = absaetze_raw.map(p => `<p>${p}</p>`).join('');
   // Override story fields for rendering
   const s = {...story, titel, stauner, absaetze: absaetze_raw, schon_gewusst: schon};
@@ -1021,6 +1019,7 @@ function renderInLang(story, lang) {
   const el = document.getElementById('js-article');
   el.className = 'article';
   el.innerHTML = `
+    ${langNote}
     <div class="a-kicker"><span class="kicker-dot"></span><span class="kicker-text">${story.kategorie || ''}</span></div>
     <h2 class="a-headline">${titel}</h2>
     <div class="stauner-box">
