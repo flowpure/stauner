@@ -930,7 +930,7 @@ function applyTheme(theme) {
     root.setAttribute('data-theme', theme);
   }
   const btn = document.getElementById('js-theme-btn');
-  if (btn) btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+  if (btn) btn.textContent = theme === 'dark' ? '☀' : '☾';
 }
 
 function toggleTheme() {
@@ -980,15 +980,28 @@ function applyLang(lang) {
 }
 
 function toggleLang() {
-  // Öffnet Google Translate für die gesamte Seite — kostenlos, zuverlässig
-  const url = encodeURIComponent(window.location.href);
-  window.open('https://translate.google.com/translate?sl=de&tl=en&u=' + url, '_blank');
+  currentLang = currentLang === 'de' ? 'en' : 'de';
+  localStorage.setItem('stauner-lang', currentLang);
+  // Update button label
+  const lbl = document.getElementById('js-lang-label');
+  if (lbl) lbl.textContent = currentLang.toUpperCase();
+  // Re-render story in selected language
+  if (currentStoryDE) renderInLang(currentStoryDE, currentLang);
 }
 
 function renderInLang(story, lang) {
   const t = TRANSLATIONS[lang];
-  const paras = (story.absaetze || []).map(p => `<p>${p}</p>`).join('');
-  const bonusHtml = story.schon_gewusst
+  // Use language-specific fields if available, fall back to base fields
+  const titel = lang === 'en' ? (story.titel_en || story.titel || '') : (story.titel_de || story.titel || '');
+  const stauner = lang === 'en' ? (story.stauner_en || story.stauner || '') : (story.stauner_de || story.stauner || '');
+  const absaetze_raw = lang === 'en' ? (story.absaetze_en || story.absaetze || []) : (story.absaetze_de || story.absaetze || []);
+  const schon = lang === 'en' ? (story.schon_gewusst_en || story.schon_gewusst || '') : (story.schon_gewusst_de || story.schon_gewusst || '');
+  const paras = absaetze_raw.map(p => `<p>${p}</p>`).join('');
+  // Override story fields for rendering
+  const s = {...story, titel, stauner, absaetze: absaetze_raw, schon_gewusst: schon};
+  story = s;
+  const _ = null; // suppress unused warning
+  const bonusHtml = schon
     ? `<div class="schon-gewusst"><span class="schon-gewusst-label">${t.schonLabel}</span><p class="schon-gewusst-text">${story.schon_gewusst}</p></div>`
     : '';
   const sourceHtml = story.quelle_url
@@ -999,17 +1012,17 @@ function renderInLang(story, lang) {
   el.className = 'article';
   el.innerHTML = `
     <div class="a-kicker"><span class="kicker-dot"></span><span class="kicker-text">${story.kategorie || ''}</span></div>
-    <h2 class="a-headline">${story.titel || ''}</h2>
+    <h2 class="a-headline">${titel}</h2>
     <div class="stauner-box">
       <div class="stauner-label">${t.staunerLabel}</div>
-      <p class="stauner-text">${story.stauner || ''}</p>
+      <p class="stauner-text">${stauner}</p>
     </div>
     <div class="a-body">${paras}</div>
     ${bonusHtml}
     <div class="divider"><span class="divider-mark">✦ ✦ ✦</span></div>
     <div class="colophon">
       <span class="colophon-source"><strong>${t.quelleLabel}:</strong> ${sourceHtml}</span>
-      <p class="colophon-disclaimer">🤖 ${t.disclaimer} <a href="https://www.google.com/search?q=${encodeURIComponent((story.quelle || story.titel) + ' ' + (story.kategorie || ''))}" target="_blank" rel="noopener">${t.scholarLink}</a></p>
+      <p class="colophon-disclaimer">🤖 ${t.disclaimer} <a href="https://www.google.com/search?q=${encodeURIComponent((story.quelle || story.titel) + ' wissenschaftlich')}" target="_blank" rel="noopener">${t.scholarLink}</a></p>
     </div>
   `;
 }
