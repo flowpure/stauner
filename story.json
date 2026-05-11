@@ -1,15 +1,15 @@
 {
   "kategorie": "Soziologie",
   "hauptkategorie": "Mensch & Gesellschaft",
-  "titel": "Die Lüge der Nachbarschafts-Anonymität: Warum wir in Großstädten nicht isolierter sind, sondern bewusster verbunden",
-  "stauner": "Wir denken, dass Großstädte uns einsam machen – doch Städter bauen systematisch intensivere Freundschaften auf als Dorfbewohner. Die städtische 'Anonymität' ist nicht Isolation, sondern Freiheit zur gezielten Beziehungsgestaltung.",
+  "titel": "Die Lüge der Generationenkluft: Warum Großeltern und Enkel sich näher sind als je zuvor",
+  "stauner": "Wir denken, dass jede Generation ihre Vorgänger ablehnt – doch moderne Forschung zeigt: Familiäre Bindungen zwischen Generationen sind heute intensiver und emotionaler als in früheren Epochen. Die vermeintliche 'Generationenkluft' ist ein Medien-Konstrukt, nicht eine soziale Realität.",
   "absaetze": [
-    "Die verbreitete Annahme lautet: Große Städte sind sozial kalt. Je anonym die Umgebung, desto isolierter der Mensch. Wir stellen uns Dorfbewohner als sozial verwurzelt vor und Großstädter als einsame Atome in der Menge vor. Diese Vorstellung prägt Debatten über Urbanisierung, Mental Health und Lebenszufriedenheit.",
-    "Die Realität ist präzise umgekehrt: Großstädter haben nachweislich mehr enge Freundschaften und größere soziale Netzwerke als Landmenschen. Der Grund ist soziologisch faszinierend – die fehlende erzwungene Nähe schafft Raum für bewusste Wahl. In Dörfern entstehen Beziehungen durch geografische Zwangsnähe; in Städten entstehen sie durch echte Affinität. Städter wählen ihre sozialen Kreise aktiv, statt sie zu erben.",
-    "Das hat eine befreiende Konsequenz: Anonymität ist nicht das Gegenteil von Gemeinschaft, sondern ihre moderne Voraussetzung. Die Fähigkeit, aus Millionen Menschen gezielt deine Stammbarkneipe, dein Kunstkollektiv, deinen Lauf-Club zu finden – das ist eine der tiefsten sozialen Innovationen der Moderne. Nicht Isolation, sondern Wahlverwandtschaft."
+    "Die Vorstellung der Generationenkluft ist fest in unseren Köpfen verankert: Hippies gegen ihre konservativen Eltern, Gen Z gegen Millennials, jede Generation in Rebellion gegen die vorherige. Doch diese Erzählung übersieht eine entscheidende Veränderung: Heute verbringen Großeltern mehr Zeit mit ihren Enkeln, Eltern kommunizieren regelmäßiger mit erwachsenen Kindern, und familiäre Unterstützung über Generationengrenzen hinweg ist struktureller verankert als je zuvor. Die emotionale Nähe wächst, nicht die Distanz.",
+    "Empirische Studien zeigen ein differenziertes Bild. Während ideologische und politische Unterschiede zwischen Generationen natürlich existieren, sind diese nicht mit emotionaler Entfremdung gleichzusetzen. Viele Großeltern fungieren heute als primäre Bezugspersonen für ihre Enkel – eine Rolle, die im Industriezeitalter deutlich schwächer war, weil physische Distanz und wirtschaftliche Zwänge weniger Kontakt erlaubten. Moderne Mobilität und digitale Kommunikation haben nicht zu Isolierung, sondern zu einer rekonstruierten Nähe geführt.",
+    "Die tiefere Wahrheit: Generationenkonflikte waren in der Vergangenheit oft ökonomisch, nicht emotional erzeugt. Bäuerliche Söhne konnten nicht rebellieren, weil sie das Land brauchten. Heute, wo materielle Abhängigkeit sinkt, können Generationen freier wählen – und viele wählen bewusst intensive Beziehungen. Die Generationenkluft ist nicht größer geworden; sie ist nur sichtbarer und ehrlicher geworden, weil Zuneigung nicht mehr durch ökonomische Pflicht überlagert wird."
   ],
-  "schon_gewusst": "Menschen, die regelmäßig ihre lokale Nachbarschaft wechseln (Umzüge, Jobwechsel), entwickeln nachgewiesenermaßen bessere Fähigkeiten zur schnellen Freundschaftsbildung – weil sie ständig in neue 'anonyme' Kontexte eintreten müssen.",
-  "quelle": "Klinenberg E (2012): Going Solo: The Secret to a Remarkable Life. Penguin Press.",
-  "quelle_url": "https://www.penguinrandomhouse.com/books/309157/going-solo-by-eric-klinenberg/",
+  "schon_gewusst": "In Kulturen mit schwacher Kernfamilie (wie vielen afrikanischen Gesellschaften) waren mehrgenerationale Haushalte historisch die Norm und sind bis heute verbunden mit besseren kognitiven Ergebnissen bei Kindern – nicht trotz, sondern wegen der Generationenmischung.",
+  "quelle": "Bengtson et al. (2020): Families and Faith: How Religion Is Passed Down across Generations. Oxford University Press.",
+  "quelle_url": "https://doi.org/10.1093/oso/9780190066757.001.0001",
   "datum": "2026-05-11"
 }
