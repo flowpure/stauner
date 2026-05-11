@@ -115,6 +115,11 @@ jobs:
               except Exception as e:
                   print(f"Sammlung konnte nicht geladen werden: {e}")
 
+          # Duplicate guard — verhindert doppelte Ausführung am selben Tag
+          if sammlung and sammlung[-1].get('datum') == today:
+              print(f"Story für heute ({today}) bereits vorhanden — abgebrochen.")
+              exit(0)
+
           print(f"Beiträge gesamt: {len(sammlung)}")
           print(f"Bereits in '{today_kategorie}': {len(existing_in_category)}")
 
@@ -138,26 +143,28 @@ jobs:
               f"3. Endet mit der überraschenden, positiven Bedeutung\n\n"
               f"Ton: sachlich, präzise, faszinierend, ermutigend. "
               f"Niemals Krieg, Katastrophen, politische Konflikte.\n\n"
-              f"QUELLE (wichtig): Nenne eine SPEZIFISCHE Studie:\n"
-              f"Format: 'Nachname et al. (Jahr): Vollständiger Titel. Zeitschrift Band(Nummer).'\n"
-              f"URL: Direkte DOI-URL (https://doi.org/...) oder direkter Artikel-Link. "
-              f"KEINE Institutshauptseiten, KEINE allgemeinen Journal-Homepages.\n\n"
+              f"QUELLE: Nenne NUR was du mit Sicherheit kennst. ERFINDE NIEMALS einen Titel oder eine URL. "
+              f"Format: 'Nachname et al. (Jahr): Titel. Zeitschrift.' "
+              f"Wenn unsicher: nur Forschungsfeld und Institution, z.B. 'Verhaltensökonomie, Universität Chicago'. "
+              f"quelle_url leer lassen wenn keine echte URL bekannt.\n\n"
               f"Bonusfakt unter 'Schon gewusst?': Ein überraschender Fakt aus '{today_kategorie}' "
               f"der NICHT in der Geschichte vorkommt.\n\n"
+              f"Schreibe alle Felder ZWEIMAL: einmal auf Deutsch (Suffix _de) und einmal auf Englisch (Suffix _en). "
               f"Antworte NUR mit diesem JSON ohne Markdown:\n"
               '{{"kategorie":"{kat}",'
               '"hauptkategorie":"{hkat}",'
-              '"titel":"...",'
-              '"stauner":"2-3 prägnante Sätze",'
-              '"absaetze":["...","...","..."],'
-              '"schon_gewusst":"...",'
+              '"titel_de":"...","titel_en":"...",'
+              '"stauner_de":"...","stauner_en":"...",'
+              '"absaetze_de":["...","...","..."],'
+              '"absaetze_en":["...","...","..."],'
+              '"schon_gewusst_de":"...","schon_gewusst_en":"...",'
               '"quelle":"Autor(en) (Jahr): Titel. Zeitschrift.",'
-              '"quelle_url":"https://doi.org/..."}}'
+              '"quelle_url":""}}'
           ).replace('{kat}', today_kategorie).replace('{hkat}', today_hauptkategorie)
 
           payload = {
               "model": "claude-haiku-4-5-20251001",
-              "max_tokens": 1200,
+              "max_tokens": 2000,
               "messages": [{"role": "user", "content": prompt}]
           }
 
@@ -188,6 +195,11 @@ jobs:
           # Sicherstellen dass Kategorie korrekt ist
           story['kategorie'] = today_kategorie
           story['hauptkategorie'] = today_hauptkategorie
+          # Backwards compatibility: map _de fields to base fields for existing code
+          story['titel'] = story.get('titel_de', story.get('titel', ''))
+          story['stauner'] = story.get('stauner_de', story.get('stauner', ''))
+          story['absaetze'] = story.get('absaetze_de', story.get('absaetze', []))
+          story['schon_gewusst'] = story.get('schon_gewusst_de', story.get('schon_gewusst', ''))
 
           print(f"Titel: {story.get('titel', '')}")
           print(f"Kategorie: {story.get('kategorie', '')} [{story.get('hauptkategorie', '')}]")
