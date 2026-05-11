@@ -157,21 +157,17 @@
   .switch-btn:hover{background:#f0ece0;transform:scale(1.05)}
   .lang-switch-btn{
     font-family:var(--sans);
-    font-size:clamp(.55rem,.8vw,.65rem);
+    font-size:clamp(.65rem,.9vw,.75rem);
     font-weight:700;
-    letter-spacing:.1em;
-    background:#fff;
-    border:1px solid rgba(255,255,255,0.6);
-    color:#1a1a14;
-    padding:.35rem .75rem;
-    border-radius:2px;
+    letter-spacing:.12em;
+    background:transparent;
+    border:none;
+    color:#f5f0e4;
+    padding:.2rem .1rem;
     cursor:pointer;
-    display:flex;align-items:center;gap:.3rem;
-    transition:all .2s;
-    white-space:nowrap;
+    transition:opacity .2s;
   }
-  .lang-switch-btn:hover{background:#f0ece0}
-  .lang-switch-btn.active{background:#2e8b57;border-color:#2e8b57;color:#fff}
+  .lang-switch-btn:hover{opacity:.7}
 
 
   /* ── Main container ── */
@@ -317,18 +313,12 @@
 <header class="masthead">
   <div class="masthead-inner">
     <div class="m-top">
-      <div style="display:flex;align-items:center;gap:.75rem">
-        <button class="nav-hamburger" onclick="toggleNav()" aria-label="Sammlung öffnen" id="js-nav-btn">☰</button>
-        <a href="/" class="m-tag" id="js-m-tag" style="text-decoration:none;cursor:pointer;">✦ Hirnholz — tägliche Edition</a>
-      </div>
-      <div style="display:flex;align-items:center;gap:.75rem;flex-wrap:wrap">
+      <a href="/" class="m-tag" id="js-m-tag" style="text-decoration:none;cursor:pointer;">✦ Hirnholz — tägliche Edition</a>
+      <div style="display:flex;align-items:center;gap:.6rem">
         <span class="m-date-top" id="js-date-top"></span>
-        <div class="switches">
-          <button class="switch-btn" id="js-theme-btn" onclick="toggleTheme()" title="Dark/Light Mode">🌙</button>
-          <button class="lang-switch-btn" id="js-lang-btn" onclick="toggleLang()">
-            <span id="js-lang-icon">🌐</span><span id="js-lang-label">DE</span>
-          </button>
-        </div>
+        <button class="switch-btn" id="js-theme-btn" onclick="toggleTheme()" title="Dark/Light Mode">☾</button>
+        <button class="lang-switch-btn" id="js-lang-btn" onclick="toggleLang()"><span id="js-lang-label">DE</span></button>
+        <button class="nav-hamburger" onclick="toggleNav()" aria-label="Sammlung öffnen" id="js-nav-btn">☰</button>
       </div>
     </div>
     <div class="m-title-row">
@@ -870,7 +860,7 @@ async function loadNavCategories() {
     const container = document.getElementById('js-nav-categories');
     container.innerHTML = cats.map(cat => {
       const count = stories.filter(s => s.kategorie === cat).length;
-      return `<a href="sammlung.html#${encodeURIComponent(cat)}" onclick="closeNav()">${cat}<span style="opacity:.35;font-size:.85em;margin-left:.4rem">${count}</span></a>`;
+      return `<a href="sammlung.html#${encodeURIComponent(cat)}" onclick="closeNav()">${cat} <span style='opacity:.35;font-size:.8em'>${count}</span></a>`;
     }).join('');
   } catch {}
 }
@@ -929,55 +919,6 @@ const TRANSLATIONS = {
 };
 
 
-/* ═══════════════════════════════════════════════
-   CLAUDE API ÜBERSETZUNG
-═══════════════════════════════════════════════ */
-async function translateStory(story, targetLang) {
-  const cacheKey = `trans_${story.datum}_${targetLang}`;
-  const cached = localStorage.getItem(cacheKey);
-  if (cached) {
-    try { return JSON.parse(cached); } catch {}
-  }
-
-  const ANTHROPIC_KEY = document.getElementById('js-api-key')?.dataset?.key || '';
-  const response = await fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'anthropic-version': '2023-06-01',
-      'x-api-key': ANTHROPIC_KEY,
-      'anthropic-dangerous-direct-browser-access': 'true'
-    },
-    body: JSON.stringify({
-      model: 'claude-haiku-4-5-20251001',
-      max_tokens: 1200,
-      messages: [{
-        role: 'user',
-        content: `Translate this JSON from German to English. Keep the exact same JSON structure and keys. Only translate the values. Return ONLY the JSON, no markdown.
-
-${JSON.stringify({
-  kategorie: story.kategorie,
-  titel: story.titel,
-  stauner: story.stauner,
-  absaetze: story.absaetze,
-  schon_gewusst: story.schon_gewusst || '',
-  quelle: story.quelle
-})}`
-      }]
-    })
-  });
-
-  if (!response.ok) throw new Error('Translation failed');
-  const data = await response.json();
-  const raw = (data.content?.[0]?.text || '').replace(/```json|```/g, '').trim();
-  const translated = JSON.parse(raw);
-  // Keep original URLs and datum
-  translated.datum = story.datum;
-  translated.quelle_url = story.quelle_url;
-  localStorage.setItem(cacheKey, JSON.stringify(translated));
-  return translated;
-}
-
 let currentTheme = localStorage.getItem('stauner-theme') || 'auto';
 let currentLang = localStorage.getItem('stauner-lang') || 'de';
 
@@ -989,7 +930,7 @@ function applyTheme(theme) {
     root.setAttribute('data-theme', theme);
   }
   const btn = document.getElementById('js-theme-btn');
-  if (btn) btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+  if (btn) btn.textContent = theme === 'dark' ? '☀' : '☾';
 }
 
 function toggleTheme() {
@@ -1008,15 +949,13 @@ function applyLang(lang) {
   const setH = (id, html) => { const el = document.getElementById(id); if (el) el.innerHTML = html; };
 
   setT('js-lang-label', lang.toUpperCase());
-  document.getElementById('js-lang-icon').textContent = lang === 'de' ? '🌐' : '🌐';
-  document.getElementById('js-lang-btn').classList.toggle('active', lang === 'en');
+
 
   setT('js-m-tag', t.eyebrow);
   setT('js-title-plain', t.title + ' ');
   setT('js-title-accent', t.titleAccent);
   setT('js-tagline', t.tagline);
   setT('js-band-motto', t.motto);
-  setT('js-nav-btn-text', t.sammlung);
   setT('js-nav-header', t.sammlungHeader);
   setT('js-nav-all', t.sammlungAll);
   setT('js-footer-motto', t.footerMotto);
@@ -1040,32 +979,10 @@ function applyLang(lang) {
   if (currentStoryDE) renderInLang(currentStoryDE, lang);
 }
 
-async function toggleLang() {
-  const next = currentLang === 'de' ? 'en' : 'de';
-  const btn = document.getElementById('js-lang-btn');
-  if (btn) { btn.style.opacity = '0.5'; btn.style.pointerEvents = 'none'; }
-
-  try {
-    if (next === 'en' && currentStoryDE) {
-      const translated = await translateStory(currentStoryDE, 'en');
-      currentLang = next;
-      localStorage.setItem('stauner-lang', currentLang);
-      applyLang(currentLang);
-      renderInLang(translated, 'en');
-    } else {
-      currentLang = next;
-      localStorage.setItem('stauner-lang', currentLang);
-      applyLang(currentLang);
-      if (currentStoryDE) renderInLang(currentStoryDE, 'de');
-    }
-  } catch(e) {
-    console.warn('Übersetzung fehlgeschlagen, zeige Deutsch:', e);
-    currentLang = 'de';
-    applyLang('de');
-    if (currentStoryDE) renderInLang(currentStoryDE, 'de');
-  } finally {
-    if (btn) { btn.style.opacity = ''; btn.style.pointerEvents = ''; }
-  }
+function toggleLang() {
+  // Öffnet Google Translate für die gesamte Seite — kostenlos, zuverlässig
+  const url = encodeURIComponent(window.location.href);
+  window.open('https://translate.google.com/translate?sl=de&tl=en&u=' + url, '_blank');
 }
 
 function renderInLang(story, lang) {
@@ -1092,7 +1009,7 @@ function renderInLang(story, lang) {
     <div class="divider"><span class="divider-mark">✦ ✦ ✦</span></div>
     <div class="colophon">
       <span class="colophon-source"><strong>${t.quelleLabel}:</strong> ${sourceHtml}</span>
-      <p class="colophon-disclaimer">🤖 ${t.disclaimer} <a href="https://scholar.google.com/scholar?q=${encodeURIComponent(story.titel)}" target="_blank" rel="noopener">${t.scholarLink}</a></p>
+      <p class="colophon-disclaimer">🤖 ${t.disclaimer} <a href="https://www.google.com/search?q=${encodeURIComponent((story.quelle || story.titel) + ' ' + (story.kategorie || ''))}" target="_blank" rel="noopener">${t.scholarLink}</a></p>
     </div>
   `;
 }
