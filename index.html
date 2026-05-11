@@ -1004,9 +1004,19 @@ function renderInLang(story, lang) {
   const bonusHtml = schon
     ? `<div class="schon-gewusst"><span class="schon-gewusst-label">${t.schonLabel}</span><p class="schon-gewusst-text">${story.schon_gewusst}</p></div>`
     : '';
-  const sourceHtml = story.quelle_url
-    ? `<a href="${story.quelle_url}" target="_blank" rel="noopener" style="color:#2e8b57;text-decoration:none;">${story.quelle}</a>`
-    : (story.quelle || '');
+  // Store search term on window to avoid encoding issues in innerHTML
+  const quelleClean = (story.quelle || story.titel || '')
+    .replace(/[^a-zA-Z0-9äöüÄÖÜß ]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .split(' ')
+    .filter(w => w.length > 2)
+    .slice(0, 5)
+    .join(' ');
+  window._quelleSearch = quelleClean;
+  const sourceHtml = story.quelle
+    ? `<a href="#" onclick="window.open('https://www.google.com/search?q='+encodeURIComponent(window._quelleSearch),'_blank');return false;" style="color:#2e8b57;text-decoration:none;cursor:pointer;">${story.quelle}</a>`
+    : '';
 
   const el = document.getElementById('js-article');
   el.className = 'article';
@@ -1022,7 +1032,7 @@ function renderInLang(story, lang) {
     <div class="divider"><span class="divider-mark">✦ ✦ ✦</span></div>
     <div class="colophon">
       <span class="colophon-source"><strong>${t.quelleLabel}:</strong> ${sourceHtml}</span>
-      <p class="colophon-disclaimer">🤖 ${t.disclaimer} <a href="https://www.google.com/search?q=${encodeURIComponent((story.quelle || story.titel) + ' wissenschaftlich')}" target="_blank" rel="noopener">${t.scholarLink}</a></p>
+      <p class="colophon-disclaimer">🤖 ${t.disclaimer} <a href="#" onclick="window.open('https://www.google.com/search?q='+encodeURIComponent(window._quelleSearch),'_blank');return false;">${t.scholarLink}</a></p>
     </div>
   `;
 }
