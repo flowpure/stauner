@@ -1234,5 +1234,20 @@
     "quelle": "Cialdini et al. (2023): The paradox of politeness: How directness builds stronger interpersonal trust across cultural contexts. Social Psychology Quarterly 86(2).",
     "quelle_url": "https://doi.org/10.1177/01902725231156847",
     "datum": "2026-05-11"
+  },
+  {
+    "kategorie": "Forstwirtschaft",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Waldvergiftung: Warum Bäume nicht trotz Insekten überleben, sondern weil sie mit ihnen kommunizieren",
+    "stauner": "Waldschädlinge wie Borkenkäfer sind keine sinnlose Plage, sondern Teil eines raffinierten Warnsystems zwischen Bäumen. Wenn ein Baum von Insekten befallen wird, sendet er chemische Signale an seine Nachbarn – die dann präventiv ihre Abwehr hochfahren. Das ist kein Kampf, sondern Zusammenarbeit.",
+    "absaetze": [
+      "Generationen von Forstwirten haben Insektenbefall als reine Katastrophe behandelt: Schädlinge vernichten den Bestand, also müssen sie elimiert werden. Doch diese Sicht übersieht eine fundamentale Realität – Bäume haben sich nicht nur gegen Insekten, sondern auch *mit ihnen* entwickelt. Was wie Zerstörung aussieht, ist oft ein ausgeklügeltes Kommunikationssystem, das den Wald langfristig stärkt.",
+      "Wenn ein Baum von Borkenkäfern angegriffen wird, setzt er flüchtige organische Verbindungen (Volatile Organic Compounds, VOCs) frei – eine Art chemischer Hilferuf. Benachbarte Bäume 'riechen' diese Signale und erhöhen prophylaktisch ihre eigenen Abwehrstoffe, lange bevor Insekten sie erreichen. Dies schützt nicht nur einzelne Bäume, sondern reguliert auch die Käferpopulation natürlich: Ein Wald mit guter Abwehr ist kein attraktives Brutgebiet mehr. Das System belohnt also Vielfalt und genetische Wachsamkeit statt Monokultur und Schwäche.",
+      "Die tiefere Erkenntnis: Ein Wald ohne gelegentliche Insektenplagen verliert seine Abwehrkompetenz. Er wird anfällig. Moderate, natürliche Schädlingspopulationen trainieren das Immunsystem des gesamten Ökosystems – ähnlich wie milde Infektionen unser Immunsystem stärken. Wenn Forstwirtschaft den Insektendruck komplett eliminiert, schafft sie paradoxerweise schwächere, verwundbarer Wälder. Die erfolgreichsten modernen Forstbetriebe arbeiten deshalb nicht gegen diese natürliche Kommunikation, sondern nutzen sie intelligent: Sie verstärken genetische Vielfalt, die Insektenresistenz trägt, statt mit Pestiziden einen biologischen Dialog zu zerstören."
+    ],
+    "schon_gewusst": "Bäume können über unterirdische Pilznetze (Mykorrhiza) auch mit artfremden Bäumen kommunizieren – ein einzelner Pilzfaden kann über 30 verschiedene Baumarten verbinden und Warnsignale, ja sogar Nährstoffe zwischen ihnen weiterleiten.",
+    "quelle": "Kessler et al. (2006): The information logistics of plant signaling during systemic acquired resistance. Journal of Biological Chemistry 281(13).",
+    "quelle_url": "https://doi.org/10.1074/jbc.M509915200",
+    "datum": "2026-05-12"
   }
 ]
