@@ -1265,5 +1265,20 @@
     "quelle": "Franklin et al. (2002): Disturbances and structural development of natural forest ecosystems with silvicultural implications, using Douglas-fir forests as an example. Forest Ecology and Management, 155(1).",
     "quelle_url": "https://doi.org/10.1016/S0378-1127(01)00549-8",
     "datum": "2026-05-12"
+  },
+  {
+    "kategorie": "Spieltheorie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge des Gefangenendilemmas: Warum Menschen nicht egoistisch sind, sondern kooperieren – selbst wenn es sich nicht lohnt",
+    "stauner": "Wir lernen im Unterricht, dass rational denkende Menschen im Gefangenendilemma immer verraten. Doch echte Menschen kooperieren überraschend oft – und das ist kein Fehler, sondern eine evolutionäre Meisterleistung.",
+    "absaetze": [
+      "Das Gefangenendilemma gilt als Beweis für menschliche Irrationalität: Zwei Verdächtige können sich gegenseitig belasten oder schweigen. Rational sollte jeder den anderen verraten – doch beide landen im Gefängnis. In Lehrbüchern wird dies als tragisches Versagen unserer Natur dargestellt. Aber diese Schlussfolgerung ignoriert eine entscheidende Realität: Menschen spielen dieses Spiel nicht einmalig, sondern wiederholt mit den gleichen Partnern.",
+      "Als Spieltheoretiker wiederholte Experimente mit echten Testpersonen durchführten, zeigte sich ein verblüffendes Muster: Kooperation entstand spontan, auch wenn Verrat kurzfristig rentabler war. Menschen verfolgten Strategien wie 'Tit for Tat' (Kooperation bis zur ersten Verraten, dann Vergeltung) – nicht aus Naivität, sondern aus einer raffinierten Berechnung. Sie erkannten unbewusst, dass wiederholte Interaktion Kooperation belohnt. Dieser Mechanismus funktionierte so effektiv, dass kooperative Gruppen nicht-kooperative regelrecht überflügelten.",
+      "Das revolutionäre Ergebnis: Menschliche 'Irrationalität' ist tatsächlich tiefe Rationalität in längerfristiger Perspektive. Unsere Neigung zur Kooperation ist nicht ein Defekt unserer Spezies, sondern ihr größtes Überlebensmerkmal. Während mathematische Modelle einzelne Entscheidungen optimieren, optimieren Menschen Beziehungen. Das erklärt, warum Märkte, Familien und Gesellschaften funktionieren – nicht trotz menschlicher Natur, sondern wegen ihr."
+    ],
+    "schon_gewusst": "Das 'Folk Theorem' der Spieltheorie zeigt: In wiederholten Spielen sind fast alle Ergebnisse möglich – einschließlich perfekter Kooperation – wenn die Zukunft wertvoll genug ist. Menschen intuitiv verstehen diese mathematische Wahrheit, bevor sie sie lernen.",
+    "quelle": "Axelrod R & Hamilton WD (1981): The evolution of cooperation. Science 211(4489).",
+    "quelle_url": "https://doi.org/10.1126/science.7466396",
+    "datum": "2026-05-13"
   }
 ]
