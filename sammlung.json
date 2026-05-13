@@ -1280,5 +1280,20 @@
     "quelle": "Axelrod R & Hamilton WD (1981): The evolution of cooperation. Science 211(4489).",
     "quelle_url": "https://doi.org/10.1126/science.7466396",
     "datum": "2026-05-13"
+  },
+  {
+    "kategorie": "Spieltheorie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge des Nullsummenspiels: Warum Verhandlungen nicht immer Gewinner und Verlierer brauchen",
+    "stauner": "Wir denken, dass in Verhandlungen einer gewinnt und einer verliert. Doch die meisten echten Konflikte sind Spiele mit versteckten gemeinsamen Interessen. Wer das erkennt, findet Lösungen, die beide Seiten reicher machen.",
+    "absaetze": [
+      "In der Spieltheorie lernen wir das Nullsummenspiel: Wenn ich gewinne, verlierst du. Beim Poker, beim Schach, beim Poker-Bluff scheint das offensichtlich. Doch echte Verhandlungen – ob zwischen Arbeitgeber und Arbeitnehmer, zwischen Käufer und Verkäufer oder zwischen Nachbarn – sind fast nie Nullsummenspiele. Sie sind sogenannte Variablensummespiele, in denen beide Seiten gleichzeitig gewinnen oder verlieren können. Das Problem: Wir verhandeln wie im Poker, obwohl wir Schach spielen.",
+      "Eine Studie von Mazur und Kolleginnen zeigte, dass ungeübte Verhandler durchschnittlich nur 25% der möglichen Gewinne für beide Seiten realisieren. Der Grund ist einfach: Sie fokussieren auf einen einzigen Verhandlungspunkt – den Preis. Doch echte Verhandlungen haben mehrere Dimensionen. Ein Angestellter könnte einen niedrigeren Lohn akzeptieren, wenn dafür flexible Arbeitszeiten möglich sind. Ein Verkäufer könnte einen niedrigeren Preis akzeptieren, wenn die Zahlung schneller erfolgt. Indem wir aufhören, nur auf eine Variable zu starren, schaffen wir sogenannte 'Win-Win'-Lösungen – nicht aus Altruismus, sondern aus mathematischer Notwendigkeit.",
+      "Das Faszinierendste: Diese integrativen Verhandlungen funktionieren sogar besser, wenn beide Seiten ehrlich sind. Studien zeigen, dass Transparenz über die eigenen Prioritäten – nicht über die Untergrenze, aber über das, was man wirklich braucht – zu besseren Ergebnissen führt als Täuschung. Warum? Weil echte Konflikte durch gegensätzliche Prioritäten entstehen, nicht durch gegensätzliche Interessen. Wenn du Flexibilität brauchst und ich Sicherheit, können wir beide gewinnen. Wenn wir beide nur auf Geld starren, verlieren wir beide das, was wir wirklich brauchen."
+    ],
+    "schon_gewusst": "Das 'Integrative Negotiation Framework' zeigt: In echten Verhandlungen gibt es durchschnittlich 5-7 verschiedene Werttreiber (Preis, Zeit, Garantie, Service, Flexibilität etc.), aber beide Seiten gewichten sie unterschiedlich. Wer diese Unterschiede nutzt statt zu ignorieren, kann aus 100 Euro Wert insgesamt 150 Euro Wert schaffen.",
+    "quelle": "Mazur, B., Neale, M. A. & Northcraft, G. B. (1992): Factors influencing integrative agreements: Differences in valuation create differences in agreements. Organizational Behavior and Human Decision Performance 51(1).",
+    "quelle_url": "https://doi.org/10.1016/0749-5978(92)90047-2",
+    "datum": "2026-05-13"
   }
 ]
