@@ -3,39 +3,35 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Der tägliche Zeitsprung — Hirnholz</title>
+<title>Der tägliche Zeitsprung · Hirnholz</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
-    --paper:#faf5e8;--paper-2:#f2ebd6;--paper-3:#e8dfc4;
-    --ink:#1a1510;--ink-2:#2e2618;--ink-3:#4a4030;
-    --muted:#7a6e58;--rule:#cfc3a0;
-    --brown:#7c4a1e;--brown-2:#5e3614;--brown-3:#a06030;--brown-pale:#eedccc;
-    --sepia:#9e7a4a;--sepia-pale:#f5ead8;
+    --paper:#f0ebe0;--paper-2:#e6e0d2;--paper-3:#d8d0c0;
+    --ink:#1a1814;--ink-2:#2c2820;--ink-3:#48443a;
+    --muted:#7e7868;--rule:#c4bfb0;
+    --accent:#6e6254;--accent-2:#524e42;--accent-3:#9a9080;--accent-pale:#ddd8cc;
     --serif:'Playfair Display',Georgia,serif;
     --body:'Source Serif 4',Georgia,serif;
     --sans:'DM Sans',system-ui,sans-serif;
   }
   @media(prefers-color-scheme:dark){
     :root{
-      --paper:#1e1a10;--paper-2:#272010;--paper-3:#302818;
-      --ink:#f0e8d0;--ink-2:#d8d0b8;--ink-3:#b0a888;
-      --muted:#888060;--rule:#3a3020;
-      --brown-pale:#3a2010;--sepia-pale:#2a1e08;
+      --paper:#1c1a16;--paper-2:#242018;--paper-3:#2c2820;
+      --ink:#eee8d8;--ink-2:#d4cebb;--ink-3:#a8a494;
+      --muted:#807c6e;--rule:#383428;--accent-pale:#2a2820;
     }
   }
   [data-theme="dark"]{
-    --paper:#1e1a10;--paper-2:#272010;--paper-3:#302818;
-    --ink:#f0e8d0;--ink-2:#d8d0b8;--ink-3:#b0a888;
-    --muted:#888060;--rule:#3a3020;
-    --brown-pale:#3a2010;--sepia-pale:#2a1e08;
+    --paper:#1c1a16;--paper-2:#242018;--paper-3:#2c2820;
+    --ink:#eee8d8;--ink-2:#d4cebb;--ink-3:#a8a494;
+    --muted:#807c6e;--rule:#383428;--accent-pale:#2a2820;
   }
   [data-theme="light"]{
-    --paper:#faf5e8;--paper-2:#f2ebd6;--paper-3:#e8dfc4;
-    --ink:#1a1510;--ink-2:#2e2618;--ink-3:#4a4030;
-    --muted:#7a6e58;--rule:#cfc3a0;
-    --brown-pale:#eedccc;--sepia-pale:#f5ead8;
+    --paper:#f0ebe0;--paper-2:#e6e0d2;--paper-3:#d8d0c0;
+    --ink:#1a1814;--ink-2:#2c2820;--ink-3:#48443a;
+    --muted:#7e7868;--rule:#c4bfb0;--accent-pale:#ddd8cc;
   }
   :root {
     --space-xs:clamp(.5rem,1.5vw,.75rem);
@@ -51,184 +47,81 @@
   html{font-size:clamp(15px,1.4vw,18px)}
   body{background:var(--paper);color:var(--ink);font-family:var(--body);min-height:100vh}
 
-  /* ── Masthead ── */
-  .masthead{background:#1a1a14}
-  .masthead-inner{max-width:var(--max-w);margin:0 auto;padding:var(--space-m) var(--pad-x) var(--space-s)}
-  .m-top{display:flex;justify-content:space-between;align-items:center;gap:var(--space-s);margin-bottom:var(--space-s);padding-bottom:var(--space-xs);border-bottom:1px solid rgba(255,255,255,0.12);flex-wrap:wrap}
-  .m-tag{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.7rem);font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#a06030;text-decoration:none}
-  .m-date-top{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.7rem);letter-spacing:.1em;color:rgba(255,255,255,0.85)}
+  .masthead{background:#161614;position:relative;overflow:hidden}
+  .masthead-texture{position:absolute;right:-1%;top:50%;transform:translateY(-50%);width:clamp(120px,38vw,300px);height:clamp(120px,38vw,300px);opacity:.07;pointer-events:none}
+  @media(max-width:540px){.masthead-texture{opacity:.05}}
+  .masthead-inner{max-width:var(--max-w);margin:0 auto;padding:var(--space-m) var(--pad-x) var(--space-s);position:relative;z-index:1}
+  .m-top{display:flex;justify-content:space-between;align-items:center;gap:var(--space-s);margin-bottom:var(--space-s);padding-bottom:var(--space-xs);border-bottom:1px solid rgba(255,255,255,0.1);flex-wrap:wrap}
+  .m-tag{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.7rem);font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#9a9080;text-decoration:none}
+  .m-date-top{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.7rem);letter-spacing:.1em;color:rgba(255,255,255,0.5)}
   .m-title-row{display:flex;align-items:baseline;gap:var(--space-s);flex-wrap:wrap}
-  .m-title{font-family:var(--serif);font-size:clamp(2rem,7vw,5.8rem);font-weight:900;line-height:.9;letter-spacing:-.02em;color:#f5f0e4;flex-shrink:0}
-  .m-title-accent{color:#a06030;font-style:italic}
-  .m-tagline{font-family:var(--body);font-style:italic;font-size:clamp(.8rem,1.2vw,1rem);color:rgba(255,255,255,0.8);line-height:1.4;max-width:300px;align-self:flex-end;padding-bottom:.2rem}
+  .m-title{font-family:var(--serif);font-size:clamp(2rem,7vw,5.8rem);font-weight:900;line-height:.9;letter-spacing:-.02em;color:#eee8d8;flex-shrink:0}
+  .m-title-accent{color:#9a9080;font-style:italic}
+  .m-tagline{font-family:var(--body);font-style:italic;font-size:clamp(.8rem,1.2vw,1rem);color:rgba(255,255,255,0.5);line-height:1.4;max-width:300px;align-self:flex-end;padding-bottom:.2rem}
+  .switch-btn{font-size:.8rem;background:rgba(255,255,255,0.88);border:none;color:#161614;width:2rem;height:2rem;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;flex-shrink:0;line-height:1}
+  .switch-btn:hover{background:#fff;transform:scale(1.05)}
 
-  .switch-btn{font-size:.8rem;background:#fff;border:1px solid rgba(255,255,255,0.6);color:#1a1a14;width:2rem;height:2rem;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;flex-shrink:0;line-height:1}
-  .switch-btn:hover{background:#f0ece0;transform:scale(1.05)}
+  .band{background:#524e42;padding:clamp(.35rem,.8vw,.6rem) 0}
+  .band-inner{max-width:var(--max-w);margin:0 auto;padding:0 var(--pad-x);display:flex;justify-content:space-between;align-items:center;gap:var(--space-s);flex-wrap:wrap}
+  .band-motto{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,0.78)}
+  .band-date{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);color:rgba(255,255,255,0.5);letter-spacing:.08em}
 
-  /* ── Brown band ── */
-  .brown-band{background:#7c4a1e;padding:clamp(.35rem,.8vw,.6rem) 0}
-  .brown-band-inner{max-width:var(--max-w);margin:0 auto;padding:0 var(--pad-x);display:flex;justify-content:space-between;align-items:center;gap:var(--space-s);flex-wrap:wrap}
-  .band-motto{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,0.85)}
-  .band-date{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);color:rgba(255,255,255,0.65);letter-spacing:.08em}
-
-  /* ── Main ── */
   .main{max-width:var(--max-w);margin:0 auto;padding:var(--space-l) var(--pad-x) var(--space-xl)}
 
-  /* ── Loading ── */
   .state-loading{text-align:center;padding:var(--space-xl) var(--pad-x)}
   .loading-leaf{display:block;font-size:clamp(1.8rem,4vw,2.5rem);margin-bottom:var(--space-m);animation:sway 3s ease-in-out infinite}
   @keyframes sway{0%,100%{transform:rotate(-8deg) scale(.95);opacity:.4}50%{transform:rotate(8deg) scale(1.05);opacity:1}}
   .loading-text{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
 
-  /* ── Error ── */
   .state-error{text-align:center;padding:var(--space-l) var(--pad-x);border:1px solid var(--rule);max-width:500px;margin:0 auto;background:var(--paper-2)}
   .state-error h2{font-family:var(--serif);font-size:clamp(1.2rem,2.5vw,1.5rem);font-weight:700;margin-bottom:var(--space-xs)}
   .state-error p{color:var(--muted);font-size:clamp(.8rem,1.2vw,.9rem);line-height:1.75;margin-bottom:var(--space-m)}
-  .btn{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);font-weight:600;letter-spacing:.18em;text-transform:uppercase;background:#7c4a1e;color:#fff;border:none;padding:.8em 2em;cursor:pointer;transition:background .2s;border-radius:2px}
-  .btn:hover{background:#5e3614}
+  .btn{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);font-weight:600;letter-spacing:.18em;text-transform:uppercase;background:var(--accent);color:#fff;border:none;padding:.8em 2em;cursor:pointer;transition:background .2s;border-radius:2px}
+  .btn:hover{background:var(--accent-2)}
 
-  /* ── Article ── */
   .article{animation:rise .6s cubic-bezier(.22,.68,0,1.15) both}
   @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
 
-  /* ── Year badge ── */
-  .year-badge{
-    display:inline-flex;align-items:center;gap:.75rem;
-    margin-bottom:var(--space-m);
-  }
-  .year-num{
-    font-family:var(--serif);
-    font-size:clamp(2.8rem,8vw,5rem);
-    font-weight:900;
-    line-height:1;
-    color:#7c4a1e;
-    letter-spacing:-.03em;
-  }
-  .year-ago{
-    display:flex;flex-direction:column;gap:.1rem;
-  }
-  .year-ago-num{
-    font-family:var(--sans);
-    font-size:clamp(.65rem,1vw,.75rem);
-    font-weight:600;
-    letter-spacing:.15em;
-    text-transform:uppercase;
-    color:var(--muted);
-  }
-  .year-ago-label{
-    font-family:var(--sans);
-    font-size:clamp(.55rem,.8vw,.65rem);
-    letter-spacing:.1em;
-    color:var(--muted);
-    opacity:.7;
-  }
+  .year-badge{display:inline-flex;align-items:center;gap:.75rem;margin-bottom:var(--space-m)}
+  .year-num{font-family:var(--serif);font-size:clamp(2.8rem,8vw,5rem);font-weight:900;line-height:1;color:var(--accent);letter-spacing:-.03em}
+  .year-ago{display:flex;flex-direction:column;gap:.1rem}
+  .year-ago-num{font-family:var(--sans);font-size:clamp(.65rem,1vw,.75rem);font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--muted)}
+  .year-ago-label{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);letter-spacing:.1em;color:var(--muted);opacity:.7}
 
   .a-kicker{display:inline-flex;align-items:center;gap:.6rem;margin-bottom:var(--space-s)}
-  .kicker-dot{width:clamp(6px,1vw,8px);height:clamp(6px,1vw,8px);border-radius:50%;background:#7c4a1e;flex-shrink:0}
-  .kicker-text{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#7c4a1e}
+  .kicker-dot{width:clamp(6px,1vw,8px);height:clamp(6px,1vw,8px);border-radius:50%;background:var(--accent);flex-shrink:0}
+  .kicker-text{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--accent)}
 
-  .a-headline{
-    font-family:var(--serif);
-    font-size:clamp(1.5rem,4.5vw,3.4rem);
-    font-weight:900;
-    line-height:1.08;
-    letter-spacing:-.02em;
-    color:var(--ink);
-    margin-bottom:var(--space-m);
-    max-width:var(--max-text);
-  }
+  .a-headline{font-family:var(--serif);font-size:clamp(1.5rem,4.5vw,3.4rem);font-weight:900;line-height:1.08;letter-spacing:-.02em;color:var(--ink);margin-bottom:var(--space-m);max-width:var(--max-text)}
 
-  /* ── Zeitsprung box (pergament style) ── */
-  .stauner-box{
-    max-width:var(--max-text);
-    margin-bottom:var(--space-l);
-    background:var(--brown-pale);
-    border-left:clamp(3px,0.5vw,5px) solid #7c4a1e;
-    padding:clamp(1rem,3vw,2rem) clamp(1rem,3vw,2.25rem);
-  }
-  .stauner-label{font-family:var(--sans);font-size:clamp(.5rem,.75vw,.6rem);font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:#7c4a1e;margin-bottom:.7rem;display:flex;align-items:center;gap:.5rem}
+  .stauner-box{max-width:var(--max-text);margin-bottom:var(--space-l);background:var(--accent-pale);border-left:clamp(3px,0.5vw,5px) solid var(--accent);padding:clamp(1rem,3vw,2rem) clamp(1rem,3vw,2.25rem)}
+  .stauner-label{font-family:var(--sans);font-size:clamp(.5rem,.75vw,.6rem);font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);margin-bottom:.7rem;display:flex;align-items:center;gap:.5rem}
   .stauner-label::before{content:'✦';font-size:.5rem}
-  .stauner-text{
-    font-family:var(--serif);
-    font-size:clamp(1rem,2.2vw,1.25rem);
-    font-style:italic;
-    line-height:1.65;
-    color:var(--ink-2);
-  }
+  .stauner-text{font-family:var(--serif);font-size:clamp(1rem,2.2vw,1.25rem);font-style:italic;line-height:1.65;color:var(--ink-2)}
 
-  /* ── Context box (Wikipedia intro paragraph) ── */
-  .context-box{
-    max-width:var(--max-text);
-    margin-bottom:var(--space-l);
-    background:var(--sepia-pale);
-    border:1px solid var(--rule);
-    border-left:clamp(3px,0.5vw,5px) solid var(--sepia);
-    padding:clamp(.85rem,2.5vw,1.5rem) clamp(1rem,3vw,2rem);
-  }
-  .context-label{
-    font-family:var(--sans);
-    font-size:clamp(.5rem,.75vw,.6rem);
-    font-weight:600;
-    letter-spacing:.22em;
-    text-transform:uppercase;
-    color:var(--sepia);
-    margin-bottom:.65rem;
-    display:flex;align-items:center;gap:.5rem;
-  }
+  .context-box{max-width:var(--max-text);margin-bottom:var(--space-l);background:var(--paper-2);border:1px solid var(--rule);border-left:clamp(3px,0.5vw,5px) solid var(--accent-3);padding:clamp(.85rem,2.5vw,1.5rem) clamp(1rem,3vw,2rem)}
+  .context-label{font-family:var(--sans);font-size:clamp(.5rem,.75vw,.6rem);font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent-3);margin-bottom:.65rem;display:flex;align-items:center;gap:.5rem}
   .context-label::before{content:'▸';font-size:.6rem}
-  .context-text{
-    font-family:var(--body);
-    font-size:clamp(.88rem,1.7vw,1rem);
-    line-height:1.75;
-    color:var(--ink-3);
-  }
-  .context-loading{
-    font-family:var(--sans);
-    font-size:clamp(.55rem,.8vw,.65rem);
-    letter-spacing:.12em;
-    text-transform:uppercase;
-    color:var(--muted);
-    opacity:.7;
-  }
+  .context-text{font-family:var(--body);font-size:clamp(.88rem,1.7vw,1rem);line-height:1.75;color:var(--ink-3)}
+  .context-loading{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);opacity:.7}
 
-  /* ── Body text ── */
-  .a-body{
-    font-size:clamp(.95rem,1.8vw,1.08rem);
-    line-height:clamp(1.7,2.5vw,1.95);
-    max-width:var(--max-text);
-    color:var(--ink-3);
-  }
+  .a-body{font-size:clamp(.95rem,1.8vw,1.08rem);line-height:clamp(1.7,2.5vw,1.95);max-width:var(--max-text);color:var(--ink-3)}
   .a-body p{margin-bottom:clamp(.9em,2vw,1.4em)}
   .a-body p:last-child{margin-bottom:0}
-  .a-body p:first-child::first-letter{
-    font-family:var(--serif);
-    font-size:clamp(2.4rem,6vw,3.8rem);
-    font-weight:900;
-    line-height:.8;
-    float:left;
-    margin-right:.1em;
-    margin-top:.05em;
-    color:#7c4a1e;
-  }
+  .a-body p:first-child::first-letter{font-family:var(--serif);font-size:clamp(2.4rem,6vw,3.8rem);font-weight:900;line-height:.8;float:left;margin-right:.1em;margin-top:.05em;color:var(--accent)}
 
-  /* ── Divider ── */
   .divider{max-width:var(--max-text);display:flex;align-items:center;gap:1rem;margin:var(--space-l) 0}
   .divider::before,.divider::after{content:'';flex:1;height:1px;background:var(--rule)}
   .divider-mark{font-family:var(--serif);font-size:.8rem;letter-spacing:.5em;color:var(--rule)}
 
-  /* ── Colophon ── */
-  .colophon{max-width:var(--max-text);padding-top:var(--space-s);border-top:2px solid var(--brown-pale)}
+  .colophon{max-width:var(--max-text);padding-top:var(--space-s);border-top:2px solid var(--accent-pale)}
   .colophon-source{font-family:var(--sans);font-size:clamp(.58rem,.85vw,.65rem);color:var(--muted);letter-spacing:.05em;line-height:1.6}
   .colophon-source strong{color:var(--ink-3);font-weight:600}
-  .colophon-disclaimer{font-family:var(--sans);font-size:clamp(.52rem,.75vw,.6rem);color:var(--muted);letter-spacing:.05em;line-height:1.6;margin-top:.5rem;opacity:.7}
-  .colophon-disclaimer a{color:#7c4a1e;text-decoration:none}
-  .colophon-disclaimer a:hover{text-decoration:underline}
 
-  /* ── Footer ── */
   .site-footer{background:var(--paper-3);border-top:1px solid var(--rule)}
   .footer-inner{max-width:var(--max-w);margin:0 auto;padding:var(--space-s) var(--pad-x);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:var(--space-s)}
   .footer-brand{font-family:var(--serif);font-size:clamp(.85rem,1.5vw,1rem);font-weight:700;color:var(--ink-3);letter-spacing:-.01em}
-  .footer-brand span{color:#7c4a1e;font-style:italic}
+  .footer-brand span{color:var(--accent);font-style:italic}
   .footer-copy{font-family:var(--sans);font-size:clamp(.52rem,.75vw,.6rem);letter-spacing:.1em;color:var(--muted)}
 
   @media(max-width:540px){
@@ -243,6 +136,20 @@
 <body>
 
 <header class="masthead">
+  <!-- Steinplatten SVG -->
+  <svg class="masthead-texture" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="white" stroke-width="1.2" stroke-linejoin="round">
+    <polygon points="20,10 110,5 130,70 40,80"/>
+    <polygon points="115,3 210,8 220,65 135,68"/>
+    <polygon points="215,6 295,15 290,75 225,63"/>
+    <polygon points="35,84 128,74 140,148 50,158"/>
+    <polygon points="132,70 218,67 230,140 144,150"/>
+    <polygon points="222,65 292,78 285,150 234,138"/>
+    <polygon points="42,162 138,152 148,225 55,235"/>
+    <polygon points="140,152 228,143 238,218 150,227"/>
+    <polygon points="230,142 288,155 280,230 240,220"/>
+    <polygon points="48,238 145,228 152,295 58,292"/>
+    <polygon points="147,229 235,220 240,290 153,295"/>
+  </svg>
   <div class="masthead-inner">
     <div class="m-top">
       <a href="index.html" class="m-tag">✦ Hirnholz</a>
@@ -258,8 +165,8 @@
   </div>
 </header>
 
-<div class="brown-band">
-  <div class="brown-band-inner">
+<div class="band">
+  <div class="band-inner">
     <span class="band-motto">Bereichernde Momente aus der Weltgeschichte. Täglich neu.</span>
     <span class="band-date" id="js-date-band"></span>
   </div>
@@ -286,48 +193,42 @@
 </footer>
 
 <script>
-/* ═══════════════════════════════════════════════
-   SCORING
-═══════════════════════════════════════════════ */
 const HARD_NEGATIVE = [
-  'massaker', 'hinrichtung', 'hingerichtet', 'bombardierung', 'bombardiert',
-  'völkermord', 'erschossen', 'erschießung', 'attentat auf', 'ermordung',
-  'erdbeben.*tot', 'flugzeugabsturz.*tot', 'schiffsunglück.*tot',
-  'explosion.*tot', 'brand.*tot', 'überschwemmung.*tot'
+  'massaker','hinrichtung','hingerichtet','bombardierung','bombardiert',
+  'völkermord','erschossen','erschießung','attentat auf','ermordung',
+  'erdbeben.*tot','flugzeugabsturz.*tot','schiffsunglück.*tot',
+  'explosion.*tot','brand.*tot','überschwemmung.*tot'
 ];
-
 const REDEMPTION = [
-  'verhindert', 'verhinderte', 'gerettet', 'rettete', 'abgewendet',
-  'abwenden', 'überlebte', 'überlebt', 'friedensschluss', 'befreiung',
-  'befreit', 'ende des', 'kapitulation', 'waffenstillstand'
+  'verhindert','verhinderte','gerettet','rettete','abgewendet',
+  'abwenden','überlebte','überlebt','friedensschluss','befreiung',
+  'befreit','ende des','kapitulation','waffenstillstand'
 ];
-
 const POSITIVE = [
-  'entdeckt', 'entdeckung', 'erfunden', 'erfindung', 'erstmals',
-  'erste', 'ersten', 'nobelpreis', 'friedensvertrag', 'gründung',
-  'gegründet', 'eingeweiht', 'uraufführung', 'weltrekord', 'rekord',
-  'geburtstag', 'geboren', 'abschluss', 'fertiggestellt', 'eröffnet',
-  'eröffnung', 'revolution', 'durchbruch', 'besteigung', 'erstbesteigung',
-  'missionsstart', 'landung', 'rückkehr', 'beendet', 'unterzeichnet',
-  'ratifiziert', 'verabschiedet', 'inauguriert', 'eingeführt',
-  'ausgezeichnet', 'verliehen', 'anerkannt', 'rehabilitiert',
-  'veröffentlicht', 'erschienen', 'urgeführt'
+  'entdeckt','entdeckung','erfunden','erfindung','erstmals',
+  'erste','ersten','nobelpreis','friedensvertrag','gründung',
+  'gegründet','eingeweiht','uraufführung','weltrekord','rekord',
+  'geburtstag','geboren','abschluss','fertiggestellt','eröffnet',
+  'eröffnung','revolution','durchbruch','besteigung','erstbesteigung',
+  'missionsstart','landung','rückkehr','beendet','unterzeichnet',
+  'ratifiziert','verabschiedet','inauguriert','eingeführt',
+  'ausgezeichnet','verliehen','anerkannt','rehabilitiert',
+  'veröffentlicht','erschienen','urgeführt'
 ];
 
 function scoreEvent(text) {
   const t = text.toLowerCase();
   let score = 0;
-  const hasHardNeg = HARD_NEGATIVE.some(pattern => new RegExp(pattern).test(t));
+  const hasHardNeg = HARD_NEGATIVE.some(p => new RegExp(p).test(t));
   const hasRedemption = REDEMPTION.some(w => t.includes(w));
   if (hasHardNeg && !hasRedemption) return -999;
   POSITIVE.forEach(w => { if (t.includes(w)) score += 2; });
   if (hasRedemption) score += 5;
-  const nameMatches = text.match(/\b[A-ZÄÖÜ][a-zäöüß]+ [A-ZÄÖÜ][a-zäöüß]+\b/g);
-  if (nameMatches && nameMatches.length > 0) score += 1;
-  const yearMatch = text.match(/\b(1[0-9]{3}|20[0-6][0-9])\b/);
-  if (yearMatch) {
-    const year = parseInt(yearMatch[1]);
-    const age = new Date().getFullYear() - year;
+  const names = text.match(/\b[A-ZÄÖÜ][a-zäöüß]+ [A-ZÄÖÜ][a-zäöüß]+\b/g);
+  if (names && names.length > 0) score += 1;
+  const ym = text.match(/\b(1[0-9]{3}|20[0-6][0-9])\b/);
+  if (ym) {
+    const age = new Date().getFullYear() - parseInt(ym[1]);
     if (age > 50) score += 2;
     if (age > 100) score += 1;
     if (age > 200) score += 1;
@@ -337,25 +238,18 @@ function scoreEvent(text) {
 
 function pickBestEvent(events) {
   if (!events || events.length === 0) return null;
-  let best = null;
-  let bestScore = -Infinity;
+  let best = null, bestScore = -Infinity;
   for (const ev of events) {
     const s = scoreEvent(ev.text || '');
     if (s > bestScore) { bestScore = s; best = ev; }
   }
-  if (bestScore === -999 && events.length > 0) {
-    return events.reduce((a, b) => ((a.year || 9999) < (b.year || 9999) ? a : b));
-  }
+  if (bestScore === -999 && events.length > 0)
+    return events.reduce((a,b) => ((a.year||9999) < (b.year||9999) ? a : b));
   return best;
 }
 
-/* ═══════════════════════════════════════════════
-   WIKIPEDIA KONTEXT-FETCH
-   Holt den ersten Absatz des verlinkten Artikels
-═══════════════════════════════════════════════ */
 async function fetchWikipediaIntro(pages) {
   if (!pages || pages.length === 0) return null;
-  // Versuche die erste verlinkte Seite mit einem brauchbaren Titel
   for (const page of pages.slice(0, 3)) {
     try {
       const title = page.title;
@@ -365,32 +259,21 @@ async function fetchWikipediaIntro(pages) {
       if (!res.ok) continue;
       const data = await res.json();
       const extract = data.extract || '';
-      // Nur wenn genug Text vorhanden
       if (extract.length > 80) {
-        // Ersten Absatz extrahieren (bis zum ersten Doppelzeilenumbruch oder max 600 Zeichen)
-        const firstPara = extract.split('\n').find(p => p.trim().length > 60) || '';
-        if (firstPara.length > 60) return firstPara.trim();
+        const para = extract.split('\n').find(p => p.trim().length > 60) || '';
+        if (para.length > 60) return para.trim();
       }
     } catch {}
   }
   return null;
 }
 
-/* ═══════════════════════════════════════════════
-   RENDERING
-═══════════════════════════════════════════════ */
 async function renderEvent(ev) {
-  const now = new Date();
-  const currentYear = now.getFullYear();
+  const currentYear = new Date().getFullYear();
   const eventYear = ev.year || 0;
   const yearsAgo = currentYear - eventYear;
   const rawText = ev.text || '';
-  const searchWords = rawText
-    .replace(/[^a-zA-Z0-9äöüÄÖÜß ]/g, ' ')
-    .split(/\s+/)
-    .filter(w => w.length > 3)
-    .slice(0, 4)
-    .join(' ');
+  const searchWords = rawText.replace(/[^a-zA-Z0-9äöüÄÖÜß ]/g,' ').split(/\s+/).filter(w=>w.length>3).slice(0,4).join(' ');
   window._zeitsprungSearch = eventYear + ' ' + searchWords;
   const yearsAgoText = yearsAgo === 1 ? 'vor 1 Jahr' : `vor ${yearsAgo} Jahren`;
 
@@ -413,76 +296,43 @@ async function renderEvent(ev) {
     <div class="colophon">
       <span class="colophon-source">
         <strong>Mehr erfahren:</strong>
-        <a href="#" onclick="window.open('https://www.google.com/search?q='+encodeURIComponent(window._zeitsprungSearch),'_blank');return false;" style="color:#7c4a1e;text-decoration:none;cursor:pointer;">Historische Quellen zum Ereignis →</a>
+        <a href="#" onclick="window.open('https://www.google.com/search?q='+encodeURIComponent(window._zeitsprungSearch),'_blank');return false;" style="color:var(--accent);text-decoration:none;cursor:pointer;">Historische Quellen zum Ereignis →</a>
       </span>
     </div>
   `;
 
-  // Kontext asynchron laden und einfügen
-  const contextContainer = document.getElementById('js-context-container');
-  if (contextContainer) {
-    contextContainer.innerHTML = `
-      <div class="context-box">
-        <div class="context-label">Hintergrund</div>
-        <p class="context-loading">Wird geladen …</p>
-      </div>
-    `;
+  const ctx = document.getElementById('js-context-container');
+  if (ctx) {
+    ctx.innerHTML = `<div class="context-box"><div class="context-label">Hintergrund</div><p class="context-loading">Wird geladen …</p></div>`;
     const intro = await fetchWikipediaIntro(ev.pages || []);
-    if (intro) {
-      contextContainer.innerHTML = `
-        <div class="context-box">
-          <div class="context-label">Hintergrund</div>
-          <p class="context-text">${intro}</p>
-        </div>
-      `;
-    } else {
-      // Kein Kontext verfügbar: Box ausblenden
-      contextContainer.innerHTML = '';
-    }
+    ctx.innerHTML = intro
+      ? `<div class="context-box"><div class="context-label">Hintergrund</div><p class="context-text">${intro}</p></div>`
+      : '';
   }
 }
 
-/* ═══════════════════════════════════════════════
-   LADEN
-═══════════════════════════════════════════════ */
 async function loadZeitsprung() {
   show('loading');
-
   const now = new Date();
   const month = now.getMonth() + 1;
   const day = now.getDate();
   const cacheKey = `zeitsprung_${now.getFullYear()}_${month}_${day}`;
-
   try {
     const cached = JSON.parse(localStorage.getItem(cacheKey));
-    if (cached) {
-      show('article');
-      await renderEvent(cached);
-      return;
-    }
+    if (cached) { show('article'); await renderEvent(cached); return; }
   } catch {}
-
   try {
-    const url = `https://de.wikipedia.org/api/rest_v1/feed/onthisday/events/${month}/${day}`;
-    const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
+    const res = await fetch(`https://de.wikipedia.org/api/rest_v1/feed/onthisday/events/${month}/${day}`, {headers:{'Accept':'application/json'}});
     if (!res.ok) throw new Error('API nicht erreichbar');
-
     const data = await res.json();
-    const events = (data.events || []).map(e => ({
-      text: e.text || '',
-      year: e.year || 0,
-      pages: e.pages || []
-    }));
-
+    const events = (data.events || []).map(e => ({text:e.text||'',year:e.year||0,pages:e.pages||[]}));
     if (events.length === 0) throw new Error('Keine Ereignisse');
     const best = pickBestEvent(events);
     if (!best) throw new Error('Kein passendes Ereignis');
-
     try { localStorage.setItem(cacheKey, JSON.stringify(best)); } catch {}
-
     show('article');
     await renderEvent(best);
-  } catch (e) {
+  } catch(e) {
     console.error(e);
     show('error');
   }
@@ -494,40 +344,23 @@ function show(id) {
   );
 }
 
-/* ═══════════════════════════════════════════════
-   THEME
-═══════════════════════════════════════════════ */
 let currentTheme = localStorage.getItem('stauner-theme') || 'auto';
-
-function applyTheme(theme) {
-  const root = document.documentElement;
-  if (theme === 'auto') {
-    root.removeAttribute('data-theme');
-  } else {
-    root.setAttribute('data-theme', theme);
-  }
+function applyTheme(t) {
+  document.documentElement[t==='auto'?'removeAttribute':'setAttribute']('data-theme',t);
   const btn = document.getElementById('js-theme-btn');
-  if (btn) btn.textContent = theme === 'dark' ? '☀' : '☾';
+  if (btn) btn.textContent = t === 'dark' ? '☀' : '☾';
 }
-
 function toggleTheme() {
-  currentTheme = (currentTheme === 'auto' || currentTheme === 'light') ? 'dark' : 'light';
+  currentTheme = (currentTheme==='auto'||currentTheme==='light') ? 'dark' : 'light';
   localStorage.setItem('stauner-theme', currentTheme);
   applyTheme(currentTheme);
 }
 
-/* ═══════════════════════════════════════════════
-   INIT
-═══════════════════════════════════════════════ */
 applyTheme(currentTheme);
-
 const now = new Date();
-const dateOpts = { weekday:'long', day:'numeric', month:'long', year:'numeric' };
-const dateOpts2 = { day:'numeric', month:'long', year:'numeric' };
-document.getElementById('js-date-top').textContent = now.toLocaleDateString('de-DE', dateOpts);
-document.getElementById('js-date-band').textContent = now.toLocaleDateString('de-DE', dateOpts2);
+document.getElementById('js-date-top').textContent = now.toLocaleDateString('de-DE',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+document.getElementById('js-date-band').textContent = now.toLocaleDateString('de-DE',{day:'numeric',month:'long',year:'numeric'});
 document.getElementById('js-year').textContent = now.getFullYear();
-
 loadZeitsprung();
 </script>
 </body>

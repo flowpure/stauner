@@ -8,31 +8,29 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
-    --paper:#faf7f0;--paper-2:#f0ece0;--paper-3:#e8e2d0;
-    --ink:#1a1a14;--ink-2:#2e2e24;--ink-3:#4a4a3a;
-    --muted:#787060;--rule:#ccc8b8;
-    --brown:#7c4a1e;--brown-2:#5e3614;--brown-3:#a06030;--brown-pale:#eedccc;
+    --paper:#f5efe3;--paper-2:#ede4d2;--paper-3:#e2d5be;
+    --ink:#1e1710;--ink-2:#2e2418;--ink-3:#4a3e2c;
+    --muted:#7a6e58;--rule:#cbbfa4;
+    --accent:#8b6340;--accent-2:#6e4e2e;--accent-3:#b08a62;--accent-pale:#e8d8c4;
     --serif:'Playfair Display',Georgia,serif;
     --sans:'DM Sans',system-ui,sans-serif;
   }
-  [data-theme="dark"]{
-    --paper:#1c1a14;--paper-2:#252018;--paper-3:#2e281e;
-    --ink:#f5f0e4;--ink-2:#ddd8c8;--ink-3:#b8b4a0;
-    --muted:#888070;--rule:#3a3428;
-    --brown-pale:#3a2010;
-  }
-  [data-theme="light"]{
-    --paper:#faf7f0;--paper-2:#f0ece0;--paper-3:#e8e2d0;
-    --ink:#1a1a14;--ink-2:#2e2e24;--ink-3:#4a4a3a;
-    --muted:#787060;--rule:#ccc8b8;
-    --brown-pale:#eedccc;
-  }
   @media(prefers-color-scheme:dark){
     :root{
-      --paper:#1c1a14;--paper-2:#252018;--paper-3:#2e281e;
-      --ink:#f5f0e4;--ink-2:#ddd8c8;--ink-3:#b8b4a0;
-      --muted:#888070;--rule:#3a3428;--brown-pale:#3a2010;
+      --paper:#1e1a12;--paper-2:#26200e;--paper-3:#302818;
+      --ink:#f0e8d4;--ink-2:#d8d0b8;--ink-3:#b0a888;
+      --muted:#887e68;--rule:#3a3020;--accent-pale:#2e2010;
     }
+  }
+  [data-theme="dark"]{
+    --paper:#1e1a12;--paper-2:#26200e;--paper-3:#302818;
+    --ink:#f0e8d4;--ink-2:#d8d0b8;--ink-3:#b0a888;
+    --muted:#887e68;--rule:#3a3020;--accent-pale:#2e2010;
+  }
+  [data-theme="light"]{
+    --paper:#f5efe3;--paper-2:#ede4d2;--paper-3:#e2d5be;
+    --ink:#1e1710;--ink-2:#2e2418;--ink-3:#4a3e2c;
+    --muted:#7a6e58;--rule:#cbbfa4;--accent-pale:#e8d8c4;
   }
   :root {
     --space-xs:clamp(.5rem,1.5vw,.75rem);
@@ -47,87 +45,69 @@
   html{font-size:clamp(15px,1.4vw,18px)}
   body{background:var(--paper);color:var(--ink);font-family:var(--sans);min-height:100vh;display:flex;flex-direction:column}
 
-  /* ── Masthead ── */
-  .masthead{background:#1a1a14}
-  .masthead-inner{max-width:var(--max-w);margin:0 auto;padding:var(--space-m) var(--pad-x) var(--space-s)}
-  .m-top{display:flex;justify-content:space-between;align-items:center;gap:var(--space-s);margin-bottom:var(--space-s);padding-bottom:var(--space-xs);border-bottom:1px solid rgba(255,255,255,0.12);flex-wrap:wrap}
-  .m-tag{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.7rem);font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#a06030;text-decoration:none}
-  .m-date{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.7rem);letter-spacing:.1em;color:rgba(255,255,255,0.6)}
+  .masthead{background:#1e1710;position:relative;overflow:hidden}
+  .masthead-texture{position:absolute;right:-2%;top:50%;transform:translateY(-50%);width:clamp(120px,38vw,300px);height:clamp(120px,38vw,300px);opacity:.07;pointer-events:none}
+  @media(max-width:540px){.masthead-texture{opacity:.05}}
+  .masthead-inner{max-width:var(--max-w);margin:0 auto;padding:var(--space-m) var(--pad-x) var(--space-s);position:relative;z-index:1}
+  .m-top{display:flex;justify-content:space-between;align-items:center;gap:var(--space-s);margin-bottom:var(--space-s);padding-bottom:var(--space-xs);border-bottom:1px solid rgba(255,255,255,0.1);flex-wrap:wrap}
+  .m-tag{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.7rem);font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#b08a62;text-decoration:none}
+  .m-date{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.7rem);letter-spacing:.1em;color:rgba(255,255,255,0.5)}
   .m-title-row{display:flex;align-items:baseline;gap:var(--space-s);flex-wrap:wrap}
-  .m-title{font-family:var(--serif);font-size:clamp(2rem,7vw,5.8rem);font-weight:900;line-height:.9;letter-spacing:-.02em;color:#f5f0e4}
-  .m-title-accent{color:#a06030;font-style:italic}
-  .m-tagline{font-family:var(--sans);font-style:italic;font-size:clamp(.8rem,1.2vw,1rem);color:rgba(255,255,255,0.65);line-height:1.4;max-width:320px;align-self:flex-end;padding-bottom:.2rem}
+  .m-title{font-family:var(--serif);font-size:clamp(2rem,7vw,5.8rem);font-weight:900;line-height:.9;letter-spacing:-.02em;color:#f0e8d4}
+  .m-title-accent{color:#b08a62;font-style:italic}
+  .m-tagline{font-family:var(--sans);font-style:italic;font-size:clamp(.8rem,1.2vw,1rem);color:rgba(255,255,255,0.5);line-height:1.4;max-width:320px;align-self:flex-end;padding-bottom:.2rem}
+  .switch-btn{font-size:.8rem;background:rgba(255,255,255,0.88);border:none;color:#1e1710;width:2rem;height:2rem;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;flex-shrink:0;line-height:1}
+  .switch-btn:hover{background:#fff;transform:scale(1.05)}
 
-  .switch-btn{font-size:.8rem;background:#fff;border:1px solid rgba(255,255,255,0.6);color:#1a1a14;width:2rem;height:2rem;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;flex-shrink:0;line-height:1}
-  .switch-btn:hover{background:#f0ece0;transform:scale(1.05)}
+  .band{background:#6e4e2e;padding:clamp(.35rem,.8vw,.6rem) 0}
+  .band-inner{max-width:var(--max-w);margin:0 auto;padding:0 var(--pad-x)}
+  .band-motto{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,0.8)}
 
-  /* ── Brown band ── */
-  .brown-band{background:#7c4a1e;padding:clamp(.35rem,.8vw,.6rem) 0}
-  .brown-band-inner{max-width:var(--max-w);margin:0 auto;padding:0 var(--pad-x)}
-  .band-motto{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,0.85)}
-
-  /* ── Main ── */
   .main{max-width:var(--max-w);margin:0 auto;padding:var(--space-l) var(--pad-x) var(--space-xl);flex:1;width:100%}
 
-  /* ── Intro ── */
   .intro{max-width:600px;margin-bottom:var(--space-l)}
-  .intro-label{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#7c4a1e;margin-bottom:.75rem}
+  .intro-label{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin-bottom:.75rem}
   .intro-text{font-family:var(--serif);font-size:clamp(1.1rem,2.5vw,1.5rem);font-weight:400;line-height:1.55;color:var(--ink-2)}
   .intro-sub{margin-top:.75rem;font-size:clamp(.8rem,1.3vw,.9rem);line-height:1.7;color:var(--muted)}
 
-  /* ── Rule ── */
   .section-rule{display:flex;align-items:center;gap:1rem;margin-bottom:var(--space-m)}
   .section-rule::after{content:'';flex:1;height:1px;background:var(--rule)}
   .section-label{font-family:var(--sans);font-size:clamp(.5rem,.75vw,.6rem);font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
 
-  /* ── Cards ── */
   .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:var(--space-m)}
-
-  .card{
-    display:flex;flex-direction:column;
-    background:var(--paper-2);
-    border:1px solid var(--rule);
-    text-decoration:none;color:inherit;
-    transition:transform .2s, box-shadow .2s, border-color .2s;
-    animation:rise .5s cubic-bezier(.22,.68,0,1.15) both;
-  }
-  .card:hover{transform:translateY(-3px);box-shadow:0 8px 32px rgba(0,0,0,.1)}
-  .card:nth-child(1):hover{border-color:#7c4a1e}
-  .card:nth-child(2):hover{border-color:#7c4a1e}
+  .card{display:flex;flex-direction:column;background:var(--paper-2);border:1px solid var(--rule);text-decoration:none;color:inherit;transition:transform .2s,box-shadow .2s,border-color .2s;animation:rise .5s cubic-bezier(.22,.68,0,1.15) both}
   .card:nth-child(2){animation-delay:.1s}
+  .card:hover{transform:translateY(-3px);box-shadow:0 8px 32px rgba(0,0,0,.08)}
+  .card--holz:hover{border-color:var(--accent)}
+  .card--gruen:hover{border-color:#4a7c59}
   @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
 
-  .card-top{
-    background:#1a1a14;
-    padding:var(--space-m) var(--space-m) var(--space-s);
-    border-bottom:3px solid #7c4a1e;
-    flex-shrink:0;
-  }
-  .card-kicker{font-family:var(--sans);font-size:clamp(.5rem,.75vw,.58rem);font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:#a06030;margin-bottom:.5rem}
-  .card-title{font-family:var(--serif);font-size:clamp(1.4rem,3.5vw,2.2rem);font-weight:900;line-height:1;letter-spacing:-.02em;color:#f5f0e4}
-  .card-title em{color:#a06030;font-style:italic}
-
-  /* Stauner card keeps green accent on its dot/arrow */
-  .card--stauner .card-top{border-bottom-color:#2e8b57}
-  .card--stauner .card-kicker{color:#52b788}
-  .card--stauner .card-title em{color:#52b788}
-  .card--stauner .card-dot{background:#2e8b57}
-  .card--stauner .card-arrow{color:#2e8b57}
-  .card--stauner:hover{border-color:#2e8b57}
+  .card-top{background:#1e1710;padding:var(--space-m) var(--space-m) var(--space-s);flex-shrink:0}
+  .card--holz .card-top{border-bottom:3px solid var(--accent)}
+  .card--gruen .card-top{border-bottom:3px solid #4a7c59}
+  .card-kicker{font-family:var(--sans);font-size:clamp(.5rem,.75vw,.58rem);font-weight:600;letter-spacing:.22em;text-transform:uppercase;margin-bottom:.5rem}
+  .card--holz .card-kicker{color:#b08a62}
+  .card--gruen .card-kicker{color:#7aaa88}
+  .card-title{font-family:var(--serif);font-size:clamp(1.4rem,3.5vw,2.2rem);font-weight:900;line-height:1;letter-spacing:-.02em;color:#f0e8d4}
+  .card--holz .card-title em{color:#b08a62;font-style:italic}
+  .card--gruen .card-title em{color:#7aaa88;font-style:italic}
 
   .card-body{padding:var(--space-m);flex:1;display:flex;flex-direction:column;gap:var(--space-s)}
   .card-desc{font-size:clamp(.82rem,1.3vw,.9rem);line-height:1.7;color:var(--ink-3)}
   .card-meta{margin-top:auto;display:flex;align-items:center;gap:.5rem;padding-top:var(--space-s);border-top:1px solid var(--rule)}
-  .card-dot{width:6px;height:6px;border-radius:50%;background:#7c4a1e;flex-shrink:0}
+  .card-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
+  .card--holz .card-dot{background:var(--accent)}
+  .card--gruen .card-dot{background:#4a7c59}
   .card-meta-text{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);color:var(--muted);letter-spacing:.05em}
-  .card-arrow{margin-left:auto;font-size:1rem;color:#7c4a1e;transition:transform .2s}
+  .card-arrow{margin-left:auto;font-size:1rem;transition:transform .2s}
+  .card--holz .card-arrow{color:var(--accent)}
+  .card--gruen .card-arrow{color:#4a7c59}
   .card:hover .card-arrow{transform:translateX(4px)}
 
-  /* ── Footer ── */
   .site-footer{background:var(--paper-3);border-top:1px solid var(--rule)}
   .footer-inner{max-width:var(--max-w);margin:0 auto;padding:var(--space-s) var(--pad-x);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:var(--space-s)}
   .footer-brand{font-family:var(--serif);font-size:clamp(.85rem,1.5vw,1rem);font-weight:700;color:var(--ink-3);letter-spacing:-.01em}
-  .footer-brand span{color:#7c4a1e;font-style:italic}
+  .footer-brand span{color:var(--accent);font-style:italic}
   .footer-copy{font-family:var(--sans);font-size:clamp(.52rem,.75vw,.6rem);letter-spacing:.1em;color:var(--muted)}
 
   @media(max-width:540px){
@@ -139,6 +119,21 @@
 <body>
 
 <header class="masthead">
+  <svg class="masthead-texture" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="white" stroke-width="1.2">
+    <ellipse cx="150" cy="150" rx="11" ry="9"/>
+    <ellipse cx="150" cy="150" rx="23" ry="19"/>
+    <ellipse cx="150" cy="150" rx="37" ry="32"/>
+    <ellipse cx="150" cy="150" rx="52" ry="46"/>
+    <ellipse cx="150" cy="150" rx="68" ry="61"/>
+    <ellipse cx="150" cy="150" rx="85" ry="77"/>
+    <ellipse cx="150" cy="150" rx="103" ry="94"/>
+    <ellipse cx="150" cy="150" rx="122" ry="112"/>
+    <ellipse cx="150" cy="150" rx="142" ry="131"/>
+    <line x1="150" y1="8" x2="150" y2="292" stroke-width=".6" opacity=".4"/>
+    <line x1="8" y1="150" x2="292" y2="150" stroke-width=".6" opacity=".4"/>
+    <line x1="44" y1="44" x2="256" y2="256" stroke-width=".4" opacity=".25"/>
+    <line x1="256" y1="44" x2="44" y2="256" stroke-width=".4" opacity=".25"/>
+  </svg>
   <div class="masthead-inner">
     <div class="m-top">
       <span class="m-tag">✦ Hirnholz</span>
@@ -154,8 +149,8 @@
   </div>
 </header>
 
-<div class="brown-band">
-  <div class="brown-band-inner">
+<div class="band">
+  <div class="band-inner">
     <span class="band-motto">Ein Ort für Neugier, Staunen und echte Erkenntnis.</span>
   </div>
 </div>
@@ -163,7 +158,7 @@
 <main class="main">
   <div class="intro">
     <div class="intro-label">Was ist Hirnholz?</div>
-    <p class="intro-text">Hirnholz ist der Querschnitt durch den Stamm — dort, wo die Ringe sichtbar werden, wo Tiefe auf Oberfläche trifft.</p>
+    <p class="intro-text">Hirnholz ist der Querschnitt durch den Stamm, dort wo die Ringe sichtbar werden, wo Tiefe auf Oberfläche trifft.</p>
     <p class="intro-sub">Zwei tägliche Formate: eine wissenschaftlich belegte Erkenntnis, die deine Annahmen herausfordert. Und ein Blick zurück auf das, was heute vor Jahren wirklich passiert ist.</p>
   </div>
 
@@ -172,7 +167,7 @@
   </div>
 
   <div class="cards">
-    <a href="stauner.html" class="card card--stauner">
+    <a href="stauner.html" class="card card--gruen">
       <div class="card-top">
         <div class="card-kicker">Täglich um 5:00 Uhr</div>
         <div class="card-title">Der tägliche <em>Stauner</em></div>
@@ -187,7 +182,7 @@
       </div>
     </a>
 
-    <a href="zeitsprung.html" class="card">
+    <a href="zeitsprung.html" class="card card--holz">
       <div class="card-top">
         <div class="card-kicker">Heute in der Geschichte</div>
         <div class="card-title">Der tägliche <em>Zeitsprung</em></div>
@@ -224,9 +219,8 @@
     applyTheme(theme);
   }
   applyTheme(theme);
-
   const now = new Date();
-  document.getElementById('js-date').textContent = now.toLocaleDateString('de-DE', {weekday:'long', day:'numeric', month:'long', year:'numeric'});
+  document.getElementById('js-date').textContent = now.toLocaleDateString('de-DE', {weekday:'long',day:'numeric',month:'long',year:'numeric'});
   document.getElementById('js-year').textContent = now.getFullYear();
 </script>
 </body>
