@@ -48,8 +48,8 @@
   body{background:var(--paper);color:var(--ink);font-family:var(--body);min-height:100vh}
 
   .masthead{background:#161614;position:relative;overflow:hidden}
-  .masthead-texture{position:absolute;right:-1%;top:50%;transform:translateY(-50%);width:clamp(120px,38vw,300px);height:clamp(120px,38vw,300px);opacity:.07;pointer-events:none;mix-blend-mode:screen}
-  @media(max-width:540px){.masthead-texture{opacity:.05}}
+  .masthead-texture{position:absolute;right:-4%;top:50%;transform:translateY(-50%);width:clamp(150px,40vw,440px);opacity:.055;pointer-events:none;user-select:none;mix-blend-mode:screen;filter:blur(.15px)}
+  @media(max-width:540px){.masthead-texture{opacity:.04;width:clamp(110px,32vw,220px)}}
   .masthead-inner{max-width:var(--max-w);margin:0 auto;padding:var(--space-m) var(--pad-x) var(--space-s);position:relative;z-index:1}
   .m-top{display:flex;justify-content:space-between;align-items:center;gap:var(--space-s);margin-bottom:var(--space-s);padding-bottom:var(--space-xs);border-bottom:1px solid rgba(255,255,255,0.1);flex-wrap:wrap}
   .m-tag{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.7rem);font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#9a9080;text-decoration:none}
@@ -136,7 +136,7 @@
 <body>
 
 <header class="masthead">
-  <img class="masthead-texture" src="texture-stein.svg" alt="">
+  <img class="masthead-texture" src="texture-stein.webp" alt="">
   <div class="masthead-inner">
     <div class="m-top">
       <a href="index.html" class="m-tag">✦ Hirnholz</a>
