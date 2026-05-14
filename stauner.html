@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Der tägliche Stauner — Hirnholz</title>
+<title>Der tägliche Stauner · Hirnholz</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -313,7 +313,7 @@
 <header class="masthead">
   <div class="masthead-inner">
     <div class="m-top">
-      <a href="index.html" class="m-tag" id="js-m-tag" style="text-decoration:none;cursor:pointer;">✦ Hirnholz — tägliche Edition</a>
+      <a href="index.html" class="m-tag" id="js-m-tag" style="text-decoration:none;cursor:pointer;">✦ Hirnholz</a>
       <div style="display:flex;align-items:center;gap:.6rem">
         <span class="m-date-top" id="js-date-top"></span>
         <button class="switch-btn" id="js-theme-btn" onclick="toggleTheme()" title="Dark/Light Mode">☾</button>
@@ -323,14 +323,14 @@
     </div>
     <div class="m-title-row">
       <h1 class="m-title"><span id="js-title-plain">Der tägliche </span><span class="m-title-accent" id="js-title-accent">Stauner</span></h1>
-      <p class="m-tagline" id="js-tagline">Was wir über die Welt zu wissen glauben — und was wirklich stimmt.</p>
+      <p class="m-tagline" id="js-tagline">Was wir über die Welt zu wissen glauben. Und was wirklich stimmt.</p>
     </div>
   </div>
 </header>
 
 <div class="green-band">
   <div class="green-band-inner">
-    <span class="band-motto" id="js-band-motto">Jeden Morgen um 5:00 Uhr eine Erkenntnis — bereichernd, begeisternd und wissenschaftlich belegt.</span>
+    <span class="band-motto" id="js-band-motto">Jeden Morgen um 5:00 Uhr eine Erkenntnis. Bereichernd, begeisternd, wissenschaftlich belegt.</span>
     <div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap">
       <span class="band-date" id="js-date-band"></span>
   <!-- Sidebar overlay -->
@@ -367,7 +367,7 @@
 <footer class="site-footer">
   <div class="footer-inner">
     <span class="footer-brand">Hirn<span>holz</span></span>
-    <span class="footer-copy"><span id="js-footer-motto">Jeden Morgen um 5 Uhr</span> — <span id="js-year"></span></span>
+    <span class="footer-copy"><span id="js-footer-motto">Jeden Morgen um 5 Uhr</span> · <span id="js-year"></span></span>
   </div>
 </footer>
 
@@ -559,11 +559,11 @@ loadNavCategories();
 ═══════════════════════════════════════════════ */
 const TRANSLATIONS = {
   de: {
-    eyebrow: '✦ Hirnholz — tägliche Edition',
+    eyebrow: '✦ Hirnholz',
     title: 'Der tägliche',
     titleAccent: 'Stauner',
-    tagline: 'Was wir über die Welt zu wissen glauben — und was wirklich stimmt.',
-    motto: 'Jeden Morgen um 5:00 Uhr eine Erkenntnis — bereichernd, begeisternd und wissenschaftlich belegt.',
+    tagline: 'Was wir über die Welt zu wissen glauben. Und was wirklich stimmt.',
+    motto: 'Jeden Morgen um 5:00 Uhr eine Erkenntnis. Bereichernd, begeisternd, wissenschaftlich belegt.',
     staunerLabel: 'Das Staunen des Tages',
     schonLabel: 'Schon gewusst?',
     quelleLabel: 'Quelle',
@@ -576,16 +576,16 @@ const TRANSLATIONS = {
     errorTitle: 'Heute keine Verbindung',
     errorText: 'Der Stauner konnte nicht geladen werden. Bitte versuche es gleich noch einmal.',
     errorBtn: 'Erneut versuchen',
-    disclaimer: 'KI-generierte Inhalte — Fakten können Fehler enthalten. Bitte eigenständig prüfen:',
+    disclaimer: 'KI-generierte Inhalte. Fakten können Fehler enthalten. Bitte eigenständig prüfen:',
     scholarLink: 'Google Scholar',
     sammlung_url: 'sammlung.html'
   },
   en: {
-    eyebrow: '✦ BrainGrain — daily edition',
+    eyebrow: '✦ BrainGrain',
     title: 'The daily',
     titleAccent: 'Wonder',
-    tagline: 'What we think we know about the world — and what is really true.',
-    motto: 'Every morning at 5:00 AM — enriching, inspiring and scientifically grounded.',
+    tagline: 'What we think we know about the world. And what is really true.',
+    motto: 'Every morning at 5:00 AM. Enriching, inspiring, scientifically grounded.',
     staunerLabel: 'The Wonder of the Day',
     schonLabel: 'Did you know?',
     quelleLabel: 'Source',
@@ -598,7 +598,7 @@ const TRANSLATIONS = {
     errorTitle: 'No connection today',
     errorText: "The wonder could not be loaded. Please try again in a moment.",
     errorBtn: 'Try again',
-    disclaimer: 'AI-generated content — facts may contain errors. Please verify independently:',
+    disclaimer: 'AI-generated content. Facts may contain errors. Please verify independently:',
     scholarLink: 'Google Scholar',
     sammlung_url: 'sammlung.html'
   }
@@ -647,7 +647,7 @@ function applyLang(lang) {
   setT('js-error-btn', t.errorBtn);
 
   document.documentElement.lang = lang;
-  document.title = lang === 'de' ? 'Der tägliche Stauner — Hirnholz' : 'The Daily Wonder — Hirnholz';
+  document.title = lang === 'de' ? 'Der tägliche Stauner · Hirnholz' : 'The Daily Wonder · Hirnholz';
 
   const now = new Date();
   const locale = lang === 'de' ? 'de-DE' : 'en-GB';
