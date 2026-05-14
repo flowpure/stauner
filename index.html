@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Der tägliche Stauner</title>
+<title>Hirnholz</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
     --paper:#faf7f0;--paper-2:#f0ece0;--paper-3:#e8e2d0;
@@ -13,281 +13,105 @@
     --muted:#787060;--rule:#ccc8b8;
     --green:#2e8b57;--green-2:#256f47;--green-3:#52b788;--green-pale:#d4edda;
     --serif:'Playfair Display',Georgia,serif;
-    --body:'Source Serif 4',Georgia,serif;
     --sans:'DM Sans',system-ui,sans-serif;
   }
-  @media(prefers-color-scheme:dark){
-    :root{
-      --paper:#1c1c14;--paper-2:#242418;--paper-3:#2c2c20;
-      --ink:#f5f0e4;--ink-2:#ddd8c8;--ink-3:#b8b4a0;
-      --muted:#888070;--rule:#3a3a2c;
-      --green:#2e8b57;--green-2:#256f47;--green-3:#52b788;--green-pale:#1a3d2b;
-    }
-  /* Theme overrides — must come AFTER @media to take precedence */
   [data-theme="dark"]{
     --paper:#1c1c14;--paper-2:#242418;--paper-3:#2c2c20;
     --ink:#f5f0e4;--ink-2:#ddd8c8;--ink-3:#b8b4a0;
     --muted:#888070;--rule:#3a3a2c;
-    --green:#2e8b57;--green-2:#256f47;--green-3:#52b788;--green-pale:#1a3d2b;
+    --green-pale:#1a3d2b;
   }
   [data-theme="light"]{
     --paper:#faf7f0;--paper-2:#f0ece0;--paper-3:#e8e2d0;
     --ink:#1a1a14;--ink-2:#2e2e24;--ink-3:#4a4a3a;
     --muted:#787060;--rule:#ccc8b8;
-    --green:#2e8b57;--green-2:#256f47;--green-3:#52b788;--green-pale:#d4edda;
+    --green-pale:#d4edda;
   }
-
+  @media(prefers-color-scheme:dark){
+    :root{
+      --paper:#1c1c14;--paper-2:#242418;--paper-3:#2c2c20;
+      --ink:#f5f0e4;--ink-2:#ddd8c8;--ink-3:#b8b4a0;
+      --muted:#888070;--rule:#3a3a2c;--green-pale:#1a3d2b;
+    }
   }
-  /* ── Fluid spacing scale — alles skaliert stufenlos ── */
   :root {
-    --space-xs: clamp(.5rem, 1.5vw, .75rem);
-    --space-s:  clamp(.75rem, 2vw, 1.25rem);
-    --space-m:  clamp(1rem, 3vw, 2rem);
-    --space-l:  clamp(1.5rem, 4vw, 3.5rem);
-    --space-xl: clamp(2rem, 6vw, 7rem);
-    --pad-x:    clamp(1rem, 5vw, 2rem);
-    --max-w:    960px;
-    --max-text: 720px;
+    --space-xs:clamp(.5rem,1.5vw,.75rem);
+    --space-s:clamp(.75rem,2vw,1.25rem);
+    --space-m:clamp(1rem,3vw,2rem);
+    --space-l:clamp(1.5rem,4vw,3.5rem);
+    --space-xl:clamp(2rem,6vw,7rem);
+    --pad-x:clamp(1rem,5vw,2rem);
+    --max-w:960px;
   }
-
   *{margin:0;padding:0;box-sizing:border-box}
-
-  html{font-size:clamp(15px, 1.4vw, 18px)}
-
-  body{background:var(--paper);color:var(--ink);font-family:var(--body);min-height:100vh}
+  html{font-size:clamp(15px,1.4vw,18px)}
+  body{background:var(--paper);color:var(--ink);font-family:var(--sans);min-height:100vh;display:flex;flex-direction:column}
 
   /* ── Masthead ── */
   .masthead{background:#1a1a14}
   .masthead-inner{max-width:var(--max-w);margin:0 auto;padding:var(--space-m) var(--pad-x) var(--space-s)}
   .m-top{display:flex;justify-content:space-between;align-items:center;gap:var(--space-s);margin-bottom:var(--space-s);padding-bottom:var(--space-xs);border-bottom:1px solid rgba(255,255,255,0.12);flex-wrap:wrap}
-  .m-tag{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.7rem);font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#52b788}
-  .m-date-top{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.7rem);letter-spacing:.1em;color:rgba(255,255,255,0.85)}
+  .m-tag{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.7rem);font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#52b788;text-decoration:none}
+  .m-date{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.7rem);letter-spacing:.1em;color:rgba(255,255,255,0.6)}
   .m-title-row{display:flex;align-items:baseline;gap:var(--space-s);flex-wrap:wrap}
-  .m-title{font-family:var(--serif);font-size:clamp(2rem,7vw,5.8rem);font-weight:900;line-height:.9;letter-spacing:-.02em;color:#f5f0e4;flex-shrink:0}
+  .m-title{font-family:var(--serif);font-size:clamp(2rem,7vw,5.8rem);font-weight:900;line-height:.9;letter-spacing:-.02em;color:#f5f0e4}
   .m-title-accent{color:#2e8b57;font-style:italic}
-  .m-tagline{font-family:var(--body);font-style:italic;font-size:clamp(.8rem,1.2vw,1rem);color:rgba(255,255,255,0.8);line-height:1.4;max-width:280px;align-self:flex-end;padding-bottom:.2rem}
+  .m-tagline{font-family:var(--sans);font-style:italic;font-size:clamp(.8rem,1.2vw,1rem);color:rgba(255,255,255,0.65);line-height:1.4;max-width:320px;align-self:flex-end;padding-bottom:.2rem}
+
+  .switch-btn{font-size:.8rem;background:#fff;border:1px solid rgba(255,255,255,0.6);color:#1a1a14;width:2rem;height:2rem;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;flex-shrink:0;line-height:1}
+  .switch-btn:hover{background:#f0ece0;transform:scale(1.05)}
 
   /* ── Green band ── */
   .green-band{background:#2e8b57;padding:clamp(.35rem,.8vw,.6rem) 0}
-  .green-band-inner{max-width:var(--max-w);margin:0 auto;padding:0 var(--pad-x);display:flex;justify-content:space-between;align-items:center;gap:var(--space-s);flex-wrap:wrap}
+  .green-band-inner{max-width:var(--max-w);margin:0 auto;padding:0 var(--pad-x)}
   .band-motto{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,0.85)}
-  .band-date{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);color:rgba(255,255,255,0.6);letter-spacing:.08em}
-  /* ── Sammlung Menü ── */
-  /* ── Hamburger & Sidebar ── */
-  .nav-hamburger{
-    background:none;border:none;cursor:pointer;
-    color:#f5f0e4;font-size:1.3rem;line-height:1;
-    padding:.25rem .4rem;display:flex;align-items:center;
-    transition:opacity .2s;
-  }
-  .nav-hamburger:hover{opacity:.7}
 
-  .nav-overlay{
-    display:none;position:fixed;inset:0;
-    background:rgba(0,0,0,0.5);z-index:299;
-    backdrop-filter:blur(2px);
-  }
-  .nav-overlay.open{display:block}
+  /* ── Main ── */
+  .main{max-width:var(--max-w);margin:0 auto;padding:var(--space-l) var(--pad-x) var(--space-xl);flex:1;width:100%}
 
-  .nav-sidebar{
-    position:fixed;top:0;right:-320px;width:min(300px,85vw);height:100vh;
-    background:#1a1a14;z-index:300;
-    transition:right .28s cubic-bezier(.4,0,.2,1);
+  /* ── Intro ── */
+  .intro{max-width:600px;margin-bottom:var(--space-l)}
+  .intro-label{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#2e8b57;margin-bottom:.75rem}
+  .intro-text{font-family:var(--serif);font-size:clamp(1.1rem,2.5vw,1.5rem);font-weight:400;line-height:1.55;color:var(--ink-2)}
+  .intro-sub{margin-top:.75rem;font-size:clamp(.8rem,1.3vw,.9rem);line-height:1.7;color:var(--muted)}
+
+  /* ── Rule ── */
+  .section-rule{display:flex;align-items:center;gap:1rem;margin-bottom:var(--space-m)}
+  .section-rule::after{content:'';flex:1;height:1px;background:var(--rule)}
+  .section-label{font-family:var(--sans);font-size:clamp(.5rem,.75vw,.6rem);font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
+
+  /* ── Cards ── */
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:var(--space-m)}
+
+  .card{
     display:flex;flex-direction:column;
-    box-shadow:-4px 0 24px rgba(0,0,0,0.4);
-    overflow:hidden;
+    background:var(--paper-2);
+    border:1px solid var(--rule);
+    text-decoration:none;color:inherit;
+    transition:transform .2s, box-shadow .2s, border-color .2s;
+    animation:rise .5s cubic-bezier(.22,.68,0,1.15) both;
   }
-  .nav-sidebar.open{right:0}
-
-  .nav-sidebar-head{
-    display:flex;justify-content:space-between;align-items:center;
-    padding:1.25rem 1.25rem 1rem;
-    border-bottom:1px solid rgba(255,255,255,0.1);
-    flex-shrink:0;
-  }
-  .nav-sidebar-title{
-    font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);
-    font-weight:600;letter-spacing:.2em;text-transform:uppercase;
-    color:#52b788;
-  }
-  .nav-close{
-    background:none;border:none;color:rgba(255,255,255,0.5);
-    font-size:1.2rem;cursor:pointer;line-height:1;padding:.2rem;
-    transition:color .15s;
-  }
-  .nav-close:hover{color:#fff}
-
-  .nav-sidebar-body{
-    flex:1;overflow-y:auto;padding:.5rem 0 1rem;
-  }
-  .nav-sidebar-body::-webkit-scrollbar{width:4px}
-  .nav-sidebar-body::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.15);border-radius:2px}
-
-  .nav-sidebar-body a{
-    display:block;font-family:var(--sans);
-    font-size:clamp(.7rem,1.1vw,.8rem);
-    color:#f5f0e4;text-decoration:none;
-    padding:.6rem 1.25rem;transition:background .15s;
-    letter-spacing:.04em;
-  }
-  .nav-sidebar-body a:hover{background:rgba(255,255,255,0.07);color:#fff}
-  .nav-sidebar-divider{height:1px;background:rgba(255,255,255,0.08);margin:.4rem 0}
-  .nav-sidebar-all{color:#52b788 !important;font-weight:600;border-top:1px solid rgba(255,255,255,0.08);margin-top:.25rem}
-  .nav-sidebar-section{
-    font-family:var(--sans);font-size:clamp(.48rem,.68vw,.55rem);
-    letter-spacing:.22em;text-transform:uppercase;
-    color:rgba(255,255,255,0.3);padding:.75rem 1.25rem .25rem;
-  }
-
-  /* ── Theme & Lang Switches ── */
-  .switches{display:flex;align-items:center;gap:.5rem}
-  .switch-btn{
-    font-size:.8rem;
-    background:#fff;
-    border:1px solid rgba(255,255,255,0.6);
-    color:#1a1a14;
-    width:2rem;height:2rem;
-    border-radius:50%;
-    cursor:pointer;
-    display:flex;align-items:center;justify-content:center;
-    transition:all .2s;
-    flex-shrink:0;
-    line-height:1;
-  }
-  .switch-btn:hover{background:#f0ece0;transform:scale(1.05)}
-  .lang-switch-btn{
-    font-family:var(--sans);
-    font-size:clamp(.65rem,.9vw,.75rem);
-    font-weight:700;
-    letter-spacing:.12em;
-    background:transparent;
-    border:none;
-    color:#f5f0e4;
-    padding:.2rem .1rem;
-    cursor:pointer;
-    transition:opacity .2s;
-  }
-  .lang-switch-btn:hover{opacity:.7}
-
-
-  /* ── Main container ── */
-  .main{max-width:var(--max-w);margin:0 auto;padding:var(--space-l) var(--pad-x) var(--space-xl)}
-
-  /* ── Loading ── */
-  .state-loading{text-align:center;padding:var(--space-xl) var(--pad-x)}
-  .loading-leaf{display:block;font-size:clamp(1.8rem,4vw,2.5rem);margin-bottom:var(--space-m);animation:sway 3s ease-in-out infinite}
-  @keyframes sway{0%,100%{transform:rotate(-8deg) scale(.95);opacity:.4}50%{transform:rotate(8deg) scale(1.05);opacity:1}}
-  .loading-text{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
-
-  /* ── Error ── */
-  .state-error{text-align:center;padding:var(--space-l) var(--pad-x);border:1px solid var(--rule);max-width:500px;margin:0 auto;background:var(--paper-2)}
-  .state-error h2{font-family:var(--serif);font-size:clamp(1.2rem,2.5vw,1.5rem);font-weight:700;margin-bottom:var(--space-xs)}
-  .state-error p{color:var(--muted);font-size:clamp(.8rem,1.2vw,.9rem);line-height:1.75;margin-bottom:var(--space-m)}
-  .btn{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);font-weight:600;letter-spacing:.18em;text-transform:uppercase;background:#2e8b57;color:#fff;border:none;padding:.8em 2em;cursor:pointer;transition:background .2s;border-radius:2px}
-  .btn:hover{background:#256f47}
-
-  /* ── Article ── */
-  .article{animation:rise .6s cubic-bezier(.22,.68,0,1.15) both}
+  .card:hover{transform:translateY(-3px);box-shadow:0 8px 32px rgba(0,0,0,.1);border-color:#2e8b57}
+  .card:nth-child(2){animation-delay:.1s}
   @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
 
-  .a-kicker{display:inline-flex;align-items:center;gap:.6rem;margin-bottom:var(--space-s)}
-  .kicker-dot{width:clamp(6px,1vw,8px);height:clamp(6px,1vw,8px);border-radius:50%;background:#2e8b57;flex-shrink:0}
-  .kicker-text{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#2e8b57}
-
-  .a-headline{
-    font-family:var(--serif);
-    font-size:clamp(1.5rem,4.5vw,3.4rem);
-    font-weight:900;
-    line-height:1.08;
-    letter-spacing:-.02em;
-    color:var(--ink);
-    margin-bottom:var(--space-m);
-    max-width:var(--max-text);
-  }
-
-  /* ── Stauner box ── */
-  .stauner-box{
-    max-width:var(--max-text);
-    margin-bottom:var(--space-l);
-    background:var(--green-pale);
-    border-left:clamp(3px,0.5vw,5px) solid #2e8b57;
-    padding:clamp(1rem,3vw,2rem) clamp(1rem,3vw,2.25rem);
-  }
-  .stauner-label{font-family:var(--sans);font-size:clamp(.5rem,.75vw,.6rem);font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:#2e8b57;margin-bottom:.7rem;display:flex;align-items:center;gap:.5rem}
-  .stauner-label::before{content:'✦';font-size:.5rem}
-  .stauner-text{
-    font-family:var(--serif);
-    font-size:clamp(1rem,2.2vw,1.25rem);
-    font-style:italic;
-    line-height:1.65;
-    color:var(--ink-2);
-  }
-
-  /* ── Body text ── */
-  .a-body{
-    font-size:clamp(.95rem,1.8vw,1.08rem);
-    line-height:clamp(1.7,2.5vw,1.95);
-    max-width:var(--max-text);
-    color:var(--ink-3);
-  }
-  .a-body p{margin-bottom:clamp(.9em,2vw,1.4em)}
-  .a-body p:last-child{margin-bottom:0}
-  .a-body p:first-child::first-letter{
-    font-family:var(--serif);
-    font-size:clamp(2.4rem,6vw,3.8rem);
-    font-weight:900;
-    line-height:.8;
-    float:left;
-    margin-right:.1em;
-    margin-top:.05em;
-    color:#2e8b57;
-  }
-
-  /* ── Schon gewusst ── */
-  .schon-gewusst{
-    max-width:var(--max-text);
-    margin-top:var(--space-l);
-    padding:clamp(.85rem,2vw,1.25rem) clamp(1rem,2.5vw,1.75rem);
-    border-left:3px solid var(--rule);
-    background:var(--paper-2);
-    display:flex;
-    gap:.85rem;
-    align-items:flex-start;
-  }
-  .schon-gewusst-label{
-    font-family:var(--sans);
-    font-size:clamp(.5rem,.75vw,.6rem);
-    font-weight:600;
-    letter-spacing:.18em;
-    text-transform:uppercase;
-    color:var(--muted);
-    white-space:nowrap;
-    padding-top:.2rem;
+  .card-top{
+    background:#1a1a14;
+    padding:var(--space-m) var(--space-m) var(--space-s);
+    border-bottom:3px solid #2e8b57;
     flex-shrink:0;
   }
-  .schon-gewusst-text{
-    font-family:var(--sans);
-    font-size:clamp(.82rem,1.4vw,.9rem);
-    line-height:1.65;
-    color:var(--ink-3);
-  }
+  .card-kicker{font-family:var(--sans);font-size:clamp(.5rem,.75vw,.58rem);font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:#52b788;margin-bottom:.5rem}
+  .card-title{font-family:var(--serif);font-size:clamp(1.4rem,3.5vw,2.2rem);font-weight:900;line-height:1;letter-spacing:-.02em;color:#f5f0e4}
+  .card-title em{color:#2e8b57;font-style:italic}
 
-  /* ── Divider ── */
-  .divider{max-width:var(--max-text);display:flex;align-items:center;gap:1rem;margin:var(--space-l) 0}
-  .divider::before,.divider::after{content:'';flex:1;height:1px;background:var(--rule)}
-  .divider-mark{font-family:var(--serif);font-size:.8rem;letter-spacing:.5em;color:var(--rule)}
-
-  /* ── Colophon ── */
-  .colophon{
-    max-width:var(--max-text);
-    padding-top:var(--space-s);
-    border-top:2px solid var(--green-pale);
-  }
-  .colophon-source{font-family:var(--sans);font-size:clamp(.58rem,.85vw,.65rem);color:var(--muted);letter-spacing:.05em;line-height:1.6}
-  .colophon-source strong{color:var(--ink-3);font-weight:600}
-  .colophon-disclaimer{font-family:var(--sans);font-size:clamp(.52rem,.75vw,.6rem);color:var(--muted);letter-spacing:.05em;line-height:1.6;margin-top:.5rem;opacity:.7}
-  .colophon-disclaimer a{color:#2e8b57;text-decoration:none}
-  .colophon-disclaimer a:hover{text-decoration:underline}
+  .card-body{padding:var(--space-m);flex:1;display:flex;flex-direction:column;gap:var(--space-s)}
+  .card-desc{font-size:clamp(.82rem,1.3vw,.9rem);line-height:1.7;color:var(--ink-3)}
+  .card-meta{margin-top:auto;display:flex;align-items:center;gap:.5rem;padding-top:var(--space-s);border-top:1px solid var(--rule)}
+  .card-dot{width:6px;height:6px;border-radius:50%;background:#2e8b57;flex-shrink:0}
+  .card-meta-text{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);color:var(--muted);letter-spacing:.05em}
+  .card-arrow{margin-left:auto;font-size:1rem;color:#2e8b57;transition:transform .2s}
+  .card:hover .card-arrow{transform:translateX(4px)}
 
   /* ── Footer ── */
   .site-footer{background:var(--paper-3);border-top:1px solid var(--rule)}
@@ -296,777 +120,104 @@
   .footer-brand span{color:#2e8b57;font-style:italic}
   .footer-copy{font-family:var(--sans);font-size:clamp(.52rem,.75vw,.6rem);letter-spacing:.1em;color:var(--muted)}
 
-  /* ── Narrow screens only: stack footer, hide tagline/date ── */
   @media(max-width:540px){
     .m-tagline{display:none}
-    .m-date-top{display:none}
-    .band-date{display:none}
     .footer-inner{flex-direction:column;text-align:center}
   }
 </style>
 </head>
 <body>
 
-<!-- API Key für Übersetzung: ersetze DEIN_KEY_HIER mit deinem Anthropic API Key -->
-<span id="js-api-key" data-key="DEIN_KEY_HIER" style="display:none"></span>
-
 <header class="masthead">
   <div class="masthead-inner">
     <div class="m-top">
-      <a href="/" class="m-tag" id="js-m-tag" style="text-decoration:none;cursor:pointer;">✦ Hirnholz — tägliche Edition</a>
+      <span class="m-tag">✦ Hirnholz</span>
       <div style="display:flex;align-items:center;gap:.6rem">
-        <span class="m-date-top" id="js-date-top"></span>
-        <button class="switch-btn" id="js-theme-btn" onclick="toggleTheme()" title="Dark/Light Mode">☾</button>
-        <button class="lang-switch-btn" id="js-lang-btn" onclick="toggleLang()"><span id="js-lang-label">DE</span></button>
-        <button class="nav-hamburger" onclick="toggleNav()" aria-label="Sammlung öffnen" id="js-nav-btn">☰</button>
+        <span class="m-date" id="js-date"></span>
+        <button class="switch-btn" onclick="toggleTheme()" title="Dark/Light Mode">☾</button>
       </div>
     </div>
     <div class="m-title-row">
-      <h1 class="m-title"><span id="js-title-plain">Der tägliche </span><span class="m-title-accent" id="js-title-accent">Stauner</span></h1>
-      <p class="m-tagline" id="js-tagline">Was wir über die Welt zu wissen glauben — und was wirklich stimmt.</p>
+      <h1 class="m-title">Hirn<span class="m-title-accent">holz</span></h1>
+      <p class="m-tagline">Futter für den Kopf — täglich frisch.</p>
     </div>
   </div>
 </header>
 
 <div class="green-band">
   <div class="green-band-inner">
-    <span class="band-motto" id="js-band-motto">Jeden Morgen um 5:00 Uhr eine Erkenntnis — bereichernd, begeisternd und wissenschaftlich belegt.</span>
-    <div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap">
-      <span class="band-date" id="js-date-band"></span>
-  <!-- Sidebar overlay -->
-  <div class="nav-overlay" id="js-nav-overlay" onclick="closeNav()"></div>
-  <nav class="nav-sidebar" id="js-nav-sidebar">
-    <div class="nav-sidebar-head">
-      <span class="nav-sidebar-title" id="js-nav-header">✦ Die Sammlung</span>
-      <button class="nav-close" onclick="closeNav()">✕</button>
-    </div>
-    <div class="nav-sidebar-body">
-      <div class="nav-sidebar-section" id="js-nav-section">Nach Kategorie</div>
-      <div id="js-nav-categories"><a href="sammlung.html">Laden…</a></div>
-      <div class="nav-sidebar-divider"></div>
-      <a href="sammlung.html" class="nav-sidebar-all" id="js-nav-all">✦ Gesamte Sammlung →</a>
-    </div>
-  </nav>
-    </div>
+    <span class="band-motto">Ein Ort für Neugier, Staunen und echte Erkenntnis.</span>
   </div>
 </div>
 
 <main class="main">
-  <div id="js-loading" class="state-loading">
-    <span class="loading-leaf">🌿</span>
-    <p class="loading-text" id="js-loading-text">Der Stauner des Tages wird vorbereitet …</p>
+  <div class="intro">
+    <div class="intro-label">Was ist Hirnholz?</div>
+    <p class="intro-text">Hirnholz ist der Querschnitt durch den Stamm — dort wo die Ringe sichtbar werden, wo Tiefe auf Oberfläche trifft.</p>
+    <p class="intro-sub">Zwei tägliche Formate: eine wissenschaftlich belegte Erkenntnis, die deine Annahmen herausfordert — und ein Blick zurück auf das, was heute vor Jahren wirklich passiert ist.</p>
   </div>
-  <div id="js-error" class="state-error" style="display:none">
-    <h2 id="js-error-title">Heute keine Verbindung</h2>
-    <p id="js-error-text">Der Stauner konnte nicht geladen werden. Bitte versuche es gleich noch einmal.</p>
-    <button class="btn" id="js-error-btn" onclick="loadStory()">Erneut versuchen</button>
+
+  <div class="section-rule">
+    <span class="section-label">Die Formate</span>
   </div>
-  <div id="js-article" style="display:none"></div>
+
+  <div class="cards">
+    <a href="stauner/" class="card">
+      <div class="card-top">
+        <div class="card-kicker">Täglich um 5:00 Uhr</div>
+        <div class="card-title">Der tägliche <em>Stauner</em></div>
+      </div>
+      <div class="card-body">
+        <p class="card-desc">Was wir über die Welt zu wissen glauben — und was wirklich stimmt. Jeden Tag eine neue, wissenschaftlich belegte Erkenntnis aus Biologie, Geschichte, Wirtschaft oder Astronomie.</p>
+        <div class="card-meta">
+          <span class="card-dot"></span>
+          <span class="card-meta-text">Täglich generiert · Archiv verfügbar</span>
+          <span class="card-arrow">→</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="zeitsprung/" class="card">
+      <div class="card-top">
+        <div class="card-kicker">Heute in der Geschichte</div>
+        <div class="card-title">Der tägliche <em>Zeitsprung</em></div>
+      </div>
+      <div class="card-body">
+        <p class="card-desc">Was geschah heute vor Jahren — und warum lohnt es sich, daran zu erinnern? Bereichernde, überraschende Momente aus der Weltgeschichte, täglich neu.</p>
+        <div class="card-meta">
+          <span class="card-dot"></span>
+          <span class="card-meta-text">Tagesaktuell · Historisch belegt</span>
+          <span class="card-arrow">→</span>
+        </div>
+      </div>
+    </a>
+  </div>
 </main>
 
 <footer class="site-footer">
   <div class="footer-inner">
     <span class="footer-brand">Hirn<span>holz</span></span>
-    <span class="footer-copy"><span id="js-footer-motto">Jeden Morgen um 5 Uhr</span> — <span id="js-year"></span></span>
+    <span class="footer-copy" id="js-year"></span>
   </div>
 </footer>
 
 <script>
-/* ═══════════════════════════════════════════════
-   KONFIGURATION — hier anpassen
-═══════════════════════════════════════════════ */
-const CONFIG = {
-  apiKey: '',        // Anthropic API Key — optional, leer lassen wenn nicht vorhanden
-  themen: [
-    'Ökologie und natürliche Systeme',
-    'Nachhaltige Wirtschaft und gesellschaftlicher Fortschritt',
-    'Menschliches Verhalten und Zusammenleben',
-    'Wissenschaftliche Entdeckungen der letzten Jahrzehnte',
-    'Globale Entwicklung und was sich wirklich verbessert hat',
-    'Forstwirtschaft, Boden und natürliche Kreisläufe',
-    'Innovationen die der Welt nützen',
-    'Faszinierende Tierarten und Ökosysteme',
-    'Wirtschaft und was Märkte wirklich bewirken',
-    'Astronomie und unser Platz im Universum',
-    'Bildung und wie Menschen wirklich lernen',
-    'Ernährung, Landwirtschaft und die Zukunft des Essens'
-  ]
-};
-
-/* ═══════════════════════════════════════════════
-   47 KURATIERTE STAUNER-GESCHICHTEN
-═══════════════════════════════════════════════ */
-const STORIES = [
-  {
-    kategorie:"Ökologie",
-    titel:"Der Wald, der sich selbst heilt",
-    stauner:"Wälder gelten als fragile Ökosysteme, die menschlichen Schutz brauchen. Doch die Forschung zeigt: Wenn man sie lässt, heilen sie sich mit erstaunlicher Kraft selbst — schneller als wir je gedacht haben.",
-    absaetze:["Jahrzehntelang gingen Ökologen davon aus, dass ein zerstörter Wald Jahrhunderte braucht, um sich zu erholen. Diese Annahme prägte Naturschutzpolitik weltweit — und führte dazu, dass manche Gebiete als 'verloren' aufgegeben wurden.","Eine große Metastudie der ETH Zürich, die 2019 in der Fachzeitschrift Nature veröffentlicht wurde, analysierte 77 Regenwaldgebiete in Mittel- und Südamerika. Das Ergebnis war verblüffend: Aufgegebene Landwirtschaftsflächen entwickelten innerhalb von nur 20 Jahren wieder über 80 Prozent ihrer ursprünglichen Artenvielfalt. Die Natur braucht keine menschliche Hilfe — sie braucht nur Ruhe.","Was das bedeutet: Ein erheblicher Teil der weltweiten Waldverluste ist nicht permanent. Wenn Druck nachlässt, kehrt das Leben zurück. Das gibt der Naturschutzforschung völlig neue Perspektiven — und uns Grund zum Staunen über die Resilienz des Lebendigen."],
-    quelle:"Poorter et al. (2016): 'Biomass resilience of Neotropical secondary forests', Nature 530. ETH Zürich, Institut für Terrestrische Ökosysteme.",
-    schon_gewusst:"Brasilien beherbergt mit dem Amazonas rund 10 Prozent aller Tier- und Pflanzenarten der Erde — auf nur 1 Prozent der globalen Landfläche.",
-    frage:"Gibt es in deinem eigenen Leben einen Bereich, dem du zu wenig zutraust, sich von selbst zu erholen — wenn du ihm einfach Raum lässt?"
-  },
-  {
-    kategorie:"Natur",
-    titel:"Wie Wölfe Flüsse verändern",
-    stauner:"Als 1995 Wölfe in den Yellowstone-Nationalpark zurückkehrten, veränderte sich nicht nur die Tierwelt — auch die Flüsse begannen sich zu bewegen. Ein Phänomen, das Biologen 'trophische Kaskade' nennen.",
-    absaetze:["Seit der Ausrottung der Wölfe in Yellowstone Anfang des 20. Jahrhunderts hatten Elche die Vegetation unkontrolliert abgeweidet. Flussufer waren kahl, Erosion weit verbreitet, viele Tierarten verschwunden. Die Abwesenheit eines einzigen Raubtieres hatte das gesamte Ökosystem aus dem Gleichgewicht gebracht.","Nach der Wiederansiedlung der Wölfe 1995 beobachteten Biologen der Oregon State University etwas Unerwartetes: Elche mieden plötzlich Talauen und Flussufer — nicht weil weniger Elche da waren, sondern weil sie sich dort nicht mehr sicher fühlten. Die Vegetation erholte sich. Biber kehrten zurück, bauten Dämme, stauten Wasser. Die Flüsse begannen langsamer zu fließen, die Ufer zu stabilisieren. Sogar der Lauf mancher Bäche veränderte sich physisch.","Dieser Mechanismus — wie ein Raubtier durch bloße Präsenz ein gesamtes Ökosystem neu ordnet — hat die Ökologie revolutioniert. Er zeigt: Natur ist kein statisches System, das man verwalten kann. Sie ist ein dynamisches Netzwerk, in dem jeder Teil jeden anderen berührt."],
-    quelle:"Ripple & Beschta (2012): 'Trophic cascades in Yellowstone', Biological Conservation. Terborgh & Estes (Hrsg.): 'Trophic Cascades', Island Press.",
-    schon_gewusst:"In Yellowstone leben heute über 100 Wolfsrudel — 1995 waren es gerade einmal 31 wiederangesiedelte Tiere aus Kanada.",
-    frage:"Welche unsichtbare Präsenz oder Abwesenheit in deinem Umfeld könnte Dinge beeinflussen, die du bisher für unabhängig gehalten hast?"
-  },
-  {
-    kategorie:"Bildung",
-    titel:"Finnlands stille Revolution im Klassenzimmer",
-    stauner:"Finnland gehört seit Jahren zu den Ländern mit den besten Bildungsergebnissen weltweit — ohne Hausaufgaben, ohne Noten in den ersten Jahren, mit den kürzesten Schulstunden Europas. Das Gegenteil von dem, was wir für selbstverständlich halten.",
-    absaetze:["Die gängige Bildungslogik lautet: Mehr Unterricht, mehr Hausaufgaben, mehr Tests führen zu besseren Ergebnissen. Diese Annahme treibt Bildungspolitik in vielen Ländern an — und fühlt sich intuitiv richtig an.","Finnische Kinder beginnen die Schule mit sieben Jahren — zwei Jahre später als in Deutschland. Sie bekommen in den ersten sechs Schuljahren kaum Hausaufgaben, keine Noten und deutlich mehr Spielzeit als ihre europäischen Peers. Trotzdem schneiden sie bei den PISA-Tests der OECD seit 2000 regelmäßig an der Spitze ab. Die OECD-Bildungsforscherin Pasi Sahlberg dokumentiert: Finlands Erfolg beruht auf hochqualifizierten Lehrern, Vertrauen statt Kontrolle und intrinsischer Motivation statt externer Bewertung.","Was Finnland zeigt, ist kein pädagogischer Zufall — es ist ein Beweis dafür, dass unsere intuitiven Annahmen über Lernen oft falsch sind. Weniger Druck, mehr Vertrauen in Kinder: das ist kein naiver Idealismus, sondern evidenzbasierte Bildungspolitik."],
-    quelle:"Sahlberg, P. (2011): 'Finnish Lessons', Teachers College Press. OECD PISA-Ergebnisse 2022. Finnish National Agency for Education.",
-    schon_gewusst:"Finnische Lehrer gehören zu den am höchsten angesehenen Berufsgruppen des Landes — vergleichbar mit Ärzten und Juristen.",
-    frage:"Wo in deinem Leben bringst du durch mehr Druck weniger heraus — und würde mehr Vertrauen etwas verändern?"
-  },
-  {
-    kategorie:"Forstwirtschaft",
-    titel:"Das geheime Netzwerk unter dem Waldboden",
-    stauner:"Bäume kommunizieren. Sie teilen Nährstoffe, warnen einander vor Schädlingen und unterstützen ihre Nachkommen — über ein unterirdisches Pilznetzwerk, das Wissenschaftler erst in den letzten Jahrzehnten entdeckt haben.",
-    absaetze:["Der Wald galt lange als Ort des Wettbewerbs: Bäume konkurrieren um Licht, Wasser und Nährstoffe. Das Bild war das eines stummen, individualistischen Kampfes ums Überleben — ein Spiegel unserer eigenen Wirtschaftslogik.","Die Forstökologin Suzanne Simard von der University of British Columbia entdeckte in den 1990er Jahren, was sie das 'Wood Wide Web' nannte: ein weitverzweigtes Netzwerk aus Mykorrhiza-Pilzen, das die Wurzeln von Bäumen verbindet. Über dieses Netzwerk transportieren Bäume Kohlenstoff, Phosphor und Wasser — auch an Nachbarbäume anderer Arten. Alte 'Mutterbäume' erkennen dabei die Wurzeln ihrer eigenen Sämlinge und leiten bevorzugt Nährstoffe an sie weiter, wie Simard in mehreren kontrollierten Experimenten nachweisen konnte.","Was das bedeutet: Ein Wald ist kein Aggregat einzelner Bäume — er ist ein Organismus. Diese Erkenntnis verändert die Forstwirtschaft grundlegend: Kahlschlag zerstört nicht nur Bäume, sondern das gesamte Netzwerk, auf das neue Bäume angewiesen sind."],
-    quelle:"Simard et al. (1997): 'Net transfer of carbon between ectomycorrhizal tree species in the field', Nature 388. Simard, S. (2021): 'Finding the Mother Tree', Knopf."
-  },
-  {
-    kategorie:"Astronomie",
-    titel:"Wir sind aus Sternenstaub gemacht — wörtlich",
-    stauner:"Die Atome in unserem Körper wurden vor Milliarden Jahren in sterbenden Sternen geschmiedet. Was wie eine poetische Metapher klingt, ist präzise Astrophysik.",
-    absaetze:["Wenn wir sagen 'wir sind Teil des Universums', klingt das nach Philosophie. Aber die Nukleosynthese — die Entstehung von Atomen in Sternen — ist einer der am besten verstandenen Prozesse der modernen Physik und Astronomie.","Wasserstoff und Helium entstanden beim Urknall vor 13,8 Milliarden Jahren. Alle schwereren Elemente — Kohlenstoff, Sauerstoff, Eisen, Kalzium — wurden in Sternkernen durch Kernfusion erzeugt und beim Tod massiver Sterne als Supernovae ins All geschleudert. Der Kalzium in unseren Knochen, das Eisen in unserem Blut, der Kohlenstoff in unserer DNA: alles Überreste toter Sterne. Forscher des Institute for Astronomy der University of Hawaii haben berechnet, dass etwa 97 Prozent der Atome im menschlichen Körper in Sternen entstanden sind.","Diese Erkenntnis verändert die Perspektive auf das Leben grundlegend. Wir sind nicht außerhalb der Natur — wir sind ein Ausdruck des Universums, das sich selbst betrachtet."],
-    quelle:"Arnett, D. (1996): 'Supernovae and Nucleosynthesis', Princeton University Press. Croswell, K. (1996): 'The Alchemy of the Heavens', Anchor Books. NASA Astrophysics Division."
-  },
-  {
-    kategorie:"Umwelt",
-    titel:"Das Ozonloch schließt sich",
-    stauner:"Das Ozonloch über der Antarktis schließt sich. Nach dem internationalen Verbot von FCKW ist die Ozonschicht auf dem Weg zur vollständigen Erholung bis 2066 — das erfolgreichste internationale Umweltabkommen der Geschichte.",
-    absaetze:["Als Wissenschaftler in den 1980er Jahren das Ozonloch über der Antarktis entdeckten, schien ein globales Verbot der verantwortlichen Chemikalien utopisch. Die betroffene Industrie war mächtig, die wirtschaftlichen Interessen enorm, und die internationale Koordination galt als zu schwierig.","1987 unterzeichneten 197 Länder das Montrealer Protokoll — das einzige UN-Abkommen, das von allen Staaten der Welt ratifiziert wurde. Die Produktion von FCKW und anderen ozonzerstörenden Substanzen wurde weltweit verboten. Eine wissenschaftliche Überprüfung der UNEP und WMO aus dem Jahr 2023 bestätigt: Die Ozonschicht erholt sich. Das Ozonloch ist heute signifikant kleiner als auf seinem Höhepunkt 2006.","Das Montrealer Protokoll beweist, dass Staaten — auch konkurrierende — zusammenarbeiten können, wenn die wissenschaftliche Evidenz klar ist und der politische Wille vorhanden ist. Ein Beweis, den wir heute mehr denn je brauchen."],
-    quelle:"UNEP/WMO (2023): 'Scientific Assessment of Ozone Depletion'. NASA Ozone Watch. Andersen & Sarma (2002): 'Protecting the Ozone Layer', Earthscan."
-  },
-  {
-    kategorie:"Wirtschaft",
-    titel:"Warum scheiternde Gründer die klügste Investition sind",
-    stauner:"In vielen Ländern gilt Insolvenz als Makel. In der Startup-Forschung zeigt sich das Gegenteil: Gründer die einmal gescheitert sind, haben beim nächsten Versuch deutlich höhere Erfolgsquoten als erstmalige Gründer.",
-    absaetze:["Die kulturelle Einstellung gegenüber geschäftlichem Scheitern variiert stark. In Deutschland und vielen europäischen Ländern haftet dem Konkurs eine soziale Stigmatisierung an. Die Logik dahinter klingt vernünftig: Wer einmal versagt hat, wird es wieder tun.","Eine umfangreiche Studie des National Bureau of Economic Research (NBER) in den USA analysierte über 30.000 Unternehmensgeschichten. Das Ergebnis: Gründer, die zuvor gescheitert waren, hatten beim zweiten Versuch eine Erfolgsrate, die fast identisch mit der von zufällig erfolgreichen Erstgründern war — aber deutlich höher als die von unerfahrenen Erstgründern. Wer verstanden hatte warum er gescheitert war, schnitt besonders gut ab.","Scheitern ist kein Beweis für Unfähigkeit — es ist oft der effektivste Lehrmeister. Gesellschaften, die das verstehen und Zweit- und Drittchancen ermöglichen, nutzen ein enormes wirtschaftliches Potenzial."],
-    quelle:"Gompers et al. (2010): 'Performance Persistence in Entrepreneurship', Journal of Financial Economics. NBER Working Paper 13900."
-  },
-  {
-    kategorie:"Natur",
-    titel:"Wie Elefanten Trauer empfinden",
-    stauner:"Elefanten zeigen komplexe Trauerreaktionen auf den Tod von Artgenossen — Verhaltensweisen, die Biologen lange nur dem Menschen zuschrieben. Die Forschung hat unser Bild vom tierischen Gefühlsleben grundlegend verändert.",
-    absaetze:["Lange galt emotionales Erleben als exklusiv menschlich. Tieren wurden höchstens einfache Instinkte und Reflexe zugeschrieben. Diese Annahme legitimierte bestimmte Formen der Tierhaltung und war wissenschaftlicher Konsens bis weit ins 20. Jahrhundert.","Joyce Poole und Cynthia Moss vom Amboseli Elephant Research Project in Kenia dokumentierten über Jahrzehnte hinweg Verhaltensweisen, die schwer anders als Trauer zu erklären sind: Elefanten bleiben bei den Knochen verstorbener Artgenossen stehen, berühren sie wiederholt mit dem Rüssel, kehren auch Jahre später an Sterbeorte zurück. Mütter tragen tote Kälber manchmal tagelang.","Die Frage ist nicht mehr ob Tiere fühlen — sondern wie. Diese Verschiebung in der Wissenschaft hat weitreichende ethische Konsequenzen. Sie legt nahe, dass das emotionale Leben des Planeten reicher und komplexer ist als wir uns vorgestellt haben."],
-    quelle:"Moss, C. (1988): 'Elephant Memories', William Morrow. Poole, J. & Moss, C. (2008): 'Elephant sociality and complexity', in: The Question of Animal Culture, Harvard University Press."
-  },
-  {
-    kategorie:"Technologie",
-    titel:"Solarenergie: Der schnellste Preisverfall der Energiegeschichte",
-    stauner:"Der Preis für Solarstrom ist in den letzten 15 Jahren um über 90 Prozent gefallen — schneller als jede andere Energietechnologie in der Geschichte. Was Experten noch 2010 für unmöglich hielten, ist heute Realität.",
-    absaetze:["Im Jahr 2010 prognostizierte die Internationale Energieagentur (IEA), dass Solarstrom bis 2030 nie günstiger als fossile Brennstoffe werden würde. Diese Prognose war damals wissenschaftlicher Konsens. Selbst enthusiastische Befürworter erneuerbarer Energien rechneten nicht mit dem, was folgte.","Laut BloombergNEF ist der Preis für Photovoltaik-Module zwischen 2010 und 2023 um über 89 Prozent gefallen. In vielen Regionen der Welt ist Solarstrom heute die günstigste Stromquelle, die je gebaut wurde — günstiger als Kohle, Gas und Atomkraft. Die Lernkurve der Solarindustrie, bekannt als 'Swanson's Law', beschreibt eine Kostenhalbierung mit jeder Verdopplung der installierten Kapazität.","Dieser Preisverfall bedeutet, dass der Übergang zu erneuerbaren Energien nicht mehr primär eine Frage des Willens ist — sondern der Organisation. Die Technologie ist da, sie ist günstig, und sie wird günstiger."],
-    quelle:"BloombergNEF (2023): 'New Energy Outlook'. IRENA (2023): 'Renewable Power Generation Costs'. Lafond et al. (2018): 'How well do experience curves predict technological progress?', Energy Policy."
-  },
-  {
-    kategorie:"Ökologie",
-    titel:"Wie Städte zu Oasen der Artenvielfalt werden",
-    stauner:"Städte gelten als Feind der Natur. Doch neue Forschungen zeigen: Gut gestaltete urbane Räume können erstaunlich artenreich sein — manchmal artenreicher als angrenzende Agrarflächen.",
-    absaetze:["Das Bild ist intuitiv klar: Beton, Asphalt, Lärm und Lichtverschmutzung machen Städte zu biologischen Wüsten. Natur findet anderswo statt. Dieses Bild hat die Stadtplanung jahrzehntelang geprägt.","Eine Metastudie des Global Urban Biodiversity Network, die 2014 in Biological Conservation veröffentlicht wurde und über 54 Städte weltweit untersuchte, kam zu einem überraschenden Ergebnis: Städte beherbergen im Durchschnitt mehr Vogelarten als umliegende Agrarflächen. Der Grund: Intensive Landwirtschaft hat die biologische Vielfalt auf dem Land drastisch reduziert, während Stadtparks, Gärten, Brachen und Dachbegrünungen Lebensräume bieten. In Berlin wurden über 1.000 Pflanzenarten gezählt, mehr als in vielen deutschen Naturschutzgebieten.","Das bedeutet nicht, dass Städte gut für die Natur sind — es bedeutet, dass wir falsch gemessen haben, was Natur braucht. Und es gibt Stadtplanern eine neue Aufgabe: urbane Räume bewusst als Lebensräume zu gestalten."],
-    quelle:"Aronson et al. (2014): 'A global analysis of the impacts of urbanization on bird and plant diversity', Biological Conservation. Kowarik, I. (2011): 'Novel urban ecosystems', Biological Conservation."
-  },
-  {
-    kategorie:"Geschichte",
-    titel:"Wie der Stahlcontainer die Welt demokratisierte",
-    stauner:"Die Containerisierung der Schifffahrt in den 1950er Jahren ist eine der unterschätztesten Wirtschaftsrevolutionen der Geschichte. Ein stählerner Kasten hat mehr zur globalen wirtschaftlichen Integration beigetragen als die meisten Handelsverträge.",
-    absaetze:["Bevor Malcolm McLean 1956 den ersten Standardcontainer auf ein Schiff lud, war internationaler Handel ein teures, langsames und fehleranfälliges Unterfangen. Waren wurden manuell be- und entladen, Diebstahl war verbreitet, Häfen verstopft. Nur große Unternehmen konnten sich internationalen Handel leisten.","Marc Levinson beschreibt in 'The Box', wie die Frachtkosten zwischen 1960 und 1985 um über 80 Prozent sanken. Plötzlich war es günstig, Waren rund um die Welt zu versenden. Kleine Unternehmen in Entwicklungsländern konnten Weltmärkte erreichen. Die Exportindustrien Südkoreas, Taiwans und später Chinas wären ohne die Containerrevolution nicht denkbar gewesen.","Ein stählerner Kasten hat mehr zur globalen wirtschaftlichen Integration beigetragen als die meisten Handelsverträge. Es ist ein Beispiel dafür, wie technische Innovation gesellschaftliche Wirkung entfaltet — still, systematisch und mit enormer Reichweite."],
-    quelle:"Levinson, M. (2006): 'The Box: How the Shipping Container Made the World Smaller', Princeton University Press. World Bank Trade Data."
-  },
-  {
-    kategorie:"Wissenschaft",
-    titel:"Das menschliche Gedächtnis für Bilder ist phänomenal",
-    stauner:"Das menschliche Gedächtnis gilt als fehleranfällig. Für visuelle Information aber ist es präziser als nahezu jedes Computersystem — und kann Tausende von Bildern nach einmaligem Sehen mit hoher Treffsicherheit wiedererkennen.",
-    absaetze:["Seit den Pionierarbeiten von Elizabeth Loftus über falsche Erinnerungen hat sich das Bild des menschlichen Gedächtnisses als grundsätzlich unzuverlässig etabliert. Wir erinnern uns falsch, wir werden durch Suggestionen beeinflusst. Das stimmt — für bestimmte Arten episodischer Erinnerungen.","Forscher der Johns Hopkins University fanden, dass das visuelle Gedächtnis für Bilder in einem einzigen Experiment bis zu 2.500 Bilder mit über 90-prozentiger Treffsicherheit abspeichern kann. Standing et al. zeigten bereits 1973, dass Menschen 10.000 Bilder nach nur einmaligem Zeigen mit hoher Genauigkeit wiedererkennen. Das prozedurale Gedächtnis für motorische Fähigkeiten ist ebenso ausgesprochen robust.","Das Gedächtnis ist nicht fehlerhaft — es ist für andere Ziele optimiert als ein Computerspeicher: Es filtert, gewichtet nach Bedeutung, verknüpft Informationen und macht uns handlungsfähig. Das ist eine andere Art von Intelligenz."],
-    quelle:"Standing, L. et al. (1973): 'Perception and memory for pictures', Psychonomic Science. Brady et al. (2008): 'Visual long-term memory has a massive storage capacity', PNAS."
-  },
-  {
-    kategorie:"Gesellschaft",
-    titel:"Warum Länder mit mehr Gleichheit gesünder sind",
-    stauner:"Nicht der Reichtum eines Landes, sondern seine Gleichheit bestimmt maßgeblich Gesundheit, Vertrauen und Lebensqualität seiner Bevölkerung — ein Befund, der die klassische Wirtschaftslogik herausfordert.",
-    absaetze:["Es liegt nahe zu denken: Reiche Länder sind gesunde Länder. Mehr Geld bedeutet bessere Krankenhäuser, bessere Ernährung, besseren Zugang zu medizinischer Versorgung. Das BIP als Proxy für Wohlbefinden scheint intuitiv überzeugend.","Die Epidemiologen Richard Wilkinson und Kate Pickett haben in 'The Spirit Level' Daten aus 23 reichen Ländern ausgewertet. Ihr Befund: Sobald ein bestimmtes Einkommensniveau überschritten ist, hängen Gesundheit, Lebenserwartung, psychische Erkrankungen, Kriminalität und sozialer Zusammenhalt nicht mehr vom durchschnittlichen Reichtum ab — sondern von der Einkommensgleichheit. Gleichere Länder wie Norwegen, Japan oder Schweden schneiden in fast allen sozialen Indikatoren besser ab als ungleichere Länder mit höherem BIP.","Das Paradoxon des Reichtums: Es ist nicht genug zu haben — es kommt darauf an, wie es verteilt ist. Ungleichheit erzeugt sozialen Stress, der sich durch alle Einkommensschichten zieht."],
-    quelle:"Wilkinson, R. & Pickett, K. (2009): 'The Spirit Level', Allen Lane. Marmot, M. (2004): 'Status Syndrome', Bloomsbury."
-  },
-  {
-    kategorie:"Natur",
-    titel:"Die Rückkehr des Lachses in europäische Flüsse",
-    stauner:"In vielen europäischen Flüssen, aus denen der Lachs über ein Jahrhundert verschwunden war, schwimmen wieder Lachse. Die Geschichte ihrer Rückkehr ist eine über Geduld, Wissenschaft und die Widerstandskraft der Natur.",
-    absaetze:["Der Atlantische Lachs war bis ins 19. Jahrhundert ein Alltagsfisch in deutschen, französischen und britischen Flüssen. Industrialisierung, Staudämme, Wasserverschmutzung und Überfischung rotteten ihn aus fast allen westeuropäischen Flüssen aus.","Seit den 1980er Jahren investierten Behörden und Naturschutzorganisationen in Renaturierungsprojekte: Fischtreppen an Staudämmen, Wasserqualitätsverbesserungen, Aufzuchtprogramme. In der Thames wurden 2021 erstmals seit 200 Jahren wieder Lachse nachgewiesen. Im Rhein sind Lachse heute wieder bis nach Deutschland schwimmend dokumentiert.","Die Rückkehr des Lachses zeigt, dass Flüsse — selbst stark degradierte — eine bemerkenswerte Erholungsfähigkeit besitzen, wenn die Belastung reduziert wird. Natur braucht oft nur Raum."],
-    quelle:"ICES (2022): 'Report of the Working Group on North Atlantic Salmon'. WWF (2021): 'Living Planet Report — Freshwater'. Europäische Umweltagentur: Wasserqualitätsbericht 2022."
-  },
-  {
-    kategorie:"Wirtschaft",
-    titel:"Das skandinavische Paradox: Hohe Steuern, hohes Glück",
-    stauner:"Dänemark, Schweden und Norwegen gehören zu den glücklichsten, wettbewerbsfähigsten und wirtschaftlich erfolgreichsten Ländern der Welt — und haben gleichzeitig die höchsten Steuern. Das widerspricht einem der hartnäckigsten wirtschaftspolitischen Glaubenssätze.",
-    absaetze:["Die wirtschaftspolitische Debatte wird oft als Nullsummenspiel dargestellt: Entweder hohe Steuern und schwaches Wachstum, oder niedrige Steuern und Wohlstand. Diese Logik prägt Wahlkampagnen und Wirtschaftspolitik in vielen Ländern.","Dänemark hat eine Staatsquote von über 50 Prozent des BIP und gehört laut World Happiness Report seit Jahren zu den glücklichsten Ländern der Welt. Der Ökonom Lane Kenworthy von der University of California hat nachgewiesen, dass die nordischen Länder hohe Steuern mit starkem Unternehmertum, hoher Erwerbsbeteiligung und geringer Armut kombinieren — durch Investitionen in Bildung, Kinderbetreuung und aktive Arbeitsmarktpolitik.","Das skandinavische Modell ist kein Zufall und kein kulturelles Privileg — es ist ein bewusst gestaltetes System, das zeigt, dass Staatsgröße und Wirtschaftserfolg keine Gegensätze sein müssen."],
-    quelle:"World Happiness Report 2023 (UN Sustainable Development Solutions Network). WEF Global Competitiveness Index 2023. Kenworthy, L. (2020): 'Social Democratic Capitalism', Oxford University Press."
-  },
-  {
-    kategorie:"Wissenschaft",
-    titel:"Wie Pflanzen auf Verletzungen reagieren",
-    stauner:"Pflanzen haben kein Nervensystem — und reagieren trotzdem auf Verletzungen mit elektrischen Signalen, die sich in Minuten durch die gesamte Pflanze ausbreiten und systemische Abwehrreaktionen auslösen.",
-    absaetze:["Pflanzen galten lange als passives Substrat — stumme Produzenten von Sauerstoff ohne jede Form von Reaktivität. Diese Annahme liegt so tief, dass selbst die Frage ob Pflanzen 'etwas wahrnehmen' lange als unwissenschaftlich galt.","Forscher der Universität Lausanne um Masatsugu Toyota zeigten 2018 in Science: Wenn eine Raupe eine Tomatenpflanze angreift, breitet sich innerhalb von Minuten eine Welle elektrischer Signale durch die gesamte Pflanze aus — ähnlich wie Nervensignale bei Tieren. Gleichzeitig werden systemisch Abwehrstoffe produziert. Benachbarte Pflanzen, die diese chemischen Signale über die Luft empfangen, aktivieren dieselben Abwehrmechanismen prophylaktisch.","Pflanzen fühlen nicht im menschlichen Sinne. Aber sie verarbeiten Information, kommunizieren und reagieren auf ihre Umwelt mit einer Komplexität, die unsere intuitiven Kategorien von 'aktiv' und 'passiv' in Frage stellt."],
-    quelle:"Toyota et al. (2018): 'Glutamate triggers long-distance, calcium-based plant defense signaling', Science. Mancuso, S. & Viola, A. (2015): 'Brilliant Green', Island Press."
-  },
-  {
-    kategorie:"Umwelt",
-    titel:"Mangroven: Die unterschätzte Supermacht der Küsten",
-    stauner:"Mangroven speichern bis zu fünfmal mehr Kohlenstoff pro Hektar als tropische Regenwälder, schützen Küsten vor Tsunamis und sind Kinderstube für 75 Prozent aller tropischen Fischarten.",
-    absaetze:["Mangroven galten lange als unwirtliche Küstengebiete — wirtschaftlich wertlos, ästhetisch unattraktiv. Jahrzehntelang wurden sie für Garnelenzucht, Küstenentwicklung und Holzkohle abgeholzt. Mehr als die Hälfte der weltweiten Mangrovenwälder ist seit 1950 verschwunden.","Forscher des Woods Hole Research Center haben berechnet, dass Mangrovenwälder bis zu 1.000 Tonnen Kohlenstoff pro Hektar speichern — in Biomasse und vor allem im wassergesättigten Boden darunter. Das macht sie zu den kohlenstoffdichtesten Ökosystemen der Erde. Studien nach dem Tsunami 2004 zeigten, dass Küstendörfer hinter intakten Mangroven deutlich geringere Schäden erlitten.","Mangroven sind eine der kosteneffizientesten Maßnahmen für Küstenschutz, Klimaschutz und Biodiversität gleichzeitig. Ihr Schutz ist kein Kompromiss — es ist eine der klügsten Investitionen, die ein Küstenstaat machen kann."],
-    quelle:"Donato et al. (2011): 'Mangroves among the most carbon-rich forests in the tropics', Nature Geoscience. IUCN (2022): Mangrove Restoration Assessment."
-  },
-  {
-    kategorie:"Geschichte",
-    titel:"Die Ausrottung der Pocken — das größte medizinische Projekt der Menschheit",
-    stauner:"Pocken töteten im 20. Jahrhundert schätzungsweise 300 Millionen Menschen. 1980 erklärte die WHO die Krankheit für ausgerottet — das erste Mal in der Geschichte, dass eine Menschenkrankheit durch kollektive Anstrengung vollständig eliminiert wurde.",
-    absaetze:["Pocken waren über Jahrtausende eine der gefürchtetsten Krankheiten der Menschheit. Sie töteten jeden dritten Infizierten, hinterließen Überlebende mit dauerhaften Narben und Erblindung. Im 18. Jahrhundert starben allein in Europa schätzungsweise 400.000 Menschen jährlich daran.","Die weltweite Ausrottung der Pocken erforderte eine koordinierte globale Kampagne der WHO, die 1967 begann und 13 Jahre dauerte. Teams reisten in die entlegensten Winkel der Erde, impften Bevölkerungen, dokumentierten Fälle und unterbrachen Übertragungsketten. Der letzte natürlich übertragene Fall wurde 1977 in Somalia dokumentiert.","Die Ausrottung der Pocken ist der Beweis, dass eine Krankheit, die Zivilisationen geprägt hat, durch kollektives wissenschaftliches Handeln für immer besiegt werden kann."],
-    quelle:"WHO (1980): 'The Global Eradication of Smallpox'. Fenner et al. (1988): 'Smallpox and its Eradication', WHO Geneva."
-  },
-  {
-    kategorie:"Natur",
-    titel:"Bienen lösen das Handlungsreisenden-Problem",
-    stauner:"Honigbienen haben ein Gehirn von der Größe eines Sesamkorns — und nutzen es, um komplexe räumliche Karten zu erstellen und optimale Routen zwischen mehreren Nahrungsquellen zu berechnen: ein Problem, das in der Informatik als NP-schwer gilt.",
-    absaetze:["Die gängige Vorstellung von Insekten ist die von einfachen Reiz-Reaktions-Automaten: keine Intelligenz, kein Lernen, kein komplexes Verhalten jenseits instinktiver Programme. Das Bild ist grundlegend falsch.","Der Zoologe Karl von Frisch entdeckte den Bienentanz in den 1940er Jahren — für den er 1973 den Nobelpreis erhielt. Neuere Studien der Queen Mary University of London zeigen: Bienen erstellen mentale Karten ihrer Umgebung und berechnen optimale Routen zwischen mehreren Nahrungsquellen, ein Problem das in der Informatik als 'Travelling Salesman Problem' bekannt und für große Instanzen nicht effizient lösbar ist.","Was die Bienenforschung zeigt, ist eine grundlegende Lektion: Intelligenz ist kein Privileg großer Gehirne. Sie ist eine evolutionäre Lösung für komplexe Probleme — und die Natur hat sie auf vielfältigste Weise erfunden."],
-    quelle:"Von Frisch, K. (1967): 'The Dance Language and Orientation of Bees', Harvard University Press. Lihoreau et al. (2012): 'The travelling salesman problem and its relatives in bees', Behavioral Ecology."
-  },
-  {
-    kategorie:"Gesellschaft",
-    titel:"Kunst auf Rezept — und warum es funktioniert",
-    stauner:"Kulturelle Teilhabe hat messbare positive Effekte auf physische und psychische Gesundheit. Die Evidenzlage ist inzwischen stark genug, dass Ärzte in mehreren Ländern Museumsbesuche und Chorsingen als Behandlung verschreiben.",
-    absaetze:["Kunst und Gesundheit erscheinen als getrennte Domänen. Medizin ist Wissenschaft, Kunst ist Ästhetik. Dass kulturelle Aktivitäten messbare klinische Auswirkungen haben könnten, klingt nach Esoterik.","Eine WHO-Synthesestudie aus dem Jahr 2019, die über 900 Forschungsarbeiten analysierte, kam zu einem klaren Ergebnis: Kulturelle Aktivitäten reduzieren Depressions- und Angstsymptome, verbessern die kognitive Funktion bei älteren Menschen, beschleunigen Genesungsprozesse und stärken soziale Kohäsion. In Schweden, Kanada und dem Vereinigten Königreich gibt es inzwischen Pilotprogramme, in denen Hausärzte Museumsbesuche oder Chorsingen als ergänzende Behandlung verschreiben — mit dokumentierten klinischen Ergebnissen.","Kunst ist keine Dekoration des Lebens. Sie ist ein Medium, durch das Menschen Sinn finden, Gemeinschaft erleben und mit Erfahrungen umgehen, die Sprache allein nicht fassen kann. Das ist kein Romantizismus — es ist Medizin."],
-    quelle:"WHO Europe (2019): 'What is the evidence on the role of the arts in improving health and well-being?', Health Evidence Network Synthesis Report 67."
-  },
-  {
-    kategorie:"Forstwirtschaft",
-    titel:"Alte Bäume wachsen schneller als junge",
-    stauner:"In der kommerziellen Forstwirtschaft gelten alte Bäume als 'überreif'. Die Forschung zeigt das Gegenteil: Alte Bäume bauen überproportional viel Biomasse auf — ihre Wachstumsrate nimmt nicht ab, sondern oft zu.",
-    absaetze:["In der kommerziellen Forstwirtschaft ist der Umtrieb — das Fällen und Wiederanpflanzen in festen Zeitabständen — die dominante Logik. Alte Bäume gelten als 'überreif', ihr Holzwachstum hat sich verlangsamt. Ökonomisch erscheint es rational, sie durch junge, schnellwachsende Bäume zu ersetzen.","Eine Studie in Nature Climate Change (2014) widerlegte diese Annahme: Alte Bäume bauen überproportional viel Biomasse und damit Kohlenstoff auf — ihre Wachstumsrate nimmt nicht ab, sondern oft zu. Biologen der University of California schätzen, dass über 20 Prozent aller Waldarten ausschließlich auf alte oder tote Bäume angewiesen sind.","Alte Bäume zu schützen ist keine sentimentale Entscheidung — es ist eine ökologische Notwendigkeit. Sie sind die Kathedralen des Waldes: Jahrzehnte und Jahrhunderte im Aufbau, irreversibel im Verlust."],
-    quelle:"Stephenson et al. (2014): 'Rate of tree carbon accumulation increases continuously with tree size', Nature. Lindenmayer, D. (2017): 'Dead wood: the forgotten resource', Forest Ecology and Management."
-  },
-  {
-    kategorie:"Astronomie",
-    titel:"Die Erde ist ein unwahrscheinlicher Planet",
-    stauner:"Flüssiges Wasser auf der Erdoberfläche ist im bekannten Universum eine extreme Ausnahme. Die Bedingungen, die das Leben auf der Erde ermöglichen, sind so präzise aufeinander abgestimmt, dass Astronomen sie als 'Goldilocks Zone' bezeichnen.",
-    absaetze:["Wasser erscheint uns als selbstverständlich. Es fällt schwer zu fragen: Wie wahrscheinlich ist es eigentlich, dass ein Planet flüssiges Wasser auf seiner Oberfläche trägt?","Ein Planet muss sich in einer sehr engen Distanzzone um seinen Stern befinden. Er braucht außerdem eine stabile Achsenneigung (die Erde wird durch den Mond stabilisiert), eine ausreichende Schwerkraft um eine Atmosphäre zu halten, und tektonische Aktivität, die den Kohlenstoffkreislauf reguliert. Astronomen der NASA schätzen, dass möglicherweise nur 0,02 Prozent aller Sterne Planeten in dieser Zone beherbergen — und das ist nur eine der notwendigen Bedingungen.","Die Erde ist kein typischer Planet. Sie ist ein seltenes Zusammentreffen von Bedingungen, die über Milliarden Jahre stabil geblieben sind."],
-    quelle:"Kasting, J. (2010): 'How to Find a Habitable Planet', Princeton University Press. NASA Astrobiology Institute. Ward & Brownlee (2000): 'Rare Earth', Copernicus Books."
-  },
-  {
-    kategorie:"Gesellschaft",
-    titel:"Warum Großstädte Innovationen beschleunigen",
-    stauner:"Mit jeder Verdopplung der Stadtgröße steigt die Innovationsrate pro Kopf um etwa 15 Prozent. Städte sind nicht nur größere Dörfer — sie sind qualitativ andere Systeme, die Ideen auf eine Weise verbinden, die kleinere Siedlungen nicht können.",
-    absaetze:["Die verbreitete Romantik des Landlebens legt nahe, dass Gemeinschaft und Kreativität in kleineren Einheiten besser gedeihen. Städte erscheinen als Ort der Entfremdung, nicht der Inspiration.","Geoffrey West vom Santa Fe Institute hat in einer Studie über 360 US-Städte ein konsistentes Muster gefunden: Wenn eine Stadt doppelt so groß wird, steigen Patente, Lohnhöhe und Innovationsrate überproportional um etwa 15 Prozent. Die Erklärung: Städte verdichten Begegnungen. Ideen entstehen an Grenzen zwischen verschiedenen Disziplinen, Kulturen und Perspektiven.","Die Geschichte der menschlichen Zivilisation ist zu einem erheblichen Teil eine Geschichte der Stadt. Was wie räumliche Verdichtung aussieht, ist in Wirklichkeit intellektuelle und soziale Verdichtung."],
-    quelle:"West, G. (2017): 'Scale: The Universal Laws of Growth, Innovation, Sustainability', Penguin Press. Bettencourt et al. (2007): 'Growth, innovation, scaling, and the pace of life in cities', PNAS."
-  },
-  {
-    kategorie:"Wissenschaft",
-    titel:"Das Mikrobiom: Wir sind Ökosysteme",
-    stauner:"Im menschlichen Körper leben mehr Bakterienzellen als menschliche Zellen. Diese Mikroorganismen sind kein Feind — sie sind ein integraler Teil unserer Physiologie, unseres Immunsystems und möglicherweise unserer Psyche.",
-    absaetze:["Lange war das Bild klar: Bakterien sind Krankheitserreger, die es zu bekämpfen gilt. Das Konzept des Körpers als sterile Festung, die verteidigt werden muss, dominierte die Medizin.","Das Human Microbiome Project kartierte erstmals die Mikroorganismen im menschlichen Körper: Etwa 38 Billionen Bakterienzellen koexistieren mit unseren 30 Billionen menschlichen Zellen. Diese Gemeinschaft reguliert das Immunsystem, produziert Vitamine, verarbeitet Nahrungsbestandteile, die wir selbst nicht verdauen könnten. Forscher der Universität Cork haben Verbindungen zwischen Darmmikrobiom und psychischer Gesundheit dokumentiert.","Wir sind keine Einzelwesen — wir sind Ökosysteme. Diese Erkenntnis verändert grundlegend, wie wir über Gesundheit, Ernährung und die Grenzen des menschlichen Körpers denken."],
-    quelle:"Human Microbiome Project Consortium (2012): 'Structure, function and diversity of the healthy human microbiome', Nature. Dinan & Cryan (2017): 'Brain-Gut-Microbiota Axis', Journal of Physiology."
-  },
-  {
-    kategorie:"Wirtschaft",
-    titel:"Grundeinkommen: Was die Experimente wirklich zeigen",
-    stauner:"Das zentrale Gegenargument gegen ein bedingungsloses Grundeinkommen lautet: Menschen werden aufhören zu arbeiten. Die weltweit durchgeführten Pilotprojekte zeigen ein deutlich differenzierteres Bild.",
-    absaetze:["Das bedingungslose Grundeinkommen ist eine der umstrittensten sozialpolitischen Ideen unserer Zeit. Das zentrale Gegenargument: Wenn Menschen Geld ohne Gegenleistung erhalten, sinkt ihr Arbeitsanreiz.","Finnland führte von 2017 bis 2018 das bisher rigoroseste Grundeinkommensexperiment Europas durch: 2.000 Arbeitslose erhielten monatlich 560 Euro bedingungslos. Die Ergebnisse des Kela Research Institute zeigten: Die Empfänger arbeiteten leicht mehr als die Kontrollgruppe, berichteten deutlich höheres Wohlbefinden, weniger Stress und mehr Vertrauen in staatliche Institutionen.","Die empirische Basis hat sich verschoben: Weg von Annahmen, hin zu Evidenz. Und die Evidenz ist komplizierter und ermutigender als die einfachen Gegenargumente."],
-    quelle:"Kangas et al. (2020): 'The Basic Income Experiment 2017–2018 in Finland', Kela Research Department. Haushofer & Shapiro (2016): Quarterly Journal of Economics."
-  },
-  {
-    kategorie:"Natur",
-    titel:"Korallen evolvieren schneller als gedacht",
-    stauner:"Korallenriffe gelten als die am stärksten bedrohten Ökosysteme der Erde. Doch Forscher entdecken zunehmend, dass Korallen schneller evolvieren als angenommen — und manche Bestände zeigen überraschende Widerstandsfähigkeit gegen Wärme.",
-    absaetze:["Die Nachrichten über Korallenriffe sind seit Jahren düster: Massenbleichen, Temperaturrekorde. Diese Bedrohung ist real — über 50 Prozent der Korallenbedeckung des Great Barrier Reef ist seit 1995 verloren gegangen.","Gleichzeitig entdecken Wissenschaftler Erstaunliches. Forscher der University of Hawaii dokumentierten, dass Korallenpopulationen in wärmeren Gebieten genetische Anpassungen entwickelt haben, die sie hitzetoleranter machen. Das Coral Reef Alliance-Programm identifiziert 'superhot spots': Gebiete mit natürlich variierenden Temperaturen, die resistentere Korallen produzieren.","Korallen sind nicht passiv. Sie evolvieren, passen sich an, überleben unter Bedingungen, die wir für tödlich hielten. Das gibt der Schutzarbeit eine neue Richtung: Unterstützung der Resilienz, nicht nur Schutz vor Veränderung."],
-    quelle:"Hughes et al. (2017): 'Global warming and recurrent mass bleaching of corals', Nature. Palumbi et al. (2014): 'Mechanisms of reef coral resistance to future climate change', Science."
-  },
-  {
-    kategorie:"Bildung",
-    titel:"Warum Schlafen das beste Lernmittel ist",
-    stauner:"Schlaf gilt als Pause vom Denken. Die Neurowissenschaft zeigt: Im Schlaf festigt das Gehirn Gedächtnis und löscht Unnötiges — Menschen die nach dem Lernen schlafen, erinnern sich bis zu 40 Prozent mehr.",
-    absaetze:["Die kulturelle Haltung zum Schlaf in modernen Gesellschaften ist ambivalent. Wenig Schlaf gilt als Zeichen von Disziplin, viel Schlaf als Faulheit. Besonders unter Schülern und Studierenden ist Schlafentzug vor Prüfungen weit verbreitet.","Matthew Walker, Schlaffforscher an der UC Berkeley, hat in kontrollierten Studien gezeigt: Menschen, die nach dem Lernen schlafen, erinnern sich am nächsten Tag bis zu 40 Prozent mehr als Menschen, die wach geblieben sind. Im Tiefschlaf werden Fakten konsolidiert, im REM-Schlaf kreative Verbindungen geknüpft. Eine Studie der Harvard Medical School zeigte, dass Probanden nach dem Schlafen kreativere Lösungen für Probleme fanden.","Schlaf ist keine Unterbrechung des Lernens. Er ist seine Vollendung. Die effektivste Lernstrategie ist nicht, mehr Stunden wach zu bleiben — sondern das Gelernte schlafen zu lassen."],
-    quelle:"Walker, M. (2017): 'Why We Sleep', Scribner. Stickgold, R. (2005): 'Sleep-dependent memory consolidation', Nature. Cai et al. (2009): 'REM sleep facilitates creative problem solving', PNAS."
-  },
-  {
-    kategorie:"Gesellschaft",
-    titel:"Ehrenamt macht gesund",
-    stauner:"Über eine Milliarde Menschen engagieren sich ehrenamtlich. Dieses Engagement hat messbare positive Effekte nicht nur auf die Gemeinschaft — sondern auf die Gesundheit und Lebenserwartung der Freiwilligen selbst.",
-    absaetze:["Ehrenamt wird oft als altruistische Aufopferung dargestellt — Menschen, die ihre Zeit geben, ohne zu nehmen. Diese Rahmung ist nicht falsch, aber unvollständig.","Eine Metaanalyse von Jenkinson et al. (2013), die 40 Studien mit über 1 Million Teilnehmern umfasste, fand: Ehrenamtlich Tätige haben eine um 22 Prozent niedrigere Mortalitätsrate als Nicht-Freiwillige, berichten höheres Wohlbefinden, weniger Depression und mehr Lebenszufriedenheit. Der Effekt war über Kulturen, Altersgruppen und Tätigkeitsbereiche hinweg konsistent.","Geben ist nicht das Gegenteil von Nehmen. Menschen sind soziale Wesen, die in Verbindung und Beitrag aufblühen. Das Ehrenamt ist vielleicht die effizienteste Gesundheitsmaßnahme, die keine Krankenkasse abrechnet."],
-    quelle:"Jenkinson et al. (2013): 'Is volunteering a public health intervention?', BMC Public Health. WHO (2022): Global Report on Volunteerism."
-  },
-  {
-    kategorie:"Wissenschaft",
-    titel:"Tintenfische zeigen Schlafphasen wie Säugetiere",
-    stauner:"Tintenfische zeigen im Schlaf rasche Farbveränderungen ihrer Haut — ein Muster, das Wissenschaftler als mögliches Äquivalent zum REM-Schlaf interpretieren. Das wirft grundlegende Fragen über die Evolution des Bewusstseins auf.",
-    absaetze:["Schlaf und Träume gelten als Merkmale höherer Wirbeltiere. Die Idee, dass ein Tier ohne Wirbelsäule, mit neun Gehirnen, träumen könnte, erscheint bizarr.","Forscher der Universidade Federal do Rio Grande do Norte beobachteten 2021 schlafende Tintenfische und dokumentierten etwas Bemerkenswertes: Während bestimmter Schlafphasen zeigten die Tiere rapide, komplexe Farbmuster auf ihrer Haut — ähnlich wie bei Wirbeltieren während des REM-Schlafs. Die Forscher spekulieren, dass diese Muster visuelle Erfahrungen wiedergeben könnten.","Ob Tintenfische tatsächlich träumen, bleibt offen. Aber der Befund legt nahe, dass komplexe Schlafphänomene in der Evolution mehrfach unabhängig entstanden sind — und dass das Bewusstsein kein exklusives Privileg des Wirbeltierstammbaums ist."],
-    quelle:"Medeiros et al. (2021): 'Non-REM and REM/paradoxical sleep in a cephalopod mollusc', iScience. Godfrey-Smith, P. (2016): 'Other Minds', Farrar, Straus and Giroux."
-  },
-  {
-    kategorie:"Wirtschaft",
-    titel:"Genossenschaften beschäftigen mehr Menschen als alle Konzerne zusammen",
-    stauner:"Genossenschaften gehören zu den wirtschaftlich stabilsten Unternehmensformen und sind gleichzeitig die am wenigsten beachteten. Weltweit beschäftigen sie mehr Menschen als alle multinationalen Konzerne zusammen.",
-    absaetze:["In der öffentlichen Wahrnehmung dominieren Aktiengesellschaften und Start-ups das Bild wirtschaftlichen Erfolgs. Genossenschaften erscheinen als Relikte einer früheren Wirtschaftsordnung.","Die Zahlen der International Cooperative Alliance erzählen eine andere Geschichte: Weltweit gibt es über 3 Millionen Genossenschaften mit mehr als 1,2 Milliarden Mitgliedern. Sie beschäftigen über 280 Millionen Menschen — mehr als die 300 größten multinationalen Konzerne zusammen. Besonders bemerkenswert: In Krisenzeiten zeigen Genossenschaften deutlich niedrigere Insolvenzraten als konventionelle Unternehmen.","Die Genossenschaft ist keine romantische Idee — sie ist eine bewährte Wirtschaftsform, die andere Prioritäten setzt. Dass sie so wenig Aufmerksamkeit bekommt, sagt mehr über unsere Erzählungen über Wirtschaft aus als über die Realität."],
-    quelle:"International Cooperative Alliance (2023): World Cooperative Monitor. ILO (2017): 'Cooperatives and the Sustainable Development Goals'. Birchall & Ketilson (2009): ILO."
-  },
-  {
-    kategorie:"Umwelt",
-    titel:"Moore speichern mehr Kohlenstoff als alle Wälder der Erde",
-    stauner:"Moore bedecken nur drei Prozent der Erdoberfläche — speichern aber doppelt so viel Kohlenstoff wie alle Wälder der Erde zusammen. Ihre Wiederherstellung ist eine der kosteneffizientesten Klimaschutzmaßnahmen überhaupt.",
-    absaetze:["Moore gelten vielen als trostlose, unproduktive Landschaften. Jahrhundertelang wurden sie trockengelegt — für Landwirtschaft, Torfgewinnung, Siedlungsbau. In Deutschland wurden über 98 Prozent aller ursprünglichen Moore entwässert.","Die Klimaforschung zeigt die versteckten Kosten: Intakte Moore speichern rund 550 Gigatonnen Kohlenstoff — mehr als die doppelte Menge aller Wälder weltweit. Wenn Moore entwässert werden, oxidiert dieser Kohlenstoff als CO₂. Das Greifswald Moor Centrum schätzt, dass die Wiedervernässung von einem Hektar Moor Kosten von 5–50 Euro pro Tonne CO₂ verursacht — deutlich günstiger als die meisten technischen Klimaschutzmaßnahmen.","Moore sind keine Ödlande — sie sind Kohlenstofftresore. Ihre Wiederherstellung ist nicht Naturromantik, sondern Klimapolitik mit Rendite."],
-    quelle:"Joosten & Clarke (2002): 'Wise use of mires and peatlands', International Mire Conservation Group. Greifswald Moor Centrum (2021): Mooratlas Deutschland. IPCC (2022): Working Group III Report."
-  },
-  {
-    kategorie:"Gesellschaft",
-    titel:"Housing First: Wie Finnland Obdachlosigkeit nahezu eliminiert hat",
-    stauner:"Mehrere Länder haben bewiesen, dass Obdachlosigkeit nicht nur reduziert, sondern nahezu eliminiert werden kann — mit einem Ansatz, der auf den ersten Blick kontraintuitiv erscheint: Erst die Wohnung, dann alles andere.",
-    absaetze:["Die konventionelle Logik der Obdachlosenhilfe folgt einem Stufenmodell: Zunächst Notunterkünfte, dann betreutes Wohnen, dann — wenn alles andere funktioniert — eine eigene Wohnung. Dieses Modell setzt voraus, dass Menschen zuerst 'wohnungsreif' werden müssen.","Das 'Housing First'-Modell kehrt diese Logik um: Menschen bekommen zuerst eine Wohnung, ohne Vorbedingungen. Finnland begann 1987 mit diesem Ansatz. Das Ergebnis: Langzeitobdachlosigkeit sank zwischen 1987 und 2022 von über 18.000 auf unter 4.000 Personen — trotz wachsender Bevölkerung. In Helsinki ist chronische Obdachlosigkeit nahezu eliminiert.","Housing First ist nicht billiger in der direkten Betrachtung — aber erheblich günstiger, wenn man Krankenhausaufenthalte, Polizeieinsätze und Notunterkünfte einrechnet. Vor allem aber: Es funktioniert."],
-    quelle:"Pleace et al. (2015): 'The Finnish Homelessness Strategy', European Journal of Homelessness. Y-Foundation (2022): 'A Home of Your Own', Finn Publishers."
-  },
-  {
-    kategorie:"Natur",
-    titel:"Wie Zugvögel mit Quantenphysik navigieren",
-    stauner:"Zugvögel navigieren über Tausende von Kilometern mit einer Präzision, die GPS-Systeme in den Schatten stellt — und nutzen dabei möglicherweise Quanteneffekte in ihren Augen, um das Erdmagnetfeld buchstäblich zu sehen.",
-    absaetze:["Die Navigation von Zugvögeln über Ozeane und Kontinente ohne sichtbare Orientierungspunkte ist seit Jahrhunderten ein Rätsel. Die intuitive Antwort war lange: Instinkt — ein vages Konzept, das mehr verdeckt als erklärt.","Forscher der Universität Oldenburg haben nachgewiesen, dass Rotkehlchen Proteine in den Augen besitzen, die auf das Erdmagnetfeld reagieren — wahrscheinlich durch Quantenphänomene im Protein Cryptochrom. Das Magnetfeld erscheint dem Vogel buchstäblich als visuelles Muster im Gesichtsfeld. Zusätzlich navigieren Vögel nach dem Sternenhimmel und teilweise nach Geruch.","Zugvögel nutzen nicht ein Navigationssystem — sie nutzen mehrere gleichzeitig. Es ist multimodale Navigation auf einem Niveau, das menschliche Technologie gerade erst erreicht."],
-    quelle:"Ritz et al. (2000): 'Magnetic compass of birds', Nature. Mouritsen, H. (2018): 'Long-distance navigation and magnetoreception in migratory animals', Nature."
-  },
-  {
-    kategorie:"Wissenschaft",
-    titel:"Warum wir in Gruppen klüger werden — wenn es gut läuft",
-    stauner:"Gruppen sind berüchtigt für schlechte Entscheidungen. Unter den richtigen Bedingungen aber überbieten sie konsequent die besten Einzelpersonen — ein Phänomen das Forscher 'kollektive Intelligenz' nennen.",
-    absaetze:["Die Kritik an Gruppenentscheidungen ist berechtigt: Groupthink, Konformitätsdruck, Verantwortungsdiffusion. Experimente zeigen, dass Menschen in Gruppen ihre eigenen Urteile zugunsten der Mehrheit aufgeben, auch wenn die Mehrheit falsch liegt.","Anita Woolley von der Carnegie Mellon University untersuchte über 700 Gruppen. Sie fanden einen 'c-Faktor' — kollektive Intelligenz — der vorhersagt, wie gut eine Gruppe abschneidet. Dieser Faktor korreliert nicht mit dem durchschnittlichen IQ der Mitglieder, sondern mit drei Faktoren: sozialer Sensitivität, gleichmäßiger Gesprächsbeteiligung und — am stärksten — dem Anteil von Frauen in der Gruppe.","Kollektive Intelligenz ist kein Automatismus — sie ist das Ergebnis von Design. Wie eine Gruppe kommuniziert, wer sprechen darf und wer gehört wird, ist entscheidend."],
-    quelle:"Woolley et al. (2010): 'Evidence for a Collective Intelligence Factor in the Performance of Human Groups', Science 330."
-  },
-  {
-    kategorie:"Ökologie",
-    titel:"Seegraswiesen reinigen das Meer von Krankheitserregern",
-    stauner:"Seegraswiesen bedecken weniger als 0,2 Prozent des Meeresbodens — und filtern dabei aktiv Bakterien und Krankheitserreger aus dem Wasser. Riffe neben intakten Seegraswiesen haben bis zu 50 Prozent weniger fischpathogene Bakterien.",
-    absaetze:["Seegras ist kein Alge, sondern eine echte Blütenpflanze, die sich vor Millionen Jahren ins Meer zurückgezogen hat. In der öffentlichen Wahrnehmung ist es unsichtbar — weder so charismatisch wie Korallen noch so beeindruckend wie Wale.","Eine Studie in Science (2017) zeigte, dass Riffe neben intakten Seegraswiesen deutlich niedrigere Konzentrationen von fischpathogenen Bakterien aufwiesen. Seegras speichert Kohlenstoff bis zu 35 Mal schneller als tropische Regenwälder pro Flächeneinheit. Es stabilisiert Sedimente und ist Kinderstube für rund 20 Prozent der weltweit kommerziell genutzten Fischbestände.","Seegraswiesen verschwinden weltweit mit einer Rate von etwa 7 Prozent pro Jahr — schneller als Regenwälder. Sie zu schützen ist nicht nur ökologisch klug, sondern wirtschaftlich rational."],
-    quelle:"Lamb et al. (2017): 'Seagrass ecosystems reduce exposure to bacterial pathogens of humans, fishes, and invertebrates', Science 355."
-  },
-  {
-    kategorie:"Geschichte",
-    titel:"Wie Norman Borlaug eine Milliarde Menschen rettete",
-    stauner:"Norman Borlaug entwickelte neue Weizensorten, die Erträge verzehnfachten und schätzungsweise eine Milliarde Menschen vor dem Hungertod bewahrten. Er ist einer der einflussreichsten Menschen des 20. Jahrhunderts — und kaum jemand kennt seinen Namen.",
-    absaetze:["In den 1960er Jahren prognostizierten führende Ökonomen und Biologen eine globale Hungerkatastrophe: Die Weltbevölkerung wuchs schneller als die Nahrungsmittelproduktion. Indien und Pakistan galten als hoffnungslos überbevölkert.","Norman Borlaug hatte in den Jahren davor im mexikanischen Hochland neue halbzwergige Weizensorten gezüchtet: krankheitsresistent, ertragreich, anpassungsfähig. Als sie in Indien und Pakistan eingeführt wurden, verdoppelten und verdreifachten sich die Erträge innerhalb weniger Jahre. Pakistan wurde 1968 zum Weizenexporteur. Indien — das 1966 noch 11 Millionen Tonnen Weizen importiert hatte — wurde 1974 selbstversorgend.","Borlaug ist kein Haushaltsname. Aber kaum eine Person des 20. Jahrhunderts hat mehr Menschenleben gerettet. Seine Geschichte ist ein Beleg dafür, dass Wissenschaft — zielgerichtet, geduldig, angewendet — die Welt verändern kann."],
-    quelle:"Hesser, L. (2006): 'The Man Who Fed the World', Durban House. Evenson & Gollin (2003): 'Assessing the Impact of the Green Revolution', Science 300."
-  },
-  {
-    kategorie:"Psychologie",
-    titel:"Post-Traumatisches Wachstum: Wenn Krisen stärken",
-    stauner:"Das Konzept des posttraumatischen Stresses ist weithin bekannt. Weniger bekannt ist sein Gegenstück: Viele Menschen berichten nach traumatischen Erlebnissen nicht nur von Leiden — sondern von bedeutsamem persönlichem Wachstum.",
-    absaetze:["Trauma und psychisches Leid sind eng verknüpft in der öffentlichen Wahrnehmung. Das Konzept der posttraumatischen Belastungsstörung ist in der Psychiatrie etabliert — ein wichtiger Fortschritt gegenüber früheren Zeiten.","Die Psychologen Richard Tedeschi und Lawrence Calhoun prägten den Begriff 'Post-Traumatic Growth': In Studien mit Krebspatienten, Kriegsveteranen und Unfallopfern berichteten zwischen 30 und 70 Prozent der Befragten von positivem Wachstum in mindestens einem Bereich: tiefere Beziehungen, neue Möglichkeiten, gestärktes Selbstbild, größere Wertschätzung des Lebens. Dieser Effekt ist kein Widerspruch zu PTBS — beide können gleichzeitig auftreten.","Post-Traumatisches Wachstum bedeutet nicht, dass Trauma gut ist. Es bedeutet, dass Menschen bemerkenswert resilient sind — und dass Krisen, so schwer sie sind, manchmal Türen öffnen, die ohne sie geschlossen geblieben wären."],
-    quelle:"Tedeschi & Calhoun (1996): 'The Posttraumatic Growth Inventory', Journal of Traumatic Stress. Linley & Joseph (2004): Journal of Traumatic Stress."
-  },
-  {
-    kategorie:"Natur",
-    titel:"Wie Pilze Kunststoffe abbauen",
-    stauner:"Bestimmte Pilzarten können Kunststoffe abbauen, die als nicht biologisch abbaubar galten — darunter Polyurethan. Diese Entdeckung eröffnet völlig neue Perspektiven für die Behandlung von Plastikmüll.",
-    absaetze:["Plastik gilt als Symbol der ökologischen Krise: nicht abbaubar, allgegenwärtig, für Jahrzehnte und Jahrhunderte in der Umwelt persistierend. Die Vorstellung, dass biologische Prozesse dieses Problem lösen könnten, wurde lange als unrealistische Hoffnung betrachtet.","2011 entdeckten Studenten der Yale University, dass der Pilz Pestalotiopsis microspora Polyurethan unter anaeroben Bedingungen vollständig abbauen kann. Seitdem wurden weitere plastikabbauende Pilzarten identifiziert: Aspergillus tubingensis kann bestimmte Plastikarten innerhalb weniger Wochen statt Jahrzehnten fragmentieren. Das Fraunhofer-Institut arbeitet an der technischen Skalierung solcher biologischen Abbauprozesse.","Pilze sind die Recycler des Ökosystems — sie haben gelernt, nahezu jedes organische Material abzubauen. Dass sie auch manche synthetischen Materialien angreifen können, ist ein Hinweis auf ihre außerordentliche enzymatische Flexibilität."],
-    quelle:"Russell et al. (2011): 'Biodegradation of polyester polyurethane by endophytic fungi', Applied and Environmental Microbiology. Khan et al. (2017): Environmental Pollution."
-  },
-  {
-    kategorie:"Umwelt",
-    titel:"Stadtbäume sind Klimaanlagen",
-    stauner:"Städte sind im Durchschnitt 1-3 Grad wärmer als ihr ländliches Umland. Ein einziger großer Stadtbaum spendet die Kühlleistung von 10 Raumklimaanlagen — und ist damit eine der kosteneffizientesten Klimaanpassungsmaßnahmen.",
-    absaetze:["Der Wärmeinseleffekt von Städten ist seit den 1810er Jahren bekannt. Dunkelgraue Oberflächen absorbieren Sonnenwärme, Gebäude speichern sie, menschliche Aktivitäten produzieren sie. Das Ergebnis: Städte heizen sich stärker auf als ihre Umgebung.","Forschungen des USDA Forest Service haben berechnet: Ein einzelner großer Stadtbaum spendet im Sommer die Kühlleistung von 10 Raumklimaanlagen, die 20 Stunden täglich laufen. Durch Verdunstung und Beschattung senken Bäume die gefühlte Temperatur in ihrer Umgebung um 4-8 Grad Celsius. Eine Studie über 293 europäische Städte zeigte, dass eine Erhöhung der Vegetationsfläche um 10 Prozent die Überhitzung um bis zu 2 Grad reduzieren kann.","Stadtbäume sind keine Luxus-Dekoration — sie sind städtische Infrastruktur. In Zeiten zunehmender Hitzewellen sind sie eine der schnellsten verfügbaren Klimaanpassungsmaßnahmen."],
-    quelle:"Nowak & Crane (2002): 'Carbon storage and sequestration by urban trees', Urban Forestry. Zardo et al. (2017): Science of The Total Environment."
-  },
-  {
-    kategorie:"Geschichte",
-    titel:"Die Erfindung des öffentlichen Gesundheitswesens",
-    stauner:"Im 19. Jahrhundert töteten Cholera und Typhus regelmäßig Zehntausende in europäischen Städten. Die Entdeckung, dass verschmutztes Wasser die Ursache war — nicht 'schlechte Luft' — revolutionierte die Medizin und rettete Millionen Leben.",
-    absaetze:["Bis Mitte des 19. Jahrhunderts herrschte in der Medizin die Miasma-Theorie: Krankheiten entstehen durch schlechte Luft — den giftigen Geruch verfaulender organischer Materie. Sie erklärte, warum arme, überfüllte Stadtviertel mehr Krankheit hatten — und führte zu fatalen Maßnahmen.","John Snow untersuchte 1854 einen Cholera-Ausbruch in London mit einer methodischen Präzision, die heute als Beginn der modernen Epidemiologie gilt. Er kartierte jeden Todesfall und entdeckte, dass sie sich um eine einzige Wasserpumpe konzentrierten. Als er die Pumpe außer Betrieb setzen ließ, endete der Ausbruch. Diese Erkenntnis trieb den Bau moderner Kanalisationssysteme in europäischen Städten voran.","Sauberes Wasser ist vielleicht die wirksamste Einzelmaßnahme der Gesundheitsgeschichte. Die Investition in Kanalisation erhöhte Lebenserwartungen in Europa innerhalb einer Generation um mehrere Jahre — ohne einen einzigen medizinischen Wirkstoff."],
-    quelle:"Johnson, S. (2006): 'The Ghost Map', Riverhead Books. Cutler & Miller (2005): 'The Role of Public Health Improvements in Health Advances', Demography."
-  },
-  {
-    kategorie:"Wissenschaft",
-    titel:"Wie Quantenphysik die Photosynthese erklärt",
-    stauner:"Pflanzen transportieren Energie bei der Photosynthese mit nahezu 100-prozentiger Effizienz zu den Reaktionszentren — effizienter als jede klassische Erklärung vorhersagen würde. Der Grund: Quantenkohärenz in lebenden Zellen.",
-    absaetze:["Quantenphysik und Biologie erschienen jahrzehntelang als unvereinbare Welten. Quanteneffekte erfordern, so die Annahme, präzise kontrollierte Bedingungen — weit entfernt von dem, was in einer lebenden Zelle bei 37 Grad Celsius herrscht.","Forscher der UC Berkeley zeigten 2007, dass Pflanzen und Bakterien bei der Photosynthese Quantenkohärenz nutzen, um Energie mit nahezu 100-prozentiger Effizienz zu transportieren. Viele Enzyme beschleunigen chemische Reaktionen durch Quantentunneling von Protonen und Elektronen. Die Magnetnavigation bei Zugvögeln beruht möglicherweise ebenfalls auf Quanteneffekten.","Die Quantenbiologie ist eine junge, faszinierende Disziplin. Sie legt nahe, dass das Leben nicht trotz der Quantenmechanik funktioniert — sondern teilweise wegen ihr. Evolution hat gelernt, die seltsamsten Eigenschaften des Universums zu nutzen."],
-    quelle:"Engel et al. (2007): 'Evidence for wavelike energy transfer through quantum coherence in photosynthetic systems', Nature. Al-Khalili & McFadden (2014): 'Life on the Edge', Broadway Books."
-  },
-  {
-    kategorie:"Gesellschaft",
-    titel:"Restorative Justice: Wenn Heilung mehr bewirkt als Strafe",
-    stauner:"In Ländern, die Restorative Justice einsetzen, berichten Opfer signifikant weniger Traumasymptome, und Täter haben deutlich niedrigere Rückfallraten als im konventionellen Strafsystem.",
-    absaetze:["Das klassische Strafjustizsystem ist auf Vergeltung und Abschreckung ausgerichtet. Opfer spielen eine periphere Rolle. Diese Logik gilt als selbstverständlich.","Restorative Justice lässt Opfer und Täter in moderierten Sitzungen zusammenkommen, um Schaden zu besprechen, Verantwortung zu übernehmen und Wege der Wiedergutmachung zu finden. Lawrence Sherman von der Cambridge University hat in einer Metaanalyse von 36 kontrollierten Studien gezeigt: Opfer zeigten signifikant niedrigere Traumasymptome, höhere Zufriedenheit — und Rückfallraten bei Tätern sanken in mehreren Studien um bis zu 27 Prozent.","Restorative Justice zeigt, dass Gerechtigkeit nicht zwingend Bestrafung bedeuten muss — und dass Heilung manchmal mehr bewirkt als Strafe."],
-    quelle:"Sherman & Strang (2007): 'Restorative Justice: The Evidence', Smith Institute London. Braithwaite, J. (2002): 'Restorative Justice and Responsive Regulation', Oxford University Press."
-  },
-  {
-    kategorie:"Natur",
-    titel:"Fledermäuse erbringen Milliarden an landwirtschaftlichem Nutzen",
-    stauner:"Fledermäuse kontrollieren Insektenpopulationen und erbringen damit landwirtschaftliche Leistungen im Wert von über 3,7 Milliarden Dollar allein in den USA — und bestäuben Bananen, Mangos, Avocados und Kakao.",
-    absaetze:["Fledermäuse sind in der Populärkultur negativ konnotiert: Krankheitsüberträger, nachtaktive Kreaturen. Diese Assoziation hat die Wahrnehmung ihrer ökologischen Rolle systematisch verzerrt.","Eine Studie von Boyles et al. (2011) in Science berechnete den ökonomischen Wert der Insektenkontrolle durch Fledermäuse für die US-Landwirtschaft: zwischen 3,7 und 53 Milliarden Dollar jährlich. In den Tropen bestäuben Fledermäuse über 500 Pflanzenarten, darunter Bananen, Mangos, Avocados und Kakao. Sie sind oft die ersten Samenverbreiter in Primärwäldern nach Störungen.","Fledermäuse sind zentrale Akteure in Ökosystemen auf der ganzen Welt. Ihr Schutz ist nicht Sentimentalität, sondern ökonomisch rationale Investition in natürliche Infrastruktur."],
-    quelle:"Boyles et al. (2011): 'Economic Importance of Bats in Agriculture', Science 332. Kunz et al. (2011): Annals of the New York Academy of Sciences."
-  },
-  {
-    kategorie:"Wirtschaft",
-    titel:"Wie Entwicklungshilfe dann funktioniert, wenn sie es tut",
-    stauner:"Entwicklungshilfe hat einen schlechten Ruf — und nicht immer zu Unrecht. Doch spezifische, gut evaluierte Interventionen zeigen messbare, langfristige Wirkungen. Die Frage ist nicht ob Hilfe wirkt, sondern welche Art.",
-    absaetze:["Die Kritik an Entwicklungshilfe ist prominenter als je zuvor: Dambisa Moyo argumentierte in 'Dead Aid', dass Hilfe Abhängigkeit schafft und Korruption fördert. Diese Kritik hat berechtigt auf systemische Probleme hingewiesen.","Das Abdul Latif Jameel Poverty Action Lab (J-PAL) am MIT hat über 1.000 randomisierte kontrollierte Studien koordiniert. Die Erkenntnisse: Direkte Bargeldtransfers zeigen langfristige positive Effekte auf Konsum, Bildung und psychische Gesundheit. Entwurmungsprogramme in Schulen kosten wenige Dollar pro Kind und steigern nachweislich Schulbesuch und spätere Einkommen. Günstige Moskitonetze gegen Malaria retten Leben zu Kosten von unter 5.000 Dollar pro gerettetem Leben.","Entwicklungshilfe ist kein monolithisches Konzept. Die Lektion der Evidenzforschung: Nicht fragen ob helfen, sondern wie helfen."],
-    quelle:"Banerjee & Duflo (2011): 'Poor Economics', PublicAffairs. GiveWell Cost-Effectiveness Analysis (2023). J-PAL Policy Bulletin."
-  },
-  {
-    kategorie:"Ökologie",
-    titel:"Wie Flüsse atmen",
-    stauner:"Flüsse sind keine passiven Wasserkanäle, sondern hochdynamische Ökosysteme. Natürliche Auen — die regelmäßig überschwemmten Uferbereiche — sind die produktivsten terrestrischen Ökosysteme Europas.",
-    absaetze:["Flüsse werden in der Alltagswahrnehmung oft als Transportmedium betrachtet — für Wasser, Güter, Abwässer. Ihre ökologische Funktion ist in der öffentlichen Debatte deutlich weniger präsent als die von Wäldern oder Ozeanen.","Auen filtern Nitrate aus der Landwirtschaft, speichern Hochwasser, beherbergen Vogel- und Insektengemeinschaften von außerordentlicher Dichte. Eine Studie des WWF schätzt, dass natürliche Auen in Deutschland jährlich Ökosystemleistungen im Wert von über 2,5 Milliarden Euro erbringen. Über 90 Prozent der deutschen Auen sind jedoch durch Flussbegradigungen von ihren Flüssen abgeschnitten.","Renaturierungsprojekte zeigen, dass selbst stark veränderte Flüsse sich innerhalb weniger Jahre erholen können — wenn man ihnen den Raum lässt."],
-    quelle:"Tockner & Stanford (2002): 'Riverine flood plains', Environmental Conservation. WWF Deutschland (2021): 'Lebendige Flüsse'."
-  },
-  {
-    kategorie:"Wissenschaft",
-    titel:"Die innere Uhr: Ein Nobelpreis für die Zeit im Körper",
-    stauner:"Nahezu alle lebenden Organismen besitzen eine innere Uhr, die ohne externe Zeitgeber eine 24-Stunden-Rhythmik aufrechterhalten kann — und die in nahezu identischer molekularer Form in Fliegen, Pilzen und Menschen existiert.",
-    absaetze:["Dass Menschen müde werden wenn es dunkel ist, erscheint banal. Dass dieser Rhythmus von einem molekularen Mechanismus gesteuert wird, der sich über Jahrmillionen der Evolution erhalten hat und in nahezu identischer Form in Fliegen und Menschen existiert — das ist alles andere als selbstverständlich.","Jeffrey Hall, Michael Rosbash und Michael Young entdeckten ein Rückkopplungssystem von Proteinen, das in einem präzisen 24-Stunden-Zyklus schwankt. Dieser Mechanismus ist so präzise, dass isolierte Zellen in einer Petrischale ohne jede externe Zeitinformation ihren Rhythmus wochenlang aufrechterhalten. Dafür erhielten sie 2017 den Nobelpreis für Physiologie.","Zirkadiane Rhythmen regulieren nicht nur Schlaf — sondern Immunfunktion, Stoffwechsel und Zellreparatur. Wann Medikamente eingenommen werden, kann ebenso entscheidend sein wie welche."],
-    quelle:"Hall, Rosbash & Young (Nobelpreis Physiologie 2017). Takahashi, J.S. (2017): 'Transcriptional architecture of the mammalian circadian clock', Nature Reviews Genetics."
-  },
-  {
-    kategorie:"Wirtschaft",
-    titel:"Frauen in Führung verbessern die Unternehmensperformance",
-    stauner:"Unternehmen mit mehr Frauen in Führungspositionen erzielen nachweislich bessere finanzielle Ergebnisse — nicht trotz, sondern wegen der Diversität in der Entscheidungsfindung.",
-    absaetze:["Die Diskussion über Frauen in Führungspositionen wird oft als Gerechtigkeitsfrage geführt. Das ist sie. Aber die wirtschaftliche Dimension wird seltener diskutiert — als wäre Diversität ein Kostenfaktor, den man aus moralischen Gründen trägt.","Eine Studie von McKinsey & Company (2020), die 1.000 Unternehmen in 15 Ländern untersuchte, fand: Unternehmen im obersten Quartil nach Geschlechterdiversität waren 25 Prozent wahrscheinlicher, überdurchschnittliche Profitabilität zu erzielen. Eine Meta-Analyse über 140 Studien bestätigte den statistisch signifikant positiven Zusammenhang. Die Erklärungen: Diversere Teams vermeiden eher Groupthink und bilden Kundschaft diverserer Gesellschaften besser ab.","Diversität ist keine Dekoration — sie ist ein Wettbewerbsvorteil. Dass dies vielfach ignoriert wird, ist eines der hartnäckigsten ökonomischen Paradoxien unserer Zeit."],
-    quelle:"McKinsey & Company (2020): 'Diversity wins: How inclusion matters'. Post & Byron (2015): Academy of Management Journal."
-  },
-  {
-    kategorie:"Natur",
-    titel:"Die Stille unter dem Ozean — Wale als Klimaschützer",
-    stauner:"Wale wurden jahrhundertelang gejagt und ihr Bestand als dauerhaft geschädigt betrachtet. Doch viele Arten erholen sich seit dem Walfangmoratorium — und dabei stellt sich heraus, dass ein einziger Wal bis zu 33 Tonnen CO₂ bindet.",
-    absaetze:["Als 1986 das internationale Walfangmoratorium in Kraft trat, galten viele Walarten als funktional ausgerottet. Biologen rechneten mit Erholungszeiten von mehreren Jahrhunderten.","Aktuelle Daten der International Whaling Commission zeigen: Der Bestand der Buckelwale im Südatlantik ist von schätzungsweise 450 Tieren im Jahr 1958 auf über 25.000 im Jahr 2019 gestiegen. Forscher des Marine Biological Laboratory haben berechnet, dass ein einziger Wal über sein Leben rund 33 Tonnen CO₂ bindet — und durch seine Ausscheidungen das Phytoplankton-Wachstum stimuliert, das für bis zu 50 Prozent des globalen Sauerstoffs verantwortlich ist.","Der Schutz von Walen ist Klimaschutz. Und ihre Rückkehr zeigt: Wenn Druck nachlässt, kehrt das Leben zurück."],
-    quelle:"International Whaling Commission (2020): Conservation status reports. Chami et al. (2019): 'Protect Whales to Protect the Planet', IMF Finance & Development."
-  },
-  {
-    kategorie:"Gesellschaft",
-    titel:"Mikrofinanz: Wie 27 Dollar eine Familie verändern",
-    stauner:"Muhammad Yunus vergab Kleinstkredite von durchschnittlich 27 Dollar — vor allem an Frauen ohne Sicherheiten. Die Rückzahlungsquote lag bei über 97 Prozent, höher als bei vielen kommerziellen Banken.",
-    absaetze:["In der klassischen Wirtschaftslehre galten arme Menschen lange als schlechte Kreditnehmer — zu risikoreich, zu unzuverlässig. Diese Annahme war so tief verankert, dass sie kaum hinterfragt wurde.","Muhammad Yunus gründete 1983 die Grameen Bank in Bangladesch. Die Rückzahlungsquote lag bei über 97 Prozent. Eine Analyse des MIT Poverty Action Lab über 20 Jahre zeigt: Frauen die Zugang zu Mikrokrediten hatten, investierten signifikant mehr in die Bildung ihrer Kinder und verzeichneten höhere Einkommen. Heute bedient die Grameen Bank neun Millionen Kreditnehmer.","Märkte funktionieren nicht nur für diejenigen, die bereits haben — wenn man sie richtig gestaltet."],
-    quelle:"Grameen Bank Annual Report (2022). Banerjee, Duflo et al. (2015): 'The Miracle of Microfinance?', American Economic Journal."
-  },
-  {
-    kategorie:"Forstwirtschaft",
-    titel:"Natürliche Waldregeneration ist günstiger als Aufforstung",
-    stauner:"Wenn tropische Wälder nicht aktiv wiederhergestellt, sondern einfach in Ruhe gelassen werden, erholen sie sich überraschend schnell. Natürliche Regeneration speichert Kohlenstoff bis zu achtmal günstiger als aktive Aufforstung.",
-    absaetze:["Das Bild tropischer Entwaldung ist oft eines permanenter Degradation: Ist ein Regenwald erst gerodet, ist er für Generationen verloren. Diese Vorstellung motiviert teure Aufforstungsprogramme, bei denen Setzlinge gepflanzt und gepflegt werden müssen.","Eine Studie von Poorter et al. (2016) in Science untersuchte 77 wiederherstellende Tropenwälder. Nach 20 Jahren hatten sich durchschnittlich 78 Prozent der Artenvielfalt und 90 Prozent der ursprünglichen Biomasse wiederhergestellt — ohne menschliche Intervention. Eine Studie der ETH Zürich zeigte außerdem, dass natürliche Regeneration pro gespeicherter Tonne Kohlenstoff bis zu achtmal günstiger ist als aktive Aufforstung.","Das bedeutet: Der schützende Zaun ist manchmal wirksamer als die Pflanzschaufel."],
-    quelle:"Poorter et al. (2016): 'Biomass resilience of Neotropical secondary forests', Nature 530. Chazdon et al. (2016): Science Advances."
+  let theme = localStorage.getItem('stauner-theme') || 'auto';
+  function applyTheme(t) {
+    document.documentElement[t === 'auto' ? 'removeAttribute' : 'setAttribute']('data-theme', t);
+    const btn = document.querySelector('.switch-btn');
+    if (btn) btn.textContent = t === 'dark' ? '☀' : '☾';
   }
-];
-
-/* ═══════════════════════════════════════════════
-   HILFSFUNKTIONEN
-═══════════════════════════════════════════════ */
-function dayOfYear() {
-  const n = new Date();
-  return Math.floor((n - new Date(n.getFullYear(), 0, 0)) / 864e5);
-}
-
-function cacheKey(suffix) {
-  const d = new Date();
-  return `stauner_${d.getFullYear()}_${d.getMonth()}_${d.getDate()}_${suffix}`;
-}
-
-function getCached(key) {
-  try { return JSON.parse(localStorage.getItem(key)); }
-  catch { return null; }
-}
-
-function setCache(key, data) {
-  try { localStorage.setItem(key, JSON.stringify(data)); }
-  catch {}
-}
-
-
-
-/* ═══════════════════════════════════════════════
-   STORY LADEN
-═══════════════════════════════════════════════ */
-let currentStoryDE = null;
-
-async function getTodayStory() {
-  // Lade täglich generierte story.json (erstellt durch GitHub Action)
-  try {
-    const res = await fetch('story.json?v=' + Date.now());
-    if (res.ok) {
-      const story = await res.json();
-      if (story && story.titel) return story;
-    }
-  } catch (e) {
-    console.warn('story.json nicht verfügbar, nutze eingebettete Geschichte');
+  function toggleTheme() {
+    theme = (theme === 'auto' || theme === 'light') ? 'dark' : 'light';
+    localStorage.setItem('stauner-theme', theme);
+    applyTheme(theme);
   }
+  applyTheme(theme);
 
-  // Fallback: eingebettete kuratierte Geschichte
-  const story = STORIES[dayOfYear() % STORIES.length];
-  return story;
-}
-
-/* ═══════════════════════════════════════════════
-   RENDERING
-═══════════════════════════════════════════════ */
-function render(story) {
-  renderInLang(story, currentLang);
-}
-
-function render_unused(story) {
-  const paras = (story.absaetze || []).map(p => `<p>${p}</p>`).join('');
-
-  const el = document.getElementById('js-article');
-  el.className = 'article';
-  el.innerHTML = `
-    <div class="a-kicker">
-      <span class="kicker-dot"></span>
-      <span class="kicker-text">${story.kategorie || ''}</span>
-    </div>
-    <h2 class="a-headline">${story.titel || ''}</h2>
-    <div class="stauner-box">
-      <div class="stauner-label">Das Staunen des Tages</div>
-      <p class="stauner-text">${story.stauner || ''}</p>
-    </div>
-    <div class="a-body">${paras}</div>
-    ${story.schon_gewusst ? `<div class="schon-gewusst"><span class="schon-gewusst-label">Schon gewusst?</span><p class="schon-gewusst-text">${story.schon_gewusst}</p></div>` : ''}
-    <div class="divider"><span class="divider-mark">✦ ✦ ✦</span></div>
-    <div class="colophon">
-      <span class="colophon-source"><strong>Quelle:</strong> ${story.quelle_url ? `<a href="${story.quelle_url}" target="_blank" rel="noopener" style="color:#2e8b57;text-decoration:none;">${story.quelle}</a>` : (story.quelle || '')}</span>
-    </div>
-  `;
-}
-
-
-/* ── Navigation Menü ── */
-function toggleNav() {
-  document.getElementById('js-nav-sidebar').classList.toggle('open');
-  document.getElementById('js-nav-overlay').classList.toggle('open');
-  document.body.style.overflow = document.getElementById('js-nav-sidebar').classList.contains('open') ? 'hidden' : '';
-}
-
-function closeNav() {
-  document.getElementById('js-nav-sidebar').classList.remove('open');
-  document.getElementById('js-nav-overlay').classList.remove('open');
-  document.body.style.overflow = '';
-}
-
-document.addEventListener('keydown', e => { if (e.key === 'Escape') closeNav(); });
-
-async function loadNavCategories() {
-  try {
-    const res = await fetch('sammlung.json?v=' + new Date().toISOString().slice(0,10));
-    if (!res.ok) return;
-    const stories = await res.json();
-    if (!stories?.length) return;
-
-    const cats = [...new Set(stories.map(s => s.kategorie).filter(Boolean))].sort();
-    const container = document.getElementById('js-nav-categories');
-    container.innerHTML = cats.map(cat => {
-      const count = stories.filter(s => s.kategorie === cat).length;
-      return `<a href="sammlung.html#${encodeURIComponent(cat)}" onclick="closeNav()">${cat} <span style='opacity:.35;font-size:.8em'>${count}</span></a>`;
-    }).join('');
-  } catch {}
-}
-
-loadNavCategories();
-
-
-/* ═══════════════════════════════════════════════
-   ÜBERSETZUNGEN
-═══════════════════════════════════════════════ */
-const TRANSLATIONS = {
-  de: {
-    eyebrow: '✦ Hirnholz — tägliche Edition',
-    title: 'Der tägliche',
-    titleAccent: 'Stauner',
-    tagline: 'Was wir über die Welt zu wissen glauben — und was wirklich stimmt.',
-    motto: 'Jeden Morgen um 5:00 Uhr eine Erkenntnis — bereichernd, begeisternd und wissenschaftlich belegt.',
-    staunerLabel: 'Das Staunen des Tages',
-    schonLabel: 'Schon gewusst?',
-    quelleLabel: 'Quelle',
-    sammlung: 'Die Sammlung',
-    beitraege: 'Beiträge',
-    sammlungHeader: 'Nach Kategorie',
-    sammlungAll: '✦ Gesamte Sammlung →',
-    footerMotto: 'Jeden Morgen um 5 Uhr',
-    loadingText: 'Der Stauner des Tages wird vorbereitet …',
-    errorTitle: 'Heute keine Verbindung',
-    errorText: 'Der Stauner konnte nicht geladen werden. Bitte versuche es gleich noch einmal.',
-    errorBtn: 'Erneut versuchen',
-    disclaimer: 'KI-generierte Inhalte — Fakten können Fehler enthalten. Bitte eigenständig prüfen:',
-    scholarLink: 'Google Scholar',
-    sammlung_url: 'sammlung.html'
-  },
-  en: {
-    eyebrow: '✦ BrainGrain — daily edition',
-    title: 'The daily',
-    titleAccent: 'Wonder',
-    tagline: 'What we think we know about the world — and what is really true.',
-    motto: 'Every morning at 5:00 AM — enriching, inspiring and scientifically grounded.',
-    staunerLabel: 'The Wonder of the Day',
-    schonLabel: 'Did you know?',
-    quelleLabel: 'Source',
-    sammlung: 'The Collection',
-    beitraege: 'Stories',
-    sammlungHeader: 'By Category',
-    sammlungAll: '✦ Full Collection →',
-    footerMotto: 'Every morning at 5 AM',
-    loadingText: "Today's wonder is being prepared …",
-    errorTitle: 'No connection today',
-    errorText: "The wonder could not be loaded. Please try again in a moment.",
-    errorBtn: 'Try again',
-    disclaimer: 'AI-generated content — facts may contain errors. Please verify independently:',
-    scholarLink: 'Google Scholar',
-    sammlung_url: 'sammlung.html'
-  }
-};
-
-
-let currentTheme = localStorage.getItem('stauner-theme') || 'auto';
-let currentLang = localStorage.getItem('stauner-lang') || 'de';
-
-function applyTheme(theme) {
-  const root = document.documentElement;
-  if (theme === 'auto') {
-    root.removeAttribute('data-theme');
-  } else {
-    root.setAttribute('data-theme', theme);
-  }
-  const btn = document.getElementById('js-theme-btn');
-  if (btn) btn.textContent = theme === 'dark' ? '☀' : '☾';
-}
-
-function toggleTheme() {
-  if (currentTheme === 'auto' || currentTheme === 'light') {
-    currentTheme = 'dark';
-  } else {
-    currentTheme = 'light';
-  }
-  localStorage.setItem('stauner-theme', currentTheme);
-  applyTheme(currentTheme);
-}
-
-function applyLang(lang) {
-  const t = TRANSLATIONS[lang];
-  const setT = (id, text) => { const el = document.getElementById(id); if (el) el.textContent = text; };
-  const setH = (id, html) => { const el = document.getElementById(id); if (el) el.innerHTML = html; };
-
-  setT('js-lang-label', lang.toUpperCase());
-
-
-  setT('js-m-tag', t.eyebrow);
-  setT('js-title-plain', t.title + ' ');
-  setT('js-title-accent', t.titleAccent);
-  setT('js-tagline', t.tagline);
-  setT('js-band-motto', t.motto);
-  setT('js-nav-header', t.sammlungHeader);
-  setT('js-nav-all', t.sammlungAll);
-  setT('js-footer-motto', t.footerMotto);
-  setT('js-loading-text', t.loadingText);
-  setT('js-error-title', t.errorTitle);
-  setT('js-error-text', t.errorText);
-  setT('js-error-btn', t.errorBtn);
-
-  document.documentElement.lang = lang;
-  document.title = lang === 'de' ? 'Der tägliche Stauner' : 'The Daily Wonder';
-
-  // Update date format
   const now = new Date();
-  const locale = lang === 'de' ? 'de-DE' : 'en-GB';
-  const topEl = document.getElementById('js-date-top');
-  const bandEl = document.getElementById('js-date-band');
-  if (topEl) topEl.textContent = now.toLocaleDateString(locale, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
-  if (bandEl) bandEl.textContent = now.toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric' });
-
-  // Re-render article if loaded
-  if (currentStoryDE) renderInLang(currentStoryDE, lang);
-}
-
-function toggleLang() {
-  currentLang = currentLang === 'de' ? 'en' : 'de';
-  localStorage.setItem('stauner-lang', currentLang);
-  applyLang(currentLang);
-}
-
-function renderInLang(story, lang) {
-  const t = TRANSLATIONS[lang];
-  // Use language-specific fields if available, fall back to base fields
-  const hasEN = !!(story.titel_en || story.stauner_en);
-  const titel = lang === 'en' ? (story.titel_en || story.titel || '') : (story.titel_de || story.titel || '');
-  const stauner = lang === 'en' ? (story.stauner_en || story.stauner || '') : (story.stauner_de || story.stauner || '');
-  const absaetze_raw = lang === 'en' ? (story.absaetze_en || story.absaetze || []) : (story.absaetze_de || story.absaetze || []);
-  const schon = lang === 'en' ? (story.schon_gewusst_en || story.schon_gewusst || '') : (story.schon_gewusst_de || story.schon_gewusst || '');
-  const langNote = (lang === 'en' && !hasEN) ? '<p style="font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);color:var(--muted);font-style:italic;margin-bottom:1rem;">This story is only available in German.</p>' : '';
-  const paras = absaetze_raw.map(p => `<p>${p}</p>`).join('');
-  // Override story fields for rendering
-  const s = {...story, titel, stauner, absaetze: absaetze_raw, schon_gewusst: schon};
-  story = s;
-  const _ = null; // suppress unused warning
-  const bonusHtml = schon
-    ? `<div class="schon-gewusst"><span class="schon-gewusst-label">${t.schonLabel}</span><p class="schon-gewusst-text">${story.schon_gewusst}</p></div>`
-    : '';
-  // Store search term on window to avoid encoding issues in innerHTML
-  const quelleClean = (story.quelle || story.titel || '')
-    .replace(/[^a-zA-Z0-9äöüÄÖÜß ]/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim()
-    .split(' ')
-    .filter(w => w.length > 2)
-    .slice(0, 5)
-    .join(' ');
-  window._quelleSearch = quelleClean;
-  const sourceHtml = story.quelle
-    ? `<a href="#" onclick="window.open('https://www.google.com/search?q='+encodeURIComponent(window._quelleSearch),'_blank');return false;" style="color:#2e8b57;text-decoration:none;cursor:pointer;">${story.quelle}</a>`
-    : '';
-
-  const el = document.getElementById('js-article');
-  el.className = 'article';
-  el.innerHTML = `
-    ${langNote}
-    <div class="a-kicker"><span class="kicker-dot"></span><span class="kicker-text">${story.kategorie || ''}</span></div>
-    <h2 class="a-headline">${titel}</h2>
-    <div class="stauner-box">
-      <div class="stauner-label">${t.staunerLabel}</div>
-      <p class="stauner-text">${stauner}</p>
-    </div>
-    <div class="a-body">${paras}</div>
-    ${bonusHtml}
-    <div class="divider"><span class="divider-mark">✦ ✦ ✦</span></div>
-    <div class="colophon">
-      <span class="colophon-source"><strong>${t.quelleLabel}:</strong> ${sourceHtml}</span>
-      <p class="colophon-disclaimer">🤖 ${t.disclaimer} <a href="#" onclick="window.open('https://www.google.com/search?q='+encodeURIComponent(window._quelleSearch),'_blank');return false;">${t.scholarLink}</a></p>
-    </div>
-  `;
-}
-
-async function loadStory() {
-  show('loading');
-  try {
-    const story = await getTodayStory();
-    currentStoryDE = story;
-    render(story);
-    show('article');
-  } catch (e) {
-    console.error(e);
-    show('error');
-  }
-}
-
-function show(id) {
-  ['loading','error','article'].forEach(k =>
-    document.getElementById(`js-${k}`).style.display = k === id ? 'block' : 'none'
-  );
-}
-
-/* ═══════════════════════════════════════════════
-   INIT
-═══════════════════════════════════════════════ */
-document.getElementById('js-year').textContent = new Date().getFullYear();
-
-// Apply saved theme
-applyTheme(currentTheme);
-
-// Apply saved lang
-applyLang(currentLang);
-
-loadStory();
+  document.getElementById('js-date').textContent = now.toLocaleDateString('de-DE', {weekday:'long', day:'numeric', month:'long', year:'numeric'});
+  document.getElementById('js-year').textContent = now.getFullYear();
 </script>
 </body>
 </html>
