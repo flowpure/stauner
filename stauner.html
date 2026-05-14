@@ -48,7 +48,7 @@
   body{background:var(--paper);color:var(--ink);font-family:var(--body);min-height:100vh}
 
   .masthead{background:#0f1a12;position:relative;overflow:hidden}
-  .masthead-texture{position:absolute;right:-1%;top:50%;transform:translateY(-50%);width:clamp(120px,38vw,300px);height:clamp(120px,38vw,300px);opacity:.07;pointer-events:none}
+  .masthead-texture{position:absolute;right:-1%;top:50%;transform:translateY(-50%);width:clamp(120px,38vw,300px);height:clamp(120px,38vw,300px);opacity:.07;pointer-events:none;mix-blend-mode:screen}
   @media(max-width:540px){.masthead-texture{opacity:.05}}
   .masthead-inner{max-width:var(--max-w);margin:0 auto;padding:var(--space-m) var(--pad-x) var(--space-s);position:relative;z-index:1}
   .m-top{display:flex;justify-content:space-between;align-items:center;gap:var(--space-s);margin-bottom:var(--space-s);padding-bottom:var(--space-xs);border-bottom:1px solid rgba(255,255,255,0.1);flex-wrap:wrap}
@@ -157,27 +157,7 @@
 <span id="js-api-key" data-key="DEIN_KEY_HIER" style="display:none"></span>
 
 <header class="masthead">
-  <!-- Blatt SVG -->
-  <svg class="masthead-texture" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="white" stroke-width="1.4" stroke-linecap="round">
-    <!-- Blattumriss -->
-    <path d="M150,270 C80,240 30,180 40,110 C50,50 110,20 150,30 C190,20 250,50 260,110 C270,180 220,240 150,270 Z" stroke-width="1.8"/>
-    <!-- Mittelrippe -->
-    <line x1="150" y1="268" x2="150" y2="35" stroke-width="1.4"/>
-    <!-- Seitenrippen links -->
-    <line x1="150" y1="220" x2="70" y2="180" stroke-width=".9"/>
-    <line x1="150" y1="190" x2="60" y2="155" stroke-width=".9"/>
-    <line x1="150" y1="160" x2="58" y2="130" stroke-width=".9"/>
-    <line x1="150" y1="130" x2="65" y2="105" stroke-width=".9"/>
-    <line x1="150" y1="100" x2="80" y2="80" stroke-width=".8"/>
-    <line x1="150" y1="75" x2="105" y2="58" stroke-width=".7"/>
-    <!-- Seitenrippen rechts -->
-    <line x1="150" y1="220" x2="230" y2="180" stroke-width=".9"/>
-    <line x1="150" y1="190" x2="240" y2="155" stroke-width=".9"/>
-    <line x1="150" y1="160" x2="242" y2="130" stroke-width=".9"/>
-    <line x1="150" y1="130" x2="235" y2="105" stroke-width=".9"/>
-    <line x1="150" y1="100" x2="220" y2="80" stroke-width=".8"/>
-    <line x1="150" y1="75" x2="195" y2="58" stroke-width=".7"/>
-  </svg>
+  <img class="masthead-texture" src="texture-blatt.svg" alt="">
   <div class="masthead-inner">
     <div class="m-top">
       <a href="index.html" class="m-tag" id="js-m-tag" style="text-decoration:none;cursor:pointer;">✦ Hirnholz</a>

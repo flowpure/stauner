@@ -48,7 +48,7 @@
   body{background:var(--paper);color:var(--ink);font-family:var(--body);min-height:100vh}
 
   .masthead{background:#161614;position:relative;overflow:hidden}
-  .masthead-texture{position:absolute;right:-1%;top:50%;transform:translateY(-50%);width:clamp(120px,38vw,300px);height:clamp(120px,38vw,300px);opacity:.07;pointer-events:none}
+  .masthead-texture{position:absolute;right:-1%;top:50%;transform:translateY(-50%);width:clamp(120px,38vw,300px);height:clamp(120px,38vw,300px);opacity:.07;pointer-events:none;mix-blend-mode:screen}
   @media(max-width:540px){.masthead-texture{opacity:.05}}
   .masthead-inner{max-width:var(--max-w);margin:0 auto;padding:var(--space-m) var(--pad-x) var(--space-s);position:relative;z-index:1}
   .m-top{display:flex;justify-content:space-between;align-items:center;gap:var(--space-s);margin-bottom:var(--space-s);padding-bottom:var(--space-xs);border-bottom:1px solid rgba(255,255,255,0.1);flex-wrap:wrap}
@@ -136,20 +136,7 @@
 <body>
 
 <header class="masthead">
-  <!-- Steinplatten SVG -->
-  <svg class="masthead-texture" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="white" stroke-width="1.2" stroke-linejoin="round">
-    <polygon points="20,10 110,5 130,70 40,80"/>
-    <polygon points="115,3 210,8 220,65 135,68"/>
-    <polygon points="215,6 295,15 290,75 225,63"/>
-    <polygon points="35,84 128,74 140,148 50,158"/>
-    <polygon points="132,70 218,67 230,140 144,150"/>
-    <polygon points="222,65 292,78 285,150 234,138"/>
-    <polygon points="42,162 138,152 148,225 55,235"/>
-    <polygon points="140,152 228,143 238,218 150,227"/>
-    <polygon points="230,142 288,155 280,230 240,220"/>
-    <polygon points="48,238 145,228 152,295 58,292"/>
-    <polygon points="147,229 235,220 240,290 153,295"/>
-  </svg>
+  <img class="masthead-texture" src="texture-stein.svg" alt="">
   <div class="masthead-inner">
     <div class="m-top">
       <a href="index.html" class="m-tag">✦ Hirnholz</a>
