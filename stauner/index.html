@@ -1,1 +1,746 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Der tägliche Stauner — Hirnholz</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper:#faf7f0;--paper-2:#f0ece0;--paper-3:#e8e2d0;
+    --ink:#1a1a14;--ink-2:#2e2e24;--ink-3:#4a4a3a;
+    --muted:#787060;--rule:#ccc8b8;
+    --green:#2e8b57;--green-2:#256f47;--green-3:#52b788;--green-pale:#d4edda;
+    --serif:'Playfair Display',Georgia,serif;
+    --body:'Source Serif 4',Georgia,serif;
+    --sans:'DM Sans',system-ui,sans-serif;
+  }
+  @media(prefers-color-scheme:dark){
+    :root{
+      --paper:#1c1c14;--paper-2:#242418;--paper-3:#2c2c20;
+      --ink:#f5f0e4;--ink-2:#ddd8c8;--ink-3:#b8b4a0;
+      --muted:#888070;--rule:#3a3a2c;
+      --green:#2e8b57;--green-2:#256f47;--green-3:#52b788;--green-pale:#1a3d2b;
+    }
+  /* Theme overrides — must come AFTER @media to take precedence */
+  [data-theme="dark"]{
+    --paper:#1c1c14;--paper-2:#242418;--paper-3:#2c2c20;
+    --ink:#f5f0e4;--ink-2:#ddd8c8;--ink-3:#b8b4a0;
+    --muted:#888070;--rule:#3a3a2c;
+    --green:#2e8b57;--green-2:#256f47;--green-3:#52b788;--green-pale:#1a3d2b;
+  }
+  [data-theme="light"]{
+    --paper:#faf7f0;--paper-2:#f0ece0;--paper-3:#e8e2d0;
+    --ink:#1a1a14;--ink-2:#2e2e24;--ink-3:#4a4a3a;
+    --muted:#787060;--rule:#ccc8b8;
+    --green:#2e8b57;--green-2:#256f47;--green-3:#52b788;--green-pale:#d4edda;
+  }
 
+  }
+  /* ── Fluid spacing scale — alles skaliert stufenlos ── */
+  :root {
+    --space-xs: clamp(.5rem, 1.5vw, .75rem);
+    --space-s:  clamp(.75rem, 2vw, 1.25rem);
+    --space-m:  clamp(1rem, 3vw, 2rem);
+    --space-l:  clamp(1.5rem, 4vw, 3.5rem);
+    --space-xl: clamp(2rem, 6vw, 7rem);
+    --pad-x:    clamp(1rem, 5vw, 2rem);
+    --max-w:    960px;
+    --max-text: 720px;
+  }
+
+  *{margin:0;padding:0;box-sizing:border-box}
+
+  html{font-size:clamp(15px, 1.4vw, 18px)}
+
+  body{background:var(--paper);color:var(--ink);font-family:var(--body);min-height:100vh}
+
+  /* ── Masthead ── */
+  .masthead{background:#1a1a14}
+  .masthead-inner{max-width:var(--max-w);margin:0 auto;padding:var(--space-m) var(--pad-x) var(--space-s)}
+  .m-top{display:flex;justify-content:space-between;align-items:center;gap:var(--space-s);margin-bottom:var(--space-s);padding-bottom:var(--space-xs);border-bottom:1px solid rgba(255,255,255,0.12);flex-wrap:wrap}
+  .m-tag{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.7rem);font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#52b788}
+  .m-date-top{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.7rem);letter-spacing:.1em;color:rgba(255,255,255,0.85)}
+  .m-title-row{display:flex;align-items:baseline;gap:var(--space-s);flex-wrap:wrap}
+  .m-title{font-family:var(--serif);font-size:clamp(2rem,7vw,5.8rem);font-weight:900;line-height:.9;letter-spacing:-.02em;color:#f5f0e4;flex-shrink:0}
+  .m-title-accent{color:#2e8b57;font-style:italic}
+  .m-tagline{font-family:var(--body);font-style:italic;font-size:clamp(.8rem,1.2vw,1rem);color:rgba(255,255,255,0.8);line-height:1.4;max-width:280px;align-self:flex-end;padding-bottom:.2rem}
+
+  /* ── Green band ── */
+  .green-band{background:#2e8b57;padding:clamp(.35rem,.8vw,.6rem) 0}
+  .green-band-inner{max-width:var(--max-w);margin:0 auto;padding:0 var(--pad-x);display:flex;justify-content:space-between;align-items:center;gap:var(--space-s);flex-wrap:wrap}
+  .band-motto{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,0.85)}
+  .band-date{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);color:rgba(255,255,255,0.6);letter-spacing:.08em}
+  /* ── Sammlung Menü ── */
+  /* ── Hamburger & Sidebar ── */
+  .nav-hamburger{
+    background:none;border:none;cursor:pointer;
+    color:#f5f0e4;font-size:1.3rem;line-height:1;
+    padding:.25rem .4rem;display:flex;align-items:center;
+    transition:opacity .2s;
+  }
+  .nav-hamburger:hover{opacity:.7}
+
+  .nav-overlay{
+    display:none;position:fixed;inset:0;
+    background:rgba(0,0,0,0.5);z-index:299;
+    backdrop-filter:blur(2px);
+  }
+  .nav-overlay.open{display:block}
+
+  .nav-sidebar{
+    position:fixed;top:0;right:-320px;width:min(300px,85vw);height:100vh;
+    background:#1a1a14;z-index:300;
+    transition:right .28s cubic-bezier(.4,0,.2,1);
+    display:flex;flex-direction:column;
+    box-shadow:-4px 0 24px rgba(0,0,0,0.4);
+    overflow:hidden;
+  }
+  .nav-sidebar.open{right:0}
+
+  .nav-sidebar-head{
+    display:flex;justify-content:space-between;align-items:center;
+    padding:1.25rem 1.25rem 1rem;
+    border-bottom:1px solid rgba(255,255,255,0.1);
+    flex-shrink:0;
+  }
+  .nav-sidebar-title{
+    font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);
+    font-weight:600;letter-spacing:.2em;text-transform:uppercase;
+    color:#52b788;
+  }
+  .nav-close{
+    background:none;border:none;color:rgba(255,255,255,0.5);
+    font-size:1.2rem;cursor:pointer;line-height:1;padding:.2rem;
+    transition:color .15s;
+  }
+  .nav-close:hover{color:#fff}
+
+  .nav-sidebar-body{
+    flex:1;overflow-y:auto;padding:.5rem 0 1rem;
+  }
+  .nav-sidebar-body::-webkit-scrollbar{width:4px}
+  .nav-sidebar-body::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.15);border-radius:2px}
+
+  .nav-sidebar-body a{
+    display:block;font-family:var(--sans);
+    font-size:clamp(.7rem,1.1vw,.8rem);
+    color:#f5f0e4;text-decoration:none;
+    padding:.6rem 1.25rem;transition:background .15s;
+    letter-spacing:.04em;
+  }
+  .nav-sidebar-body a:hover{background:rgba(255,255,255,0.07);color:#fff}
+  .nav-sidebar-divider{height:1px;background:rgba(255,255,255,0.08);margin:.4rem 0}
+  .nav-sidebar-all{color:#52b788 !important;font-weight:600;border-top:1px solid rgba(255,255,255,0.08);margin-top:.25rem}
+  .nav-sidebar-section{
+    font-family:var(--sans);font-size:clamp(.48rem,.68vw,.55rem);
+    letter-spacing:.22em;text-transform:uppercase;
+    color:rgba(255,255,255,0.3);padding:.75rem 1.25rem .25rem;
+  }
+
+  /* ── Theme & Lang Switches ── */
+  .switches{display:flex;align-items:center;gap:.5rem}
+  .switch-btn{
+    font-size:.8rem;
+    background:#fff;
+    border:1px solid rgba(255,255,255,0.6);
+    color:#1a1a14;
+    width:2rem;height:2rem;
+    border-radius:50%;
+    cursor:pointer;
+    display:flex;align-items:center;justify-content:center;
+    transition:all .2s;
+    flex-shrink:0;
+    line-height:1;
+  }
+  .switch-btn:hover{background:#f0ece0;transform:scale(1.05)}
+  .lang-switch-btn{
+    font-family:var(--sans);
+    font-size:clamp(.65rem,.9vw,.75rem);
+    font-weight:700;
+    letter-spacing:.12em;
+    background:transparent;
+    border:none;
+    color:#f5f0e4;
+    padding:.2rem .1rem;
+    cursor:pointer;
+    transition:opacity .2s;
+  }
+  .lang-switch-btn:hover{opacity:.7}
+
+
+  /* ── Main container ── */
+  .main{max-width:var(--max-w);margin:0 auto;padding:var(--space-l) var(--pad-x) var(--space-xl)}
+
+  /* ── Loading ── */
+  .state-loading{text-align:center;padding:var(--space-xl) var(--pad-x)}
+  .loading-leaf{display:block;font-size:clamp(1.8rem,4vw,2.5rem);margin-bottom:var(--space-m);animation:sway 3s ease-in-out infinite}
+  @keyframes sway{0%,100%{transform:rotate(-8deg) scale(.95);opacity:.4}50%{transform:rotate(8deg) scale(1.05);opacity:1}}
+  .loading-text{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+
+  /* ── Error ── */
+  .state-error{text-align:center;padding:var(--space-l) var(--pad-x);border:1px solid var(--rule);max-width:500px;margin:0 auto;background:var(--paper-2)}
+  .state-error h2{font-family:var(--serif);font-size:clamp(1.2rem,2.5vw,1.5rem);font-weight:700;margin-bottom:var(--space-xs)}
+  .state-error p{color:var(--muted);font-size:clamp(.8rem,1.2vw,.9rem);line-height:1.75;margin-bottom:var(--space-m)}
+  .btn{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);font-weight:600;letter-spacing:.18em;text-transform:uppercase;background:#2e8b57;color:#fff;border:none;padding:.8em 2em;cursor:pointer;transition:background .2s;border-radius:2px}
+  .btn:hover{background:#256f47}
+
+  /* ── Article ── */
+  .article{animation:rise .6s cubic-bezier(.22,.68,0,1.15) both}
+  @keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+
+  .a-kicker{display:inline-flex;align-items:center;gap:.6rem;margin-bottom:var(--space-s)}
+  .kicker-dot{width:clamp(6px,1vw,8px);height:clamp(6px,1vw,8px);border-radius:50%;background:#2e8b57;flex-shrink:0}
+  .kicker-text{font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#2e8b57}
+
+  .a-headline{
+    font-family:var(--serif);
+    font-size:clamp(1.5rem,4.5vw,3.4rem);
+    font-weight:900;
+    line-height:1.08;
+    letter-spacing:-.02em;
+    color:var(--ink);
+    margin-bottom:var(--space-m);
+    max-width:var(--max-text);
+  }
+
+  /* ── Stauner box ── */
+  .stauner-box{
+    max-width:var(--max-text);
+    margin-bottom:var(--space-l);
+    background:var(--green-pale);
+    border-left:clamp(3px,0.5vw,5px) solid #2e8b57;
+    padding:clamp(1rem,3vw,2rem) clamp(1rem,3vw,2.25rem);
+  }
+  .stauner-label{font-family:var(--sans);font-size:clamp(.5rem,.75vw,.6rem);font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:#2e8b57;margin-bottom:.7rem;display:flex;align-items:center;gap:.5rem}
+  .stauner-label::before{content:'✦';font-size:.5rem}
+  .stauner-text{
+    font-family:var(--serif);
+    font-size:clamp(1rem,2.2vw,1.25rem);
+    font-style:italic;
+    line-height:1.65;
+    color:var(--ink-2);
+  }
+
+  /* ── Body text ── */
+  .a-body{
+    font-size:clamp(.95rem,1.8vw,1.08rem);
+    line-height:clamp(1.7,2.5vw,1.95);
+    max-width:var(--max-text);
+    color:var(--ink-3);
+  }
+  .a-body p{margin-bottom:clamp(.9em,2vw,1.4em)}
+  .a-body p:last-child{margin-bottom:0}
+  .a-body p:first-child::first-letter{
+    font-family:var(--serif);
+    font-size:clamp(2.4rem,6vw,3.8rem);
+    font-weight:900;
+    line-height:.8;
+    float:left;
+    margin-right:.1em;
+    margin-top:.05em;
+    color:#2e8b57;
+  }
+
+  /* ── Schon gewusst ── */
+  .schon-gewusst{
+    max-width:var(--max-text);
+    margin-top:var(--space-l);
+    padding:clamp(.85rem,2vw,1.25rem) clamp(1rem,2.5vw,1.75rem);
+    border-left:3px solid var(--rule);
+    background:var(--paper-2);
+    display:flex;
+    gap:.85rem;
+    align-items:flex-start;
+  }
+  .schon-gewusst-label{
+    font-family:var(--sans);
+    font-size:clamp(.5rem,.75vw,.6rem);
+    font-weight:600;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    color:var(--muted);
+    white-space:nowrap;
+    padding-top:.2rem;
+    flex-shrink:0;
+  }
+  .schon-gewusst-text{
+    font-family:var(--sans);
+    font-size:clamp(.82rem,1.4vw,.9rem);
+    line-height:1.65;
+    color:var(--ink-3);
+  }
+
+  /* ── Divider ── */
+  .divider{max-width:var(--max-text);display:flex;align-items:center;gap:1rem;margin:var(--space-l) 0}
+  .divider::before,.divider::after{content:'';flex:1;height:1px;background:var(--rule)}
+  .divider-mark{font-family:var(--serif);font-size:.8rem;letter-spacing:.5em;color:var(--rule)}
+
+  /* ── Colophon ── */
+  .colophon{
+    max-width:var(--max-text);
+    padding-top:var(--space-s);
+    border-top:2px solid var(--green-pale);
+  }
+  .colophon-source{font-family:var(--sans);font-size:clamp(.58rem,.85vw,.65rem);color:var(--muted);letter-spacing:.05em;line-height:1.6}
+  .colophon-source strong{color:var(--ink-3);font-weight:600}
+  .colophon-disclaimer{font-family:var(--sans);font-size:clamp(.52rem,.75vw,.6rem);color:var(--muted);letter-spacing:.05em;line-height:1.6;margin-top:.5rem;opacity:.7}
+  .colophon-disclaimer a{color:#2e8b57;text-decoration:none}
+  .colophon-disclaimer a:hover{text-decoration:underline}
+
+  /* ── Footer ── */
+  .site-footer{background:var(--paper-3);border-top:1px solid var(--rule)}
+  .footer-inner{max-width:var(--max-w);margin:0 auto;padding:var(--space-s) var(--pad-x);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:var(--space-s)}
+  .footer-brand{font-family:var(--serif);font-size:clamp(.85rem,1.5vw,1rem);font-weight:700;color:var(--ink-3);letter-spacing:-.01em}
+  .footer-brand span{color:#2e8b57;font-style:italic}
+  .footer-copy{font-family:var(--sans);font-size:clamp(.52rem,.75vw,.6rem);letter-spacing:.1em;color:var(--muted)}
+
+  /* ── Narrow screens only: stack footer, hide tagline/date ── */
+  @media(max-width:540px){
+    .m-tagline{display:none}
+    .m-date-top{display:none}
+    .band-date{display:none}
+    .footer-inner{flex-direction:column;text-align:center}
+  }
+</style>
+</head>
+<body>
+
+<!-- API Key für Übersetzung: ersetze DEIN_KEY_HIER mit deinem Anthropic API Key -->
+<span id="js-api-key" data-key="DEIN_KEY_HIER" style="display:none"></span>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <div class="m-top">
+      <a href="../" class="m-tag" id="js-m-tag" style="text-decoration:none;cursor:pointer;">✦ Hirnholz — tägliche Edition</a>
+      <div style="display:flex;align-items:center;gap:.6rem">
+        <span class="m-date-top" id="js-date-top"></span>
+        <button class="switch-btn" id="js-theme-btn" onclick="toggleTheme()" title="Dark/Light Mode">☾</button>
+        <button class="lang-switch-btn" id="js-lang-btn" onclick="toggleLang()"><span id="js-lang-label">DE</span></button>
+        <button class="nav-hamburger" onclick="toggleNav()" aria-label="Sammlung öffnen" id="js-nav-btn">☰</button>
+      </div>
+    </div>
+    <div class="m-title-row">
+      <h1 class="m-title"><span id="js-title-plain">Der tägliche </span><span class="m-title-accent" id="js-title-accent">Stauner</span></h1>
+      <p class="m-tagline" id="js-tagline">Was wir über die Welt zu wissen glauben — und was wirklich stimmt.</p>
+    </div>
+  </div>
+</header>
+
+<div class="green-band">
+  <div class="green-band-inner">
+    <span class="band-motto" id="js-band-motto">Jeden Morgen um 5:00 Uhr eine Erkenntnis — bereichernd, begeisternd und wissenschaftlich belegt.</span>
+    <div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap">
+      <span class="band-date" id="js-date-band"></span>
+  <!-- Sidebar overlay -->
+  <div class="nav-overlay" id="js-nav-overlay" onclick="closeNav()"></div>
+  <nav class="nav-sidebar" id="js-nav-sidebar">
+    <div class="nav-sidebar-head">
+      <span class="nav-sidebar-title" id="js-nav-header">✦ Die Sammlung</span>
+      <button class="nav-close" onclick="closeNav()">✕</button>
+    </div>
+    <div class="nav-sidebar-body">
+      <div class="nav-sidebar-section" id="js-nav-section">Nach Kategorie</div>
+      <div id="js-nav-categories"><a href="../sammlung.html">Laden…</a></div>
+      <div class="nav-sidebar-divider"></div>
+      <a href="../sammlung.html" class="nav-sidebar-all" id="js-nav-all">✦ Gesamte Sammlung →</a>
+    </div>
+  </nav>
+    </div>
+  </div>
+</div>
+
+<main class="main">
+  <div id="js-loading" class="state-loading">
+    <span class="loading-leaf">🌿</span>
+    <p class="loading-text" id="js-loading-text">Der Stauner des Tages wird vorbereitet …</p>
+  </div>
+  <div id="js-error" class="state-error" style="display:none">
+    <h2 id="js-error-title">Heute keine Verbindung</h2>
+    <p id="js-error-text">Der Stauner konnte nicht geladen werden. Bitte versuche es gleich noch einmal.</p>
+    <button class="btn" id="js-error-btn" onclick="loadStory()">Erneut versuchen</button>
+  </div>
+  <div id="js-article" style="display:none"></div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span class="footer-brand">Hirn<span>holz</span></span>
+    <span class="footer-copy"><span id="js-footer-motto">Jeden Morgen um 5 Uhr</span> — <span id="js-year"></span></span>
+  </div>
+</footer>
+
+<script>
+/* ═══════════════════════════════════════════════
+   KONFIGURATION — hier anpassen
+═══════════════════════════════════════════════ */
+const CONFIG = {
+  apiKey: '',
+  themen: [
+    'Ökologie und natürliche Systeme',
+    'Nachhaltige Wirtschaft und gesellschaftlicher Fortschritt',
+    'Menschliches Verhalten und Zusammenleben',
+    'Wissenschaftliche Entdeckungen der letzten Jahrzehnte',
+    'Globale Entwicklung und was sich wirklich verbessert hat',
+    'Forstwirtschaft, Boden und natürliche Kreisläufe',
+    'Innovationen die der Welt nützen',
+    'Faszinierende Tierarten und Ökosysteme',
+    'Wirtschaft und was Märkte wirklich bewirken',
+    'Astronomie und unser Platz im Universum',
+    'Bildung und wie Menschen wirklich lernen',
+    'Ernährung, Landwirtschaft und die Zukunft des Essens'
+  ]
+};
+
+/* ═══════════════════════════════════════════════
+   47 KURATIERTE STAUNER-GESCHICHTEN
+═══════════════════════════════════════════════ */
+const STORIES = [
+  {
+    kategorie:"Ökologie",
+    titel:"Der Wald, der sich selbst heilt",
+    stauner:"Wälder gelten als fragile Ökosysteme, die menschlichen Schutz brauchen. Doch die Forschung zeigt: Wenn man sie lässt, heilen sie sich mit erstaunlicher Kraft selbst — schneller als wir je gedacht haben.",
+    absaetze:["Jahrzehntelang gingen Ökologen davon aus, dass ein zerstörter Wald Jahrhunderte braucht, um sich zu erholen. Diese Annahme prägte Naturschutzpolitik weltweit — und führte dazu, dass manche Gebiete als 'verloren' aufgegeben wurden.","Eine große Metastudie der ETH Zürich, die 2019 in der Fachzeitschrift Nature veröffentlicht wurde, analysierte 77 Regenwaldgebiete in Mittel- und Südamerika. Das Ergebnis war verblüffend: Aufgegebene Landwirtschaftsflächen entwickelten innerhalb von nur 20 Jahren wieder über 80 Prozent ihrer ursprünglichen Artenvielfalt. Die Natur braucht keine menschliche Hilfe — sie braucht nur Ruhe.","Was das bedeutet: Ein erheblicher Teil der weltweiten Waldverluste ist nicht permanent. Wenn Druck nachlässt, kehrt das Leben zurück. Das gibt der Naturschutzforschung völlig neue Perspektiven — und uns Grund zum Staunen über die Resilienz des Lebendigen."],
+    quelle:"Poorter et al. (2016): 'Biomass resilience of Neotropical secondary forests', Nature 530. ETH Zürich, Institut für Terrestrische Ökosysteme.",
+    schon_gewusst:"Brasilien beherbergt mit dem Amazonas rund 10 Prozent aller Tier- und Pflanzenarten der Erde — auf nur 1 Prozent der globalen Landfläche."
+  },
+  {
+    kategorie:"Natur",
+    titel:"Wie Wölfe Flüsse verändern",
+    stauner:"Als 1995 Wölfe in den Yellowstone-Nationalpark zurückkehrten, veränderte sich nicht nur die Tierwelt — auch die Flüsse begannen sich zu bewegen. Ein Phänomen, das Biologen 'trophische Kaskade' nennen.",
+    absaetze:["Seit der Ausrottung der Wölfe in Yellowstone Anfang des 20. Jahrhunderts hatten Elche die Vegetation unkontrolliert abgeweidet. Flussufer waren kahl, Erosion weit verbreitet, viele Tierarten verschwunden. Die Abwesenheit eines einzigen Raubtieres hatte das gesamte Ökosystem aus dem Gleichgewicht gebracht.","Nach der Wiederansiedlung der Wölfe 1995 beobachteten Biologen der Oregon State University etwas Unerwartetes: Elche mieden plötzlich Talauen und Flussufer — nicht weil weniger Elche da waren, sondern weil sie sich dort nicht mehr sicher fühlten. Die Vegetation erholte sich. Biber kehrten zurück, bauten Dämme, stauten Wasser. Die Flüsse begannen langsamer zu fließen, die Ufer zu stabilisieren. Sogar der Lauf mancher Bäche veränderte sich physisch.","Dieser Mechanismus — wie ein Raubtier durch bloße Präsenz ein gesamtes Ökosystem neu ordnet — hat die Ökologie revolutioniert. Er zeigt: Natur ist kein statisches System, das man verwalten kann. Sie ist ein dynamisches Netzwerk, in dem jeder Teil jeden anderen berührt."],
+    quelle:"Ripple & Beschta (2012): 'Trophic cascades in Yellowstone', Biological Conservation. Terborgh & Estes (Hrsg.): 'Trophic Cascades', Island Press.",
+    schon_gewusst:"In Yellowstone leben heute über 100 Wolfsrudel — 1995 waren es gerade einmal 31 wiederangesiedelte Tiere aus Kanada."
+  },
+  {
+    kategorie:"Bildung",
+    titel:"Finnlands stille Revolution im Klassenzimmer",
+    stauner:"Finnland gehört seit Jahren zu den Ländern mit den besten Bildungsergebnissen weltweit — ohne Hausaufgaben, ohne Noten in den ersten Jahren, mit den kürzesten Schulstunden Europas. Das Gegenteil von dem, was wir für selbstverständlich halten.",
+    absaetze:["Die gängige Bildungslogik lautet: Mehr Unterricht, mehr Hausaufgaben, mehr Tests führen zu besseren Ergebnissen. Diese Annahme treibt Bildungspolitik in vielen Ländern an — und fühlt sich intuitiv richtig an.","Finnische Kinder beginnen die Schule mit sieben Jahren — zwei Jahre später als in Deutschland. Sie bekommen in den ersten sechs Schuljahren kaum Hausaufgaben, keine Noten und deutlich mehr Spielzeit als ihre europäischen Peers. Trotzdem schneiden sie bei den PISA-Tests der OECD seit 2000 regelmäßig an der Spitze ab. Die OECD-Bildungsforscherin Pasi Sahlberg dokumentiert: Finlands Erfolg beruht auf hochqualifizierten Lehrern, Vertrauen statt Kontrolle und intrinsischer Motivation statt externer Bewertung.","Was Finnland zeigt, ist kein pädagogischer Zufall — es ist ein Beweis dafür, dass unsere intuitiven Annahmen über Lernen oft falsch sind. Weniger Druck, mehr Vertrauen in Kinder: das ist kein naiver Idealismus, sondern evidenzbasierte Bildungspolitik."],
+    quelle:"Sahlberg, P. (2011): 'Finnish Lessons', Teachers College Press. OECD PISA-Ergebnisse 2022. Finnish National Agency for Education.",
+    schon_gewusst:"Finnische Lehrer gehören zu den am höchsten angesehenen Berufsgruppen des Landes — vergleichbar mit Ärzten und Juristen."
+  },
+  {
+    kategorie:"Forstwirtschaft",
+    titel:"Das geheime Netzwerk unter dem Waldboden",
+    stauner:"Bäume kommunizieren. Sie teilen Nährstoffe, warnen einander vor Schädlingen und unterstützen ihre Nachkommen — über ein unterirdisches Pilznetzwerk, das Wissenschaftler erst in den letzten Jahrzehnten entdeckt haben.",
+    absaetze:["Der Wald galt lange als Ort des Wettbewerbs: Bäume konkurrieren um Licht, Wasser und Nährstoffe. Das Bild war das eines stummen, individualistischen Kampfes ums Überleben — ein Spiegel unserer eigenen Wirtschaftslogik.","Die Forstökologin Suzanne Simard von der University of British Columbia entdeckte in den 1990er Jahren, was sie das 'Wood Wide Web' nannte: ein weitverzweigtes Netzwerk aus Mykorrhiza-Pilzen, das die Wurzeln von Bäumen verbindet. Über dieses Netzwerk transportieren Bäume Kohlenstoff, Phosphor und Wasser — auch an Nachbarbäume anderer Arten. Alte 'Mutterbäume' erkennen dabei die Wurzeln ihrer eigenen Sämlinge und leiten bevorzugt Nährstoffe an sie weiter, wie Simard in mehreren kontrollierten Experimenten nachweisen konnte.","Was das bedeutet: Ein Wald ist kein Aggregat einzelner Bäume — er ist ein Organismus. Diese Erkenntnis verändert die Forstwirtschaft grundlegend: Kahlschlag zerstört nicht nur Bäume, sondern das gesamte Netzwerk, auf das neue Bäume angewiesen sind."],
+    quelle:"Simard et al. (1997): 'Net transfer of carbon between ectomycorrhizal tree species in the field', Nature 388. Simard, S. (2021): 'Finding the Mother Tree', Knopf."
+  },
+  {
+    kategorie:"Astronomie",
+    titel:"Wir sind aus Sternenstaub gemacht — wörtlich",
+    stauner:"Die Atome in unserem Körper wurden vor Milliarden Jahren in sterbenden Sternen geschmiedet. Was wie eine poetische Metapher klingt, ist präzise Astrophysik.",
+    absaetze:["Wenn wir sagen 'wir sind Teil des Universums', klingt das nach Philosophie. Aber die Nukleosynthese — die Entstehung von Atomen in Sternen — ist einer der am besten verstandenen Prozesse der modernen Physik und Astronomie.","Wasserstoff und Helium entstanden beim Urknall vor 13,8 Milliarden Jahren. Alle schwereren Elemente — Kohlenstoff, Sauerstoff, Eisen, Kalzium — wurden in Sternkernen durch Kernfusion erzeugt und beim Tod massiver Sterne als Supernovae ins All geschleudert. Der Kalzium in unseren Knochen, das Eisen in unserem Blut, der Kohlenstoff in unserer DNA: alles Überreste toter Sterne. Forscher des Institute for Astronomy der University of Hawaii haben berechnet, dass etwa 97 Prozent der Atome im menschlichen Körper in Sternen entstanden sind.","Diese Erkenntnis verändert die Perspektive auf das Leben grundlegend. Wir sind nicht außerhalb der Natur — wir sind ein Ausdruck des Universums, das sich selbst betrachtet."],
+    quelle:"Arnett, D. (1996): 'Supernovae and Nucleosynthesis', Princeton University Press. Croswell, K. (1996): 'The Alchemy of the Heavens', Anchor Books. NASA Astrophysics Division."
+  },
+  {
+    kategorie:"Umwelt",
+    titel:"Das Ozonloch schließt sich",
+    stauner:"Das Ozonloch über der Antarktis schließt sich. Nach dem internationalen Verbot von FCKW ist die Ozonschicht auf dem Weg zur vollständigen Erholung bis 2066 — das erfolgreichste internationale Umweltabkommen der Geschichte.",
+    absaetze:["Als Wissenschaftler in den 1980er Jahren das Ozonloch über der Antarktis entdeckten, schien ein globales Verbot der verantwortlichen Chemikalien utopisch. Die betroffene Industrie war mächtig, die wirtschaftlichen Interessen enorm, und die internationale Koordination galt als zu schwierig.","1987 unterzeichneten 197 Länder das Montrealer Protokoll — das einzige UN-Abkommen, das von allen Staaten der Welt ratifiziert wurde. Die Produktion von FCKW und anderen ozonzerstörenden Substanzen wurde weltweit verboten. Eine wissenschaftliche Überprüfung der UNEP und WMO aus dem Jahr 2023 bestätigt: Die Ozonschicht erholt sich. Das Ozonloch ist heute signifikant kleiner als auf seinem Höhepunkt 2006.","Das Montrealer Protokoll beweist, dass Staaten — auch konkurrierende — zusammenarbeiten können, wenn die wissenschaftliche Evidenz klar ist und der politische Wille vorhanden ist. Ein Beweis, den wir heute mehr denn je brauchen."],
+    quelle:"UNEP/WMO (2023): 'Scientific Assessment of Ozone Depletion'. NASA Ozone Watch. Andersen & Sarma (2002): 'Protecting the Ozone Layer', Earthscan."
+  },
+  {
+    kategorie:"Wirtschaft",
+    titel:"Warum scheiternde Gründer die klügste Investition sind",
+    stauner:"In vielen Ländern gilt Insolvenz als Makel. In der Startup-Forschung zeigt sich das Gegenteil: Gründer die einmal gescheitert sind, haben beim nächsten Versuch deutlich höhere Erfolgsquoten als erstmalige Gründer.",
+    absaetze:["Die kulturelle Einstellung gegenüber geschäftlichem Scheitern variiert stark. In Deutschland und vielen europäischen Ländern haftet dem Konkurs eine soziale Stigmatisierung an. Die Logik dahinter klingt vernünftig: Wer einmal versagt hat, wird es wieder tun.","Eine umfangreiche Studie des National Bureau of Economic Research (NBER) in den USA analysierte über 30.000 Unternehmensgeschichten. Das Ergebnis: Gründer, die zuvor gescheitert waren, hatten beim zweiten Versuch eine Erfolgsrate, die fast identisch mit der von zufällig erfolgreichen Erstgründern war — aber deutlich höher als die von unerfahrenen Erstgründern. Wer verstanden hatte warum er gescheitert war, schnitt besonders gut ab.","Scheitern ist kein Beweis für Unfähigkeit — es ist oft der effektivste Lehrmeister. Gesellschaften, die das verstehen und Zweit- und Drittchancen ermöglichen, nutzen ein enormes wirtschaftliches Potenzial."],
+    quelle:"Gompers et al. (2010): 'Performance Persistence in Entrepreneurship', Journal of Financial Economics. NBER Working Paper 13900."
+  },
+  {
+    kategorie:"Natur",
+    titel:"Wie Elefanten Trauer empfinden",
+    stauner:"Elefanten zeigen komplexe Trauerreaktionen auf den Tod von Artgenossen — Verhaltensweisen, die Biologen lange nur dem Menschen zuschrieben. Die Forschung hat unser Bild vom tierischen Gefühlsleben grundlegend verändert.",
+    absaetze:["Lange galt emotionales Erleben als exklusiv menschlich. Tieren wurden höchstens einfache Instinkte und Reflexe zugeschrieben. Diese Annahme legitimierte bestimmte Formen der Tierhaltung und war wissenschaftlicher Konsens bis weit ins 20. Jahrhundert.","Joyce Poole und Cynthia Moss vom Amboseli Elephant Research Project in Kenia dokumentierten über Jahrzehnte hinweg Verhaltensweisen, die schwer anders als Trauer zu erklären sind: Elefanten bleiben bei den Knochen verstorbener Artgenossen stehen, berühren sie wiederholt mit dem Rüssel, kehren auch Jahre später an Sterbeorte zurück. Mütter tragen tote Kälber manchmal tagelang.","Die Frage ist nicht mehr ob Tiere fühlen — sondern wie. Diese Verschiebung in der Wissenschaft hat weitreichende ethische Konsequenzen. Sie legt nahe, dass das emotionale Leben des Planeten reicher und komplexer ist als wir uns vorgestellt haben."],
+    quelle:"Moss, C. (1988): 'Elephant Memories', William Morrow. Poole, J. & Moss, C. (2008): 'Elephant sociality and complexity', in: The Question of Animal Culture, Harvard University Press."
+  },
+  {
+    kategorie:"Technologie",
+    titel:"Solarenergie: Der schnellste Preisverfall der Energiegeschichte",
+    stauner:"Der Preis für Solarstrom ist in den letzten 15 Jahren um über 90 Prozent gefallen — schneller als jede andere Energietechnologie in der Geschichte. Was Experten noch 2010 für unmöglich hielten, ist heute Realität.",
+    absaetze:["Im Jahr 2010 prognostizierte die Internationale Energieagentur (IEA), dass Solarstrom bis 2030 nie günstiger als fossile Brennstoffe werden würde. Diese Prognose war damals wissenschaftlicher Konsens. Selbst enthusiastische Befürworter erneuerbarer Energien rechneten nicht mit dem, was folgte.","Laut BloombergNEF ist der Preis für Photovoltaik-Module zwischen 2010 und 2023 um über 89 Prozent gefallen. In vielen Regionen der Welt ist Solarstrom heute die günstigste Stromquelle, die je gebaut wurde — günstiger als Kohle, Gas und Atomkraft. Die Lernkurve der Solarindustrie, bekannt als 'Swanson's Law', beschreibt eine Kostenhalbierung mit jeder Verdopplung der installierten Kapazität.","Dieser Preisverfall bedeutet, dass der Übergang zu erneuerbaren Energien nicht mehr primär eine Frage des Willens ist — sondern der Organisation. Die Technologie ist da, sie ist günstig, und sie wird günstiger."],
+    quelle:"BloombergNEF (2023): 'New Energy Outlook'. IRENA (2023): 'Renewable Power Generation Costs'. Lafond et al. (2018): 'How well do experience curves predict technological progress?', Energy Policy."
+  },
+  {
+    kategorie:"Geschichte",
+    titel:"Wie Norman Borlaug eine Milliarde Menschen rettete",
+    stauner:"Norman Borlaug entwickelte neue Weizensorten, die Erträge verzehnfachten und schätzungsweise eine Milliarde Menschen vor dem Hungertod bewahrten. Er ist einer der einflussreichsten Menschen des 20. Jahrhunderts — und kaum jemand kennt seinen Namen.",
+    absaetze:["In den 1960er Jahren prognostizierten führende Ökonomen und Biologen eine globale Hungerkatastrophe: Die Weltbevölkerung wuchs schneller als die Nahrungsmittelproduktion. Indien und Pakistan galten als hoffnungslos überbevölkert.","Norman Borlaug hatte in den Jahren davor im mexikanischen Hochland neue halbzwergige Weizensorten gezüchtet: krankheitsresistent, ertragreich, anpassungsfähig. Als sie in Indien und Pakistan eingeführt wurden, verdoppelten und verdreifachten sich die Erträge innerhalb weniger Jahre. Pakistan wurde 1968 zum Weizenexporteur. Indien — das 1966 noch 11 Millionen Tonnen Weizen importiert hatte — wurde 1974 selbstversorgend.","Borlaug ist kein Haushaltsname. Aber kaum eine Person des 20. Jahrhunderts hat mehr Menschenleben gerettet. Seine Geschichte ist ein Beleg dafür, dass Wissenschaft — zielgerichtet, geduldig, angewendet — die Welt verändern kann."],
+    quelle:"Hesser, L. (2006): 'The Man Who Fed the World', Durban House. Evenson & Gollin (2003): 'Assessing the Impact of the Green Revolution', Science 300."
+  }
+];
+
+/* ═══════════════════════════════════════════════
+   HILFSFUNKTIONEN
+═══════════════════════════════════════════════ */
+function dayOfYear() {
+  const n = new Date();
+  return Math.floor((n - new Date(n.getFullYear(), 0, 0)) / 864e5);
+}
+
+function cacheKey(suffix) {
+  const d = new Date();
+  return `stauner_${d.getFullYear()}_${d.getMonth()}_${d.getDate()}_${suffix}`;
+}
+
+function getCached(key) {
+  try { return JSON.parse(localStorage.getItem(key)); }
+  catch { return null; }
+}
+
+function setCache(key, data) {
+  try { localStorage.setItem(key, JSON.stringify(data)); }
+  catch {}
+}
+
+/* ═══════════════════════════════════════════════
+   STORY LADEN
+═══════════════════════════════════════════════ */
+let currentStoryDE = null;
+
+async function getTodayStory() {
+  try {
+    const res = await fetch('../story.json?v=' + Date.now());
+    if (res.ok) {
+      const story = await res.json();
+      if (story && story.titel) return story;
+    }
+  } catch (e) {
+    console.warn('story.json nicht verfügbar, nutze eingebettete Geschichte');
+  }
+  const story = STORIES[dayOfYear() % STORIES.length];
+  return story;
+}
+
+/* ═══════════════════════════════════════════════
+   RENDERING
+═══════════════════════════════════════════════ */
+function render(story) {
+  renderInLang(story, currentLang);
+}
+
+/* ── Navigation Menü ── */
+function toggleNav() {
+  document.getElementById('js-nav-sidebar').classList.toggle('open');
+  document.getElementById('js-nav-overlay').classList.toggle('open');
+  document.body.style.overflow = document.getElementById('js-nav-sidebar').classList.contains('open') ? 'hidden' : '';
+}
+
+function closeNav() {
+  document.getElementById('js-nav-sidebar').classList.remove('open');
+  document.getElementById('js-nav-overlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeNav(); });
+
+async function loadNavCategories() {
+  try {
+    const res = await fetch('../sammlung.json?v=' + new Date().toISOString().slice(0,10));
+    if (!res.ok) return;
+    const stories = await res.json();
+    if (!stories?.length) return;
+
+    const cats = [...new Set(stories.map(s => s.kategorie).filter(Boolean))].sort();
+    const container = document.getElementById('js-nav-categories');
+    container.innerHTML = cats.map(cat => {
+      const count = stories.filter(s => s.kategorie === cat).length;
+      return `<a href="../sammlung.html#${encodeURIComponent(cat)}" onclick="closeNav()">${cat} <span style='opacity:.35;font-size:.8em'>${count}</span></a>`;
+    }).join('');
+  } catch {}
+}
+
+loadNavCategories();
+
+/* ═══════════════════════════════════════════════
+   ÜBERSETZUNGEN
+═══════════════════════════════════════════════ */
+const TRANSLATIONS = {
+  de: {
+    eyebrow: '✦ Hirnholz — tägliche Edition',
+    title: 'Der tägliche',
+    titleAccent: 'Stauner',
+    tagline: 'Was wir über die Welt zu wissen glauben — und was wirklich stimmt.',
+    motto: 'Jeden Morgen um 5:00 Uhr eine Erkenntnis — bereichernd, begeisternd und wissenschaftlich belegt.',
+    staunerLabel: 'Das Staunen des Tages',
+    schonLabel: 'Schon gewusst?',
+    quelleLabel: 'Quelle',
+    sammlung: 'Die Sammlung',
+    beitraege: 'Beiträge',
+    sammlungHeader: 'Nach Kategorie',
+    sammlungAll: '✦ Gesamte Sammlung →',
+    footerMotto: 'Jeden Morgen um 5 Uhr',
+    loadingText: 'Der Stauner des Tages wird vorbereitet …',
+    errorTitle: 'Heute keine Verbindung',
+    errorText: 'Der Stauner konnte nicht geladen werden. Bitte versuche es gleich noch einmal.',
+    errorBtn: 'Erneut versuchen',
+    disclaimer: 'KI-generierte Inhalte — Fakten können Fehler enthalten. Bitte eigenständig prüfen:',
+    scholarLink: 'Google Scholar',
+    sammlung_url: '../sammlung.html'
+  },
+  en: {
+    eyebrow: '✦ BrainGrain — daily edition',
+    title: 'The daily',
+    titleAccent: 'Wonder',
+    tagline: 'What we think we know about the world — and what is really true.',
+    motto: 'Every morning at 5:00 AM — enriching, inspiring and scientifically grounded.',
+    staunerLabel: 'The Wonder of the Day',
+    schonLabel: 'Did you know?',
+    quelleLabel: 'Source',
+    sammlung: 'The Collection',
+    beitraege: 'Stories',
+    sammlungHeader: 'By Category',
+    sammlungAll: '✦ Full Collection →',
+    footerMotto: 'Every morning at 5 AM',
+    loadingText: "Today's wonder is being prepared …",
+    errorTitle: 'No connection today',
+    errorText: "The wonder could not be loaded. Please try again in a moment.",
+    errorBtn: 'Try again',
+    disclaimer: 'AI-generated content — facts may contain errors. Please verify independently:',
+    scholarLink: 'Google Scholar',
+    sammlung_url: '../sammlung.html'
+  }
+};
+
+let currentTheme = localStorage.getItem('stauner-theme') || 'auto';
+let currentLang = localStorage.getItem('stauner-lang') || 'de';
+
+function applyTheme(theme) {
+  const root = document.documentElement;
+  if (theme === 'auto') {
+    root.removeAttribute('data-theme');
+  } else {
+    root.setAttribute('data-theme', theme);
+  }
+  const btn = document.getElementById('js-theme-btn');
+  if (btn) btn.textContent = theme === 'dark' ? '☀' : '☾';
+}
+
+function toggleTheme() {
+  if (currentTheme === 'auto' || currentTheme === 'light') {
+    currentTheme = 'dark';
+  } else {
+    currentTheme = 'light';
+  }
+  localStorage.setItem('stauner-theme', currentTheme);
+  applyTheme(currentTheme);
+}
+
+function applyLang(lang) {
+  const t = TRANSLATIONS[lang];
+  const setT = (id, text) => { const el = document.getElementById(id); if (el) el.textContent = text; };
+
+  setT('js-lang-label', lang.toUpperCase());
+  setT('js-m-tag', t.eyebrow);
+  setT('js-title-plain', t.title + ' ');
+  setT('js-title-accent', t.titleAccent);
+  setT('js-tagline', t.tagline);
+  setT('js-band-motto', t.motto);
+  setT('js-nav-header', t.sammlungHeader);
+  setT('js-nav-all', t.sammlungAll);
+  setT('js-footer-motto', t.footerMotto);
+  setT('js-loading-text', t.loadingText);
+  setT('js-error-title', t.errorTitle);
+  setT('js-error-text', t.errorText);
+  setT('js-error-btn', t.errorBtn);
+
+  document.documentElement.lang = lang;
+  document.title = lang === 'de' ? 'Der tägliche Stauner — Hirnholz' : 'The Daily Wonder — Hirnholz';
+
+  const now = new Date();
+  const locale = lang === 'de' ? 'de-DE' : 'en-GB';
+  const topEl = document.getElementById('js-date-top');
+  const bandEl = document.getElementById('js-date-band');
+  if (topEl) topEl.textContent = now.toLocaleDateString(locale, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+  if (bandEl) bandEl.textContent = now.toLocaleDateString(locale, { day: 'numeric', month: 'long', year: 'numeric' });
+
+  if (currentStoryDE) renderInLang(currentStoryDE, lang);
+}
+
+function toggleLang() {
+  currentLang = currentLang === 'de' ? 'en' : 'de';
+  localStorage.setItem('stauner-lang', currentLang);
+  applyLang(currentLang);
+}
+
+function renderInLang(story, lang) {
+  const t = TRANSLATIONS[lang];
+  const hasEN = !!(story.titel_en || story.stauner_en);
+  const titel = lang === 'en' ? (story.titel_en || story.titel || '') : (story.titel_de || story.titel || '');
+  const stauner = lang === 'en' ? (story.stauner_en || story.stauner || '') : (story.stauner_de || story.stauner || '');
+  const absaetze_raw = lang === 'en' ? (story.absaetze_en || story.absaetze || []) : (story.absaetze_de || story.absaetze || []);
+  const schon = lang === 'en' ? (story.schon_gewusst_en || story.schon_gewusst || '') : (story.schon_gewusst_de || story.schon_gewusst || '');
+  const langNote = (lang === 'en' && !hasEN) ? '<p style="font-family:var(--sans);font-size:clamp(.55rem,.8vw,.65rem);color:var(--muted);font-style:italic;margin-bottom:1rem;">This story is only available in German.</p>' : '';
+  const paras = absaetze_raw.map(p => `<p>${p}</p>`).join('');
+  const s = {...story, titel, stauner, absaetze: absaetze_raw, schon_gewusst: schon};
+  story = s;
+
+  const bonusHtml = schon
+    ? `<div class="schon-gewusst"><span class="schon-gewusst-label">${t.schonLabel}</span><p class="schon-gewusst-text">${story.schon_gewusst}</p></div>`
+    : '';
+
+  const quelleClean = (story.quelle || story.titel || '')
+    .replace(/[^a-zA-Z0-9äöüÄÖÜß ]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .split(' ')
+    .filter(w => w.length > 2)
+    .slice(0, 5)
+    .join(' ');
+  window._quelleSearch = quelleClean;
+
+  const sourceHtml = story.quelle
+    ? `<a href="#" onclick="window.open('https://www.google.com/search?q='+encodeURIComponent(window._quelleSearch),'_blank');return false;" style="color:#2e8b57;text-decoration:none;cursor:pointer;">${story.quelle}</a>`
+    : '';
+
+  const el = document.getElementById('js-article');
+  el.className = 'article';
+  el.innerHTML = `
+    ${langNote}
+    <div class="a-kicker"><span class="kicker-dot"></span><span class="kicker-text">${story.kategorie || ''}</span></div>
+    <h2 class="a-headline">${titel}</h2>
+    <div class="stauner-box">
+      <div class="stauner-label">${t.staunerLabel}</div>
+      <p class="stauner-text">${stauner}</p>
+    </div>
+    <div class="a-body">${paras}</div>
+    ${bonusHtml}
+    <div class="divider"><span class="divider-mark">✦ ✦ ✦</span></div>
+    <div class="colophon">
+      <span class="colophon-source"><strong>${t.quelleLabel}:</strong> ${sourceHtml}</span>
+      <p class="colophon-disclaimer">🤖 ${t.disclaimer} <a href="#" onclick="window.open('https://www.google.com/search?q='+encodeURIComponent(window._quelleSearch),'_blank');return false;">${t.scholarLink}</a></p>
+    </div>
+  `;
+}
+
+async function loadStory() {
+  show('loading');
+  try {
+    const story = await getTodayStory();
+    currentStoryDE = story;
+    render(story);
+    show('article');
+  } catch (e) {
+    console.error(e);
+    show('error');
+  }
+}
+
+function show(id) {
+  ['loading','error','article'].forEach(k =>
+    document.getElementById(`js-${k}`).style.display = k === id ? 'block' : 'none'
+  );
+}
+
+/* ═══════════════════════════════════════════════
+   INIT
+═══════════════════════════════════════════════ */
+document.getElementById('js-year').textContent = new Date().getFullYear();
+applyTheme(currentTheme);
+applyLang(currentLang);
+loadStory();
+</script>
+</body>
+</html>
