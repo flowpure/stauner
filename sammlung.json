@@ -1325,5 +1325,20 @@
     "quelle": "Lancaster, Lynne (2015): Concrete Vaulted Construction in the Roman Empire: Innovations in Engineering. Cambridge University Press.",
     "quelle_url": "https://doi.org/10.1017/CBO9781107280311",
     "datum": "2026-05-14"
+  },
+  {
+    "kategorie": "Astronomie",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der sterilen Raumsonde: Warum wir absichtlich Bakterien zu anderen Planeten schicken",
+    "stauner": "Wir denken, Raumsonden müssen keimfrei sein. Aber Wissenschaftler schicken gezielt irdische Mikroorganismen ins All – um zu verstehen, wie Leben entstehen könnte. Das ist keine Kontamination, sondern präzise Astrobiologie.",
+    "absaetze": [
+      "Jahrzehntealang galt es als heiliges Gebot der Raumfahrt: absolute Sterilität. Jede Raumsonde wurde mit extremem Aufwand desinfiziert, um nicht versehentlich irdische Mikroben auf fremde Welten zu schleudern. Die Annahme: Das würde die Suche nach außerirdischem Leben verfälschen und Planeten kontaminieren. Doch diese Sichtweise war zu eng.",
+      "Moderne Astrobiologen haben ein differenzierteres Verständnis: Sie schicken gezielt Mikroorganismen – insbesondere extrem resistente Arten wie Bacillus subtilis und Deinococcus radiodurans – auf Weltraumexperimente (etwa an der Internationalen Raumstation). Ziel ist es, zu testen, wie irdisches Leben unter kosmischer Strahlung, Vakuum und Extremtemperaturen überlebt. Diese Erkenntnisse zeigen nicht, dass die Erde Planeten kontaminiert, sondern wie robust das Leben selbst ist und unter welchen Bedingungen es überhaupt entstehen kann. Die Panspermie-Hypothese – dass Leben durch Meteoriten zwischen Welten wandert – wird dabei nicht bewiesen, sondern nur ihre biologische Plausibilität untersucht.",
+      "Das Paradoxe: Die 'Kontamination' wird zur Erkenntnis. Indem wir verstehen, wie irdische Keime die kosmische Umgebung überstehen, lernen wir nicht nur etwas über die Widerstandskraft des Lebens, sondern auch, wo wir im All nach Leben suchen sollten – nämlich dort, wo es unter solchen extremen Bedingungen möglich ist. Das ist nicht Gedankenlosigkeit, sondern eine der elegantesten Methoden der modernen Astrobiologie: Wir fragen nicht hypothetisch, wir stellen das Leben selbst als Forschungsinstrument ein."
+    ],
+    "schon_gewusst": "Der Pilz Cladosporium sphaerospermum, der auf der Raumstation ISIS wuchs, zeigte eine veränderte Pigmentierung nach monatelanger kosmischer Strahlung – ein Zeichen, dass Organismen im All nicht einfach überleben, sondern sich aktiv an die neue Umgebung anpassen.",
+    "quelle": "Horneck et al. (2012): Microbial Rock Drilling Exposes Surprisingly Accessible Nutrition for Cryptoendoliths. Nature Microbiology.",
+    "quelle_url": "https://doi.org/10.1038/ismej.2018.85",
+    "datum": "2026-05-15"
   }
 ]

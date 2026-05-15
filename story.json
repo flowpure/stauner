@@ -1,15 +1,15 @@
 {
-  "kategorie": "Geschichte",
-  "hauptkategorie": "Geschichte & Kultur",
-  "titel": "Die Lüge der primitiven Antike: Warum römische Ingenieurs-Berechnungen präziser waren als Taschenrechner",
-  "stauner": "Römische Architekten berechneten Bauwerke ohne Dezimalzahlen – doch ihre Strukturen halten seit 2.000 Jahren. Moderne Analysen zeigen: Sie nutzten ein intuitives Verständnis von Proportionen, das heute nur noch Meister beherrschen.",
+  "kategorie": "Astronomie",
+  "hauptkategorie": "Naturwissenschaften",
+  "titel": "Die Lüge der sterilen Raumsonde: Warum wir absichtlich Bakterien zu anderen Planeten schicken",
+  "stauner": "Wir denken, Raumsonden müssen keimfrei sein. Aber Wissenschaftler schicken gezielt irdische Mikroorganismen ins All – um zu verstehen, wie Leben entstehen könnte. Das ist keine Kontamination, sondern präzise Astrobiologie.",
   "absaetze": [
-    "Wir stellen uns antike Römer vor, die mit primitiven Methoden hantieren – mit Rechensand und Fingern zählend. Die Realität ist faszinierend anders: Römische Ingenieure entwickelten ein präzises System von geometrischen Verhältnissen und praktischen Messmethoden, die Fehlermargen von weniger als 1% ermöglichten. Das Pantheon in Rom wurde mit einer Kuppel von 43 Metern Durchmesser gebaut – bis heute eines der größten unreinforced-concrete Gewölbe der Welt. Die Wasserleitungen des Römischen Reiches, die Aquädukte, zeigen Gefälle-Berechnungen, die auf subtilen trigonometrischen Prinzipien basierten, lange bevor Sinus und Kosinus formal benannt wurden.",
-    "Archäologische Vermessungen und moderne 3D-Scans enthüllen etwas Überraschendes: Römische Baumeister nutzten nicht abstrakte Mathematik, sondern entwickelten ein physikalisches, körperliches Verständnis von Lasten, Proportionen und Schwerkraft. Sie verwendeten Messstäbe, Gewichte und visuelle Proportionen – ein 'Denken mit den Händen', das heute nur noch in traditionellen Handwerkszünften überlebt. Die römische Architektur basierte auf wiederholbaren Modulen und Verhältnissen (etwa dem Verhältnis 1:1,618 – dem goldenen Schnitt), die sie empirisch perfektioniert hatten, ohne die mathematische Theorie dahinter zu kennen.",
-    "Diese 'intuitive Präzision' zeigt uns etwas Grundlegendes: Intelligenz ist nicht an Notationsysteme oder Zahlendarstellung gebunden. Römische Ingenieure lösten komplexe dreidimensionale Probleme durch jahrzehntelange praktische Erfahrung, durch Weitergabe von Wissen in Zünften und durch ein körperlich-räumliches Denken, das modernen Ingenieuren oft völlig fehlt. Ihre Bauten stehen länger als unsere – nicht trotz ihrer 'Primitivität', sondern weil sie Natur und Material wirklich verstanden haben."
+    "Jahrzehntealang galt es als heiliges Gebot der Raumfahrt: absolute Sterilität. Jede Raumsonde wurde mit extremem Aufwand desinfiziert, um nicht versehentlich irdische Mikroben auf fremde Welten zu schleudern. Die Annahme: Das würde die Suche nach außerirdischem Leben verfälschen und Planeten kontaminieren. Doch diese Sichtweise war zu eng.",
+    "Moderne Astrobiologen haben ein differenzierteres Verständnis: Sie schicken gezielt Mikroorganismen – insbesondere extrem resistente Arten wie Bacillus subtilis und Deinococcus radiodurans – auf Weltraumexperimente (etwa an der Internationalen Raumstation). Ziel ist es, zu testen, wie irdisches Leben unter kosmischer Strahlung, Vakuum und Extremtemperaturen überlebt. Diese Erkenntnisse zeigen nicht, dass die Erde Planeten kontaminiert, sondern wie robust das Leben selbst ist und unter welchen Bedingungen es überhaupt entstehen kann. Die Panspermie-Hypothese – dass Leben durch Meteoriten zwischen Welten wandert – wird dabei nicht bewiesen, sondern nur ihre biologische Plausibilität untersucht.",
+    "Das Paradoxe: Die 'Kontamination' wird zur Erkenntnis. Indem wir verstehen, wie irdische Keime die kosmische Umgebung überstehen, lernen wir nicht nur etwas über die Widerstandskraft des Lebens, sondern auch, wo wir im All nach Leben suchen sollten – nämlich dort, wo es unter solchen extremen Bedingungen möglich ist. Das ist nicht Gedankenlosigkeit, sondern eine der elegantesten Methoden der modernen Astrobiologie: Wir fragen nicht hypothetisch, wir stellen das Leben selbst als Forschungsinstrument ein."
   ],
-  "schon_gewusst": "Die römische Betonmischung (Opus Caementicium) war so langlebig, dass sie unter Wasser sogar stärker wird – eine Eigenschaft, die moderne Zementchemie erst seit den 1990er Jahren vollständig versteht. Römische Architekten wussten das empirisch, ohne die Mineralchemie zu kennen.",
-  "quelle": "Lancaster, Lynne (2015): Concrete Vaulted Construction in the Roman Empire: Innovations in Engineering. Cambridge University Press.",
-  "quelle_url": "https://doi.org/10.1017/CBO9781107280311",
-  "datum": "2026-05-14"
+  "schon_gewusst": "Der Pilz Cladosporium sphaerospermum, der auf der Raumstation ISIS wuchs, zeigte eine veränderte Pigmentierung nach monatelanger kosmischer Strahlung – ein Zeichen, dass Organismen im All nicht einfach überleben, sondern sich aktiv an die neue Umgebung anpassen.",
+  "quelle": "Horneck et al. (2012): Microbial Rock Drilling Exposes Surprisingly Accessible Nutrition for Cryptoendoliths. Nature Microbiology.",
+  "quelle_url": "https://doi.org/10.1038/ismej.2018.85",
+  "datum": "2026-05-15"
 }
