@@ -1,15 +1,15 @@
 {
-  "kategorie": "Evolutionsbiologie",
-  "hauptkategorie": "Biologie & Ökologie",
-  "titel": "Die Lüge der Survival-of-the-Fittest: Warum schwache Arten nicht aussterben, sondern die meiste Zeit überleben",
-  "stauner": "Wir denken, Evolution bedeutet: Der Stärkste gewinnt, der Schwache stirbt aus. Doch die Evolutionsbiologie zeigt: Schwache, spezialisierte und seltene Arten sind oft evolutionär stabiler als dominante Riesenarten – und überdauern Millionen von Jahren.",
+  "kategorie": "Neurologie",
+  "hauptkategorie": "Mensch & Gesellschaft",
+  "titel": "Die Lüge der Hirnplastizität-Grenzen: Warum dein Gehirn nicht nur in der Kindheit formbar ist, sondern bis zum letzten Atemzug neu verdrahtet wird",
+  "stauner": "Wir glauben, dass sich unser Gehirn nach der Pubertät kaum noch verändert. Doch Neurowissenschaftler haben entdeckt: Auch im Alter von 80 Jahren entstehen täglich Tausende neue Nervenzellen – und alte Hirnregionen können völlig neue Funktionen übernehmen.",
   "absaetze": [
-    "Das Missverständnis sitzt tief: Survival of the Fittest bedeutet, dass die größten, schnellsten oder aggressivsten Organismen überleben und dominieren. Deshalb erwarten wir, dass erfolgreiche Arten boomen, während schwächere aussterben. Doch die Paläontologie offenbart ein faszinierendes Muster: Kleine, spezialisierte Arten mit niedriger Populationsgröße sind häufig länger stabil, während Megafauna wie Mammuts oder Riesenfaultiere in evolutionär kurzem Zeitraum kollabieren.",
-    "Die Evolutionsforschung zeigt den Grund: Spezialisierte Arten mit kleineren Populationen haben weniger reproduktiven Druck, weniger intraspecifischen Wettbewerb und damit weniger Zwang zu rasanten Veränderungen. Das macht sie weniger anfällig für 'evolutionäre Instabilität'. Im Gegensatz dazu geraten große, dominante Populationen in einen evolutionären Rüstungswettlauf – jede Generation muss schneller, größer, aggressiver werden, was letztlich zu Überoptimierung und Kollaps führt. Kleine Populationen können dagegen lange Zeit stabil in ökologischen Nischen existieren.",
-    "Das ist eine ermutigende Botschaft: Vielfalt und Spezialisierung sind evolutionär oft stabiler als Dominanz. Kleine Arten, Randpopulationen und ökologische Nischenbewohner sind nicht das 'Abfallprodukt' der Evolution – sie sind ihr Erfolgsgeheimnis. Der Druck, immer besser zu sein, führt schneller zum Kollaps als die Stabilität, klein und spezialisiert zu bleiben. Das erklärt auch, warum die Erde heute von Insekten, Fischen und Mikroben dominiert wird, nicht von Megafauna: Evolution belohnt langfristige Stabilität, nicht kurzfristige Dominanz."
+    "Die verbreitete Annahme lautet: Das menschliche Gehirn ist wie Beton – nach den ersten Lebensjahren ausgehärtet und kaum noch veränderbar. Besonders nach der Pubertät soll die 'kritische Phase' vorbei sein. Deshalb fühlen sich viele Menschen ab 30, 40 oder 50 Jahren 'zu alt' zum Lernen, zum Umlenken, zum Neuanfang. Die Hirnforschung hat lange Zeit diese Pessimismus unterstützt.",
+    "Die Wahrheit ist dramatisch anders: Das erwachsene Gehirn produziert täglich neue Neuronen – ein Prozess namens Neurogenese, der sein Leben lang andauert. Besonders im Hippocampus, der Gedächtnisregion, entstehen bei gesunden Menschen selbst im hohen Alter noch 700 bis 1.000 neue Nervenzellen pro Tag. Noch faszinierender: Das Gehirn reorganisiert sich ständig neu. Menschen, die einen Schlaganfall erleiden, können Funktionen von beschädigten Hirnregionen auf andere verlagern – sogar Jahrzehnte später. Musikstudenten entwickeln um 25 Prozent größere auditorische Kortexe. Taxifahrer in London zeigen messbar vergrößerte Hippocampi. Jede Erfahrung, jedes Lernen, jede Beziehung prägt die physische Struktur unseres Gehirns – ein Leben lang.",
+    "Das bedeutet: Es gibt kein neurologisches 'zu spät'. Der 60-jährige Mensch, der eine neue Sprache lernt, verdrahtet sein Gehirn genauso wie der 6-Jährige – nur auf anderer Basis. Der 75-Jährige, der mit dem Malen anfängt, trainiert seine visuellen und motorischen Systeme. Ein Leben voller neuer Herausforderungen ist nicht trotz unserer Neurobiologie möglich, sondern deswegen – weil unser Gehirn genau dafür gebaut ist. Plastizität ist nicht ein Privileg der Jugend, sondern ein permanenter Zustand der menschlichen Existenz."
   ],
-  "schon_gewusst": "Längenunabhängige Artenbeständigkeit: Kleine Fischarten dauern im Schnitt genauso lange wie große Arten – etwa 1–10 Millionen Jahre – obwohl große Arten mehr energetische Ressourcen brauchen und scheinbar 'besser angepasst' sind.",
-  "quelle": "Liow et al. (2008): Lower extinction rates in docile taxa during Cenozoic global cooling trends. PNAS 105(29).",
-  "quelle_url": "https://doi.org/10.1073/pnas.0800460105",
-  "datum": "2026-05-16"
+  "schon_gewusst": "Während wir neue Neuronen bilden, bauen wir gleichzeitig alte Verbindungen ab, die nicht mehr gebraucht werden – ein Prozess namens 'Pruning'. Das Gehirn arbeitet wie ein kluger Gärtner: Es pflanzt Neues und entfernt Unkraut. Deshalb können Menschen, die regelmäßig lernen, schneller vergessen was irrelevant ist.",
+  "quelle": "Eriksson et al. (1998): Neurogenesis in the adult human hippocampus. Nature Medicine 4(11).",
+  "quelle_url": "https://doi.org/10.1038/3305",
+  "datum": "2026-05-17"
 }
