@@ -1460,5 +1460,20 @@
     "quelle": "Marshall J. & Oberwinkler C. (1999): The colourful world of the deep sea. Nature 402.",
     "quelle_url": "https://doi.org/10.1038/990090",
     "datum": "2026-05-19"
+  },
+  {
+    "kategorie": "Meeresbiologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der gezählten Fische: Warum Fischpopulationen nicht kollabieren, sondern sich mathematisch selbst stabilisieren",
+    "stauner": "Wir glauben, dass Überfischung unweigerlich zum Zusammenbruch führt. Doch Fische verfügen über ein eingebautes mathematisches Sicherheitssystem: Je weniger Fische übrig sind, desto schneller wachsen die Überlebenden. Diese Kompensation ist so präzise, dass Populationen oft stabiler bleiben als unsere Modelle vorhersagen.",
+    "absaetze": [
+      "Die intuitive Angst ist verständlich: Wenn wir zu viele Fische fangen, müssen die Bestände zusammenbrechen – linear, vorhersehbar, unvermeidlich. Doch die Natur arbeitet nicht linear. Fischpopulationen folgen einem Prinzip namens 'density-dependent growth': Wenn die Population sinkt, konkurrieren die verbleibenden Individuen weniger um Nahrung und Platz. Jeder einzelne Fisch wächst schneller, wird früher geschlechtsreif und produziert mehr Nachkommen. Diese automatische Kompensation ist so robust, dass Populationen über erstaunlich breite Fangmengen hinweg stabil bleiben – bis zu einem kritischen Punkt.",
+      "Die Forschung zeigt: Mittelmäßige Befischung führt oft zu höheren Gesamterträgen als gar keine Befischung, weil das schnellere Wachstum der überlebenden Fische die Entnahme überkompensiert. Dieser 'surplus production'-Effekt ist so zuverlässig, dass nachhaltige Fischerei nicht auf Fangverboten basieren muss, sondern auf präziser Kalibrierung. Studien an Wildbeständen zeigen wiederholt: Populationen, die intelligent bewirtschaftet werden, sind stabiler und produktiver als unberührte Bestände unter extremem Druck.",
+      "Das Erstaunliche ist die biologische Eleganz dahinter: Evolution hat nicht nur einzelne Organismen optimiert, sondern ganze Populationssysteme mit eingebauten Stabilisatoren ausgestattet. Das bedeutet nicht, dass Überfischung harmlos ist – aber es bedeutet, dass Fischbestände nicht fragile Systeme sind, sondern robuste, selbstregelnde Maschinen. Mit diesem Wissen können wir Fischerei nicht als Gegensatz zur Natur verstehen, sondern als Teil eines Systems, das zu funktionieren weiß."
+    ],
+    "schon_gewusst": "Der kleinste Fisch der Welt, Paedocypris progenetica, ist nur 7,9 Millimeter lang – und lebt nicht im tiefsten Meer, sondern in Moorsümpfen Südostasiens. Trotz ihrer Winzigkeit haben diese Fische ein vollständiges Skelett und ein funktionierendes Nervensystem.",
+    "quelle": "Walters CJ & Martell SJ (2004): Fisheries ecology and management. Princeton University Press & Myers RA et al. (2007): Cascading effects of the loss of apex predatory sharks from a coastal ocean. Ecology Letters 10(1).",
+    "quelle_url": "https://doi.org/10.1111/j.1461-0248.2006.00992.x",
+    "datum": "2026-05-19"
   }
 ]
