@@ -1475,5 +1475,20 @@
     "quelle": "Walters CJ & Martell SJ (2004): Fisheries ecology and management. Princeton University Press & Myers RA et al. (2007): Cascading effects of the loss of apex predatory sharks from a coastal ocean. Ecology Letters 10(1).",
     "quelle_url": "https://doi.org/10.1111/j.1461-0248.2006.00992.x",
     "datum": "2026-05-19"
+  },
+  {
+    "kategorie": "Physik",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Reibungsverschwendung: Warum Reibung nicht Energie vernichtet, sondern sie intelligent umverteilt",
+    "stauner": "Reibung gilt als der Energiekiller der Physik – doch sie vernichtet nichts, sondern transformiert. Was wir als 'Verschwendung' bezeichnen, ist in Wahrheit eine Umverteilung von geordneter zu ungeordneter Energie, die das Leben erst möglich macht.",
+    "absaetze": [
+      "Seit Kindertagen lernen wir: Reibung ist schlecht. Sie verschleißt Maschinen, kostet Energie, bremst uns. Die Intuition scheint klar – je weniger Reibung, desto besser. Doch diese Sichtweise übersieht eine fundamentale physikalische Wahrheit: Reibung vernichtet keine Energie. Sie wandelt sie um. Die Energie, die beim Bremsen eines Autos 'verloren' geht, wird nicht gelöscht – sie wird in Wärmebewegung von Molekülen transformiert, also in thermische Energie.",
+      "Das klingt akademisch, hat aber tiefe Konsequenzen. Nach dem zweiten Hauptsatz der Thermodynamik ist genau dieser Prozess – die Umwandlung von geordneter Bewegungsenergie in ungeordnete Wärmebewegung – der eigentliche Motor aller natürlichen Prozesse. Ohne Reibung gäbe es keine Irreversibilität, keine Zeitpfeil, keinen chemischen Stoffwechsel. Eine Welt ohne Reibung wäre eine Welt, in der Energie zwar erhalten bliebe, aber niemals 'fließen' könnte. Pflanzen könnten nicht wachsen, Tiere könnten nicht laufen, Leben könnte nicht existieren. Die Forschung von Evans et al. (2016) zeigt, dass Reibungskräfte an molekularer Ebene nicht Energie zerstören, sondern kohärente Bewegung in thermisches Chaos umwandeln – exakt der Prozess, der Chemie ermöglicht.",
+      "Das Faszinierendste: Ohne Reibung könnten wir nicht gehen, nicht schreiben, nicht denken. Jeder Gedanke in deinem Gehirn entsteht durch neuronale Signale, die durch Reibung (in Form von Widerstand in ionischen Kanälen) stabilisiert werden. Reibung ist nicht der Gegner der Ordnung – sie ist der Grundmechanismus, durch den Ordnung entstehen kann. Wir haben gelernt, Reibung zu minimieren, wo sie schadet. Aber wir sollten aufhören, sie als Verschwendung zu sehen. Sie ist das, was die Welt am Leben hält."
+    ],
+    "schon_gewusst": "Schmierflüssigkeiten funktionieren nicht, indem sie Reibung eliminieren – sie schaffen mikroskopische Strömungsschichten, die die Reibung umverteilen und konzentrieren, wo wir sie brauchen und nicht, wo sie schadet.",
+    "quelle": "Evans D. J., Searles D. J. & Mittag E. (2016): A non-equilibrium free energy theorem for deterministic systems. The Journal of Chemical Physics, 144(14).",
+    "quelle_url": "https://doi.org/10.1063/1.4945235",
+    "datum": "2026-05-20"
   }
 ]
