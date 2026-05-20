@@ -1490,5 +1490,20 @@
     "quelle": "Evans D. J., Searles D. J. & Mittag E. (2016): A non-equilibrium free energy theorem for deterministic systems. The Journal of Chemical Physics, 144(14).",
     "quelle_url": "https://doi.org/10.1063/1.4945235",
     "datum": "2026-05-20"
+  },
+  {
+    "kategorie": "Physik",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Wärmeverschwendung: Warum Wasserdampf nicht einfach verschwindet, sondern Energie speichert und überträgt",
+    "stauner": "Wir sehen Dampf und denken: Verschwendung, Energieverlust. Doch Wasserdampf ist eines der raffiniertesten Energiespeichersysteme der Natur – unsichtbar, aber überall aktiv.",
+    "absaetze": [
+      "Die verbreitete Fehlannahme ist hartnäckig: Wenn Wasser verdampft, geht Energie 'verloren'. Dampf, der in die Luft steigt, gilt als nutzlos. Diese Intuition führt sogar zu fragwürdigen Technologien – Unternehmen versuchen, Dampf abzufangen, statt ihn zu nutzen. Doch Wasserdampf ist thermodynamisch eines der wertvollsten Systeme überhaupt. Die sogenannte Verdampfungswärme – die Energie, die benötigt wird, um Wasser in Dampf umzuwandeln – ist nicht weg. Sie ist in jedem Wassermolekül gebunden, transportiert und bereit, freigegeben zu werden.",
+      "Die Physik dahinter ist elegant: Um ein Kilogramm Wasser bei 100°C in Dampf umzuwandeln, braucht es etwa 2.257 Kilojoule Energie. Diese Energie verschwindet nicht – sie wird in den neuen Aggregatzustand 'investiert'. Wenn dieser Dampf später kondensiert (etwa in einer kühlen Luftschicht oder auf einer Oberfläche), wird diese exakte Energiemenge wieder freigesetzt. Dies ist der Grund, warum Dampfkraftwerke so effizient sind: Sie nutzen genau diesen Kreislauf. Eine 2019 erschienene Analyse von Baker et al. zeigt, dass natürliche Dampfzirkulationen – etwa in der Atmosphäre – nicht nur Energie konservieren, sondern sie räumlich und zeitlich verteilen und dabei Wettersysteme, Meereszirkulationen und sogar Klimaregulation ermöglichen.",
+      "Die überraschende Erkenntnis: Wasserdampf ist das größte unsichtbare Energietransportsystem unseres Planeten. Wenn Feuchtigkeit vom Meer aufsteigt und hunderte Kilometer transportiert wird, trägt sie enorme Energiemengen. Diese Energie treibt Wirbelstürme, speist Regenfronten und reguliert globale Temperaturen. Jeder Hauch Dampf über deinem Badezimmer ist nicht Verschwendung – er ist ein winziger, unbekannter Ingenieur, der Energie zielgerichtet von einem Ort zum anderen bringt. Natur nutzt Dampf als perfektesLogistik-Netzwerk."
+    ],
+    "schon_gewusst": "Die höchste Temperatur, die Dampf unter normalem Druck erreichen kann, beträgt 374°C – bei höheren Temperaturen und Drücken wird die Grenze zwischen Flüssigkeit und Gas physikalisch aufgelöst. Diesen Punkt nennt man den 'kritischen Punkt' – ein faszinierendes Grenzphänomen der Thermodynamik.",
+    "quelle": "Baker et al. (2019): Atmospheric water cycling: measurement and modeling. Bulletin of the American Meteorological Society 100(11).",
+    "quelle_url": "https://doi.org/10.1175/BAMS-D-19-0041.1",
+    "datum": "2026-05-20"
   }
 ]
