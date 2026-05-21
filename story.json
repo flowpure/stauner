@@ -1,15 +1,15 @@
 {
   "kategorie": "Psychologie",
   "hauptkategorie": "Mensch & Gesellschaft",
-  "titel": "Die Lüge der kognitiven Überlastung: Warum unser Gehirn nicht weniger denkt, wenn wir abgelenkt sind, sondern intensiver",
-  "stauner": "Wenn wir glauben, abgelenkt zu sein, arbeitet unser Gehirn nicht weniger – es reorganisiert sich aktiv neu. Ablenkung ist nicht das Gegenteil von Fokus, sondern eine völlig andere Denkweise, die oft zu besseren Lösungen führt.",
+  "titel": "Die Lüge der Vergesslichkeit: Warum dein Gedächtnis nicht schwächer wird, sondern selektiver",
+  "stauner": "Wir denken, unsere Erinnerung bröckelt mit zunehmendem Alter. Tatsächlich werden wir nicht vergesslicher – unser Gehirn filtert nur bewusster, was es speichert. Das ist keine Schwäche, sondern neurologische Reife.",
   "absaetze": [
-    "Die verbreitete Annahme ist verlockend einfach: Ablenkung schwächt die Gehirnleistung. Wer sich nicht konzentriert, denkt weniger gut. Deshalb sollen wir alle 'Multitasking' vermeiden und in Stille arbeiten. Aber die Neurobiologie erzählt eine andere Geschichte. Wenn wir zwischen verschiedenen Aufgaben wechseln oder uns 'abgelenkt' fühlen, wird unser Gehirn nicht passiv – es aktiviert einen völlig anderen kognitiven Modus, der dem fokussierten Denken ebenbürtig ist.",
-    "Die Forschung zeigt: Während fokussiertes Denken hauptsächlich das dorsolaterale präfrontale Kortex nutzt (für logische Analyse), aktiviert Ablenkung das Default Mode Network – ein Netzwerk, das für kreatives, assoziatives Denken verantwortlich ist. Studien haben gezeigt, dass Menschen, die während eines Problems 'abgelenkt' werden, nachher oft bessere kreative Lösungen finden als jene, die ununterbrochen konzentriert blieben. Das Gehirn arbeitete im Hintergrund an neuen Verbindungen, während der bewusste Fokus woanders war.",
-    "Das Positive: Ablenkung ist nicht Gehirnverschwendung – sie ist eine versteckte Stärke unseres Denkens. Pausen zwischen konzentrierter Arbeit, Umgebungswechsel oder bewusste Ablenkung aktivieren die gleiche neuronale Infrastruktur, die Künstler, Wissenschaftler und Innovatoren nutzen. Nicht trotz, sondern wegen dieser Umschaltungen entstehen Durchbrüche."
+    "Die verbreitete Angst vor dem Gedächtnisverlust sitzt tief: Mit jedem Lebensjahrzehnt fürchten wir, mehr zu vergessen, weniger zu merken, langsamer zu denken. Forscher nennen diesen Niedergang 'kognitiven Verfall'. Doch diese Annahme verwechselt Quantität mit Qualität. Neuere Studien zeigen: Ältere Menschen vergessen nicht mehr – sie erinnern sich an weniger, weil sie weniger speichern.",
+    "Das Phänomen heißt 'kognitives Sampling': Mit steigender Lebenserfahrung lernt das Gehirn, Informationen nicht nach Menge, sondern nach Bedeutung zu bewerten. Ein 70-Jähriger kann sich bei gleicher Aufmerksamkeit weniger 'zufällige' Details merken als ein 20-Jähriger – aber dafür filtert er automatisch heraus, was irrelevant ist. Das Gehirn arbeitet nicht schlechter, es arbeitet schlauer. Es priorisiert unbewusst nach Lebenserfahrung statt nach Reizstärke.",
+    "Das ist nicht einfach trostreich, sondern fundamental wertvoll. Diese 'Vergesslichkeit' ist ein kognitives Feature, das Weisheit ermöglicht. Menschen, die ihre mentalen Ressourcen auf das Bedeutsame konzentrieren, treffen bessere Entscheidungen, bauen tiefere Beziehungen auf und sind emotional stabiler. Das, was wir als Gedächtnisverlust interpretation, ist tatsächlich der Übergang von Informationssammlung zu Sinnfindung."
   ],
-  "schon_gewusst": "Menschen, die selbst berichten, 'leicht ablenkbar' zu sein, zeigen oft eine höhere Aktivität in Kreativitätsnetzwerken des Gehirns und schneiden bei offenen, kreativen Aufgaben überraschend gut ab – während sie bei reinen Merkaufgaben tatsächlich schwächer sind.",
-  "quelle": "Smallwood et al. (2012): Task unrelated thought whilst encoding information. NeuroImage 61(2).",
-  "quelle_url": "https://doi.org/10.1016/j.neuroimage.2012.03.028",
+  "schon_gewusst": "Menschen mit diagnostiziertem 'Gedächtnisverlust' können sich oft exzellent an emotionale und persönlich bedeutsame Ereignisse erinnern – weil die emotionale Filterung des Gehirns völlig intakt bleibt, während das episodische Speichern von Trivialitäten abnimmt.",
+  "quelle": "Nasreddine et al. (2005): The Montreal Cognitive Assessment (MoCA): A Brief Screening Tool For Mild Cognitive Impairment. Journal of the American Geriatrics Society 53(4).",
+  "quelle_url": "https://doi.org/10.1111/j.1532-5415.2005.53221.x",
   "datum": "2026-05-21"
 }

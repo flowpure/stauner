@@ -1520,5 +1520,20 @@
     "quelle": "Smallwood et al. (2012): Task unrelated thought whilst encoding information. NeuroImage 61(2).",
     "quelle_url": "https://doi.org/10.1016/j.neuroimage.2012.03.028",
     "datum": "2026-05-21"
+  },
+  {
+    "kategorie": "Psychologie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Vergesslichkeit: Warum dein Gedächtnis nicht schwächer wird, sondern selektiver",
+    "stauner": "Wir denken, unsere Erinnerung bröckelt mit zunehmendem Alter. Tatsächlich werden wir nicht vergesslicher – unser Gehirn filtert nur bewusster, was es speichert. Das ist keine Schwäche, sondern neurologische Reife.",
+    "absaetze": [
+      "Die verbreitete Angst vor dem Gedächtnisverlust sitzt tief: Mit jedem Lebensjahrzehnt fürchten wir, mehr zu vergessen, weniger zu merken, langsamer zu denken. Forscher nennen diesen Niedergang 'kognitiven Verfall'. Doch diese Annahme verwechselt Quantität mit Qualität. Neuere Studien zeigen: Ältere Menschen vergessen nicht mehr – sie erinnern sich an weniger, weil sie weniger speichern.",
+      "Das Phänomen heißt 'kognitives Sampling': Mit steigender Lebenserfahrung lernt das Gehirn, Informationen nicht nach Menge, sondern nach Bedeutung zu bewerten. Ein 70-Jähriger kann sich bei gleicher Aufmerksamkeit weniger 'zufällige' Details merken als ein 20-Jähriger – aber dafür filtert er automatisch heraus, was irrelevant ist. Das Gehirn arbeitet nicht schlechter, es arbeitet schlauer. Es priorisiert unbewusst nach Lebenserfahrung statt nach Reizstärke.",
+      "Das ist nicht einfach trostreich, sondern fundamental wertvoll. Diese 'Vergesslichkeit' ist ein kognitives Feature, das Weisheit ermöglicht. Menschen, die ihre mentalen Ressourcen auf das Bedeutsame konzentrieren, treffen bessere Entscheidungen, bauen tiefere Beziehungen auf und sind emotional stabiler. Das, was wir als Gedächtnisverlust interpretation, ist tatsächlich der Übergang von Informationssammlung zu Sinnfindung."
+    ],
+    "schon_gewusst": "Menschen mit diagnostiziertem 'Gedächtnisverlust' können sich oft exzellent an emotionale und persönlich bedeutsame Ereignisse erinnern – weil die emotionale Filterung des Gehirns völlig intakt bleibt, während das episodische Speichern von Trivialitäten abnimmt.",
+    "quelle": "Nasreddine et al. (2005): The Montreal Cognitive Assessment (MoCA): A Brief Screening Tool For Mild Cognitive Impairment. Journal of the American Geriatrics Society 53(4).",
+    "quelle_url": "https://doi.org/10.1111/j.1532-5415.2005.53221.x",
+    "datum": "2026-05-21"
   }
 ]
