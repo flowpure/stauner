@@ -1,15 +1,15 @@
 {
-  "kategorie": "Physik",
-  "hauptkategorie": "Naturwissenschaften",
-  "titel": "Die Lüge der Wärmeverschwendung: Warum Wasserdampf nicht einfach verschwindet, sondern Energie speichert und überträgt",
-  "stauner": "Wir sehen Dampf und denken: Verschwendung, Energieverlust. Doch Wasserdampf ist eines der raffiniertesten Energiespeichersysteme der Natur – unsichtbar, aber überall aktiv.",
+  "kategorie": "Psychologie",
+  "hauptkategorie": "Mensch & Gesellschaft",
+  "titel": "Die Lüge der kognitiven Überlastung: Warum unser Gehirn nicht weniger denkt, wenn wir abgelenkt sind, sondern intensiver",
+  "stauner": "Wenn wir glauben, abgelenkt zu sein, arbeitet unser Gehirn nicht weniger – es reorganisiert sich aktiv neu. Ablenkung ist nicht das Gegenteil von Fokus, sondern eine völlig andere Denkweise, die oft zu besseren Lösungen führt.",
   "absaetze": [
-    "Die verbreitete Fehlannahme ist hartnäckig: Wenn Wasser verdampft, geht Energie 'verloren'. Dampf, der in die Luft steigt, gilt als nutzlos. Diese Intuition führt sogar zu fragwürdigen Technologien – Unternehmen versuchen, Dampf abzufangen, statt ihn zu nutzen. Doch Wasserdampf ist thermodynamisch eines der wertvollsten Systeme überhaupt. Die sogenannte Verdampfungswärme – die Energie, die benötigt wird, um Wasser in Dampf umzuwandeln – ist nicht weg. Sie ist in jedem Wassermolekül gebunden, transportiert und bereit, freigegeben zu werden.",
-    "Die Physik dahinter ist elegant: Um ein Kilogramm Wasser bei 100°C in Dampf umzuwandeln, braucht es etwa 2.257 Kilojoule Energie. Diese Energie verschwindet nicht – sie wird in den neuen Aggregatzustand 'investiert'. Wenn dieser Dampf später kondensiert (etwa in einer kühlen Luftschicht oder auf einer Oberfläche), wird diese exakte Energiemenge wieder freigesetzt. Dies ist der Grund, warum Dampfkraftwerke so effizient sind: Sie nutzen genau diesen Kreislauf. Eine 2019 erschienene Analyse von Baker et al. zeigt, dass natürliche Dampfzirkulationen – etwa in der Atmosphäre – nicht nur Energie konservieren, sondern sie räumlich und zeitlich verteilen und dabei Wettersysteme, Meereszirkulationen und sogar Klimaregulation ermöglichen.",
-    "Die überraschende Erkenntnis: Wasserdampf ist das größte unsichtbare Energietransportsystem unseres Planeten. Wenn Feuchtigkeit vom Meer aufsteigt und hunderte Kilometer transportiert wird, trägt sie enorme Energiemengen. Diese Energie treibt Wirbelstürme, speist Regenfronten und reguliert globale Temperaturen. Jeder Hauch Dampf über deinem Badezimmer ist nicht Verschwendung – er ist ein winziger, unbekannter Ingenieur, der Energie zielgerichtet von einem Ort zum anderen bringt. Natur nutzt Dampf als perfektesLogistik-Netzwerk."
+    "Die verbreitete Annahme ist verlockend einfach: Ablenkung schwächt die Gehirnleistung. Wer sich nicht konzentriert, denkt weniger gut. Deshalb sollen wir alle 'Multitasking' vermeiden und in Stille arbeiten. Aber die Neurobiologie erzählt eine andere Geschichte. Wenn wir zwischen verschiedenen Aufgaben wechseln oder uns 'abgelenkt' fühlen, wird unser Gehirn nicht passiv – es aktiviert einen völlig anderen kognitiven Modus, der dem fokussierten Denken ebenbürtig ist.",
+    "Die Forschung zeigt: Während fokussiertes Denken hauptsächlich das dorsolaterale präfrontale Kortex nutzt (für logische Analyse), aktiviert Ablenkung das Default Mode Network – ein Netzwerk, das für kreatives, assoziatives Denken verantwortlich ist. Studien haben gezeigt, dass Menschen, die während eines Problems 'abgelenkt' werden, nachher oft bessere kreative Lösungen finden als jene, die ununterbrochen konzentriert blieben. Das Gehirn arbeitete im Hintergrund an neuen Verbindungen, während der bewusste Fokus woanders war.",
+    "Das Positive: Ablenkung ist nicht Gehirnverschwendung – sie ist eine versteckte Stärke unseres Denkens. Pausen zwischen konzentrierter Arbeit, Umgebungswechsel oder bewusste Ablenkung aktivieren die gleiche neuronale Infrastruktur, die Künstler, Wissenschaftler und Innovatoren nutzen. Nicht trotz, sondern wegen dieser Umschaltungen entstehen Durchbrüche."
   ],
-  "schon_gewusst": "Die höchste Temperatur, die Dampf unter normalem Druck erreichen kann, beträgt 374°C – bei höheren Temperaturen und Drücken wird die Grenze zwischen Flüssigkeit und Gas physikalisch aufgelöst. Diesen Punkt nennt man den 'kritischen Punkt' – ein faszinierendes Grenzphänomen der Thermodynamik.",
-  "quelle": "Baker et al. (2019): Atmospheric water cycling: measurement and modeling. Bulletin of the American Meteorological Society 100(11).",
-  "quelle_url": "https://doi.org/10.1175/BAMS-D-19-0041.1",
-  "datum": "2026-05-20"
+  "schon_gewusst": "Menschen, die selbst berichten, 'leicht ablenkbar' zu sein, zeigen oft eine höhere Aktivität in Kreativitätsnetzwerken des Gehirns und schneiden bei offenen, kreativen Aufgaben überraschend gut ab – während sie bei reinen Merkaufgaben tatsächlich schwächer sind.",
+  "quelle": "Smallwood et al. (2012): Task unrelated thought whilst encoding information. NeuroImage 61(2).",
+  "quelle_url": "https://doi.org/10.1016/j.neuroimage.2012.03.028",
+  "datum": "2026-05-21"
 }
