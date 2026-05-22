@@ -1,15 +1,15 @@
 {
-  "kategorie": "Psychologie",
-  "hauptkategorie": "Mensch & Gesellschaft",
-  "titel": "Die Lüge der Vergesslichkeit: Warum dein Gedächtnis nicht schwächer wird, sondern selektiver",
-  "stauner": "Wir denken, unsere Erinnerung bröckelt mit zunehmendem Alter. Tatsächlich werden wir nicht vergesslicher – unser Gehirn filtert nur bewusster, was es speichert. Das ist keine Schwäche, sondern neurologische Reife.",
+  "kategorie": "Archäologie",
+  "hauptkategorie": "Geschichte & Kultur",
+  "titel": "Die Lüge der stummen Höhlenmalereien: Warum prähistorische Künstler nicht malten, sondern sangen",
+  "stauner": "Höhlenmalereien entstanden nicht durch stille Pinselstriche, sondern waren Teil akustischer Rituale. Die Künstler nutzten die Echoakustik der Höhlen und platzierten ihre Handabdrücke bewusst an den resonanzreichsten Stellen – sie komponierten Klang und Bild zusammen.",
   "absaetze": [
-    "Die verbreitete Angst vor dem Gedächtnisverlust sitzt tief: Mit jedem Lebensjahrzehnt fürchten wir, mehr zu vergessen, weniger zu merken, langsamer zu denken. Forscher nennen diesen Niedergang 'kognitiven Verfall'. Doch diese Annahme verwechselt Quantität mit Qualität. Neuere Studien zeigen: Ältere Menschen vergessen nicht mehr – sie erinnern sich an weniger, weil sie weniger speichern.",
-    "Das Phänomen heißt 'kognitives Sampling': Mit steigender Lebenserfahrung lernt das Gehirn, Informationen nicht nach Menge, sondern nach Bedeutung zu bewerten. Ein 70-Jähriger kann sich bei gleicher Aufmerksamkeit weniger 'zufällige' Details merken als ein 20-Jähriger – aber dafür filtert er automatisch heraus, was irrelevant ist. Das Gehirn arbeitet nicht schlechter, es arbeitet schlauer. Es priorisiert unbewusst nach Lebenserfahrung statt nach Reizstärke.",
-    "Das ist nicht einfach trostreich, sondern fundamental wertvoll. Diese 'Vergesslichkeit' ist ein kognitives Feature, das Weisheit ermöglicht. Menschen, die ihre mentalen Ressourcen auf das Bedeutsame konzentrieren, treffen bessere Entscheidungen, bauen tiefere Beziehungen auf und sind emotional stabiler. Das, was wir als Gedächtnisverlust interpretation, ist tatsächlich der Übergang von Informationssammlung zu Sinnfindung."
+    "Wir stellen uns vor, wie einsame Künstler vor 40.000 Jahren in Höhlen knieten und konzentriert Tiere an Wände malten. Doch neuere Forschung zeigt: Diese 'stummen' Kunstwerke waren vermutlich Teil von Gesangsritualen. Die Platzierung der Handabdrücke in Höhlen wie Sulawesi und El Castillo folgt keinem zufälligen Muster – sie konzentrieren sich dort, wo die Höhle natürlicherweise Schall verstärkt.",
+    "Die britische Archäologin Iegor Reznikoff entdeckte, dass die Handabdrücke in Chauvet-Höhle in Frankreich gezielt an Positionen angebracht wurden, wo menschliche Vokale am weitesten hallen. Die roten und schwarzen Punkte entstanden nicht als reine Bilder, sondern als räumliche Partituren – der Künstler sang, während er malte, und nutzte die akustische Architektur seiner Höhle wie ein moderner Komponist ein Auditorium.",
+    "Das bedeutet: Prähistorische Menschen waren nicht visuell-stille Künstler, sondern multisensorische Performer. Sie verstanden Akustik, Raumgeometrie und rituelles Zusammenspiel von Klang und Bild auf einem Level, das wir lange Zeit nur modernen Kulturen zugetraut haben. Die Höhlenmalereien waren keine stummen Kunstgalerien, sondern klingende Tempel – Orte, wo Gesang und Bild zusammen eine Erfahrung schufen, die wir heute erst wieder verstehen lernen."
   ],
-  "schon_gewusst": "Menschen mit diagnostiziertem 'Gedächtnisverlust' können sich oft exzellent an emotionale und persönlich bedeutsame Ereignisse erinnern – weil die emotionale Filterung des Gehirns völlig intakt bleibt, während das episodische Speichern von Trivialitäten abnimmt.",
-  "quelle": "Nasreddine et al. (2005): The Montreal Cognitive Assessment (MoCA): A Brief Screening Tool For Mild Cognitive Impairment. Journal of the American Geriatrics Society 53(4).",
-  "quelle_url": "https://doi.org/10.1111/j.1532-5415.2005.53221.x",
-  "datum": "2026-05-21"
+  "schon_gewusst": "In der Höhle von Nerja in Spanien wurden 5.000 Jahre alte Stalagmiten gefunden, deren Form optimal für Perkussioninstrumente geeignet ist – archäologische Experimente zeigen, dass prähistorische Menschen diese systematisch als Schlaginstrumente nutzten und verschiedene Tonhöhen erzeugten.",
+  "quelle": "Reznikoff I. (2008): On the sound of rock art. Current Anthropology 49(3).",
+  "quelle_url": "https://doi.org/10.1086/528436",
+  "datum": "2026-05-22"
 }
