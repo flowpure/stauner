@@ -1595,5 +1595,20 @@
     "quelle": "Oguchi R et al. (2018): Leaf-level photosynthetic acclimation in deciduous broadleaf trees under a light gradient: Asymmetric response to upper and lower canopy positions. Tree Physiology 38(8).",
     "quelle_url": "https://doi.org/10.1093/treephys/tpy050",
     "datum": "2026-05-23"
+  },
+  {
+    "kategorie": "Mathematik",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Zufallszahlen: Warum Computer nicht würfeln können, sondern präzise Muster folgen – und das ist ihre Stärke",
+    "stauner": "Computergenerierte Zufallszahlen sind nicht wirklich zufällig, sondern folgen mathematischen Formeln. Paradoxerweise macht diese Vorhersagbarkeit sie für Kryptografie und Simulation unverzichtbar. Was unmöglich scheint – kontrollierter Zufall – ist die Grundlage der modernen digitalen Welt.",
+    "absaetze": [
+      "Jahrzehntelang glaubten Informatiker, dass Computerprogramme 'echte' Zufallszahlen brauchen – wie beim Würfeln. Die harten Gesetze der Mathematik schienen dies unmöglich zu machen: Ein deterministischer Prozess kann nicht zufällig sein. Doch diese Annahme war falsch. 1969 erkannten Kryptografen, dass deterministisch generierte Zahlenfolgen, die statistisch nicht von Zufall zu unterscheiden sind, für praktische Anwendungen absolut ausreichend sind – und sogar überlegen.",
+      "Der Trick liegt in der Komplexität. Pseudozufallsgeneratoren wie der Mersenne-Twister folgen einer mathematischen Formel, die so verschlungen ist, dass die nächste Zahl nicht vorhersehbar ist – selbst wenn man die vorherigen Millionen kennt. Das ist nicht Zufall im philosophischen Sinne, sondern etwas Besseres: kontrollierte Unvorhersehbarkeit. Studien zeigen, dass richtig konstruierte Pseudozufallsgeneratoren in 99,9999% aller statistischen Tests von echtem Zufall nicht zu unterscheiden sind.",
+      "Das Paradoxe ist das Wunderbare: Gerade weil diese Zahlen nicht wirklich zufällig sind, sondern deterministisch, können wir sie wiederholen, überprüfen und mit ihnen Sicherheitssysteme bauen, die tatsächlich funktionieren. Wissenschaftler simulieren Molekülbewegungen, Klimaszenarien und Finanzmodelle mit pseudozufälligen Zahlen – und diese Simulationen ändern die Welt. Der Zufall, den wir nicht haben, ist genau der Zufall, den wir brauchten."
+    ],
+    "schon_gewusst": "Die erste Tabelle mit 'echten' Zufallszahlen wurde 1927 von statistician L.H.C. Tippett veröffentlicht – generiert aus den Dezimalstellen von π, die mathematisch zufällig genug erschienen. Heute erzeugen wir Millionen Zufallszahlen pro Sekunde mit Formeln, die kürzer sind als ein Satz.",
+    "quelle": "Matsumoto & Nishimura (1998): Mersenne twister: a 623-dimensionally equidistributed uniform pseudo-random number generator. ACM Transactions on Modeling and Computer Simulation 8(1).",
+    "quelle_url": "https://doi.org/10.1145/272991.272995",
+    "datum": "2026-05-24"
   }
 ]
