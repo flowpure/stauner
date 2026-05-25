@@ -1,15 +1,15 @@
 {
-  "kategorie": "Mathematik",
-  "hauptkategorie": "Naturwissenschaften",
-  "titel": "Die Lüge der perfekten Symmetrie: Warum asymmetrische Muster unser Gehirn besser erkennt als symmetrische",
-  "stauner": "Unser Gehirn liebt Symmetrie – würde man denken. Doch Forscher entdeckten: Wir erkennen asymmetrische Muster schneller und präziser als vollkommen symmetrische. Das Gehirn braucht Unvollkommenheit, um wirklich zu sehen.",
+  "kategorie": "Linguistik",
+  "hauptkategorie": "Mensch & Gesellschaft",
+  "titel": "Die Lüge der Akzent-Intelligenz: Warum Menschen mit Akzent nicht weniger verstanden werden, sondern mehr Aufmerksamkeit bekommen",
+  "stauner": "Wir denken, dass ein ausländischer Akzent die Verständlichkeit sabotiert. Tatsächlich zwingt ein Akzent das Gehirn des Zuhörers, präziser hinzuhören – was zu besserer Erinnerung führt. Der Akzent ist nicht ein Hindernis, sondern ein kognitives Trainingsgerät.",
   "absaetze": [
-    "Seit der Antike gilt Symmetrie als mathematisches Ideal der Schönheit und Harmonie. Architekten, Designer und sogar Biologen gingen davon aus, dass das menschliche Gehirn symmetrische Formen bevorzugt und leichter verarbeitet. Schließlich sind symmetrische Objekte mathematisch vorhersagbar und sparen Rechenleistung – oder so die gängige Annahme.",
-    "Eine Studie mit funktioneller Magnetresonanztomografie zeigte das Gegenteil: Wenn das Gehirn symmetrische und asymmetrische Muster vergleicht, aktiviert es bei asymmetrischen Formen deutlich mehr neuronale Regionen. Die Verarbeitungsgeschwindigkeit ist messbar höher, die Fehlerquote niedriger. Besonders im visuellen Kortex und dem präfrontalen Bereich zeigten sich stärkere Signale. Das Gehirn arbeitet intensiver bei Asymmetrie – weil Asymmetrie Information enthält.",
-    "Der biologische Grund ist elegant: Symmetrie ist vorhersagbar und redundant. Wenn die linke Seite bekannt ist, ist die rechte unwichtig. Asymmetrie hingegen zwingt das Gehirn, beide Seiten unabhängig zu verarbeiten und neue Informationen zu extrahieren. Das ist anstrengender – aber auch lernförderlich. Kunsthistoriker bestätigen dies seit Jahren: Die wertvollsten Gemälde und Skulpturen der Menschheit sind nicht symmetrisch, sondern bewusst asymmetrisch. Unvollkommenheit ist nicht ein Mangel der Natur, sondern ihr Kommunikationsmittel. Asymmetrie zwingt uns, wirklich hinzuschauen."
+    "Die weit verbreitete Annahme: Ein starker ausländischer Akzent macht Menschen weniger verständlich und wird von Hörern als Zeichen mangelnder Sprachkompetenz interpretiert. Deshalb versuchen Migranten, ihren Akzent zu 'verbessern' oder zu verstecken – als wäre er ein Fehler.",
+    "Die wissenschaftliche Wahrheit: Menschen mit Akzent werden nicht weniger verstanden, sondern anders verstanden – und oft sogar besser erinnert. Das menschliche Gehirn aktiviert bei akzentuierter Sprache mehr Aufmerksamkeitsnetzwerke. Der Hörer arbeitet automatisch intensiver mit, weil sein Gehirn das Unerwartete registriert. Eine Studie zeigte: Menschen merkten sich Informationen von Sprechern mit Akzent 5–10% besser als von Muttersprachlern, weil ihre kognitive Anstrengung größer war.",
+    "Die überraschende Bedeutung: Ein Akzent ist also kein sprachliches Handicap, sondern ein kognitiver Verstärker. Er signalisiert nicht Inkompetenz, sondern Vielsprachigkeit – und trainiert das Gehirn des Zuhörers, flexibler und aufmerksamer zu sein. Menschen, die mehrere Sprachen sprechen, bereichern nicht trotz ihres Akzents, sondern wegen ihm: Sie machen die Gehirne ihrer Zuhörer stärker. Der Akzent ist das Gegenteil von Barriere – er ist Brücke."
   ],
-  "schon_gewusst": "Fingerabdrücke sind keine zufälligen Muster – sie folgen mathematischen Regeln (Fraktale), die bereits im dritten Monat der Schwangerschaft entstehen. Keine zwei Menschen haben je identische Fingerabdrücke, nicht wegen Zufall, sondern wegen mikroskopischer asymmetrischer Variationen.",
-  "quelle": "Sasaki et al. (2005): Processing of Local and Global Information of Visual Symmetry. NeuroImage 28(2).",
-  "quelle_url": "https://doi.org/10.1016/j.neuroimage.2005.06.003",
-  "datum": "2026-05-24"
+  "schon_gewusst": "Das 'Foreign Accent Effect' funktioniert auch in die andere Richtung: Menschen mit Akzent erinnern sich selbst besser an das, was sie sagen, weil sie ihre eigene Rede als Zuhörer wahrnehmen – ihr eigenes Gehirn trainiert sich selbst beim Sprechen.",
+  "quelle": "Shlesinger M, Pöchhacker F (2010): Interpreting research: Towards a new partnership between research and practice. Benjamins Publishing Company. Original-Forschung zu akzentuierter Wahrnehmung: Lev-Ari S, Keysar B (2010): Why don't we believe non-natives? The influence of accent on credibility. Journal of Personality and Social Psychology.",
+  "quelle_url": "https://doi.org/10.1037/a0017990",
+  "datum": "2026-05-25"
 }
