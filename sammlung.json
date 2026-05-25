@@ -1640,5 +1640,20 @@
     "quelle": "Shlesinger M, Pöchhacker F (2010): Interpreting research: Towards a new partnership between research and practice. Benjamins Publishing Company. Original-Forschung zu akzentuierter Wahrnehmung: Lev-Ari S, Keysar B (2010): Why don't we believe non-natives? The influence of accent on credibility. Journal of Personality and Social Psychology.",
     "quelle_url": "https://doi.org/10.1037/a0017990",
     "datum": "2026-05-25"
+  },
+  {
+    "kategorie": "Linguistik",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Wort-Reihenfolge: Warum dein Gehirn Sätze nicht von links nach rechts verarbeitet, sondern in Clustern springt",
+    "stauner": "Wir denken, dass wir Wörter der Reihe nach lesen – von vorne nach hinten. Tatsächlich springt dein Auge über 60% der Wörter, und dein Gehirn rekonstruiert den Sinn aus Bruchstücken. Diese 'intelligente Unordnung' macht dich schneller, nicht langsamer.",
+    "absaetze": [
+      "Die populäre Annahme ist hartnäckig: Beim Lesen verarbeitet unser Gehirn Wörter sequenziell, wie Perlen an einer Schnur. Wir beginnen links, enden rechts, und jedes Wort muss seinen Platz in dieser linearen Ordnung haben. Diese Vorstellung ist so intuitiv, dass sie in Schulen, beim Schreibenlernen und in der KI-Forschung als Grundwahrheit behandelt wird – doch sie ist fundamental falsch.",
+      "Die neurowissenschaftliche Realität ist faszinierender: Das menschliche Auge führt beim Lesen etwa 7-10 Fixationen pro Sekunde durch, überspringt dabei aber systematisch Funktionswörter wie 'der', 'und', 'zu'. Studien zeigen, dass 60-70% der Wörter in stillen Lesern gar nicht explizit wahrgenommen werden – das Gehirn 'füllt' sie hinzu. Gleichzeitig fixieren wir länger bei semantisch wichtigen Wörtern, bei unerwarteten Sinnsprüngen oder unbekannten Begriffen. Diese Sprünge folgen nicht der Satzstruktur, sondern dem Bedeutungsmuster. Das Gehirn verarbeitet also nicht 'Die-Katze-sitzt-auf-dem-Tisch', sondern nimmt Schlüsselwörter wie 'Katze', 'sitzt', 'Tisch' auf – und rekonstruiert den grammatischen Rahmen durch prädiktive Sprachverarbeitung, nicht durch Parsing von links nach rechts.",
+      "Diese Erkenntnis hat tiefgreifende positive Implikationen: Sie erklärt, warum Menschen mit Dyslexie durch andere Lesestrategien erfolgreich sein können – ihr Gehirn arbeitet vielleicht anders, aber nicht fehler­haft. Sie zeigt, warum schnelle Leser nicht 'einfach schneller' sind, sondern intelligenter mit ihrem kognitiven Fokus haushalten. Und sie enthüllt, dass Sprache nicht die lineare, mechanische Aktivität ist, die wir lehrten – sondern ein hochparalleles, vorhersagendes System, das Bedeutung aus Mustern konstruiert, nicht aus Sequenzen. Das macht Sprache nicht weniger präzise, sondern effizienter und menschlicher."
+    ],
+    "schon_gewusst": "Menschen können vollständige Sätze lesen, selbst wenn nur der erste und letzte Buchstabe jedes Wortes korrekt sind – 'Stnueido knennö Stzä lseen, achu wnen nru Anfnag und Edne krrkoet snd' wird oft fehlerfrei verstanden. Das zeigt, dass das Gehirn Wörter nicht Buchstabe-für-Buchstabe dekodiert, sondern visuelle Muster und Kontext kombiniert.",
+    "quelle": "Rayner K (1998): Eye movements in reading and information processing: 20 years of research. Psychological Bulletin 124(3).",
+    "quelle_url": "https://doi.org/10.1037/0033-2909.124.3.372",
+    "datum": "2026-05-25"
   }
 ]
