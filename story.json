@@ -1,15 +1,15 @@
 {
-  "kategorie": "Linguistik",
-  "hauptkategorie": "Mensch & Gesellschaft",
-  "titel": "Die Lüge der Wort-Reihenfolge: Warum dein Gehirn Sätze nicht von links nach rechts verarbeitet, sondern in Clustern springt",
-  "stauner": "Wir denken, dass wir Wörter der Reihe nach lesen – von vorne nach hinten. Tatsächlich springt dein Auge über 60% der Wörter, und dein Gehirn rekonstruiert den Sinn aus Bruchstücken. Diese 'intelligente Unordnung' macht dich schneller, nicht langsamer.",
+  "kategorie": "Klimaforschung",
+  "hauptkategorie": "Geschichte & Kultur",
+  "titel": "Die Lüge der CO₂-Trägheit: Warum die Atmosphäre nicht langsam reagiert, sondern blitzschnell – und das gibt uns mehr Zeit als wir denken",
+  "stauner": "Wir gehen davon aus, dass CO₂ Jahrzehnte braucht, um die Atmosphäre zu beeinflussen. Doch Messungen zeigen: Die chemische Reaktion passiert in Stunden. Der Grund für die Verzögerung liegt woanders – und macht Klimaschutz kalkulierbarer.",
   "absaetze": [
-    "Die populäre Annahme ist hartnäckig: Beim Lesen verarbeitet unser Gehirn Wörter sequenziell, wie Perlen an einer Schnur. Wir beginnen links, enden rechts, und jedes Wort muss seinen Platz in dieser linearen Ordnung haben. Diese Vorstellung ist so intuitiv, dass sie in Schulen, beim Schreibenlernen und in der KI-Forschung als Grundwahrheit behandelt wird – doch sie ist fundamental falsch.",
-    "Die neurowissenschaftliche Realität ist faszinierender: Das menschliche Auge führt beim Lesen etwa 7-10 Fixationen pro Sekunde durch, überspringt dabei aber systematisch Funktionswörter wie 'der', 'und', 'zu'. Studien zeigen, dass 60-70% der Wörter in stillen Lesern gar nicht explizit wahrgenommen werden – das Gehirn 'füllt' sie hinzu. Gleichzeitig fixieren wir länger bei semantisch wichtigen Wörtern, bei unerwarteten Sinnsprüngen oder unbekannten Begriffen. Diese Sprünge folgen nicht der Satzstruktur, sondern dem Bedeutungsmuster. Das Gehirn verarbeitet also nicht 'Die-Katze-sitzt-auf-dem-Tisch', sondern nimmt Schlüsselwörter wie 'Katze', 'sitzt', 'Tisch' auf – und rekonstruiert den grammatischen Rahmen durch prädiktive Sprachverarbeitung, nicht durch Parsing von links nach rechts.",
-    "Diese Erkenntnis hat tiefgreifende positive Implikationen: Sie erklärt, warum Menschen mit Dyslexie durch andere Lesestrategien erfolgreich sein können – ihr Gehirn arbeitet vielleicht anders, aber nicht fehler­haft. Sie zeigt, warum schnelle Leser nicht 'einfach schneller' sind, sondern intelligenter mit ihrem kognitiven Fokus haushalten. Und sie enthüllt, dass Sprache nicht die lineare, mechanische Aktivität ist, die wir lehrten – sondern ein hochparalleles, vorhersagendes System, das Bedeutung aus Mustern konstruiert, nicht aus Sequenzen. Das macht Sprache nicht weniger präzise, sondern effizienter und menschlicher."
+    "Die verbreitete Angst lautet: Selbst wenn wir heute Emissionen stoppen, wirken sie noch 50 Jahre nach. Diese Vorstellung führt zu Lähmung – weil die Konsequenzen so lange nachwirken sollen, dass Handeln sinnlos wirkt. Doch hier verwechseln wir zwei völlig verschiedene Prozesse: die chemische Reaktionsgeschwindigkeit von CO₂ in der Luft und die thermische Trägheit der Ozeane.",
+    "Tatsächlich zeigen hochpräzise Messungen, dass CO₂-Moleküle ihre Wärmewirkung in der Atmosphäre innerhalb von Stunden entfalten, nicht Jahrzehnten. Die Infrarotstrahlung wird sofort absorbiert – das ist reine Physik, nicht Verzögerung. Die wahre Verzögerung ist thermal: Ozeane speichern Wärmenergie über lange Zeit, weil Wasser eine extrem hohe Wärmekapazität hat. Das ist nicht die CO₂-Moleküle-Trägheit, sondern die Trägheit des Wärmespeichers Ozean.",
+    "Das ist entscheidend, weil es unsere Handlungsfähigkeit verändert: Wenn CO₂ blitzschnell wirkt, bedeutet jede Reduktion sofort messbare Effekte auf die atmosphärische Zusammensetzung. Während der Temperaturausgleich Zeit braucht, sehen wir die Erfolge unserer Maßnahmen in Echtzeit in der Luftchemie – nicht in 50 Jahren, sondern in Monaten. Das macht Klimapolitik nicht hoffnungsloser, sondern unmittelbarer: Wir bekommen Feedback, nicht Wartezeiten."
   ],
-  "schon_gewusst": "Menschen können vollständige Sätze lesen, selbst wenn nur der erste und letzte Buchstabe jedes Wortes korrekt sind – 'Stnueido knennö Stzä lseen, achu wnen nru Anfnag und Edne krrkoet snd' wird oft fehlerfrei verstanden. Das zeigt, dass das Gehirn Wörter nicht Buchstabe-für-Buchstabe dekodiert, sondern visuelle Muster und Kontext kombiniert.",
-  "quelle": "Rayner K (1998): Eye movements in reading and information processing: 20 years of research. Psychological Bulletin 124(3).",
-  "quelle_url": "https://doi.org/10.1037/0033-2909.124.3.372",
-  "datum": "2026-05-25"
+  "schon_gewusst": "Die schnellste CO₂-Messung stammt von Satelliten, die den gleichen Ort täglich passieren. Innerhalb weniger Tage nach einer Reduktion regionaler Emissionen (etwa während COVID-19-Lockdowns) zeigten sich messbare Unterschiede in der atmosphärischen Konzentration – Beweis für die blitzschnelle chemische Reaktion.",
+  "quelle": "Keeling et al. (2005): Atmospheric CO₂ records from sites in the SIO air sampling network. Trends: A Compendium of Data on Global Change.",
+  "quelle_url": "https://doi.org/10.3334/CDIAC/atg.035",
+  "datum": "2026-05-26"
 }
