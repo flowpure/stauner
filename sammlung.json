@@ -1685,5 +1685,20 @@
     "quelle": "Schmidt et al. (2010): Attribution of the present-day total greenhouse gas effect. Journal of Geophysical Research 115(D20106).",
     "quelle_url": "https://doi.org/10.1029/2010JD014287",
     "datum": "2026-05-26"
+  },
+  {
+    "kategorie": "Mikrobiologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Bakterien-Langsamkeit: Warum Mikroben nicht träge sind, sondern in Millisekunden ihre Umwelt kartografieren",
+    "stauner": "Bakterien sind nicht die primitiven, passiven Organismen, als die wir sie lange hielten. Sie treffen komplexe Entscheidungen in Echtzeit und kommunizieren dabei chemisch mit Millionen anderen Zellen – alles in Sekundenschnelle.",
+    "absaetze": [
+      "Die klassische Annahme: Bakterien sind einfache, unkoordinierte Organismen, die zufällig umherschwimmen und nur dann reagieren, wenn sie zufällig auf Nährstoffe oder Gefahren stoßen. Diese Vorstellung basiert auf dem alten Bild von Mikroben als bloße Zellbeutel ohne Intelligenz oder Planung.",
+      "Die Realität ist radikal anders. Bakterien besitzen ein raffiniertes System namens Quorum Sensing, durch das sie kontinuierlich ihre Umgebung scannen und mit anderen Zellen kommunizieren. Sie produzieren chemische Signalmoleküle (Autoinducer), deren Konzentration anzeigt, wie viele Artgenossen in der Nähe sind. Wenn ein kritischer Schwellenwert erreicht ist, koordinieren Millionen von Zellen synchron ihre Gene neu – sie schalten gemeinsam zu aggressiverer Fortpflanzung, Nährstoffverwertung oder sogar zum Bilden von Biofilmen um. Ein einzelnes E.-coli-Bakterium kann dabei in unter 100 Millisekunden die chemischen Gradienten um sich herum erfassen und seine Bewegungsrichtung korrigieren.",
+      "Das Überraschende: Dieses System ist nicht primitiv – es ist hocheffizient. Bakterien optimieren damit ihre Überlebenschancen in völlig unbekannten Umgebungen, koordinieren komplexe Gruppenaktionen ohne zentrales Gehirn und passen sich an verändernde Bedingungen an, bevor größere Organismen überhaupt etwas bemerkt haben. Quorum Sensing ermöglicht es Billionen von Mikroben, als ein koordiniertes Ganzes zu funktionieren – ähnlich wie ein dezentrales Netzwerk, das sich selbst organisiert. Dieses Verständnis revolutioniert nicht nur die Mikrobiologie, sondern auch unsere Ideen von künstlicher Intelligenz und verteilten Systemen."
+    ],
+    "schon_gewusst": "Pathogene Bakterien nutzen Quorum Sensing auch, um zu entscheiden, wann sie giftige Stoffe produzieren – aber nur wenn genug Zellen vorhanden sind, um tatsächlich Schaden anzurichten. Antibiotika, die dieses System blockieren, könnten eines Tages Infektionen bekämpfen, ohne Bakterien zu töten und damit Resistenzen zu züchten.",
+    "quelle": "Bassler BL & Losick R (2006): Bacterially Speaking. Cell 125(2): 237-246.",
+    "quelle_url": "https://doi.org/10.1016/j.cell.2006.04.001",
+    "datum": "2026-05-27"
   }
 ]
