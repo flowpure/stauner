@@ -1700,5 +1700,20 @@
     "quelle": "Bassler BL & Losick R (2006): Bacterially Speaking. Cell 125(2): 237-246.",
     "quelle_url": "https://doi.org/10.1016/j.cell.2006.04.001",
     "datum": "2026-05-27"
+  },
+  {
+    "kategorie": "Mikrobiologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Mikroben-Einzelgänger: Warum Bakterien nicht isoliert überleben, sondern in Quorum-Sensing-Netzwerken kollektiv denken",
+    "stauner": "Bakterien sind keine vereinzelten Überlebenskünstler, sondern kommunizieren über chemische Botschaften und treffen Gruppenbeschlüsse wie ein verteiltes Gehirn. Diese 'mikrobielle Demokratie' ermöglicht es ihnen, komplexe Probleme zu lösen, die einzelne Zellen nie bewältigen könnten.",
+    "absaetze": [
+      "Lange Zeit betrachteten Wissenschaftler Bakterien als primitive Einzeller, die unabhängig voneinander existieren und sich nur durch mechanischen Druck oder Nährstoffmangel vermehren oder absterben. Doch diese Vorstellung ist fundamental falsch. Bakterien sind organisierte Gemeinschaften, die über ein raffiniertes Kommunikationssystem namens 'Quorum Sensing' Entscheidungen treffen – nicht als Einzelne, sondern als koordinierte Kollektive.",
+      "Das Quorum-Sensing-System funktioniert wie folgt: Jede Bakterienzelle produziert chemische Signalmoleküle, sogenannte Autoinducer, und scheidet sie aus. Wenn die Bakteriendichte steigt, akkumulieren diese Moleküle in der Umgebung, bis eine kritische Konzentration erreicht ist. Dann 'erkennen' alle Zellen gleichzeitig, dass genug Nachbarn vorhanden sind, und schalten ihre Gene koordiniert um – ähnlich wie Vögel in einem Schwarm plötzlich die Richtung ändern. Dies ermöglicht massives Kooperationsverhalten: Biolumineszenz bei Vibrio fischeri (leuchtende Bakterien), Biofilm-Bildung, Antibiotika-Produktion oder gemeinsame Virulenz bei pathogenen Arten. Eine einzelne Zelle würde diese Strategien niemals verfolgen – nur die Masse macht es sinnvoll.",
+      "Diese Entdeckung zeigt: Mikroben sind nicht primitive Überlebenskünstler, sondern soziale Organismen mit verteilter Intelligenz. Sie haben das Problem der Koordination ohne Gehirn gelöst – durch chemische Demokratie. Für uns bedeutet das, dass komplexe, intelligente Verhaltensweisen nicht an Großhirnrindengröße gebunden sind, sondern durch einfache, elegante Kommunikationsprotokolle entstehen. Diese Erkenntnisse helfen uns nicht nur, Infektionen zu bekämpfen (indem wir ihr Quorum Sensing blockieren), sondern auch zu verstehen, wie Intelligenz überhaupt entsteht – von den kleinsten Organismen bis zu uns."
+    ],
+    "schon_gewusst": "Manche Bakterien betreiben auch 'Quorum Quenching' – sie produzieren Enzyme, die die Signalmoleküle anderer Bakterien abbauen und so deren Kommunikation sabotieren. Es ist mikrobielle Informationskriegsführung in Echtzeit.",
+    "quelle": "Whitehead et al. (1990): Genetic identification and characterization of a luminescence repressor of Vibrio fischeri. Journal of Bacteriology 172(6).",
+    "quelle_url": "https://doi.org/10.1128/jb.172.6.3289-3295.1990",
+    "datum": "2026-05-27"
   }
 ]
