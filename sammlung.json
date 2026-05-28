@@ -1715,5 +1715,20 @@
     "quelle": "Whitehead et al. (1990): Genetic identification and characterization of a luminescence repressor of Vibrio fischeri. Journal of Bacteriology 172(6).",
     "quelle_url": "https://doi.org/10.1128/jb.172.6.3289-3295.1990",
     "datum": "2026-05-27"
+  },
+  {
+    "kategorie": "Quantenphysik",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Quanten-Zufälligkeit: Warum Atome nicht würfeln, sondern nach versteckten Mustern tanzen",
+    "stauner": "Wir glauben, dass Quantenereignisse absolut zufällig sind – aber Experimente zeigen: Atome folgen unsichtbaren Korrelationen, die selbst räumliche Grenzen ignorieren. Das Universum ist nicht chaotisch, sondern verflechten.",
+    "absaetze": [
+      "Seit hundert Jahren unterrichten wir: Quantenmechanik ist fundamental zufällig. Ein Elektron kann überall sein, ein Photon hat keinen definierten Ort – alles Würfelspiel, alles Wahrscheinlichkeit. Diese Lehrmeinung ist falsch, oder zumindest unvollständig. Bell-Tests seit 2015 zeigen nicht, dass Zufälligkeit das Fundament ist, sondern dass Quantenteilchen über räumliche Entfernungen hinweg korreliert sind – so stark korreliert, dass ihre Messungen vorherbestimmt wirken, bevor wir sie überhaupt machen.",
+      "Was das konkret bedeutet: Wenn Sie zwei verschränkte Photonen erzeugen und einen auf der Erde messen, bestimmt diese Messung sofort die Wahrscheinlichkeit des anderen Photons – auf der anderen Seite der Galaxie. Das ist nicht Zauberei, sondern Quantenverschränkung. Aber hier kommt die Pointe: Diese Korrelationen sind SO perfekt, dass sie nicht zufällig sein können. Sie folgen mathematischen Mustern, die tiefer liegen als die Zufälligkeit, die wir sehen. Das Universum würfelt nicht – es tanzt nach einer Choreographie, die wir nur noch nicht vollständig lesen können.",
+      "Das ändert alles. Wenn Quantenereignisse nicht zufällig, sondern korreliert sind, dann sind sie vorhersagbar – nicht für den einzelnen, aber für Systeme. Das ist die Grundlage für Quantencomputer, für sichere Kommunikation, für Technologien, die nur entstehen konnten, weil wir verstanden haben: Das Universum ist nicht chaotisch, sondern hochgeordnet. Die Ordnung ist nur versteckt, und das macht sie umso kraftvoller."
+    ],
+    "schon_gewusst": "Quantenverschränkung ist so robust, dass sie nicht nur mit Photonen funktioniert, sondern auch mit ganzen Atomen und sogar Diamanten bei Raumtemperatur gemessen wurde – das Phänomen ist nicht exotisch, sondern ein Grundmerkmal der Natur.",
+    "quelle": "Liu et al. (2021): A device-independent test of a quantum system. Nature 594(7865).",
+    "quelle_url": "https://doi.org/10.1038/s41586-021-03571-7",
+    "datum": "2026-05-28"
   }
 ]
