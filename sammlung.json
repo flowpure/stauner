@@ -1730,5 +1730,20 @@
     "quelle": "Liu et al. (2021): A device-independent test of a quantum system. Nature 594(7865).",
     "quelle_url": "https://doi.org/10.1038/s41586-021-03571-7",
     "datum": "2026-05-28"
+  },
+  {
+    "kategorie": "Quantenphysik",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Quanten-Geister: Warum verschränkte Teilchen nicht magisch kommunizieren, sondern einfach niemals getrennt waren",
+    "stauner": "Wir glauben, dass Quantenverschränkung zwei Teilchen über beliebige Entfernungen 'magisch verbinden' – als würden sie blitzschnell Nachrichten austauschen. Aber die Wahrheit ist radikaler: Sie waren niemals wirklich getrennt. Ein Single-Photonen-Experiment zeigt, dass Verschränkung nicht Fernwirkung ist, sondern eine tiefe strukturelle Einheit der Quantenrealität.",
+    "absaetze": [
+      "Die populäre Erzählung ist überzeugend: Wenn zwei Quantenteilchen verschränkt sind und man misst das eine, 'weiß' das andere sofort Bescheid – unabhängig von der Entfernung, sogar wenn sie Millionen Kilometer auseinander sind. Das klingt nach Spukhafte Fernwirkung, wie Einstein sagte. Deshalb sprechen wir von 'Quanten-Teleportation' und 'spooky action at a distance'. Die Vorstellung ist, dass zwei getrennte Objekte irgendwie verbunden bleiben.",
+      "Aber hier ist das Überraschende: Verschränkte Teilchen kommunizieren nicht miteinander. Sie sind nicht zwei separate Dinge, die sich 'absprechen'. Sie sind vielmehr zwei Messungen desselben quantenmechanischen Systems. Wenn du einen verschränkten Zustand misst, offenbarst du nicht eine Information, die der andere Teil 'erhält' – du machst nur sichtbar, was bereits in der mathematischen Struktur des einen Systems kodiert war. Das zeigen elegante Experimente mit Single-Photonen: Ein einzelnes Photon kann keine Information übertragen, aber seine Verschränkung mit anderen verrät, dass alle Teile immer schon eine Einheit waren.",
+      "Das ist nicht weniger faszinierend als die alte Geschichte – es ist eigentlich tiefer. Statt 'magische Fernwirkung' zeigt sich hier eine fundamentale Erkenntnis: Quantenrealität ist nicht aus voneinander unabhängigen, lokalisierten Teilchen gebaut, sondern aus Korrelationen und Beziehungen, die vor jeder Messung existieren. Das eröffnet eine völlig neue Sicht auf Zusammenhang in der Physik – nicht als Kraft, sondern als inhärente Struktur."
+    ],
+    "schon_gewusst": "Eine einzelne Lichtwelle kann nicht mit ihrer eigenen Verschränkung kommunizieren – aber wenn mehrere Photonen aus derselben Quelle stammen, offenbaren ihre Messergebnisse perfekte Korrelationen, obwohl keine Information übertragen wurde. Das ist nicht Magie, sondern Kohärenz.",
+    "quelle": "Aspect et al. (1982): Experimental test of Bell's inequalities using time-varying analyzers. Physical Review Letters 49(25).",
+    "quelle_url": "https://doi.org/10.1103/PhysRevLett.49.1804",
+    "datum": "2026-05-28"
   }
 ]
