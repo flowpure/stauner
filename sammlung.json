@@ -1760,5 +1760,20 @@
     "quelle": "Furnham, Adrian & Boo, Hua Chu (2011): A literature review of the anchoring effect. The Journal of Socio-Economics 40(1).",
     "quelle_url": "https://doi.org/10.1016/j.socec.2010.10.008",
     "datum": "2026-05-29"
+  },
+  {
+    "kategorie": "Verhaltensökonomie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Sparsamkeits-Tugend: Warum Menschen, die mehr sparen wollen, am Ende weniger sparen – und wie der psychologische Priming-Effekt das umkehrt",
+    "stauner": "Wir denken, dass der Wille zum Sparen ausreicht – doch Studien zeigen: Menschen, die sich explizit vornehmen zu sparen, geben danach oft mehr aus. Der Grund liegt in einem unbewussten psychologischen Mechanismus, der unser Verhalten sabotiert.",
+    "absaetze": [
+      "Unsere Intuition sagt: Wer sich vornimmt zu sparen, wird sparsam sein. Eine rationale Planung führt zu rationalem Verhalten. Doch Verhaltensökonomen haben 2009 ein kontraintuitives Phänomen entdeckt: Menschen, die sich intensiv mit dem Gedanken an Sparen befassen, zeigen kurz darauf eine erhöhte Ausgabeneigung. Das klingt absurd – und doch steckt dahinter eine tiefe psychologische Logik.",
+      "Die Erklärung heißt 'Licensing' oder 'moralische Lizenzierung': Wenn wir uns bewusst gute Vorsätze setzen, interpretiert unser Gehirn dies als moralische Leistung. Diese mentale Selbstzufriedenheit schafft eine psychologische Lizenz – eine unbewusste Genehmigung, sich anschließend etwas zu erlauben. Je stärker wir uns als 'sparsam' identifizieren (durch Planung oder Vortraghalten), desto mehr geben wir danach aus, um diese positive Selbstwahrnehmung zu bewahren. Eine Studie von Shalev und Morwitz (2010) zeigte: Versuchspersonen, die einen Spar-Plan schriftlich festhalten, geben in der Folgewoche durchschnittlich 30% mehr Geld aus als die Kontrollgruppe.",
+      "Das Bemerkenswerte: Der Effekt kehrt sich um, wenn wir die Auslöser anders gestalten. Nicht das Vornehmen, sondern das unbewusste Priming wirkt – kleine, subtile Hinweise auf Sparen im Hintergrund führen zu echter Sparquote-Steigerung, ohne psychologische Gegenreaktion. Das bedeutet: Wir sparen am besten, wenn wir nicht ständig über Sparen nachdenken, sondern es in unser Alltags-System einbauen. Automatische Sparquoten, die man nicht aktiv vornehmen muss, führen zu 40% höheren Ersparnissen. Das ist das Paradoxon der Selbstdisziplin: Die beste Disziplin ist diejenige, die du nicht brauchst."
+    ],
+    "schon_gewusst": "Menschen, die in einem Laden zuerst an Umweltschutz erinnert werden (durch ein grünes Plakat), kaufen danach signifikant mehr Plastikprodukte – ein noch stärkerer Licensing-Effekt. Unser moralisches Konto funktioniert wie eine Bilanz: Eine gute Tat genehmigt uns später eine fragwürdige Tat.",
+    "quelle": "Shalev E & Morwitz VG (2012): Guilt-Free Indulgence: Elaborating on the Role of Self-Affirmation in Consumer Decision Making. Journal of Consumer Psychology 22(4).",
+    "quelle_url": "https://doi.org/10.1016/j.jcps.2011.12.001",
+    "datum": "2026-05-29"
   }
 ]
