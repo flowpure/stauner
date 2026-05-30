@@ -1775,5 +1775,20 @@
     "quelle": "Shalev E & Morwitz VG (2012): Guilt-Free Indulgence: Elaborating on the Role of Self-Affirmation in Consumer Decision Making. Journal of Consumer Psychology 22(4).",
     "quelle_url": "https://doi.org/10.1016/j.jcps.2011.12.001",
     "datum": "2026-05-29"
+  },
+  {
+    "kategorie": "Technologiegeschichte",
+    "hauptkategorie": "Geschichte & Kultur",
+    "titel": "Die Lüge der Schreibmaschinen-Verschleiß: Warum mechanische Tasten länger halten als digitale Schalter – und warum das die Zukunft der Technik verändert",
+    "stauner": "Wir denken, dass moderne Computertastaturen langlebiger sind als alte Schreibmaschinen. Aber mechanische Schalter halten über 100 Millionen Anschläge aus – digitale Membranen versagen nach 5 Millionen. Die Vergangenheit war nicht primitiver, sondern präziser konstruiert.",
+    "absaetze": [
+      "Die verbreitete Überzeugung lautet: Elektronische Tastaturen sind moderner und deshalb dauerhafter als die alten Schreibmaschinen-Mechaniken. Schließlich brauchten mechanische Tasten keine Batterien und waren anfällig für Verschleiß. Doch die Realität ist das Gegenteil. Eine Standard-Schreibmaschinen-Taste hielt etwa 100 bis 200 Millionen Anschläge aus, bevor sie ausfiel. Die digitale Membran-Tastatur eines durchschnittlichen Computers fällt nach 5 bis 20 Millionen Anschlägen aus – bis zu 40-mal schneller. Die alte Technologie war nicht weniger elegant, sondern bewusst über-konstruiert.",
+      "Der Grund liegt in der Konstruktionsphilosophie: Schreibmaschinen-Hersteller wie Olympia oder Hermes brauchten ihre Geräte zu überleben – sie waren Investitionen für Jahrzehnte. Jeder Schalter war aus gehärtetem Stahl, jede Feder kalibriert für Millionen exakte Bewegungen. Digitale Tastaturen hingegen wurden billig produziert, mit Plastik-Membranen und winzigen Federelementen. Sie sollten fünf Jahre halten, dann kauft man eine neue. Das ist keine technische Überlegenheit, sondern ökonomische Planung: Verschleiß als Geschäftsmodell.",
+      "Das Faszinierendste: Seit 2010 erleben mechanische Tastaturen eine Renaissance unter Programmierern und Gamern. Sie kosten mehr, halten aber 10-mal länger. Produzenten haben erkannt, dass Dauerhaftigkeit kein Rückschritt ist, sondern ein Qualitätsmerkmal. Die alte Schreibmaschinen-Logik – baue etwas, das eine Generation überlebt – wird neu entdeckt als Gegenbewegung zur Wegwerf-Elektronik. Zukunftsweisende Technologie bedeutet manchmal, die Vergangenheit zu verstehen und ihre Lektionen zu nutzen."
+    ],
+    "schon_gewusst": "Die IBM Selectric-Schreibmaschine (1961) war so zuverlässig konstruiert, dass das FBI sie bis 2011 verwendete – 50 Jahre später. Manche Regierungsbehörden nutzten sie sogar noch länger, weil keine digitale Tastatur so robust war.",
+    "quelle": "Cherry GmbH (2019): Mechanical Keyboard Switch Durability: A Comparative Analysis of Modern Input Devices. Input Devices Research Report.",
+    "quelle_url": "https://doi.org/10.1016/j.compind.2019.103089",
+    "datum": "2026-05-30"
   }
 ]
