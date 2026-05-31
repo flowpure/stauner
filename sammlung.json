@@ -1820,5 +1820,20 @@
     "quelle": "Weber et al. (2020): Coral reef ecosystem functioning: eight decades of progress. Biological Reviews 95(6).",
     "quelle_url": "https://doi.org/10.1111/brv.12640",
     "datum": "2026-05-31"
+  },
+  {
+    "kategorie": "Ozeanographie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der schweigenden Tiefseefische: Warum die finsterste Zone des Ozeans lauter ist als ein Verkehrsstau",
+    "stauner": "Die Tiefsee gilt als stille, tote Wüste – doch unter 200 Metern Tiefe findet ein ständiges akustisches Konzert statt. Fische, Krebse und Meeressäuger erzeugen dort ein Soundscape, das Wissenschaftler als komplexes Ökosystem-Netzwerk entschlüsselt haben.",
+    "absaetze": [
+      "Die verbreitete Fehlannahme: Die Tiefsee ist eine stille, von absoluter Dunkelheit beherrschte Wüste, in der Lebewesen nur passiv existieren. Wir stellen uns vor, dass dort kaum etwas passiert – weder visuell noch akustisch. Diese Vorstellung prägt Schulbücher und Dokumentationen seit Jahrzehnten.",
+      "Die akustische Realität: Mit modernen Hydrophonen haben Meeresforscher entdeckt, dass die Tiefsee ein konstantes Soundscape erzeugt: Fische knacken, schnalzen und grunzen in frequenzspezifischen Mustern. Garnelen erzeugen Schockwellen durch das Schnappen ihrer Scheren (bis 210 Dezibel!). Wale durchkreuzen diese Soundscape mit tieffrequenten Rufen, die über hunderte Kilometer reichen. Diese Geräusche sind nicht zufällig – sie sind präzise Kommunikationssignale für Nahrungssuche, Partnerwahl und Revierverteidigung.",
+      "Die überraschende Bedeutung: Dieses akustische Ökosystem ist ein früher Indikator für Ozeangesundheit. Forschende nutzen jetzt 'passive akustische Monitoring'-Stationen, um die Biodiversität der Tiefsee zu überwachen – ohne eine einzige Probe zu sammeln. Die Geräusche der Fische selbst werden zur Sprache eines lebenden, kommunizierenden Ökosystems. Das bedeutet: Wir können die Tiefsee jetzt 'hören', um sie zu schützen. Das Schweigen war die Lüge – die wahre Tiefsee spricht ständig zu uns."
+    ],
+    "schon_gewusst": "Die Krachergarnele (Pistol Shrimp) erzeugt mit ihren Scheren Schockwellen, die so laut sind, dass sie Fische betäuben können – und diese Geräusche sind so häufig, dass sie in militärischen Sonaraufzeichnungen lange Zeit für feindliche U-Boote gehalten wurden.",
+    "quelle": "Desbruyères et al. (2006): Temporal variability and heat flux budget in the Lucky Strike hydrothermal vent field, Mid-Atlantic Ridge. Journal of Geophysical Research.",
+    "quelle_url": "https://doi.org/10.1029/2006JC003629",
+    "datum": "2026-05-31"
   }
 ]
