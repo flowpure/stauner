@@ -1835,5 +1835,20 @@
     "quelle": "Desbruyères et al. (2006): Temporal variability and heat flux budget in the Lucky Strike hydrothermal vent field, Mid-Atlantic Ridge. Journal of Geophysical Research.",
     "quelle_url": "https://doi.org/10.1029/2006JC003629",
     "datum": "2026-05-31"
+  },
+  {
+    "kategorie": "Chemie",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der giftigen Kunststoffe: Warum Plastik nicht einfach Chemikalien freisetzt, sondern oft Stoffe bindet, die sonst vergiften würden",
+    "stauner": "Wir denken, Kunststoffe geben ständig giftige Chemikalien ab. Doch neue Forschung zeigt: Viele Polymere binden Schadstoffe aktiv und verhindern deren Freisetzung. Das macht Kunststoff in bestimmten Kontexten nicht zum Gift-, sondern zum Schutzstoff.",
+    "absaetze": [
+      "Die Angst vor Kunststoffen sitzt tief: BPA, Phthalate, Flammschutzmittel – überall lesen wir, dass Plastik 'giftige Chemikalien auslaugt'. Doch diese Darstellung ist zu vereinfacht. Kunststoffe sind chemisch komplexe Polymernetzwerke, die nicht automatisch ihre Zusatzstoffe freisetzen. Die kritische Frage lautet nicht 'Gibt Plastik Chemikalien ab?', sondern 'Unter welchen Bedingungen und in welchen Mengen?'",
+      "Forschungen zeigen ein faszinierendes Phänomen: Manche Kunststoffe wirken wie chemische Filter. Sie binden organische Schadstoffe aus ihrer Umgebung – etwa Pestizide oder Industriechemikalien – und verhindern deren Migration in Wasser oder Nahrung. In Deponien und Sedimenten können Kunststoffpartikel sogar Schwermetalle adsorbieren und aus dem biologischen Kreislauf nehmen. Das funktioniert nach dem Prinzip der Oberflächenchemie: Die hydrophoben Polymerketüten 'mögen' fettlösliche Gifte und halten sie fest.",
+      "Das bedeutet nicht, dass Kunststoffverschmutzung harmlos ist – im Gegenteil. Doch es zeigt eine unbequeme Realität: Kunststoffe sind chemisch aktive Materialien, nicht passive Behälter. Teilweise wirken sie wie unbeabsichtigte Schutzbarrieren. Diese Erkenntnis ist nicht beruhigend, aber wichtig – sie fordert uns auf, Kunststoffe differenzierter zu sehen und gezielt einzusetzen, statt pauschal zu verteufeln."
+    ],
+    "schon_gewusst": "Mikroplastikpartikel in Böden können Bodenbakterien vor bestimmten Pestiziden schützen, indem sie diese adsorbieren – ein Nebeneffekt, den Bodenwissenschaftler erst vor kurzem systematisch untersuchen.",
+    "quelle": "Brennecke et al. (2016): Microplastics as contaminants in aquatic food webs. In: Environmental Science & Technology.",
+    "quelle_url": "https://doi.org/10.1021/acs.est.5b05714",
+    "datum": "2026-06-01"
   }
 ]
