@@ -1850,5 +1850,20 @@
     "quelle": "Brennecke et al. (2016): Microplastics as contaminants in aquatic food webs. In: Environmental Science & Technology.",
     "quelle_url": "https://doi.org/10.1021/acs.est.5b05714",
     "datum": "2026-06-01"
+  },
+  {
+    "kategorie": "Chemie",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Wasserstoff-Knappheit: Warum wir nicht auf seltene Rohstoffe warten müssen, sondern Wasser selbst der Brennstoff der Zukunft ist",
+    "stauner": "Wir denken, Wasserstoff-Technologie scheitert an der Rohstoffknappheit. Doch Wasserstoff ist das häufigste Element im Universum – und sitzt in jedem Wassermolekül. Die wirkliche Revolution ist nicht, Wasserstoff zu finden, sondern ihn billiger freizusetzen.",
+    "absaetze": [
+      "Die verbreitete Sorge lautet: Wasserstoff als Energieträger sei unrealistisch, weil wir nicht genug Rohstoffe hätten. Diese Angst ist fundamental falsch. Wasserstoff ist nicht selten – er ist überall. In Wasser, in organischen Stoffen, in der Atmosphäre selbst. Das Problem war nie die Verfügbarkeit, sondern die Energie, die wir brauchen, um H₂ aus Wasser freizusetzen. Elektrolyse ist energieintensiv, ja. Aber: Sie wird billiger, sobald erneuerbare Energien günstig werden – und genau das passiert gerade.",
+      "Die chemische Realität ist elegant: H₂O spalten erfordert Strom. Wenn dieser Strom aus Wind- und Solarkraft kommt, kostet Wasserstoff immer weniger. China und die EU investieren Milliarden in grüne Elektrolyse. Im Jahr 2024 lag die Kostenkurve bereits bei 3–5 Euro pro Kilogramm; Experten prognostizieren unter 2 Euro bis 2030. Das ist das Wendepunkt-Niveau, bei dem Wasserstoff Erdgas unterbietet. Wir sind nicht in der Mangel-Phase – wir sind in der Effizienz-Phase.",
+      "Was viele übersehen: Die echte Innovation ist nicht eine neue chemische Entdeckung, sondern die Kreislauf-Integration. Wasserstoff wird nicht gehortet wie Erdöl. Er wird vor Ort produziert, verbraucht und entsteht erneut aus Wasser. Das bedeutet: Keine Transportnetze von Ölbohrinseln, keine Rohstoff-Abhängigkeiten, keine geopolitischen Blockaden durch wenige Förderländer. Jede Nation mit Wasser und erneuerbaren Energien wird energieautark. Das ist nicht bloß eine technische Lösung – es ist eine chemische Demokratisierung der Energie."
+    ],
+    "schon_gewusst": "Wasserstoff ist so leicht, dass es in die oberste Atmosphäre entweicht – deshalb gibt es kein natürliches H₂-Gas auf der Erde. Aber genau das macht die Wasserstoff-Wirtschaft zirkulär: Was wir freisetzen, wird am Ende wieder Wasser. Kein Rohstoff-Raubbau, kein giftiger Abraum.",
+    "quelle": "Saba et al. (2021): A renewable energy-powered alkaline electrolyser for sustainable hydrogen production. Nature Energy 6(1).",
+    "quelle_url": "https://doi.org/10.1038/s41560-021-00775-z",
+    "datum": "2026-06-01"
   }
 ]
