@@ -1911,5 +1911,20 @@
     "quelle": "Simard et al. (1997): Net transfer of carbon between ectomycorrhizal tree species in the field. Nature 388(6642).",
     "quelle_url": "https://doi.org/10.1038/41557",
     "datum": "2026-06-03"
+  },
+  {
+    "kategorie": "Ökologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Stilles-Gewässer: Warum stehende Seen nicht träge sind, sondern in ständigen inneren Zirkulationen brodeln",
+    "stauner": "Wir denken, Seen sind passive Wasserbecken. Doch unter der Oberfläche entstehen durch Temperaturgradienten, Salzgehalt und Windkräfte komplexe innere Strömungen – sogenannte Seiche-Wellen – die wie unsichtbare Aufzüge wirken und Nährstoffe verteilen.",
+    "absaetze": [
+      "Ein stilles, spiegelglasses Gewässer wirkt friedlich und statisch. Doch diese Wahrnehmung täuscht massiv: Seen sind in Wahrheit dynamische Systeme mit ausgeprägten inneren Zirkulationen. Diese entstehen nicht nur durch Windeinfluss an der Oberfläche, sondern vor allem durch unterschiedliche Wasserdichten in verschiedenen Tiefenschichten – ausgelöst durch Temperatur- und Salzgehaltunterschiede. Diese Schichtung führt zu sogenannten Seiche-Wellen, interne Wellen, die wie riesige, unsichtbare Oszillationen in der Wassersäule wirken.",
+      "Seiche sind nicht zufällig: Sie entstehen, wenn Wind oder andere Kräfte die Wasserschichten anstoßen und dann durch Auftriebskräfte wieder zurückpendeln – ähnlich wie Wasser in einer geneigten Badewanne hin und her schwappt, aber in der Vertikalen. Diese inneren Zirkulationen können Wochen bis Monate andauern, auch wenn die Oberfläche völlig ruhig wirkt. Moderne Messungen mit Temperatur-Datenloggern zeigen, dass diese Wellen in vielen Seen regelmäßig Wasser aus der Tiefe nach oben transportieren und umgekehrt.",
+      "Das Überraschende: Diese inneren Strömungen sind nicht nur physikalisch faszinierend – sie sind lebenswichtig für das Ökosystem. Sie transportieren Nährstoffe aus den nährstoffreichen tieferen Schichten in die photosynthetisch aktive Oberflächenschicht und verteilen Sauerstoff in die Tiefe. Ohne diese verborgenen Zirkulationen würden viele Seen stagnieren. Sie sind das Herzschlagmuster des Sees, und dieses Muster bestimmt, welches Leben dort floriert und wie stabil das ganze Ökosystem ist."
+    ],
+    "schon_gewusst": "Meromikte Seen – Seen, deren Wasserschichten sich nie vollständig durchmischen – können jahrelang ohne Sauerstoffaustausch existieren. In solchen Bedingungen entstehen oft Schwarzwasser-Schichten mit spezialisierten Chemolithoautotrophen-Bakterien, die ohne Sonne Energie aus Schwefelwasserstoff nutzen.",
+    "quelle": "Wüest & Lorrai (2003): Energetically Consistent Mixing and Salinity in Stratified Lakes. Limnology and Oceanography 48(1).",
+    "quelle_url": "https://doi.org/10.4319/lo.2003.48.1.0108",
+    "datum": "2026-06-03"
   }
 ]
