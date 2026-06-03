@@ -1,15 +1,15 @@
 {
-  "kategorie": "Anthropologie",
-  "hauptkategorie": "Mensch & Gesellschaft",
-  "titel": "Die Lüge der Lautsprach-Überlegenheit: Warum Gebärdensprachen nicht weniger komplex sind, sondern die menschliche Sprache vollständig neu definieren",
-  "stauner": "Gebärdensprachen sind nicht vereinfachte Versionen von Lautsprachen – sie besitzen die gleiche grammatikalische Tiefe und können gleichzeitig mehrere Informationskanäle nutzen, die Lautsprachen unmöglich machen.",
+  "kategorie": "Ökologie",
+  "hauptkategorie": "Biologie & Ökologie",
+  "titel": "Die Lüge der Pilz-Feinde: Warum Mykorrhiza-Netzwerke nicht Pflanzen parasitieren, sondern sie in ein unterirdisches Internet verwandeln",
+  "stauner": "Unter unseren Füßen existiert ein biologisches Kommunikationsnetzwerk, das Pflanzen miteinander verbindet wie die Neuronen eines riesigen Gehirns. Pilzfäden vermitteln dabei nicht nur Wasser und Nährstoffe – sie ermöglichen Pflanzen, miteinander zu 'sprechen', Ressourcen zu teilen und sogar Warnsignale zu senden.",
   "absaetze": [
-    "Jahrhundertelang galt Gebärdensprache als primitive Pantomime, ein visuelles Notbehelf für Menschen, die nicht sprechen konnten. Linguisten betrachteten sie als unvollständig, weniger präzise und unfähig zu abstrakter Kommunikation. Diese Annahme war fundamental falsch und basierte auf einer unbewussten Annahme: dass Lautsprache der einzige 'echte' Standard menschlicher Sprachfähigkeit sei.",
-    "Moderne Linguistik hat gezeigt, dass Gebärdensprachen – wie Amerikanische Gebärdensprache (ASL), Deutsche Gebärdensprache (DGS) oder Britische Gebärdensprache (BSL) – vollständig strukturierte natürliche Sprachen mit eigenen Grammatiksystemen, Idiomen, Dialekten und sogar Humor sind. Sie können Grammatik nicht nur linear darstellen, sondern simultan: Ein einzelnes Zeichen kann durch Handhaltung, Bewegungsrichtung, Gesichtsausdruck und Körperposition gleichzeitig mehrere grammatikalische Informationen kodieren – etwas, das Lautsprachen sequenziell darstellen müssen. Gebärdensprachler können während sie ein Verb 'sprechen', durch die Handbewegung bereits Tempo, Häufigkeit und Perspektive ausdrücken.",
-    "Dies offenbart etwas Profundes über menschliche Kognition: Sprache ist nicht an Sound gebunden. Das menschliche Gehirn ist nicht für Ohren optimiert – es ist für Bedeutung optimiert. Gebärdensprachen zeigen, dass unsere neurologische Sprachfähigkeit flexibel, multi-modal und völlig unabhängig vom akustischen Medium ist. Dies hat enorme Konsequenzen für unser Verständnis von Inklusion, Bildung und kognitiver Vielfalt: Es gibt nicht eine 'normale' Sprache und 'alternative' Sprachen. Es gibt nur: Sprache. Und sie kann überall entstehen, wo Menschen Bedeutung teilen wollen."
+    "Lange galten Pilze als potenzielle Parasiten, die Pflanzen ausbeuten. Die biologische Realität ist raffinierter: Etwa 90 Prozent aller Landpflanzen gehen mit Pilzen eine Symbiose ein, bei der der Pilz in die Wurzeln eindringt und im Gegenzug Mineralien aus dem Boden mobilisiert. Doch das ist erst der Anfang der Geschichte. Neuere Forschung zeigt, dass diese Netzwerke – das sogenannte 'Wood Wide Web' – eine aktive Informationsautobahn sind.",
+    "Wenn eine Pflanze von Insekten befallen wird, sendet sie chemische Warnsignale nicht nur durch ihre Blätter aus, sondern auch durch die Mykorrhiza-Fäden zu benachbarten Pflanzen. Diese erhalten damit die Gelegenheit, ihre Abwehrchemikalien schon zu aktivieren, bevor die Schädlinge zu ihnen vordringen. Gleichzeitig verteilen Pflanzen überflüssige Kohlenstoffverbindungen über das Pilznetzwerk an benachbarte Artgenossen – oder sogar an andere Pflanzenarten. Ein ausgereiftes System gegenseitiger Unterstützung entsteht unter der Erde, während wir oben nur Bäume und Gras sehen.",
+    "Das Staunen liegt darin, dass wir Natur oft als Konkurrenz verstehen – als Kampf um Ressourcen. Doch die unterirdische Realität zeigt ein anderes Bild: Kooperation ist nicht die Ausnahme, sondern die Grundarchitektur von Waldökosystemen. Diese Erkenntnis verändert auch, wie wir Forstwirtschaft verstehen. Wenn wir Monokulturen ohne diese Pilznetze anlegen, schneiden wir Bäume buchstäblich vom Gedankenaustausch ihrer Gemeinschaft ab – und schwächen damit ihre Resistenz gegen Krisen."
   ],
-  "schon_gewusst": "Nicaraguanische Gebärdensprache entstand erst in den 1980er Jahren, als gehörlose Kinder zum ersten Mal in einer Schule zusammenkamen – sie erfanden ihre eigene Sprache spontan und kollektiv, was zeigt, dass Sprachentstehung keine externe Anleitung braucht, sondern nur menschliche Gemeinschaft.",
-  "quelle": "Sandler, W., Meir, I., Padden, C. & Aronoff, M. (2005): The emergence of grammar: Systematic structure in a new language. PNAS 102(7).",
-  "quelle_url": "https://doi.org/10.1073/pnas.0405448102",
-  "datum": "2026-06-02"
+  "schon_gewusst": "Cannabispflanzen können über Mykorrhiza-Netzwerke mit anderen Pflanzen kommunizieren und sogar Stickstoff-Stresssignale an benachbarte Arten senden – was zeigt, dass dieses System nicht nur Bäumen vorbehalten ist, sondern in fast allen terrestrischen Ökosystemen funktioniert.",
+  "quelle": "Simard et al. (1997): Net transfer of carbon between ectomycorrhizal tree species in the field. Nature 388(6642).",
+  "quelle_url": "https://doi.org/10.1038/41557",
+  "datum": "2026-06-03"
 }

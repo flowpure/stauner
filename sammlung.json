@@ -1896,5 +1896,20 @@
     "quelle": "Sandler, W., Meir, I., Padden, C. & Aronoff, M. (2005): The emergence of grammar: Systematic structure in a new language. PNAS 102(7).",
     "quelle_url": "https://doi.org/10.1073/pnas.0405448102",
     "datum": "2026-06-02"
+  },
+  {
+    "kategorie": "Ökologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Pilz-Feinde: Warum Mykorrhiza-Netzwerke nicht Pflanzen parasitieren, sondern sie in ein unterirdisches Internet verwandeln",
+    "stauner": "Unter unseren Füßen existiert ein biologisches Kommunikationsnetzwerk, das Pflanzen miteinander verbindet wie die Neuronen eines riesigen Gehirns. Pilzfäden vermitteln dabei nicht nur Wasser und Nährstoffe – sie ermöglichen Pflanzen, miteinander zu 'sprechen', Ressourcen zu teilen und sogar Warnsignale zu senden.",
+    "absaetze": [
+      "Lange galten Pilze als potenzielle Parasiten, die Pflanzen ausbeuten. Die biologische Realität ist raffinierter: Etwa 90 Prozent aller Landpflanzen gehen mit Pilzen eine Symbiose ein, bei der der Pilz in die Wurzeln eindringt und im Gegenzug Mineralien aus dem Boden mobilisiert. Doch das ist erst der Anfang der Geschichte. Neuere Forschung zeigt, dass diese Netzwerke – das sogenannte 'Wood Wide Web' – eine aktive Informationsautobahn sind.",
+      "Wenn eine Pflanze von Insekten befallen wird, sendet sie chemische Warnsignale nicht nur durch ihre Blätter aus, sondern auch durch die Mykorrhiza-Fäden zu benachbarten Pflanzen. Diese erhalten damit die Gelegenheit, ihre Abwehrchemikalien schon zu aktivieren, bevor die Schädlinge zu ihnen vordringen. Gleichzeitig verteilen Pflanzen überflüssige Kohlenstoffverbindungen über das Pilznetzwerk an benachbarte Artgenossen – oder sogar an andere Pflanzenarten. Ein ausgereiftes System gegenseitiger Unterstützung entsteht unter der Erde, während wir oben nur Bäume und Gras sehen.",
+      "Das Staunen liegt darin, dass wir Natur oft als Konkurrenz verstehen – als Kampf um Ressourcen. Doch die unterirdische Realität zeigt ein anderes Bild: Kooperation ist nicht die Ausnahme, sondern die Grundarchitektur von Waldökosystemen. Diese Erkenntnis verändert auch, wie wir Forstwirtschaft verstehen. Wenn wir Monokulturen ohne diese Pilznetze anlegen, schneiden wir Bäume buchstäblich vom Gedankenaustausch ihrer Gemeinschaft ab – und schwächen damit ihre Resistenz gegen Krisen."
+    ],
+    "schon_gewusst": "Cannabispflanzen können über Mykorrhiza-Netzwerke mit anderen Pflanzen kommunizieren und sogar Stickstoff-Stresssignale an benachbarte Arten senden – was zeigt, dass dieses System nicht nur Bäumen vorbehalten ist, sondern in fast allen terrestrischen Ökosystemen funktioniert.",
+    "quelle": "Simard et al. (1997): Net transfer of carbon between ectomycorrhizal tree species in the field. Nature 388(6642).",
+    "quelle_url": "https://doi.org/10.1038/41557",
+    "datum": "2026-06-03"
   }
 ]
