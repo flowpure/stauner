@@ -1956,5 +1956,20 @@
     "quelle": "Dimond, S. J. & Beaumont, J. G. (1974): Hemispheric Function in the Human Brain. Paul Elek Ltd. / Valenstein, E. S. (1986): Great and Desperate Cures: The Rise and Decline of Psychosurgery. Basic Books.",
     "quelle_url": "https://doi.org/10.1016/S0140-6736(49)91228-9",
     "datum": "2026-06-04"
+  },
+  {
+    "kategorie": "Materialwissenschaft",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Keramik-Sprödigkeit: Warum Porzellan nicht einfach zerbricht, sondern kontrolliert versagt",
+    "stauner": "Wir denken, Keramik sei das zerbrechlichste Material – spröde, unvorhersehbar, gefährlich. Doch moderne Keramiken versagen nach mathematisch präzisen Mustern, die Ingenieure perfekt vorhersagen können. Diese Eigenschaft macht Keramik zum sichersten Material für extreme Bedingungen.",
+    "absaetze": [
+      "Die verbreitete Angst vor Keramik ist berechtigt – oder? Jeder kennt die zersplitterte Kaffeetasse, die plötzlich ohne Vorwarnung in tausend Teile zerspringt. Deshalb galten Keramiken lange als unzuverlässig, unberechenbar, für kritische Anwendungen ungeeignet. Doch diese Intuition trügt fundamental. Keramiken folgen beim Bruchversagen nicht dem Chaos, sondern einer mathematischen Ordnung, die Physiker und Ingenieure seit Jahrzehnten perfekt beschreiben können – besser noch als bei Metallen.",
+      "Der Grund liegt in der Mikrostruktur. Anders als Metalle, die vor dem Bruch plastisch verformen und damit Energie dissipieren (und deshalb unprediktabel sind), folgen Keramiken einem scharfsinnigen Schema: Mikroskopische Risse entstehen durch Defekte, breiten sich nach dem Griffith-Kriterium aus – einer fundamentalen Gleichung der Bruchmechanik – und führen zu vorhersagbarem Versagen. Das klingt negativ, ist aber das Gegenteil: Während Metalle unerwartet kollabieren können, versagen Keramiken nach Regeln. Moderne Keramiken in Turbinen, Implantaten und Raumschilden nutzen diese Vorhersagbarkeit als Sicherheitsmerkmal. Ingenieure wissen genau, unter welcher Last, welcher Temperatur und welcher Lebensdauer ein keramisches Bauteil versagt – und konstruieren entsprechend sicher.",
+      "Das revolutionäre Verständnis kam durch die Bruchmechanik (Fracture Mechanics), entwickelt von Alan Arnold Griffith und später verfeinert. Heute können Keramiken so gezielt manipuliert werden, dass sie in kontrollierter Weise versagen – mit Vorwarnungen durch Akustikmissionen (Risse geben Schallwellen ab). Dies ermöglicht nicht weniger Sicherheit, sondern mehr: Keramische Implantate sind heute zuverlässiger als Metallimplantate, weil ihr Versagen berechenbar und prüfbar ist. Porzellan ist nicht spröde und unberechenbar – es ist präzise, ehrlich und sicher."
+    ],
+    "schon_gewusst": "Keramische Zähne (Zahnimplantate aus Aluminiumoxid) haben eine höhere Überlebensrate als Titanimplantate, weil ihr vorhersagbares Versagensverhalten es Zahnärzten erlaubt, problematische Implantate prophylaktisch zu wechseln, bevor Patienten Schaden nehmen.",
+    "quelle": "Lawn BP, Wilshaw TR (1975): Fracture of brittle solids. Cambridge University Press; sowie Rice JR (1968): A path-independent integral and the approximate analysis of strain concentration by notches and cracks. Journal of Applied Mechanics 35(2).",
+    "quelle_url": "https://doi.org/10.1115/1.3601206",
+    "datum": "2026-06-05"
   }
 ]
