@@ -1,15 +1,15 @@
 {
-  "kategorie": "Materialwissenschaft",
-  "hauptkategorie": "Naturwissenschaften",
-  "titel": "Die Lüge der Beton-Ewigkeit: Warum Beton nicht ewig hält, sondern sich selbst heilt",
-  "stauner": "Wir bauen Brücken und Hochhäuser aus Beton, weil wir ihn für unvergänglich halten. Doch Beton ist nicht statisch – er reagiert aktiv auf Risse und kann sich unter bestimmten Bedingungen selbst reparieren. Diese Selbstheilung ist kein Zufall, sondern ein kalkulierbarer chemischer Prozess.",
+  "kategorie": "Epigenetik",
+  "hauptkategorie": "Biologie & Ökologie",
+  "titel": "Die Lüge der Zwillings-Identität: Warum eineiige Zwillinge nicht genetisch identisch bleiben, sondern ihre Epigenetik täglich auseinanderdriftet",
+  "stauner": "Eineiige Zwillinge haben identische DNA – aber nach wenigen Jahren unterscheiden sich hunderte epigenetischer Markierungen. Jeder Unterschied in Ernährung, Schlaf oder Stress schreibt ihre Gene neu. Sie sind genetische Klone, aber epigenetische Originale.",
   "absaetze": [
-    "Die verbreitete Meinung besagt, dass Beton ein lebloser, inerter Stoff ist, der unter Spannung allmählich zu Rissen führt – und diese Risse sind der Anfang vom Ende. Wir denken, dass Beton nach 50 bis 100 Jahren unwiederbringlich verfällt. Diese Annahme prägt unsere Infrastrukturplanung: Wir rechnen mit regelmäßiger teurer Sanierung oder gar Abriss. Doch die Realität ist faszinierender: Beton ist kein totes Material, sondern ein quasi-lebendiges System, das auf Beschädigungen reagiert.",
-    "Forscher haben entdeckt, dass Risse in Beton nicht das Ende bedeuten müssen. Wenn Wasser in die Risse eindringt, reagiert es mit unreagiertem Zement, der immer noch im Beton vorhanden ist. Dieser Prozess, genannt Karbonisierung und Hydratation, erzeugt neue kristalline Strukturen – Kalziumkarbonat und andere Mineralien – die den Riss wieder verschließen. Nach 3–6 Monaten können kleine Risse (unter 0,3 mm) sich selbst vollständig heilen und sogar ihre ursprüngliche Festigkeit zurückgewinnen. Polyanskiy et al. (2019) zeigten mit hochauflösenden Mikrotomografien, dass diese Selbstheilung keine Ausnahme ist, sondern unter normalen Bedingungen routinemäßig stattfindet.",
-    "Die Bedeutung dieser Erkenntnis reicht weit. Erstens können wir Infrastruktur intelligenter planen: Statt alle 30 Jahre zu sanieren, können wir mit kontrollierten Feuchtigkeitsbedingungen aktiv Selbstheilungsprozesse unterstützen. Zweitens öffnet sich ein neues Forschungsfeld: Biobeton mit eingekapselteten Bakterien oder Pilzsporen kann diesen Prozess sogar beschleunigen und aktiver machen. Drittens zeigt es, dass viele als 'tot' klassifizierte Materialien tatsächlich reaktiv und dynamisch sind. Beton ist nicht ein Monument der Ewigkeit – sondern ein kontinuierlich regenerierendes System, das nur darauf wartet, dass wir seine innere Chemie verstehen und nutzen."
+    "Wir glauben, dass eineiige Zwillinge genetisch identisch sind und deshalb ähnlich bleiben sollten. Aber das ist nur die halbe Wahrheit. Während ihre DNA-Sequenz wirklich identisch bleibt, verändert sich ihre Epigenetik – die chemischen Schalter auf den Genen – ständig und unabhängig voneinander.",
+    "Eine Langzeitstudie zeigte, dass eineiige Zwillinge bei der Geburt noch nahezu identische epigenetische Profile haben, aber bereits nach drei Jahren unterscheiden sich über 3% ihrer DNA-Methylierungsmuster. Nach 50 Jahren Leben können Hunderte epigenetischer Marker völlig unterschiedlich sein – obwohl die genetische Sequenz absolut identisch bleibt. Ein Zwilling der mehr Sport treibt, hat andere epigenetische Markierungen in Muskelzellen. Der andere, der stressiger lebt, trägt unterschiedliche Muster in Immunzellen. Rauchen, Schlafmangel, Ernährungsunterschiede – jede Lebenswahlschreibt das Epigenom neu.",
+    "Das bedeutet: Du bist nicht gefangen in den Genen deiner Familie. Selbst wenn dein eineiiger Zwilling eine Krankheit entwickelt, bedeutet das nicht, dass du sie auch bekommen wirst – weil eure epigenetischen Pfade bereits divergiert sind. Jeder Tag, jede Mahlzeit, jede Nacht Schlaf ist eine Gelegenheit, dein Epigenom bewusst zu verändern. Du schreibst deine biologische Geschichte selbst – nicht deine Gene, sondern deine Entscheidungen bestimmen, welche Gene aktiviert werden."
   ],
-  "schon_gewusst": "Römischer Beton aus der Antike (wie das Pantheon) hält teilweise länger als moderner Beton, weil er mit Vulkanasche statt reinem Zement gemischt wurde – diese Mischung ermöglicht noch effektivere Selbstheilungsprozesse über Jahrhunderte hinweg.",
-  "quelle": "Polyanskiy et al. (2019): Self-healing of age-related microcracking in concrete. Cement and Concrete Research 123.",
-  "quelle_url": "https://doi.org/10.1016/j.cemconres.2019.105761",
-  "datum": "2026-06-05"
+  "schon_gewusst": "Zwillinge, die eine Zwillingsstudie verlassen und getrennt leben, zeigen nach 20 Jahren mehr epigenetische Unterschiede als nach 5 Jahren zusammenleben – selbst wenn sie genetisch identisch sind. Umwelt schreibt schneller um als Gene.",
+  "quelle": "Fraga et al. (2005): Epigenetic differences arise during the lifetime of monozygotic twins. Proceedings of the National Academy of Sciences 102(30).",
+  "quelle_url": "https://doi.org/10.1073/pnas.0500398102",
+  "datum": "2026-06-06"
 }
