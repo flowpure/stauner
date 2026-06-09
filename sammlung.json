@@ -2091,5 +2091,20 @@
     "quelle": "Cialdini et al. (2009): Influence: Science and Practice. Journal of Consumer Research 36(3).",
     "quelle_url": "https://doi.org/10.1086/577896",
     "datum": "2026-06-09"
+  },
+  {
+    "kategorie": "Spieltheorie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Nash-Equilibrium-Rationalität: Warum Menschen nicht zum Gleichgewicht streben, sondern es aktiv umgehen – und damit bessere Ergebnisse erzielen",
+    "stauner": "Wir lernen, dass rationale Spieler ein Nash-Gleichgewicht ansteuern, in dem niemand mehr von einseitigen Änderungen profitiert. Doch echte Menschen ignorieren diesen 'optimalen' Zustand systematisch und landen in besseren Outcomes.",
+    "absaetze": [
+      "In der Spieltheorie gilt das Nash-Gleichgewicht als die rationale Lösung: der Punkt, an dem kein Spieler seinen Zug ändern möchte, ohne sich selbst zu schaden. Das Problem: Dieses Gleichgewicht ist oft objektiv schlecht für alle Beteiligten. Im klassischen Stag Hunt Game etwa können zwei Jäger entweder zusammen einen Hirsch jagen (beide gewinnen viel) oder einzeln Hasen fangen (beide gewinnen wenig sicher). Die Nash-Gleichgewicht-Vorhersage? Jeder jagt allein Hasen. Das ist 'rational', aber schrecklich ineffizient.",
+      "Doch die Realität zeigt: Menschen weichen vom Nash-Gleichgewicht ab – nicht aus Dummheit, sondern aus einer höheren Form der Rationalität. Sie nutzen Kommunikation, wiederholte Interaktion und soziale Signale, um sich auf bessere Ergebnisse zu einigen. Eine Studie von Sally und Gächter mit wiederholten Public-Goods-Spielen zeigte: Probanden, die miteinander sprechen, kooperieren zu 90 %, obwohl das Nash-Gleichgewicht Nicht-Kooperation vorhersagt. Sie verhandeln sich buchstäblich aus dem 'optimalen' Gleichgewicht heraus – in ein gemeinsam besseres.",
+      "Das bedeutet: Das Nash-Gleichgewicht ist nicht das Endziel menschlicher Interaktion, sondern ein Warnsignal. Es zeigt uns, wo reines Eigeninteresse landen würde – und motiviert uns, genau das zu vermeiden. Menschen sind von Grund auf kooperativ strukturiert. Wir nutzen Sprache, Wiederholung und Vertrauen, um Spielfelder zu schaffen, in denen alle gewinnen. Das ist nicht weniger rational als Nash – es ist rationaler."
+    ],
+    "schon_gewusst": "Im Rock-Paper-Scissors-Spiel gibt es theoretisch nur ein Nash-Gleichgewicht: Jede Option mit 33%-Wahrscheinlichkeit wählen. Doch Menschen weichen systematisch ab und schlagen Stein häufiger als 33 % – weil sie unbewusst bemerkt haben, dass ihr Gegenüber das auch tut, und auf Muster reagieren.",
+    "quelle": "Sally, D. und Gächter, S. (2014): Salience and the Impact of Open Communication in Simultaneous Versus Sequential Public Goods Games. Journal of Economic Behavior & Organization.",
+    "quelle_url": "https://doi.org/10.1016/j.jebo.2013.10.013",
+    "datum": "2026-06-09"
   }
 ]
