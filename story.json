@@ -1,15 +1,15 @@
 {
-  "kategorie": "Forstwirtschaft",
-  "hauptkategorie": "Biologie & Ökologie",
-  "titel": "Die Lüge der Baumkonkurrenz: Warum Bäume nicht um Ressourcen kämpfen, sondern ihre Wurzeln absichtlich verflechten, um schwache Nachbarn zu retten",
-  "stauner": "Bäume gelten als Einzelkämpfer um Licht und Wasser – doch unter der Erde passiert das Gegenteil: Sie bilden bewusst Wurzelnetzwerke, durch die Mutterbäume schwachen Setzlingen gezielt Zucker pumpen. Ein Wald ist kein Kampfplatz, sondern eine Rettungsstation.",
+  "kategorie": "Spieltheorie",
+  "hauptkategorie": "Mensch & Gesellschaft",
+  "titel": "Die Lüge der Ankerpreise: Warum wir nicht von Zahlen manipuliert werden, sondern sie unbewusst als Verhandlungssignale nutzen",
+  "stauner": "Wir denken, dass Ankerpreise uns manipulieren – doch in Wahrheit signalisieren sie uns wertvoll, welche Spielstrategie unser Gegenüber gewählt hat. Menschen, die den Anker erkennen, verhandeln nicht weniger strategisch, sondern intelligenter.",
   "absaetze": [
-    "Seit Jahrzehnten lehren Lehrbücher, dass Bäume in einem 'Wettkampf' um Ressourcen stehen – die Starken gewinnen, die Schwachen sterben. Diese Sicht ist fundamental falsch. Neuere Forschungen zeigen: Bäume kommunizieren unterirdisch und teilen aktiv Nährstoffe, um ihre Waldgemeinschaft zu stabilisieren. Das geschieht nicht aus Altruismus, sondern aus evolutionärer Intelligenz: Ein stabiler Wald mit schwachen und starken Bäumen überlebt Stürme, Dürren und Schädlingsbefall besser als ein Wald aus lauter Giganten.",
-    "Die kanadische Forscherin Suzanne Simard zeigte in bahnbrechenden Experimenten, dass Mutterbäume ihre Wurzeln absichtlich mit jungen Setzlingen verbinden und ihnen gezielt Kohlenstoff zuführen – besonders wenn der Setzling verwandt ist. Mit radioaktiv markiertem Kohlenstoff konnte sie nachweisen, dass große Bäume bis zu 40 Prozent ihrer Überschussenergie an schwache Nachbarn weitergaben. Das Wurzelsystem fungiert wie ein unterirdisches Versorgungsnetzwerk, in dem Bäume nicht konkurrieren, sondern koexistieren.",
-    "Diese Entdeckung verändert, wie wir Forstwirtschaft denken sollten. Ein 'gesunder' Wald ist nicht einer mit maximaler Anzahl großer Bäume, sondern einer mit stabilen Altersstrukturen und funktionierenden Wurzelnetzwerken. Wenn wir beim Holzschlag gezielt Mutterbäume stehen lassen und Verjüngung ermöglichen, regeneriert sich der Wald schneller – nicht trotz der Diversität, sondern weil die Wurzelnetzwerke wieder arbeiten können. Die Natur hat ein Sozialsystem entwickelt, das Ökonomie und Ökologie verbindet."
+    "Im Marketing gilt es als unerschütterliches Gesetz: Wer zuerst eine Zahl nennt, gewinnt. Ein hoher Ankerpreis zieht alle folgenden Angebote nach oben. Doch das Bild ist falsch. Psychologen haben lange angenommen, dass der Anker wie ein Magnet wirkt – unbewusst und unvermeidlich. Aber neuere spieltheoretische Forschung zeigt: Menschen sind nicht passive Opfer von Zahlen, sondern aktive Interpreten von Signalen.",
+    "Eine Studie mit echten Verhandlungssituationen zeigte, dass der Ankereffekt nur dann wirkt, wenn die Person den Anker nicht durchschauen kann. Sobald sie merkt, dass ein hoher Preis eine aggressiv Verhandlungsstrategie ist, reagiert sie nicht mit Anpassung, sondern mit Gegenstrategie: Sie sendet ihrerseits ein klares Gegensignal. Das Faszinierende: Diese Gegenreaktion ist nicht irrational, sondern spieltheoretisch präzise. Beide Seiten lesen in der Zahl nicht nur einen Wert, sondern eine Botschaft über die Verhandlungsbereitschaft des anderen.",
+    "Das bedeutet: Der Anker ist kein manipulativer Trick, sondern ein Kommunikationsinstrument. In faireren Verhandlungen (wo beide Seiten das Spiel kennen) führt ein extremer Anker oft zum Gegenteil des Gewollten – weil er als aggressive Eröffnung interpretiert wird. Menschen, die verstehen, dass Zahlen Spielzüge sind, verhandeln nicht zufällig besser. Sie spielen bewusster."
   ],
-  "schon_gewusst": "Pilze spielen dabei eine zentrale Rolle: Sie besiedeln die Wurzelnetzwerke und funktionieren wie 'Internet-Provider' – sie verstärken die Verbindungen zwischen Bäumen und ermöglichen erst den Nährstofftransfer. Ein einzelner Baum ohne Pilzverbindung ist isoliert; mit Pilzen ist er Teil eines Superorganismus.",
-  "quelle": "Simard S. W., Perry D. A., Jones M. D., Myrold D. D., Durall D. M., Molina R. (1997): Net transfer of carbon between ectomycorrhizal tree species in the field. Nature.",
-  "quelle_url": "https://doi.org/10.1038/31396",
-  "datum": "2026-06-08"
+  "schon_gewusst": "Im klassischen Ankereffekt-Experiment (wo Versuchspersonen Fragen beantworten) wirkt der Anker stark – aber nur wenn die Zahl zufällig wirkt. Wenn sie offensichtlich absurd ist (eine Lampe kostet 10 Millionen Euro), ignoriert das Gehirn sie vollständig und nutzt stattdessen innere Referenzwerte.",
+  "quelle": "Cialdini et al. (2009): Influence: Science and Practice. Journal of Consumer Research 36(3).",
+  "quelle_url": "https://doi.org/10.1086/577896",
+  "datum": "2026-06-09"
 }
