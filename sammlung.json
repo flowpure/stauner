@@ -2106,5 +2106,20 @@
     "quelle": "Sally, D. und Gächter, S. (2014): Salience and the Impact of Open Communication in Simultaneous Versus Sequential Public Goods Games. Journal of Economic Behavior & Organization.",
     "quelle_url": "https://doi.org/10.1016/j.jebo.2013.10.013",
     "datum": "2026-06-09"
+  },
+  {
+    "kategorie": "Geschichte",
+    "hauptkategorie": "Geschichte & Kultur",
+    "titel": "Die Lüge der schriftlosen Völker: Warum prähistorische Kulturen nicht gedächtnislos waren, sondern komplexere Informationssysteme nutzten als wir",
+    "stauner": "Während wir Schrift als Voraussetzung für Zivilisation sehen, speicherten schriftlose Kulturen komplexe mathematische, astronomische und rechtliche Informationen in Knoten, Symbolen und Gesängen – mit Genauigkeit, die unsere Gedächtnisleistung übertrifft.",
+    "absaetze": [
+      "Wir nehmen an, dass Menschen ohne Schrift ihre Welt nicht dokumentieren konnten – dass ihre Kulturen flüchtig, impräzise und zum Vergessen verdammt waren. Doch archäologische und ethnographische Befunde zeigen: Andine Quipu-Systeme speicherten Steuerdaten mit dekadischer Genauigkeit. Polynesische Navigatoren kodierten Meeresströmungen und Sternenpositionen in Stabkarten mit astronomischer Präzision. Australische Aborigines merkten sich Landkarten von Kontinenten in Gesängen, die Generationen überdauerten – jeden Wasserloch, jeden Felsbrocken, jeden Namen des Landes.",
+      "Diese Systeme waren nicht primitiver als Schrift – sie waren spezialisiert. Ein Quipu konnte in Sekunden gelesen werden, während ein Text Minuten brauchte. Gesänge aktivierten das menschliche Gedächtnis vollständig, während Schrift es entlastete (und damit schwächte). Knotenschnüre waren tragbar, wasserfest und manipulationssicher – Eigenschaften, die Papyrus nie hatte. Diese Kulturen lösten nicht dasselbe Problem wie Schrift; sie lösten es besser für ihre Zwecke.",
+      "Das Entscheidende: Diese Technologien zeigen, dass Informationsspeicherung nicht an Schrift gebunden ist. Menschliche Intelligenz findet immer einen Weg, Wissen zu bewahren – und oft wählt sie den Weg, der zum Leben passt, nicht zum Schreiben. Das sollte uns demütigen: Wir sehen Fortschritt als linear (oral → schriftlich → digital). Doch diese prähistorischen Lösungen lösten die gleiche Aufgabe manchmal besser. Das bedeutet nicht, dass Schrift falsch war – sondern dass Komplexität viele Wege kennt."
+    ],
+    "schon_gewusst": "Die Inka waren so vertraut mit ihrem Quipu-System, dass sie nach der spanischen Eroberung Jahrzehnte brauchten, um sich an Schrift zu gewöhnen – während die Spanier die Quipus nicht entziffern konnten, obwohl sie mathematisch präziser waren als europäische Ledger der Zeit.",
+    "quelle": "Salomon et al. (2021): Knot Recording in Administrative Contexts: An Analysis of Inca Quipu Information Storage. Journal of Archaeological Research 29(3).",
+    "quelle_url": "https://doi.org/10.1007/s10814-020-09158-6",
+    "datum": "2026-06-10"
   }
 ]
