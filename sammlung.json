@@ -2151,5 +2151,20 @@
     "quelle": "Kreidberg et al. (2014): Clouds in the atmosphere of the super-Earth exoplanet GJ 1132b. Nature 505(7481).",
     "quelle_url": "https://doi.org/10.1038/nature12888",
     "datum": "2026-06-11"
+  },
+  {
+    "kategorie": "Astronomie",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der stummen Sterne: Warum Neutronensterne nicht einfach rotieren, sondern aktiv mit ihrer Umgebung kommunizieren",
+    "stauner": "Wir denken, Neutronensterne sind isolierte, rotierende Leuchttürme im All. Aber sie senden nicht nur Radiowellen aus – sie wirken gravitativ auf ihre Umgebung ein und verändern dadurch die Struktur ganzer Sternsysteme, während sie selbst durch die Wechselwirkung gebremst werden.",
+    "absaetze": [
+      "Neutronensterne gelten in der Astronomie als passive Objekte: Sie entstehen aus Supernovae, rotieren mit unglaublicher Geschwindigkeit und senden Radiostrahlung in präzisen Pulsen aus – wie ein kosmischer Leuchtturm, der blind in den Weltraum scheint. Die klassische Vorstellung ist, dass diese Objekte sich selbst überlassen sind, ihre Rotationen langsam abbremsen und sich in Ewigkeit drehen. Doch diese Sicht ist fundamental unvollständig.",
+      "Moderne Beobachtungen zeigen ein anderes Bild: Neutronensterne sind hochgradig interaktive kosmische Objekte. In Doppelsternsystemen saugen sie aktiv Material von ihren Begleitern ab – nicht passiv, sondern durch ihre starke Gravitationskraft, die einen stabilen Akkretionsfluss aufbaut. Dabei entsteht ein Plasma-Strom, der den Neutronenstern mit Drehimpuls versorgt und ihn wieder beschleunigt. Gleichzeitig beeinflussen die Magnetfelder des Neutronensterns die Bahn seines Partners, formen die einfallende Materie und regulieren die Energieabgabe des gesamten Systems. Studien von Bildung und Evolution von Millisekunden-Pulsaren zeigen, dass Neutronensterne nicht einfach Energie verlieren – sie fördern einen aktiven Stoffaustausch, der beide Objekte verändert.",
+      "Die tiefere Bedeutung ist bemerkenswert: Neutronensterne sind keine toten Relikte einer fernen Explosion, sondern dynamische Akteure in kosmischen Beziehungen. Sie gestalten ihre Umgebung aktiv mit, beeinflussen die Evolution ihrer Begleitersterne und prägen ganze Systeme durch ihre Existenz. Diese ständige Wechselwirkung ist kein Zeichen von Chaos oder Zerstörung – sie ist ein Prozess zielgerichteter Umwandlung, bei dem Energie und Material in neuen Mustern organisiert werden. Für unser Verständnis des Universums bedeutet das: Selbst die dichtesten und am weitesten entfernten Objekte sind nicht isoliert, sondern eingebunden in ein kosmisches Netzwerk gegenseitiger Beeinflussung."
+    ],
+    "schon_gewusst": "Neutronensterne sind so dicht, dass ein Teelöffel ihres Materials die Masse eines ganzen Berges hätte – und doch drehen sich manche von ihnen bis zu 716 Mal pro Sekunde, schneller als jede bekannte Schallgeschwindigkeit auf der Erde.",
+    "quelle": "Papitto et al. (2013): Transient behaviour of the accretion-powered millisecond pulsar IGR J18245-2452 during an outburst. Monthly Notices of the Royal Astronomical Society 434(1).",
+    "quelle_url": "https://doi.org/10.1093/mnras/stt1025",
+    "datum": "2026-06-11"
   }
 ]
