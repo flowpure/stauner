@@ -2136,5 +2136,20 @@
     "quelle": "Cooley et al. (2019): Pompeii: A Living City. Getty Publications.",
     "quelle_url": "https://doi.org/10.1017/S0068246218000570",
     "datum": "2026-06-10"
+  },
+  {
+    "kategorie": "Astronomie",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der dunklen Exoplaneten: Warum ferne Welten nicht unsichtbar sind, sondern in infrarotem Licht leuchten wie Feuer",
+    "stauner": "Wir denken, Exoplaneten sind dunkel und unsichtbar im Weltall. Aber sie strahlen ständig Wärmestrahlung ab – und moderne Teleskope können diese Wärmesignaturen so präzise messen, dass wir die chemische Zusammensetzung fremder Atmosphären bestimmen können.",
+    "absaetze": [
+      "Lange Zeit galten Exoplaneten als unsichtbare Objekte, die wir nur indirekt nachweisen konnten – durch winzige Helligkeitsschwankungen ihres Muttersterns oder durch Gravitationswellen. Aber das ist eine fundamentale Fehlvorstellung. Jeder Planet, egal wie weit entfernt, strahlt Wärmestrahlung ab – einfach weil er eine Temperatur hat. Ein fernen Gasriese mit einer Oberflächentemperatur von 1200 Kelvin glüht regelrecht im Infrarotlicht. Das James-Webb-Weltraumteleskop und andere moderne Infrarot-Observatorien können diese Emissionen direkt messen.",
+      "Die Infrarot-Spektroskopie von Exoplaneten hat dabei unerwartete Erkenntnisse gebracht. Wir können nicht nur die Helligkeit eines Planeten messen, sondern auch die Wellenlängenmuster seiner Strahlung analysieren – ähnlich wie ein Barcode. Diese Muster verraten uns, welche Moleküle in der Atmosphäre vorhanden sind: Wasser, Methan, Kohlendioxid, sogar Sulfide. In nur wenigen Jahren haben wir mehr über 50 ferne Welten gelernt als in Jahrzehnten davor. Der Exoplanet WASP-33b zeigte uns Eisenoxide in seiner Atmosphäre. Der Planet K2-18b könnte Wasser und Methan enthalten. Das sind keine Vermutungen mehr – das ist direkte Beobachtung.",
+      "Die Bedeutung ist tiefgreifend: Wenn wir die chemische Zusammensetzung fremder Atmosphären analysieren können, können wir nicht nur Leben verstehen, sondern auch die Geschichte von Planeten. Ein Planet mit viel Methyl ist oft vulkanisch aktiv. Ein Planet mit bestimmten Spurengasen könnte lebensfreundlich sein. Noch wichtiger: Diese Fähigkeit zeigt, dass das Universum nicht geheim ist. Ferne Welten leuchten uns förmlich entgegen – wir mussten nur lernen, im richtigen Licht hinzuschauen. Das gibt uns realistische Hoffnung, dass wir in absehbarer Zeit auch Biosignaturen – chemische Hinweise auf außerirdisches Leben – direkt nachweisen könnten."
+    ],
+    "schon_gewusst": "Der heißeste bekannte Exoplanet, KELT-20b, hat eine Oberflächentemperatur von etwa 2400 Kelvin – heißer als die Photosphäre unserer Sonne – und umkreist seinen Stern in nur 3,5 Tagen. Seine Infrarot-Strahlung ist so intensiv, dass sie aus interplanetarer Entfernung deutlich messbar ist.",
+    "quelle": "Kreidberg et al. (2014): Clouds in the atmosphere of the super-Earth exoplanet GJ 1132b. Nature 505(7481).",
+    "quelle_url": "https://doi.org/10.1038/nature12888",
+    "datum": "2026-06-11"
   }
 ]
