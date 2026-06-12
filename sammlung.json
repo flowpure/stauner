@@ -2166,5 +2166,20 @@
     "quelle": "Papitto et al. (2013): Transient behaviour of the accretion-powered millisecond pulsar IGR J18245-2452 during an outburst. Monthly Notices of the Royal Astronomical Society 434(1).",
     "quelle_url": "https://doi.org/10.1093/mnras/stt1025",
     "datum": "2026-06-11"
+  },
+  {
+    "kategorie": "Evolutionsbiologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Mutationsblindheit: Warum Mutationen nicht zufällig sind, sondern Organismen gezielt in stressigen Umwelten mutieren",
+    "stauner": "Wir denken, Mutationen sind reine Zufallsereignisse – doch Bakterien und sogar höhere Organismen erhöhen ihre Mutationsrate unter Stress gezielt. Evolution ist nicht passiv, sondern ein aktiver Problemlösungsprozess.",
+    "absaetze": [
+      "Die klassische Vorstellung ist bestechend einfach: Mutationen passieren zufällig, die Umwelt wählt dann aus. Doch diese Ordnung ist falsch. Seit den 1980er Jahren zeigen Mikrobiolog:innen, dass Bakterien ihre DNA-Reparaturmechanismen unter Hunger oder Gift gezielt herunterfahren – um mehr Mutationen zu erzeugen. Das ist nicht Chaos, sondern eine evolutive Strategie: Wenn die alte Anpassung nicht mehr funktioniert, erhöht der Organismus seine genetische Variabilität, um schneller neue Lösungen zu finden.",
+      "Dieses Phänomen heißt ‚adaptive Mutation' oder ‚stress-induced mutagenesis'. Es funktioniert wie ein evolutiver ‚Paniktaster': Erst repariert die Zelle Fehler akribisch. Steht sie aber unter extremem Stress, werden temporär spezifische Gene für Fehlertoleranz angeschaltet. Diese gezielten Mutationen treten nicht überall in der DNA auf, sondern konzentrieren sich auf Gene, die mit der aktuellen Krise zu tun haben. Ein verhungerndes Bakterium mutiert bevorzugt Gene für Nahrungsaufnahme, nicht für Lichtempfindlichkeit.",
+      "Das verändert unser Verständnis von Evolution fundamental: Sie ist nicht blind und passiv, sondern ein hochdynamisches System, in dem Organismen aktiv ihre eigene genetische Variabilität regulieren. Das gibt Evolution mehr ‚Intelligenz', als wir dachten – nicht im Sinne von Bewusstsein, sondern von zielgerichteter Problemlösung. Eine Zelle unter Stress ist nicht Opfer ihrer Mutation, sondern Architekt ihrer eigenen genetischen Flexibilität."
+    ],
+    "schon_gewusst": "Auch in menschlichen Krebszellen beobachten wir ähnliche Mechanismen: Unter Chemotherapie erhöhen Tumorzellen ihre Mutationsrate gezielt – ein Grund, warum Krebsbekämpfung so komplex ist. Der Tumor ‚kämpft' nicht bewusst, aber sein System reagiert adaptiv.",
+    "quelle": "Rosenberg SM (2001): Evolving responsively: adaptive mutation. Nature Reviews Genetics 2(7).",
+    "quelle_url": "https://doi.org/10.1038/35084122",
+    "datum": "2026-06-12"
   }
 ]
