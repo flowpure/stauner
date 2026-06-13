@@ -1,15 +1,15 @@
 {
-  "kategorie": "Evolutionsbiologie",
-  "hauptkategorie": "Biologie & Ökologie",
-  "titel": "Die Lüge der Altruismus-Illusion: Warum selbstlose Hilfe nicht gegen die Evolution kämpft, sondern sie perfekt nutzt",
-  "stauner": "Wir denken, Altruismus ist eine moralische Überwindung unserer egoistischen Natur. Doch die Evolutionsbiologie zeigt: Großzügigkeit ist ein evolutionärer Meisterplan, der uns selbst stärker macht als jeder Egoismus es könnte.",
+  "kategorie": "Neurologie",
+  "hauptkategorie": "Mensch & Gesellschaft",
+  "titel": "Die Lüge der Hirnasymmetrie: Warum deine beiden Hirnhälften nicht spezialisiert sind, sondern ständig miteinander streiten – und genau das macht dich klüger",
+  "stauner": "Wir denken, die linke Hirnhälfte sei logisch und die rechte kreativ. Doch neue Neuroimaging-Studien zeigen: Beide Hälften arbeiten an denselben Aufgaben – und ihre Konflikte sind kognitives Gold.",
   "absaetze": [
-    "Die verbreitete Annahme lautet: Wenn wir anderen helfen, ohne unmittelbare Gegenleistung zu erwarten, handeln wir gegen unsere biologische Natur. Altruismus gilt als edle Ausnahme von der animalischen Eigennutzregel. Doch diese Sichtweise ignoriert eine elegante evolutionäre Wahrheit: Organismen, die Hilfe großzügig weitergeben, bauen sich selbst ein stabiles Netzwerk auf, das im Ernstfall für sie arbeitet.",
-    "Forschungen zum reziproken Altruismus zeigen: Menschen, die helfen, aktivieren in ihrem Gehirn nicht nur Belohnungszentren – sie etablieren damit auch soziale Schulden, die andere unbewusst abtragen möchten. Das ist keine Illusion, sondern präzise neuronale Buchführung. Studien belegen, dass Hilfeleistende langfristig bessere Gesundheit, stärkere Immunfunktion und höhere Überlebenschancen haben. Der Grund: Ein starkes soziales Netzwerk ist biologisch äquivalent zu einem starken Immunsystem.",
-    "Das Faszinierende: Evolution hat nicht nur Selbstschutz belohnt, sondern auch jene Menschen bevorzugt, die großzügig handeln – weil sie damit unbewusst sicherstellen, dass andere für sie da sind. Altruismus ist kein moralisches Opfer, sondern ein raffiniertes Überlebensinstrument. Je älter wir werden, desto deutlicher zeigt sich: Menschen mit stabilem Hilfsnetzwerk leben länger, werden seltener krank und altern langsamer. Evolution belohnt Großzügigkeit mit nichts weniger als biologischer Stabilität."
+    "Die populäre Neuromythe besagt, dass Menschen entweder 'Linkshirn-Typ' (analytisch, logisch, sprachlich) oder 'Rechtshirn-Typ' (kreativ, ganzheitlich, künstlerisch) sind. Diese Vereinfachung sitzt so tief in unserem Denken, dass ganze Coaching-Industrien darauf aufgebaut wurden. Doch moderne Hirnbildgebung zeigt etwas Faszinierendes: Es gibt diese strikte Arbeitsteilung nicht. Beide Hirnhälften sind an nahezu jeder kognitiven Leistung beteiligt – vom Musikhören bis zum Matheproblem.",
+    "Eine Studie mit funktioneller Magnetresonanztomografie (fMRT) zeigte, dass bei komplexen Aufgaben wie Sprachverständnis, Problemlösen oder kreativem Denken beide Hemisphären aktiv werden – aber oft mit unterschiedlichen Strategien. Die linke Seite tendiert zu sequenziellem, detailorientiertem Denken, die rechte zu ganzheitlichem, kontextuellem Erfassen. Das Entscheidende: Wenn die beiden Hälften unterschiedliche Lösungsansätze verfolgen, entsteht durch ihre 'Debatte' eine höhere Verarbeitungstiefe. Das Gehirn nutzt diese Spannung, um Probleme aus mehreren Blickwinkeln gleichzeitig zu analysieren.",
+    "Das bedeutet, dass du nicht 'der kreative Typ' oder 'der analytische Typ' bist – du bist beides gleichzeitig, und deine kognitiven Stärken entstehen gerade aus dem produktiven Konflikt zwischen diesen Perspektiven. Menschen mit stärkerer Konnektivität zwischen den Hirnhälften schneiden bei Tests für kreativ-analytische Hybriden Aufgaben besser ab. Dein Gehirn ist kein Team mit fest verteilten Rollen, sondern ein dynamisches Debattenteam, das nur deshalb brillant ist, weil es intern widerspricht."
   ],
-  "schon_gewusst": "Manche Primaten zeigen spontane Hilfeleistung auch gegenüber anderen Arten – etwa Schimpansen, die verletzte Vögel pflegen, ohne je eine Gegenleistung zu erhalten. Das deutet darauf hin, dass Altruismus tiefer in unserer Evolutionsgeschichte verankert ist als nur in reziprokem Austausch.",
-  "quelle": "Trivers (1971): The Evolution of Reciprocal Altruism. The Quarterly Review of Biology 46(1).",
-  "quelle_url": "https://doi.org/10.1086/406755",
-  "datum": "2026-06-12"
+  "schon_gewusst": "Der Corpus Callosum – das Kabel mit etwa 200 Millionen Nervenfasern, das deine beiden Hirnhälften verbindet – wächst mit intensivem Training in komplexen Aktivitäten wie Musikspielen oder Fremdsprachenlernen. Ein größerer Corpus Callosum korreliert mit besserer kognitiver Flexibilität.",
+  "quelle": "Beeman et al. (2004): The right hemisphere's role in solving insight problems. Brain and Cognition. 55(2):202-204.",
+  "quelle_url": "https://doi.org/10.1016/j.bandc.2004.01.001",
+  "datum": "2026-06-13"
 }

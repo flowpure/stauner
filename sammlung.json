@@ -2196,5 +2196,20 @@
     "quelle": "Trivers (1971): The Evolution of Reciprocal Altruism. The Quarterly Review of Biology 46(1).",
     "quelle_url": "https://doi.org/10.1086/406755",
     "datum": "2026-06-12"
+  },
+  {
+    "kategorie": "Neurologie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Hirnasymmetrie: Warum deine beiden Hirnhälften nicht spezialisiert sind, sondern ständig miteinander streiten – und genau das macht dich klüger",
+    "stauner": "Wir denken, die linke Hirnhälfte sei logisch und die rechte kreativ. Doch neue Neuroimaging-Studien zeigen: Beide Hälften arbeiten an denselben Aufgaben – und ihre Konflikte sind kognitives Gold.",
+    "absaetze": [
+      "Die populäre Neuromythe besagt, dass Menschen entweder 'Linkshirn-Typ' (analytisch, logisch, sprachlich) oder 'Rechtshirn-Typ' (kreativ, ganzheitlich, künstlerisch) sind. Diese Vereinfachung sitzt so tief in unserem Denken, dass ganze Coaching-Industrien darauf aufgebaut wurden. Doch moderne Hirnbildgebung zeigt etwas Faszinierendes: Es gibt diese strikte Arbeitsteilung nicht. Beide Hirnhälften sind an nahezu jeder kognitiven Leistung beteiligt – vom Musikhören bis zum Matheproblem.",
+      "Eine Studie mit funktioneller Magnetresonanztomografie (fMRT) zeigte, dass bei komplexen Aufgaben wie Sprachverständnis, Problemlösen oder kreativem Denken beide Hemisphären aktiv werden – aber oft mit unterschiedlichen Strategien. Die linke Seite tendiert zu sequenziellem, detailorientiertem Denken, die rechte zu ganzheitlichem, kontextuellem Erfassen. Das Entscheidende: Wenn die beiden Hälften unterschiedliche Lösungsansätze verfolgen, entsteht durch ihre 'Debatte' eine höhere Verarbeitungstiefe. Das Gehirn nutzt diese Spannung, um Probleme aus mehreren Blickwinkeln gleichzeitig zu analysieren.",
+      "Das bedeutet, dass du nicht 'der kreative Typ' oder 'der analytische Typ' bist – du bist beides gleichzeitig, und deine kognitiven Stärken entstehen gerade aus dem produktiven Konflikt zwischen diesen Perspektiven. Menschen mit stärkerer Konnektivität zwischen den Hirnhälften schneiden bei Tests für kreativ-analytische Hybriden Aufgaben besser ab. Dein Gehirn ist kein Team mit fest verteilten Rollen, sondern ein dynamisches Debattenteam, das nur deshalb brillant ist, weil es intern widerspricht."
+    ],
+    "schon_gewusst": "Der Corpus Callosum – das Kabel mit etwa 200 Millionen Nervenfasern, das deine beiden Hirnhälften verbindet – wächst mit intensivem Training in komplexen Aktivitäten wie Musikspielen oder Fremdsprachenlernen. Ein größerer Corpus Callosum korreliert mit besserer kognitiver Flexibilität.",
+    "quelle": "Beeman et al. (2004): The right hemisphere's role in solving insight problems. Brain and Cognition. 55(2):202-204.",
+    "quelle_url": "https://doi.org/10.1016/j.bandc.2004.01.001",
+    "datum": "2026-06-13"
   }
 ]
