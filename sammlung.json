@@ -2211,5 +2211,20 @@
     "quelle": "Beeman et al. (2004): The right hemisphere's role in solving insight problems. Brain and Cognition. 55(2):202-204.",
     "quelle_url": "https://doi.org/10.1016/j.bandc.2004.01.001",
     "datum": "2026-06-13"
+  },
+  {
+    "kategorie": "Neurologie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Sprachlosigkeit bei Aphasie: Warum Schlaganfall-Patienten nicht denken aufgehört haben, sondern ihr Gehirn neue Wege findet",
+    "stauner": "Menschen mit Broca-Aphasie gelten als geistig beeinträchtigt – doch ihr Denken bleibt intact. Ihr Gehirn reorganisiert sich nach dem Schlaganfall und nutzt die rechte Hirnhälfte, um Sprache wiederherzustellen.",
+    "absaetze": [
+      "Nach einem Schlaganfall verlieren manche Menschen die Fähigkeit zu sprechen. Sie kämpfen mit einzelnen Worten, wirken verwirrt, und Außenstehende nehmen an, dass auch ihr Denken beschädigt wurde. Diese Annahme ist fatal – und falsch. Neuroimaging zeigt: Das innere Denken dieser Patienten läuft weiter, ungebrochen, während nur die Verbindung zur Sprache unterbrochen ist.",
+      "Die Neuroplastizität springt ein. Innerhalb von Wochen und Monaten aktiviert das Gehirn neue neuronale Pfade – oft in der rechten Hirnhälfte, die normalerweise nicht für Sprache zuständig ist. Patienten, die täglich Sprachtherapie erhalten, zeigen messbar neue Aktivierungsmuster. Ihr Gehirn vergisst die alte Route nicht einfach: Es baut eine neue Umgehungsstraße. Studien mit funktioneller MRT zeigen, dass Rehabilitation die kortikale Reorganisation direkt steuert.",
+      "Das bedeutet etwas Entscheidendes: Menschen mit Aphasie sind nicht weniger intelligent geworden. Ihre kognitiven Fähigkeiten – Logik, Gedächtnis, Urteilsvermögen – sind intakt. Sie denken, planen, träumen, lieben genauso wie vorher. Sie können nur die Gedanken nicht einfach aussprechen. Das ist ein neurologisches Problem, kein kognitives. Und das Gehirn kämpft aktiv dagegen an."
+    ],
+    "schon_gewusst": "Menschen mit globaler Aphasie können oft automatische Sequenzen wie Lieder, Flüche oder Gebete trotzdem aufsagen – weil diese in anderen Hirnregionen gespeichert sind als konversationelle Sprache. Ein Patient, der keinen Satz bilden kann, singt plötzlich ein vollständiges Lied mit perfekter Aussprache.",
+    "quelle": "Saur et al. (2010): Perilesional Language Reorganization in Chronic Aphasia. Brain 133(6).",
+    "quelle_url": "https://doi.org/10.1093/brain/awq145",
+    "datum": "2026-06-13"
   }
 ]
