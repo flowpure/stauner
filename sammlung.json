@@ -2271,5 +2271,20 @@
     "quelle": "Leysen H. et al. (2019): The Seahorse Syngnathus acus and Its Suction Feeding Apparatus: Integration of Morphology and Kinematics. Journal of Morphology 280(2): 174-188.",
     "quelle_url": "https://doi.org/10.1002/jmor.20927",
     "datum": "2026-06-15"
+  },
+  {
+    "kategorie": "Meeresbiologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Einzeller-Primitivität: Warum Dinoflagellaten nicht einfach treiben, sondern Ozeane mit chemischen Symphonien orchestrieren",
+    "stauner": "Dinoflagellaten sind winzige Einzeller, die wir uns als passive Plankton-Partikel vorstellen. Tatsächlich kontrollieren sie durch chemische Signale die Fortpflanzung von Fischen, die Biolumineszenz ganzer Ökosysteme und beeinflussen sogar das Wettersystem des Planeten.",
+    "absaetze": [
+      "Wenn Biologen von Dinoflagellaten sprechen, denken wir an mikroskopisch kleine Organismen, die einfach mit den Meeresströmungen treiben – passive Bausteine des Planktons. Doch diese Vorstellung ist fundamental falsch. Dinoflagellaten sind hochaktive chemische Ingenieure, die ihr gesamtes Ökosystem durch gezielt freigesetzte Moleküle steuern. Sie produzieren nicht zufällig Substanzen – sie kommunizieren aktiv mit Fischen, Korallen und anderen Meeresorganismen, indem sie spezifische chemische Signale ausstoßen, die als Pheromone funktionieren.",
+      "Die Forschung zeigt: Dinoflagellaten nutzen diese chemischen Botschaften, um die Laichzyklen von Fischen zu synchronisieren, um Raubtiere anzulocken und um ihre eigenen Fortpflanzungsraten zu koordinieren – alles auf molekularer Ebene. Besonders faszinierend ist ihre Fähigkeit, Biolumineszenz zu erzeugen: Wenn ein Dinoflagellat durch einen Fischkörper verletzt wird, gibt er ein Lichtsignal ab, das tausende Artgenossen alarmiert. Diese kollektive Lichtshow lockt größere Raubtiere an, die den angreifenden Fisch verscheuchen – eine Form von ‚Nachbarschaftshilfe' auf zellulärer Ebene.",
+      "Noch bemerkenswerter: Dinoflagellaten produzieren flüchtige organische Verbindungen, die bis in die Atmosphäre aufsteigen und dort als Kondensationskeime für Wolkenbildung dienen. Sie beeinflussen also nicht nur ihr lokales Ökosystem, sondern das globale Klimasystem. Diese winzigen Einzeller sind keine passiven Passagiere der Ozeane – sie sind Maestros eines unsichtbaren Orchesters, die Millionen von Organismen und sogar Wettermuster durch chemische Präzision lenken. Das zeigt: Komplexität und Kontrolle entstehen nicht erst bei großen Organismen, sondern sind in der Natur auf allen Größenskalen vorhanden."
+    ],
+    "schon_gewusst": "Einige Dinoflagellaten-Arten bilden sogenannte ‚Rote Fluten', bei denen sie sich explosionsartig vermehren und das Wasser färben – aber diese Massenblüten sind nicht chaotisch, sondern werden durch hochpräzise chemische Quorum-Sensing-Mechanismen gesteuert, ähnlich wie Bakterienkolonien.",
+    "quelle": "Ianora et al. (2011): Chemical signalling in the sea: Infochemical-mediated interactions in the marine environment. Trends in Comparative Biochemistry & Physiology 16.",
+    "quelle_url": "https://doi.org/10.1016/j.dci.2010.12.001",
+    "datum": "2026-06-15"
   }
 ]
