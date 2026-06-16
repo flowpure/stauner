@@ -2286,5 +2286,20 @@
     "quelle": "Ianora et al. (2011): Chemical signalling in the sea: Infochemical-mediated interactions in the marine environment. Trends in Comparative Biochemistry & Physiology 16.",
     "quelle_url": "https://doi.org/10.1016/j.dci.2010.12.001",
     "datum": "2026-06-15"
+  },
+  {
+    "kategorie": "Physik",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Schallgeschwindigkeit-Grenze: Warum Ultraschall nicht das Ende der Akustik ist, sondern wo die Physik erst richtig beginnt",
+    "stauner": "Wir denken, Schall hat eine feste Geschwindigkeit – doch in verschiedenen Medien bewegt er sich radikal unterschiedlich. Das Faszinierendste: Je dichter das Material, desto schneller reist der Schall, und bei extremen Drücken entstehen völlig neue akustische Phänomene, die Medizin und Materialwissenschaft revolutionieren.",
+    "absaetze": [
+      "Die verbreitete Annahme lautet: Schall ist Schall. Er bewegt sich mit etwa 343 Metern pro Sekunde durch Luft, und das ist eine konstante Grenze. Ultraschall gilt als die extreme Grenze der praktischen Akustik – dahinter nur noch Chaos und Zerstörung. Doch diese Intuition täuscht gewaltig.",
+      "Die physikalische Realität ist präzise das Gegenteil. Schall ist kein absolutes Phänomen, sondern ein Medium-abhängiges. In Wasser bewegt sich Schall mit 1.480 Metern pro Sekunde – viermal schneller als in Luft. In Stahl erreicht Schall sogar 5.960 Meter pro Sekunde. Je dichter die Atome gepackt sind, desto effizienter können sie Schwingungen weitergeben. Und bei Frequenzen jenseits von 20 Kilohertz (dem menschlichen Hörlimit) passiert nicht weniger – es passiert mehr. Hochfrequenter Ultraschall kann gezielt in Materialien eindringen, einzelne Zellen zerstören oder präzise verschweißen. In der modernen Medizin nutzen wir Ultraschallfrequenzen von bis zu 40 Megahertz, um Tumore zu zerstören, ohne gesundes Gewebe zu beschädigen.",
+      "Das Faszinierende: Je tiefer wir in die Akustik eindringen, desto präziser wird unsere Kontrolle. Während sichtbares Licht durch Gewebe zerstreut wird, dringt Ultraschall tief ein und bleibt fokussiert. Längenwellen-Ultraschall (1-10 Megahertz) wird in der Sonografie verwendet – die sicherste bildgebende Technologie der Medizin. Hochfrequenter Ultraschall ermöglicht Biomaterial-Verarbeitung auf Nanometer-Ebene. Die 'Grenze' des Ultraschalls ist nicht das Ende der Akustik, sondern der Anfang einer Präzisions-Physik, die Leben rettet und Materialien heilt. Was wir als 'Grenze' sahen, war nur das Ende unseres Hörens – nicht das Ende der Natur."
+    ],
+    "schon_gewusst": "Delfine nutzen Echolokation mit Frequenzen bis 130 Kilohertz und können damit einzelne Fische aus 100 Metern Entfernung identifizieren – ihre akustische Auflösung ist präziser als medizinische Ultraschallgeräte.",
+    "quelle": "Dalecki D. (2004): Mechanical bioeffects of ultrasound. Annual Review of Biomedical Engineering 6.",
+    "quelle_url": "https://doi.org/10.1146/annurev.bioeng.6.040803.140104",
+    "datum": "2026-06-16"
   }
 ]
