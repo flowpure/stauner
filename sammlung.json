@@ -2301,5 +2301,20 @@
     "quelle": "Dalecki D. (2004): Mechanical bioeffects of ultrasound. Annual Review of Biomedical Engineering 6.",
     "quelle_url": "https://doi.org/10.1146/annurev.bioeng.6.040803.140104",
     "datum": "2026-06-16"
+  },
+  {
+    "kategorie": "Physik",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Spiegelglatheit: Warum perfekt glatte Oberflächen nicht reflektieren, sondern Licht verschlucken",
+    "stauner": "Wir denken, je glatter eine Oberfläche, desto besser reflektiert sie Licht. Doch die Physik sagt das Gegenteil: Atomar glatte Flächen sind für Lichtwellen praktisch unsichtbar. Erst die mikroskopische Rauheit macht Spiegel zu Spiegeln.",
+    "absaetze": [
+      "Ein perfekter Spiegel muss glatt sein – diese Intuition sitzt so tief in uns, dass wir sie kaum hinterfragen. Doch wenn man einen Spiegel auf atomarer Ebene betrachtet, zeigt sich das Paradox: Eine absolut glatte Oberfläche, auf der jedes Atom seinen idealen Platz einnimmt, reflektiert Licht überhaupt nicht effizient. Warum? Weil Lichtwellen nicht mit einzelnen Atomen interagieren – sie brauchen eine Struktur, die ihrer eigenen Wellenlänge entspricht. Eine atomar perfekte Fläche ist für Lichtwellen größtenteils transparent.",
+      "Die Realität ist kontraintuitiv: Moderne Spiegel funktionieren, weil ihre Oberflächen auf der Nanometer-Skala strukturiert sind. Diese winzigen Unebenheiten – viel zu klein, um sie mit dem Auge zu sehen, aber perfekt dimensioniert für sichtbares Licht – erzeugen erst die Interferenzmuster, die Lichtwellen kohärent zurückwerfen. Ein Spiegel mit atomar perfekter Oberfläche würde wirken wie Glas: das meiste Licht würde einfach hindurchgehen. Antireflexbeschichtungen nutzen genau dieses Prinzip in umgekehrter Form – sie erzeugen destruktive Interferenz durch gezielte Oberflächenstrukturen.",
+      "Das bedeutet: Perfektion in der Natur ist oft ein Missverständnis unserer Wahrnehmung. Was für unser Auge 'perfekt glatt' aussieht, ist in Wirklichkeit intelligente Rauheit – eine Architektur im Nanometer-Bereich, die Physik nutzt statt sie zu ignorieren. Diese Erkenntnis hat zu revolutionären Anwendungen geführt: selbstreinigenden Oberflächen (Lotus-Effekt), effizienten Solarpanelen und Beschichtungen, die Wärme gezielt lenken. Die Natur baut keine atomaren Spiegelkabinette – sie baut Strukturen, die mit Lichtwellen tanzen."
+    ],
+    "schon_gewusst": "Käferflugeldecken schimmern in Regenbogenfarben, obwohl sie gar keine pigmente enthalten – sie funktionieren wie natürliche Nanogitter, die Licht durch Strukturfarben statt chemische Farben brechen. Ein weiteres Beispiel dafür, dass Oberflächenstruktur alles ist.",
+    "quelle": "Shang et al. (2005): Extreme Wetting of Textured Surfaces. Nature 437(7063).",
+    "quelle_url": "https://doi.org/10.1038/nature04201",
+    "datum": "2026-06-16"
   }
 ]
