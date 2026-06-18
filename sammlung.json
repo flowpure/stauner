@@ -2361,5 +2361,20 @@
     "quelle": "Anderson, M. K. (2005): Tending the Wild: Native American Knowledge and the Management of California's Natural Resources. University of California Press.",
     "quelle_url": "https://doi.org/10.1525/9780520242944",
     "datum": "2026-06-18"
+  },
+  {
+    "kategorie": "Archäologie",
+    "hauptkategorie": "Geschichte & Kultur",
+    "titel": "Die Lüge der Ton-Rohheit: Warum antike Keramiker nicht experimentierend tüftelten, sondern mathematische Präzision bereits beherrschten",
+    "stauner": "Antike Töpfer waren keine trial-and-error-Bastler. Sie nutzten bewusst Tonmischungen mit exakten Mineralverhältnissen und kontrollierten Brenntemperaturen – ihre Rezepte waren so reproduzierbar wie moderne Chemie.",
+    "absaetze": [
+      "Wir stellen uns antike Keramiker als Handwerker vor, die durch Zufall zu guten Ergebnissen kamen: Ein bisschen mehr Sand hier, höhere Flammen dort, bis es irgendwann passte. Doch archäologische Analysen zeigen ein völlig anderes Bild. Töpfer der Jōmon-Periode in Japan (vor 16.000 Jahren), minoische Keramiker (vor 3.500 Jahren) und römische Werkstätten verfügten über systematisches Materialwissen, das nur durch kontinuierliche Beobachtung und mathematische Verallgemeinerung entstand.",
+      "Tonanalysen von Gefäßen aus verschiedenen antiken Kulturen enthüllen: Die Handwerker mischten ihre Rohstoffe in bewusst variierten Anteilen. Sie wählten Tone mit spezifischen Korngrößenverteilungen, fügten gezielt Magerungsstoffe (Sand, Glimmer, organische Materialien) in präzisen Verhältnissen hinzu und brannten in Öfen mit kontrollierbaren Temperaturzonen. Diese Gefäße waren nicht Einzel-Unikate – archäologen finden hunderte quasi-identische Exemplare, was nur durch standardisierte Rezepte möglich ist. Der römische Töpfer hatte ein Wissen-System, das er weitergab wie ein Handwerk-Lehrbuch.",
+      "Das bedeutet: Antike Kulturen verfügten über explizites, weitergabefähiges technisches Wissen, das über Generationen refined wurde. Sie waren nicht Improvisateure, sondern Wissenshalter. Diese Erkenntnis würdigt etwas Fundamentales: Innovation entsteht nicht primär durch Genie-Blitze, sondern durch systematische Beobachtung und mutige Standardisierung. Die antiken Keramiker zeigen uns, dass der Mensch schon immer danach strebte, Handwerk reproduzierbar zu machen – und das ist der Ursprung aller Zivilisation."
+    ],
+    "schon_gewusst": "Einige antike Tonmischungen waren so stabil, dass Archäologen heute deren chemische Signatur nutzen, um einzelne Werkstätten zu identifizieren – jede Werkstatt hatte ihre charakteristische 'Tonsignatur', die über Jahrzehnte konstant blieb.",
+    "quelle": "Kilikoglou et al. (2001): Compositional Variation in Aegean Pottery: Newlights from a Multidimensional Statistical Approach. Journal of Archaeological Science 28(6).",
+    "quelle_url": "https://doi.org/10.1006/jasc.2000.0636",
+    "datum": "2026-06-18"
   }
 ]
