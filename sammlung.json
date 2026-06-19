@@ -2391,5 +2391,20 @@
     "quelle": "Clarke et al. (2013): Detection and learning of floral electric fields by bumblebees. Science 340(6128).",
     "quelle_url": "https://doi.org/10.1126/science.1230883",
     "datum": "2026-06-19"
+  },
+  {
+    "kategorie": "Botanik",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Pflanzen-Hilflosigkeit: Warum Pflanzen nicht einfach wachsen, sondern aktiv ihre Feinde erkennen und chemische Waffen gegen sie mobilisieren",
+    "stauner": "Pflanzen sind nicht passive Opfer von Insektenfraß. Sie erkennen präzise, welche Art von Schädling sie gerade frisst – und produzieren daraufhin gezielt unterschiedliche Giftstoffe. Noch erstaunlicher: Sie warnen ihre Nachbarn vor der Gefahr.",
+    "absaetze": [
+      "Die verbreitete Annahme ist fatal einfach: Pflanzen werden von Insekten gefressen und können sich nicht wehren. Sie sind statisch, verletzlich, hilflos. Die Realität ist eine raffinierte chemische Rüstungsfabrik. Wenn eine Raupe an einem Blatt kaut, hinterlässt sie nicht nur Fraßspuren – sie hinterlässt chemische Signaturen im Speichel. Die Pflanze identifiziert diese Signatur in Echtzeit und weiß sofort: Es ist eine Heerwürmerraupe, nicht eine Schmetterlingsraupe, nicht ein Käfer. Jede Insektenart hinterlässt ihr eigenes chemisches Erkennungszeichen.",
+      "Die Konsequenz dieser Erkennung ist nicht langsames, diffuses Wachstum von Giftstoffen – sondern eine hochpräzise, artspezifische Gegenmaßnahme. Eine Pflanze, die von Heerwürmern befallen wird, produziert genau die Toxine, die Heerwürmer töten. Eine Pflanze, die von Blattläusen angegriffen wird, syntetisiert eine völlig andere chemische Waffe. Das ist nicht Zufall oder Glück – das ist Erkennung und Zweckreaktion auf molekularer Ebene. Noch bemerkenswerter: Diese Synthese beginnt nicht an der Wundstelle, sondern breitet sich wie ein Nervenimpuls durch die ganze Pflanze aus, sodass auch unverletzte Blätter bereits mit Toxinen angereichert sind, bevor der Schädling sie erreicht.",
+      "Das Erstaunlichste aber ist die Kommunikation. Wenn eine Pflanze von Insekten befallen wird, setzt sie flüchtige organische Verbindungen frei – Duftstoffe, die kein Mensch bewusst riecht. Diese Duftwolke wird von Nachbarpflanzen derselben Art aufgespürt. Innerhalb von Minuten fahren diese Nachbarspflanzen ihre Abwehrsysteme hoch, obwohl noch kein Insekt sie angegriffen hat. Sie wurden durch einen Duft gewarnt und bereiten sich präventiv vor. Das ist nicht Chemie als passiver Prozess – das ist ein Alarm-Netzwerk zwischen Organismen, die nicht einmal berühren können."
+    ],
+    "schon_gewusst": "Manche Pflanzen haben noch raffiniertere Tricks entwickelt: Sie locken gezielt natürliche Feinde von Schädlingen an. Wenn eine Bohnenpflanze von Spinnmilben befallen wird, setzt sie Duftstoffe frei, die speziell Raubmilben anlocken – natürliche Jäger der Spinnmilben. Die Pflanze stellt also eine Privatarmee an.",
+    "quelle": "Karban et al. (1997): Communication between plants: Induced resistance in wild tobacco plants following clipping of neighboring sagebrush. Oecologia 125(1).",
+    "quelle_url": "https://doi.org/10.1007/s004420050891",
+    "datum": "2026-06-19"
   }
 ]
