@@ -2376,5 +2376,20 @@
     "quelle": "Kilikoglou et al. (2001): Compositional Variation in Aegean Pottery: Newlights from a Multidimensional Statistical Approach. Journal of Archaeological Science 28(6).",
     "quelle_url": "https://doi.org/10.1006/jasc.2000.0636",
     "datum": "2026-06-18"
+  },
+  {
+    "kategorie": "Botanik",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der stummen Blütenbestäubung: Warum Blüten nicht passiv warten, sondern Insekten durch elektrische Signale aktiv anlocken",
+    "stauner": "Blüten sind nicht stille Kandidatinnen für Bestäubung – sie senden kontinuierlich elektrische Signale aus, die Bienen aus der Luft erkennen und wie ein Navigationssystem nutzen. Diese Hochfrequenz-Kommunikation funktioniert blitzschnell und macht Blüten zu aktiven Akteuren in einem elektromagnetischen Dialog mit ihren Bestäubern.",
+    "absaetze": [
+      "Wir stellen uns Blütenbestäubung als passiven Prozess vor: Eine Biene landet zufällig auf einer Blüte, nimmt Duft und Farbe wahr, und bestäubt sie nebenbei. Doch diese Vorstellung unterschlägt einen entscheidenden Akteur – die Blüte selbst, die nicht wartet, sondern ruft. Neuere Forschung zeigt, dass Blüten ein elektrisches Spannungsfeld aufweisen, das sich unmittelbar nach einer Bestäubung verändert und damit Signale an heranfliegende Insekten sendet.",
+      "Die Blüte nutzt ihre elektrische Ladung wie ein Navigationslicht: Während sie fotosynthetisiert, baut sie eine Potentialdifferenz auf – ein elektrisches Feld, das Bienen mit ihren haarigen Körpern (die als natürliche Kondensatoren fungieren) mühelos wahrnehmen können. Sobald eine Biene eine Blüte besucht hat, sinkt die Spannung messbar ab. Das nächste Insekt erkennt diese elektrische 'Abnutzungsspur' aus der Luft und weiß, dass diese Blüte gerade besucht wurde – und wechselt zu einer frischeren Blüte. Dies spart der Biene wertvolle Energie und erhöht gleichzeitig die genetische Vielfalt der Bestäubung.",
+      "Dieser Befund revolutioniert unser Verständnis von Pflanzen-Insekten-Beziehungen: Blüten sind nicht passive Objekte, sondern intelligente Kommunikatoren, die mehrere Kanäle gleichzeitig nutzen – visuell, olfaktorisch und elektromagnetisch. Sie optimieren nicht nur ihre Chancen auf Bestäubung, sondern regulieren auch aktiv, wie oft und von welchen Insekten sie besucht werden. Das ist keine Anpassung, sondern eine Strategie – und sie funktioniert so zuverlässig, dass manche Blütenarten ihre elektrischen Signale stärker modulieren als andere, je nachdem wie viele Bestäuber in ihrer Region verfügbar sind."
+    ],
+    "schon_gewusst": "Manche Pflanzen können ihre elektrische Spannung bewusst erhöhen, wenn sie unter Stress stehen – eine Art stilles Notrufsystem, das Bestäuber anzieht, bevor die Blüte welkt.",
+    "quelle": "Clarke et al. (2013): Detection and learning of floral electric fields by bumblebees. Science 340(6128).",
+    "quelle_url": "https://doi.org/10.1126/science.1230883",
+    "datum": "2026-06-19"
   }
 ]
