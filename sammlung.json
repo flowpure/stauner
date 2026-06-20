@@ -2421,5 +2421,20 @@
     "quelle": "Goldberg D (1991): What Every Computer Scientist Should Know About Floating-Point Arithmetic. ACM Computing Surveys 23(1).",
     "quelle_url": "https://doi.org/10.1145/103162.103163",
     "datum": "2026-06-20"
+  },
+  {
+    "kategorie": "Mathematik",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Unendlichkeit: Warum manche Unendlichkeiten größer sind als andere – und das ist kein mathematischer Trick, sondern die Realität",
+    "stauner": "Es gibt nicht eine Unendlichkeit, sondern unendlich viele verschiedene Größen von Unendlichkeit. Cantor bewies mathematisch: Die Unendlichkeit der natürlichen Zahlen ist kleiner als die Unendlichkeit der reellen Zahlen. Das bedeutet: Nicht alle Unendlichkeiten sind gleich.",
+    "absaetze": [
+      "Unsere Intuition flüstert uns: Unendlich ist unendlich. Eine Million, eine Milliarde, eine Googol – irgendwann ist es einfach unendlich, und alles Weitere ist gleichbedeutend. Das ist die beruhigende Fehlannahme, die wir mit uns tragen. Doch Georg Cantor zeigte im 19. Jahrhundert etwas Verstörendes und gleichzeitig Wunderschönes: Es gibt verschiedene Größen von Unendlichkeit, die sich mathematisch präzise unterscheiden lassen.",
+      "Cantor entwickelte die Theorie der Kardinalität, die misst, wie viele Elemente eine Menge enthält – auch wenn diese Menge unendlich ist. Die natürlichen Zahlen (1, 2, 3, 4 ...) bilden eine abzählbar unendliche Menge. Die reellen Zahlen (alle Dezimalzahlen zwischen 0 und 1) bilden eine überabzählbar unendliche Menge. Und hier kommt die Pointe: Es gibt streng mathematisch mehr reelle Zahlen als natürliche Zahlen – obwohl beide unendlich sind. Cantor bewies dies durch das berühmte Diagonalargument: Selbst wenn man versucht, die reellen Zahlen mit natürlichen Zahlen zu nummerieren, wird man immer mindestens eine reelle Zahl übersehen. Die Unendlichkeit der reellen Zahlen ist größer.",
+      "Diese Erkenntnis war revolutionär und anfangs verstörend – sogar für Mathematiker. Aber sie offenbarte etwas Tiefgreifendes: Die mathematische Realität ist reicher strukturiert als unsere naive Intuition. Es gibt nicht eine amorphe ‚Unendlichkeit', sondern eine hierarchische Ordnung verschiedener Unendlichkeitsgrade. Das ermöglicht erst präzise Aussagen über das Unendliche. Heute nutzen wir diese Theorie in der Informatik (Berechenbarkeit), in der Analysis (kontinuierliche Funktionen) und in der Mengenlehre. Die Erkenntnis, dass Unendlichkeit nicht formlos ist, sondern Struktur hat, zeigt: Selbst das Unbegrenzte folgt Regeln. Das ist nicht deprimierend – es ist ermächtigend."
+    ],
+    "schon_gewusst": "Es gibt unendlich viele verschiedene Größen von Unendlichkeit. Oberhalb der reellen Zahlen gibt es noch größere Unendlichkeitsgrade (wie die Potenzmenge der reellen Zahlen), und diese Kette setzt sich unendlich fort – eine Unendlichkeit von Unendlichkeiten.",
+    "quelle": "Cantor, G. (1891): Ueber eine elementare Frage der Mannigfaltigkeitslehre. Jahresbericht der Deutschen Mathematiker-Vereinigung 1.",
+    "quelle_url": "https://doi.org/10.1515/9783111924220-011",
+    "datum": "2026-06-20"
   }
 ]
