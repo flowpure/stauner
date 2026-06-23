@@ -2496,5 +2496,20 @@
     "quelle": "Barton et al. (2016): The biogeography of marine microorganisms is shaped by ocean structure. Nature Ecology & Evolution 1(1).",
     "quelle_url": "https://doi.org/10.1038/s41559-016-0016",
     "datum": "2026-06-22"
+  },
+  {
+    "kategorie": "Mikrobiologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Phagen-Zerstörer: Warum Viren nicht Bakterien töten, sondern sie neu erfinden",
+    "stauner": "Bakteriophagen sind nicht einfach mikrobielle Killerzellen. Sie modifizieren das Erbgut ihrer Wirte, geben ihnen neue Fähigkeiten und schaffen damit die genetische Vielfalt, die Ökosysteme am Leben erhält.",
+    "absaetze": [
+      "Lange Zeit sahen Mikrobiologen Phagen als reine Destruktoren: Viren, die Bakterien infizieren und zerstören. Diese Sicht ist fundamental falsch. Phagen führen beim Eindringen in Bakterien oft nicht zum Zelltod, sondern zu etwas Subtilerem – sie integrieren ihr Erbgut in das Bakteriengenom und verändern damit dauerhaft, was diese Zelle kann. Ein Bakterium mit neu integriertem Phagen-DNA ist ein verändertes Lebewesen mit neuen Fähigkeiten.",
+      "Dieser Prozess heißt Lysogenic Conversion und ist nicht selten, sondern omnipräsent. Schätzungen zeigen, dass etwa 50% aller Bakterien-Gene tatsächlich von Phagen stammen oder von Phagen-Infektionen geprägt wurden. Toxin-Antitoxin-Systeme in Bakterien, Antibiotikaresistenzen, sogar Virulenzfaktoren bei pathogenen Stämmen – vieles wird durch Phagen-vermittelte horizontale Gentransfer verbreitet. Phagen sind keine Killer, sie sind Genetiker. Sie schreiben das mikrobielle Genom um.",
+      "Und damit schaffen sie die Voraussetzung für Evolution selbst. In Ozeanen infizieren Phagen täglich etwa 10^31 Bakterienzellen – mehr Infektionen als es Sterne im Universum gibt. Diese ständige genetische Durchmischung erzeugt Variation, Anpassung, Innovation. Ohne Phagen würden Bakterien stagnieren. Mit Phagen entstehen völlig neue mikrobielle Strategien innerhalb von Generationen. Phagen sind nicht die Feinde der Bakterien – sie sind ihre Evolution in Aktion."
+    ],
+    "schon_gewusst": "CRISPR, das revolutionäre Genschere-System, das Medizin und Landwirtschaft transformiert, stammt ursprünglich aus einem bakteriellen Abwehrsystem gegen Phagen. Bakterien haben sich über Millionen Jahre entwickelt, um Phagen zu bekämpfen – und aus diesem Wettrüsten entstand die präziseste Biotechnologie, die wir je erfunden haben.",
+    "quelle": "Canchaya et al. (2003): Phage as Agents of Lateral Gene Transfer. Current Opinion in Microbiology 6(4).",
+    "quelle_url": "https://doi.org/10.1016/j.mib.2003.10.001",
+    "datum": "2026-06-23"
   }
 ]
