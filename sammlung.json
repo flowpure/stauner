@@ -2511,5 +2511,20 @@
     "quelle": "Canchaya et al. (2003): Phage as Agents of Lateral Gene Transfer. Current Opinion in Microbiology 6(4).",
     "quelle_url": "https://doi.org/10.1016/j.mib.2003.10.001",
     "datum": "2026-06-23"
+  },
+  {
+    "kategorie": "Mikrobiologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Bakterien-Speicher: Warum Mikroben nicht einfach Nährstoffe verbrauchen, sondern sie für Zeiten der Not systematisch einlagern – wie winzige Vorratskammern mit perfektem Timing",
+    "stauner": "Bakterien sind nicht die hungrigen Einzeller, die sofort alles Verfügbare aufbrauchen. Sie verfügen über ausgefeilte interne Speichersysteme, die überschüssige Nährstoffe strategisch einlagern und bei Mangelzeiten gezielt wieder mobilisieren – ein Verhalten, das wir lange nur Tieren zutrauten.",
+    "absaetze": [
+      "Lange hielten Biologen Bakterien für primitive Opportunisten: Wo Nährstoffe sind, werden sie sofort konsumiert. Doch diese Sicht ist fundamental falsch. Bakterien wie Bacillus subtilis und Vibrio cholerae speichern systematisch Polyhydroxybutyrat (PHB), ein biologisches Polymer, das wie eine innere Fettreserve funktioniert. Sie bauen es in guten Zeiten auf und zerlegen es in Phasen von Nährstoffmangel wieder ab – ein Verhalten, das Millionen Jahre Evolution erfordert, nicht primitive Reaktivität.",
+      "Diese Speicherstrategien sind nicht zufällig: Bakterien regulieren ihre Speicherung durch genau kalibrierte Sensoren, die die Verfügbarkeit von Kohlenstoff, Stickstoff und Phosphor überwachen. Sie investieren Energie in den Aufbau dieser Reserven, obwohl sie sofort Vermehrung fördern könnten – ein Opfer, das nur Sinn macht, wenn die Zukunft unwägbar ist. Studien zeigen, dass Zellen mit optimalen Speicherstrategien Hungerphasen bis zu 300 Mal länger überstehen als speichernde Mutanten.",
+      "Das Faszinierende: Diese Fähigkeit offenbart, dass Bakterien nicht einfach im Moment leben, sondern antizipieren. Sie bereiten sich auf Zeiten vor, die möglicherweise nie kommen – eine Form von mikrobieller Vorsicht, die ihrer vermeintlichen Primitivität völlig widerspricht. In Biofilmen und Ökosystemen sind es genau diese speichernden Bakterien, die über Dürren, Überflutungen und Hungerperioden hinweg die Stabilität ganzer Systeme garantieren. Sie sind nicht Opfer ihrer Umwelt, sondern ihre geduldigen Architekten."
+    ],
+    "schon_gewusst": "Manche Bakterien wie Azotobacter vinelandii können ihre PHB-Speicher in weniger als einer Minute aufbauen, wenn plötzlich Nährstoffe verfügbar sind – eine Reaktionsgeschwindigkeit, die jeder tierischen Stoffwechsel neidig sein würde.",
+    "quelle": "Obruca et al. (2016): Polyhydroxyalkanoates: Formation, Structure, Properties and Applications. Advances in Biochemical Engineering/Biotechnology.",
+    "quelle_url": "https://doi.org/10.1007/10_2016_47",
+    "datum": "2026-06-23"
   }
 ]
