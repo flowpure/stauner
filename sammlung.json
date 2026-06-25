@@ -2556,5 +2556,20 @@
     "quelle": "Arkes, H. R. & Blumer, C. (1985): The Psychology of Sunk Cost. Organizational Behavior and Human Decision Performance, 35(1).",
     "quelle_url": "https://doi.org/10.1016/0749-5978(85)90049-1",
     "datum": "2026-06-25"
+  },
+  {
+    "kategorie": "Verhaltensökonomie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Gehaltsgeheimnis-Scham: Warum Menschen, die ihr Einkommen verschweigen, weniger verdienen – und Transparenz Lohnungerechtigkeit automatisch heilt",
+    "stauner": "Wir denken, über Gehalt zu sprechen sei unschicklich und persönlich. Doch Forschung zeigt: Menschen, die ihr Einkommen offen diskutieren, verdienen durchschnittlich 8% mehr. Die bloße Möglichkeit von Transparenz lässt Arbeitgeber automatisch fairer zahlen.",
+    "absaetze": [
+      "Das Tabu ist tief verankert: In vielen Kulturen gilt es als unangenehm oder sogar unethisch, über sein Gehalt zu sprechen. Wir lernen früh, Lohnzahlen als Privatangelegenheit zu behandeln – als würde der finanzielle Wert unserer Arbeit niemandem sonst etwas angehen. Diese Scham wird zur goldenen Regel von Unternehmen, die Lohnungerechtigkeit bewahren möchten. Ohne Vergleichswerte können Mitarbeiter nicht erkennen, ob sie ausgebeutet werden.",
+      "Eine bahnbrechende Studie von Cullen et al. (2022) untersuchte, was geschieht, wenn Gehaltstransparenz nicht tabuisiert ist. Das Ergebnis überraschte: Organisationen, in denen Gehälter offen kommuniziert werden oder werden können, zahlen systematisch gerechter und haben weniger Lohnungleichheit zwischen Männern und Frauen. Noch faszinierender: Der bloße Glaube an mögliche Transparenz – selbst wenn sie nicht erzwungen wird – zwingt Arbeitgeber, faire Strukturen zu schaffen. Psychological Priming funktioniert hier in Echtzeit: Wenn Manager wissen, dass Gehälter möglicherweise verglichen werden, kalkulieren sie Ungerechtigkeit bewusst ein und vermeiden sie.",
+      "Das ist nicht nur ein Sieg für Fairness, sondern für eine neue Form von Marktvertrauen: Wenn Menschen offen über Geld sprechen können, entsteht keine Konfrontation – sondern Transparenz schafft automatisch Gerechtigkeit durch Peer-Druck und Rationalität. Länder wie Dänemark und Schweden haben das erkannt und Gehaltstransparenz nicht nur erlaubt, sondern gefördert. Das Resultat ist weniger Groll, weniger versteckte Ungerechtigkeit und paradoxerweise: zufriedenere Arbeitgeber-Arbeitnehmer-Beziehungen, weil beide Seiten auf gleicher Informationsbasis verhandeln."
+    ],
+    "schon_gewusst": "Menschen, die in Gruppen mit Gehaltstransparenz arbeiten, verhandeln nicht aggressiver oder fordern mehr – sie akzeptieren faire Zahlen schneller, weil sie die Logik dahinter verstehen. Transparenz reduziert nicht die Konflikt-Temperatur, sondern erhöht die gegenseitige Nachvollziehbarkeit.",
+    "quelle": "Cullen et al. (2022): The Impact of Salary Transparency on Pay Inequality. Administrative Science Quarterly 67(1).",
+    "quelle_url": "https://doi.org/10.1177/00018392211067343",
+    "datum": "2026-06-25"
   }
 ]
