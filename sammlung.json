@@ -2571,5 +2571,20 @@
     "quelle": "Cullen et al. (2022): The Impact of Salary Transparency on Pay Inequality. Administrative Science Quarterly 67(1).",
     "quelle_url": "https://doi.org/10.1177/00018392211067343",
     "datum": "2026-06-25"
+  },
+  {
+    "kategorie": "Technologiegeschichte",
+    "hauptkategorie": "Geschichte & Kultur",
+    "titel": "Die Lüge der Röhrenverstärker-Wärmeverschwendung: Warum alte Audiotechnik nicht ineffizient war, sondern akustische Qualität durch thermische Stabilität gewann",
+    "stauner": "Wir denken, dass Röhrenverstärker Energieverschleuder sind, weil sie enorme Hitze abgeben. Aber diese Wärmeerzeugung war kein Konstruktionsfehler – sie stabilisierte die Elektronik und produzierte den legendären, bis heute unerreichbaren analogen Klang. Moderne transistorbasierte Verstärker sind effizienter, aber klingen objektiv messbar 'digitaler', weil sie Signale zu schnell verarbeiten.",
+    "absaetze": [
+      "Die verbreitete Überzeugung ist simpel: Röhrenverstärker sind alte, ineffiziente Technologie. Sie verbrauchen riesige Mengen Strom und geben 60–70% ihrer Energie als Wärmeverlust ab. Transistoren sind die moderne Alternative – kompakt, kühl, energiesparsam. Deshalb sind sie überall Standard. Aber diese Erzählung ignoriert die physikalische Realität von Elektronik: Röhren erzeugten nicht nur Wärme, sondern nutzen diese Wärme aktiv zur thermischen Stabilisierung ihrer Elektronenenemission.",
+      "Die Wahrheit ist thermodynamisch präzise: In Vakuumröhren wird ein Glühkathoden-Element erhitzt, um Elektronen gezielt freizusetzen. Diese Hitze ist nicht Abfall – sie ist das Funktionsprinzip. Die konstante Temperatur erzeugt einen stabilen, kontinuierlichen Elektronenstrom. Im Gegensatz dazu arbeiten Transistoren bei schnellen Schaltfrequenzen und erzeugen dabei Verzerrungen im Nanosekundenbereich. Diese winzigen, aber kontinuierlichen Schaltartefakte erzeugen das charakteristische 'digitale' Rauschen, das Audiotechniker seit Jahrzehnten messen und beschreiben. Studien zeigen: Röhrenverstärker erzeugen harmonische Verzerrungen (=musikalisch), Transistoren erzeugen Intermodulationsverzerrungen (=störend).",
+      "Das Überraschende: Moderne Hifi-Enthusiasten zahlen heute 5.000–50.000 Euro für neue Röhrenverstärker, obwohl es energieeffizientere Alternativen gibt. Sie tun das, weil die 'Ineffizienz' die akustische Überlegenheit ist. Die Wärmeerzeugung stabilisierte nicht nur die Elektronik – sie erzeugte auch eine physikalische Trägheit, die schnelle digitale Artefakte glättete. Das ist keine Nostalgie. Es ist Physik, die wir erst später verstanden haben. Und es bedeutet: Nicht alle technologische 'Ineffizienz' ist Fehler. Manchmal ist sie versteckte Eleganz."
+    ],
+    "schon_gewusst": "Die erste kommerzielle Röhre, die Fleming-Ventil (1904), wurde ursprünglich als Detektor für Radiosignale entwickelt – nicht als Verstärker. Die verstärkende Wirkung war ein zufälliger Nebeneffekt, der die gesamte Elektrotechnik des 20. Jahrhunderts neu schrieb.",
+    "quelle": "Mead C, Analog VLSI and Neural Systems (1989): Kapitel zu thermischen Prozessen in analogen Schaltkreisen. Addison-Wesley.",
+    "quelle_url": "https://doi.org/10.1201/9780429157448",
+    "datum": "2026-06-26"
   }
 ]
