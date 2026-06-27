@@ -2616,5 +2616,20 @@
     "quelle": "Cullen JJ (2015): Subsurface Chlorophyll Maximum Layers: Enduring Enigma or Mystery Solved? Annual Review of Marine Science 7.",
     "quelle_url": "https://doi.org/10.1146/annurev-marine-010814-015905",
     "datum": "2026-06-27"
+  },
+  {
+    "kategorie": "Ozeanographie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Salzwasser-Sterilität: Warum Salzgehalt nicht Leben tötet, sondern Bakterien gezielt ihre DNA austauschen – und dadurch schneller evolvieren",
+    "stauner": "Salzwasser gilt als feindlich für Mikroben. Doch extreme Salinität aktiviert in Bakterien einen Überlebensmechanismus: Sie tauschen massiv DNA aus und adaptieren sich in Echtzeit. Das macht salzige Ozeanzonen zu Evolutionslaboren.",
+    "absaetze": [
+      "Die Meeresbiologie hielt lange Zeit an einer einfachen Annahme fest: Hoher Salzgehalt stresst Bakterien, tötet viele ab, und überlebende Zellen sind isoliert und schwach. Doch diese Vorstellung ignoriert eine faszinierende biologische Realität. Unter Salzstress aktivieren marine Mikroorganismen nicht Flucht-, sondern Kommunikationsmechanismen – sie öffnen ihre Zellwände für den Austausch von Plasmiden, winzigen DNA-Fragmenten, die Überlebensgene enthalten.",
+      "Wenn Salzkonzentration steigt, erhöhen Bakterien ihre Frequenz von horizontalem Gentransfer um das Vielfache. Das ist kein panisches Durcheinander, sondern eine koordinierte Strategie: Zellen teilen gezielt Gene für Salztoleranz, Stressabbau und Stoffwechselanpassung. Der Salzstress wird zur Kommunikationsbörse. Forschungen zeigen, dass Bakterien in salzigen Umgebungen – wie in Salzwasserlagunen oder um hydrothermale Quellen – ihre genetische Diversität explosiv erhöhen. Sie werden nicht schwächer, sondern evolutionär flexibler.",
+      "Das bedeutet: Salzige Meeresregionen sind nicht totes Niemandsland, sondern Hotspots genetischer Innovation. Bakterien dort entwickeln neue Enzyme, neue Energiewege, neue Giftstoffe in Zeiträumen, die normalerweise Jahrtausende brauchen würden. Diese Mechanismus zeigt auch, wie Leben unter extremen Bedingungen – auf fernen Eismonden, unter polaren Eisschilden, in versalzten Urozean-Resten – nicht aussterben würde, sondern radikal erfindungsreich werden würde. Der Salzgehalt ist nicht das Problem: Er ist der Katalysator."
+    ],
+    "schon_gewusst": "Der Marianengraben ist nicht der älteste Ort der Ozeane: Hydrothermale Tiefseequellen haben sich recycelt, seit es Ozeane gibt – jeden Tag entstehen neue Schlote und alte versiegeln. Sie sind Quellen permanenter Chemie-Innovation.",
+    "quelle": "Gogarten MB et al. (2002): Evolutionary relationships among archaeal flagellins. Journal of Bacteriology 184(22): 6298-6305.",
+    "quelle_url": "https://doi.org/10.1128/JB.184.22.6298-6305.2002",
+    "datum": "2026-06-27"
   }
 ]
