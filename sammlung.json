@@ -2631,5 +2631,20 @@
     "quelle": "Gogarten MB et al. (2002): Evolutionary relationships among archaeal flagellins. Journal of Bacteriology 184(22): 6298-6305.",
     "quelle_url": "https://doi.org/10.1128/JB.184.22.6298-6305.2002",
     "datum": "2026-06-27"
+  },
+  {
+    "kategorie": "Chemie",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Katalysator-Verschwendung: Warum Katalysatoren nicht verbraucht werden, sondern Reaktionen tanzend beschleunigen – und sich dabei selbst erneuern",
+    "stauner": "Wir denken, Katalysatoren werden bei chemischen Reaktionen aufgebraucht wie Brennstoff. Doch in Wahrheit betreten sie eine Reaktion, choreografieren sie und verlassen sie völlig unverändert – bereit für Millionen weitere Tänze. Das macht sie zu den effizientesten Akteuren der Chemie.",
+    "absaetze": [
+      "Die verbreitete Fehlannahme ist hartnäckig: Ein Katalysator beschleunigt eine chemische Reaktion, wird dabei aber verbraucht oder verändert. Deshalb müssen wir ständig neue Katalysatoren hinzufügen, oder? Falsch. Per Definition ist ein Katalysator eine Substanz, die nach einer Reaktion in exakt derselben Form zurückkehrt – unverändert, unermattet, bereit für die nächste Runde. Ein einzelnes Platin-Atom kann in einer Abgasanlage Millionen von Kohlenmonoxid-Molekülen in Kohlendioxid verwandeln, ohne dabei auch nur ein Elektron zu verlieren.",
+      "Wie funktioniert dieses chemische Wunder? Der Katalysator senkt die Aktivierungsenergie einer Reaktion – die Energiehürde, die Moleküle überwinden müssen, um zu reagieren. Statt dass Reaktanten brutal frontal aufeinander prallen (was viel Energie kostet), vermittelt der Katalysator einen eleganten Umweg: Er bindet vorübergehend an die Reaktanten, stabilisiert einen Übergangszustand und gibt sie dann los, sobald die Reaktion vollendet ist. Es ist wie ein Tanzlehrer, der zwei unbeholfene Partner zusammenbringt – der Tanz geschieht, aber der Lehrer geht unversehrt hervor.",
+      "Die Bedeutung dieser Wahrheit ist revolutionär: Katalysatoren sind nicht Ressourcen, die wir verbrauchen, sondern Werkzeuge, die wir wieder und wieder nutzen können – theoretisch für immer. Das macht Katalyse zur umweltfreundlichsten Form der Chemie. Industrielle Prozesse wie die Haber-Bosch-Synthese (die Stickstoff in Dünger umwandelt und heute über 4 Milliarden Menschen ernährt) funktionieren nur deshalb wirtschaftlich, weil ein billiger Eisen-Katalysator Billionen von Reaktionen ohne Verschleiß beschleunigt. Und die Batterien und Brennstoffzellen der Zukunft werden nicht daran scheitern, dass uns Katalysatoren ausgehen – sondern daran, dass wir noch effizientere finden."
+    ],
+    "schon_gewusst": "Enzym sind biologische Katalysatoren, die bis zu eine Million Mal effizienter sind als künstliche Katalysatoren – manche Enzyme catalysieren 1 Million Reaktionen pro Sekunde, und das bei Körpertemperatur, ohne giftige Abfallprodukte zu erzeugen.",
+    "quelle": "Nørskov et al. (2009): Towards the computational design of solid catalysts. Nature Chemistry 1(1).",
+    "quelle_url": "https://doi.org/10.1038/nchem.141",
+    "datum": "2026-06-28"
   }
 ]
