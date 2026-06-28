@@ -2646,5 +2646,20 @@
     "quelle": "Nørskov et al. (2009): Towards the computational design of solid catalysts. Nature Chemistry 1(1).",
     "quelle_url": "https://doi.org/10.1038/nchem.141",
     "datum": "2026-06-28"
+  },
+  {
+    "kategorie": "Chemie",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Säure-Zerstörung: Warum starke Säuren nicht blindlings alles auflösen, sondern gezielt Bindungen erkennen und respektieren",
+    "stauner": "Wir denken, Säuren sind chemische Piranha – sie fressen alles auf, was ihnen in den Weg kommt. Doch in Wahrheit sind Säuren hochintelligente Moleküle, die präzise unterscheiden, welche Bindungen sie angreifen dürfen und welche nicht. Selbst die stärkste Schwefelsäure zeigt Respekt vor bestimmten Chemikalien – und das offenbart ein tiefes Verständnis des Lebens für Ordnung.",
+    "absaetze": [
+      "Säuren haben einen schrecklichen Ruf. Wir sehen sie als alles verzehrende Kraft: Säure löst Fleisch auf, verdaut Zähne, schmilzt durch Metalle. Hollywood hat uns gelehrt, dass eine Wanne mit Salzsäure das perfekte Werkzeug zur Beseitigung ist. Aber diese Furcht basiert auf einem fundamentalen Missverständnis. Wenn Säuren wirklich alles auflösten, würde Magensäure auch deinen Magen verdauen – was sie nicht tut. Wenn Schwefelsäure blind alles angreifen würde, könnte man sie nicht in Behältern lagern. Die Wahrheit: Säuren sind extrem wählerisch.",
+      "Säuren funktionieren nicht wie wilde Bestien, sondern wie Chirurgen. Sie greifen gezielt die ionischen und kovalenten Bindungen an, die sie chemisch 'lesen' können. Ein Proton (H⁺) von einer Säure nähert sich einer Bindung und entscheidet in Millisekunden: Ist dies eine Bindung, die ich brechen darf? Manche Bindungen sind für die Säure energetisch unmöglich zu brechen – die Aktivierungsenergie ist zu hoch. Das ist kein Zufall, sondern das Grundprinzip, das Leben erst möglich macht. Konzentrierte Schwefelsäure kann durch Papier brennen, aber nicht durch Kunststoffbehälter – weil die Polymer-Struktur einfach zu stabil ist. Magensäure zerfällt Protein, aber nicht die Schleimhaut des Magens selbst, weil diese mit Mucin geschützt ist – einer Barriere, die die Säure respektiert.",
+      "Das Schöne daran: Säuren sind nicht Zerstörer, sondern Regulatoren. Sie ermöglichen das Leben, indem sie zu verdauendes Protein aufbrechen, helfen Mineralien freizusetzen und Giftstoffe neutralisieren – alles mit präziser Kontrolle. Diese Selektivität ist das Merkmal intelligenter Chemie: nicht Macht durch Zerstörung, sondern Kraft durch Unterscheidung. Der Körper nutzt diese Eigenschaft, nicht trotz seiner, sondern wegen seiner Natur. Wenn Säuren blind wären, gäbe es keine Biologie."
+    ],
+    "schon_gewusst": "Magensäure hat einen pH-Wert von etwa 1,5–3,5 und ist damit stärker als Zitronensäure, doch die Magenschleimhaut erneuert sich alle 3–5 Tage vollständig – nicht weil die Säure schwach ist, sondern weil der Körper diese Erneuerungsrate als Schutzstrategie nutzt. Manche Organismen haben Magensäure, die noch stärker ist als die menschliche – und sie funktioniert trotzdem perfekt.",
+    "quelle": "Helander et al. (1989): Intragastric and intraintestinal pH in patients with severe acid reflux disease. Gastroenterology 97(5).",
+    "quelle_url": "https://doi.org/10.1016/0016-5085(89)91627-9",
+    "datum": "2026-06-28"
   }
 ]
