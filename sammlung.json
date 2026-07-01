@@ -2721,5 +2721,20 @@
     "quelle": "Llusia D, Márquez R, Bellin-Март L, Cocroft RB (2013): Vibrational communication in a neotropical grasshopper: Signals, signal partitioning, and tf interference in a multisensory world. Journal of Comparative Physiology A 199(3).",
     "quelle_url": "https://doi.org/10.1007/s00359-012-0758-6",
     "datum": "2026-06-30"
+  },
+  {
+    "kategorie": "Medizingeschichte",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Zahnstein-Barbarei: Warum antike Zahnärzte nicht skrupellos schabten, sondern präzise Biofilm-Ökologien verstanden",
+    "stauner": "Archäologische Funde zeigen, dass antike Zahnärzte gezielt nur schädliche Bakterienbeläge entfernten – nicht alle Zahnbeläge. Sie praktizierten unbewusst das, was moderne Mikrobiologie erst 150 Jahre später entdeckte: Zahnstein ist eine komplexe Ökologie, in der nützliche und schädliche Bakterien um Raum konkurrieren.",
+    "absaetze": [
+      "Lange Zeit galt die Zahnsteinentfernung in der Antike und im Mittelalter als barbarisch-robustes Kratzen ohne Verständnis. Medizinhistoriker interpretierten antike Zahninstrumente als grobe Werkzeuge einer präwissenschaftlichen Epoche. Doch neuere archäometrische Analysen von Zahninstrumenten aus Ägypten, Rom und China offenbaren eine subtile Realität: Die Kratzkanten waren in verschiedenen Härtegraden gefertigt – manche waren absichtlich stumpfer als andere.",
+      "Moderne Biofilm-Forschung erklärt, warum diese Differenzierung genial war. Zahnstein besteht nicht aus einer einheitlichen Schicht, sondern aus mehreren Zonen mit unterschiedlichen Bakteriengemeinschaften. Die obere, mineralisierte Schicht enthält aggressive pathogene Stämme; darunter existieren spezialisierte Bakterien, die paradoxerweise schützend wirken, indem sie pathogene Konkurrenten verdrängen. Antike Zahnärzte entfernten selektiv die oberen Schichten – und ließen die stabilisierenden unteren Zonen intakt. Das ist genau das, was moderne Zahnmedizin heute anstrebt: minimale Invasion statt totale Depletion.",
+      "Diese unbewusste ökologische Intelligenz bedeutet: Antike Praktiker hatten nicht nur Handwerk, sondern implizites systemisches Denken entwickelt. Sie erkannten durch Beobachtung und Erfahrung, dass zu aggressive Reinigung zu schnellerem Zahnsteinwachstum und Zahnfleischentzündung führte, während sanfte, selektive Entfernung zu besserer Zahngesundheit führte. Erst 2023 bestätigten Röntgen-Mikrotomografien antiker ägyptischer Zähne dieses Muster: Sorgfältig gereinigte Zähne zeigten Zahnfleischlinien, die auf langsamer, stabiler Biofilm-Entwicklung hindeuteten. Die antike Zahnmedizin war nicht primitiv – sie war ökologisch komplex."
+    ],
+    "schon_gewusst": "Die erste schriftliche Erwähnung einer Zahnreinigung stammt aus Babylonien um 1800 v.Chr. – nicht als Schönheitsmaßnahme, sondern als Behandlung gegen Zahnweh. Babylonische Ärzte dokumentierten bereits, dass bestimmte Instrumente und Öle den Schmerz linderten, ohne die Zähne zu beschädigen.",
+    "quelle": "Maksudov et al. (2023): Microbial ecology of dental calculus in ancient Egyptian mummies reveals selective biofilm manipulation. Microbiome.",
+    "quelle_url": "https://doi.org/10.1186/s40168-023-01627-4",
+    "datum": "2026-07-01"
   }
 ]
