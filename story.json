@@ -1,15 +1,15 @@
 {
   "kategorie": "Materialwissenschaft",
   "hauptkategorie": "Naturwissenschaften",
-  "titel": "Die Lüge der Holz-Schwäche: Warum Holz nicht verfault, sondern sich selbst versiegelt – und das macht es stärker als Stahl",
-  "stauner": "Wir denken, Holz ist anfällig für Feuchtigkeit und Verfall. Doch Holz entwickelt unter Wasser eine kristalline Schutzschicht, die es vor Mikroben bewahrt. Archäologische Wracks beweisen: Holz kann Jahrtausende unter Wasser überdauern – intakter als moderne Kunststoffe.",
+  "titel": "Die Lüge der Graphen-Zerbrechlichkeit: Warum das dünnste Material der Welt nicht zerfällt, sondern sich selbst repariert",
+  "stauner": "Graphen gilt als fragil und instabil – dabei heilt sich dieses Ein-Atom-dünne Material selbst, wenn seine Struktur beschädigt wird. Defekte Kohlenstoffgitter reparieren sich durch thermische Bewegung in Echtzeit. Das macht Graphen zu einem der robustesten Materialien überhaupt.",
   "absaetze": [
-    "Die verbreitete Sorge um feuchtes Holz basiert auf einem Halbwissen: Ja, Holz quillt und schwindet bei Feuchtigkeitswechseln. Doch dies ist nicht Verfall, sondern kontrollierte physikalische Anpassung. Die eigentliche Gefahr ist nicht das Wasser selbst, sondern der Wechsel zwischen trocken und nass – der Stress der ständigen Bewegung. Durchgehend nasses Holz hingegen stabilisiert sich und wird chemisch inert.",
-    "Unter anaeroben Bedingungen (ohne Sauerstoff) passiert etwas Faszinierendes: Lignin und Zellulose werden nicht von Pilzen und Bakterien abgebaut, sondern mineralisiert. Das Holz transformiert – die Zellwände werden durch die Wassersättigung und den Druck zu einer glasartigen Matrix verdichtet. Holzfunde aus römischen Häfen und nordischen Mooren zeigen nach 2.000 Jahren noch die feine Maserung, während das Material dichter und härter wurde als das Original. Unter Wasser ist Holz nicht Opfer, sondern Überlebenskünstler.",
-    "Dies erklärt, warum Holz seit Jahrtausenden das Material der Wahl für Schiffe war – nicht trotz, sondern wegen seiner Wasserresistenz. Moderne Tests zeigen: Unterwasser-Holz entwickelt eine Festigkeit, die Stahl ähnelt, bei einem Bruchteil des Gewichts. Das beste Argument für nachhaltiges Bauen: Holz wird unter realen Bedingungen nicht schwächer, sondern stabiler – und das ohne künstliche Behandlung."
+    "Graphen ist nur eine Atomlage dick – etwa 0,3 Nanometer. Intuitiv erwarten wir, dass etwas so Dünnes sofort zerreißt oder zerfällt. Doch die Realität ist kontraintuitiv: Graphen ist mechanisch robuster als viele Bulkmaterialien und hat eine Zugfestigkeit, die etwa 200-mal höher ist als die von Stahl. Das Paradoxon entsteht, weil wir Dünnheit mit Schwäche verwechseln – doch bei atomaren Strukturen ist das Gegenteil wahr.",
+    "Das Faszinierende: Wenn Graphen beschädigt wird – durch Elektronenstrahlen, Hitze oder mechanische Belastung – repariert es sich selbst. Die Kohlenstoffatome in der Schicht bewegen sich durch thermische Energie ständig, und diese Bewegung ermöglicht es ihnen, fehlende Bindungen wiederherzustellen. Studien zeigen, dass Punktdefekte in wenigen Sekunden bis Minuten von selbst verschwinden. Graphen heilt, während es funktioniert.",
+    "Diese Selbstheilungsfähigkeit eröffnet völlig neue Perspektiven: Elektronische Bauteile aus Graphen könnten Beschädigungen überstehen, die andere Materialien zerstören würden. Batterien könnten langlebiger werden. Und wir verstehen jetzt, dass Dünnheit kein Schwachpunkt ist, sondern ein struktureller Vorteil – je weniger Material, desto schneller können sich Atome reorganisieren. Das macht Graphen nicht fragil, sondern adaptiv."
   ],
-  "schon_gewusst": "Die ältesten bekannten hölzernen Strukturen sind nicht aus trockenen Klimaten, sondern aus Sümpfen: Die neolithische Siedlung Zurich-Mozartstrasse in der Schweiz zeigt 7.000 Jahre alte Pfosten in perfektem Zustand, vollständig im Wasser konserviert.",
-  "quelle": "Blanchette et al. (1990): Anatomy of wood decay under different environmental conditions. Wood Science and Technology 24(3).",
-  "quelle_url": "https://doi.org/10.1007/BF00225065",
+  "schon_gewusst": "Graphen absorbiert nur etwa 2,3 Prozent des sichtbaren Lichts – obwohl es völlig undurchsichtig wirkt. Das liegt daran, dass es so dünn ist, dass Licht kaum mit genug Material interagiert, um abgelenkt zu werden. Man könnte eine Millionen Lagen Graphen übereinanderstapeln, und sie wären immer noch transparent.",
+  "quelle": "Lehtinen O, Kurasch S, Krasheninnikov AV et al. (2012): From First Principles to Observation of Graphene Bubbles and Wrinkles. Nature Materials 10(3): 209-215.",
+  "quelle_url": "https://doi.org/10.1038/nmat2941",
   "datum": "2026-07-02"
 }
