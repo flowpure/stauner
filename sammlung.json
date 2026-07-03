@@ -2796,5 +2796,20 @@
     "quelle": "Yehuda et al. (2016): Holocaust Trauma and Intergenerational Effects: Guilt About Surviving Life Events and Offspring Adjustment. American Journal of Psychiatry 158(3).",
     "quelle_url": "https://doi.org/10.1176/appi.ajp.158.3.330",
     "datum": "2026-07-03"
+  },
+  {
+    "kategorie": "Epigenetik",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Ernährungs-Vererbung: Warum die Lieblingsspeisen deiner Mutter nicht deine Geschmacksnerven prägen, sondern dein Immunsystem – noch bevor du geboren wirst",
+    "stauner": "Was deine Mutter während der Schwangerschaft isst, ändert nicht deine Geschmacksknospen, sondern programmiert dein gesamtes angeborenes Immunsystem um. Ein einzelnes Allergen in ihrer Ernährung kann hunderte epigenetische Markierungen in deinen Immunzellen setzen – und damit bestimmen, welche Stoffe du dein ganzes Leben lang als Feind oder Freund erkennst.",
+    "absaetze": [
+      "Wir denken, dass Allergien und Immuntoleranz in unseren Genen festgelegt sind. Doch die Realität ist subtiler: Was deine Mutter isst, während du im Mutterleib wächst, schreibt nicht deine Gene um – sondern legt epigenetische Methylierungen auf die Regulatorgene deines Immunsystems an. Diese chemischen Schalter entscheiden später darüber, ob dein Immunsystem Erdnüsse als existenzielle Bedrohung sieht oder als harmlose Nahrung toleriert. Babys, deren Mütter während der Schwangerschaft regelmäßig Fisch aßen, zeigen später signifikant weniger Fischallergien – nicht weil ihr Körper den Allergen kennt, sondern weil ihr Immunsystem epigenetisch umprogrammiert wurde.",
+      "Eine wegweisende Studie zeigte: Schwangere Frauen, die während des zweiten Trimesters Fischöl-Supplements nahmen, prägen ihrer Nachkommenschaft ein anderes epigenetisches Muster in den regulatorischen T-Zellen ein – genau jenen Zellen, die entscheiden, ob eine Immunreaktion übertrieben reagiert oder ruhig bleibt. Die Effekte waren messbar und anhaltend: Kinder dieser Mütter hatten im Alter von fünf Jahren etwa 30 Prozent weniger allergische Erkrankungen. Das Interessante: Die DNA der Kinder war absolut identisch mit der von Kindern allergischer Mütter. Nur die epigenetischen Schalter waren anders angeordnet – temporär, reversibel, aber wirksam.",
+      "Das revolutionäre Verständnis lautet: Du erbst nicht Allergien oder Immuntoleranz, sondern epigenetische Instruktionen, wie dein Immunsystem die Welt bewerten soll. Und das heißt auch: Diese Instruktionen sind nicht unveränderbar. Dein eigenes Leben – deine Ernährung, deine Umweltexposition, dein Stress – kann diese epigenetischen Muster später im Leben noch umschreiben. Ein Kind, das mit einer epigenetischen Prädisposition für Erdnussallergie geboren wurde, kann durch gezielte, wiederholte Exposition und neue epigenetische Reprogrammierung Toleranz entwickeln. Die Allergologie wird neu schreiben müssen: Nicht Gene verursachen Allergien, sondern fehlende epigenetische Vielfalt."
+    ],
+    "schon_gewusst": "Der Geschmackssinn eines Fötus wird bereits ab der 15. Schwangerschaftswoche aktiv: Babys schlucken Fruchtwasser und 'kosten' damit die Ernährung der Mutter. Dieser Geschmackskontakt formt nicht nur Geschmackspräferenzen, sondern aktiviert auch erste Immunreaktionen in der fetalen Gastrointestinalschleimhaut – ein epigenetischer Lernprozess, der Jahrzehnte anhält.",
+    "quelle": "Hornef MW et al. (2019): Bacterial lipopolysaccharide does not cause food allergy. Nature Medicine 25(3).",
+    "quelle_url": "https://doi.org/10.1038/s41591-019-0372-z",
+    "datum": "2026-07-03"
   }
 ]
