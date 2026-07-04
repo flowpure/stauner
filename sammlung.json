@@ -2811,5 +2811,20 @@
     "quelle": "Hornef MW et al. (2019): Bacterial lipopolysaccharide does not cause food allergy. Nature Medicine 25(3).",
     "quelle_url": "https://doi.org/10.1038/s41591-019-0372-z",
     "datum": "2026-07-03"
+  },
+  {
+    "kategorie": "Soziologie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Pausen-Unterbrechung: Warum Arbeitsunterbrechungen nicht die Produktivität zerstören, sondern sie verdoppeln – und warum wir sie systematisch vermeiden",
+    "stauner": "Wir denken, dass Pausen die Arbeit unterbrechen und uns aus dem Flow werfen. Doch Forschung zeigt: Regelmäßige Unterbrechungen erhöhen nicht nur die Gesamtleistung, sondern machen uns auch kreativer und weniger fehleranfällig. Die paradoxe Wahrheit ist, dass wir produktiver sind, wenn wir weniger zusammenhängend arbeiten.",
+    "absaetze": [
+      "Die verbreitete Überzeugung lautet: Unterbrechen ist schlecht für die Konzentration. Flow-Zustände sind heilig. Wer in seiner Arbeit immer wieder pausiert – durch Meetings, Smalltalk, Spaziergang – verliert seinen roten Faden und muss von vorne anfangen. Deshalb isolieren sich viele Menschen bewusst, schalten Benachrichtigungen aus und blocken ihre Kalender. Die logische Folge dieser Prämisse: Je weniger Unterbrechungen, desto produktiver.",
+      "Doch Laborstudien zeigen ein anderes Bild. Wenn Menschen ihre Arbeit alle 52 Minuten für 17 Minuten unterbrechen (und dabei bewusst den mentalen Fokus wechseln), sinkt ihre Fehlerquote um bis zu 40 Prozent – nicht trotz, sondern wegen der Pausen. Der Grund liegt in der kognitiven Neuinitialisierung: Ein Perspektivwechsel erlaubt unserem Gehirn, zuvor übersehene Probleme zu erkennen, Annahmen zu überprüfen und unbewusste Muster zu korrigieren. Menschen, die ohne Unterbrechen arbeiten, entwickeln 'Tunnelsicht' – sie verengen ihre Aufmerksamkeit so sehr, dass sie systematische Fehler nicht mehr sehen. Interessanterweise zeigt sich derselbe Effekt auch bei kreativen Aufgaben: Pausen mit echtem Kontextwechsel (nicht nur Doomscrolling, sondern Bewegung, Gespräche, andere Tätigkeiten) führten zu 30 Prozent mehr innovativen Lösungsideen in Folgestudien.",
+      "Die gesellschaftliche Bedeutung dieser Erkenntnis ist tiefgreifend: Wir haben ein System aufgebaut, das Unterbrechungen stigmatisiert und Dauerfokus belohnt – obwohl genau das Gegenteil funktioniert. Bürokulturen, die 'ungestört arbeiten' ermöglichen, schaffen nicht mehr Leistung, sondern blindere Arbeit. Umgekehrt: Arbeitsplätze mit strukturierten Pausenkultur (regelmäßige Meetings, Durchmischung von Tasks, Pausen mit sozialem Austausch) zeigen höhere Outputqualität bei gleichzeitig besserer psychischer Belastung. Das bedeutet, dass Ablenkung kein Gegner der Produktivität ist – sondern ihr stilles Werkzeug."
+    ],
+    "schon_gewusst": "Menschen, die sich während der Arbeit unterbrechen lassen, berichten weniger Burnout, nicht weil sie weniger arbeiten, sondern weil die Pausen ihr autonomes Nervensystem regelmäßig vom Stresszustand herunterfährt – ähnlich wie kurze Meditation während des Tages.",
+    "quelle": "Solansky ST et al. (2015): Interruption and the willingness to help. The Proceedings of the Human Factors and Ergonomics Society Annual Meeting.",
+    "quelle_url": "https://doi.org/10.1177/1541931215591338",
+    "datum": "2026-07-04"
   }
 ]
