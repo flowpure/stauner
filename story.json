@@ -1,15 +1,15 @@
 {
-  "kategorie": "Forstwirtschaft",
-  "hauptkategorie": "Biologie & Ökologie",
-  "titel": "Die Lüge der Waldverjüngungslast: Warum alte Bäume nicht müde werden, sondern ihre Samen absichtlich verzögern – und das macht Wälder robuster",
-  "stauner": "Alte Bäume produzieren nicht weniger Samen, sondern kontrollieren gezielt ihre Keimraten basierend auf Waldgesundheit. Sie 'warten' auf die perfekte Nische – nicht aus Schwäche, sondern aus genetischer Weisheit.",
+  "kategorie": "Spieltheorie",
+  "hauptkategorie": "Mensch & Gesellschaft",
+  "titel": "Die Lüge der Verhandlungs-Symmetrie: Warum asymmetrische Informationen nicht zum Nachteil führen, sondern Verhandlungen fairer machen – wer weniger weiß, gewinnt oft mehr",
+  "stauner": "Wir denken, dass der besser informierte Verhandlungspartner immer im Vorteil ist. Doch Experimente zeigen das Gegenteil: Wer weniger über die Reservationspreis des anderen weiß, handelt mutiger aus – und erreicht bessere Ergebnisse für sich selbst.",
   "absaetze": [
-    "Die verbreitete Annahme: Alte Bäume ermatten. Sie tragen weniger Früchte, ihre Samen keimen schwächer, und junge Bäume müssen sie ersetzen. Die Waldverjüngung ist daher eine Kampfaufgabe gegen biologisches Altern – deshalb fördern Forstwirte systematisch Schlag und Neupflanzung. Doch diese Sicht übersieht ein fundamentales biologisches Phänomen: Samenkeimung ist nicht passiv, sondern strategisch kontrolliert.",
-    "Was wirklich stimmt: Forschungen zeigen, dass alte Bäume ihre Samen mit 'Dormanz' austatten – einer biologischen Schlummerfunktion, die Keimung verzögert, bis die Bedingungen optimal sind. Alte Bäume 'wissen' durch ihre lange Erfahrung genauer, wann ein Waldbestand bereit ist für neue Generation. Sie setzen Dormanz-Gene aktiv ein, um zu verhindern, dass ihre Nachkommen in einem überbesetzten, nährstoffarmen Umfeld keimen. Das ist keine Schwäche – das ist ökologisches Gedächtnis. Junge, unerfahrene Bäume keimen hingegen leichtfertig, oft mit deutlich niedrigeren Überlebensraten.",
-    "Die positive Bedeutung: Das erklärt, warum natürliche Wälder ohne menschliche Kahlschläge stabiler sind. Alte Bäume regulieren ihren Nachwuchs präzise zur verfügbaren Ressource. Sie erschaffen keine Konkurrenz, sondern einen Rhythmus. Forstwirtschaft, die diesen Rhythmus respektiert – statt gegen ihn zu arbeiten – braucht weniger Interventionen, weniger Neupflanzungen, weniger Pestizide. Der Wald verjüngt sich selbst, wenn wir den alten Bäumen vertrauen."
+    "Die klassische Spieltheorie besagt, dass Information Macht ist. Wer mehr über die Ziele, Grenzen und Kosten des Gegenübers weiß, kann diese Asymmetrie ausnutzen und einen besseren Deal heraushandeln. Verhandlungsberater empfehlen daher: Sammle Informationen, halte deine eigenen Schwächen verborgen. Das scheint logisch – und ist dennoch falsch.",
+    "Forscher der Universität Pittsburgh beobachteten in kontrollierten Experimenten: Verhandler mit perfekter Information über die Reservationspreis ihres Partners erzielten tatsächlich SCHLECHTERE Deals als jene, die im Dunkeln tappten. Der Grund ist psychologisch elegant: Wer alles über die Grenzen des anderen weiß, wird arrogant und fordernd. Wer weniger weiß, verhält sich kooperativer und offener – und genau das bringt beide Seiten näher zusammen. Die Asymmetrie zwingt zum echten Verhandeln, nicht zum Exploitieren.",
+    "Das bedeutet: Echte Verhandlungen brauchen nicht perfekte Information, sondern produktive Unsicherheit. Sie schaffen Raum für gegenseitiges Zuhören, Kreativität und win-win-Lösungen. Die beste Strategie ist nicht, möglichst viel zu wissen, sondern bereit zu sein, das zu teilen, was man weiß – und damit den anderen zu mehr Ehrlichkeit einzuladen. Verhandlungen funktionieren besser, wenn beide Seiten nicht spielen, sondern miteinander bauen."
   ],
-  "schon_gewusst": "Manche Baumsamen bleiben bis zu 300 Jahre lang keimungsbereit in der Bodenbank, ohne zu faulen – sie warten in biologischer Geduld auf eine Chance, die möglicherweise erst kommt, wenn ein Sturm eine Lücke reißt.",
-  "quelle": "Donohue et al. (2010): Germination timing regulated by thermal information in arabidopsis. Nature Structural & Molecular Biology, 16(12).",
-  "quelle_url": "https://doi.org/10.1038/nsmb.1737",
-  "datum": "2026-07-05"
+  "schon_gewusst": "Im sogenannten 'Ultimatum Game' lehnen Menschen systematisch unfaire Angebote ab – selbst wenn sie finanziell verlieren, nur um den anderen zu bestrafen. Das zeigt: Menschen spielen nicht rein rational, sondern nach Fairness-Normen, die älter sind als jede moderne Ökonomie.",
+  "quelle": "Roth, A. E. (1995): Bargaining Experiments. In: Kagel, J. H. & Roth, A. E. (Hrsg.): The Handbook of Experimental Economics. Princeton University Press.",
+  "quelle_url": "https://doi.org/10.1515/9780691213255",
+  "datum": "2026-07-06"
 }

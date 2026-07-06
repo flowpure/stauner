@@ -2871,5 +2871,20 @@
     "quelle": "Donohue et al. (2010): Germination timing regulated by thermal information in arabidopsis. Nature Structural & Molecular Biology, 16(12).",
     "quelle_url": "https://doi.org/10.1038/nsmb.1737",
     "datum": "2026-07-05"
+  },
+  {
+    "kategorie": "Spieltheorie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Verhandlungs-Symmetrie: Warum asymmetrische Informationen nicht zum Nachteil führen, sondern Verhandlungen fairer machen – wer weniger weiß, gewinnt oft mehr",
+    "stauner": "Wir denken, dass der besser informierte Verhandlungspartner immer im Vorteil ist. Doch Experimente zeigen das Gegenteil: Wer weniger über die Reservationspreis des anderen weiß, handelt mutiger aus – und erreicht bessere Ergebnisse für sich selbst.",
+    "absaetze": [
+      "Die klassische Spieltheorie besagt, dass Information Macht ist. Wer mehr über die Ziele, Grenzen und Kosten des Gegenübers weiß, kann diese Asymmetrie ausnutzen und einen besseren Deal heraushandeln. Verhandlungsberater empfehlen daher: Sammle Informationen, halte deine eigenen Schwächen verborgen. Das scheint logisch – und ist dennoch falsch.",
+      "Forscher der Universität Pittsburgh beobachteten in kontrollierten Experimenten: Verhandler mit perfekter Information über die Reservationspreis ihres Partners erzielten tatsächlich SCHLECHTERE Deals als jene, die im Dunkeln tappten. Der Grund ist psychologisch elegant: Wer alles über die Grenzen des anderen weiß, wird arrogant und fordernd. Wer weniger weiß, verhält sich kooperativer und offener – und genau das bringt beide Seiten näher zusammen. Die Asymmetrie zwingt zum echten Verhandeln, nicht zum Exploitieren.",
+      "Das bedeutet: Echte Verhandlungen brauchen nicht perfekte Information, sondern produktive Unsicherheit. Sie schaffen Raum für gegenseitiges Zuhören, Kreativität und win-win-Lösungen. Die beste Strategie ist nicht, möglichst viel zu wissen, sondern bereit zu sein, das zu teilen, was man weiß – und damit den anderen zu mehr Ehrlichkeit einzuladen. Verhandlungen funktionieren besser, wenn beide Seiten nicht spielen, sondern miteinander bauen."
+    ],
+    "schon_gewusst": "Im sogenannten 'Ultimatum Game' lehnen Menschen systematisch unfaire Angebote ab – selbst wenn sie finanziell verlieren, nur um den anderen zu bestrafen. Das zeigt: Menschen spielen nicht rein rational, sondern nach Fairness-Normen, die älter sind als jede moderne Ökonomie.",
+    "quelle": "Roth, A. E. (1995): Bargaining Experiments. In: Kagel, J. H. & Roth, A. E. (Hrsg.): The Handbook of Experimental Economics. Princeton University Press.",
+    "quelle_url": "https://doi.org/10.1515/9780691213255",
+    "datum": "2026-07-06"
   }
 ]
