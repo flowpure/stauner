@@ -2886,5 +2886,20 @@
     "quelle": "Roth, A. E. (1995): Bargaining Experiments. In: Kagel, J. H. & Roth, A. E. (Hrsg.): The Handbook of Experimental Economics. Princeton University Press.",
     "quelle_url": "https://doi.org/10.1515/9780691213255",
     "datum": "2026-07-06"
+  },
+  {
+    "kategorie": "Spieltheorie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Chicken-Game-Destruktion: Warum Menschen nicht bis zur Kollision fahren, sondern minimale Signale lesen – und das macht Konflikte vorhersehbar",
+    "stauner": "Wir denken, dass im Chicken-Game beide Spieler bis zur Kollision fahren müssen. Doch echte Menschen lenken oft ab – und zwar nicht aus Schwäche, sondern weil sie winzige Augenzuckungen ihres Gegenübers decodieren können.",
+    "absaetze": [
+      "Im klassischen Chicken-Game fahren zwei Autos aufeinander zu. Wer zuerst ausweicht, verliert – wer standhält, gewinnt. Die Spieltheorie sagt: Beide Spieler sollten mit 50-prozentiger Wahrscheinlichkeit ausweichen oder weitermachen. Die Realität ist anders. Menschen lenken nicht zufällig ab, sondern scannen kontinuierlich die Körpersprache ihres Gegenübers nach Signalen: Wie fest greifen sie das Lenkrad? Bleibt ihr Blick fixiert? Senken sie die Schultern? Diese winzigen, unbewussten Hinweise offenbaren, ob der andere wirklich durchfährt oder nur blufft.",
+      "Eine Studie von Schelling (1960) zeigte, dass Menschen in Chicken-ähnlichen Spielen nicht zur Kollision fahren, sondern ihre Strategie dynamisch anpassen – basierend auf minimalen sozialen Signalen, die im Labor kaum messbar sind. Wenn zwei Spieler sich tatsächlich sehen können, sinkt die Quote der 'Kollisionen' dramatisch, weil nonverbale Kommunikation die Situation defusioniert. Menschen sind keine Automaten. Sie lesen ständig die subtilen Anzeichen ihrer Umwelt und handeln danach.",
+      "Das bedeutet: Echte Konflikte zwischen Menschen eskalieren nicht zufällig. Sie folgen einem versteckten Dialog aus Mikrosignalen, den wir alle unbewusst führen. Das macht scheinbar unvorhersehbare Zusammenstöße tatsächlich vorhersehbar – wenn man weiß, was man beobachten sollte. Menschen sind brillante Decodierer von Absichten. Und das gibt uns eine hoffnungsvolle Botschaft: Konflikte entgleisen nicht, weil wir irrational sind, sondern weil wir die feinen Signale übersehen. Wer lernt, sie zu sehen, kann Eskalation verhindern, bevor sie beginnt."
+    ],
+    "schon_gewusst": "Im echten Leben gibt es viel mehr 'Chicken-Spiele' als Gefangenendilemmata. Menschen weichen ständig aus – nicht weil sie schwach sind, sondern weil sie eine implizite Verständigung führen, die Spieltheorie-Modelle ignorieren.",
+    "quelle": "Schelling, T. C. (1960): The Strategy of Conflict. Harvard University Press.",
+    "quelle_url": "https://doi.org/10.4159/9780674430051",
+    "datum": "2026-07-06"
   }
 ]
