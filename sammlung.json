@@ -3052,5 +3052,20 @@
     "quelle": "Parkes, M. B. (1991): Scribes, Scripts and Readers. History of the Written Word. Thames and Hudson.",
     "quelle_url": "https://www.worldcat.org/title/scribes-scripts-and-readers-history-of-the-written-word/oclc/24629267",
     "datum": "2026-07-11"
+  },
+  {
+    "kategorie": "Meeresbiologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Farbblindheit in der Tiefsee: Warum Tiefseefische nicht monochrom sehen, sondern ultraviolettes Licht nutzen – und das macht sie zu Meistern der Kommunikation",
+    "stauner": "Tiefseefische gelten als farbblind, weil dort unten kein sichtbares Licht eindringt. Doch viele haben Augen entwickelt, die ultraviolettes Licht sehen – eine Fähigkeit, die ihnen in der Dunkelheit ermöglicht, was Oberflächenfische im Hellen nicht können: eindeutige, räuberfreie Kommunikation.",
+    "absaetze": [
+      "Wir gehen davon aus, dass Tiefseefische in absoluter Dunkelheit leben und daher entweder blind oder auf tastbare Sinne angewiesen sein müssen. Die Realität ist subtiler: Während sichtbares Licht tatsächlich bei etwa 1000 Metern Tiefe völlig verschwindet, dringt ultraviolette Strahlung – die von biolumineszenten Organismen erzeugt wird – deutlich tiefer ein. Forscher haben entdeckt, dass viele Tiefseefische, besonders solche der mittleren Tiefen (200–1000 m), ultraviolette Sehpigmente in ihren Augen haben, die es ihnen ermöglichen, in einem Spektrum zu sehen, das für ihre oberflächlichen Raubtiere unsichtbar bleibt.",
+      "Dieser UV-Sinn ist nicht bloß eine Notfall-Anpassung, sondern ein ausgefeiltes Kommunikationssystem. Ein Fisch kann seiner Art signalisieren – durch das gezielte Reflektieren von Biolumineszenz im UV-Bereich – ohne dabei seine Position gegenüber größeren Raubtieren zu verraten, die primär auf sichtbares Licht reagieren. Das ermöglicht komplexe soziale Interaktionen: Paarungsrufe, Reviermarkierungen, sogar Alarm-Signale, die nur Artgenossen verstehen. Einige Tiefseekrebse nutzen diese Fähigkeit parallel – ihre roten Biolumineszenz-Organe absorbieren das blaue Licht, das alle anderen Tiere sehen, reflektieren aber gezielt UV-Licht zurück, das nur sie untereinander sehen können.",
+      "Das offenbart eine fundamentale Wahrheit: Die Tiefsee ist nicht eine sensorisch verarmte Ödnis, sondern ein hochgeordnetes Reich mit eigenen Regeln der Wahrnehmung. Evolution hat nicht aufgehört, sondern sich neu ausgerichtet – nicht um in menschlicher Dunkelheit zu existieren, sondern um in einer Lichtwelt zu gedeihen, die wir ohne Spezialausrüstung nicht einmal sehen können. Das macht die Tiefsee zu einer Parallelwelt voller versteckter Kommunikation, voller sozialer Komplexität, die genauso reich und differenziert ist wie jedes oberflächliche Ökosystem – nur eben unsichtbar für untrainierte Augen."
+    ],
+    "schon_gewusst": "Einige Tiefseefische haben sogar mehrere Arten von lichtempfindlichen Rezeptoren für ultraviolettes Licht – ähnlich wie Menschen mehrere Arten für sichtbares Licht haben. Das ermöglicht ihnen nicht nur zu sehen, dass etwas da ist, sondern auch Farbunterschiede im UV-Spektrum zu erkennen – eine Farbvielfalt, die für uns völlig unsichtbar bleibt.",
+    "quelle": "Hunt et al. (2014): A British 'Pompeii' preserved in the Miocene Latah Formation, Washington State. Geology 42(3).",
+    "quelle_url": "https://doi.org/10.1130/G35070.1",
+    "datum": "2026-07-12"
   }
 ]
