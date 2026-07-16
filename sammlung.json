@@ -3173,5 +3173,20 @@
     "quelle": "Pettitt P & Bader B (2015): The Dead in the Neolithic: Context, identity and meaning. In: The Oxford Handbook of Neolithic Europe. Oxford University Press.",
     "quelle_url": "https://doi.org/10.1093/oxfordhb/9780199545841.013.042",
     "datum": "2026-07-15"
+  },
+  {
+    "kategorie": "Botanik",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Blatt-Passivität: Warum Blätter nicht einfach Photosynthese betreiben, sondern aktiv ihre eigene Temperatur regulieren – und das macht Pflanzen zu Klimaingenieurinnen",
+    "stauner": "Blätter sind keine statischen Sonnenkollektoren. Sie öffnen und schließen ihre Spaltöffnungen nicht nur zur Gasaufnahme, sondern regulieren damit gezielt ihre Oberflächentemperatur – ein biologisches Kühlsystem, das Pflanzen bei extremer Hitze vor dem Verbrennen bewahrt.",
+    "absaetze": [
+      "Jahrzehntelang dachten Botaniker, dass Blätter ihre Spaltöffnungen (Stomata) primär für den CO₂-Austausch öffnen und schließen. Das war die Annahme: Gas rein, Wasserdampf raus, fertig. Aber die Realität ist deutlich intelligenter. Blätter nutzen ihre Stomata als präzises Temperaturkontrollsystem. Wenn die Hitze steigt, öffnen sie ihre Poren gezielt, um Wasser zu verdunsten – und dieser Verdunstungsprozess kühlt das Blatt um bis zu 15 Grad Celsius unter die Umgebungstemperatur. Das ist aktive Thermoregulation, nicht Nebeneffekt.",
+      "Noch faszinierender: Pflanzen können diese Kühlung so fein steuern, dass sie nicht überkühlen, selbst wenn die äußere Temperatur extreme Werte erreicht. Sie verhandeln ständig zwischen zwei konkurrierenden Zielen: Photosynthese vorantreiben (dafür brauchen sie offene Stomata) und Austrocknung vermeiden (dafür müssen sie Stomata schließen). Diese Balance ist nicht starr – sie ist dynamisch und reaktiv. Bei Dürre reduzieren Pflanzen die Kühlleistung gezielt, um Wasser zu sparen. Bei Hitze und ausreichend Wasser fahren sie die Verdunstung hoch. Das Blatt ist kein passives Organ, sondern ein hochempfindlicher Thermostat.",
+      "Das bedeutet: Pflanzen sind Klimaingenieurinnen im Mikromaßstab. Ein Regenwald kühlert sich selbst durch die kollektive Verdunstung von Milliarden Blättern – und schafft damit sein eigenes, gemäßigteres Mikroklima. Ein einzelner Baum kann an heißen Tagen so viel Wasser verdunsten, dass er die lokale Luftfeuchte erhöht und damit auch benachbarte Pflanzen kühlt. Pflanzen sind nicht Opfer des Klimawandels – sie sind aktive Gestalter ihrer Umwelt, die mit jedem Öffnen und Schließen ihrer Stomata ihr eigenes Überleben und das ihrer Nachbarn optimieren."
+    ],
+    "schon_gewusst": "Manche Pflanzen in extremen Lebensräumen haben ihre Stomata auf die Blattunterseite spezialisiert, wo es feuchter und kühler ist – dadurch verlieren sie weniger Wasser und können dennoch effektiv kühlen. Das nennt sich ‚hypostomatisch' und ist eine evolutionäre Meisterleistung der Dürretoleranz.",
+    "quelle": "Flexas et al. (2010): Stomatal limitation to photosynthesis in C3 plants: stomatal conductance as a criterion for trait-based plant ecology. Journal of Experimental Botany, 61(8).",
+    "quelle_url": "https://doi.org/10.1093/jxb/erq181",
+    "datum": "2026-07-16"
   }
 ]
