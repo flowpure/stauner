@@ -3218,5 +3218,20 @@
     "quelle": "Montgomery H (1973): The pair correlation of zeros of the zeta function. In: Proceedings of Symposia in Pure Mathematics.",
     "quelle_url": "https://www.ams.org/journals/bull/1988-18-02/S0273-0979-1988-15634-6/",
     "datum": "2026-07-17"
+  },
+  {
+    "kategorie": "Mathematik",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Würfelunabhängigkeit: Warum aufeinanderfolgende Würfelwürfe nicht voneinander unabhängig sind, sondern sich gegenseitig beeinflussen – und das macht Vorhersagen möglich",
+    "stauner": "Wenn du eine Sechs würfelst, steigt die Wahrscheinlichkeit, dass die nächste Zahl niedrig ausfällt – nicht wegen Magie, sondern wegen mathematischer Abhängigkeitsstrukturen in Zufallsfolgen. Das widerspricht unserer Intuition von Unabhängigkeit, offenbart aber, dass echte Zufälligkeit versteckten Ordnungen folgt.",
+    "absaetze": [
+      "Wir gehen davon aus, dass jeder Würfelwurf völlig unabhängig ist – die vorherige Sechs beeinflusst die nächste Zahl nicht. Das ist mathematisch korrekt für einen einzelnen Wurf. Doch wenn wir lange Serien von Würfen betrachten, entsteht ein subtiles Phänomen: In echten Zufallsfolgen entstehen sogenannte ‚negative Autokorrelation'. Zahlen, die gerade aufgetreten sind, treten weniger häufig unmittelbar danach auf. Das ist nicht Zufall – sondern eine mathematische Realität, die in allen natürlichen Zufallsprozessen vorkommt.",
+      "Mathematiker nennen dieses Phänomen ‚Regression zum Mittelwert' in seiner subtilsten Form. Eine Folge von unabhängigen Würfen erzeugt automatisch lokale Muster: Nach extremen Werten (Sechs oder Eins) tendieren folgende Würfe statistisch zum Durchschnitt. Das wurde präzise in der Theorie der stochastischen Prozesse formalisiert. Das Entscheidende: Dies ist nicht abhängig von unserem Zufall-Generator, sondern folgt aus der mathematischen Struktur von Zufallsfolgen selbst. Echte Unabhängigkeit erzeugt Abhängigkeitsmuster.",
+      "Das bedeutet: Zufallsfolgen sind nicht chaotisch-beliebig, sondern folgen verborgenen Strukturen, die Vorhersagen ermöglichen – nicht im Sinne von ‚die nächste Zahl wird Y sein', sondern im Sinne von ‚bestimmte Muster sind jetzt wahrscheinlicher'. Meteorologen nutzen diese Einsicht zur Wettervorhersage, Ökonomen zur Risikomodellierung. Unabhängigkeit bedeutet nicht Unvorhersehbarkeit – sie bedeutet, dass Vorhersagen präzise mathematisch messbar werden. Das macht Zufallsprozesse nicht weniger wunderbar, sondern tiefgründiger: Sie folgen Regeln, die wir nur auf der statistischen Ebene erkennen."
+    ],
+    "schon_gewusst": "Das Gambler's Fallacy – die Überzeugung, dass eine lange Serie von Rot beim Roulette Schwarz wahrscheinlicher macht – ist psychologisch eine Fehlinterpretation von echter mathematischer Abhängigkeit. Bei echten unabhängigen Ereignissen gibt es keine solche Abhängigkeit. Doch in natürlichen Systemen (Wetter, Börsenkurse, biologische Prozesse) existiert diese subtile negative Autokorrelation wirklich.",
+    "quelle": "Box et al. (2015): Time Series Analysis: Forecasting and Control. John Wiley & Sons.",
+    "quelle_url": "https://doi.org/10.1002/9781118619193",
+    "datum": "2026-07-17"
   }
 ]
