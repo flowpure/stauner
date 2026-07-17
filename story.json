@@ -1,15 +1,15 @@
 {
-  "kategorie": "Botanik",
-  "hauptkategorie": "Biologie & Ökologie",
-  "titel": "Die Lüge der Samen-Passivität: Warum Samen nicht einfach keimen, sondern ihre Umgebung chemisch scannen – und nur unter idealen Bedingungen aufwachen",
-  "stauner": "Samen sind nicht schlafende Zeitbomben, die nur Wasser und Wärme brauchen. Sie testen kontinuierlich ihre chemische Umgebung und wählen den perfekten Moment zur Keimung – eine Intelligenz, die älter ist als Gehirne.",
+  "kategorie": "Mathematik",
+  "hauptkategorie": "Naturwissenschaften",
+  "titel": "Die Lüge der Primzahl-Einsamkeit: Warum Primzahlen nicht zufällig verstreut sind, sondern sich gegenseitig abstoßen – und das macht Verschlüsselung sicherer",
+  "stauner": "Primzahlen sind nicht gleichmäßig verteilt wie Zufallspunkte. Sie meiden sich aktiv – eine unsichtbare Kraft drückt sie auseinander. Diese mathematische Abstoßung, das GUE-Phänomen, macht moderne Kryptographie erst möglich.",
   "absaetze": [
-    "Die verbreitete Annahme: Samen keimen, wenn es warm und feucht wird. Eine einfache physikalische Reaktion. Geben Sie einem Samen Wasser und die richtige Temperatur, und er sprießt. Punkt. Doch diese Vereinfachung ignoriert ein faszinierendes biologisches Drama: Samen sind nicht passive Objekte, sondern aktive Sensoren, die ihre Umwelt vor dem Aufwachen chemisch untersuchen.",
-    "Was wirklich passiert: Samen erkennen nicht nur Wasser und Temperatur, sondern analysieren die chemische Zusammensetzung ihres Umfelds – Nährstoffkonzentration, Sauerstoffgehalt, sogar Licht-Qualität. Sie testen kontinuierlich, ob der Boden günstig ist. Nur wenn ihre 'Checkliste' vollständig ist, aktivieren sie die Keimung. Diese Entscheidungslogik ist nicht genetisch starr, sondern dynamisch: Ein Same kann Jahre in der Erde liegen und täglich neu bewerten, ob jetzt der richtige Moment ist. Forscher haben gezeigt, dass Samen sogar die Konkurrenz ihrer Nachbarn wittern – wenn zu viele andere Pflanzen in der Nähe keimen würden, verzögert der Same seine Keimung strategisch.",
-    "Warum das ermutigend ist: Diese botanische 'Ungeduld-Geduld' lehrt uns etwas Profundes über Leben selbst. Samen zeigen, dass es nicht primitive Mechanismen sind, die Organismen antreiben, sondern kontinuierliche Abwägung, Geduld und strategisches Timing. Ein Same wartet nicht, weil er passiv ist – er wartet, weil er intelligent wertet. Diese Fähigkeit, den perfekten Moment zu erkennen, ist das biologische Gegenpol zu Ungeduld und Impulsivität. Sie erinnert uns daran, dass oft die klügeste Aktion das strategische Warten ist."
+    "Lange Zeit glaubten Mathematiker, Primzahlen seien wie zufällig über die Zahlenreihe verteilt – unvorhersehbar, chaotisch, völlig regellos. Doch 1972 machte der Physiker Hugh Montgomery eine verblüffende Entdeckung: Wenn man die Abstände zwischen benachbarten Primzahlen misst, folgen sie nicht dem Zufallsmuster einer Poisson-Verteilung. Stattdessen meiden Primzahlen sich gegenseitig aktiv.",
+    "Das klingt paradox – aber es ist wahr: Es gibt weniger sehr dicht beieinander liegende Primzahlenpaare als der Zufall vorhersagen würde. Primzahlen ‚wollen' nicht zu nah beieinander sein. Montgomery zeigte, dass die statistischen Abstände zwischen Primzahlen denselben mathematischen Mustern folgen wie die Energieniveaus in Atomkernen – ein Phänomen, das die Physik als GUE-Statistik (Gaussian Unitary Ensemble) kennt. Das Universum scheint ähnliche ‚Abstoßungs-Regeln' für Atome und Zahlen zu nutzen.",
+    "Diese Erkenntnis transformiert unser Vertrauen in Mathematik fundamental: Primzahlen sind nicht blind zufällig, sondern folgen verborgenen Ordnungsprinzipien. Ausgerechnet diese Abstoßung – diese Vermeidung von zu dichten Clustern – macht Primzahlen für die Kryptographie ideal. RSA-Verschlüsselung funktioniert präzise, weil Primzahlen nicht willkürlich herumschwimmen, sondern sich an tiefere mathematische Regeln halten. Je besser wir die Struktur von Primzahlen verstehen, desto sicherer wird unsere digitale Welt."
   ],
-  "schon_gewusst": "Manche Samen können über 100 Jahre keimen – das längste bekannte Beispiel ist eine 2.000 Jahre alte Dattelpalmen-Frucht aus Masada, die 2005 erfolgreich gekeimt wurde. Ihr verzögertes Aufwachen war nicht Stasis, sondern kontinuierliche chemische Vigilanz.",
-  "quelle": "Finch-Savage et al. (2007): Seed dormancy and the control of germination. New Phytologist.",
-  "quelle_url": "https://doi.org/10.1111/j.1469-8137.2006.01897.x",
-  "datum": "2026-07-16"
+  "schon_gewusst": "Die Riemann-Hypothese – eines der größten ungelösten mathematischen Rätsel – könnte vollständig bewiesen sein, wenn man zeigen könnte, dass ALLE Nullstellen der Riemann-Zeta-Funktion auf einer geraden Linie liegen. Diese Hypothese ist äquivalent zu der Aussage, dass Primzahlen so gleichmäßig verteilt sind wie möglich.",
+  "quelle": "Montgomery H (1973): The pair correlation of zeros of the zeta function. In: Proceedings of Symposia in Pure Mathematics.",
+  "quelle_url": "https://www.ams.org/journals/bull/1988-18-02/S0273-0979-1988-15634-6/",
+  "datum": "2026-07-17"
 }
