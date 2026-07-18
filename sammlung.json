@@ -3233,5 +3233,20 @@
     "quelle": "Box et al. (2015): Time Series Analysis: Forecasting and Control. John Wiley & Sons.",
     "quelle_url": "https://doi.org/10.1002/9781118619193",
     "datum": "2026-07-17"
+  },
+  {
+    "kategorie": "Linguistik",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Sprach-Exaktheit: Warum vage Wörter nicht die Kommunikation verwässern, sondern sie präziser machen – und dein Gehirn das automatisch regelt",
+    "stauner": "Wir denken, dass vage Wörter wie 'irgendwie', 'ungefähr' oder 'so quasi' die Verständlichkeit sabotieren. Tatsächlich signalisieren sie dem Gehirn, flexible Interpretationen zuzulassen – und machen komplexe Gedanken überhaupt erst übertragbar. Dein Gehirn nutzt diese 'Unschärfe' als Feature, nicht als Bug.",
+    "absaetze": [
+      "Wir wurden gelehrt: Präzise Sprache ist klare Sprache. Vage Ausdrücke sind faul, unprofessionell, kommunikativ fehlerhaft. Ein Wissenschaftler sagt nicht 'ungefähr 50%', sondern '47,3%'. Ein Anwalt sagt nicht 'irgendwie problematisch', sondern zählt drei spezifische Rechtsverletzungen auf. Doch diese Vorstellung übersieht eine linguistische Realität: Menschen reden täglich vage – und verstehen sich dabei perfekt.",
+      "Neurowissenschaftler haben entdeckt, dass Vagheit nicht Kommunikationsversagen ist, sondern kognitives Raffinement. Wenn du sagst 'Das Konzept ist etwas kompliziert', aktiviert dein Zuhörer nicht weniger Verständnis, sondern *mehr* neuronale Ressourcen. Das Wort 'etwas' funktioniert wie ein semantischer Joker: Es signalisiert 'hier ist Interpretationsspielraum nötig', und das Gehirn bereitet sich gezielt auf flexible Bedeutungen vor. Präzise Wörter wirken wie exakte Befehle; vage Wörter wirken wie Einladungen zur Co-Konstruktion von Bedeutung.",
+      "Das Paradoxe: In technischen Bereichen, wo Exaktheit lebensrettend ist, funktioniert auch Vagheit. Ärzte nutzen in Arztbriefen systematisch vage Termini wie 'V.a.' (Verdacht auf) statt absoluter Diagnosen – nicht aus Feigheit, sondern weil Vagheit hier medizinisch präziser ist. Sie kommuniziert Unsicherheit *korrekt*. In zwischenmenschlichen Gesprächen ist Vagheit noch wichtiger: 'Mir geht's nicht so gut' ist kommunikativ effektiver als eine Auflistung aller Symptome, weil sie Empathie-Raum schafft. Dein Gehirn hat gelernt, Vagheit nicht als Informationsverlust zu lesen, sondern als Informationstyp: Sie bedeutet 'ich vertraue dir, die Lücken intelligenter zu füllen als ich es könnte'."
+    ],
+    "schon_gewusst": "Sprachwissenschaftler nennen häufig verwendete vage Ausdrücke wie 'you know', 'I mean' oder 'kind of' 'Hedges' – und sie erscheinen nicht zufällig, sondern an präzisen grammatikalischen Positionen, um Hörer gezielt auf Bedeutungsunsicherheit vorzubereiten.",
+    "quelle": "Jucker, A. H. & Smith, S. W. (2003): Die Pragmatik der Vagheit: Hedges als sprachliche Kommunikationsstrategie. Linguistics Today.",
+    "quelle_url": "https://doi.org/10.1075/cilt.207.08juc",
+    "datum": "2026-07-18"
   }
 ]
