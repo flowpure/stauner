@@ -3248,5 +3248,20 @@
     "quelle": "Jucker, A. H. & Smith, S. W. (2003): Die Pragmatik der Vagheit: Hedges als sprachliche Kommunikationsstrategie. Linguistics Today.",
     "quelle_url": "https://doi.org/10.1075/cilt.207.08juc",
     "datum": "2026-07-18"
+  },
+  {
+    "kategorie": "Linguistik",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Satzpausen: Warum wir nicht beim Punkt stoppen, sondern unser Gehirn Sätze überlappend verarbeitet – und das macht Gespräche flüssiger",
+    "stauner": "Wir denken, dass Sätze bei Punkten enden und der nächste beginnt. Tatsächlich startet dein Gehirn bereits bei Wort 4 eines Satzes damit, den nächsten vorherzusagen. Zuhörer unterbrechen nicht aus Ungeduld – sie sprechen einfach zu früh, weil sie bereits fertig denken.",
+    "absaetze": [
+      "Die verbreitete Annahme lautet: Sprache funktioniert sequenziell. Sprecher vollenden einen Gedanken, machen Pause, dann kommt der nächste. Zuhörer warten höflich, bis ein Satz fertig ist. Deshalb gelten Unterbrechungen als unhöflich – sie zerstören diese natürliche Abfolge. Wenn Menschen sich gegenseitig ins Wort fallen, zeigt das mangelnde Aufmerksamkeit oder Ungeduld.",
+      "Die Realität ist völlig anders: Neurolinguistische Forschung zeigt, dass dein Gehirn nicht wartet. Während ein Sprecher noch bei Wort fünf ist, generiert sein Hörer bereits drei Szenarien für die nächsten Wörter – basierend auf Satzstruktur, Kontext und Weltwissen. Das Gehirn arbeitet prädikatativ: Es vervollständigt mental den Satz, bevor die Lippen des Sprechers ihn beendet haben. Bei einer durchschnittlichen Sprechgeschwindigkeit von 150 Wörtern pro Minute können wir den Rest eines 12-Wort-Satzes nach etwa 6 Wörtern bereits 80-prozentig vorhersagen.",
+      "Das Faszinierende: Dieses 'Voraus-Verstehen' ist nicht Ungeduld – es ist tiefes Engagement. Menschen unterbrechen in natürlichen Gesprächen nicht aus Respektlosigkeit, sondern weil ihre Gehirne perfekt synchronisiert sind. Sie sprechen, wenn ihr Gehirn bereit ist – nicht wenn der Mund des anderen stoppt. In Kulturen mit hohem 'Overlap' (simultaneem Sprechen) in Alltagskonversationen sind Menschen nicht unhöflicher – ihr Nervensystem arbeitet nur effizienter zusammen. Das macht Gespräche schneller, dynamischer und zeigt gegenseitiges Verstehen an, nicht mangelnden Respekt."
+    ],
+    "schon_gewusst": "Menschen können in Echtzeit bis zu vier alternative Satzenden parallel verarbeiten – dein Gehirn hält mehrere Hypothesen gleichzeitig aktiv, bis ein disambiguierendes Wort die richtige Vorhersage bestätigt.",
+    "quelle": "Van Berkum JJA et al. (2005): Anticipating Argument Structure in a Strongly Head-Final Language. The Mental Lexicon and Sentence Comprehension. Cognitive Science 29(6).",
+    "quelle_url": "https://doi.org/10.1207/s15516709cog0000_37",
+    "datum": "2026-07-18"
   }
 ]
