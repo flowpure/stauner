@@ -1,15 +1,15 @@
 {
-  "kategorie": "Linguistik",
-  "hauptkategorie": "Mensch & Gesellschaft",
-  "titel": "Die Lüge der Satzpausen: Warum wir nicht beim Punkt stoppen, sondern unser Gehirn Sätze überlappend verarbeitet – und das macht Gespräche flüssiger",
-  "stauner": "Wir denken, dass Sätze bei Punkten enden und der nächste beginnt. Tatsächlich startet dein Gehirn bereits bei Wort 4 eines Satzes damit, den nächsten vorherzusagen. Zuhörer unterbrechen nicht aus Ungeduld – sie sprechen einfach zu früh, weil sie bereits fertig denken.",
+  "kategorie": "Klimaforschung",
+  "hauptkategorie": "Geschichte & Kultur",
+  "titel": "Die Lüge der Sahara-Dauerdürre: Warum die größte Wüste der Welt nicht stabil ist, sondern in Jahrzehnten ergrünt – und das beweist, dass Klimasysteme flexibler sind als wir dachten",
+  "stauner": "Die Sahara war nicht immer eine Wüste und wird es nicht bleiben. Hochaufgelöste Klimamodelle zeigen: Die nordafrikanische Wüste kann in nur 20-30 Jahren wieder zu Savannenlandschaft werden – wenn sich bestimmte atmosphärische Bedingungen verschieben.",
   "absaetze": [
-    "Die verbreitete Annahme lautet: Sprache funktioniert sequenziell. Sprecher vollenden einen Gedanken, machen Pause, dann kommt der nächste. Zuhörer warten höflich, bis ein Satz fertig ist. Deshalb gelten Unterbrechungen als unhöflich – sie zerstören diese natürliche Abfolge. Wenn Menschen sich gegenseitig ins Wort fallen, zeigt das mangelnde Aufmerksamkeit oder Ungeduld.",
-    "Die Realität ist völlig anders: Neurolinguistische Forschung zeigt, dass dein Gehirn nicht wartet. Während ein Sprecher noch bei Wort fünf ist, generiert sein Hörer bereits drei Szenarien für die nächsten Wörter – basierend auf Satzstruktur, Kontext und Weltwissen. Das Gehirn arbeitet prädikatativ: Es vervollständigt mental den Satz, bevor die Lippen des Sprechers ihn beendet haben. Bei einer durchschnittlichen Sprechgeschwindigkeit von 150 Wörtern pro Minute können wir den Rest eines 12-Wort-Satzes nach etwa 6 Wörtern bereits 80-prozentig vorhersagen.",
-    "Das Faszinierende: Dieses 'Voraus-Verstehen' ist nicht Ungeduld – es ist tiefes Engagement. Menschen unterbrechen in natürlichen Gesprächen nicht aus Respektlosigkeit, sondern weil ihre Gehirne perfekt synchronisiert sind. Sie sprechen, wenn ihr Gehirn bereit ist – nicht wenn der Mund des anderen stoppt. In Kulturen mit hohem 'Overlap' (simultaneem Sprechen) in Alltagskonversationen sind Menschen nicht unhöflicher – ihr Nervensystem arbeitet nur effizienter zusammen. Das macht Gespräche schneller, dynamischer und zeigt gegenseitiges Verstehen an, nicht mangelnden Respekt."
+    "Wir denken an die Sahara als ewige Wüste, ein Merkmal der Erde wie die Ozeane. Doch die Realität ist dramatisch anders: Vor 6.000 Jahren war die Sahara grün. Seen bedeckten den heutigen Tassili-Plateau, Giraffen grasten in Wäldern, wo heute nur Sand ist. Das war nicht die Ausnahme – es war die Regel. Neue Klimarekonstruktionen zeigen: Die Sahara durchläuft natürliche Zyklen zwischen Grün und Dürre mit überraschend kurzen Übergangsphasen.",
+    "Das Faszinierende: Diese Übergänge sind nicht allmählich. Computermodelle der NASA und des Max-Planck-Instituts enthüllen einen Tipping-Point-Mechanismus. Wenn die Vegetation in der südlichen Sahel-Region eine kritische Grenze überschreitet, verstärkt sich selbst: Mehr Pflanzen bedeuten mehr Verdunstung, mehr Feuchtigkeit lockt Monsunregen an, Regen fördert noch mehr Vegetation. Der Prozess beschleunigt sich nicht linear – er flippt um. Was heute Wüste ist, könnte in Jahrzehnten wieder Grasland sein, wenn die atmosphärischen Bedingungen kippen.",
+    "Das macht Klimasysteme nicht chaotisch – sondern strategisch vorhersehbar. Wenn wir verstehen, wo diese kritischen Schwellenwerte liegen, können wir erkennen, dass unser Klima nicht träge ist, sondern hochdynamisch. Die Sahara war Millionen Jahre Wüste, dann plötzlich grün, dann wieder Wüste. Nicht weil die Erde unstabil ist, sondern weil sie mehrere stabile Zustände hat – und zwischen ihnen wechseln kann. Das offenbart eine tiefe Wahrheit: Klimasysteme sind nicht gefangen in ihrer gegenwärtigen Form. Sie haben Potenzial zur Transformation, schneller als wir je dachten."
   ],
-  "schon_gewusst": "Menschen können in Echtzeit bis zu vier alternative Satzenden parallel verarbeiten – dein Gehirn hält mehrere Hypothesen gleichzeitig aktiv, bis ein disambiguierendes Wort die richtige Vorhersage bestätigt.",
-  "quelle": "Van Berkum JJA et al. (2005): Anticipating Argument Structure in a Strongly Head-Final Language. The Mental Lexicon and Sentence Comprehension. Cognitive Science 29(6).",
-  "quelle_url": "https://doi.org/10.1207/s15516709cog0000_37",
-  "datum": "2026-07-18"
+  "schon_gewusst": "Pollen und Sedimentkerne zeigen, dass die letzte 'grüne Sahara' Phase vor etwa 5.000-6.000 Jahren endete – nicht durch menschliche Aktivität, sondern durch eine natürliche Verschiebung der Erdachsen-Präzession, die die Monsunzirkulation schwächte. Dieser Prozess dauerte nur 100-200 Jahre.",
+  "quelle": "Claussen M. (1997): Modeling bio-geophysical feedback in the African and Indian monsoon region. Climatic Change 37(2): 195-314.",
+  "quelle_url": "https://doi.org/10.1023/A:1005315409515",
+  "datum": "2026-07-19"
 }
