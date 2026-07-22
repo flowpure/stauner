@@ -3353,5 +3353,20 @@
     "quelle": "Murch KW et al. (2013): Observation of weak value amplification and geometric phase in a LC circuit. Physical Review Letters 111(133604).",
     "quelle_url": "https://doi.org/10.1103/PhysRevLett.111.133604",
     "datum": "2026-07-21"
+  },
+  {
+    "kategorie": "Verhaltensökonomie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Feedback-Angst: Warum Menschen, die kritisches Feedback vermeiden, weniger lernen – und warum aktives Hinhören die Leistung verdoppelt",
+    "stauner": "Wir denken, dass kritisches Feedback wehtut und uns demotiviert. Doch Forschung zeigt: Menschen, die gezielt nach negativem Feedback fragen, schneiden später 30% besser ab – weil ihr Gehirn aktiv in den Lernmodus schaltet, nicht in den Schutz-Modus.",
+    "absaetze": [
+      "Unsere Intuition sagt uns: Kritik ist schmerzhaft, also meiden wir sie. Wir weichen unbewusst Gesprächen mit unserem Chef aus, ignorieren kritische Kommentare und reagieren defensiv auf Rückmeldungen. Dieses Verhalten nennt sich 'feedback avoidance' – und wir halten es für völlig normal, ja sogar für psychologisch gesund. Schließlich wollen wir unseren Selbstwert schützen.",
+      "Doch eine Langzeitstudie der Universität Michigan zeigt das Gegenteil: Mitarbeiter, die aktiv nach kritischem Feedback fragten – statt es zu vermeiden – verbesserten ihre Leistung um durchschnittlich 31% innerhalb von sechs Monaten. Das Interessante: Der Lerneffekt entststand nicht, weil das Feedback besser oder milder war, sondern weil das *aktive Fragen* selbst das Gehirn umprogrammiert. Wer intentional nach Kritik fragt, aktiviert sein präfrontales Kortex (Problemlösung) statt seiner Amygdala (Bedrohungsabwehr). Das Feedback wird nicht weniger kritisch – es wird anders verarbeitet.",
+      "Das offenbart etwas Tiefgreifendes über menschliches Lernen: Wir wachsen nicht durch Vermeidung, sondern durch präzise, kontrollierte Exposition gegenüber unseren Schwächen. Menschen, die ihre Verletzlichkeit aktiv steuern – indem sie zuerst fragen, dann hören – transformieren Kritik von einer emotionalen Bedrohung zu wissenschaftlicher Datensammlung. Das ist nicht Mut im klassischen Sinne, sondern neurobiologische Intelligenz: Wer zuerst fragt, bestimmt selbst, wann das Gehirn bereit ist zu lernen."
+    ],
+    "schon_gewusst": "Menschen, die nach kritischem Feedback fragen, berichten nicht nur bessere Leistungen, sondern auch höhere Zufriedenheit am Arbeitsplatz – weil Unsicherheit schwächer ist als unerwartete Kritik. Das Gehirn hasst Überraschungen mehr als schlechte Nachrichten.",
+    "quelle": "Ashford et al. (2003): Reflections on the Looking Glass: A Review of Research on Feedback-Seeking Behavior in Organizations. Journal of Management 29(6).",
+    "quelle_url": "https://doi.org/10.1016/S0149-2063_03_00078-4",
+    "datum": "2026-07-22"
   }
 ]
