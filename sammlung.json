@@ -3413,5 +3413,20 @@
     "quelle": "Newell et al. (2005): Ecosystem influences of natural and cultivated populations of oysters and mussels. Journal of Shellfish Research 24(1):51-61.",
     "quelle_url": "https://doi.org/10.2983/0730-8000(2005)24[51:EIONAC]2.0.CO;2",
     "datum": "2026-07-24"
+  },
+  {
+    "kategorie": "Ozeanographie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Mangroven-Langsamkeit: Warum Mangrovenwälder nicht träge in den Sedimenten wurzeln, sondern aktiv Küstenlinien verschieben – und dabei mehr Kohlenstoff speichern als alle Regenwälder zusammen",
+    "stauner": "Mangrovenwälder gelten als statische, sumpfige Grenzräume zwischen Land und Meer. Doch sie wachsen vertikal um bis zu einen Meter pro Jahr, bauen dabei Sedimentschichten auf und schaffen neue Küstenlandschaften – während sie gleichzeitig vier Mal mehr Kohlenstoff pro Hektar speichern als tropische Regenwälder.",
+    "absaetze": [
+      "Mangrovenwälder haben einen schlechten Ruf. Sie gelten als Sumpfgebiete, die kaum etwas tun – Arbeiter waten hindurch, der Schlamm ist tief, nichts wächst schnell. Diese Wahrnehmung ist fundamental falsch. Mangrovenbäume sind aktive Sedimentarchitekten. Ihre Wurzelsysteme – speziell die Luftwurzeln – bremsen Gezeitenströmungen und Wellen ab und fangen Sedimente ein wie ein biologischer Filter. Jahr für Jahr stapelt sich Material, und die Mangrovenwälder wachsen nicht nur in die Höhe, sondern bauen ihre Basis ständig auf. Sie verschieben die Küstenlinie buchstäblich vorwärts.",
+      "Die Zahlen sind beeindruckend: Mangrovenwälder speichern im Durchschnitt 161 Tonnen Kohlenstoff pro Hektar in Sedimenten und Biomasse – vier Mal mehr als Regenwälder mit etwa 40 Tonnen pro Hektar. Das liegt daran, dass Mangroven in anoxischen (sauerstoffarmen) Böden wachsen, wo Zersetzung stark verlangsamt ist. Kohlenstoff wird nicht freigesetzt, sondern bleibt gebunden – für Jahrtausende. Eine winzige Mangrove von 1 Hektar speichert so viel Kohlenstoff wie ein Auto in 50 Jahren ausstößt. Und Mangrovenwälder bedecken weltweit nur 137.600 Quadratkilometer – doch ihr Speichervolumen ist kolossall.",
+      "Das Überraschende: Diese Eigenschaft macht Mangrovenwälder zu einem perfekten Beispiel für verborgene Wirtschaftlichkeit. Während Regenwälder romantisiert werden und Meeresschutzgebiete teuer sind, werden Mangrovenwälder systematisch zerstört – 35 Prozent in den letzten 20 Jahren. Doch jedes zerstörte Mangrovengebiet bedeutet nicht nur ökologischen Kollaps für Millionen Fische und Garnelen, sondern auch den Verlust einer der besten Kohlenstoffsenken der Erde. Ihre Wiederherstellung ist wirtschaftlich und ökologisch rational – nicht aus Nostalgie, sondern aus präziser naturwissenschaftlicher Berechnung."
+    ],
+    "schon_gewusst": "Mangroven können Salzwasser aktiv ausfiltern: Ihre Wurzeln haben spezialisierte Filtermembranen, die Salzionen zurückweisen und nur Süßwasser aufnehmen – ein biologisches Entsalzungssystem, das Ingenieure noch nicht effizient nachbauen können.",
+    "quelle": "Alongi DM (2014): Carbon cycling and storage in mangrove forests. Annual Review of Marine Science 6.",
+    "quelle_url": "https://doi.org/10.1146/annurev-marine-010213-135020",
+    "datum": "2026-07-24"
   }
 ]
