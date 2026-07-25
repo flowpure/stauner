@@ -3428,5 +3428,20 @@
     "quelle": "Alongi DM (2014): Carbon cycling and storage in mangrove forests. Annual Review of Marine Science 6.",
     "quelle_url": "https://doi.org/10.1146/annurev-marine-010213-135020",
     "datum": "2026-07-24"
+  },
+  {
+    "kategorie": "Chemie",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Verdampfungs-Verluste: Warum Wasser, das verdunstet, nicht einfach verschwindet, sondern Energie speichert – und dabei Ökosysteme kühlt",
+    "stauner": "Wir denken, Verdampfung ist Wasserverlust. Doch in Wahrheit transportiert verdunstetes Wasser enorme Energiemengen durch die Atmosphäre und reguliert dabei das gesamte Klimasystem. Verdampfung ist keine Verschwendung – sie ist das Kühlsystem des Planeten.",
+    "absaetze": [
+      "Wir verstehen Verdampfung als einen chemischen Prozess, der Wasser 'verliert' – es verschwindet einfach in der Luft. Doch diese Sichtweise übersieht das Entscheidende: Verdampfung ist eine Energietransformation, bei der Wasser Wärmenergie absorbiert (die sogenannte Verdampfungsenthalpie) und sie als latente Wärme in der Atmosphäre transportiert. Ein einziges Kilogramm Wasser, das verdunstet, nimmt etwa 2.257 Kilojoule Energie auf – genau so viel, wie nötig wäre, um ein Kilogramm Wasser um 540 Grad Celsius zu erhitzen. Diese Energie macht Verdampfung zur stärksten Kühlmaschine in der Biosphäre.",
+      "In Ökosystemen geschieht etwas Faszinierendes: Wenn Blätter Wasser verdunsten (Transpiration) oder wenn Seen und Böden Wasser abgeben (Evaporation), entzieht dieser Prozess der Umgebung massiv Wärmenergie. Eine einzelne Pflanze kann an heißen Tagen über 1.000 Liter Wasser verdunsten – und dabei ihre unmittelbare Umgebung um mehrere Grad Celsius abkühlen. Regenwälder verdampfen so viel Wasser, dass sie regionale Luftmassen regelrecht konditionieren und eigene Niederschlagsmuster erzeugen. Die verdampfte Energie wird nicht 'verloren' – sie wird hocheffizient weitergeleitet und stabilisiert das Klima.",
+      "Das bedeutet: Ökosysteme mit hoher Verdampfung sind nicht ineffizient, sondern hochgradig organisiert. Sie funktionieren wie passive Klimaanlagen. Ein tropischer Regenwald, der täglich Millionen Tonnen Wasser in die Atmosphäre bläst, reguliert nicht nur sein eigenes Mikroklima, sondern trägt zur globalen Temperaturstabilisierung bei. Länder, die Vegetation vernichten und damit Verdampfung reduzieren, heizen ihre Region aktiv auf – nicht weil CO₂ steigt, sondern weil sie die natürliche Kühlmaschine abschalten. Verdampfung ist kein Wasserverlust. Sie ist das älteste und effizienteste Kühlsystem, das die Erde erfunden hat."
+    ],
+    "schon_gewusst": "Die menschliche Haut nutzt denselben chemischen Trick: Schweiß verdampft und entzieht dem Körper Wärmenergie. Ein Liter Schweiß, der verdunstet, kühlt deinen Körper um etwa 580 Kilokalorien – genauso wie bei Pflanzen. Transpiration und Schwitzen sind chemisch identische Prozesse.",
+    "quelle": "Schlesinger WH (2022): Biogeochemistry: An Analysis of Global Change. Academic Press.",
+    "quelle_url": "https://doi.org/10.1016/B978-0-12-822562-2.00010-7",
+    "datum": "2026-07-25"
   }
 ]
