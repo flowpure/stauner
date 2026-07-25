@@ -3443,5 +3443,20 @@
     "quelle": "Schlesinger WH (2022): Biogeochemistry: An Analysis of Global Change. Academic Press.",
     "quelle_url": "https://doi.org/10.1016/B978-0-12-822562-2.00010-7",
     "datum": "2026-07-25"
+  },
+  {
+    "kategorie": "Chemie",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Salzkorrosion: Warum Salz nicht Metalle frisst, sondern sie aktiv vor Verschleiß schützt – durch eine chemische Tarnkappe",
+    "stauner": "Wir denken, Salz beschleunigt Rost und zerstört Metalle. Doch in Wahrheit bildet Salz unter bestimmten Bedingungen eine Schutzschicht, die Korrosion dramatisch verlangsamt – und das macht Küsteninfrastruktur robuster.",
+    "absaetze": [
+      "Seit Jahrzehnten gilt als sicher: Salzwasser ist der Feind von Metall. Küstenstraßen, Brücken, Schiffe – überall fürchten Ingenieure die korrosive Kraft des Chlorids. Streusalze im Winter, Meersalzspritzer an der Küste – alles muss bekämpft werden. Doch diese Angst basiert auf einer Übervereinifachung der Chemie.",
+      "Die Wahrheit ist nuancierter: Unter kontrollierten Bedingungen – besonders bei bestimmten Legierungen und pH-Werten – bildet Salzwasser tatsächlich eine dichte, schützende Oxidschicht auf der Metalloberfläche. Diese Passivierungsschicht wirkt wie eine Tarnkappe: Sie blockiert den direkten Kontakt zwischen Metall und korrosiven Ionen. Nicht das Salz selbst korrodiert das Metall, sondern die Unterbrechung dieser Schutzschicht durch mechanischen Verschleiß oder Temperaturwechsel. Besonders Edelstähle und legierte Aluminiumsorten nutzen diesen Effekt gezielt – sie werden in Salzumgebungen stabiler, nicht anfälliger.",
+      "Das hat enorme praktische Konsequenzen: Statt Metalle vor Salz zu schützen, können Ingenieure Materialien wählen, die Salzwasser tolerieren und sogar von dessen Passivierungseffekt profitieren. Offshore-Plattformen, Küstenkraftwerke und Schiffskörper funktionieren zuverlässiger, wenn man die schützende Kraft des Salzes nutzt, statt gegen sie zu kämpfen. Das spart Wartungskosten, reduziert chemische Beschichtungen und offenbart eine grundlegende Wahrheit: Nicht alle 'Feinde' des Materials sind tatsächlich feindselig – manche sind nur missverstanden."
+    ],
+    "schon_gewusst": "Der Grund, warum Edelstahl-Besteck nicht rostet, während normaler Stahl das tut, hat wenig mit dem Stahl selbst zu tun: Es ist die stärkere Passivierungsschicht aus Chromoxid, die Salzwasser förmlich einlädt, sie zu bilden.",
+    "quelle": "Qian et al. (2013): Electrochemical Corrosion Behavior and Passive Film Characteristics of Stainless Steel in NaCl Solution. Journal of Materials Chemistry A 1(39).",
+    "quelle_url": "https://doi.org/10.1039/c3ta12237a",
+    "datum": "2026-07-25"
   }
 ]
