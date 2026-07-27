@@ -3488,5 +3488,20 @@
     "quelle": "Glenberg et al. (2013): The Language Parser Can Enter the Mind. Cognition 128(3).",
     "quelle_url": "https://doi.org/10.1016/j.cognition.2013.04.011",
     "datum": "2026-07-26"
+  },
+  {
+    "kategorie": "Ökologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Nährstoff-Verluste: Warum abgestorbene Blätter nicht dem Wald schaden, sondern ihn düngen – und Laubverlust das Waldökosystem stabilisiert",
+    "stauner": "Jedes Herbst verliert ein Baum tonnenweise Biomasse – doch diese vermeintliche Verschwendung ist tatsächlich das präziseste Nährstoff-Recyclingsystem der Natur. Der Waldboden wird durch Blattfall nicht ärmer, sondern reicher.",
+    "absaetze": [
+      "Wir denken, dass Bäume ihre Blätter verlieren müssen, weil sie zu schwach oder zu alt werden. Doch das ist eine fundamentale Fehlinterpretation: Bäume werfen ihre Blätter absichtlich ab – und zwar mit beeindruckender ökonomischer Präzision. Bevor ein Blatt fällt, entzieht der Baum ihm systematisch alle wertvollen Nährstoffe: Stickstoff, Phosphor, Kalium. Das grüne Chlorophyll wird demontiert, Mineralien werden zurück in den Stamm transportiert, Zucker werden gespeichert. Das, was am Boden landet, ist biologischer Abfall – aber genau das ist die Absicht.",
+      "Eine Studie von Prescott et al. (2000) zeigte: Der Nährstoffgehalt von abgestorbenen Blättern ist um 40-70% geringer als von frischen Blättern – weil der Baum vorher alles Wertvolle herauspumpt. Diese entleerten Blätter zerfallen dann im Boden und bilden Humus, der Wasser speichert und Bodenpilze ernährt. Der Waldboden wird dadurch nicht ärmer, sondern komplexer: Pilznetze können sich verbreiten, Bodenorganismen finden Unterschlupf, Wasser bleibt gespeichert. Ein Wald, der Blätter wirft, ist nicht ein verletzter Wald – sondern ein Wald, der sich selbst regeneriert.",
+      "Das Phänomen heißt 'Nutrient Resorption' – und es offenbart etwas Tieferes: Bäume sind nicht passive Opfer der Jahreszeiten, sondern Ingenieure ihrer eigenen Nachhaltigkeit. Sie verschwenden nichts. Ein alter Baum, der jahrzehntelang Blätter fallen lässt, baut damit sein eigenes Düngesystem auf. Der Waldboden unter alten Bäumen ist deshalb nährstoffreicher als unter jungen – nicht trotz, sondern wegen des Blattverfalls. Die Natur hat kein Budget-Problem; sie hat eine Kreislauf-Lösung."
+    ],
+    "schon_gewusst": "Nadelwälder recyceln ihre Nadeln sogar noch präziser als Laubwälder: Sie behalten ihre Nadeln 3-7 Jahre, enziehen ihnen kontinuierlich Nährstoffe und werfen sie erst ab, wenn sie völlig ausgelaugt sind – eine noch effizientere Strategie der Ressourcennutzung.",
+    "quelle": "Prescott CE, Blevins LL, Staley CL (2000): Nutrient content of litterfall from forests in British Columbia and adjacent regions. Canadian Journal of Forest Research 30(4).",
+    "quelle_url": "https://doi.org/10.1139/x00-033",
+    "datum": "2026-07-27"
   }
 ]
