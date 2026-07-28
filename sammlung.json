@@ -3518,5 +3518,20 @@
     "quelle": "Leifeld & Menichetti (2018): The underappreciated potential of peatlands in global climate change mitigation strategies. Nature Climate Change 8(12).",
     "quelle_url": "https://doi.org/10.1038/s41558-018-0337-0",
     "datum": "2026-07-27"
+  },
+  {
+    "kategorie": "Medizingeschichte",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Quecksilber-Barbarei: Warum Ärzte des 16. Jahrhunderts nicht rücksichtslos waren, sondern die erste wirksame Syphilis-Therapie einsetzten – und damit Millionen retteten",
+    "stauner": "Quecksilber galt Jahrhunderte lang als Gift – doch Ärzte wussten genau, dass es wirkt: Sie dosierten es präzise, überwachten Nebenwirkungen systematisch und retteten damit eine ganze Bevölkerung vor einer tödlichen Seuche. Was aussah wie medizinischer Wahnsinn, war rationaler Pragmatismus unter unmöglichen Bedingungen.",
+    "absaetze": [
+      "Als Syphilis im 15. Jahrhundert Europa eroberte, gab es keine Alternative: Die Krankheit tötete in Monaten. Ärzte experimentierten verzweifelt – bis sie entdeckten, dass Quecksilberdämpfe die Symptome linderten und die Krankheit zurückdrängte. Das Problem war nicht die Unwissenheit, sondern die unmögliche Wahl zwischen zwei Übeln: sichere Qualen oder riskante Heilung. Ärzte wählten bewusst das kleinere Übel.",
+      "Die medizinische Literatur des 16. und 17. Jahrhunderts zeigt keine unkritische Begeisterung, sondern präzise Beobachtung: Ärzte dokumentierten genau, wie viel Quecksilber nötig war, ohne zu töten. Sie entwickelten Dampfbäder statt direkter Ingestion, um die Dosis zu steuern. Sie wussten, dass Zahnverlust, Lähmungen und Nierenversagen Nebenwirkungen waren – und hielten diese für verhandelbar gegen Syphilis-Heilung. Das ist keine Barbarei: Das ist Triage unter existenzieller Not.",
+      "Was damals aussah wie Wahnsinn, offenbarte ein medizinisches Denken, das modernen Standards ähnelt: Risiko-Nutzen-Abwägung, dosisabhängige Toxikologie, Langzeitüberwachung. Quecksilber blieb bis zur Penicillin-Entdeckung 1928 das Standardmittel gegen Syphilis – nicht aus Mangel an Alternativen, sondern weil es funktionierte. Ärzte des 16. Jahrhunderts waren keine Sadisten, sondern Lebensretter, die zwischen Pest und Cholera wählten und die weniger schlimme Variante wählten."
+    ],
+    "schon_gewusst": "Der englische König Heinrich VIII. wurde wahrscheinlich mit Quecksilber gegen Syphilis behandelt – und die Nebenwirkungen (Zahnverlust, Gedächtnisprobleme) wurden lange Zeit einfach als 'königliches Alter' interpretiert. Die Medikation war so normal, dass die Toxizität völlig übersehen wurde.",
+    "quelle": "Arrizabalaga J. et al. (1997): The Great Pox: The French Disease in Renaissance Europe. Yale University Press.",
+    "quelle_url": "https://doi.org/10.12987/yale/9780300067453.001.0001",
+    "datum": "2026-07-28"
   }
 ]
