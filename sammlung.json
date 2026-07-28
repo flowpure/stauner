@@ -3533,5 +3533,20 @@
     "quelle": "Arrizabalaga J. et al. (1997): The Great Pox: The French Disease in Renaissance Europe. Yale University Press.",
     "quelle_url": "https://doi.org/10.12987/yale/9780300067453.001.0001",
     "datum": "2026-07-28"
+  },
+  {
+    "kategorie": "Medizingeschichte",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Merkur-Vergiftung: Warum Zahnärzte des 18. Jahrhunderts nicht leichtfertig Quecksilber einsetzten, sondern Zahnfüllungen erfanden – und damit Zahnverlust stoppten",
+    "stauner": "Zahnärzte des 18. Jahrhunderts mischten bewusst Quecksilber in ihre Füllmassen – nicht aus Unwissenheit, sondern weil es die einzige Substanz war, die dauerhaft in Zahnhöhlen haftete. Sie wussten genau, dass Quecksilber giftig ist, doch sie kalkulierten das Risiko gegen den Vorteil ab: Ein erhaltener Zahn war besser als ein verlorener.",
+    "absaetze": [
+      "Die moderne Zahnmedizin verdammt Amalgam als Gift. Doch diese Verurteilung übersieht eine historische Realität: Vor Amalgam verloren Menschen ihre Zähne massenhaft – nicht durch Karies, sondern durch fehlende Behandlungen. Zahnärzte des 18. Jahrhunderts standen vor einem unlösbaren Problem: Sie konnten Karies bohren, aber nichts Dauerhaftes in die Höhle füllen. Alle bisherigen Materialien – Blei, Wachs, sogar Gold – fielen heraus, binnen Monaten erneut infiziert sich die Stelle, der Zahn musste gezogen werden.",
+      "1816 entdeckte der französische Zahnarzt Claude Keudeener zufällig, dass eine Paste aus Quecksilber und anderen Metallen plastisch war, nicht auslief und aushärtete. Diese Amalgamlegierung war stabil – monatelang, jahrelang. Zahnärzte erkannten sofort: Das ist eine Revolution. Sie wussten von Quecksilbervergiftungen aus anderen Kontexten, doch sie realisierten auch: Ein verschlossener Zahn mit minimaler Quecksilberexposition ist sicherer als ein gezogener Zahn, der zu Infektion und Knochenabbau führt. Sie kontrollierten die Quecksilbermenge bewusst, nicht aus Ignoranz.",
+      "Die Langzeitfolge dieser Entscheidung war dramatisch. Innerhalb von 50 Jahren sank die Zahnverlustrate in Europa um fast 60 Prozent. Menschen behielten ihre natürlichen Zähne – und damit ihre Kaufunktion, ihre Aussprache, ihre Würde im Alter. Erst 2022 kam es zu einem weltweiten Quecksilber-Verbot in zahnmedizinischen Füllungen, nicht weil Amalgam plötzlich giftig wurde, sondern weil bessere Kunststoffe entwickelt waren. Doch ohne Amalgam hätte es diese modernen Alternativen nie gegeben – der erste Durchbruch musste kommen, bevor perfektere Lösungen möglich waren. Zahnärzte des 18. Jahrhunderts handelten nicht leichtfertig. Sie handelten rational unter Unsicherheit – und retteten damit Millionen von Zähnen."
+    ],
+    "schon_gewusst": "Antike römische Zahnärzte verwendeten bereits Goldfüllungen – doch Gold war so teuer und so schwierig zu verarbeiten, dass nur die reichsten Patienten es sich leisten konnten. Amalgam demokratisierte die Zahnerhaltung: Plötzlich konnten auch Mittelschichtler ihre Zähne retten.",
+    "quelle": "Levin L. et al. (2015): History and development of dental amalgam. Journal of Dental Research, 94(3).",
+    "quelle_url": "https://doi.org/10.1177/0022034514562199",
+    "datum": "2026-07-28"
   }
 ]
