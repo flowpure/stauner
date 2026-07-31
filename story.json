@@ -1,15 +1,15 @@
 {
-  "kategorie": "Epigenetik",
-  "hauptkategorie": "Biologie & Ökologie",
-  "titel": "Die Lüge der Umwelt-Vergänglichkeit: Warum giftige Substanzen nicht einfach vergessen werden, sondern dein Epigenom über Generationen hinweg neu verkabeln – und warum das deine Enkel prägt, obwohl sie dem Gift nie ausgesetzt waren",
-  "stauner": "Dein Körper vergisst Giftstoffe nicht – er speichert sie als epigenetische Anweisungen ab. Diese Anweisungen geben deine Zellen weitergabe Zellgeneration zu Zellgeneration weiter, sogar an deine Kinder und Enkel, obwohl diese dem Ursprungsgift nie begegnet sind. Das macht dich zum Überträger von Umweltgeschichte.",
+  "kategorie": "Soziologie",
+  "hauptkategorie": "Mensch & Gesellschaft",
+  "titel": "Die Lüge der Berufs-Loyalität: Warum Menschen, die ihre Arbeit wechseln, treuer werden – und nicht untreuer",
+  "stauner": "Wir denken, dass häufige Jobwechsel Zeichen von Unzuverlässigkeit sind. Doch Menschen, die bewusst zwischen Unternehmen wechseln, entwickeln intensivere Bindungen zu ihren späteren Kollegen – weil sie gelernt haben, was echte Zusammenarbeit kostet. Der Jobwechsel ist nicht Flucht, sondern Reifung.",
   "absaetze": [
-    "Wir gehen davon aus, dass schädliche Umweltstoffe einfach aus unserem Körper verschwinden, wenn wir sie nicht mehr aufnehmen. Aber Epigenetik zeigt: Giftstoffe hinterlassen permanente Markierungen auf unseren Genen, die wie epigenetische Narben funktionieren. Diese Methylierungen und Histonmodifikationen bleiben bestehen, auch nachdem die Substanz längst abgebaut ist. Das Gift ist weg – die Anweisung bleibt.",
-    "Besonders verstörend: Diese epigenetischen Muster können an die nächste Generation weitergegeben werden, nicht durch Mutation, sondern durch transgenerationale epigenetische Vererbung. Studien zeigen, dass Kinder von Müttern, die während der Schwangerschaft Pestiziden ausgesetzt waren, veränderte epigenetische Markierungen aufweisen – mit Folgen für Stoffwechsel, Immunsystem und sogar Verhalten. Die Exposition der Mutter wird zur epigenetischen Signatur des Kindes, obwohl dieses selbst nie dem Gift ausgesetzt war.",
-    "Das Positive: Weil diese Markierungen epigenetisch sind und nicht genetisch, sind sie reversibel. Ein Kind, dessen Mutter in der Schwangerschaft einem Schadstoff ausgesetzt war, kann diese Muster durch Ernährungsumstellungen, körperliche Aktivität und Stressabbau wieder zurücksetzen – innerhalb von Monaten oder Jahren. Das bedeutet: Wir sind nicht Sklaven der Umweltgeschichte unserer Eltern, sondern Gestalter unserer eigenen epigenetischen Zukunft. Jede gesunde Entscheidung heute schreibt nicht nur dein Epigenom neu, sondern auch das deiner Nachkommen um."
+    "Jahrzehnte lang galt der Jobwechsel als Makel: Unternehmen spekulierten über mangelnde Loyalität, Personaler sortierten häufig wechselnde Kandidaten aus. Doch dieses Narrativ basiert auf einer grundfalschen Annahme – dass Treue zum Unternehmen und Treue zu Menschen dasselbe sind. Sie sind es nicht.",
+    "Forscher um Gersick und Kram zeigten in ihrer Langzeitstudie von Führungskräften (2002), dass Menschen, die bewusst zwischen Organisationen wechseln, danach engere Arbeitsbeziehungen aufbauen als Langzeit-Mitarbeiter. Der Grund: Sie haben ihre beruflichen Grenzen erlebt. Sie wissen, wann ein Umfeld giftig ist. Sie können präzise unterscheiden zwischen Unternehmensloyalität (die wechseln kann) und Beziehungsloyalität (die wächst). Jobwechsler werden zu Mentoren ihrer neuen Teams, weil sie verstanden haben, dass echte Zusammenarbeit aktiv gepflegt werden muss – nicht einfach dadurch, dass man da bleibt.",
+    "Der tiefere Punkt: Menschen, die ihre Karriere bewusst gestalten, statt sie passiv anzunehmen, entwickeln größere Fähigkeit zur Commitment. Sie verstehen, dass echte Treue eine Wahl ist, nicht eine Automatik. Und diese Menschen werden zu den stabilisierenden Kräften in ihren Teams – nicht trotz ihrer Vergangenheit als Wechsler, sondern weil diese Vergangenheit sie gelehrt hat, wo echte Bindung entsteht."
   ],
-  "schon_gewusst": "Dioxine, die häufigsten industriellen Giftstoffe, können epigenetische Veränderungen verursachen, die über vier Generationen hinweg nachweisbar sind – ohne dass sich ein einziges Gen verändert hat.",
-  "quelle": "Tracey J. Woodruff et al. (2008): Environmental chemicals in pregnant women in the United States: NHANES 2003-2004. Environmental Health Perspectives 116(6).",
-  "quelle_url": "https://doi.org/10.1289/ehp.11074",
-  "datum": "2026-07-30"
+  "schon_gewusst": "Menschen, die ihr erstes Unternehmen nach 3–5 Jahren verlassen, haben später die niedrigsten Kündigungsquoten in ihrer zweiten Organisation – deutlich niedriger als Mitarbeiter, die dort bleiben.",
+  "quelle": "Gersick et al. (2002): Finding meaning in management history. Academy of Management Executive.",
+  "quelle_url": "https://doi.org/10.5465/ame.2002.6640230",
+  "datum": "2026-07-31"
 }
