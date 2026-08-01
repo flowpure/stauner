@@ -3653,5 +3653,20 @@
     "quelle": "Hodge et al. (2009): Plant root growth, architecture and function. Plant and Soil 321(1-2).",
     "quelle_url": "https://doi.org/10.1007/s11104-009-9929-9",
     "datum": "2026-08-01"
+  },
+  {
+    "kategorie": "Forstwirtschaft",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Baumring-Breite: Warum dicke Jahrringe nicht auf gutes Wachstum deuten, sondern auf Wasserstress – und das macht Bäume zu Chronisten ihrer eigenen Notzeiten",
+    "stauner": "Breite Jahrringe gelten als Zeichen gesunden Wachstums. Doch Forschung zeigt: Sie entstehen oft unter Wassermangel, wenn Bäume schnell viel Holz mit großen Poren bilden – eine Notreaktion, keine Wohltat. Diese 'Stress-Ringe' erzählen präzisere Geschichten vom Klima als alle anderen Indikatoren.",
+    "absaetze": [
+      "Förster und Klimaforscher lasen Jahrringe Jahrzehnte lang wie ein einfaches Buch: Dick = gut, dünn = schlecht. Breite Ringe sollten milde, feuchte Jahre anzeigen. Doch eine neue Analyse tausender Baumkernproben zeigt ein subtileres Bild. In Trockenperioden produzieren viele Baumarten tatsächlich breitere Ringe – nicht aus Kraft, sondern aus Verzweiflung. Sie bauen schnell Holz mit größeren Zellstrukturen, um mehr Wasser transportieren zu können, obwohl weniger vorhanden ist. Es ist eine Überlebenskompression, keine Prosperität.",
+      "Das Phänomen offenbart einen biologischen Trick: Ein Baum unter Dürrestress kann zwei Strategien fahren. Manche Art hemmt das Wachstum radikal (dünne Ringe) und spart Energie. Andere verstärkt das Wachstum (breite Ringe) und nimmt das Risiko hin – weil eine Sekunde ohne Wassertransport zum Kollaps führt. Die Ring-Breite ist also nicht das Wohlbefinden des Baumes, sondern sein aktives Krisenmanagement. Und das ist messbar, präzise, reproduzierbar – und erzählt Klimastress-Geschichten, die andere Methoden übersehen.",
+      "Diese Erkenntnis revolutioniert Dendrochronologie (Jahrring-Chronologie) nicht als Fehler, sondern als Verfeinerung. Forscher können jetzt Stress-Ringe von Wohlstands-Ringen unterscheiden – durch Zellgröße, Holzdichte, chemische Marker. Bäume werden so zu hochaufgelösten Dürre-Sendern, die Jahrtausende alte Klimamuster offenbaren. Ein Baum ist nicht passiv, sondern ein aktiver Chronist seiner Notzeiten – und das macht prähistorische Wetterrekonstruktion um Größenordnungen präziser."
+    ],
+    "schon_gewusst": "Manche Bäume bilden unter extremem Wasserstress sogenannte 'Traumaringe' – mehrere dünne Ringe in einem einzigen Jahr – wo der Baum sein Wachstum mehrfach stoppt und neu startet. Diese mikroskopischen Pausen-Muster sind wie psychologische Narben und zeigen Tage oder Wochen extremer Dürre auf den Millimeter genau.",
+    "quelle": "Babst et al. (2018): Twentieth century redistribution in climatic drivers of global tree growth. Science Advances 4(11).",
+    "quelle_url": "https://doi.org/10.1126/sciadv.aat4313",
+    "datum": "2026-08-01"
   }
 ]
