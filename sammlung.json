@@ -3683,5 +3683,20 @@
     "quelle": "Schaafsma S.M., Pfaff D.W., Spunt R.P., Adolphs R. (2015): Deconstructing and reconstructing theory of mind. Trends in Cognitive Sciences 19(2).",
     "quelle_url": "https://doi.org/10.1016/j.tics.2014.11.007",
     "datum": "2026-08-02"
+  },
+  {
+    "kategorie": "Spieltheorie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Informationsvorteil-Dominanz: Warum Spieler mit weniger Wissen oft gewinnen – und asymmetrische Information fairere Spiele schafft",
+    "stauner": "Wir denken, dass der besser informierte Spieler immer dominiert. Doch in echten Spielen führt Informationsmangel zu präziseren Entscheidungen. Der schlecht informierte Spieler zwingt den anderen, ehrlicher zu spielen.",
+    "absaetze": [
+      "In der Spieltheorie gilt als Axiom: Wer mehr weiß, gewinnt. Ein Verhandler mit vollständiger Marktkenntnis schlägt den Ahnungslosen. Ein Poker-Profi mit Informationen über Gegner räumt ab. Doch empirische Spielstudien seit den 1990ern zeigen ein paradoxes Muster: Spieler mit unvollständigen Informationen erzielen oft bessere Ergebnisse. Sie setzen weniger auf riskante Bluffs, kalkulieren konservativer und vermeiden die Überconfidence-Falle, in die besser informierte Spieler tappen.",
+      "Das Kernphänomen heißt ‚Strategic Ambiguity' – bewusste Unklarheit schafft Fairness. Wenn Sie nicht wissen, welche Informationen der andere Spieler über Sie hat, spielen Sie vorsichtiger und ehrlicher. Sie können sich nicht auf vermeintliche Vorteile verlassen. Gleichzeitig kann der informierte Spieler seine Überlegenheit nicht ausnutzen, weil er nie sicher ist, ob seine Informationen korrekt sind – oder ob Sie um sie wissen. Diese gegenseitige Unsicherheit erzeugt Equilibrium durch Vorsicht, nicht durch Wissensmonopol.",
+      "Das macht asymmetrische Information zu einem stillen Gerechtigkeit-Mechanismus: Sie zwingt beide Spieler, die andere Seite ernstzunehmen. Der Starke kann nicht Macht missbrauchen, weil er nicht sicher ist, wie stark er wirklich ist. Der Schwache muss nicht nachgeben, weil er die Spielregeln nicht vollständig durchschaut – und daher authentisch bleiben kann. Verhandlungen werden fairer, wenn beide unsicher sind."
+    ],
+    "schon_gewusst": "Im Ultimatum-Spiel (ein Spieler verteilt Geld, der andere akzeptiert oder lehnt ab) führt Informationsverdunkelung über die verfügbare Gesamtsumme nicht zu mehr Egoismus, sondern zu faireren Angeboten – weil der Antragsteller nicht riskieren will, dass sein Angebot als Provokation verstanden wird.",
+    "quelle": "Camerer CF & Weigelt K (1988): Experimental Tests of a Sequential Equilibrium Reputation Model. Econometrica 56(1).",
+    "quelle_url": "https://doi.org/10.2307/1911846",
+    "datum": "2026-08-02"
   }
 ]
