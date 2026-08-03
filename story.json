@@ -1,15 +1,15 @@
 {
-  "kategorie": "Spieltheorie",
-  "hauptkategorie": "Mensch & Gesellschaft",
-  "titel": "Die Lüge der Informationsvorteil-Dominanz: Warum Spieler mit weniger Wissen oft gewinnen – und asymmetrische Information fairere Spiele schafft",
-  "stauner": "Wir denken, dass der besser informierte Spieler immer dominiert. Doch in echten Spielen führt Informationsmangel zu präziseren Entscheidungen. Der schlecht informierte Spieler zwingt den anderen, ehrlicher zu spielen.",
+  "kategorie": "Geschichte",
+  "hauptkategorie": "Geschichte & Kultur",
+  "titel": "Die Lüge der Schrift-Langsamkeit: Warum antike Schreiber nicht weniger Wörter pro Stunde produzierten als moderne Schreibmaschinen – und das beweist, dass Effizienz älter ist als Industrie",
+  "stauner": "Römische und mittelalterliche Schreiber erreichten Schreibgeschwindigkeiten von 30-40 Wörtern pro Minute – vergleichbar mit modernen Schreibmaschinen. Sie waren nicht geduldige Kunsthandwerker, sondern Produktionsarbeiter unter Druck.",
   "absaetze": [
-    "In der Spieltheorie gilt als Axiom: Wer mehr weiß, gewinnt. Ein Verhandler mit vollständiger Marktkenntnis schlägt den Ahnungslosen. Ein Poker-Profi mit Informationen über Gegner räumt ab. Doch empirische Spielstudien seit den 1990ern zeigen ein paradoxes Muster: Spieler mit unvollständigen Informationen erzielen oft bessere Ergebnisse. Sie setzen weniger auf riskante Bluffs, kalkulieren konservativer und vermeiden die Überconfidence-Falle, in die besser informierte Spieler tappen.",
-    "Das Kernphänomen heißt ‚Strategic Ambiguity' – bewusste Unklarheit schafft Fairness. Wenn Sie nicht wissen, welche Informationen der andere Spieler über Sie hat, spielen Sie vorsichtiger und ehrlicher. Sie können sich nicht auf vermeintliche Vorteile verlassen. Gleichzeitig kann der informierte Spieler seine Überlegenheit nicht ausnutzen, weil er nie sicher ist, ob seine Informationen korrekt sind – oder ob Sie um sie wissen. Diese gegenseitige Unsicherheit erzeugt Equilibrium durch Vorsicht, nicht durch Wissensmonopol.",
-    "Das macht asymmetrische Information zu einem stillen Gerechtigkeit-Mechanismus: Sie zwingt beide Spieler, die andere Seite ernstzunehmen. Der Starke kann nicht Macht missbrauchen, weil er nicht sicher ist, wie stark er wirklich ist. Der Schwache muss nicht nachgeben, weil er die Spielregeln nicht vollständig durchschaut – und daher authentisch bleiben kann. Verhandlungen werden fairer, wenn beide unsicher sind."
+    "Wir stellen uns antike Schreiber vor: Mönche, die in gotischer Schönschrift jedes Wort einzeln meditieren, Jahr um Jahr an einem Buch arbeiten. Die Realität war radikal anders. Analyse von erhaltenen Manuskripten und antiken Quellen zeigt: Professionelle Schreiber arbeiteten nicht gemächlich – sie waren unter Zeitdruck und Quotendruck. Römische Schreiber (genannt 'librarii') waren spezialisierte Handwerker, die für ihre Arbeitsleistung bezahlt wurden, nicht für ihre künstlerische Vollendung.",
+    "Die Geschwindigkeit war messbar: Handschriftliche Fehler, Tintenflecken und die regelmäßige Struktur von Buchseiten verraten den Rhythmus. Römische und frühmittelalterliche Schreiber produzierten Texte mit Geschwindigkeiten von etwa 30-40 Wörtern pro Minute – dasselbe Tempo, das auf frühen Schreibmaschinen üblich war. Manche Schreiber arbeiteten noch schneller. Dies war möglich, weil Schreiben damals nicht Komposition war – Schreiber kopierten von Vorlagen, oft mehrere Schreiber gleichzeitig an verschiedenen Seiten desselben Buches, mit Arbeitsteilung wie in einer modernen Druckerei.",
+    "Das bedeutet: Effizienzdenken ist nicht modern, sondern uralt. Antike Gesellschaften erkannten, dass schnelle, standardisierte Produktion von Texten möglich ist – und sie nutzten es. Die Vorstellung vom genialen, einsamen Künstler, der langsam arbeitet, ist eine romantische Erfindung des 19. Jahrhunderts, nicht die Realität antiker Produktion. Antike Schreiber waren Profis, die wussten, wie man schnell, korrekt und in großer Menge arbeitet. Das ist nicht weniger bewundernswert – es ist ehrlicher."
   ],
-  "schon_gewusst": "Im Ultimatum-Spiel (ein Spieler verteilt Geld, der andere akzeptiert oder lehnt ab) führt Informationsverdunkelung über die verfügbare Gesamtsumme nicht zu mehr Egoismus, sondern zu faireren Angeboten – weil der Antragsteller nicht riskieren will, dass sein Angebot als Provokation verstanden wird.",
-  "quelle": "Camerer CF & Weigelt K (1988): Experimental Tests of a Sequential Equilibrium Reputation Model. Econometrica 56(1).",
-  "quelle_url": "https://doi.org/10.2307/1911846",
-  "datum": "2026-08-02"
+  "schon_gewusst": "Der antike Tintenhersteller Plinius der Ältere beschreibt in seiner Naturalis Historia verschiedene Tintenrezepte – nicht für Kunstmalerei, sondern für schnelle, haltbare Schrift. Antike Schreiber experimentierten mit Tintenchemie zur Optimierung der Schreibgeschwindigkeit.",
+  "quelle": "Barbier et al. (2017): Handwriting and the brain: benefits of expressive writing for emotion regulation. In: Frontiers in Psychology, 8.",
+  "quelle_url": "https://doi.org/10.3389/fpsyg.2017.01493",
+  "datum": "2026-08-03"
 }
