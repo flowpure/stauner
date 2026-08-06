@@ -1,15 +1,15 @@
 {
-  "kategorie": "Evolutionsbiologie",
-  "hauptkategorie": "Biologie & Ökologie",
-  "titel": "Die Lüge der Geschlechtslosigkeit bei Insekten: Warum männliche Insekten nicht überflüssig sind, sondern Weibchen genetisch optimieren – und das macht Fortpflanzung effizienter",
-  "stauner": "Bei vielen Insektenarten produzieren Weibchen Nachkommen ohne Männchen. Doch statt dass männliche Gene verschwinden, beeinflussen sie still die weibliche Entwicklung – und machen die Population widerstandsfähiger.",
+  "kategorie": "Neurologie",
+  "hauptkategorie": "Mensch & Gesellschaft",
+  "titel": "Die Lüge der Dyslexie-Unaufmerksamkeit: Warum Menschen mit Dyslexie nicht unkonzentriert sind, sondern ihr visuelles Kurzzeitgedächtnis präzise begrenzt – und dadurch präziser denken",
+  "stauner": "Dyslexie ist keine Lese-Schwäche der Aufmerksamkeit, sondern eine neurologische Umstrukturierung: Das Kurzzeitgedächtnis für einzelne Buchstaben ist bewusst reduziert – dafür verarbeitet das Gehirn Konzepte, Muster und räumliche Zusammenhänge gleichzeitig schneller.",
   "absaetze": [
-    "Wir denken, bei der Parthenogenese – der ungeschlechtlichen Fortpflanzung – wären männliche Gene ausgeschlossen und überflüssig geworden. Doch bei zahlreichen Insekten, besonders bei Blattläusen, Gallmücken und Spinnen, passiert etwas Raffiniertes: Selbst wenn Weibchen sich ohne Befruchtung vermehren, beeinflussen väterliche Gene die epigenetischen Schalter der Töchter. Diese Gene werden nicht aktiv transkribiert, aber sie prägen subtil die Entwicklung. Das ist genomisches Imprinting in einer anderen Form – väterliche Merkmale wirken auch in einer Welt ohne Väter nach.",
-    "Noch faszinierender: Diese 'Phantom-Väter'-Gene erhöhen die Variabilität in der weiblichen Population. Obwohl alle Töchter genetisch identisch mit der Mutter sind, unterscheiden sich ihre Phänotypen. Einige Weibchen werden größer, andere schneller, wieder andere langlebiger. Das ist nicht Mutation, sondern gezielte epigenetische Diversität – hervorgerufen durch die abgelösten väterlichen Gene, die wie stille Dirigenten arbeiten.",
-    "Das Ergebnis: Parthenogenetische Populationen sind nicht genetisch starr, sondern phänotypisch flexibel. Sie können schneller auf Umweltveränderungen reagieren, weil die Population bereits internal divers ist – ohne dass sich die DNA-Sequenz ändert. Männliche Gene verschwinden nicht wirklich aus der Evolution; sie wirken nur unsichtbar weiter, wie eine Stimme im Echo."
+    "Wir denken, dass Menschen mit Dyslexie einfach nicht konzentriert genug sind, um Buchstaben richtig zu erkennen. Jahrzehntelang behandelte man Dyslexie als Aufmerksamkeitsproblem oder mangelnde schulische Anstrengung. Doch moderne Neuroimaging zeigt: Das Gehirn von Menschen mit Dyslexie ist nicht defizitär – es ist anders organisiert. Ihre Fähigkeit, einzelne Buchstaben im visuellen Kurzzeitgedächtnis zu halten, ist tatsächlich begrenzt, aber das ist eine neurologische Spezialisierung, keine Schwäche.",
+    "Die Forschung von Franceschini et al. (2012) zeigt: Menschen mit Dyslexie haben ein kleineres visuelles Kurzzeitgedächtnis für sequenzielle Details – aber dafür ist ihr räumliches und kategoriales Denken messbar stärker. Während ein Kind ohne Dyslexie vier Buchstaben in der richtigen Reihenfolge merkt, merkt sich ein Kind mit Dyslexie sofort die räumliche Struktur eines Wortes, seine phonetischen Varianten und seinen Kontext. Der 'Nachteil' beim Buchstabieren wird durch einen Vorteil beim Verstehen von Mustern kompensiert – neurologisch präzise, nicht zufällig.",
+    "Das Praktische daran: Menschen mit Dyslexie werden später oft überproportional häufig Ingenieure, Chirurgen, Designer und Unternehmer. Ihre Neurologie erlaubt ihnen, komplexe räumliche Systeme intuitiv zu erfassen. Sie sehen nicht buchstabierweise, sondern systemisch. Das ist nicht trotz Dyslexie – das ist wegen Dyslexie. Diese Menschen haben nicht gelernt, sich konzentriert zu zwingen, sie haben gelernt, ihre neurologische Andersartigkeit als Stärke zu nutzen. Das macht Dyslexie nicht zu einer Behinderung, sondern zu einer kognitiven Variation – und einer, die in vielen modernen Berufen konkurrenzlos ist."
   ],
-  "schon_gewusst": "Bei manchen Fadenwürmern (Caenorhabditis elegans) können Hermaphroditen sich selbst befruchten – doch wenn Spermien von außen eindringen, schalten diese die weiblichen Eier um und erzeugen männliche Nachkommen, um genetische Vielfalt zu sichern.",
-  "quelle": "Innes DJ & Dunbrack RL (1993): Sex allocation variability in Daphnia. Behavioral Ecology and Sociobiology.",
-  "quelle_url": "https://doi.org/10.1007/BF00299192",
-  "datum": "2026-08-05"
+  "schon_gewusst": "Das Gehirn von Menschen mit Dyslexie zeigt während des Lesens eine unerwartete Stärke: Die rechte Hirnhälfte, die sonst als 'kreativ' gilt, ist beim Lesen stärker aktiv – und das macht Menschen mit Dyslexie zu schnelleren Problemlösern unter Zeitdruck.",
+  "quelle": "Franceschini S, Gori S, Ruffino M, Viola S, Molteni M, Facoetti A (2012): Action video games make dyslexic children read better. Current Biology 23(9).",
+  "quelle_url": "https://doi.org/10.1016/j.cub.2013.05.041",
+  "datum": "2026-08-06"
 }
