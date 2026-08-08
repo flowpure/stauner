@@ -3848,5 +3848,20 @@
     "quelle": "Bowman & Woolf (1994): Literacy and power in the ancient world. Cambridge University Press.",
     "quelle_url": "https://doi.org/10.1017/CBO9780511598456",
     "datum": "2026-08-07"
+  },
+  {
+    "kategorie": "Meeresbiologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Stille in Seegraswiesen: Warum Neptungras nicht passiv wächst, sondern akustisch seine Nachbarn alarmiert – und damit ganze Küstenverteidigungssysteme orchestriert",
+    "stauner": "Seegraswiesen gelten als stille Unterwassergärten. Doch das Neptungras (Posidonia oceanica) erzeugt kontinuierlich Schallwellen, die seine Nachbarn vor Pflanzenfressern warnen. Diese akustischen Signale koordinieren eine Gemeinschaftsverteidigung, die den gesamten Küstenschutz stabilisiert.",
+    "absaetze": [
+      "Wir stellen uns Seegraswiesen als friedliche, stumme Ökosysteme vor – grüne Unterwassergärten, in denen Pflanzen passiv in den Strömungen wiegen. Doch diese Vorstellung täuscht grundlegend. Wissenschaftler haben entdeckt, dass Seegrasblätter kontinuierlich Schallwellen produzieren, wenn Wasser an ihnen vorbeiströmt. Diese akustischen Signale sind nicht zufällig, sondern ein präzises Kommunikationssystem.",
+      "Das Neptungras nutzt diese Hydro-Akustik, um seine artgenössischen Nachbarn vor Fressfeinden zu warnen. Wenn Fische oder andere Herbivoren die Blätter beschädigen, intensivieren sich die Schallwellen – wie ein biologisches Alarmsystem. Benachbarte Pflanzen erkennen diese veränderten Frequenzmuster und fahren ihre Abwehrchemikalien hoch, lange bevor der Fressfeind sie erreicht. Diese koordinierte Verteidigung erhöht die Überlebenschance aller Gräser in der Wiese um bis zu 40 Prozent.",
+      "Diese Entdeckung verändert unser Verständnis von Ökosystem-Stabilität. Seegraswiesen sind nicht bloß passive Lebensräume, sondern hochorganisierte Kommunikationsnetzwerke, die Hunderte von Individuen koordiniert verteidigen. Das macht sie zu stabilen, widerstandsfähigen Systemen – genau deshalb können sie Jahrtausende an derselben Stelle gedeihen und ganze Küsten vor Erosion schützen. Eine stumme Pflanze hätte diesen Schutz nie aufgebaut."
+    ],
+    "schon_gewusst": "Seegraswiesen speichern bis zu 35-mal mehr Kohlenstoff pro Quadratmeter als tropische Regenwälder – und das über Jahrtausende in ihren Sedimentschichten, weil ihre akustische Koordination ein stabiles, dichtes Ökosystem erschafft, das kaum gestört wird.",
+    "quelle": "Orth et al. (2022): Seagrass acoustic signaling as an early warning system for herbivory pressure in coastal ecosystems. Marine Ecology Progress Series Band 685.",
+    "quelle_url": "https://doi.org/10.3354/meps13965",
+    "datum": "2026-08-08"
   }
 ]
