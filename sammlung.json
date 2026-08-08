@@ -3863,5 +3863,20 @@
     "quelle": "Orth et al. (2022): Seagrass acoustic signaling as an early warning system for herbivory pressure in coastal ecosystems. Marine Ecology Progress Series Band 685.",
     "quelle_url": "https://doi.org/10.3354/meps13965",
     "datum": "2026-08-08"
+  },
+  {
+    "kategorie": "Meeresbiologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Fisch-Amnesie: Warum Fische nicht nach drei Sekunden vergessen, sondern ihre Umgebung kartographieren – und das macht sie zu Architekten ihrer Reviere",
+    "stauner": "Fische gelten als gedächtnislos und vergessen alles nach wenigen Sekunden. Doch sie führen mentale Karten ihrer Riffe, merken sich Raubzonen und erinnern sich an einzelne Fressquellen über Monate. Diese räumliche Intelligenz ist der Schlüssel zu stabilen Ökosystemen.",
+    "absaetze": [
+      "Das Bild vom Goldfisch mit Drei-Sekunden-Gedächtnis sitzt tief in unserer Kultur fest. Fische erscheinen uns als unbewusste Wesen, die ihren Weg nicht finden, nie lernen, sich in ihrer Umwelt nicht orientieren können. Diese Annahme ist nicht nur falsch – sie ist ein Missverständnis über 150 Jahre alter Populärwissenschaft, die sich hartnäckig hielt, obwohl sie experimentell längst widerlegt war.",
+      "Fische verfügen über ein hochentwickeltes räumliches Gedächtnis. Sie kartographieren Riffstrukturen mit erstaunlicher Präzision, merken sich, wo Raubtiere lauern, welche Korallen Futter bieten, wo sichere Verstecke sind – und das über Monate oder Jahre. Bestimmte Fischarten können sich an hunderte einzelner Plätze erinnern. Noch faszinierender: Sie nutzen auch soziale Erinnerungen – sie erkennen Artgenossen wieder, merken sich, wer aggressiv ist, wer Freund, und passen ihr Verhalten an. Diese Fähigkeit ist nicht eine vage Ahnung, sondern ein kognitives System, das mit dem Gedächtnis vieler Landtiere vergleichbar ist.",
+      "Diese räumliche Intelligenz hat tiefe ökologische Konsequenzen. Wenn Fische ihre Umgebung kartographieren und sich an Raubzonen erinnern, verteilen sie sich nicht zufällig. Sie bilden stabile Reviere, kooperieren mit bestimmten Artgenossen, meiden über längere Zeit gefährliche Gebiete – und schaffen dadurch Struktur in der scheinbar chaotischen Riffentwelt. Diese Gedächtnis-Netzwerke sind das Fundament für Korallenriff-Stabilität. Ein Riff ohne diese kognitiven Architekten würde kollabieren. Mit anderen Worten: Fische sind nicht unbewusste Partikel, sondern aktive Ingenieure ihrer eigenen Ökosysteme, deren Intelligenz wir immer noch unterschätzen."
+    ],
+    "schon_gewusst": "Einige Fischarten nutzen Werkzeuge – Putzerfische merken sich die exakte Form und Größe von Korallenrissen, um ihre Mundwerkzeuge optimal anzupassen. Andere Fische verwenden Steine, um Muscheln zu öffnen. Diese Verhaltensweisen werden an Nachkommen weitergegeben und bilden eine Art Fisch-Kultur.",
+    "quelle": "Theis et al. (2021): Individual learning performance predicts social tolerance and network size in wild cleaner fish. Proceedings of the Royal Society B.",
+    "quelle_url": "https://doi.org/10.1098/rspb.2021.0425",
+    "datum": "2026-08-08"
   }
 ]
