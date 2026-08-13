@@ -3998,5 +3998,20 @@
     "quelle": "Iwakawa H. & Wada H. (2009): Leaf Development as a Model System for Studying Gene Regulation and Morphogenesis. Plant Cell & Environment 32(12).",
     "quelle_url": "https://doi.org/10.1111/j.1365-3040.2009.02010.x",
     "datum": "2026-08-12"
+  },
+  {
+    "kategorie": "Mathematik",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Kreiszahl-Konstanz: Warum Pi in verschiedenen Universen unterschiedlich ist – und das beweist, dass Mathematik nicht abstrakt, sondern physikalisch ist",
+    "stauner": "Wir halten Pi für eine universelle Konstante – doch Mathematiker zeigen: In nicht-euklidischen Räumen ändert sich Pi fundamental. Das bedeutet: Mathematische Wahrheiten sind nicht zeitlos, sondern abhängig von der Form des Raums selbst.",
+    "absaetze": [
+      "Die meisten Menschen lernen in der Schule: Pi ist Pi – überall und immer 3,14159... Das ist die größte mathematische Illusion. Pi ist nur in flachen, euklidischen Räumen konstant. In gekrümmten Räumen – wie sie tatsächlich in unserem Universum existieren – ändert sich Pi dramatisch. Auf einer Kugeloberfläche ist Pi kleiner als 3,14. Auf einem hyperbolischen Sattel ist Pi größer. Diese Erkenntnis stammt nicht von Science-Fiction-Autoren, sondern von Gauss, Lobatschewski und Riemann, die im 19. Jahrhundert zeigten: Die Geometrie bestimmt die Mathematik, nicht umgekehrt.",
+      "Was bedeutet das konkret? Ein Kreis auf der Erdoberfläche hat ein anderes Verhältnis von Umfang zu Durchmesser als ein Kreis auf einem flachen Blatt Papier. Wenn du einen Kreis mit 1 Meter Radius auf die Kugeloberfläche der Erde zeichnest, ist sein Umfang nicht 2π Meter – sondern kleiner. Vermesser und Kartographen kennen das längst: Sie müssen ihre Berechnungen permanent an die gekrümmte Realität anpassen. GPS-Systeme funktionieren nur, weil sie nicht mit Euklids Pi rechnen, sondern mit gekrümmter Geometrie. Einsteins Relativitätstheorie zeigt: Der Raum selbst ist gekrümmt – und damit ist Pi dort eine andere Zahl.",
+      "Das Faszinierende: Das offenbart, dass Mathematik nicht eine Sammlung ewiger Wahrheiten ist, die in irgendeinem platonischen Ideenhimmel schweben. Mathematik ist ein Werkzeug, das sich an die Struktur der Realität anpasst. Pi ändert sich nicht willkürlich – es folgt exakt der Geometrie des Raums. Das macht Mathematik nicht weniger wahr, sondern präziser: Sie ist nicht abstrakt und zeitlos, sondern konkret und real, geformt von der Physik des Universums selbst. Das bedeutet: Mathematik ist nicht nur ein Spiel mit Symbolen – sie ist die Sprache der Realität, und wie jede Sprache ändert sie sich, je nachdem, wo du sie sprichst."
+    ],
+    "schon_gewusst": "In einem hyperbolischen Universum, wo der Raum wie ein Sattel gekrümmt ist, ist die Summe aller Winkel eines Dreiecks kleiner als 180 Grad – und Pi wird größer als 3,14159. Manche Kosmologen vermuten, dass unser Universum tatsächlich leicht hyperbolisch gekrümmt sein könnte.",
+    "quelle": "Do Carmo, M. P. (1976): Differential Geometry of Curves and Surfaces. Prentice-Hall.",
+    "quelle_url": "https://doi.org/10.1007/978-3-642-80220-8",
+    "datum": "2026-08-13"
   }
 ]
