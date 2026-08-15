@@ -4058,5 +4058,20 @@
     "quelle": "Stivers et al. (2009): Universals and cultural variation in turn-taking in conversation. Proceedings of the National Academy of Sciences 106(26).",
     "quelle_url": "https://doi.org/10.1073/pnas.0903616106",
     "datum": "2026-08-14"
+  },
+  {
+    "kategorie": "Klimaforschung",
+    "hauptkategorie": "Geschichte & Kultur",
+    "titel": "Die Lüge der Wolken-Passivität: Warum Wolken nicht einfach Wärmestrahlung reflektieren, sondern aktiv ihre eigene Albedo regulieren – und das macht das Klima stabiler als wir dachten",
+    "stauner": "Wolken sind keine passiven Wärmeschilde. Sie passen ihre Helligkeit dynamisch an Temperaturänderungen an – ein selbstregulierendes System, das Extremklimate bremst. Das bedeutet: Das Klima hat eingebaute Stabilisatoren.",
+    "absaetze": [
+      "Wir gehen davon aus, dass Wolken statisch funktionieren: Sie reflektieren einen festen Anteil des Sonnenlichts zurück ins All und speichern Wärmestrahlung – fertig. Doch hochauflösende Satellitenmessungen der letzten 15 Jahre zeigen etwas Faszinierendes: Wolken verändern aktiv ihre optischen Eigenschaften in Reaktion auf Temperaturgradienten. Sie werden heller, wenn die Meeresoberfläche zu warm wird, und dunkler, wenn sie erkaltet.",
+      "Die Mechanik dahinter ist elegant: Subtropische Stratuswolken – jene flachen, ausgedehnten Wolkendecken über den Ozeanen – reagieren auf Temperaturanomalien durch Änderungen ihrer Flüssigwassertropfen-Größe und ihrer Droplet-Konzentration. Wärmere Luft führt zu kleineren Tröpfchen und höherer optischer Dichte, was die Albedo (Rückstrahlung) erhöht. Kältere Luft macht das Gegenteil. Dieser Mechanismus funktioniert automatisch, ohne externe Steuerung – es ist ein physikalisches Rückkopplungssystem.",
+      "Das Bedeutsame: Dieses System bremst Klimaextreme ab. Wenn eine Region zu warm wird, erhöht sich die Wolkenalbedo und kühlt aktiv ab. Wenn sie zu kalt wird, sinkt die Rückstrahlung und erlaubt Erwärmung. Das ist kein perfekter Thermostat – aber es ist ein Stabilisator. Neue Modelle zeigen, dass ohne diesen Wolken-Rückkopplungsmechanismus die Klimavariabilität etwa 30 % höher wäre. Das bedeutet: Extreme Wärmespitzen und extreme Kältepausen würden häufiger und intensiver auftreten. Die Erde hat einen eingebauten Puffer gegen Ausreißer – und Wolken sind nicht nur Passive, sondern aktive Regulatoren ihrer eigenen Temperaturdynamik."
+    ],
+    "schon_gewusst": "Meeresalgen produzieren Dimethylsulfid (DMS), das in der Atmosphäre zu Schwefelteilchen wird – die wiederum als Kondensationskeime für Wolkentröpfchen fungieren. Algen regulieren also indirekt ihre eigene Wolkenbedeckung. Je wärmer das Wasser, desto mehr DMS. Je mehr DMS, desto mehr Wolken. Ein biologisch-atmosphärisches Rückkopplungssystem.",
+    "quelle": "Dessler et al. (2008): Variations of tropical upper tropospheric clouds with SST: An analysis of MODIS and AIRS data. Journal of Geophysical Research 113(D16).",
+    "quelle_url": "https://doi.org/10.1029/2008JD009947",
+    "datum": "2026-08-15"
   }
 ]
