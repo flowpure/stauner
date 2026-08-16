@@ -4088,5 +4088,20 @@
     "quelle": "Baldwin & Dunkerton (2001): Stratospheric harbingers of anomalous weather regimes. Science 294(5542).",
     "quelle_url": "https://doi.org/10.1126/science.294.5542.581",
     "datum": "2026-08-15"
+  },
+  {
+    "kategorie": "Mikrobiologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Bakterien-Vergiftung: Warum Mikroben nicht einfach Giftstoffe abbauen, sondern sie aktiv in Energie umwandeln – und das macht Umweltsanierung zur biologischen Alchemie",
+    "stauner": "Bakterien sind keine passiven Müllschlucker, die Schadstoffe einfach neutralisieren. Sie metabolisieren Giftstoffe wie Arsen, Nitrate und Schwermetalle systematisch – und nutzen die chemische Energie dafür, um zu wachsen. Das macht Mikroben zu aktiven Ingenieuren ihrer eigenen Chemie.",
+    "absaetze": [
+      "Jahrzehntelang galten Bakterien in der Umweltsanierung als biologische Müllverwertungsanlagen: Man setzte sie auf verseuchte Böden, und sie sollten die Schadstoffe 'abbauen' – eine vage Vorstellung von zersetzender Passivität. Doch diese Metapher ist irreführend. Bakterien wie Geobacter oder Shewanella sind keine Müll-Fresser, die Gift tolerieren. Sie sind *chemische Strategen*, die toxische Substanzen als Energiequelle erkennen und metabolisieren – genau wie wir Zucker zu ATP umwandeln.",
+      "Die Fakten sind präzise: Arsenreduzierende Bakterien vom Typ Desulfuromonas können Arsen(V) zu Arsen(III) reduzieren und dabei ihre Zellmembranen aufbauen. Nicht-fermentative Bakterien wie Pseudomonas aeruginosa oxidieren Nitrat zu Stickstoff und gewinnen dabei Elektronen für ihre Atmungskette. Diese Prozesse sind keine Notfallmechanismen – sie sind *hochregulierten Stoffwechselwege*, mit denen Bakterien gezielt ihre Biomasse vermehren. Studien zeigen: In Anwesenheit von Arsen wachsen Arsenreduzenten *schneller* als ohne, weil sie die chemische Energie nutzen. Die Vergiftung wird zur Mahlzeit.",
+      "Das bedeutet: Bioremediation ist nicht Giftentsorgung, sondern *kontrollierte Umwandlung*. Wenn wir Mikroben auf Böden loslassen, geschieht keine passive Neutralisierung – es findet eine aktive chemische Revolution statt. Schwermetalle werden in unlösliche Mineralien überführt, die Böden langfristig stabilisieren. Nitrate aus Industrieabfällen werden zu Stickstoffgas, das in die Atmosphäre entweicht. Bakterien sind dabei nicht Opfer der Toxizität, sondern *Profiteure* – sie wachsen, vermehren sich und bauen ihre Zellwände auf. Das macht Umweltsanierung zur Symbiose: Wir haben ein Problem, Bakterien haben eine Energiequelle. Jede Tonne abgebautes Gift ist ein Beweis dafür, dass Natur nicht einfach passiv Schaden toleriert – sie transformiert ihn aktiv in Leben."
+    ],
+    "schon_gewusst": "Manche Bakterien können sogar radioaktive Substanzen metabolisieren: Das Bakterium Deinococcus radiodurans nutzt Uranverbindungen als Elektronenakzeptor und repariert dabei Schäden an seiner eigenen DNA durch ein redundantes Reparatursystem – es ist quasi immun gegen Strahlung und nutzt sie gleichzeitig als Energiequelle.",
+    "quelle": "Lovley DR (2003): Cleaning up with genomics: Applying molecular biology to bioremediation. Nature Reviews Microbiology 1(3):207-212.",
+    "quelle_url": "https://doi.org/10.1038/nrmicro772",
+    "datum": "2026-08-16"
   }
 ]
