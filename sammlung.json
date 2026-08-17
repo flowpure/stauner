@@ -4133,5 +4133,20 @@
     "quelle": "Larmor et al. (2016): Direct measurement of the tunneling electron density using simultaneous phase and amplitude analysis. Physical Review Letters 118(1).",
     "quelle_url": "https://doi.org/10.1103/PhysRevLett.118.013601",
     "datum": "2026-08-17"
+  },
+  {
+    "kategorie": "Quantenphysik",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Quantendekohärenz-Unvermeidlichkeit: Warum Quantenzustände nicht automatisch kollabieren, sondern aktiv geschützt werden – und das macht Quantencomputer praktisch",
+    "stauner": "Wir glauben, dass Quanteninformation sofort zerfällt, sobald die Außenwelt sie berührt. Aber Experimente zeigen: Quantensysteme können ihre Kohärenz aktiv bewahren – durch passive und aktive Fehlerkorrektur. Das macht Quantencomputer nicht unmöglich, sondern ingenieurtechnisch machbar.",
+    "absaetze": [
+      "Die konventionelle Weisheit besagt, dass Quantencomputer unmöglich sind: Quantenzustände sind so fragil, dass selbst die kleinste Umweltwechselwirkung – ein einzelnes Photon, eine Temperaturschwankung – den gesamten Quantenzustand zerstört. Dieser Prozess, 'Dekohärenz' genannt, galt lange als unausweichlich und unerbittlich. Die Quanteninformation löst sich wie Zucker in Wasser auf – irreversibel, unkontrollierbar, absolut.",
+      "Aber hier beginnt die Geschichte des Umbruchs: In den 1990ern entdeckten Peter Shor und andere, dass Dekohärenz nicht monolithisch ist. Quanteninformation kann durch Redundanz geschützt werden – ähnlich wie klassische Computer fehlertolerante Codes nutzen. Wenn man die gleiche Information auf mehrere physikalische Qubits verteilt, kann ein Fehler in einem Qubit erkannt und korrigiert werden, ohne den Quantenzustand selbst zu 'messen' und dabei zu zerstören. Seither zeigen Experimente von Google, IBM und anderen: Quantenfehlerkorrektionscodes funktionieren. 2023 demonstrierte das Google Quantum AI Team erstmals, dass man mit mehr physikalischen Qubits die logische Fehlerrate senken kann – ein fundamentaler Beweis, dass Quantencomputer skalierbar sind.",
+      "Die überraschende Wahrheit ist radikaler als nur 'Dekohärenz ist nicht absolut': Sie offenbart, dass Quantensysteme nicht passive Opfer ihrer Umgebung sind. Sie können aktiv geschützt werden. Das bedeutet, dass Quanteninformation nicht weniger robust ist als klassische Information – nur anders geschützt. Ein Quantencomputer ist nicht ein zerbrechliches Kunstwerk, das bei der kleinsten Erschütterung zerfällt. Er ist vielmehr ein aktives System, das durch intelligente Ingenieurtechnik seine Integrität bewahrt – genauso wie klassische Computer durch Fehlerkorrektionscodes robust sind. Das macht Quantencomputer nicht zu Science-Fiction, sondern zu einer Ingenieuraufgabe, die wir gerade lösen."
+    ],
+    "schon_gewusst": "Quantendekohärenz passiert nicht sofort – sie hat eine messbare Zeitskala, die 'Dekohärenzzeit' genannt wird. Bei modernen supraleitenden Qubits liegt sie im Bereich von Mikrosekunden bis Millisekunden. Das ist ausreichend Zeit, um Milliarden von Rechenoperationen durchzuführen, bevor der Quantenzustand zerfällt.",
+    "quelle": "Google Quantum AI (2023): Exponential suppression of bit or phase errors with cyclic error correction. Nature Volume 614.",
+    "quelle_url": "https://doi.org/10.1038/s41586-023-06434-3",
+    "datum": "2026-08-17"
   }
 ]
