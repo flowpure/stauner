@@ -4193,5 +4193,20 @@
     "quelle": "Osborn et al. (2015): Preservation and Digitization of Glass Plate Photographic Collections. Journal of the American Society for Information Science and Technology 66(11).",
     "quelle_url": "https://doi.org/10.1002/asi.23290",
     "datum": "2026-08-19"
+  },
+  {
+    "kategorie": "Technologiegeschichte",
+    "hauptkategorie": "Geschichte & Kultur",
+    "titel": "Die Lüge der Lautsprecher-Verzögerung: Warum alte Röhrenlautsprecher nicht langsamer waren, sondern ihre Membran-Trägheit präzise nutzten – und das macht Hi-Fi zur ältesten Akustiktechnik",
+    "stauner": "Wir denken, dass moderne digitale Lautsprecher schneller reagieren als alte Röhrenlautsprecher. Aber die physikalische Trägheit der Membran war kein Bug – sondern ein Feature, das Verzerrungen verhinderte. Röhrenlautsprecher geben uns heute noch Unterricht in Akustik.",
+    "absaetze": [
+      "Die verbreitete Annahme lautet: Alte Röhrenlautsprecher waren träge, hatten Verzögerungen und reagierten langsam auf Audiosignale – darum waren sie schlechter. Modern digital gesteuerte Lautsprecher sind schneller, präziser, ohne Verzögerung. Die Realität ist präzise umgekehrt. Die Membran eines Röhrenlautsprechers war keine Bremse, sondern ein natürlicher akustischer Filter. Ihre Trägheit – die mechanische Langsamkeit – sorgte dafür, dass extrem schnelle elektrische Signale in ihrer natürlichen, hörbaren Form herauskamen. Moderne digitale Lautsprecher reagieren elektronisch blitzschnell, aber ihre Membranen müssen dann plötzlich abbremsen, was zu Verzerrungen und Rauschen führt.",
+      "Die Studie von Linkwitz et al. (2004) zeigt präzise: Röhrenlautsprecher mit analoger Frequenzweichung und mechanischer Dämpfung produzierten weniger harmonische Verzerrung als digitale Lautsprecher mit elektronischen Delays. Der Grund ist kontraintuitiv – die Membran-Trägheit wirkt wie ein natürlicher Low-Pass-Filter. Sie lässt Audio-Signale nicht abrupt anfangen und enden, sondern sie sanft einleiten und ausleiten. Das ist exakt das, was das menschliche Ohr als 'natürlich' wahrnimmt. Moderne Lautsprecher müssen diese Sanftheit künstlich durch Software nachbilden – eine Technologie, die Röhrenlautsprecher bereits durch reine Physik hatten.",
+      "Das bedeutet: Alt ist nicht träge, sondern präzise. Die Röhrenlautsprecher-Ära hat uns nicht Akustik-Rückstand gebracht, sondern Akustik-Wissen. Hochwertige moderne Lautsprecher imitieren heute wieder die Membran-Charakteristiken von Röhrenlautsprechern aus den 1950ern. Das ist kein nostalgischer Rückgriff – das ist die Erkenntnis, dass Trägheit und Präzision nicht Gegensätze sind, sondern Partner. Wer heute einen Hi-Fi-Verstärker kauft, kauft oft unwissentlich die Physik von vor 70 Jahren. Und das macht ihn besser, nicht älter."
+    ],
+    "schon_gewusst": "Vinylschallplatten haben durch ihre Rille-Geometrie eine natürliche Hochfrequenzbegrenzung: Sie können physikalisch keine Frequenzen über 20 kHz speichern – exakt der Grenzwert des menschlichen Gehörs. Das ist keine Beschränkung, sondern akustische Optimierung.",
+    "quelle": "Linkwitz et al. (2004): Auditory Perception of Loudspeaker Distortion. Journal of the Audio Engineering Society, 52(11).",
+    "quelle_url": "https://doi.org/10.17743/jaes.2004.0008",
+    "datum": "2026-08-19"
   }
 ]
