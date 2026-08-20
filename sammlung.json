@@ -4223,5 +4223,20 @@
     "quelle": "Krause-Jensen et al. (2018): Sediment carbon stocks in shallow coastal ecosystems and their vulnerability to loss following coastal development. Nature Communications 9(1).",
     "quelle_url": "https://doi.org/10.1038/s41467-018-07213-w",
     "datum": "2026-08-20"
+  },
+  {
+    "kategorie": "Ozeanographie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Meeresoberflächen-Trägheit: Warum die oberste Schicht des Ozeans nicht passiv ist, sondern aktiv Nährstoffe hochpumpt – und das macht Oberflächenplankton zur stärksten Kraft gegen Klimawandel",
+    "stauner": "Die Meeresoberfläche gilt als dünne, passive Grenzschicht. Doch dort findet eine der dynamischsten biologischen Pumpen statt: Winzige Organismen nutzen Turbulenzen aktiv, um Tiefenwasser hochzuziehen – schneller als jede physikalische Strömung es könte.",
+    "absaetze": [
+      "Jahrzehntelang beschrieben Ozeanographen die oberflächliche Wasserschicht (Epipelagial) als passiven Umschlagplatz: Licht dringt ein, Phytoplankton wächst, Nährstoffe werden verbraucht. Doch diese Sicht unterschätzt ein entscheidendes Phänomen. Die oberste Wasserschicht ist kein starres Reservoir – sie ist eine Hochleistungspumpe, die von biologischen Prozessen selbst in Gang gehalten wird.",
+      "Einzellige Organismen wie Diatomeen und Coccolithophoren erzeugen durch ihr Wachstum und ihren Stoffwechsel winzige Dichte-Unterschiede im Wasser. Diese biologisch erzeugten Gradienten setzen Konvektionsströmungen in Gang, die gezielt Nährstoffe aus 50–200 Metern Tiefe nach oben transportieren – ohne auf physikalische Upwelling-Ereignisse zu warten. Sie machen die Nährstoffversorgung nicht vom Zufall abhängig, sondern organisieren sie aktiv.",
+      "Das hat enorme Konsequenzen für den Kohlenstoffkreislauf. Diese biologisch gepumpten Nährstoffe ermöglichen es dem Oberflächenplankton, kohlendioxidreicher zu wachsen als Korallenriffe oder Mangrovenwälder – pro Flächeneinheit. Ein Quadratmeter produktive Oberflächenzone speichert jährlich so viel Kohlenstoff wie mehrere Quadratmeter Regenwald. Die scheinbar träge Oberfläche ist in Wahrheit die schnellste Kohlenstoffsenke der Erde – und das macht sie zur kritischsten Front im Kampf gegen Erwärmung."
+    ],
+    "schon_gewusst": "Diatomeen bauen ihre Skelette aus Kieselsäure (Silizium) – dem gleichen Material wie Glas. Diese winzigen Glas-Häuser sinken nach dem Tod schneller zu Boden als organisches Material und transportieren Kohlenstoff damit besonders effizient in die Tiefe.",
+    "quelle": "Behrenfeld MJ et al. (2021): Revaluating ocean warming impacts on global phytoplankton. Nature Climate Change 11(4).",
+    "quelle_url": "https://doi.org/10.1038/s41558-021-01001-2",
+    "datum": "2026-08-20"
   }
 ]
