@@ -4254,5 +4254,20 @@
     "quelle": "Rippe JM, Angelopoulos TJ (2016): Sucrose, High-Fructose Corn Syrup, and Fructose and Their Effects on Metabolic Health and Obesity. Advances in Nutrition 7(2):201-213.",
     "quelle_url": "https://doi.org/10.3945/an.115.009159",
     "datum": "2026-08-21"
+  },
+  {
+    "kategorie": "Chemie",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Chlor-Gefährlichkeit: Warum Chlor nicht einfach giftig ist, sondern dein Körper es täglich selbst herstellt – und das macht Desinfektionsmittel zur natürlichen Verteidigung",
+    "stauner": "Wir fürchten Chlor als Industrialgift. Doch dein Immunsystem produziert Chlor aus Wasserstoffperoxid, um Bakterien zu zerstören. Chlor ist nicht der Feind – es ist deine chemische Grenzwache.",
+    "absaetze": [
+      "Chlor hat einen furchtbaren Ruf. Wir denken an Giftgaseinsätze, an Schwimmbadchemie, an giftige Industrien. Aber hier liegt die erste Überraschung verborgen: Dein Körper stellt täglich chlorhaltige Verbindungen her – gezielt und präzise. Neutrophile Leukozyten, die Frontliniensoldat*innen deines Immunsystems, nutzen ein Enzym namens Myeloperoxidase, um Hypochlorit zu erzeugen. Das ist aggressive Chlorchemie – aber nicht gegen dich, sondern gegen Eindringlinge. Wenn eine Bakterie in deine Wunde eindringt, bombardiert dein Körper sie mit dieser Substanz. Es ist Krieg auf molekularer Ebene, aber ein Krieg, den dein Körper seit Millionen Jahren perfektioniert hat.",
+      "Die zweite Überraschung: Chlor in angemessenen Konzentrationen ist nicht chaotisch zerstörerisch, sondern selektiv und präzise. Chlor-basierte Desinfektionsmittel funktionieren, weil sie gezielt Bakterienzellwände oxidieren – aber nur bei Konzentrationen, die Körperzellen nicht erreichen. Schwimmbäder nutzen diese Eigenschaft: Eine Chlorkonzentration von 0,5–1,0 mg/L tötet Pathogene ab, ohne Haut oder Atemwege zu schädigen. Das ist nicht Chemikalien-Roulette, sondern therapeutisches Design. Chlor ist so selektiv, dass es einen Pool mit Tausenden Menschen vor Cholera, Typhus und resistenten Bakterien bewahrt – täglich, unsichtbar, kosteneffizient.",
+      "Das dritte und wichtigste: Diese Realität macht Chlor zur älteren und klügeren Technik, als wir dachten. Bevor Antibiotika existierten, bevor Hospitalinfektionen zum Problem wurden, nutzten Gesellschaften Chlor-haltige Laugen zur Desinfektion. Der Grund war nicht wissenschaftliche Theorie, sondern empirische Weisheit – Chlor wirkt. Und heute, in einer Welt der Antibiotikaresistenzen, wird Chlor erneut unverzichtbar. Es ist nicht die Chemie des Todes, sondern die Chemie der Verhütung. Dein Körper vertraut ihr. Deine öffentliche Gesundheit hängt davon ab."
+    ],
+    "schon_gewusst": "Der Chlorgeruch im Schwimmbad ist nicht reine Chlormoleküle, sondern Chloramine – Verbindungen aus Chlor und Urin/Schweiß. Reines Chlor riecht kaum. Je stärker der Chlorgeruch, desto mehr unerwünschte Stoffe sind vorhanden – nicht umgekehrt.",
+    "quelle": "Winterbourn CC et al. (1992): The Myeloperoxidase System of Phagocytes. Free Radical Biology & Medicine 12(5).",
+    "quelle_url": "https://doi.org/10.1016/0891-5849(92)90032-P",
+    "datum": "2026-08-21"
   }
 ]
