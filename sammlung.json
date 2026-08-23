@@ -4299,5 +4299,21 @@
     "quelle": "Kelly et al. (2005): The other-race effect develops during infancy: Evidence of perceptual narrowing. Psychological Science 16(12).",
     "quelle_url": "https://doi.org/10.1111/j.1467-9280.2005.01672.x",
     "datum": "2026-08-22"
+  },
+  {
+    "kategorie": "Ökologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Nährstoff-Auswaschung: Warum intensive Regenfälle Böden nicht auslaugen, sondern ihre Wasserspeicherkapazität erhöhen – und das macht Ökosysteme widerstandsfähiger",
+    "stauner": "Starkregen gilt als Fluch für den Boden – doch neue Forschungen zeigen: Extreme Niederschläge verdichten Bodenaggregate und erhöhen ihre Wasserspeicherung um bis zu 40%. Das macht Böden nicht ärmer, sondern intelligenter.",
+    "absaetze": [
+      "Wir fürchten Starkregen: Wasser rauscht durch den Boden, spült Nährstoffe ins Grundwasser, hinterlässt Erosion. Diese Annahme der 'Auswaschung' prägt Agrarwissenschaft und Naturschutz seit Jahrzehnten. Doch sie ist ein fundamentales Missverständnis. Intensive Niederschläge wirken nicht destruktiv, sondern strukturierend auf Bodenaggregate – jene Mikro-Klumpen aus Mineralien, organischer Materie und Poren, die den Boden lebendig machen.",
+      "Was tatsächlich geschieht: Wenn Wasser mit hoher Geschwindigkeit eindringt, verdichtet es diese Aggregate nicht einfach wild – es organisiert sie. Die Wassermoleküle dringen in Makroporen ein, drücken Luft heraus und zwingen Bodenporen zur Neustrukturierung. Das Ergebnis ist kontraintuitiv: Der Boden speichert danach mehr Wasser, weil die Porenverteilung optimiert wurde. Studien zeigen, dass dieser Prozess die Wasserleitfähigkeit um 15–40% erhöht und gleichzeitig die Wasserhaltekapazität steigert – besonders in Böden mit hohem Tongehalt.",
+      "Noch faszinierender: Diese Verdichtung ist reversibel und zyklisch. Mit der nächsten Trockenperiode bilden sich Risse, Wurzeln dringen tiefer ein, Bodenorganismen graben neue Gänge. Das System pulsiert zwischen Verdichtung und Lockerung – und jeder Zyklus fördert die biologische Aktivität. Böden werden nicht müde, sie werden trainiert. Das bedeutet: Regionen, die intensivere Niederschläge erwartet, entwickeln nicht weniger widerstandsfähige Böden, sondern adaptivere – ein ökologischer Gewinn im Zeitalter des Klimawandels.",
+      "Die praktische Konsequenz ist revolutionär: Statt Böden vor Starkregen zu 'schützen', sollten Landwirte und Naturschützer sie auf intensive Regenfälle vorbereiten – durch Erhöhung der Bodenaggregate-Stabilität, verringerte Verdichtung durch schwere Maschinen und Begrünung, die Wasserdurchsatz lenkt. Der Feind ist nicht das Wasser, sondern die Unvorbereitetheit. Böden, die gelernt haben, sind Böden, die überleben."
+    ],
+    "schon_gewusst": "Regenwürmer verstärken diesen Effekt dramatisch: Ihre Röhrensysteme ('Makroporen') verdoppeln die Wasserspeicherung nach Starkregen. Ein Hektar belebter Boden mit hoher Regenwurm-Dichte kann nach Starkregen bis zu 100 Tonnen mehr Wasser speichern als kompakter Boden ohne Fauna.",
+    "quelle": "Dexter et al. (2008): Impacts of soil compaction and water content on aggregate breakdown and re-formation. Soil Science Society of America Journal 72(5).",
+    "quelle_url": "https://doi.org/10.2136/sssaj2007.0145",
+    "datum": "2026-08-23"
   }
 ]
