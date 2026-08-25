@@ -4375,5 +4375,20 @@
     "quelle": "Cadosch D. et al. (2009): Biocorrosion and biocompatibility of resorbable polymeric materials: a review. Acta Biomaterialia 5(1).",
     "quelle_url": "https://doi.org/10.1016/j.actbio.2008.09.014",
     "datum": "2026-08-25"
+  },
+  {
+    "kategorie": "Materialwissenschaft",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Glasbruch-Unvermeidlichkeit: Warum Glas nicht einfach zersplittert, sondern gezielt bricht – und das macht Sicherheitsglas zur intelligentesten Erfindung",
+    "stauner": "Wir denken, Glas zerbricht chaotisch und gefährlich. Doch Glas folgt präzisen physikalischen Regeln: Seine Bruchlinien entstehen nicht zufällig, sondern folgen dem Spannungsfeld wie ein Kompass. Das macht Sicherheitsglas zur materiellen Intelligenz.",
+    "absaetze": [
+      "Die Fehlannahme ist tief verankert: Glas zerbricht explosiv, unkontrollierbar, gefährlich. Ein Stein trifft eine Fensterscheibe und – Chaos. Splitter überall, niemand weiß, wohin sie fliegen. Deshalb installieren wir Sicherheitsglas in Autos und Flugzeugen: um diese wilde Natur zu bändigen. Doch die Realität ist präziser und beruhigender als diese Angst.",
+      "Glas bricht nicht willkürlich. Es bricht nach Spannungsmustern, die sich Ingenieure zunutze machen. Wenn Glas unter Druck steht – etwa weil die äußere Schicht schneller abkühlt als die innere – entstehen innere Spannungsfelder. Diese Felder sind wie unsichtbare Straßenkarten. Ein Riss folgt ihnen wie ein Fluss dem Gefälle. Wissenschaftler können diese Spannungsmuster berechnen, visualisieren und lenken. Das ist nicht Chaos – das ist Geometrie. Laut der Studie 'Fracture Mechanics of Glass' zeigen Hochgeschwindigkeitskamera-Aufnahmen, dass sich Brüche in Glas mit messbarer Geschwindigkeit ausbreiten und dabei präzisen Mustern folgen – nicht zufällig, sondern deterministisch.",
+      "Aus diesem Wissen entstanden revolutionäre Materialien: Gehärtetes Glas und Verbundglas nutzen absichtlich unterschiedliche Abkühlgeschwindigkeiten, um Spannungen gezielt einzubauen. Das Resultat ist kontraintuitiv: Das Glas wird nicht schwächer, sondern bis zu fünfmal stärker. Und wenn es doch bricht, zerbricht es nicht in gefährliche Splitter, sondern in winzige, stumpfe Körner – weil die gespeicherte Energie sich auf tausende kleine Bruchstellen verteilt statt auf eine große. Glas ist nicht eine zerbrechliche Substanz, die wir 'sicherer' machen – Glas ist ein Material, dessen Bruchverhalten wir verstanden und zur Waffe gegen Verletzungen gemacht haben. Das macht es zur intelligentesten Sicherheitserfindung der Moderne."
+    ],
+    "schon_gewusst": "Temperglas zerbricht so explosiv in kleine Kügelchen, weil die inneren Spannungen sich schlagartig entladen – ähnlich wie bei einem gespannten Bogen. Diese kontrollierte Explosion ist nicht ein Fehler des Materials, sondern seine Stärke: Die Energie verteilt sich auf alle Körner gleichzeitig, statt einen gefährlichen Splitter zu erzeugen.",
+    "quelle": "Lawn B. & Wilshaw T.R. (1975): Fracture of Brittle Solids. Cambridge University Press.",
+    "quelle_url": "https://doi.org/10.1017/CBO9780511623127",
+    "datum": "2026-08-25"
   }
 ]
