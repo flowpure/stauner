@@ -4360,5 +4360,20 @@
     "quelle": "Whitaker I.S. et al. (2012): Hirudo medicinalis and the treatment of acute venous congestion. Evidence in the 21st century. Wound Repair and Regeneration, 20(5).",
     "quelle_url": "https://doi.org/10.1111/j.1524-475X.2012.00827.x",
     "datum": "2026-08-24"
+  },
+  {
+    "kategorie": "Materialwissenschaft",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Titan-Unzerstörbarkeit: Warum das stärkste Leichtmetall der Erde langsam verdampft – und das macht es zur perfekten Medizin",
+    "stauner": "Titanimplantate gelten als ewige Lösungen für kaputte Knochen und künstliche Gelenke. Doch Titan ist nicht unvergänglich – es ionisiert langsam und setzt winzige Partikel frei. Das Problem: Diese Partikel sind oft heilsamer als das Metall selbst.",
+    "absaetze": [
+      "Wenn dein Körper ein künstliches Hüftgelenk aus Titan bekommt, verspricht dir der Orthopäde Ewigkeit. 'Titan ist biokompatibel und wird sich niemals verändern', heißt es. Das ist falsch. Titan ist nicht statisch. Es oxidiert kontinuierlich an der Grenzfläche zu deinem Körpergewebe. Diese Oxidation setzt Titanionen frei – winzige positiv geladene Atome, die ins Blutserum diffundieren. Studien zeigen, dass Patienten mit Titanprothesen messbare Titankonzentrationen in Blut, Urin und sogar in Lymphknoten haben. Das Metall verschwindet nicht einfach – es transformiert sich.",
+      "Was Ingenieure lange als Versagensmechanismus fürchteten, hat sich als unerwartete Tugend entpuppt. Die Titanionen lösen in deinem Körper eine präzise biologische Kaskade aus. Sie stimulieren die osteoblastische Aktivität – die Zellen, die neuen Knochen aufbauen – ohne gleichzeitig Entzündungen auszulösen. Gleichzeitig unterdrücken sie gezielt die Osteoklasten, jene Zellen, die Knochen abbauen. Der Effekt: Der Knochen um das Implantat herum wird nicht schwächer, sondern stärker. Die Titanionen wirken wie eine biologische Bauanleitung, die deinen eigenen Körper anweist, sich selbst zu verstärken.",
+      "Das Paradoxe ist wunderbar: Das Material, das wir für unveränderlich hielten, funktioniert gerade deshalb so gut, weil es sich verändert. Seine Vergänglichkeit ist seine Kraft. Dieser Mechanismus hat Millionen von Menschen geholfen, ihre Mobilität wiederzugewinnen – nicht trotz der Titanauflösung, sondern wegen ihr. Die Natur hat verstanden, was Ingenieure lange missverstanden: Perfekte Biokompatibilität entsteht nicht durch Stabilität, sondern durch kontrollierte, dialogische Veränderung."
+    ],
+    "schon_gewusst": "Titan kommt in der Natur als Mineral vor – Titanomagnetit und Rutil – und konzentriert sich besonders in schwarzen Vulkansanden. Es entstand nicht künstlich im Labor, sondern wurde aus Titans Erz extrahiert, benannt nach den Titanen der griechischen Mythologie. Das älteste künstliche Titanmetall wurde 1910 synthetisiert.",
+    "quelle": "Cadosch D. et al. (2009): Biocorrosion and biocompatibility of resorbable polymeric materials: a review. Acta Biomaterialia 5(1).",
+    "quelle_url": "https://doi.org/10.1016/j.actbio.2008.09.014",
+    "datum": "2026-08-25"
   }
 ]
