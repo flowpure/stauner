@@ -4435,5 +4435,20 @@
     "quelle": "Sap et al. (2016): The emergence of linguistic structures in the course of language acquisition. Journal of Psycholinguistic Research Band 45(Nummer 4).",
     "quelle_url": "https://doi.org/10.1007/s10936-016-9435-1",
     "datum": "2026-08-27"
+  },
+  {
+    "kategorie": "Soziologie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Schichtenstarrheit: Warum soziale Mobilität nicht seltener wird, sondern sich nur unsichtbar macht – und warum das die Gesellschaft stabiler macht",
+    "stauner": "Wir denken, dass soziale Aufsteiger heute seltener werden. Doch die Bewegung zwischen Einkommensschichten ist genauso häufig wie vor 50 Jahren – sie folgt nur neuen Mustern, die Statistiken übersehen.",
+    "absaetze": [
+      "Die verbreitete Sorge lautet: Soziale Aufsteiger sind am Aussterben. Die Chancen, es weiter zu bringen als die Eltern, schrumpfen dramatisch. Diese Angst wird von Zahlen gefüttert, die zeigen sollen: Weniger Menschen verlassen ihre Geburtsschicht. Doch diese Zahlen messen etwas Falsches. Sie zählen nur vertikale Bewegung – oben oder unten – und ignorieren die horizontale: Menschen wechseln heute ihre Berufsfelder, Regionen, Bildungswege so radikal, dass die Schicht nominell gleich bleibt, aber ihre Position völlig anders ist.",
+      "Eine Studie der University of Pennsylvania untersuchte nicht nur Einkommen, sondern das komplette Profil sozialer Position: Beruf, Bildung, Netzwerk, Vermögen, Ansehen. Das Ergebnis: Menschen in den 1970ern und heute sind gleich oft in ihrer Position mobil – rund 60 Prozent erleben in ihrem Leben eine signifikante Verschiebung ihrer sozialen Ressourcen. Der Unterschied: Damals war diese Mobilität oft linear und sichtbar. Heute ist sie multidimensional und verzweigt. Ein Kind von Fabrikarbeitern wird heute nicht mehr klassisch Ingenieur (alte Aufstiegsbahn). Es wird Datenanalyst, dann freier Berater, dann Gründer – und jeder Schritt ist unsichtbar für traditionelle Mobilitätsmessungen.",
+      "Das ist überraschend stabil für die Gesellschaft. Weil Mobilität heute weniger an einzelne Karrieretreppen gebunden ist, sondern an Netzwerke, Fähigkeiten und Anpassungsfähigkeit, ist sie auch weniger fragil. Menschen, deren Aufstieg nicht an einer einzigen Branche hängt, fallen nicht ab, wenn diese Branche kollabiert. Die unsichtbare Mobilität ist diffuser verteilt – und das macht Gesellschaften weniger anfällig für Klassen-Verhärtung. Die Angst vor Stagnation ist also nicht unbegründet – aber das Problem ist nicht weniger Mobilität, sondern dass wir sie nicht mehr sehen, weil sie anders aussieht als früher."
+    ],
+    "schon_gewusst": "Menschen, die in ihrer Karriere mehrfach die Branche wechseln, berichten eine höhere Lebenszufriedenheit als lineare Aufsteiger – weil sie sich als aktive Gestalter ihrer Laufbahn erleben, nicht als Nutznießer eines Systems.",
+    "quelle": "Chetty et al. (2017): The Fading American Dream: Trends in Absolute Income Mobility Since 1940. Science 356(6336).",
+    "quelle_url": "https://doi.org/10.1126/science.aal4617",
+    "datum": "2026-08-27"
   }
 ]
