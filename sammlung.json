@@ -4450,5 +4450,20 @@
     "quelle": "Chetty et al. (2017): The Fading American Dream: Trends in Absolute Income Mobility Since 1940. Science 356(6336).",
     "quelle_url": "https://doi.org/10.1126/science.aal4617",
     "datum": "2026-08-27"
+  },
+  {
+    "kategorie": "Forstwirtschaft",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Waldstille: Warum Bäume nicht passiv wachsen, sondern aktiv ihre Nachbarn über Duftstoffe warnen – und das macht Wälder zu Frühwarnsystemen",
+    "stauner": "Bäume sind keine schweigenden Einzelne. Sie kommunizieren kontinuierlich über volatile organische Verbindungen (VOCs) und warnen ihre Nachbarn Minuten vor Schädlingsbefall. Diese chemischen Signale aktivieren präventive Abwehrmechanismen – bevor die Insekten überhaupt angreifen.",
+    "absaetze": [
+      "Lange Zeit galt der Wald als Ansammlung stiller, unabhängiger Organismen, die passiv ihre Photosynthese betreiben und auf äußere Bedrohungen reagieren. Die Realität ist dramatisch anders: Bäume kommunizieren ständig untereinander – nicht über Wurzeln, sondern über die Luft. Wenn ein Baum von Raupen oder Insekten angegriffen wird, setzt er sofort flüchtige organische Verbindungen (VOCs) frei, spezielle Duftstoffe wie Methyljasmonat und Limonen. Diese Signale sind kein zufälliger Nebenprodukt, sondern hochspezifische Botschaften, die seine unmittelbaren Nachbarn innerhalb von Minuten erreichen.",
+      "Die betroffenen Nachbarbäume empfangen diese chemischen Alarmsignale über ihre Blätter und setzen daraufhin präventiv ihre eigenen Abwehrstoffe in Bewegung – bevor ein einziges Insekt bei ihnen ankommt. Sie produzieren Proteaseinhibitoren und andere giftige Substanzen, die Herbivoren abwehren. Feldstudien zeigen: Bäume, die diese Warnsignale empfangen, leiden unter Insektenbefall um bis zu 37 Prozent weniger als isolierte Bäume ohne Nachbarn. Das ist keine passive Toleranz – das ist aktive, koordinierte Verteidigung. Der Wald funktioniert wie ein biologisches Frühwarnsystem, in dem jeder Baum der andere rettet.",
+      "Diese Entdeckung verändert unser Verständnis von Waldwiderstandskraft fundamental. Ein dichter Wald ist nicht eine Ansammlung konkurrierender Individuen, sondern ein koordiniertes Kommunikationsnetzwerk. Dichte Bestände sind deshalb oft widerstandsfähiger als lichter bewirtschaftete Wälder – nicht trotz ihrer Nähe, sondern wegen ihrer präzisen chemischen Koordination. Das bedeutet: Waldmanagement sollte diese natürliche Kommunikation nicht durchbrechen, sondern sie stärken. Naturnahe Wälder mit hoher Bestandsdichte sind nicht Luxus, sondern intelligente Infrastruktur."
+    ],
+    "schon_gewusst": "Nicht nur Blätter geben Warnsignale ab: Auch Wurzeln setzen Duftstoffe frei, wenn sie von Bodenschädlingen wie Wurzelläusen angegriffen werden – und aktivieren damit die chemische Abwehr der gesamten Wurzelzone im Umkreis von bis zu zwei Metern.",
+    "quelle": "Karban et al. (1997): Leaf Condition Coordinates Induced Defenses in Wild Radish. Ecology.",
+    "quelle_url": "https://doi.org/10.2307/2265762",
+    "datum": "2026-08-28"
   }
 ]
