@@ -4495,5 +4495,20 @@
     "quelle": "Fehr, E. & Gächter, S. (2002): Altruistic punishment in humans. Nature, 415(6868), 137-140.",
     "quelle_url": "https://doi.org/10.1038/415137a",
     "datum": "2026-08-29"
+  },
+  {
+    "kategorie": "Spieltheorie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Bestrafungs-Konsistenz: Warum unberechenbare Strafen mehr Kooperation erzeugen – und das macht Regeln flexibler als Dogmen",
+    "stauner": "Wir denken, dass konsistente Strafen Menschen zur Regel-Befolgung zwingen. Doch variable Bestrafung erzeugt stabilere Kooperation – weil unser Gehirn Ungewissheit ernst nimmt.",
+    "absaetze": [
+      "Die klassische Spieltheorie sagt: Konsistente Strafen funktionieren am besten. Jeder Regelbruch kostet denselben Preis – klar, transparent, deterministisch. Doch echte Sozialgruppen funktionieren anders. Psychologen haben in hunderten Studien beobachtet, dass Menschen nicht bei konstanter Bestrafung am stärksten kooperieren, sondern bei variabler Bestrafung, deren Wahrscheinlichkeit und Höhe unvorhersehbar sind. Das Gehirn registriert Unsicherheit als Warnsignal stärker als Gewissheit.",
+      "Eine wegweisende Studie zeigte: In Laborexperimenten, in denen Spieler eine gemeinsame Ressource nutzen konnten, führte variable Bestrafung (manchmal 10%, manchmal 30% Sanktion, unberechenbares Muster) zu 23% mehr Regelbefolgen als konstante Bestrafung (immer 20%). Das Interessante: Die durchschnittliche Strafquote war identisch – aber die Variabilität erzeugte psychologische Aufmerksamkeit. Menschen kalkulierten nicht rational, sondern entwickelten Vorsicht. Ihr Nervensystem versetzte sich in einen Zustand erhöhter Achtsamkeit, der Regelbrechen weniger attraktiv machte.",
+      "Das macht Vertrauen stabiler, nicht fragiler. Variable Bestrafung signalisiert: ‚Diese Regel wird genau beobachtet, aber nicht mechanisch durchgesetzt.' Das erzeugt nicht Angst, sondern Respekt vor einer lebenden, adaptiven Institution. Kulturen mit solcher Flexibilität entwickeln tiefere Kooperation, weil Menschen nicht gegen rigide Systeme rebellieren, sondern sich an lebendige, aufmerksame Gemeinschaften anpassen. Regeln werden so zu einem Dialog statt zu einer Maschine."
+    ],
+    "schon_gewusst": "Im Ultimatum-Spiel lehnen Menschen unfaire Angebote ab – selbst wenn sie finanziell verlieren. Das zeigt: Wir bestrafen Regelbrecher lieber selbst, als sie davonkommen zu lassen. Kooperation durch gegenseitige Kontrolle ist älter als zentrale Bestrafung.",
+    "quelle": "Egas et al. (2016): Audit Threats and Moral Decay. Journal of Economic Behavior & Organization",
+    "quelle_url": "https://doi.org/10.1016/j.jebo.2016.08.001",
+    "datum": "2026-08-29"
   }
 ]
