@@ -4540,5 +4540,20 @@
     "quelle": "DeGraff, Michel (2005): Linguists' most dangerous myth: The fallacy of the Creole Prototype. Language in Society 34(4).",
     "quelle_url": "https://doi.org/10.1017/S0047404505050207",
     "datum": "2026-08-30"
+  },
+  {
+    "kategorie": "Astronomie",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Pulsar-Isolation: Warum rotierenden Neutronensterne nicht einsam sind, sondern aktiv ihre Begleiter aussaugen – und das macht sie zu den präzisesten Uhren des Universums",
+    "stauner": "Wir denken, Pulsare sind isolierte, rotierende Leuchttürme im All. Aber viele Pulsare sind Teil von Doppelsternsystemen, in denen sie aktiv Material von ihren Begleitern absaugen und dabei ihre Rotationsgeschwindigkeit erhöhen. Diese gegenseitige Wechselwirkung macht sie nicht schwächer, sondern zu den stabilsten und präzisesten Zeitmessern des Universums.",
+    "absaetze": [
+      "Jahrzehntelang stellten sich Astronomen Pulsare als kosmische Solitäre vor – isolierte Neutronensterne, die allein durchs All rotieren und wie Leuchtfeuer ihre Radiostrahlung aussenden. Die Vorstellung war elegant: ein massiver Stern explodiert als Supernova, hinterlässt einen winzigen, superdichten Kern, der rotiert und rotiert, während er einsam seine Umgebung durchforstet. Doch diese Bild ist unvollständig. Etwa die Hälfte aller bekannten Pulsare existiert nicht allein.",
+      "In Doppelsternsystemen zeigt sich etwas Faszinierendes: Der Pulsar, dieser kosmische Koloss mit der Dichte einer Zuckerwürfel-Masse von Millionen Tonnen, beginnt aktiv Material von seinem Begleitstern zu saugen – Wasserstoff und Helium, die in einer Akkretionsscheibe spiralförmig auf die Neutronensternoberfläche strömen. Dieser Prozess überträgt Drehimpuls auf den Pulsar. Das Ergebnis: Die Rotationsgeschwindigkeit nimmt zu. Manche dieser ‚recycelten Pulsare' rotieren hunderte Male pro Sekunde – schneller als jedes bekannte Objekt im Universum, mit Ausnahme schwarzer Löcher. Sie werden nicht zerstört, sondern beschleunigt. Sie werden nicht isoliert, sondern verbunden.",
+      "Diese Wechselwirkung macht Pulsare zu den präzisesten natürlichen Zeitmessern überhaupt. Der Millisekunden-Pulsar PSR B1937+21 rotiert 641 Mal pro Sekunde und verliert seine Frequenz nur um wenige Milliardstel Sekunden pro Jahr – eine Genauigkeit, die von Atomuhren nur knapp erreicht wird. Forscher nutzen diese Präzision heute zur Detektion von Gravitationswellen und zur Kartierung der Raumzeit selbst. Die vermeintliche Isolation war nicht Schwäche, sondern der erste Schritt zu einer tieferen Verbindung – mit Material, mit ihrem Begleiter, mit dem Universum selbst."
+    ],
+    "schon_gewusst": "Der schnellste bekannte Pulsar, PSR J1748−2446ad, rotiert 716 Mal pro Sekunde – das entspricht einer Oberflächengeschwindigkeit von etwa 24 Prozent der Lichtgeschwindigkeit. An seinem Äquator müsste ein Objekt mit der Kraft von einer Milliarde Tonnen festgehalten werden, um nicht ins All geschleudert zu werden.",
+    "quelle": "Lorimer D. R. (2008): Binary and Millisecond Pulsars. Living Review in Relativity. 11(8).",
+    "quelle_url": "https://doi.org/10.12942/lrr-2008-8",
+    "datum": "2026-08-31"
   }
 ]
