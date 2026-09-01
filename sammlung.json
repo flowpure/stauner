@@ -4570,5 +4570,20 @@
     "quelle": "Hawking, S. (1974): Black hole explosions? Nature 248(5443).",
     "quelle_url": "https://doi.org/10.1038/248030a0",
     "datum": "2026-08-31"
+  },
+  {
+    "kategorie": "Evolutionsbiologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Geschlechtsumwandlungs-Passivität: Warum Fische nicht zufällig ihr Geschlecht wechseln, sondern aktiv auf soziale Hierarchien reagieren – und das macht Evolution zur Echtzeit-Strategie",
+    "stauner": "Manche Fische ändern ihr Geschlecht nicht als biologisches Notfallprogramm, sondern als bewusste strategische Antwort auf ihre soziale Position. Ein Weibchen wird zum Männchen, weil es die ranghöchste Position erobert – innerhalb von Tagen, nicht Generationen. Das bedeutet: Evolution passiert nicht zwischen Generationen, sondern während eines einzigen Lebens.",
+    "absaetze": [
+      "Wir denken, Geschlecht ist eine genetische Festlegung, die bei der Geburt entschieden wird. Doch bei hermaphroditischen Fischarten wie den Zackenbarsche funktioniert es ganz anders: Sie werden geboren mit beiden Geschlechtsorganen und entscheiden sich aktiv, welches sie nutzen – basierend auf ihrer unmittelbaren sozialen Umgebung. Wenn das dominante Männchen eines Reviers verschwindet, beginnt das ranghöchste Weibchen nicht einfach, sich anders zu verhalten. Sein Körper transformiert sich: Die Eierstöcke schrumpfen, die Hodengewebe wächst aus, die Färbung ändert sich, das Verhalten wird aggressiver. Alles innerhalb von zwei bis drei Wochen.",
+      "Das Revolutionäre: Diese Umwandlung ist nicht das Ergebnis von Genen, die 'schalten', wie ein Notfallprogramm. Sie ist das Ergebnis präziser Beobachtung und aktiver Entscheidung. Der Fisch sammelt soziale Informationen – Wer ist der Rivale? Wie hoch ist meine Chance, gegen ihn zu gewinnen? – und sein Körper antwortet mit einer biologischen Strategie, die optimal zu seiner Situation passt. Das ist nicht Evolution im klassischen Sinn (Mutation → Selektion über Generationen). Das ist Evolution in Echtzeit: Ein Organismus, der seine eigene biologische Form optimiert, während er noch lebt.",
+      "Das bedeutet: Evolutionäre Anpassung ist nicht auf Generationenspannen beschränkt. Sie passiert im Körper, in der Lebensspanne eines einzelnen Individuums. Der Fisch hat gelernt, seine eigene Biologie zu lesen und umzuschreiben – nicht weil irgendein Gen es ihm befohlen hat, sondern weil er verstanden hat, dass seine Chance, sich fortzupflanzen, größer ist, wenn er Männchen wird. Das macht ihn nicht weniger evolutionär, sondern mehr: Er nutzt Evolution nicht als Passagier, sondern als Pilot seiner eigenen biologischen Zukunft."
+    ],
+    "schon_gewusst": "Bei einigen Schneckenarten passiert das Gegenteil: Wenn zu viele Männchen im Umfeld sind, verwandeln sich Weibchen nicht in Männchen, sondern erhöhen stattdessen ihre Eierproduktion – weil die ökonomische Strategie eine andere ist. Der Körper wählt die rentabelere Rolle.",
+    "quelle": "Kobayashi Y, Nagahama Y, Yamamoto T (2013): Major sex-determining genes in fishes and their modulation by environmental factors. Aquaculture Nutrition Band 19(3).",
+    "quelle_url": "https://doi.org/10.1111/anu.12036",
+    "datum": "2026-09-01"
   }
 ]
