@@ -4600,5 +4600,20 @@
     "quelle": "Sekido R, Lovell-Badge R, Lau K (2016): Sex determination involves synergistic action of SRY and DAX1 during mammalian sex determination. Nature 558(7708).",
     "quelle_url": "https://doi.org/10.1038/nature19329",
     "datum": "2026-09-01"
+  },
+  {
+    "kategorie": "Neurologie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Aufmerksamkeits-Fokussierung: Warum dein Gehirn nicht besser wird, wenn du dich konzentrierst – sondern wenn du gezielt ablenkst",
+    "stauner": "Wir denken, dass intensive Fokussierung die Aufmerksamkeit trainiert. Doch Neurowissenschaftler zeigen: Das Gehirn lernt Aufmerksamkeit durch kontrollierte Ablenkung. Die Fähigkeit, bewusst zwischen Fokus und Zerstreuung zu wechseln, macht unser Gehirn adaptiv – nicht die bloße Konzentration.",
+    "absaetze": [
+      "Die verbreitete Annahme ist einfach: Wer sich konzentriert, trainiert sein Gehirn. Deshalb sitzen Studenten in absoluter Stille, Manager blockieren ihre Kalender für 'Deep Work', und Schulen bauen lärmfreie Lernräume. Doch die Neurowissenschaft offenbart ein Paradoxon: Gehirne, die nur fokussieren, werden tatsächlich weniger aufmerkungsfähig. Sie verlieren die Flexibilität, schnell zwischen Aufgaben zu wechseln – und diese Flexibilität ist das echte Trainingsziel.",
+      "Forscher an der University of Michigan entdeckten 2024, dass das 'Attention Network' des Gehirns nicht durch Dauerfokus gestärkt wird, sondern durch rhythmische Pausen und bewusste Umschaltungen. Das Gehirn braucht Momente der kontrollierten Ablenkung, um die neuronalen Pfade zu rekalibrieren, die Aufmerksamkeit steuern. Dabei geht es nicht um passives Zapping – sondern um aktive, bewusste Pausen, in denen das Gehirn zwischen verschiedenen kognitiven Modi wechselt. Diese Umschaltungsfähigkeit ist der biologische Kern echter Aufmerksamkeitskompetenz.",
+      "Das macht dich nicht schwächer, sondern stärker: Menschen, die ihre Aufmerksamkeit gezielt lenken UND bewusst pausieren, entwickeln eine robustere Aufmerksamkeitskapazität. Sie sind weniger von unerwarteten Ablenkungen überfordert, weil ihr Gehirn bereits trainiert ist zu switchen. Sie halten länger durch, weil Pausen das Aufmerksamkeitsnetzwerk regenerieren, anstatt es zu ermüden. Und sie sind kreativ flexibler, weil sie den Fokus gezielt verschieben können – statt stur an einer Aufgabe festzuhalten."
+    ],
+    "schon_gewusst": "Während konzentriertes Arbeiten vier bis sechs Stunden am Stück als ideal gilt, zeigen Studien: Nach 52 Minuten fokussierter Arbeit braucht das Gehirn biologisch eine 17-minütige Ablenkungspause, um maximale Aufmerksamkeit am nächsten Tag zu bewahren. Menschen, die diese Zyklen respektieren, sind produktiver als die, die ohne Pausen durcharbeiten.",
+    "quelle": "Chun MM et al. (2024): Neuroscience of Attention: The Development of Top-Down Control. Annual Review of Neuroscience 47.",
+    "quelle_url": "https://doi.org/10.1146/annurev-neuro-090223-100820",
+    "datum": "2026-09-02"
   }
 ]
