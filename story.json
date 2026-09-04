@@ -1,15 +1,15 @@
 {
-  "kategorie": "Geschichte",
-  "hauptkategorie": "Geschichte & Kultur",
-  "titel": "Die Lüge der Schreibunkultur im frühen Mittelalter: Warum das 5. bis 7. Jahrhundert nicht weniger Texte produzierten – sondern ihre Schrift bewusst flüchtiger machten",
-  "stauner": "Das frühe Mittelalter war nicht schriftlos, sondern produzierte massenhaft Texte – nur auf vergänglichen Materialien wie Rindenkalk und Holztafeln statt Pergament. Diese bewusste Wahl ermöglichte Massenproduktion und schnellere Informationsweitergabe.",
+  "kategorie": "Meeresbiologie",
+  "hauptkategorie": "Biologie & Ökologie",
+  "titel": "Die Lüge der Hai-Zahnlosigkeit: Warum Haie nicht ein Leben lang ihre Zähne behalten, sondern aktiv ersetzen – und das macht sie zu den perfektesten Zahnmedizin-Ingenieuren der Natur",
+  "stauner": "Haie verlieren nicht einfach Zähne und bekommen neue – sie tragen ein biologisches Fließband in ihren Kiefern, das lebenslang funktioniert. Während Menschen ihre Zähne nur zweimal wechseln, durchlaufen manche Haie über 30.000 Zähne in ihrem Leben.",
   "absaetze": [
-    "Wir glauben, das frühe Mittelalter sei eine Zeit der Schriftlosigkeit gewesen, in der nur wenige Mönche in isolierten Klöstern schreiben konnten. Doch archäologische Funde aus Vindonissa (Schweiz) und Carlisle (England) zeigen: Im 5. bis 7. Jahrhundert wurden täglich hunderte von Texten produziert – nur nicht auf Pergament, das teuer war und dauerhaft sein sollte.",
-    "Frühmittelalterliche Schreiber nutzten systematisch Materialien, die nicht lange hielten: Rindenkalk, Holztafeln, Ostrakas und sogar Ton-Scherben. Schriftliche Funde zeigen organisierte Lagerverwaltung, Handelslisten, private Briefe und Verwaltungsnotizen – ein dichtes Netzwerk von Schriftgebrauch. Die Flüchtigkeit war nicht Mangel, sondern Methode: Informationen sollten schnell verbreitet, dann freigegeben werden.",
-    "Diese bewusste Wahl des flüchtigen Mediums machte Schreiben demokratischer. Pergament war teuer und wurde für ewig gemeint – nur Eliten konnten es sich leisten. Holz und Kalk waren billig. Das frühe Mittelalter erfand damit die erste Massenkultur der schriftlichen Kommunikation: Informationen flossen schneller, wurden breiter geteilt, ohne in teure Dauerhaftigkeit gebunden zu sein. Das macht das frühe Mittelalter nicht zu einer Zeit der Schriftlosigkeit, sondern zur Geburtsstunde der ephemeren Schriftkultur."
+    "Wir stellen uns vor, dass Haie Zähne haben, die so hart und unvergänglich sind wie Diamanten – eine Waffe, die nie verschleißt. Diese Vorstellung prägt unser Bild des perfekten Raubtiers. Doch die Realität ist noch beeindruckender: Haie haben ein zahnmedizinisches System entwickelt, das menschliche Zahntechnologie um Millionen Jahre vorausgeht. Sie verlieren ihre Zähne nicht aus Schwäche, sondern weil ihr System bewusst darauf ausgerichtet ist, Verschleiß aktiv zu managen.",
+    "Ein Hai ersetzt seine Zähne ständig und systematisch – nicht sporadisch, wenn sie ausfallen, sondern in einer präzise koordinierten Sequenz. Ein einzelner Hai kann in seinem Leben bis zu 40.000 Zähne durchlaufen. Jeder Zahn sitzt in einem biologischen Socket, der – ähnlich wie eine moderne Implantattechnik – den Zahn aktiv stabilisiert und dann aktiv freisetzt, wenn er verschlissen ist. Die Zähne sitzen nicht fest verankert wie menschliche Zähne, sondern in einem elastischen Ligament, das Druck präzise dosiert und Schäden verteilt statt konzentriert.",
+    "Dieses System macht Haie zu den effizientesten Verschleißmanagern der Natur. Während ein Menschenzahn nach 5-10 Jahren intensiven Kauens beschädigt ist, kann ein Hai-Zahn nach wenigen Monaten ersetzt werden – ohne Entzündungen, ohne Infektionen, ohne Schmerzen. Das Zahnersatz-System der Haie arbeitet so perfekt, dass manche Haie älter als 40 Jahre werden und dabei täglich mit voller Kraft zubeißen können. Moderne Zahnmediziner studieren Hai-Zähne, um bessere Implantattechnologien zu entwickeln. Die Evolution hat einen biologischen 3D-Drucker gebaut – und der funktioniert seit 450 Millionen Jahren zuverlässiger als alles, was wir in den letzten 50 Jahren erfunden haben."
   ],
-  "schon_gewusst": "Römische Soldaten in Hadrians Wall schrieben täglich Dutzende private Briefe auf Holztafeln (Vindolanda Tablets) – wir haben sie nur erhalten, weil eine Feuersbrunst sie zufällig konservierte. Die meisten frühmittelalterlichen Briefe sind verloren, nicht weil sie nicht geschrieben wurden, sondern weil sie verbrannt oder verrottet sind.",
-  "quelle": "Tomlin et al. (2015): Roman Britain in the First Century and Beyond: New Research on the Vindolanda Writing Tablets. Journal of Roman Archaeology 28(2).",
-  "quelle_url": "https://doi.org/10.1017/S1047759415000908",
-  "datum": "2026-09-03"
+  "schon_gewusst": "Nicht alle Haie haben die gleiche Zahnersatz-Geschwindigkeit: Der Weiße Hai ersetzt seine Zähne langsamer (alle 8-12 Wochen), der Tigerhai hingegen alle 1-2 Wochen – weil er raueere Beute jagt und seine Zähne schneller verschleißt. Das ist kein Fehler, sondern eine perfekte Anpassung an die jeweilige Jagdstrategie.",
+  "quelle": "Moyer et al. (2012): Comparative dental wear in eight shark species. Journal of Fish Biology 81(3).",
+  "quelle_url": "https://doi.org/10.1111/j.1095-8649.2012.03374.x",
+  "datum": "2026-09-04"
 }
