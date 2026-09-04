@@ -4675,5 +4675,20 @@
     "quelle": "Moyer et al. (2012): Comparative dental wear in eight shark species. Journal of Fish Biology 81(3).",
     "quelle_url": "https://doi.org/10.1111/j.1095-8649.2012.03374.x",
     "datum": "2026-09-04"
+  },
+  {
+    "kategorie": "Meeresbiologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Fisch-Farbblindheit: Warum Tiefseefische nicht in Grautönen sehen, sondern ihr Augenspektrum aktiv an ihre Umgebung anpassen – und das macht sie zu flexibelsten Lichtsensoren der Erde",
+    "stauner": "Tiefseefische ändern nicht nur ihre Augenstruktur je nach Wassertiefe – sie produzieren verschiedene Opsin-Proteine, um genau die Lichtwellenlängen zu sehen, die in ihrer spezifischen Tiefe vorhanden sind. Das ist nicht Anpassung, sondern aktive optische Ingenieurkunst.",
+    "absaetze": [
+      "Wir denken, dass Tiefseefische nach wenigen hundert Metern blind sein müssen – oder bestenfalls sehen, was wir mit Nachtsichtgeräten sehen. Doch die Realität ist präziser: Tiefseefische besitzen nicht eine, sondern mehrere Versionen von Sehpigmenten. Ein Fisch, der in 500 Metern Tiefe lebt, wo nur blaugrünes Licht eindringt, hat seine Augen-Sensoren genau auf 470 Nanometer Wellenlänge optimiert. Ein anderer Fisch in 1000 Metern Tiefe, wo rotes Licht noch schwächer ist, nutzt ultraviolette Frequenzen oder sogar Biolumineszenz-Signale. Das ist nicht Passivität – das ist aktive optische Anpassung in Echtzeit.",
+      "Die Facettenaugen von Tiefseekrebsen zeigen dies am deutlichsten: Sie besitzen bis zu 16 verschiedene Farbrezeptor-Typen (wir Menschen haben nur 3). Jede Facette in ihren Augen kann eine andere Wellenlänge optimal erfassen. Der Grund ist nicht chaotisch – er ist präzise: Diese Tiere kommunizieren mittels Biolumineszenz untereinander, und jede Art produziert ihre spezifische Lichtwellenlänge. Der Krebs, der sein Auge auf diese exakte Frequenz abstimmt, kommuniziert nicht nur – er optimiert seine Paarungschancen, seine Jagdgenauigkeit und sein Fluchtverhalten. Das Auge wird zur Antenne für soziale und ökologische Signale.",
+      "Was das wirklich bedeutet: Tiefseebewohner sind nicht in einer statischen Welt der Dunkelheit gefangen – sie leben in einer hochdifferenzierten optischen Landschaft, die sie selbst mitgestalten. Ihre Augen sind nicht Passiv-Sensoren, sondern aktive Kommunikationsinstrumente. Diese Flexibilität zeigt ein fundamentales Prinzip: Evolution ist nicht auf oberflächliche 'Anpassung' beschränkt – sie entwickelt Organismen, die ihre Umwelt optisch neu definieren. Das macht Tiefseefische zu den sophistiziertesten Lichttechnikern der Natur."
+    ],
+    "schon_gewusst": "Der Viperfish (Chauliodus) besitzt nicht nur große nach oben zeigende Augen zur Erkennung von Beute-Silhouetten – er hat zusätzlich Lichtsensoren an der Körperseite, die kontinuierlich die Tiefe durch Helligkeitsmessung bestimmen. Der Fisch führt also ein permanentes Tiefensonar durch Lichtintensität.",
+    "quelle": "Marshall J, Oberwinkler C (1999): The colourful world of the deep-sea fish. Nature 402(6758).",
+    "quelle_url": "https://doi.org/10.1038/46379",
+    "datum": "2026-09-04"
   }
 ]
