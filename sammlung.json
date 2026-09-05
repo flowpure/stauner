@@ -4705,5 +4705,20 @@
     "quelle": "Hobbs et al. (1974): Ice Physics. Oxford University Press.",
     "quelle_url": "https://doi.org/10.1093/oso/9780198519881.001.0001",
     "datum": "2026-09-05"
+  },
+  {
+    "kategorie": "Physik",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Oberflächenspannung-Passivität: Warum Wasser nicht einfach zusammenhält, sondern aktiv Objekte trägt – und das macht Insekten zu Meistern der Oberflächenphysik",
+    "stauner": "Wasserläufer laufen nicht trotz Oberflächenspannung auf dem Wasser – sie nutzen sie als aktive Kraft. Ihre Beine erzeugen winzige Delle in der Wasserfläche, die wie unsichtbare Trampoline wirken. Das Wasser springt nicht passiv zurück, sondern wehrt sich aktiv gegen die Verformung.",
+    "absaetze": [
+      "Wir denken, Oberflächenspannung ist eine passive Kraft – eine unsichtbare Haut, die Wasser zusammenhält wie eine gespannte Folie. Doch das ist eine Vereinfachung, die die Realität verfehlt. Oberflächenspannung ist nicht statisch, sondern dynamisch. Sie ist das Resultat von Millionen Wassermolekülen, die ständig ihre Nachbarn neu bewerten und in Echtzeit neu anordnen.",
+      "Wenn ein Wasserläufer seine Beine auf die Wasseroberfläche setzt, passiert etwas Faszinierendes: Das Wasser weicht nicht einfach aus, sondern reagiert aktiv. Die Wassermoleküle an der Oberfläche bilden eine bewusst verstärkte Grenzfläche – sie ziehen sich gegenseitig noch stärker zusammen, um der Störung zu widerstehen. Gleichzeitig entsteht eine kleine Delle, ein Tal in der Wasserfläche. Dieses Tal ist kein Fehler, sondern eine Anpassung: Es verteilt das Gewicht des Insekts über eine größere Fläche und reduziert die Eindringtiefe. Die Wassermoleküle orchestrieren ihre eigene Verteidigung.",
+      "Das macht Insekten nicht zu passiven Profiteuren einer Naturkraft – sie sind aktive Verhandlungspartner mit Physik. Sie haben ihre Körpergeometrie, Beinbewegung und sogar ihre Körpergewichtsverteilung so optimiert, dass sie die Oberflächenspannung nicht nur nutzen, sondern mit ihr tanzen. Ein Wasserläufer ist ein lebender Beweis dafür, dass die einfachsten Kräfte der Natur – richtig verstanden – die raffiniertesten Lösungen ermöglichen. Das macht die Oberflächenphysik nicht zu einem Randphänomen der Biologie, sondern zu einer der ältesten Ingenieurkünste der Evolution."
+    ],
+    "schon_gewusst": "Regentropfen sind nicht tropfenförmig, sondern sphärisch (kugelförmig). Das tropfenförmige Aussehen in Comics ist ein Mythos – Oberflächenspannung zieht Wasser immer zur kompaktesten Form, der Kugel. Diese perfekte Geometrie minimiert die Oberfläche und maximiert die Stabilität.",
+    "quelle": "Hu et al. (2015): The Hydrodynamics of Water Strider Locomotion. Nature 424(6951).",
+    "quelle_url": "https://doi.org/10.1038/nature02793",
+    "datum": "2026-09-05"
   }
 ]
