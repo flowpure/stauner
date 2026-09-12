@@ -1,15 +1,15 @@
 {
-  "kategorie": "Klimaforschung",
-  "hauptkategorie": "Geschichte & Kultur",
-  "titel": "Die Lüge der Eisalgen-Passivität: Warum Mikroalgen unter dem Meereis nicht warten, sondern aktiv das Klima regulieren – und das macht sie zu den unterschätzten Klimarettern der Polarregionen",
-  "stauner": "Unter dem Meereis der Arktis und Antarktis leben Billionen Mikroalgen, die nicht passiv auf Nährstoffe warten, sondern aktiv ihre eigene Lichtverfügbarkeit steuern. Sie beeinflussen damit die Albedo des Eises und regulieren den Wärmeeintrag – ein selbstverstärkender Mechanismus, der das Klima stabiler macht als wir dachten.",
+  "kategorie": "Mikrobiologie",
+  "hauptkategorie": "Biologie & Ökologie",
+  "titel": "Die Lüge der Bakterien-Zahllosigkeit: Warum einzelne Mikroben nicht anonym sind, sondern ihre eigene genetische Identität bewahren – und das macht Evolution zur Arbeit mit Persönlichkeiten statt Massen",
+  "stauner": "Bakterien sind nicht austauschbar. Jede einzelne Zelle in einer Kolonie behält ihre eigene genetische Signatur bei und modifiziert sie gezielt – nicht zufällig. Das macht mikrobielles Überleben zur Strategie, nicht zum Glücksspiel.",
   "absaetze": [
-    "Lange Zeit galten Eisalgen (Kryophyten) als marginale Organismen unter den Eismassen der Pole – passiv, unterversorgt und unbedeutend für Klimaprozesse. Die Forschung konzentrierte sich auf die großen Eisschilde und ihre Schmelzdynamiken. Doch hochauflösende Feldstudien in den 2010er Jahren offenbarten eine verborgene Komplexität: Diese Mikroalgen sind nicht nur dort, um zu überleben – sie gestalten aktiv ihre Umwelt.",
-    "Eisalgen produzieren organische Substanzen, die die Eisoberfläche einfärben und ihre Albedo (Reflektivität) gezielt senken. Dadurch absorbiert das Eis mehr Sonnenstrahlung. Das klingt zunächst wie eine positive Rückkopplung, die Schmelze beschleunigt – aber das ist die halbe Wahrheit. Die Algen modulieren ihre Pigmentproduktion in Abhängigkeit von Lichtverfügbarkeit und Temperatur. Wenn das Eis zu schnell schmilzt, reduzieren sie ihre dunklen Pigmente wieder, was die Albedo erhöht und die Schmelze bremst. Sie funktionieren wie ein biologisches Thermostat.",
-    "Diese Entdeckung hat enorme Implikationen: Eisalgen sind nicht passive Opfer des Klimawandels, sondern aktive Regulatoren, die das System stabilisieren. Sie verkürzen die Schmelzsaison präzise und schaffen Rückkopplungen, die extremale Szenarien weniger wahrscheinlich machen. Das bedeutet, dass Polarökosysteme mehr innere Flexibilität haben als unsere Klimamodelle bisher annahmen – und dass die Natur komplexere Selbstschutzinstrumente besitzt als wir dachten."
+    "Wir denken von Bakterien als Millionen identischer Kopien – Produktionsreihen ohne Individuen. Ein Stamm E. coli produziert einfach E. coli, alle gleich, alle auswechselbar. Doch diese Vorstellung ist fundamental falsch. Genetische Sequenzierungen einzelner Zellen aus derselben Kolonie zeigen: Jede Bakterie trägt Mutationen an anderen Stellen ihres Genoms. Nicht alle – sondern jede hat ihre eigenen, gezielt akkumulierten Unterschiede. Das ist nicht Zufall oder Fehler. Das ist Strategie.",
+    "Diese genetische Heterogenität – genannt 'phänotypische Plastizität' oder 'bet-hedging' – bedeutet konkret: Wenn eine Kolonie mit einem neuen Antibiotikum konfrontiert wird, sterben nicht alle oder keine. Stattdessen hat die Kolonie bereits kleine Subpopulationen mit minimal unterschiedlichen Reparaturmechanismen, Membrankomposition und Stoffwechselwegen. Manche können schneller reagieren, andere sind sparsamer, wieder andere risikobereiter. Es ist wie eine Armee mit Spezialisten statt Klon-Soldaten. Forschungen zeigen: Diese innere Vielfalt wird von den Bakterien selbst reguliert – nicht durch Zufall, sondern durch gezielt modulierte Mutationsraten.",
+    "Das hat eine profunde Konsequenz: Wir bekämpfen Bakterien falsch. Antibiotika wirken, weil wir auf die Masse zielen – aber die Kolonie hat längst Individuen 'geseeded', die überleben. Resistenz ist nicht ein einzelner Mutations-Zufall, sondern ein Ensemble von vorausschauend erzeugten Optionen. Das macht Bakterienpopulationen zu biologischen Portfolios: Risikostreung auf genetischer Ebene. Und es bedeutet: Mikrobielle Evolution ist nicht blind – sie ist vorausplanend, individualisiert und kolektiv koordiniert."
   ],
-  "schon_gewusst": "Eisalgen können unter nur 1–2 % der Oberflächenlichtintensität wachsen und erzeugen dabei stärker konzentrierte Photosynthese-Enzyme als hochalpine Landpflanzen – eine ökologische Meisterleistung der Anpassung an Extrembedingungen.",
-  "quelle": "Arrigo et al. (2014): Sea ice ecosystems. Annual Review of Marine Science 6.",
-  "quelle_url": "https://doi.org/10.1146/annurev-marine-121211-172415",
-  "datum": "2026-09-11"
+  "schon_gewusst": "Manche Bakterien-Subpopulationen in einer Kolonie schalten bewusst ihre Replikation ab, während andere wachsen – ein Opfer für die Koloniestabilität. Dieses 'phenotypic bet-hedging' wurde direkt beobachtet: Langsam wachsende 'Persister'-Zellen werden absichtlich erzeugt und dann wieder aktiviert, wenn die Umwelt stabiler wird.",
+  "quelle": "Avraham et al. (2023): Bacterial persistence increases as phage-induced prophage insertions become more common. eLife 12.",
+  "quelle_url": "https://doi.org/10.7554/eLife.84834",
+  "datum": "2026-09-12"
 }

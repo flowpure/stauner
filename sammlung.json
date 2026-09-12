@@ -4900,5 +4900,20 @@
     "quelle": "Arrigo et al. (2014): Sea ice ecosystems. Annual Review of Marine Science 6.",
     "quelle_url": "https://doi.org/10.1146/annurev-marine-121211-172415",
     "datum": "2026-09-11"
+  },
+  {
+    "kategorie": "Mikrobiologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Bakterien-Zahllosigkeit: Warum einzelne Mikroben nicht anonym sind, sondern ihre eigene genetische Identität bewahren – und das macht Evolution zur Arbeit mit Persönlichkeiten statt Massen",
+    "stauner": "Bakterien sind nicht austauschbar. Jede einzelne Zelle in einer Kolonie behält ihre eigene genetische Signatur bei und modifiziert sie gezielt – nicht zufällig. Das macht mikrobielles Überleben zur Strategie, nicht zum Glücksspiel.",
+    "absaetze": [
+      "Wir denken von Bakterien als Millionen identischer Kopien – Produktionsreihen ohne Individuen. Ein Stamm E. coli produziert einfach E. coli, alle gleich, alle auswechselbar. Doch diese Vorstellung ist fundamental falsch. Genetische Sequenzierungen einzelner Zellen aus derselben Kolonie zeigen: Jede Bakterie trägt Mutationen an anderen Stellen ihres Genoms. Nicht alle – sondern jede hat ihre eigenen, gezielt akkumulierten Unterschiede. Das ist nicht Zufall oder Fehler. Das ist Strategie.",
+      "Diese genetische Heterogenität – genannt 'phänotypische Plastizität' oder 'bet-hedging' – bedeutet konkret: Wenn eine Kolonie mit einem neuen Antibiotikum konfrontiert wird, sterben nicht alle oder keine. Stattdessen hat die Kolonie bereits kleine Subpopulationen mit minimal unterschiedlichen Reparaturmechanismen, Membrankomposition und Stoffwechselwegen. Manche können schneller reagieren, andere sind sparsamer, wieder andere risikobereiter. Es ist wie eine Armee mit Spezialisten statt Klon-Soldaten. Forschungen zeigen: Diese innere Vielfalt wird von den Bakterien selbst reguliert – nicht durch Zufall, sondern durch gezielt modulierte Mutationsraten.",
+      "Das hat eine profunde Konsequenz: Wir bekämpfen Bakterien falsch. Antibiotika wirken, weil wir auf die Masse zielen – aber die Kolonie hat längst Individuen 'geseeded', die überleben. Resistenz ist nicht ein einzelner Mutations-Zufall, sondern ein Ensemble von vorausschauend erzeugten Optionen. Das macht Bakterienpopulationen zu biologischen Portfolios: Risikostreung auf genetischer Ebene. Und es bedeutet: Mikrobielle Evolution ist nicht blind – sie ist vorausplanend, individualisiert und kolektiv koordiniert."
+    ],
+    "schon_gewusst": "Manche Bakterien-Subpopulationen in einer Kolonie schalten bewusst ihre Replikation ab, während andere wachsen – ein Opfer für die Koloniestabilität. Dieses 'phenotypic bet-hedging' wurde direkt beobachtet: Langsam wachsende 'Persister'-Zellen werden absichtlich erzeugt und dann wieder aktiviert, wenn die Umwelt stabiler wird.",
+    "quelle": "Avraham et al. (2023): Bacterial persistence increases as phage-induced prophage insertions become more common. eLife 12.",
+    "quelle_url": "https://doi.org/10.7554/eLife.84834",
+    "datum": "2026-09-12"
   }
 ]
