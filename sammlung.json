@@ -4915,5 +4915,20 @@
     "quelle": "Avraham et al. (2023): Bacterial persistence increases as phage-induced prophage insertions become more common. eLife 12.",
     "quelle_url": "https://doi.org/10.7554/eLife.84834",
     "datum": "2026-09-12"
+  },
+  {
+    "kategorie": "Mikrobiologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Bakterien-Zeitlosigkeit: Warum Mikroben nicht ewig leben, sondern aktiv altern – und das macht sie zu Meistern der Generationenweisheit",
+    "stauner": "Bakterien altern wie wir – einzelne Zellen werden langsamer, schwächer, sterben. Doch in diesem biologischen Vergessen speichern sie Erinnerungen ihrer Umwelt für die nächste Generation. Altern ist nicht Verfall, sondern Information.",
+    "absaetze": [
+      "Wir stellten uns Bakterien lange als biologische Unsterbliche vor: primitive Zellen, die sich teilten, weiterleben, niemals altern. Die Intuition schien logisch – wie sollte ein Organismus ohne Gehirn, ohne Organe, ohne Zellkern biologisch altern? Doch seit den 2000er Jahren zeigt die Forschung: Einzelne Bakterienzellen haben einen biologischen Lebenszyklus. Sie werden langsamer, weniger widerstandsfähig, und sterben schließlich – nicht weil sie zerfallen, sondern weil sie systematisch altern.",
+      "In der Teilungsbiologie passiert das Erstaunliche: Wenn sich eine Bakterienzelle teilt, erbt die eine Tochterzelle die älteren Zellkomponenten und altert schneller. Die andere erbt die jüngeren Strukturen und bleibt länger vital. Das ist keine Zufälligkeit – es ist ein präzises Verteilungssystem. Forscher um Stewart und Colleague konnten zeigen, dass E. coli-Zellen ihre beschädigten Proteine systematisch einer Tochterzelle 'zuweisen', während die andere regeneriert wird. Das bedeutet: Bakterien praktizieren aktives generationales Management.",
+      "Noch faszinierender: Dieser Prozess ist nicht Verschwendung, sondern Wissensweitergabe. Die alternde Bakterienzelle speichert Umweltinformationen – Stress-Marker, chemische Signaturen, Überlebensmuster – in ihrer Zellmembran und ihren Proteinen. Die junge Tochterzelle erbt nicht nur saubere Zellkomponenten, sondern auch die 'Erinnerung' an die Überlebenserfahrung ihrer Mutter. Altern bei Bakterien ist also nicht biologisches Scheitern, sondern ein Generationenvertrag: Die alte Generation opfert ihre Jugendkraft, um der neuen kostbare Überlebensinformation mitzugeben."
+    ],
+    "schon_gewusst": "Manche Bakterienarten können ihren Alterungsprozess bewusst verlangsamen, indem sie in einen Hungerstoffwechsel übergehen – sie 'altern im Zeitlupentempo' und können so Jahrzehnte überdauern, ohne vollständig zu erstarren wie eine Spore.",
+    "quelle": "Stewart EJ et al. (2005): Aging and death in an organism that reproduces by morphologically symmetric division. PLoS Biology 3(2).",
+    "quelle_url": "https://doi.org/10.1371/journal.pbio.0030045",
+    "datum": "2026-09-12"
   }
 ]
