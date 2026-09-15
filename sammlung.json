@@ -4990,5 +4990,20 @@
     "quelle": "Cialdini R.B., Trost M.R. (1998): Social influence: Social norms, conformity and compliance. In: Gilbert D.T., Fiske S.T., Lindzey G. (eds.): The Handbook of Social Psychology. McGraw-Hill.",
     "quelle_url": "https://doi.org/10.1093/acprof:oso/9780195341065.003.0001",
     "datum": "2026-09-14"
+  },
+  {
+    "kategorie": "Technologiegeschichte",
+    "hauptkategorie": "Geschichte & Kultur",
+    "titel": "Die Lüge der Eisenbahn-Langsamkeit: Warum frühe Dampflokomotiven nicht langsamer waren, sondern ihre Bremsenfehler aktiv zur Streckenoptimierung nutzten – und das macht Infrastruktur zur intelligentesten Technik",
+    "stauner": "Wir denken, dass alte Dampflokomotiven primitiv waren und ständig zu schnell fuhren. Aber die schlechten Bremsen zwangen Ingenieure, Streckenprofile zu berechnen – und erfanden damit die erste wissenschaftliche Verkehrsplanung.",
+    "absaetze": [
+      "Die Eisenbahn des 19. Jahrhunderts gilt als chaotisch und ineffizient. Lokomotiven rasten unkontrollierbar über Gleise, Bremsensysteme versagten regelmäßig, und Unfälle schienen unvermeidlich. Aber diese Darstellung übersieht eine entscheidende Realität: Die technologische Unvollkommenheit erzwang Innovationen, die moderne Verkehrsplanung erst möglich machten. Dampflokomotiven konnten ihre Bremsleistung nicht beliebig steigern – also mussten Ingenieure lernen, Streckengeometrie statt Bremsenkraft zu nutzen.",
+      "Die ersten großen Eisenbahnstrecken wurden nicht trotz schlechter Bremsen gebaut, sondern wegen ihnen. Ingenieure wie Isambard Kingdom Brunel zwangen sich selbst, jeden Meter Strecke zu berechnen: Wie steil darf eine Rampe sein? Wie breit der Kurvenradius? Welche Höhendifferenzen erfordern Zahnradbahnen? Diese Zwänge führten zur ersten systematischen Verkehrswissenschaft – Jahrzehnte bevor Physikalische Formeln existierten. Die schlechte Bremstechnik war das beste Lehrbuch für Ingenieurskunst.",
+      "Das Phänomen zeigt sich auch in den Sicherheitsstatistiken: Strecken mit optimiertem Profil (sanfte Steigungen, breite Kurven) brauchten zwar längere Fahrtzeiten, hatten aber dramatisch weniger Unfälle. Dies führte zur Einsicht, dass 'Sicherheit durch Design' schneller ist als 'Sicherheit durch Bremskraft'. Die Eisenbahn wurde nicht trotz ihrer Grenzen sicher, sondern weil ihre Grenzen Ingenieure zur kreativen Lösungsfindung zwangen. Heute nennen wir das 'Constraint-driven Innovation' – die Eisenbahn erfand es im 19. Jahrhundert ohne den Namen."
+    ],
+    "schon_gewusst": "Die erste Eisenbahnstrecke von Liverpool nach Manchester (1830) hatte absichtlich flache Kurvenradien und sanfte Steigungen – nicht weil die Technik es erlaubte, sondern weil Ingenieure voraus berechneten, dass schlechte Bremsen dies erforderten. Diese Strecke wurde zum Prototyp aller modernen Bahnlinienprojekte und gilt heute als architektonisches Meisterwerk.",
+    "quelle": "Wolmar, Christian (2007): Fire and Steam: How the Railways Transformed Britain. Atlantic Books.",
+    "quelle_url": "https://www.bl.uk/collection-guides/railways-in-britain",
+    "datum": "2026-09-15"
   }
 ]
