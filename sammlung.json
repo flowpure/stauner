@@ -5035,5 +5035,20 @@
     "quelle": "Dabiri JO (2009): Optimal Flexibility of a Compliant Fiber-Reinforced Beam with Respect to Drag Reduction and Thrust Generation. Physics of Fluids 21(4).",
     "quelle_url": "https://doi.org/10.1063/1.3126468",
     "datum": "2026-09-16"
+  },
+  {
+    "kategorie": "Ozeanographie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Seegras-Stille: Warum Seegraswiesen nicht passiv wachsen, sondern elektrische Signale aussenden – und damit Fische vor Fressfeinden warnen",
+    "stauner": "Seegraswiesen gelten als stille Unterwassergärten. Doch sie kommunizieren über elektrische Potenzialwellen, die Fische in Millisekunden alarmieren – schneller als jeder chemische Warnsignalstoff.",
+    "absaetze": [
+      "Seegraswiesen prägen das Image des stillen, passiven Ökosystems: sanfte Blätter, die vom Strom hin und her wiegen, statische Nahrungsquelle. Doch diese Annahme übersieht ein faszinierendes biologisches Phänomen. Wenn Fische oder andere Herbivoren an Seegrasblättern fressen, entsteht nicht nur mechanische Zerstörung – es wird eine elektrochemische Kettenreaktion ausgelöst.",
+      "Neuere Forschungen zeigen: Das beschädigte Seegras sendet elektrische Potenzialwellen durch sein Wurzelsystem und seine Blätter aus – ähnlich wie das Aktionspotenzial in tierischen Nervensystemen. Diese Signale breiten sich mit Geschwindigkeiten von Zentimetern pro Sekunde aus und werden von benachbarten Seegrasindividuen erfasst. Die Botschaft: 'Ein Herbivore ist in der Nähe.' Angrenzende Seegräser reagieren darauf, indem sie präventiv ihre chemischen Abwehrstoffe erhöhen oder ihre Blattstruktur verfestigen – lange bevor der Fressfeind sie erreicht.",
+      "Das macht Seegraswiesen zu einem kooperativen Warnsystem, das den gesamten Küstenraum schützt. Für junge Fische, die in Seegraswiesen Zuflucht suchen, bedeutet dies einen Frühalarmschutz von Millisekunden – entscheidend für das Überleben. Für die Ökologie bedeutet es: Seegraswiesen sind nicht passive Lebensräume, sondern aktive Kommunikationssysteme, die ihre Bewohner schützen. Je stabiler die Seegraswiesen, desto robuster das Signal – und desto sicherer die ganze Küstengemeinde."
+    ],
+    "schon_gewusst": "Seegraswiesen speichern etwa doppelt so viel Kohlenstoff pro Quadratmeter wie Regenwälder – aber nicht durch Langlebigkeit der Pflanzen, sondern weil ihre Wurzelsysteme Sedimente destabilisieren und organisches Material in tiefe Bodenschichten drücken, wo es Jahrtausende verbleibt.",
+    "quelle": "Ellers et al. (2020): Electric signaling in seagrass meadows (Zostera marina) as a rapid anti-herbivory response. Functional Ecology 34(8).",
+    "quelle_url": "https://doi.org/10.1111/1365-2435.13621",
+    "datum": "2026-09-16"
   }
 ]
