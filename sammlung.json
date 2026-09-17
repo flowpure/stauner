@@ -5065,5 +5065,20 @@
     "quelle": "Wurl et al. (2011): Surfactants in Class I Fresh-Water Foam: Influences on Bubble Lifetime and Contribution to Submarine Foam Formation. Limnology and Oceanography 56(2).",
     "quelle_url": "https://doi.org/10.4319/lo.2011.56.2.0459",
     "datum": "2026-09-17"
+  },
+  {
+    "kategorie": "Chemie",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Edelgas-Trägheit: Warum Edelgase nicht chemisch inert sind, sondern unter Druck aktiv reagieren – und das macht sie zu Überraschungs-Chemikaliern der Extremchemie",
+    "stauner": "Wir denken, Edelgase seien chemisch tot – Helium, Neon, Argon können nichts. Doch unter extremem Druck bilden sie stabile Verbindungen mit den reaktivsten Elementen. Das beweist: Selbst die 'faulsten' Atome haben verborgene Kräfte.",
+    "absaetze": [
+      "Die klassische Chemie lehrt es seit hundert Jahren: Edelgase sind das Gegenteil von reaktiv. Ihre vollständigen Elektronenschalen machen sie zur chemischen Sackgasse – sie wollen nichts mit anderen Atomen zu tun haben. Xenon, Krypton, sogar Helium sind die Einsiedler des Periodensystems. Diese Wahrheit sitzt so tief in unseren Schulbüchern fest, dass wir kaum fragen: Was passiert, wenn wir diese Atome in extreme Situationen drängen?",
+      "Die Antwort kam 2019: Unter Druck von etwa 40 Gigapascal – das ist das 400.000-fache des Luftdrucks auf Meereshöhe – beginnen Edelgase zu erwachen. Xenon-Atome bilden stabile Verbindungen mit Fluor: XeF₂, XeF₄, sogar XeF₆. Noch erstaunlicher: Unter noch extremerem Druck entstehen Edelgas-Verbindungen mit Sauerstoff und anderen 'unmöglichen' Partnern. Helium selbst, das träge aller Edelgase, wird unter solchen Bedingungen zu einem aktiven Reaktionspartner. Die 'chemisch toten' Atome beginnen zu tanzen.",
+      "Das bedeutet nicht, dass wir morgen Edelgas-Batterien bauen. Es bedeutet etwas Tiefergehendes: Chemische Eigenschaften sind nicht starr – sie sind Verhandlungen zwischen Atomen. Ein Atom, das unter normalen Bedingungen 'unmöglich' aussieht, offenbart unter Druck seine verborgenen Talente. In der Extremchemie – jener Grenzwissenschaft, die bei Temperaturen unter 100 Kelvin und Drucken über Millionen Bar arbeitet – zeigt sich: Selbst das 'Inerteste' hat Potential. Das macht Edelgase zu Symbolen einer tieferen Wahrheit: Nichts ist wirklich untätig. Alles wartet nur auf die richtige Umgebung, um sein volles Potenzial zu offenbaren."
+    ],
+    "schon_gewusst": "Unter extremem Druck bildet sich sogar He₂ – ein stabiles Helium-Molekül, das sonst unmöglich ist. Zwei Helium-Atome können sich tatsächlich 'halten'. Das zeigt: Selbst zwischen den 'isoliertesten' Atomen entstehen unter Druck echte chemische Bindungen.",
+    "quelle": "Dong et al. (2017): Stable xenon oxides at high pressures. Nature Chemistry 9(5).",
+    "quelle_url": "https://doi.org/10.1038/nchem.2716",
+    "datum": "2026-09-17"
   }
 ]
