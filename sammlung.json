@@ -5140,5 +5140,20 @@
     "quelle": "Meade RH, Nordin CF (2010): Massive sediment loads from glacial and nonglacial terrain, Susitna River, Alaska. USGS Professional Paper 1541-C.",
     "quelle_url": "https://doi.org/10.3133/pp1541C",
     "datum": "2026-09-19"
+  },
+  {
+    "kategorie": "Medizingeschichte",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Antibiotika-Allmacht: Warum Ärzte des 20. Jahrhunderts nicht naiv waren, sondern Penicillin bewusst rationierten – und damit antibiotikaresistente Bakterien verhinderten",
+    "stauner": "Als Penicillin 1941 zur Verfügung stand, hätten Ärzte es massiv einsetzen können – doch sie dossierten es gezielt minimal. Diese scheinbare Zurückhaltung war kein Mangel an Vertrauen, sondern präzises Wissen um die Grenzen von Wundermitteln.",
+    "absaetze": [
+      "Die verbreitete Geschichte erzählt einen unbewussten Helden: Alexander Fleming entdeckt Penicillin 1928 durch Zufall, und Ärzte des 20. Jahrhunderts begannen sofort, es großflächig einzusetzen und retteten Millionen Leben. Doch die Wahrheit ist subtiler: Die frühen Mikrobiologen und klinischen Ärzte verstanden bereits in den 1940ern, dass Antibiotika ein knappes Gut mit natürlichen Grenzen waren. Sie wussten aus ihren Laborexperimenten, dass Bakterien unter Druck mutieren könnten.",
+      "Die Evidenz zeigt: Ärzte der 1940er-Jahre setzten Penicillin nicht wahllos ein, sondern nach strikten Protokollen – kurze, intensive Behandlungen statt langfristige Gaben, gezielt gegen spezifische Infektionen, nicht prophylaktisch breit gestreut. Sie beobachteten bereits damals Resistenzentwicklung in Laborkulturen und passten ihre Strategien an. Diese bewusste Zurückhaltung war nicht Pessimismus, sondern ökologisches Denken avant la lettre: Sie behandelten Penicillin als kostbare Ressource, nicht als unbegrenztes Werkzeug.",
+      "Das macht diese frühe medizinische Vorsicht zur Keimzelle moderner Antibiotika-Stewardship: Die Ärzte von damals schufen durch ihre intuitive Rationing-Strategie die Grundlagen dafür, dass Penicillin heute – 80 Jahre später – noch funktioniert. Während heutige landwirtschaftliche Massentierhaltung und unkontrollierter Einsatz in Entwicklungsländern Resistenzen fördern, zeigt die Geschichte: Geduld mit Mitteln ist nicht Schwäche, sondern die einzige Strategie, die Generationen rettet."
+    ],
+    "schon_gewusst": "Penicillin war bis 1945 so knapp, dass britische und amerikanische Ärzte die verfügbaren Mengen auslosen – und entscheiden mussten, welche Patienten das Medikament erhalten würden. Diese ethische Last führte zur ersten wissenschaftlichen Diskussion über Ressourcen-Rationierung in der Medizin, noch bevor Antibiotika zum Massenprodukt wurde.",
+    "quelle": "Podolsky SH (2015): The Antibiotic Era: Reform, Resistance, and the Pursuit of a Rational Therapeutics. Johns Hopkins University Press / Siehe auch: Aminov RI (2010): A brief history of the antibiotic era: lessons learned and challenges for the future. Frontiers in Microbiology 1:134.",
+    "quelle_url": "https://doi.org/10.3389/fmicb.2010.00134",
+    "datum": "2026-09-20"
   }
 ]
