@@ -1,15 +1,15 @@
 {
-  "kategorie": "Medizingeschichte",
-  "hauptkategorie": "Mensch & Gesellschaft",
-  "titel": "Die Lüge der Aderlass-Blutleere: Warum mittelalterliche Ärzte nicht willkürlich Blut abzapften, sondern präzise Herzrhythmusstörungen regulierten – und damit die erste Arrhythmie-Therapie erfanden",
-  "stauner": "Mittelalterliche Ärzte praktizierten Aderlass nicht blind, sondern mit präzisem Timing nach Pulsrhythmen. Sie regulierten damit unbewusst die Vagusnerven-Aktivität – die gleiche Technik, die moderne Kardiologen heute zur Behandlung von Vorhofflimmern nutzen.",
+  "kategorie": "Materialwissenschaft",
+  "hauptkategorie": "Naturwissenschaften",
+  "titel": "Die Lüge der Beton-Starrheit: Warum Beton nicht erstarrt, sondern aktiv nachwächst – und das macht alte Brücken stärker",
+  "stauner": "Beton wird nicht hart und bleibt dann für immer so – er wächst sein ganzes Leben lang. Nach 100 Jahren ist eine Brücke oft fester als nach 10 Jahren, weil Beton eine geologische Transformation durchläuft, die Jahrhunderte dauert.",
   "absaetze": [
-    "Die verbreitete Geschichte lautet: Mittelalterliche Ärzte führten Aderlass durch, weil sie an die 'vier Säfte' glaubten und kranken Menschen blind Blut abzapften. Das wäre primitive, willkürliche Medizin gewesen. Doch die Realität war subtiler: Ärzte jener Zeit beobachteten genauestens die Pulsfrequenz ihrer Patienten – und setzten den Aderlass gezielt in Momenten ein, wenn der Puls unregelmäßig wurde. Sie wussten intuitiv, dass Blutablass den Puls beruhigte.",
-    "Moderne kardiologische Forschung zeigt jetzt, warum das funktionierte: Der Aderlass aktiviert den Vagusnerv – den 'Ruhe-Nerv' des Körpers. Dieser Nerv reguliert Herzrhythmusstörungen, indem er die Herzfrequenz verlangsamt. Mittelalterliche Ärzte hatten diese neurologische Wirkung nicht verstanden, aber ihre Beobachtung war präzise: Sie erkannten das Symptom (unregelmäßiger Puls) und wählten eine Intervention, die physiologisch dagegenwirkte. Das war keine Willkür – das war empirische Problemlösung ohne theoretisches Verständnis.",
-    "Noch faszinierender: Das gleiche Prinzip nutzen moderne Kardiologen heute unter dem Namen 'Vagusnerv-Stimulation' zur Behandlung von therapieresistentem Vorhofflimmern. Ärzte des Mittelalters hatten die richtige Lösung, nur die falsche Erklärung. Sie zeigten damit, dass medizinischer Fortschritt nicht vom wissenschaftlichen Verständnis abhängt – sondern von präziser Beobachtung und der Mut, Muster zu folgen, auch wenn man sie nicht erklären kann. Das macht Aderlass nicht zu einer Barbarei, sondern zu einer unbewussten Innovation."
+    "Wir denken von Beton wie von Stein: Man gießt es, es trocknet, fertig. Doch das ist eine fundamentale Missverständnis der Materialwissenschaft. Beton ist kein statisches Produkt, sondern ein aktiver geologischer Prozess. Die chemische Reaktion zwischen Zement und Wasser (Hydration) beginnt zwar schnell, verlangsamt sich dann aber drastisch – und läuft über Jahrzehnte, manchmal Jahrhunderte weiter. Nach 28 Tagen hat Beton typischerweise nur etwa 50-70% seiner finalen Festigkeit erreicht. Nach 1 Jahr sind es 90%. Nach 100 Jahren noch nicht 100%.",
+    "Diese kontinuierliche Verfestigung geschieht, weil die Hydration in den tieferen Poren des Betons extrem langsam fortschreitet. Jedes Jahr, jedes Jahrzehnt entstehen neue kristalline Strukturen, die das Material dichter und fester machen. Besonders unter Last (wie bei einer Brücke, die ständig Autos trägt) kann sich dieser Prozess sogar beschleunigen. Alte römische Betonbauten, über 2000 Jahre alt, zeigen heute eine Festigkeit, die ihre ursprüngliche Spezifikation übertrifft – nicht weil sie magisch sind, sondern weil die Hydration nie endet.",
+    "Das hat praktische Konsequenzen: Eine 80 Jahre alte Brücke ist nicht weniger sicher als eine neue – sie ist oft sicherer. Ihre Tragfähigkeit ist nicht gesunken, sondern kontinuierlich gewachsen. Das macht Instandhaltung nicht überflüssig, aber es relativiert unsere Angst vor 'alten Strukturen'. Ein Ingenieurbauwerk wird nicht schwächer mit der Zeit; es wird langsamer, aber ausdauernder stärker. Das ist nicht Verfall, das ist geologische Reifung."
   ],
-  "schon_gewusst": "Antike römische Ärzte wie Galen dokumentierten ihre Aderlass-Patienten so präzise, dass moderne Medizinhistoriker aus ihren Aufzeichnungen berechnen konnten, wie viel Blut sie abzapften – durchschnittlich 200-300 ml, eine Menge, die hämodynamisch signifikant ist, aber nicht zum Kollaps führt. Sie kannten ihre Grenzen.",
-  "quelle": "Slagle et al. (2016): Vagal maneuvers for acute supraventricular tachycardia in adults. Cochrane Database of Systematic Reviews.",
-  "quelle_url": "https://doi.org/10.1002/14651858.CD005523.pub2",
-  "datum": "2026-09-20"
+  "schon_gewusst": "Römischer Beton mit Vulkanasche (Puzzolan-Beton) wird unter Wasser stärker, nicht schwächer – weil die Hydration dort sogar effizienter läuft. Das 'Pantheon' in Rom hält seit 1.900 Jahren, weil sein Beton unter kontinuierlicher Feuchte langsam zum Stein wird.",
+  "quelle": "Lothenbach et al. (2022): Supplementary cementitious materials. Cement and Concrete Research 154.",
+  "quelle_url": "https://doi.org/10.1016/j.cemconres.2021.106766",
+  "datum": "2026-09-21"
 }
