@@ -5185,5 +5185,20 @@
     "quelle": "Lothenbach et al. (2022): Supplementary cementitious materials. Cement and Concrete Research 154.",
     "quelle_url": "https://doi.org/10.1016/j.cemconres.2021.106766",
     "datum": "2026-09-21"
+  },
+  {
+    "kategorie": "Materialwissenschaft",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Stahl-Ermüdung: Warum Metalle unter wiederholter Belastung nicht einfach schwächer werden, sondern ihre Kristallstruktur aktiv umorganisieren – und das macht alte Brücken sicherer als neue",
+    "stauner": "Wir glauben, dass Stahl unter millionenfacher Belastung ermüdet und kollabiert. Doch Metallgitter reorganisieren sich aktiv: Versetzungen wandern, Körner verfestigen sich, Oberflächen heilen. Eine hundertjährige Eisenbahnbrücke kann sicherer sein als eine zehnjährige.",
+    "absaetze": [
+      "Die klassische Ingenieurslehre warnt vor Metallermüdung wie vor einem tückischen Feind: Ein Flugzeugflügel, ein Eisenbahnrad, eine Brückenschraube – unter millionenfacher Wiederholung derselben Last sollen diese Materialien irgendwann plötzlich brechen. Diese Angst führte zu massiven Sicherheitsfaktoren, regelmäßigen Inspektionen und vorsichtigen Konstruktionen. Doch die Realität ist paradoxer: Stahl reagiert auf Belastung nicht mit Schwäche, sondern mit aktiver Umstrukturierung.",
+      "Wenn Metallgitter wiederholt beansprucht werden, passiert etwas Faszinierendes im Mikrometerbereich: Die Kristallstruktur reorganisiert sich selbst. Versetzungen – winzige Fehler im Atomgitter – wandern gezielt, verfangen sich ineinander und blockieren sich gegenseitig. Dies nennt sich 'Work Hardening' oder Verfestigung. Gleichzeitig heilen Mikrorisse durch eine Kombination aus Dislokationsbewegung und diffusiver Heilung. Nach tausenden Zyklen ist der Stahl nicht müder, sondern fester geworden. Eine hundertjährige Eisenbahnbrücke hat durch Millionen von Zugbelastungen ihre Kriechneigung minimiert – während eine neue Brücke erst noch diesen 'Härtungsprozess' durchlaufen muss.",
+      "Das bedeutet nicht, dass alte Strukturen unzerstörbar sind – aber es zeigt, dass das klassische Bild von linearer Verschleiß falsch ist. Moderne Brückenwarten verstehen jetzt: Eine gut gewartete 80-jährige Stahlkonstruktion ist oft sicherer als eine 5-jährige, weil sie bereits durch Millionen von natürlichen Lastwechseln ihre optimale Körnerstruktur gefunden hat. Dies erklärt, warum viele viktorianische Eisenbahnbrücken heute noch fahrsicher sind – sie haben nicht trotz ihrer Geschichte, sondern wegen ihrer Geschichte Stabilität gewonnen. Materialermüdung ist nicht Degeneration, sondern Reifung."
+    ],
+    "schon_gewusst": "Manche modernen Hochleistungslegierungen werden gezielt mehrfachen Belastungszyklen ausgesetzt, bevor sie in Flugzeugen eingebaut werden – das nennt sich 'Shot Peening' oder 'Overstress'. Nicht um sie zu schwächen, sondern um ihre Kristallstruktur präventiv zu optimieren. Sie brechen dann unter echten Betriebslasten später.",
+    "quelle": "Suresh S. (1998): Fatigue of Materials. Cambridge University Press.",
+    "quelle_url": "https://doi.org/10.1017/CBO9780511806575",
+    "datum": "2026-09-21"
   }
 ]
