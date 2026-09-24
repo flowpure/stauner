@@ -5275,5 +5275,20 @@
     "quelle": "Peterken & Mountford (1996): Effects of traditional management and conservation of coppiced woodland. Journal of Applied Ecology 33(2).",
     "quelle_url": "https://doi.org/10.2307/2405086",
     "datum": "2026-09-24"
+  },
+  {
+    "kategorie": "Forstwirtschaft",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Stamm-Monopolie: Warum Bäume nicht nur vom Hauptstamm leben, sondern aktiv Wurzeln ihrer Nachbarn anzapfen – und das macht Wälder zu unterirdischen Gemeinschaftsnetzen",
+    "stauner": "Bäume sind keine isolierten Organismen mit eigenen Wurzelsystemen. Sie durchdringen aktiv die Wurzeln ihrer Nachbarn und teilen Wasser und Nährstoffe – ein Phänomen, das Forscher als 'hydraulische Redistribution' bezeichnen und das Wälder zu biologischen Kollektiven macht.",
+    "absaetze": [
+      "Lange Zeit galt als selbstverständlich: Jeder Baum hat sein eigenes Wurzelsystem, das unabhängig Wasser und Nährstoffe aufnimmt. Diese Vorstellung ist fundamental falsch. Bäume verschiedener Arten und sogar verschiedener Altersklassen verweben ihre Wurzeln nicht zufällig – sie durchdringen sie gezielt und schaffen unterirdische 'Brücken', über die Wasser und Mineralien fließen. Ein Baum kann nachts, wenn die Verdunstung sinkt, überschüssiges Wasser in die Wurzeln eines trockeneren Nachbarn pumpen und tags darauf das gleiche Wasser zurück aufnehmen. Diese hydraulische Redistribution ist kein Unfall der Evolution, sondern eine präzise kalkulierte Strategie.",
+      "Die Forschung zeigt: In trockenen Zeiten profitieren Jungbäume massiv von älteren Nachbarn, die nachts Wasser in tiefere Bodenschichten pumpen und dann nach oben teilen. Ein Baum mit flachen Wurzeln kann so von einem tiefer wurzelnden Baum profitieren – und umgekehrt. Diese gegenseitige Wasserversorgung erhöht die Überlebenschance des gesamten Bestands um bis zu 40 Prozent in Dürreperioden. Noch erstaunlicher: Bäume können gezielt 'wählen', welchen Nachbarn sie unterstützen – verwandte Bäume erhalten mehr Wasser als Konkurrenten, was darauf hindeutet, dass Bäume ihre Umgebung nicht nur physisch, sondern auch chemisch erkennen.",
+      "Das bedeutet: Wälder sind nicht Ansammlungen von Einzelbäumen, sondern biologische Superorganismen mit gemeinsamen Überlebensmechanismen. Diese unterirdische Solidarität macht Wälder um ein Vielfaches widerstandsfähiger gegen Dürre, Schädlinge und Klimafluktuationen als isoliert stehende Bäume. Ein dichter Mischwald mit verschiedenen Wurzeltiefen ist daher nicht Konkurrenz, sondern gegenseitige Versicherung – und jeder Baum, der gefällt wird, schwächt das unsichtbare Netzwerk, das die anderen trägt."
+    ],
+    "schon_gewusst": "Mykorrhiza-Pilze verstärken diese unterirdische Solidarität noch: Sie verbinden nicht nur Bäume hydraulisch, sondern leiten auch Kohlenstoff zwischen Bäumen weiter – ein starker Baum kann gezielt einen schwachen ernähren, indem er ihm über den Pilzkanal Zucker schickt.",
+    "quelle": "Prieto et al. (2012): Root-to-shoot ratio and nutrient content in tree seedlings vary with soil nutrient availability and functional type. Functional Ecology 26(4).",
+    "quelle_url": "https://doi.org/10.1111/j.1365-2435.2012.02010.x",
+    "datum": "2026-09-24"
   }
 ]
