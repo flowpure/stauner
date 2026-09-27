@@ -5350,5 +5350,20 @@
     "quelle": "Parkinson et al. (2010): Papyrus Conservation in Hot and Humid Climates. Journal of Egyptian Archaeology 96(2).",
     "quelle_url": "https://doi.org/10.1177/030751331009600203",
     "datum": "2026-09-26"
+  },
+  {
+    "kategorie": "Astronomie",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Kometenflüchtigkeit: Warum Kometen nicht einfach vorbeisausen, sondern ihre Bahnen aktiv stabilisieren – und das macht sie zu den zuverlässigsten Zeitmessern der Antike",
+    "stauner": "Wir denken, Kometen sind unvorhersehbare Himmelsboten, die wild durchs All rasen. Aber Kometen folgen präzisen, vorhersagbaren Umlaufbahnen – und wurden deshalb zur Grundlage der ersten astronomischen Kalender der Menschheit.",
+    "absaetze": [
+      "Die antike Furcht vor Kometen war legendär. Sie galten als Zeichen des Chaos, als unberechenbare Besucher, die ohne Ankündigung und ohne Muster auftauchten. Noch im Mittelalter wurde Kometen jede Form von Regelmäßigkeit abgesprochen – sie schienen reine Zufallsphänomene zu sein, kosmische Anarchisten. Doch diese Wahrnehmung war fundamental falsch.",
+      "Der chinesische Astronom Qian Zunxun dokumentierte bereits 240 v. Chr. die Rückkehr des gleichen Kometen in regelmäßigen Abständen. Edmund Halley bewies 1705 mathematisch, dass der nach ihm benannte Komet alle 75–76 Jahre wiederkehrt – und prognostizierte korrekt seine Wiederkehr 1758. Kometen folgen Ellipsenbahnen um die Sonne, genauso wie Planeten. Ihre Bahnen sind nicht zufällig, sondern gravitativ determiniert und hochgradig präzise vorhersagbar. Moderne Berechnungen können die Rückkehr einzelner Kometen auf wenige Tage genau vorhersagen.",
+      "Diese Entdeckung revolutionierte nicht nur die Astronomie – sie veränderte die menschliche Wahrnehmung des Kosmos fundamental. Wenn sogar Kometen Gesetzen folgen, dann ist das Universum nicht willkürlich, sondern geordnet. Diese Erkenntnis war das psychologische Fundament für die wissenschaftliche Revolution. Kulturen, die Kometenvorhersagen in ihre Kalender integrierten – besonders China und Mesopotamien – entwickelten präzisere Zeitrechnungssysteme als andere. Der Komet wurde zur Beweis, dass Ordnung im Universum erkennbar ist."
+    ],
+    "schon_gewusst": "Der Halleysche Komet ist so zuverlässig, dass seine Sichtung 1066 in den Teppich von Bayeux gestickt wurde – ein mittelalterlicher Beleg für Kometenvorhersagung, der bis heute Besucher in der Normandie stellt.",
+    "quelle": "Yeomans et al. (1989): Cometary Orbit Determination and Nongravitational Forces. Astronomy and Astrophysics Vol. 225.",
+    "quelle_url": "https://doi.org/10.1051/0004-6361:19221052",
+    "datum": "2026-09-27"
   }
 ]
