@@ -5395,5 +5395,20 @@
     "quelle": "Dias BG & Ressler KJ (2014): Parental olfactory experience influences behavior and neural structure in subsequent generations. Nature Neuroscience 17(1).",
     "quelle_url": "https://doi.org/10.1038/nn.3594",
     "datum": "2026-09-28"
+  },
+  {
+    "kategorie": "Evolutionsbiologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Geschlechtslosigkeits-Schwäche: Warum parthenogenetische Weibchen nicht degenerieren, sondern ihre genetische Vielfalt aktiv bewahren – und das macht asexuelle Fortpflanzung zur raffiniertesten Überlebensstrategie",
+    "stauner": "Wir denken, dass Weibchen ohne Männchen genetisch verarmen und aussterben. Doch manche Tierarten reproduzieren sich seit Millionen Jahren erfolgreich ohne jeden männlichen Beitrag – indem sie ihre eigene genetische Vielfalt aktiv bewahren. Das macht Parthenogenese nicht zur Evolutionssackgasse, sondern zur intelligentesten Anpassung an extreme Umwelten.",
+    "absaetze": [
+      "Parthenogenese – die asexuelle Fortpflanzung von Weibchen ohne Männchen – gilt unter Evolutionsbiologen lange als evolutionärer Sackgasse: Ohne genetische Rekombination würde die Population starr und anfällig für Krankheiten. Doch die Realität ist völlig anders. Einige Fadenwürmer, Insekten und sogar Reptilien reproduzieren sich seit Millionen von Jahren erfolgreich ohne Geschlechtsverkehr – nicht trotz, sondern wegen ihrer besonderen genetischen Strategien.",
+      "Der Schlüssel liegt in einer Technik namens Automixis: Parthenogenetische Weibchen vermischen ihre eigenen Chromosomen während der Eibildung so, dass jedes Ei eine neu gemischte genetische Kombination erhält – ähnlich wie bei sexueller Rekombination, nur ohne männlichen Partner. Manche Arten wechseln sogar flexibel zwischen asexueller und sexueller Fortpflanzung, je nachdem ob Männchen verfügbar sind oder nicht. Studien von Schön et al. (2009) zeigen: Parthenogenetische Populationen behalten erstaunlich hohe genetische Vielfalt – teilweise sogar mehr als sexuelle Verwandte.",
+      "Das bedeutet: Parthenogenese ist nicht das Gegenteil von Evolution, sondern eine hochraffinierte Variante davon. In stabilen, vorhersagbaren Umwelten – wie isolierten Seen oder Extrembiotopen – ist Asexualität sogar effizienter als Sex: Jedes Individuum kann reproduzieren, die Population verdoppelt sich schneller, und die genetische Vielfalt bleibt erhalten. Das macht diese Weibchen zu den autonomsten Überlebenskünstlerinnen der Natur."
+    ],
+    "schon_gewusst": "Der Fadenwurm Caenorhabditis elegans, eines der wichtigsten Labortiermodelle der Biologie, existiert in der Natur hauptsächlich als hermaphroditisch-parthenogenetische Population – nicht als separate Männchen und Weibchen – und hat sich dabei unglaublich erfolgreich verbreitet.",
+    "quelle": "Schön I, Martens K, van Dijk P (2009): Lost Sex: The Evolutionary Biology of Parthenogenesis. Springer.",
+    "quelle_url": "https://doi.org/10.1007/978-90-481-2770-2",
+    "datum": "2026-09-28"
   }
 ]
