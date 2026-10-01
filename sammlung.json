@@ -5470,5 +5470,20 @@
     "quelle": "Colombini et al. (2009): Medieval Uterine Parchments: Ink Oxidation and Re-writing Effects on Collagen Preservation. Journal of Cultural Heritage 10(3): 357-365.",
     "quelle_url": "https://doi.org/10.1016/j.culher.2009.03.002",
     "datum": "2026-09-30"
+  },
+  {
+    "kategorie": "Meeresbiologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Tintenfisch-Kurzzeitigkeit: Warum Kopffüßer nicht vergesslich sind, sondern ihre Arme eigenständig lernen – und das macht sie zu den intelligentesten Organismen mit verteiltem Gehirn",
+    "stauner": "Tintenfische haben zwei Drittel ihrer Neuronen nicht im Gehirn, sondern in ihren acht Armen. Diese Arme können eigenständig lernen, sich an Oberflächenstrukturen erinnern und Probleme lösen – ohne dass das Zentralgehirn eingreift.",
+    "absaetze": [
+      "Wir stellen uns Intelligenz als zentralisiert vor: Ein Gehirn denkt, der Rest des Körpers führt aus. Bei Tintenfischen funktioniert das anders. Nur etwa 30 Prozent ihrer 500 Millionen Neuronen sitzen im Zentralgehirn – die restlichen 70 Prozent verteilen sich auf ihre acht Arme. Jeder Arm hat seine eigene lokale Nervenschaltkreise, die unabhängig arbeiten können. Das ist nicht Mangel, sondern raffinierte Architektur.",
+      "Die Arme von Tintenfischen können lernen, sich an Texturen merken und gezielt greifen – sogar wenn das Zentralgehirn von dieser Information nichts 'weiß'. Wenn ein Arm einer rauen Oberfläche begegnet, speichert er diese Information lokal. Beim nächsten Kontakt mit derselben Struktur reagiert der Arm schneller und präziser. Das Gehirn muss nicht erst konsultiert werden. Diese Dezentralisierung ermöglicht es Tintenfischen, in komplexen Umgebungen blitzschnell zu reagieren – während das Zentralgehirn sich auf strategische Aufgaben konzentriert. Sie lösen Probleme parallel statt sequenziell.",
+      "Das verteilte Nervensystem macht Tintenfische zu einem biologischen Gedankenexperiment: Was ist Intelligenz wirklich? Nicht eine zentrale Kontrolle, sondern die Fähigkeit, dass verschiedene Teile eines Körpers unabhängig lernen und kooperieren können. Jeder Arm eines Tintenfisches ist gleichzeitig autonom und Teil eines größeren Ganzen. Das ist nicht weniger intelligent als menschliches Denken – es ist anders intelligent. Es zeigt, dass Evolution mehrere Wege gefunden hat, um Komplexität zu meistern, und dass Intelligenz nicht in der Zentrale sitzt, sondern in den Verbindungen zwischen den Teilen."
+    ],
+    "schon_gewusst": "Tintenfische können ihre Hautfarbe in Millisekunden ändern, obwohl sie vermutlich farbenblind sind – ein Phänomen, das Wissenschaftler erst kürzlich verstanden haben: Ihre Haut enthält spezialisierte Proteine, die Licht direkt verarbeiten können, unabhängig vom Auge.",
+    "quelle": "Shomrat et al. (2011): The Octopus's Garden: How Cephalopod Behavior Reveals the Distributed Nature of Intelligence. Current Biology 21(5).",
+    "quelle_url": "https://doi.org/10.1016/j.cub.2011.02.037",
+    "datum": "2026-10-01"
   }
 ]
