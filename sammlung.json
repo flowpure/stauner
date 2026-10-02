@@ -5500,5 +5500,20 @@
     "quelle": "Sommer et al. (2016): Tool use in fishes. Animal Cognition 19(2):203-215.",
     "quelle_url": "https://doi.org/10.1007/s10071-016-0944-z",
     "datum": "2026-10-01"
+  },
+  {
+    "kategorie": "Physik",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Schallabsorption: Warum poröse Materialien nicht Schall verschlucken, sondern ihn aktiv in Wärmenergie umwandeln – und das macht Lärmschutz zur elegantesten Energiebilanz",
+    "stauner": "Wir denken, Schallschutzschaum 'absorbiert' Geräusche wie ein Schwamm Wasser aufnimmt. Doch Schall kann nicht vernichtet werden – er wird in porösen Materialien durch Reibung der Luftmoleküle präzise in Wärme umgewandelt. Diese thermische Energieumwandlung ist nicht Verschwendung, sondern Physik in ihrer elegantesten Form.",
+    "absaetze": [
+      "Der verbreitete Begriff 'Schallabsorption' ist irreführend. Schall – eine Welle aus Luftmolekülen – kann nicht wie Wasser in einem Material 'verschwinden'. Stattdessen passiert etwas Raffinierteres: Wenn Schallwellen in die feinen Poren von Polyurethan, Mineralwolle oder Schaumstoff eindringen, zwingen die porenartigen Strukturen die Luftmoleküle zu chaotischen Zick-Zack-Bewegungen. Diese erzwungenen Bewegungen erzeugen Reibung zwischen den Molekülen – und Reibung ist Wärmeerzeugung. Der Schall wird also nicht eliminiert, sondern effizient in thermische Energie konvertiert.",
+      "Diese Umwandlung folgt exakt dem thermodynamischen Ersten Hauptsatz: Energie geht nie verloren, sie transformiert nur. Ein Konzertflügel in einer Halle mit reflektierenden Wänden klingt schrill und übertrieben – nicht weil der Schall 'mehr' ist, sondern weil er sich vielfach spiegelt und addiert. Derselbe Flügel in einem mit porösem Material ausgekleideten Studio klingt warm und nuanciert, weil 60-80% der Schallenergie in Wärme umgewandelt wurde. Diese Energieumwandlung ist nicht ein Defekt des Materials, sondern sein Erfolgsgeheimnis.",
+      "Die praktische Konsequenz ist bemerkenswert: Hochwertige Akustik-Systeme funktionieren nicht durch 'Schalltötung', sondern durch intelligente Energieumwandlung. Recording-Studios nutzen mehrschichtige Absorber-Systeme, die Schallwellen bei verschiedenen Frequenzen unterschiedlich schnell in Wärme umwandeln – und schaffen dadurch akustische Perfektion. Das macht jeden Akustiker zum Ingenieuren der Thermodynamik."
+    ],
+    "schon_gewusst": "Basstraps – spezielle Absorber in Raumecken – nutzen eine weitere physikalische Eleganz: Niederfrequenzen (unter 100 Hz) haben Wellenlängen von mehreren Metern und brauchen dickere Materialien. Deshalb sind Bass-Absorber oft 30-60 cm tief, während Hochfrequenz-Absorber nur 5 cm dick sein müssen. Die Materialdicke ist nicht willkürlich – sie ist mathematisch an die Frequenz gekoppelt.",
+    "quelle": "Everest, F. (2009): Master Handbook of Acoustics. McGraw-Hill Professional.",
+    "quelle_url": "https://doi.org/10.1036/0071603980",
+    "datum": "2026-10-02"
   }
 ]
