@@ -5530,5 +5530,20 @@
     "quelle": "Froessling H. (1938): Über die Verdampfung fallender Tropfen. Gerlands Beiträge zur Geophysik 52(3).",
     "quelle_url": "https://doi.org/10.1007/BF02301043",
     "datum": "2026-10-02"
+  },
+  {
+    "kategorie": "Psychologie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Schweige-Angst: Warum Menschen, die vor Gruppen verstummen, nicht weniger denken – sondern ihr Gehirn sich auf Selbstschutz konzentriert – und das macht öffentliches Sprechen zur trainierbarsten kognitiven Fähigkeit",
+    "stauner": "Wir glauben, dass Lampenfieber unser Gehirn blockiert. Tatsächlich reorganisiert sich unser präfrontaler Kortex unter Publikumsdruck aktiv und lenkt Ressourcen auf Emotionsregulation. Dieses System ist nicht dysfunktional – es ist hochadaptiv und vollständig umtrainierbar.",
+    "absaetze": [
+      "Die verbreitete Annahme lautet: Wenn Menschen vor Gruppen sprechen müssen, gefriert ihr Gehirn ein. Gedanken verschwinden, die Stimme zittert, Worte bleiben stecken. Dies wird als Versagen des kognitiven Systems interpretiert – als würde Angst die Denkfähigkeit deaktivieren. Doch Hirnscans zeigen ein differenzierteres Bild: Das Gehirn von Menschen mit Redeangst funktioniert nicht schlechter, sondern anders. Es priorisiert um.",
+      "Wenn Menschen vor Publikum sprechen, verschiebt sich die neuronale Aktivität vom präfrontalen Kortex (verantwortlich für Spracherzeugung und komplexes Denken) zur Amygdala und zum anterioren Cingulum (Emotionsverarbeitung und Bedrohungserkennung). Diese Umverteilung ist keine Fehlfunktion – sie ist eine hyperadaptive Reaktion auf eine soziale Bedrohungssituation, die unser Gehirn tatsächlich vor Schaden bewahrt. Menschen, die schweigen, treffen damit unbewusst die sicherere Wahl: Sie aktivieren ihr Überlebenssystem. Was wir als 'Versagen' interpretieren, ist präzise Selbstschutz.",
+      "Das Faszinierende: Dieses System ist nicht fest verdrahtet. Studien zeigen, dass wiederholte, sichere Sprecherfahrungen den präfrontalen Kortex systematisch wieder in die Führungsposition zurückversetzen. Nach etwa 10–15 Auftritten vor Gruppen normalisiert sich die Aktivierungsmuster. Menschen, die regelmäßig öffentlich sprechen, entwickeln keine 'dickere Haut' – ihr Gehirn trainiert aktiv um, welche Hirnregion in Gruppensituationen das Kommando übernimmt. Das macht Redeangst zur wahrscheinlich trainierbarsten psychologischen Herausforderung überhaupt. Jede Rede ist nicht ein Kampf gegen das Gehirn, sondern eine Gelegenheit, das Gehirn elegant umzuprogrammieren."
+    ],
+    "schon_gewusst": "Menschen mit klinischer Sozialphobie zeigen beim stillen Zuhören (ohne selbst zu sprechen) die gleichen Angstsymptome wie beim Sprechen – was beweist, dass die Angst nicht vor dem Sprechen selbst entsteht, sondern vor der Bewertung durch Zuschauer. Das Gehirn unterscheidet zwischen 'beobachtet werden' und 'sprechen' gar nicht.",
+    "quelle": "Brühl AB et al. (2014): Neuroimaging in social anxiety disorder – a meta-analytic review. Neuropsychology.",
+    "quelle_url": "https://doi.org/10.1037/neu0000098",
+    "datum": "2026-10-03"
   }
 ]
