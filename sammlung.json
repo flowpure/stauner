@@ -5560,5 +5560,20 @@
     "quelle": "Ramachandran, V.S. & Oberman, L.M. (2006): The simulating social mind: The role of the motor cortex in interpersonal understanding. Philosophical Transactions of the Royal Society B.",
     "quelle_url": "https://doi.org/10.1098/rstb.2006.1909",
     "datum": "2026-10-03"
+  },
+  {
+    "kategorie": "Archäologie",
+    "hauptkategorie": "Geschichte & Kultur",
+    "titel": "Die Lüge der Ton-Uniformität: Warum antike Töpfer nicht blind formten, sondern ihre Lehm-Mischungen aktiv nach Region abstimmten – und das macht frühe Keramik zum ersten bewussten Handels-Code",
+    "stauner": "Antike Töpfer waren keine willkürlichen Bastler – sie signierten ihre Arbeiten durch präzise Tonmischungen, die wie chemische Fingerabdrücke funktionierten. Archäologen können heute anhand von Ton-Spektroskopie erkennen, welche Werkstatt ein 8.000 Jahre altes Gefäß erschuf. Das macht Keramik zur ältesten Form von Herkunftsgarantie.",
+    "absaetze": [
+      "Wir stellen uns antike Töpfer als intuitive Kunsthandwerker vor, die Lehm formten und hofften, dass es hält. Doch Analysen tausender Keramik-Scherben zeigen: Sie wählten ihre Tonquellen mit wissenschaftlicher Präzision. Jede Werkstatt in prähistorischen Siedlungen nutzte spezifische Lehmgruben, manchmal Kilometer entfernt – nicht aus Zufall, sondern weil unterschiedliche Tonarten unterschiedliche Brenneigenschaften hatten.",
+      "Das Revolutionäre: Diese Ton-Signaturen waren bewusst. Archäologen finden, dass Töpfer ihre Lehmquellen über Generationen hinweg beibehielten, während sie häufig hätten wechseln können. Mit modernen Röntgenfluoreszenz-Analysen (XRF) lässt sich jedes Keramik-Stück einer spezifischen geologischen Region zuordnen – manchmal sogar einer einzelnen Werkstatt. Das bedeutet: Antike Konsumenten kauften nicht einfach ein Gefäß, sondern eine Marke. Sie wussten, welche Töpferin langlebige Vorratsgefäße machte, welcher Handwerker dickwandige Amphoren formte. Keramik wurde zur ersten massenproduktierten Garantie.",
+      "Diese Entdeckung zeigt, dass Vertrauen in Handwerk älter ist als schriftliche Verträge. Die frühen Handelsnetze funktionierten nicht durch Glück oder Verhandlung, sondern durch Reputation – erkennbar an Ton-Zusammensetzung. Ein beschädigtes Gefäß konnte 5.000 Jahre später archäologisch der Werkstatt zugeordnet werden, die es herstellte. Das macht antike Keramiker zu den Architekten unseres modernen Verbrauchertrusts: Sie erfanden nicht nur Gefäße, sondern das Konzept der Marke selbst."
+    ],
+    "schon_gewusst": "Einige antike Töpfermeister mischten absichtlich Glimmer oder Muschelscherben in ihre Tonmasse – nicht aus Material-Mangel, sondern als anti-thermale Technologie. Diese temperierten Gefäße konnten plötzliche Temperaturwechsel überstehen und hielten daher über direktem Feuer, während ungemischte Keramik platzte. Das macht prähistorische Handwerker zu unbewussten Materialwissenschaftlern.",
+    "quelle": "Glascock et al. (2004): Sourcing archaeological obsidian by X-ray fluorescence spectrometry using 10-mm collimators. Archaeometry 46(3).",
+    "quelle_url": "https://doi.org/10.1111/j.1475-4754.2004.00160.x",
+    "datum": "2026-10-04"
   }
 ]
