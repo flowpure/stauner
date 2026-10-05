@@ -5590,5 +5590,21 @@
     "quelle": "Capasso L (2007): Antiquity of circulatory and pulmonary pathology. The American Journal of Physical Anthropology 132(S44): 79.",
     "quelle_url": "https://doi.org/10.1002/ajpa.20624",
     "datum": "2026-10-04"
+  },
+  {
+    "kategorie": "Botanik",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Blatt-Platzverschwendung: Warum Pflanzen nicht beliebig ihre Blätter anordnen, sondern nach der Fibonacci-Spirale – und das macht sie zu Meistern der Sonnenlichtoptimierung",
+    "stauner": "Pflanzen verschwenden keinen Millimeter Platz. Sie ordnen ihre Blätter in mathematischen Spiralen an – nicht zufällig, sondern so präzise, dass sich kein Blatt selbst beschattet.",
+    "absaetze": [
+      "Die verbreitete Annahme: Pflanzen wachsen einfach wild drauflos. Blätter sprießen überall heraus, wo gerade Platz ist – eine chaotische, ineffiziente Anordnung, die dem Zufall folgt. Wer genau hinschaut, sieht ja selbst bei einer Sonnenblume oder Efeu nur ein wirres Durcheinander.",
+      "Die Realität ist mathematisch präzise: Pflanzen folgen der Fibonacci-Spirale – jenes Zahlenmuster, das auch in Muscheln, Galaxien und Hurrikanen auftaucht. Ein Blatt sitzt nicht neben dem nächsten, sondern versetzt um etwa 137,5 Grad – den 'goldenen Winkel'. Diese Anordnung, Phyllotaxis genannt, verhindert, dass ein Blatt das andere beschattet. Eine Sonnenblume mit 2.000 Blütenkernen folgt diesem Muster so exakt, dass Mathematiker damit Computergrafiken generieren. Das ist keine Zufälligkeit – das ist Optimierungscode.",
+      "Noch erstaunlicher: Diese Anordnung entsteht durch ein winziges Hormon namens Auxin, das sich in der Pflanzenknospe verteilt. Der Wachstumspunkt 'merkt' sich, wo das letzte Blatt saß, und platziert das nächste exakt im optimalen Winkel. Die Pflanze rechnet – sie löst ein Optimierungsproblem, das Ingenieure erst im 20. Jahrhundert mathematisch beschreiben konnten.",
+      "Was das bedeutet: Pflanzen sind nicht chaotisch, sondern superintelligent. Sie maximieren Lichteinfang durch pure Geometrie. Ein Baum mit 100.000 Blättern braucht kein zentrales 'Gehirn', um sie anzuordnen – jeder Wachstumspunkt führt die gleiche kleine mathematische Operation durch. Das macht Pflanzenwachstum zur elegantesten Lösung eines echten Optimierungsproblems. Und es zeigt: Natur ist nicht wild und ungeordnet. Sie ist Mathematik."
+    ],
+    "schon_gewusst": "Nicht nur Blätter folgen der Fibonacci-Spirale – auch die Anordnung von Zapfenschuppen in Kiefernzapfen, Samen in Sonnenblumenköpfen und sogar die Windungen von Schneckenhäusern folgen diesem Muster. Es ist das universelle Optimierungsprinzip der Natur.",
+    "quelle": "Prusinkiewicz P & Runions A (2012): Computational models of plant development and form. Annual Review of Plant Biology 63.",
+    "quelle_url": "https://doi.org/10.1146/annurev-arplant-042811-105449",
+    "datum": "2026-10-05"
   }
 ]
