@@ -5651,5 +5651,20 @@
     "quelle": "Nigrini, M. J. (2012): Benford's Law: Applications for Forensic Accounting, Auditing, and Fraud Detection. John Wiley & Sons.",
     "quelle_url": "https://doi.org/10.1002/9781118386798",
     "datum": "2026-10-06"
+  },
+  {
+    "kategorie": "Linguistik",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Sprachverschlechterung: Warum junge Menschen nicht 'schlechter' sprechen, sondern ihre Grammatik aktiv vereinfachen – und das macht Sprache zur intelligentesten Optimierungsmaschine",
+    "stauner": "Während Eltern beklagen, dass die Jugend 'nicht mehr richtig spricht', zeigt sich: Junge Sprecher bauen systematisch redundante Regeln ab und verstärken nur die unverzichtbaren – genau wie effiziente Software-Entwicklung.",
+    "absaetze": [
+      "Die verbreitete Angst ist hartnäckig: Junge Menschen sprechen schlecht, verwenden falsches Englisch im Deutschen, elliptische Sätze ('Bin gerade im Kino'), Umgangssprache statt Hochdeutsch. Die Befürchtung dahinter: Sprache degeneriert, die Standards fallen. Doch linguistische Forschung zeigt ein gegenteiliges Bild. Jugendliche verhandeln nicht chaotisch, sondern zielgerichtet – sie entfernen systematisch grammatikalische Merkmale, die für das Verständnis überflüssig sind, und behalten nur die minimalen notwendigen.",
+      "Das klassische Beispiel ist die Progressive-Aspect-Vereinfachung im Englischen oder die Kasusvereinfachung im Deutschen: Während ältere Sprecher noch vier Fälle (Nominativ, Genitiv, Dativ, Akkusativ) mit unterschiedlichen Endungen markieren, reduzieren junge Sprecher diese auf zwei oder drei bedeutungsunterscheidende Formen – der Genitiv wird durchs von ersetzt, der Dativ und Akkusativ verschmelzen funktional. Das ist nicht Faulheit, sondern Effizienzoptimierung: Wenn das Wort bereits im Kontext klar genug ist, warum noch eine redundante Markierung? Studien wie Norde (2009) zeigen, dass diese 'Vereinfachungen' in Sprachkontaktsituationen (Mehrsprachigkeit, Mobilität) entstehen – wo der kognitive Druck, schnell und verständlich zu kommunizieren, höher ist.",
+      "Das eigentlich Faszinierende: Diese 'schlechtere' Sprache ist keine Abwärtsspirale, sondern ein natürlicher Evolutionsmechanismus. Jede Sprache, die sprecher*innen haben, war irgendwann 'die schlechte Version' einer älteren – das Englische war vor 1000 Jahren das 'verdorbene Altenglisch mit vereinfachtem Kasussystem', das Deutsche war das 'verstümmelte Althochdeutsch'. Wenn sich diese Vereinfachungen jedoch generationenübergreifend etablieren, entstehen neue Stabilität und neue Regelmäßigkeit. Die junge Generation schafft nicht Chaos, sondern eine schlankere, wartungsfreundlichere Version der Sprache – eine, die mehr Menschen sprechen können, ohne dabei weniger präzise zu sein. Das macht sprachliche 'Verschlechterung' zur heimlichen Stärke: eine Sprache wird inklusiver."
+    ],
+    "schon_gewusst": "Das Englische verlor über 90% seiner Kasusendungen zwischen Altenglisch (ca. 1000) und Neuenglisch (ca. 1500) – und wurde dabei zur meistgesprochenen internationalen Sprache. Nicht trotz, sondern wegen dieser Vereinfachung.",
+    "quelle": "Norde M (2009): Degrammaticalization. Oxford University Press.",
+    "quelle_url": "https://doi.org/10.1093/acprof:oso/9780199207282.001.0001",
+    "datum": "2026-10-07"
   }
 ]
