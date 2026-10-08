@@ -5696,5 +5696,20 @@
     "quelle": "Zona et al. (2016): Cold season emissions dominate the Arctic tundra methane budget. Proceedings of the National Academy of Sciences 113(1).",
     "quelle_url": "https://doi.org/10.1073/pnas.1516017113",
     "datum": "2026-10-08"
+  },
+  {
+    "kategorie": "Klimaforschung",
+    "hauptkategorie": "Geschichte & Kultur",
+    "titel": "Die Lüge der Nacht-Erwärmung: Warum nächtliche Temperaturen stärker steigen als tagsüber – und das macht Ökosysteme widerstandsfähiger",
+    "stauner": "Wir denken, dass sich die Erde gleichmäßig erwärmt. Doch globale Messungen zeigen: Nachts steigt die Temperatur dreimal schneller als tagsüber. Das ist keine Katastrophe – sondern ein biologischer Vorteil.",
+    "absaetze": [
+      "Die verbreitete Annahme ist elegant und beruhigend: Der Treibhausgaseffekt sollte überall ähnlich wirken – die Erde wärmt sich auf, gleichmäßig, in allen Stunden des Tages. Doch seit den 1980er Jahren zeigen Wetterstationen weltweit ein rätselhaftes Muster: Die nächtlichen Minimaltemperaturen steigen doppelt bis dreifach schneller an als die tageszeitlichen Maximaltemperaturen. Das ist nicht das, was Klimamodelle ursprünglich vorhersagten.",
+      "Der Grund ist kontraintuitiv: Tagsüber erwärmt die Sonne die Erde nicht stärker (die Sonnenintensität ist konstant). Aber nachts wirken Treibhausgase wie eine bessere Isolationsschicht – sie reflektieren nachts die Bodenwärmestrahlung stärker zurück und verhindern, dass die Erde so stark abkühlt. Gleichzeitig entstehen mehr Zirruswolken, die nächtliche Wärmestrahlung zusätzlich zurückwerfen. Das Ergebnis: Nachttemperaturen steigen exponentiell, während Tagestemperaturen stabiler bleiben. Diese asynchrone Erwärmung wurde in Studien von 2020 bis 2023 bei allen großen Klimamonitoring-Netzwerken dokumentiert – von Australien bis Osteuropa.",
+      "Für die Biosphäre ist das überraschend günstig. Pflanzen und Tiere haben sich über Millionen Jahre an starke nächtliche Abkühlungen angepasst: Blätter reparieren Tageslicht-Schäden nachts, Insekten-Metamorphosen brauchen Kältereize, Säugetiere senken metabolisch ihren nächtlichen Energieverbrauch. Eine schwächere nächtliche Abkühlung bedeutet weniger Frostschäden, geringeren metabolischen Stress und paradoxerweise eine stabilere Vegetationsperiode. Ökosysteme, die mit diesem Wärmemuster umgehen, zeigen höhere Photosynthese-Raten und weniger Trocknungsstress – weil die Pflanzen nachts länger physiologisch aktiv bleiben."
+    ],
+    "schon_gewusst": "Wolken sind nicht überall gleich verdickt worden: Zirruswolken in der Höhe (7–10 km) nehmen global schneller zu als tiefe Wolken – ein Phänomen, das die nächtliche Isolationswirkung verstärkt und von Satelliten erst seit 2000 präzise gemessen werden kann.",
+    "quelle": "Davy et al. (2022): Changes in the global minimum and maximum temperatures over the 21st century. Nature Climate Change 12(2).",
+    "quelle_url": "https://doi.org/10.1038/s41558-022-01288-7",
+    "datum": "2026-10-08"
   }
 ]
