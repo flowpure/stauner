@@ -5711,5 +5711,20 @@
     "quelle": "Davy et al. (2022): Changes in the global minimum and maximum temperatures over the 21st century. Nature Climate Change 12(2).",
     "quelle_url": "https://doi.org/10.1038/s41558-022-01288-7",
     "datum": "2026-10-08"
+  },
+  {
+    "kategorie": "Mikrobiologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Bakterien-Einsamkeit: Warum Mikroben nicht isoliert mutieren, sondern ihre Gene aktiv untereinander austauschen – und das macht Evolution zur kooperativen Kunstform statt zum Wettkampf",
+    "stauner": "Bakterien teilen ihre DNA nicht nur mit direkten Nachkommen, sondern verschenken Gene an völlig fremde Arten. Dieser horizontale Gentransfer ermöglicht Mikroben, in Stunden zu lernen, was andere Organismen in Millionen Jahren entwickeln würden. Evolution ist kein Einzelkampf – sie ist ein Netzwerk der Großzügigkeit.",
+    "absaetze": [
+      "Lange Zeit stellten wir uns Evolution als brutalen Wettbewerb vor: Jeder Organismus kämpft allein ums Überleben, seine Gene gegen alle anderen. Besonders Bakterien galten als atomisierte Kampfmaschinen – jede Zelle eine isolierte Insel, mutierend nach Darwins Prinzip des Stärkeren. Doch diese Vorstellung ist fundamentalfalsch. Bakterien sind die größten Netzwerker der Biologie.",
+      "Seit den 1950er-Jahren wissen Wissenschaftler, dass Bakterien Gene horizontal austauschen – zwischen Arten, über Speziesgrenzen hinweg, ohne auf Reproduktion zu warten. Ein Escherichia coli kann einer Bacillus-Art ein Resistenzgen direkt schenken. Eine Vibrio-Zelle kann von einer ganz anderen Familie ein Stoffwechselenzym erhalten. Diese horizontale Gentransfer (HGT) geschieht ständig, überall, in jedem Tropfen Wasser, in jedem Gramm Boden. Genomanalysen zeigen: Bei vielen Bakterien stammt zwischen 5 und 50 Prozent ihres gesamten Genoms von anderen Arten – nicht von Vorfahren, sondern von Nachbarn, Konkurrenten, sogar Feinden.",
+      "Das verändert unser Verständnis von Evolution radikal. Bakterien lösen Probleme nicht allein durch Mutation – sie borgen sich Lösungen. Ein Antibiotikum bedroht eine Kolonie? Innerhalb weniger Generationen können Resistenzgene durch die Population fließen – nicht weil eine zufällige Mutation den Jackpot knackt, sondern weil sie geteilt werden wie ein Lagerfeuer-Geheimnis. Manche Forscher argumentieren, dass horizontaler Gentransfer schneller adaptiert als klassische Evolution. Ein Bakterium kann in Stunden das genetische Wissen Millionen Jahre alter Verwandter integrieren. Das macht Mikroben zur flexibelsten Lernmaschine der Natur – nicht trotz ihrer Isolation, sondern wegen ihrer Vernetzung."
+    ],
+    "schon_gewusst": "Manche Bakteriengene sind älter als die Arten, die sie tragen: Ein Gen kann älter sein als die gesamte Spezies, weil es über Millionen Jahre von Zelle zu Zelle weitergegeben wurde. Bakterien sind nicht nur Individuen – sie sind Archivar einer genetischen Zivilisation.",
+    "quelle": "Ochman H, Lawrence JG, Groisman EA (2000): Lateral gene transfer and the nature of bacterial innovation. Nature 405(6784): 299-304.",
+    "quelle_url": "https://doi.org/10.1038/35012500",
+    "datum": "2026-10-09"
   }
 ]
