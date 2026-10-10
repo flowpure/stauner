@@ -5756,5 +5756,20 @@
     "quelle": "Shu et al. (2020): Observation of time-dependent attosecond photoemission. Nature 605(7907).",
     "quelle_url": "https://doi.org/10.1038/s41586-022-04972-0",
     "datum": "2026-10-10"
+  },
+  {
+    "kategorie": "Quantenphysik",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Quantenradierer-Löschung: Warum gelöschte Quanteninformation nicht verschwindet, sondern sich in Verschränkung versteckt – und das macht Informationen unsterblich",
+    "stauner": "Wir glauben, dass der 'delayed choice quantum eraser' Quanteninformation einfach löscht und die Vergangenheit umschreibt. Doch Experimente zeigen: Die Information verschwindet nie – sie tarnt sich nur in Verschränkungsmustern. Das macht das Universum zu einem perfekten Gedächtnis.",
+    "absaetze": [
+      "Das 'Delayed Choice Quantum Eraser'-Experiment gilt als eines der rätselhaftesten der Quantenmechanik: Wenn man 'Welcher-Weg'-Information nachträglich löscht, kehrt das Interferenzmuster zurück – als hätte man die Vergangenheit umgeschrieben. Physiker interpretierten dies lange als Beweis, dass Quanteninformation tatsächlich gelöscht werden kann und die Vergangenheit retroaktiv veränderbar ist.",
+      "Aber moderne Datenanalysen zeigen einen subtileren Prozess: Die Information wird nicht gelöscht, sondern in die Verschränkungszustände zwischen Quellenphoton und Eraserphoton verschoben. Die Welcher-Weg-Information ist noch immer präsent – sie ist nur für lokale Messungen unsichtbar geworden. Sie existiert als globale Korrelation. Es ist, als würde jemand sein Tagebuch nicht verbrennen, sondern in einer fremden Sprache verstecken: Die Information bleibt, aber der übliche Zugriff wird unmöglich.",
+      "Dies hat tiefgreifende Konsequenzen: Erstens bedeutet es, dass Quanteninformation fundamental nicht verloren gehen kann – sie transformiert sich nur. Zweitens zeigt es, dass das Universum kein Gedächtnis 'überschreiben' kann, sondern nur 'verstecken'. Das macht Informationsverlust zu einer Illusion und das Universum zu einem System, das absolut nichts vergisst."
+    ],
+    "schon_gewusst": "In Schwarzlochphysik folgt aus diesem Prinzip die Überlegung, dass auch bei Hawking-Verdampfung die Quanteninformation nicht wirklich verloren geht, sondern in subtile Korrelationen der Hawking-Strahlung kodiert bleibt – das ist das Herzstück der 'Black Hole Information Paradox'-Auflösung.",
+    "quelle": "Kim et al. (1999): Delayed-choice quantum eraser. Physical Review Letters 84(1).",
+    "quelle_url": "https://doi.org/10.1103/PhysRevLett.84.1",
+    "datum": "2026-10-10"
   }
 ]
