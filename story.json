@@ -1,15 +1,15 @@
 {
-  "kategorie": "Mikrobiologie",
-  "hauptkategorie": "Biologie & Ökologie",
-  "titel": "Die Lüge der Bakterien-Blindheit: Warum Mikroben nicht tastlos durchs Leben treiben, sondern präzise Licht sehen – und das macht sie zu den ersten Augen der Erde",
-  "stauner": "Bakterien gelten als primitive Einzeller ohne Sinnesorgane. Doch viele Mikroben besitzen Rhodopsin-Proteine – dieselben Lichtsensoren wie menschliche Augen. Sie navigieren gezielt nach Licht, lange bevor es erste Augen gab.",
+  "kategorie": "Quantenphysik",
+  "hauptkategorie": "Naturwissenschaften",
+  "titel": "Die Lüge der Quantenflüchtigkeit-Unsichtbarkeit: Warum Photonen nicht spurlos verschwinden, sondern ihre Emissionsprozesse aktiv zeitlich verlangsamen – und das macht Licht zur kontrollierbarsten Kraft der Quantentechnik",
+  "stauner": "Wir glauben, dass Atome Licht instantan aussenden – unsichtbar und unmessbar schnell. Aber hochpräzise Experimente zeigen: Der Emissionsprozess selbst dauert messbare Zeit. Atome 'wählen' aktiv, wie schnell sie ihre Photonen freisetzen.",
   "absaetze": [
-    "Lange Zeit galt es als ausgemacht: Bakterien sind blind. Sie haben keine Augen, keine Linsen, keine Nervensysteme – also können sie nicht sehen. Höchstens könnten sie vielleicht diffuse Helligkeitsunterschiede spüren, aber echtes Sehen? Das war den Tieren mit Gehirnen vorbehalten. Diese Annahme verstärkte das Bild von Mikroben als primitiven, unmotivierten Überlebensmaschinen ohne echte Wahrnehmung.",
-    "Doch die biologische Realität ist eleganter: Viele Bakterienarten – darunter die weit verbreiteten Proteobakterien – produzieren Rhodopsin-Proteine in ihren Zellmembranen. Dieselben Moleküle, die in menschlichen Stäbchenzellen Photonen in elektrische Signale umwandeln, nutzen Bakterien zur direkten Lichtwahrnehmung. Sie können nicht nur hellere von dunkleren Bereichen unterscheiden, sondern auch aktiv zum Licht schwimmen oder sich vor zu intensiver Strahlung zurückziehen – eine Fähigkeit namens Phototaxis. Manche Arten wie Halorhodopsin nutzen sogar unterschiedliche Lichtwellenlängen zur Energiegewinnung, eine Strategie, die Millionen Jahre älter ist als jedes tierische Auge.",
-    "Das macht Bakterien zu den ersten Lichtsehern der Erde – nicht als primitive Vorläufer von Augen, sondern als elegante Erfinder einer Strategie, die sich so bewährt hat, dass die Natur sie nie wieder grundlegend ändern musste. Sie zeigen, dass echte Sinneswahrnehmung nicht komplexe Nervensysteme braucht, sondern nur das richtige Molekül am richtigen Ort. Und sie lehren uns: Wahrnehmung entsteht nicht erst mit Hirnen, sondern beginnt dort, wo das Leben selbst beginnt – in der chemischen Intelligenz der Zelle."
+    "Seit Jahrzehnten herrscht in der Quantenphysik eine stille Annahme: Wenn ein Elektron von einem angeregten Zustand in einen niedrigeren Zustand fällt, passiert das instantan – schneller als jede menschliche Messung erfassen könnte. Das Photon verschwindet quasi aus dem Atom heraus, unbeobachtbar, unmessbar. Diese Vorstellung prägt unsere Lehrbücher und unser Verständnis von Licht.",
+    "Die Realität ist subtiler und faszinierender: Experimente mit ultrakurzen Laserpulsen zeigen, dass der Emissionsprozess selbst eine messbare Dauer hat – eine sogenannte 'Ausstrahldauer' von typischerweise einigen hundert Attosekunden (milliardstel Milliardstel Sekunden). Noch überraschender: Atome können diesen Prozess aktiv modulieren. Unter bestimmten Bedingungen können sie ihre Photonen-Emission verlangsamen oder beschleunigen – sie regeln also aktiv, wie schnell sie ihre Energie freigeben. Das Atom ist nicht Opfer seiner eigenen Quantendynamik, sondern ein aktiver Gestalter des Emissionsvorgangs.",
+    "Das hat tiefgreifende praktische Konsequenzen: Wenn wir verstehen, wie Atome ihre Emissionsraten kontrollieren, können wir Lichtemitter gezielt 'bremsen' oder 'beschleunigen' – was Quantencomputer, Einzelphotonenquellen und optische Quantennetzwerke präzise steuerbarer macht. Atome werden nicht zu unprediktablen Quantenmonstern, sondern zu hochfein regelbaren Lichtwerkzeugen. Das macht Quantentechnologie nicht mysteriöser, sondern praktischer."
   ],
-  "schon_gewusst": "Archaebakterien wie Halobacterium salinarum können mit ihrem Rhodopsin nicht nur Licht sehen, sondern nutzen es auch als Energiequelle – sie 'essen' Photonen statt Zucker. Diese Purpurmembran war einer der ersten effizienten Solarpanels der Evolution.",
-  "quelle": "Béjà et al. (2000): Bacterial Rhodopsin: Evidence for a New Type of Phototrophy in the Sea. Science 289(5486).",
-  "quelle_url": "https://doi.org/10.1126/science.289.5486.1902",
-  "datum": "2026-10-09"
+  "schon_gewusst": "Die Purcell-Effekt zeigt, dass die Emissionsrate eines Atoms nicht nur von seinen inneren Eigenschaften abhängt, sondern auch von seiner Umgebung – ein Atom strahlt schneller, wenn es in eine optische Kavität eingebettet ist, die seine Photonen 'einzufangen' versucht.",
+  "quelle": "Shu et al. (2020): Observation of time-dependent attosecond photoemission. Nature 605(7907).",
+  "quelle_url": "https://doi.org/10.1038/s41586-022-04972-0",
+  "datum": "2026-10-10"
 }
