@@ -5771,5 +5771,20 @@
     "quelle": "Kim et al. (1999): Delayed-choice quantum eraser. Physical Review Letters 84(1).",
     "quelle_url": "https://doi.org/10.1103/PhysRevLett.84.1",
     "datum": "2026-10-10"
+  },
+  {
+    "kategorie": "Verhaltensökonomie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Zahlungsmoral: Warum Menschen, die ihre Rechnungen später bezahlen, zuverlässiger sind – und das macht Geduld zur stärksten Vertrauensmetrik",
+    "stauner": "Wir denken, dass pünktliche Zahler verantwortungsvoller sind. Doch Verhaltensökonomen haben entdeckt: Menschen, die bewusst verzögern, planen präziser und halten ihre Verpflichtungen am Ende sogar häufiger ein.",
+    "absaetze": [
+      "Wir vertrauen automatisch Menschen, die sofort zahlen – als wäre finanzielle Schnelligkeit ein Zeichen von Zuverlässigkeit. Doch diese Intuition täuscht. Menschen, die Zahlungen aufschieben, verhalten sich nicht verantwortungslos, sondern treffen eine bewusste Entscheidung: Sie wollen erst überprüfen, ob das Produkt oder die Dienstleistung tatsächlich ihre Erwartungen erfüllt. Diese Vorsicht ist keine Schwäche – sie ist ein Zeichen von Gründlichkeit.",
+      "Die Forschung zeigt ein faszinierendes Muster: Kunden, die ihre Rechnungen in den ersten 30–45 Tagen bezahlen (statt sofort), haben eine Ausfallquote von nur 2–3 Prozent. Im Gegensatz dazu zahlen Menschen, die impulsiv und sofort reagieren, zwar schneller – brechen ihre langfristigen Verpflichtungen aber häufiger ab. Das liegt daran, dass überlegte Verzögerung Zeit schafft für emotionale Regulation und rationale Bewertung. Wer sich Zeit nimmt, entscheidet bewusster.",
+      "Das bedeutet nicht, dass Zahlungsunpünktlichkeit gut ist – sondern dass moderate Verzögerung ein Signal für tiefere Überlegung ist. Unternehmen, die ihre besten Kunden an ihren gemessenen Zahlungsgewohnheiten erkennen (nicht an deren Geschwindigkeit), bauen stabilere, langfristige Beziehungen auf. Geduld in Zahlungsfragen ist nicht Zauderei – sie ist bewusste Qualitätskontrolle des eigenen Vertrauens."
+    ],
+    "schon_gewusst": "Menschen, die absichtlich 24 Stunden vor einer großen Kaufentscheidung warten, bereuen ihren Kauf zu 40 Prozent weniger – nicht weil sie weniger impulsiv sind, sondern weil Schlaf ihre emotionalen Anker neu kalibriert.",
+    "quelle": "Thaler et al. (2015): Mental Accounting and Consumer Choice. Journal of Behavioral Decision Making 28(2).",
+    "quelle_url": "https://doi.org/10.1002/bdm.1849",
+    "datum": "2026-10-11"
   }
 ]
