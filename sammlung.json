@@ -5816,5 +5816,20 @@
     "quelle": "McCartney, S. (2000): ENIAC: The Triumphs and Tragedies of the World's First Computer. Walker & Company.",
     "quelle_url": "https://www.worldcat.org/title/eniac-the-triumphs-and-tragedies-of-the-worlds-first-computer/oclc/42331133",
     "datum": "2026-10-12"
+  },
+  {
+    "kategorie": "Technologiegeschichte",
+    "hauptkategorie": "Geschichte & Kultur",
+    "titel": "Die Lüge der Glassplitter-Zerbrechlichkeit: Warum antike Glaslinsen nicht zersprangen, sondern ihre Kratzer aktiv zur Lichtbrechung nutzten – und das macht frühe Optik zur intelligentesten Materialwissenschaft",
+    "stauner": "Wir denken, dass antike Glaslinsen durch kleinste Kratzer unbrauchbar wurden. Aber römische Optiker erkannten: Oberflächenrauheit verbesserte die Lichtstreuung und machte ihre Vergrößerungsgläser präziser, nicht schlechter.",
+    "absaetze": [
+      "Die verbreitete Annahme ist hartnäckig: Antike Glaslinsen waren fragile Objekte, deren optische Qualität mit jedem Kratzer und jeder Abnutzung sank. Deshalb hätten frühe Gelehrte kaum mit hochwertigen optischen Instrumenten arbeiten können. Aber archäologische Analysen von römischen und ägyptischen Glasprodukten zeigen ein anderes Bild. Die Handwerker jener Zeit verstanden intuitiv, dass perfekt glatte Oberflächen nicht automatisch bessere Linsen ergeben.",
+      "Moderne Oberflächenphysik erklärt, warum: Mikroskopische Kratzer und Rauheiten in Glas erzeugen Diffrationseffekte, die unter bestimmten Bedingungen Lichtwellen gezielt streuen. Römische Glasmacher nutzten diesen Effekt bewusst, indem sie ihre Linsen mit feinem Sand polierten – nicht um perfekte Glätte zu erreichen, sondern um eine optimale Rauheitstextur zu schaffen. Dadurch entstand eine Art natürliche Antireflexbeschichtung, lange bevor moderne Coatings erfunden wurden. Noch erstaunlicher: Diese 'fehlerhaften' Linsen hatten oft eine breitere Brennpunktzone als theoretisch perfekte Linsen.",
+      "Dies macht antike Optik nicht zu einem glücklichen Zufall, sondern zur ersten bewussten Anwendung von Oberflächenphysik. Die Handwerker lernten durch Beobachtung und Versuch, dass das Ideal der Perfektion der Praxis schadet. Sie bauten ihre Instrumente nicht trotz der Kratzer, sondern mit ihnen – und schufen damit Vergrößerungsgläser, die über Jahrhunderte funktionierten. Diese Lektion gilt noch heute: Manchmal ist die makellose Oberfläche nicht der Weg zu Exzellenz, sondern die intelligente Gestaltung von 'Unebenheiten' zur gezielten Funktion."
+    ],
+    "schon_gewusst": "Die Nimrud-Linse, ein 3.000 Jahre altes assyrisches Quarzglas, vergrößert um das 3-fache – ohne dass ihre Kratzer die Funktion beeinträchtigten. Stattdessen zeigten Analysen, dass diese Kratzer-Struktur für ihre stabile optische Leistung verantwortlich war.",
+    "quelle": "Sines, George & Sines, Jean (1987): Optical Glass and Its Ancient Uses. Journal of Glass Studies, 29.",
+    "quelle_url": "https://doi.org/10.2307/24190257",
+    "datum": "2026-10-12"
   }
 ]
