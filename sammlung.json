@@ -5861,5 +5861,20 @@
     "quelle": "Maldonado M et al. (2012): Diversity and biological roles of sponge-associated microorganisms. Trends in Microbiology 20(2).",
     "quelle_url": "https://doi.org/10.1016/j.tim.2011.11.003",
     "datum": "2026-10-13"
+  },
+  {
+    "kategorie": "Chemie",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Kohlenstoff-Sünde: Warum CO₂ nicht einfach Wärmekohle ist, sondern Pflanzen aktiv entgiften – und das macht atmosphärisches CO₂ zur raffiniertesten Selbstreinigung der Biosphäre",
+    "stauner": "Wir denken, Kohlendioxid sei reines Gift für das Klima. Doch die Wahrheit ist faszinierender: Pflanzen haben evolutionär ihre Photosynthese-Enzyme so optimiert, dass sie CO₂ nicht nur speichern, sondern aktiv die atmosphärische Konzentration regulieren – wie ein biologischer Thermostat.",
+    "absaetze": [
+      "Wir sehen CO₂ als klimaschädlichen Übeltäter, der unkontrolliert in die Atmosphäre entweicht und dort verheerend wirkt. Doch diese Sicht verkennt eine fundamentale biochemische Wahrheit: Das Enzym RuBisCO, das in allen Pflanzen das CO₂ fixiert, ist nicht passiv, sondern aktiv selektiv. Es bevorzugt schwere Kohlenstoff-Isotope (¹³C) und lehnt leichte (¹²C) relativ ab – und schafft damit eine natürliche Fraktionierungsschwelle. Diese Unterscheidung ist so präzise, dass Isotopenforscher damit Pflanzenstress nachweisen können. RuBisCO ist nicht einfach eine chemische Falle für CO₂, sondern ein hochspezifisches Erkennungssystem.",
+      "Die entscheidende Erkenntnis: Je mehr CO₂ in der Atmosphäre vorhanden ist, desto effizienter wird der Stoffwechsel der Pflanzen – bis zu einer biologischen Sättigungsgrenze. Unter diesem Regime senken Pflanzen aktiv ihre stomatalen Leitfähigkeit (die Öffnung ihrer Blattporen), um weniger Wasser zu verdunsten, während sie gleich viel CO₂ aufnehmen. Das bedeutet: Steigende CO₂-Konzentrationen führen zu besserer Wasserbilanz der Pflanzen und damit zu widerstandsfähigeren Ökosystemen – solange die Temperaturzunahme moderat bleibt. Die Biosphäre selbst passt sich an und nutzt das CO₂ als Regulationssignal, nicht nur als Gift.",
+      "Dies macht den gegenwärtigen Klimawandel nicht harmlos – aber es zeigt, dass die Natur nicht passiv kapituliert. Pflanzen erkennen CO₂-Stress und antizipieren durch messbare biochemische Anpassungen. Manche Kulturen wie Mais haben sogar zwei verschiedene Photosynthese-Wege entwickelt (C₃ und C₄), um in unterschiedlichen CO₂-Regimen optimal zu arbeiten. Das macht die botanische Welt zu einem intelligenten Adversarial-System, das sich selbst reguliert – nicht als Rettung vor dem Problem, sondern als Beweis, dass Evolution kontinuierlich Lösungsstrategien schreibt. Wir müssen CO₂ senken – aber verstehen sollten wir auch, dass das Leben nicht hilflos ist."
+    ],
+    "schon_gewusst": "Das Enzym RuBisCO ist das häufigste Protein auf der Erde und macht etwa 50% der Protein-Trockenmasse aller Blätter aus. Es ist zugleich eines der ältesten und langsamsten bekannten Enzyme – es katalysiert nur etwa 3 Reaktionen pro Sekunde, während andere Enzyme tausendfach schneller arbeiten. Das macht RuBisCO zu einem lebenden Fossil der Evolution.",
+    "quelle": "Farquhar et al. (1989): Carbon Isotope Discrimination and Photosynthesis. Annual Review of Plant Physiology and Plant Molecular Biology 40.",
+    "quelle_url": "https://doi.org/10.1146/annurev.pp.40.060189.002415",
+    "datum": "2026-10-14"
   }
 ]
