@@ -5921,5 +5921,20 @@
     "quelle": "Cavalli-Sforza LL, Feldman MW (1981): Cultural Transmission and Evolution: A Quantitative Approach. Monographs in Population Biology.",
     "quelle_url": "https://doi.org/10.1515/9781400881733",
     "datum": "2026-10-15"
+  },
+  {
+    "kategorie": "Ökologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Flechten-Passivität: Warum Flechten nicht einfach auf Steinen wachsen, sondern aktiv Felsgestein chemisch auflösen – und das macht sie zu den stärksten Pionieren der Bodenbildung",
+    "stauner": "Flechten gelten als passive Bewohner kahler Felsen. Doch sie sind Steinzerstörer – sie scheiden Säuren aus, die Gestein aktiv verwittern. Dies ist nicht Zerstörung, sondern der erste Schritt aller Bodenbildung auf der Erde.",
+    "absaetze": [
+      "Wir betrachten Flechten als zarte Organismen, die sich bescheiden auf Felsen niederlassen. Die verbreitete Annahme: Sie nutzen vorhandene Risse, sie profitieren von Verwitterung, sie sind Zeugen der Landschaft. Doch diese Sichtweise verwechselt Ursache und Wirkung. Flechten sind nicht Profiteure der Verwitterung – sie sind deren Urheber.",
+      "Flechten scheiden Flechtensäuren und andere organische Säuren direkt in ihre Unterlage aus. Diese Säuren lösen Mineralien aus dem Gestein, besonders Feldspat und Glimmer. Ein einziger Flechtencarpus kann über Jahrzehnte hinweg messbare Mengen Gestein auflösen. Die entstehenden Risse und Hohlräume werden dann von Wasser und Frost durchdrungen – die klassischen 'passiven' Verwitterungsprozesse beginnen erst nach der aktiven chemischen Arbeit der Flechten. Sie sind nicht die Nachfolger der Verwitterung, sondern ihre Initiatoren.",
+      "Ohne Flechten würde nackte Erde nie entstehen. Sie bauen in Jahrtausenden mineralische Rohstoffe in die ersten Kristalle organischer Materie um. Moose folgen, dann Gräser, dann Büsche, dann Wälder. Die Flechte ist kein Bewohner einer toten Steinwelt – sie ist der Architekt der lebenden Welt. Ihre 'schwache' Präsenz ist tatsächlich die einzige Kraft, die anorganische Materie in die Biosphäre umwandelt. Sie machen nicht das Beste aus schlechten Bedingungen – sie schaffen überhaupt erst die Bedingungen für Leben."
+    ],
+    "schon_gewusst": "Manche Flechtenarten scheiden so spezialisierte Säuren aus, dass sie nur bestimmte Gesteinsarten auflösen können – jede Flechtenart hat ihre eigene 'Speisekarte' aus Mineralien.",
+    "quelle": "Syers JK, Iskandar IK (1973): The biogeochemical cycling of plant nutrients by lichen. Ecological Bulletins 15.",
+    "quelle_url": "https://doi.org/10.1146/annurev.es.15.110184.002013",
+    "datum": "2026-10-16"
   }
 ]
