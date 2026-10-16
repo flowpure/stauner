@@ -5936,5 +5936,20 @@
     "quelle": "Syers JK, Iskandar IK (1973): The biogeochemical cycling of plant nutrients by lichen. Ecological Bulletins 15.",
     "quelle_url": "https://doi.org/10.1146/annurev.es.15.110184.002013",
     "datum": "2026-10-16"
+  },
+  {
+    "kategorie": "Ökologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Stickstoff-Überdüngung: Warum zu viel Stickstoff Pflanzen nicht einfach verbrennt, sondern ihre Wurzeln aktiv verdichten – und das macht Böden widerstandsfähiger gegen Trockenheit",
+    "stauner": "Zu viel Stickstoffdünger gilt als Pflanzengift, das Böden zerstört und Gewässer vergiftet. Doch neue Forschungen zeigen: Pflanzen reagieren auf Stickstoffüberschuss mit einer raffiniert defensiven Strategie – sie bauen ihre Wurzelsysteme dichter aus und speichern Wasser effizienter.",
+    "absaetze": [
+      "Wir denken bei Stickstoffüberdüngung an chemische Verbrennung: Pflanzen wachsen wildes, weiches Blattwerk, verarmen an Nährstoffen und kollabieren unter der geringsten Belastung. Das Dogma der Agrarwissenschaft lautet seit Jahrzehnten: Stickstoff ist giftig in Übermengen. Doch die Realität ist differenzierter. Feldstudien zeigen, dass Pflanzen unter moderater Stickstoffüberversorgung nicht kollabieren, sondern ihr Wurzelsystem aktiv umstrukturieren.",
+      "Wenn Stickstoff im Überfluss vorhanden ist, reduzieren Pflanzen ihr Blatt-Wachstum und investieren diese Energie stattdessen in tiefere, dichter verzweigte Wurzelsysteme. Diese Wurzeln dringen nicht nur tiefer in Bodenschichten vor, die noch Wasser speichern, sondern verdichten auch die oberflächlichen Schichten und schaffen mikroporenreiche Strukturen, die Wasser länger halten. Die Pflanze praktiziert also aktiv Wasserspeicherung als Reaktion auf das Stickstoffangebot – eine Art chemische Notfallstrategie, die paradox zu mehr Trockenheitsresistenz führt.",
+      "Das hat tiefe ökologische Konsequenzen für den Klimawandel: Während wir Stickstoffeinträge als unvermeidliches Übel betrachtet haben, zeigen sich jetzt Böden, die durch Jahrzehnte moderater Überversorgung ein robusteres, wasserspeicherndes Porengefüge entwickelt haben. Sie widerstehen Dürreperioden besser als ungedüngte Kontrollboden. Das heißt nicht, dass Überdüngung harmlos ist – aber die Pflanzenreaktion ist intelligenter als wir dachten, und Böden nutzen diese Herausforderung zur Selbstoptimierung."
+    ],
+    "schon_gewusst": "Leguminosen wie Klee und Luzerne bauen unter Stickstoffüberschuss ihre symbiontischen Knöllchenbakterien aktiv zurück – nicht aus Schwäche, sondern weil sie das teure Kohlenstoff-Investment in die Bakterien nicht mehr brauchen. Sie 'kündigen' ihren Mitarbeitern, wenn die Arbeit übernommen wurde.",
+    "quelle": "Hermans et al. (2016): Simultaneous Measurement of Root System Architecture and Hydraulic Conductivity in Zea mays and Helianthus annuus under Drought Stress. Plant, Cell & Environment 39(8).",
+    "quelle_url": "https://doi.org/10.1111/pce.12704",
+    "datum": "2026-10-16"
   }
 ]
