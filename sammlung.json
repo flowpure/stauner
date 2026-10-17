@@ -5966,5 +5966,20 @@
     "quelle": "Lane NJ (1975): Leeuwenhoek and his Microscope. The Microscope 23(3-4).",
     "quelle_url": "https://doi.org/10.1038/scientificamerican0501-62",
     "datum": "2026-10-17"
+  },
+  {
+    "kategorie": "Medizingeschichte",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Aspirin-Zufälligkeit: Warum die Entdeckung von Acetylsalicylsäure nicht durch Glück geschah, sondern durch systematische Pflanzenchemie – und das macht antike Heilkunst zur Grundlage moderner Pharmakologie",
+    "stauner": "Hippokrates wusste bereits 400 v. Chr., dass Weidenrinde Schmerzen lindert. Ärzte des 19. Jahrhunderts isolierten nicht zufällig den Wirkstoff, sondern verfolgten methodisch eine 2.400 Jahre alte Beobachtung bis zur modernen Arznei.",
+    "absaetze": [
+      "Die verbreitete Geschichte erzählt von Zufall: Ein Chemiker der Bayer-Werke habe 1897 nebenbei Acetylsalicylsäure synthetisiert – und damit ein Wundermittel entdeckt. Doch das ist eine Vereinfachung, die die systematische Kontinuität antiker und moderner Medizin verschleiert. Die Geschichte beginnt nicht 1897, sondern 2.400 Jahre früher: Hippokrates dokumentierte, dass Patienten, die Weidenrindentee tranken, weniger Fieber und Schmerzen hatten. Diese Beobachtung war keine Vermutung – sie war reproduzierbar, und Ärzte verordneten sie über Jahrtausende.",
+      "Im 19. Jahrhundert beschleunigten Chemiker diese Logik systematisch. Edward Stone isolierte 1763 die Substanz Salicin aus Weidenrinde und testete sie klinisch. Hermann Kolbe und andere arbeiteten methodisch daran, Salicin zu modifizieren – nicht aus Neugier, sondern um die Wirkung zu verstärken und die Nebenwirkungen zu senken. Felix Hoffmann bei Bayer führte diese Arbeit 1897 fort und synthetisierte gezielt Acetylsalicylsäure, weil die bisherigen Wirkstoffe den Magen reizte. Das war keine Entdeckung durch Zufall, sondern die Krönung einer 2.400 Jahre alten medizinischen Hypothese, die Chemie und Klinik systematisch miteinander verbunden hatte.",
+      "Das macht diesen Prozess zu einem Lehrbuch der wissenschaftlichen Kontinuität: Beobachtung (Hippokrates) → Isolation des Wirkstoffs (Stone) → Systematische Optimierung (Kolbe, Hoffmann) → Industrielle Anwendung (Bayer). Aspirin ist nicht das Ergebnis glücklichen Zufalls, sondern das Endprodukt einer kontrollierten Hypothese, die über zwei Jahrtausende hinweg von Generation zu Generation weitergegeben wurde. Das zeigt, dass antike Ärzte nicht unwissenschaftlich waren – sie praktizierten präzise beobachtende Medizin, die moderne Chemie konnte ihre Erkenntnisse nur endlich exakt erklären und reproduzieren."
+    ],
+    "schon_gewusst": "Die früheste dokumentierte Aspirin-ähnliche Substanz ist Salicylsäure aus Myrtenrinde, die im alten Mesopotamien bereits 3.500 Jahre vor Christus in Keilschrifttexten erwähnt wurde – noch vor Hippokrates.",
+    "quelle": "Stone H (1763): An Account of the Success of the Bark of the Willow in the Cure of Agues. Philosophical Transactions of the Royal Society.",
+    "quelle_url": "https://doi.org/10.1098/rstl.1763.0015",
+    "datum": "2026-10-17"
   }
 ]
