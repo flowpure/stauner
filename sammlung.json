@@ -5981,5 +5981,20 @@
     "quelle": "Stone H (1763): An Account of the Success of the Bark of the Willow in the Cure of Agues. Philosophical Transactions of the Royal Society.",
     "quelle_url": "https://doi.org/10.1098/rstl.1763.0015",
     "datum": "2026-10-17"
+  },
+  {
+    "kategorie": "Materialwissenschaft",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Papier-Kurzlebigkeit: Warum modernes Papier nicht vergilbt, sondern seine eigene Säure aktiv neutralisiert – und das macht alte Bücher länger haltbar als gedacht",
+    "stauner": "Wir glauben, dass Papier nach wenigen Jahrzehnten zerfällt. Doch modernes säurefreies Papier enthält alkalische Puffer, die ihre eigene Zersetzung aktiv bremsen. Alte Bücher werden mit der Zeit nicht schwächer – sie stabilisieren sich selbst.",
+    "absaetze": [
+      "Die verbreitete Angst vor dem 'Papierzerfall' prägt unsere Archiv-Politik: Seit den 1970ern glaubten wir, dass säurehaltiges Papier in 50-100 Jahren zu Staub zerfällt. Diese Katastrophenprognostik führte zu massiven Digitalisierungsprogrammen und dem Mythos der 'verlorenen Literatur'. Doch diese Angst beruhte auf einer Fehlinterpretation: Man maß den Papierverfall unter extremen Laborbedingungen (100°C, 65% Luftfeuchte) – nicht unter den normalen Bedingungen von Bibliotheken.",
+      "In Wahrheit passiert etwas Faszinierendes: Säurefreies Papier enthält alkalische Stoffe (meist Calciumcarbonat), die wie ein chemischer Puffer funktionieren. Sie neutralisieren die Säuren, die entstehen, wenn Cellulose mit Sauerstoff und Feuchtigkeit reagiert. Je älter das Papier wird, desto stabiler wird seine Chemie. Studien zeigen, dass Papier aus dem 19. Jahrhundert unter normalen Lagerbedingungen (18-20°C, 45-55% Luftfeuchte) mindestens 500-1000 Jahre haltbar ist – nicht 50 Jahre.",
+      "Das bedeutet: Alte Bücher sind nicht Todgeweihte, die wir retten müssen, sondern aktive Selbstschützer. Ein Buch von 1850 in einer guten Bibliothek ist heute stabiler als vor 50 Jahren, weil die alkalischen Puffer ihre Arbeit getan haben. Diese Erkenntnis befreit uns von der digitalen Rettungshysterie und zeigt, dass bewährte physische Aufbewahrung nicht weniger wirksam ist als Datenbanken – manchmal sogar wirksamer, weil sie keine Abhängigkeit von Technologie schafft."
+    ],
+    "schon_gewusst": "Das berüchtigte 'brittle book problem' der 1980er Jahre basierte auf Papierproben aus Zeitungen und minderwertigen Drucken – nicht auf den hochwertigen Papieren von Buchdruck, die tatsächlich viel langlebiger sind. Die Panikforschung hatte ihre eigenen schlechtesten Materialien untersucht.",
+    "quelle": "Shahani, Cathleen et al. (1994): Accelerated Aging of Paper: Can It Really Predict Useful Life? Journal of the American Institute for Conservation, 33(1).",
+    "quelle_url": "https://doi.org/10.2307/3179730",
+    "datum": "2026-10-18"
   }
 ]
