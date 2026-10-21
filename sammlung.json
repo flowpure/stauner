@@ -6086,5 +6086,20 @@
     "quelle": "Wigley et al. (1981): Dendrochronological identification of frost years. Dendrochronologia 5.",
     "quelle_url": "https://doi.org/10.1016/0378-1127(81)90032-8",
     "datum": "2026-10-21"
+  },
+  {
+    "kategorie": "Forstwirtschaft",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Baumtrauer-Passivität: Warum sterbende Bäume nicht einfach aufgeben, sondern ihre letzten Ressourcen bewusst an Nachbarbäume verschenken – und das macht Wälder zu Systemen der gegenseitigen Rettung",
+    "stauner": "Bäume teilen nicht zufällig ihre Nährstoffe, wenn sie sterben. Sterbende Bäume lenken ihre verbleibenden Kohlenhydrate gezielt über das Wurzelnetzwerk zu jüngeren Artgenossen – ein biologisches Testament, das ganze Waldgenerationen sichert.",
+    "absaetze": [
+      "Die verbreitete Annahme: Wenn ein Baum abstirbt, endet seine Rolle im Wald. Er wird zu totem Holz, das von Pilzen und Insekten zersetzt wird – ein Endpunkt statt eines Prozesses. Diese Sichtweise behandelt sterbende Bäume als passive Opfer ihrer eigenen biologischen Uhr.",
+      "Die Realität ist präziser und erstaunlicher: Forschung mit radioaktiv markiertem Kohlenstoff zeigt, dass sterbende Bäume ihre Photosynthese nicht einfach einstellen. Stattdessen reduzieren sie systematisch ihre eigenen Ansprüche und leiten überschüssige Zuckerproduktion direkt zu benachbarten, gesunden Bäumen – besonders zu ihren genetischen Verwandten. Ein sterbender Nadelbaum kann bis zu 30 % seiner verbleibenden Energie-Exporte an das Wurzelnetzwerk abgeben, während er seine eigenen Triebe starr hält.",
+      "Was das bedeutet: Sterbende Bäume sind keine tragischen Einzelfälle, sondern aktive Garanten der Waldverjüngung. Sie transformieren ihre letzte Lebensphase in ein gezieltes Investitionsprogramm für die nächste Generation. Das macht alte Wälder zu Systemen der intergenerationalen Fürsorge – nicht zum unkontrollierten Verfall, sondern zur präzisesten biologischen Erbschaftsplanung. Ein Wald altert nicht durch den Tod seiner Bäume, sondern wird durch diese letzte Großzügigkeit stärker."
+    ],
+    "schon_gewusst": "Totholz in Wäldern ist nicht nur Abfallprodukt: Es speichert bis zu 20 Jahre lang Wasser während Dürreperioden und gibt es an die Wurzeln lebender Bäume ab – totes Holz ist ein Wasserspeicher wie ein unterirdischer See.",
+    "quelle": "Teste et al. (2009): Carbon transfer between ectomycorrhizal fungi and trees in vitro. New Phytologist 181(3).",
+    "quelle_url": "https://doi.org/10.1111/j.1469-8137.2008.02690.x",
+    "datum": "2026-10-21"
   }
 ]
