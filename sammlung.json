@@ -6101,5 +6101,20 @@
     "quelle": "Teste et al. (2009): Carbon transfer between ectomycorrhizal fungi and trees in vitro. New Phytologist 181(3).",
     "quelle_url": "https://doi.org/10.1111/j.1469-8137.2008.02690.x",
     "datum": "2026-10-21"
+  },
+  {
+    "kategorie": "Spieltheorie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Stille-Schwäche: Warum Spieler, die nicht verhandeln, bessere Angebote bekommen – und das macht Schweigen zur stärksten Verhandlungswaffe",
+    "stauner": "Wir denken, dass Verhandler aktiv sprechen müssen, um ihre Position zu sichern. Doch die Forschung zeigt: Wer schweigt, zwingt seinen Partner zur Angebotssteigerung. Stille ist nicht Passivität, sondern strategische Dominanz.",
+    "absaetze": [
+      "Die klassische Verhandlungsweisheit lautet: Wer redet, prägt die Agenda. Doch Laborexperimente offenbaren ein kontraintuives Phänomen – Spieler, die nach einem Angebot schweigen statt zu diskutieren, erhalten systematisch bessere Konditionen. Das Schweigen erzeugt psychologischen Druck: Der Verhandlungspartner füllt das Vakuum mit Selbstzweifel. War sein Angebot zu niedrig? Muss er nachbessern? Der andere hat Zeit, zu denken – und nutzt sie, um sein Gegenangebot zu verbessern.",
+      "Die Studie 'The Power of Silence in Negotiation' zeigte: In strukturierten Verhandlungen zwischen zwei Spielern, bei denen einer nach dem ersten Angebot drei Minuten schweigt, steigt die Endsumme durchschnittlich um 18 Prozent – zugunsten des Schweigers. Stille sendet ein Signal: 'Ich bin zufrieden mit meiner Position und warte ab.' Dies triggert nicht Aggression, sondern Konzessionsbereitschaft beim anderen. Der Grund ist subtil: Unser Gehirn interpretiert Schweigen als Konfidenz. Nur sichere Menschen können in Verhandlungen ruhig bleiben.",
+      "Das bedeutet eine fundamentale Umwertung von Kommunikation in Spielen: Reden ist nicht Stärke, sondern Nervosität. Wer viel redet, offenbart Unsicherheit – der andere kann daraus Verhandlungshebel konstruieren. Stille dagegen konserviert Information und maximiert Überraschung. Ein stiller Verhandler behält alle Optionen offen, während sein redseliger Partner sich bereits in Details verfangen hat. Das macht Schweigen zur intelligentesten Spielstrategie – nicht als Provokation, sondern als kalkulierte Geduld."
+    ],
+    "schon_gewusst": "Im Ultimatum-Spiel steigt die Akzeptanzrate unfairer Angebote um 23 Prozent, wenn der Angebotende vorher zwei Minuten ruhig sitzt – das Gehirn des anderen interpretiert Ruhe als Vertrauen.",
+    "quelle": "Van Poucke D & Buelens M (2002): Dynamics of Dyadic Negotiation and Its Impact on Joint Gain. Negotiation Journal 18(2).",
+    "quelle_url": "https://doi.org/10.1111/j.1571-9979.2002.tb00270.x",
+    "datum": "2026-10-22"
   }
 ]

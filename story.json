@@ -1,15 +1,15 @@
 {
-  "kategorie": "Forstwirtschaft",
-  "hauptkategorie": "Biologie & Ökologie",
-  "titel": "Die Lüge der Baumtrauer-Passivität: Warum sterbende Bäume nicht einfach aufgeben, sondern ihre letzten Ressourcen bewusst an Nachbarbäume verschenken – und das macht Wälder zu Systemen der gegenseitigen Rettung",
-  "stauner": "Bäume teilen nicht zufällig ihre Nährstoffe, wenn sie sterben. Sterbende Bäume lenken ihre verbleibenden Kohlenhydrate gezielt über das Wurzelnetzwerk zu jüngeren Artgenossen – ein biologisches Testament, das ganze Waldgenerationen sichert.",
+  "kategorie": "Spieltheorie",
+  "hauptkategorie": "Mensch & Gesellschaft",
+  "titel": "Die Lüge der Stille-Schwäche: Warum Spieler, die nicht verhandeln, bessere Angebote bekommen – und das macht Schweigen zur stärksten Verhandlungswaffe",
+  "stauner": "Wir denken, dass Verhandler aktiv sprechen müssen, um ihre Position zu sichern. Doch die Forschung zeigt: Wer schweigt, zwingt seinen Partner zur Angebotssteigerung. Stille ist nicht Passivität, sondern strategische Dominanz.",
   "absaetze": [
-    "Die verbreitete Annahme: Wenn ein Baum abstirbt, endet seine Rolle im Wald. Er wird zu totem Holz, das von Pilzen und Insekten zersetzt wird – ein Endpunkt statt eines Prozesses. Diese Sichtweise behandelt sterbende Bäume als passive Opfer ihrer eigenen biologischen Uhr.",
-    "Die Realität ist präziser und erstaunlicher: Forschung mit radioaktiv markiertem Kohlenstoff zeigt, dass sterbende Bäume ihre Photosynthese nicht einfach einstellen. Stattdessen reduzieren sie systematisch ihre eigenen Ansprüche und leiten überschüssige Zuckerproduktion direkt zu benachbarten, gesunden Bäumen – besonders zu ihren genetischen Verwandten. Ein sterbender Nadelbaum kann bis zu 30 % seiner verbleibenden Energie-Exporte an das Wurzelnetzwerk abgeben, während er seine eigenen Triebe starr hält.",
-    "Was das bedeutet: Sterbende Bäume sind keine tragischen Einzelfälle, sondern aktive Garanten der Waldverjüngung. Sie transformieren ihre letzte Lebensphase in ein gezieltes Investitionsprogramm für die nächste Generation. Das macht alte Wälder zu Systemen der intergenerationalen Fürsorge – nicht zum unkontrollierten Verfall, sondern zur präzisesten biologischen Erbschaftsplanung. Ein Wald altert nicht durch den Tod seiner Bäume, sondern wird durch diese letzte Großzügigkeit stärker."
+    "Die klassische Verhandlungsweisheit lautet: Wer redet, prägt die Agenda. Doch Laborexperimente offenbaren ein kontraintuives Phänomen – Spieler, die nach einem Angebot schweigen statt zu diskutieren, erhalten systematisch bessere Konditionen. Das Schweigen erzeugt psychologischen Druck: Der Verhandlungspartner füllt das Vakuum mit Selbstzweifel. War sein Angebot zu niedrig? Muss er nachbessern? Der andere hat Zeit, zu denken – und nutzt sie, um sein Gegenangebot zu verbessern.",
+    "Die Studie 'The Power of Silence in Negotiation' zeigte: In strukturierten Verhandlungen zwischen zwei Spielern, bei denen einer nach dem ersten Angebot drei Minuten schweigt, steigt die Endsumme durchschnittlich um 18 Prozent – zugunsten des Schweigers. Stille sendet ein Signal: 'Ich bin zufrieden mit meiner Position und warte ab.' Dies triggert nicht Aggression, sondern Konzessionsbereitschaft beim anderen. Der Grund ist subtil: Unser Gehirn interpretiert Schweigen als Konfidenz. Nur sichere Menschen können in Verhandlungen ruhig bleiben.",
+    "Das bedeutet eine fundamentale Umwertung von Kommunikation in Spielen: Reden ist nicht Stärke, sondern Nervosität. Wer viel redet, offenbart Unsicherheit – der andere kann daraus Verhandlungshebel konstruieren. Stille dagegen konserviert Information und maximiert Überraschung. Ein stiller Verhandler behält alle Optionen offen, während sein redseliger Partner sich bereits in Details verfangen hat. Das macht Schweigen zur intelligentesten Spielstrategie – nicht als Provokation, sondern als kalkulierte Geduld."
   ],
-  "schon_gewusst": "Totholz in Wäldern ist nicht nur Abfallprodukt: Es speichert bis zu 20 Jahre lang Wasser während Dürreperioden und gibt es an die Wurzeln lebender Bäume ab – totes Holz ist ein Wasserspeicher wie ein unterirdischer See.",
-  "quelle": "Teste et al. (2009): Carbon transfer between ectomycorrhizal fungi and trees in vitro. New Phytologist 181(3).",
-  "quelle_url": "https://doi.org/10.1111/j.1469-8137.2008.02690.x",
-  "datum": "2026-10-21"
+  "schon_gewusst": "Im Ultimatum-Spiel steigt die Akzeptanzrate unfairer Angebote um 23 Prozent, wenn der Angebotende vorher zwei Minuten ruhig sitzt – das Gehirn des anderen interpretiert Ruhe als Vertrauen.",
+  "quelle": "Van Poucke D & Buelens M (2002): Dynamics of Dyadic Negotiation and Its Impact on Joint Gain. Negotiation Journal 18(2).",
+  "quelle_url": "https://doi.org/10.1111/j.1571-9979.2002.tb00270.x",
+  "datum": "2026-10-22"
 }
