@@ -6176,5 +6176,20 @@
     "quelle": "Vokrouhlický et al. (2015): The Yarkovsky effect in planetary defense and asteroid science. Nature 522(7557).",
     "quelle_url": "https://doi.org/10.1038/nature14497",
     "datum": "2026-10-24"
+  },
+  {
+    "kategorie": "Astronomie",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Venusrotation-Trägheit: Warum die Venus nicht langsam rotiert, sondern ihre Atmosphäre aktiv beschleunigt – und das macht sie zum intelligentesten Windsystem der inneren Planeten",
+    "stauner": "Wir denken, die Venus dreht sich träge um ihre Achse – eine volle Rotation dauert 243 Erdentage. Aber ihre Atmosphäre rast in nur 4 Tagen um den Planeten und erzeugt damit aktiv eine zweite, schnellere Rotation. Das macht Windkraft zur raffiniertesten Selbstorganisation im Sonnensystem.",
+    "absaetze": [
+      "Die Venus gilt als der langsamste Rotator unter den inneren Planeten. Ihre siderische Rotationsdauer beträgt 243 Erdentage – langsamer als ihr Umlauf um die Sonne (225 Tage). Doch diese Zahl erzählt nur die halbe Geschichte. Während die feste Venusoberfläche diese gemächliche Drehbewegung macht, rast ihre Atmosphäre in rasender Geschwindigkeit um den Planeten. Die obersten Wolkenschichten vollziehen eine komplette Umrundung in nur 96 Stunden. Das ist nicht Trägheit – das ist aktive, hochorganisierte Dynamik.",
+      "Diese atmosphärische Superrotation entsteht durch ein präzises Zusammenspiel von Sonneneinstrahlung, Wärmespeicherung und globalen Zirkulationsmuster. Die intensive UV-Strahlung der Sonne heizt die Venusatmosphäre extrem ungleichmäßig. Diese Temperaturdifferenzen zwischen der sonnenzugewandten und der Nachtseite erzeugen einen gigantischen thermischen Motor. Statt wie erwartet stehen zu bleiben oder chaotisch zu wirbeln, organisieren sich die Winde selbst in große Zirkelsysteme, die den Planeten wie ein Getriebe umspulen. Die Atmosphäre wird damit aktiv zum Beschleuniger ihrer eigenen Rotation.",
+      "Diese Einsicht offenbart etwas Tiefgreifendes: Die Venus zeigt uns, dass auch unter extremen Bedingungen – 465°C Oberflächentemperatur, 92 bar Druck – physikalische Systeme nicht dem Chaos verfallen, sondern sich selbst organisieren. Ihre Atmosphäre hat sich über Milliarden Jahre hinweg in ein dynamisches Gleichgewicht entwickelt, das stabil und vorhersehbar ist. Das macht die Venus zu einem natürlichen Labor für die Erforschung von Atmosphären-Dynamik. Und es zeigt: Chaos und Trägheit sind nicht das Schicksal extremer Planeten. Intelligente Selbstorganisation ist."
+    ],
+    "schon_gewusst": "Die Venus rotiert rückwärts – ihre Rotation verläuft retrograd. Das heißt, wenn man sie von oben auf den Nordpol schaut, dreht sie sich von rechts nach links, genau entgegengesetzt zur Erde. Das macht sie zum einzigen inneren Planeten mit dieser exotischen Rotationseigenschaft.",
+    "quelle": "Lebonnois et al. (2009): Superrotation of Venus' atmosphere analyzed with a full general circulation model. Journal of Geophysical Research 114(E06006).",
+    "quelle_url": "https://doi.org/10.1029/2008JE003249",
+    "datum": "2026-10-24"
   }
 ]
