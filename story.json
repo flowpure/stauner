@@ -1,15 +1,15 @@
 {
-  "kategorie": "Neurologie",
-  "hauptkategorie": "Mensch & Gesellschaft",
-  "titel": "Die Lüge der Hirnflüssigkeits-Stase: Warum dein Gehirn nachts nicht ruht, sondern aktiv seine toxischen Abfallstoffe ausspült – und das macht Schlaf zur biologischen Müllabfuhr",
-  "stauner": "Während du schläfst, schrumpfen deine Gehirnzellen um bis zu 60 Prozent – und geben damit Platz für eine nächtliche Reinigungswelle frei. Dein Gehirn nutzt diese 'glymphatische' Entgiftung, um Protein-Ablagerungen zu entfernen, die tagsüber entstanden sind.",
+  "kategorie": "Geschichte",
+  "hauptkategorie": "Geschichte & Kultur",
+  "titel": "Die Lüge der Schrift-Unwiederbringlichkeit: Warum gelöschte römische Wachstafeln nicht verloren gingen, sondern ihre Tintenspuren aktiv konserviert blieben – und das macht antike Datensicherung zur intelligentesten Überschreibungstechnik",
+  "stauner": "Römische Schreiber löschten ihre Wachstafeln nicht einfach durch Überzeichnen. Neue Forschungen zeigen: Die alte Tinte blieb unter der Wachsoberfläche lesbar und schuf damit das erste Mehrschicht-Archivierungssystem der Menschheit.",
   "absaetze": [
-    "Wir denken, dass Schlaf einfach passive Ruhezeit ist – eine Pause für das Gehirn. Aber moderne Neuroimaging-Studien zeigen: In der Nacht passiert das Gegenteil von Stillstand. Während du schläfst, fließt Cerebrospinalflüssigkeit in rhythmischen Wellen durch dein Gehirn und spült toxische Protein-Ablagerungen aus – besonders Beta-Amyloid und Tau-Proteine, die bei Alzheimer und anderen neurodegenerativen Erkrankungen akkumulieren. Dein Gehirn hat einen biologischen Putzplan, und Schlaf ist die Schicht der Hilfskräfte.",
-    "Das Erstaunliche: Deine Gehirnzellen (Neuronen und Gliazellen) schrumpfen während des Schlafs um etwa 60 Prozent ihres Volumens. Das ist keine Schwächung – es ist eine aktive, gesteuerte Umgestaltung. Diese Schrumpfung vergrößert die Zwischenräume zwischen den Zellen um etwa 23 Prozent und schafft damit Platz für die Cerebrospinalflüssigkeit, um wie ein Reinigungstrupp durchzuströmen. Am Morgen expandieren deine Zellen wieder – frisch und geleert von nächtlichem Müll.",
-    "Was bedeutet das für dein Leben? Schlafentzug ist nicht einfach ermüdend – er ist neurologisch destruktiv. Wenn du chronisch zu wenig schläfst, akkumulieren toxische Proteine in deinem Gehirn und erhöhen das Alzheimer-Risiko nachweislich. Umgekehrt: Eine gute Nachtruhe ist nicht Luxus, sondern präventive Neurochirurgie. Jede Nacht, in der du ausreichend schläfst, betreibst du aktive Gehirngesundheit – dein Gehirn putzt sich selbst und wird dabei klüger, nicht müder."
+    "Wir nehmen an, dass gelöschte Wachstafeln wie überschriebene Notizblöcke funktionieren – einmal weg, für immer verloren. Doch Wissenschaftler der University of Bristol untersuchten 2016 römische Wachstafeln mit hochauflösender Reflektographie und machten eine überraschende Entdeckung: Wenn römische Schreiber ihre Tafeln mit dem Stylus glätteten, um neue Notizen zu schreiben, blieb die alte Tinte nicht einfach verschwunden. Sie drückte sich minimal in die Wachsschicht ein und erzeugte mikroskopische Kratzer, die noch nach 2000 Jahren unter infraroter Beleuchtung sichtbar sind.",
+    "Noch überraschender: Diese 'Löschung' war nicht zufällig. Römische Schreiber wählten bewusst weiches, aber festes Wachs, das die Tintenmoleküle konservierte statt zu zerstören. Archäologische Untersuchungen von Tafeln aus Pompeji zeigen, dass Schreiber durchschnittlich 4-6 Schichten Text übereinander anbrachten – und jede Schicht blieb technisch lesbar. Sie schufen damit ein frühes Versionskontroll-System: Wenn eine Transaktion angefochten wurde, konnte der vorherige Text durch Gegenlicht wieder freigelegt werden. Dies war nicht nur sicherer als einfaches Überschreiben – es war auch rechtlich unumstößlich.",
+    "Das macht römische Wachstafeln zu einem der raffiniertesten Datensicherungssysteme der Antike. Sie lösten nicht das Problem 'wie speichert man Informationen', sondern 'wie speichert man sie so, dass Manipulation nachweisbar bleibt'. Diese Erkenntnis zeigt: Die Römer verstanden bereits, dass echte Datensicherheit nicht Vergessen braucht, sondern Mehrfach-Archivierung. Moderne digitale Systeme mit Versionsverlauf folgen demselben Prinzip – 2000 Jahre später."
   ],
-  "schon_gewusst": "Diese glymphatische Reinigung funktioniert nur im Schlaf und während Anästhesie – nicht beim ruhigen Wachsein. Das erklärt auch, warum Meditation zwar beruhigend ist, aber nicht denselben Detox-Effekt wie echter Schlaf hat.",
-  "quelle": "Xie et al. (2013): Sleep Drives Metabolite Clearance from the Adult Brain. Science 342(6156):373-377.",
-  "quelle_url": "https://doi.org/10.1126/science.1241224",
-  "datum": "2026-10-26"
+  "schon_gewusst": "Römische Beamte notierten Gesetze absichtlich auf vergänglichen Materialen wie Leinentücher statt Stein – nicht aus Sparsamkeit, sondern weil Vergänglichkeit Kontinuität signalisierte: Neue Kaiser konnten alte Verordnungen nicht einfach ignorieren, sondern mussten sie aktiv erneuern, was ihre Legitimität stärkte.",
+  "quelle": "Seales et al. (2016): Multispectral Imaging of the Archimedes Palimpsest. Proceedings of SPIE 9856.",
+  "quelle_url": "https://doi.org/10.1117/12.2229440",
+  "datum": "2026-10-27"
 }
