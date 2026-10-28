@@ -6281,5 +6281,20 @@
     "quelle": "Ifrah, Georges (1998): The Universal History of Numbers. From Prehistory to the Invention of the Computer. Wiley.",
     "quelle_url": "https://doi.org/10.1002/0471234990",
     "datum": "2026-10-27"
+  },
+  {
+    "kategorie": "Meeresbiologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Fisch-Schuppenschutzlosigkeit: Warum Fischschuppen nicht einfach Rüstung sind, sondern aktiv Druck absorbieren – und das macht sie zu den intelligentesten Stoßdämpfern der Natur",
+    "stauner": "Fischschuppen sind nicht bloße starre Panzerung. Sie bilden ein hochflexibles Kompositmaterial, das Stoßkräfte verteilt und dabei wächst – eine Technik, die moderne Rüstungsingenieure erst jetzt kopieren.",
+    "absaetze": [
+      "Wir stellen uns Fischschuppen als starre, übereinanderliegende Plättchen vor – eine primitive Rüstung, die den Fisch vor Raubtieren schützt. Doch diese Vorstellung ist grundlegend falsch. Fischschuppen sind hochkomplexe biologische Laminate, die aus mehreren Schichten bestehen: einer äußeren Schicht aus Hydroxylapatit (dasselbe Mineral wie in unseren Knochen), einer mittleren elastischen Schicht aus Kollagen und einer inneren, gelartigen Matrix.",
+      "Diese Struktur ermöglicht etwas Faszinierendes: Wenn ein Fisch angegriffen wird, absorbieren die Schuppen nicht nur die Kraft – sie verteilen sie aktiv in alle Richtungen ab. Die äußere mineralische Schicht nimmt den Aufprall auf, die mittlere Kollagenschicht leitet die Kraft weiter ab, und die innere Matrix dämpft die restliche Energie. Das Ergebnis ist ein Material, das 100-mal flexibler ist als die einzelnen Komponenten allein. Moderne Rüstungstechniker versuchen jetzt, diese Architektur in Kevlar- und Keramik-Verbundstoffe zu übersetzen – mit begrenztem Erfolg.",
+      "Noch erstaunlicher: Fischschuppen wachsen kontinuierlich mit dem Fisch mit und reparieren mikroskopische Risse durch biologische Mineralisierung. Sie schaffen nicht nur Schutz – sie erschaffen ein lebendiges, sich selbst verstärkendes Schutzsystem, das stärker wird, je häufiger es angegriffen wird. Das macht Fischschuppen nicht zu einer Rüstung, sondern zu einem biomimetischen Meisterwerk der adaptiven Verteidigung."
+    ],
+    "schon_gewusst": "Einige Fische wie der Arapaima können ihre Schuppen gezielt abspreizen, um größer zu wirken – sie nutzen ihre Rüstung als akustisches Instrument und Signalsystem gleichzeitig.",
+    "quelle": "Zhu et al. (2012): Mechanical properties of zebrafish scales. Journal of the Mechanical Behavior of Biomedical Materials Band 7.",
+    "quelle_url": "https://doi.org/10.1016/j.jmbbm.2011.05.001",
+    "datum": "2026-10-28"
   }
 ]
