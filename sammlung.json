@@ -6357,5 +6357,20 @@
     "quelle": "Raichle ME et al. (2001): A default mode of brain function. Proceedings of the National Academy of Sciences. 98(2).",
     "quelle_url": "https://doi.org/10.1073/pnas.98.2.676",
     "datum": "2026-10-30"
+  },
+  {
+    "kategorie": "Psychologie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Vergessens-Schwelle: Warum du Informationen, die du zu schnell lernst, schneller vergisst – und warum Langsam-Lernen dein Gedächtnis verdreifacht",
+    "stauner": "Je schneller du etwas lernst, desto schneller vergisst du es wieder – das ist das Gegenteil von dem, was die meisten Menschen denken. Dein Gehirn braucht nicht Wiederholung, sondern Verzögerung zwischen den Lernschritten. Dieser 'Spacing Effect' verwandelt kurzfristiges Wissen in lebenslange Meisterschaft.",
+    "absaetze": [
+      "Wir glauben, dass intensive Lernphasen – Cramming vor Prüfungen, stundenlange Trainings-Marathons – das Gedächtnis am meisten stärken. Doch neurowissenschaftliche Studien zeigen das Gegenteil: Wenn Informationen in komprimierter Form aufgenommen werden, aktiviert dein Gehirn nur oberflächliche Verarbeitungsprozesse. Der präfrontale Kortex (zuständig für Langzeitspeicherung) bleibt dabei vergleichsweise inaktiv. Die Information wird schnell ins Kurzzeitgedächtnis gepresst und genauso schnell wieder vergessen.",
+      "Der entscheidende Unterschied liegt im 'Spacing': Wenn du denselben Lernstoff mehrfach mit zeitlichen Abständen wiederholst – idealerweise: nach 1 Tag, dann nach 3 Tagen, dann nach einer Woche – aktiviert dein Gehirn einen völlig anderen Speicherprozess. Jedes Mal, wenn du das Gelernte 'wieder hervorholst', muss dein Hippocampus es neu konsolidieren. Diese wiederholte Anstrengung des Abrufens stärkt die synaptischen Verbindungen exponentiell. Nach mehreren optimal verteilten Wiederholungen kann die Erinnerungsrate von 50% beim Cramming auf über 90% steigen – und das Wissen bleibt Jahre erhalten.",
+      "Diese Erkenntnis macht Geduld beim Lernen zur intellektuellen Superpower. Menschen, die bewusst langsam lernen – die ihre Lerneinheiten auf Wochen verteilen statt sie in eine Nacht zu pressen – bauen nicht nur stärkere Erinnerungen auf, sondern auch tiefere Verständnisstrukturen. Ihr Gehirn nutzt die Zeit zwischen den Lernphasen, um Verbindungen zu anderen Wissensbereichen herzustellen. Das Resultat: Langsameres Lernen führt nicht nur zu besserer Retention, sondern zu echter Expertise – weil das Wissen in ein breiteres kognitives Netzwerk integriert wird."
+    ],
+    "schon_gewusst": "Der Spacing Effect funktioniert auch rückwärts: Wenn du etwas SEHR lange nicht wiederholst (über Monate), und dann plötzlich wieder abrufst, ist die Erinnerung nicht schwächer – sondern sogar robuster, weil dein Gehirn beim Wiederabruf eine noch stärkere synaptische Rekonditionierung durchführt. Diesen Effekt nennt man 'Spontaneous Recovery'.",
+    "quelle": "Cepeda et al. (2006): Distributed practice in verbal recall tasks: A review and quantitative synthesis. Psychological Bulletin 132(3).",
+    "quelle_url": "https://doi.org/10.1037/0033-2909.132.3.354",
+    "datum": "2026-10-30"
   }
 ]
