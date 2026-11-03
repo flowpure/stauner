@@ -6477,5 +6477,20 @@
     "quelle": "Borgestäl, D. O. (2018): Lexical Frequency and Political Persuasion: Why Less Is More in Public Discourse. Journal of Communication Studies, 45(3).",
     "quelle_url": "https://doi.org/10.1080/21689725.2018.1442891",
     "datum": "2026-11-03"
+  },
+  {
+    "kategorie": "Linguistik",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Laut-Universalität: Warum Babys nicht alle Laute ihrer Muttersprache hören – sondern ihr Gehirn aktiv fremde Laute ausblendet – und das macht Sprache zur intelligentesten Filtermaschine",
+    "stauner": "Neugeborene hören anfangs ALLE Laute aller Sprachen der Welt. Doch bereits mit 6 Monaten löscht ihr Gehirn systematisch die irrelevanten Laute. Diese 'Hörverschlechterung' ist eigentlich die raffinierteste Optimierungsstrategie des menschlichen Gehirns.",
+    "absaetze": [
+      "Wir denken, dass Babys ihre Muttersprache 'von Geburt an' verstehen lernen. Tatsächlich werden Neugeborene mit einer universalen Hörkompetenz geboren – sie unterscheiden ALLE phonetischen Kontraste aller Sprachen gleich gut, ob Japanisch, Arabisch oder Suaheli. Diese auditive Demokratie ist jedoch nicht das Ziel, sondern der Ausgangspunkt.",
+      "In den ersten Monaten durchläuft das Kinderhirn einen präzise gesteuerten Prozess namens 'phonetic narrowing'. Das Gehirn zählt die Häufigkeit von Lautkontrasten in der Umgebungssprache und deaktiviert buchstäblich die neuronalen Pfade für irrelevante Unterscheidungen. Ein japanisches Baby verliert um Monat 12 die Fähigkeit, zwischen 'l' und 'r' zu unterscheiden – nicht weil sein Ohr schlechter wird, sondern weil sein Gehirn diese Unterscheidung als nutzlos klassifiziert hat und die Ressourcen spart.",
+      "Diese selektive 'Hörverschlechterung' ist in Wahrheit die intelligenteste Überlebensstrategie für Spracherwerb: Indem das Gehirn systematisch Lautkontraste eliminiert, die in der eigenen Sprache nicht bedeutsam sind, optimiert es die neuronalen Ressourcen für die Laute, die zählen. Ein Baby mit beschränktem Hörvermögen lernt seine Sprache SCHNELLER und SICHERER als ein Baby, das alle Laute unterscheidet. Die Limitierung ist die Perfektion. Zweisprachig aufwachsende Babys zeigen diesen Effekt viel später oder gar nicht – ihr Gehirn behält diese auditive Flexibilität als Strategie bei, weil beide Sprachen präsent sind."
+    ],
+    "schon_gewusst": "Erwachsene, die eine neue Sprache lernen, können diesen 'phonetic narrowing'-Prozess teilweise rückgängig machen – aber es braucht intensive, wiederholte Exposition über Monate. Das erklärt, warum wir Akzente behalten: Unser Gehirn hat die neuronalen Kanäle bereits geschlossen und rationalisiert, dass es energieeffizienter ist, die neue Sprache durch den Filter der alten zu sprechen.",
+    "quelle": "Werker & Tees (1984): Cross-language speech perception: Evidence for perceptual reorganization during the first year of life. Infant Behavior and Development 7(1).",
+    "quelle_url": "https://doi.org/10.1016/S0163-6383(84)80024-3",
+    "datum": "2026-11-03"
   }
 ]
