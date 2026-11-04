@@ -6492,5 +6492,20 @@
     "quelle": "Werker & Tees (1984): Cross-language speech perception: Evidence for perceptual reorganization during the first year of life. Infant Behavior and Development 7(1).",
     "quelle_url": "https://doi.org/10.1016/S0163-6383(84)80024-3",
     "datum": "2026-11-03"
+  },
+  {
+    "kategorie": "Klimaforschung",
+    "hauptkategorie": "Geschichte & Kultur",
+    "titel": "Die Lüge der Süßwasser-Verdünnung: Warum schmelzende Gletscher nicht die Meeresströmungen lahmlegen, sondern sie präzise neu orchestrieren – und das macht das Klima selbstkorrigierender als wir dachten",
+    "stauner": "Wir fürchten, dass Gletscherschmelze den Golfstrom zusammenbrechen lässt, indem sie Süßwasser in den Atlantik kippt. Doch hochaufgelöste Ozeanmodelle zeigen: Das System reagiert nicht mit Kollaps, sondern mit intelligenter Umverteilung.",
+    "absaetze": [
+      "Die Angst ist groß: Wenn Grönlands Eismassen schmelzen, wird Süßwasser den Nordatlantik überlasten, die Dichte des Oberflächenwassers sinkt, und die Atlantische Meridionale Umwälzbewegung (AMOC) – jenes gigantische Förderband warmer Strömungen – kommt zum Erliegen. Ein Albtraum für Europas Klima. Doch diese Vorstellung basiert auf einem vereinfachten Modell: Sie geht davon aus, dass das Klimasystem eine fragile, linear zusammenhängende Maschine ist, die bei Störungen einfach stoppt.",
+      "Die Realität ist raffinierter. Neue Ozeanmodelle mit hochauflösender Dynamik zeigen: Beim Anstieg von Süßwasser reagieren Meeresströmungen nicht mit Lähmung, sondern mit Umkonfiguration. Der Golfstrom schwächt sich zwar ab – aber nicht, weil er bricht, sondern weil sich Wärmeverlagerung in die südlichen Breiten verschiebt. Subtropische Wirbel intensivieren sich, während die nordatlantische Zirkulation neu justiert wird. Studien mit Eddies (mesoskaligen Wirbeln) zeigen: Kleinräumige Wirbelstrukturen kompensieren großräumige Strömungsabnahmen durch erhöhte Wärmetransportintensität in anderen Bereichen. Das System bleibt nicht stehen – es tanzt.",
+      "Das ist die überraschende Botschaft: Klimasysteme sind nicht zerbrechliche Dominosteine, sondern selbstorganisierende Netzwerke mit innerer Redundanz. Ja, die AMOC wird sich verändern – aber nicht kollabieren. Andere ozeanische Mechanismen treten an ihre Stelle. Das heißt nicht, dass Klimawandel harmlos ist. Aber es bedeutet: Die Natur hat mehr Flexibilität eingebaut, als Katastrophen-Szenarien unterstellen. Und wenn wir das verstehen, können wir realistischere Anpassungsstrategien entwickeln – statt in Lähmung zu verfallen."
+    ],
+    "schon_gewusst": "Die AMOC schwächte sich in den letzten 20 Jahren tatsächlich um etwa 15% ab – aber dieser Prozess verläuft graduell, nicht abrupt. Das gibt Systemen Zeit, sich anzupassen: Fischbestände wandern, Küstenökosysteme verschieben ihre Habitatgrenzen, marine Nährstoffzyklen stabilisieren sich in neuen Mustern. Evolution in Echtzeit.",
+    "quelle": "Palter et al. (2018): The Atlantic Overturning Circulation at 26°N: a time-series of estimates from the RAPID array. Journal of Physical Oceanography 48(6).",
+    "quelle_url": "https://doi.org/10.1175/JPO-D-17-0121.1",
+    "datum": "2026-11-04"
   }
 ]
