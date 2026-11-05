@@ -6537,5 +6537,20 @@
     "quelle": "Jablonka & Lamb (2005): Evolution in Four Dimensions. MIT Press.",
     "quelle_url": "https://mitpress.mit.edu/9780262600728/evolution-in-four-dimensions/",
     "datum": "2026-11-05"
+  },
+  {
+    "kategorie": "Mikrobiologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Bakterien-Zeitkapsel: Warum Sporen nicht einfach warten, sondern aktiv transkribieren – und das macht Überleben zur intelligentesten Vorausplanung",
+    "stauner": "Bakteriensporen gelten als biologische Zeitbomben – metabolisch tot, unbewusst, wartend. Doch neue Messungen zeigen: Selbst in vollständiger Dormanz schreiben Sporen aktiv ihre Gene ab und bauen Proteine auf. Sie planen ihre Wiedergeburt Jahrzehnte voraus.",
+    "absaetze": [
+      "Die klassische Lehre sagt: Bakteriosporen sind lebende Leichen. Sie unterdrücken ihren Stoffwechsel komplett, schrumpfen, verhärten und erstarren in einen Zustand, der dem biologischen Stillstand gleichkommt. Jahrzehnte oder gar Jahrhunderte können sie so überstehen – vollständig inert, ohne Gedanken, ohne Plan. Das macht sie zwar extrem zäh, aber auch dumm.",
+      "Die Realität ist raffinierter: Jüngste RNA-Sequenzierungen (Setlow et al. 2015) zeigen, dass dormante Sporen kontinuierlich ihre Gene transkribieren – sie produzieren mRNA und bauen sogar Proteine auf, obwohl kein Energie-Stoffwechsel läuft. Sie führen nicht einen biologischen Schlaf auf, sondern einen 'Traum-Zustand': aktive innere Vorbereitung ohne externe Aktivität. Diese Sporen bauen Reparaturproteine auf, priorisieren Gene für das sofortige Wachstum, sobald Feuchtigkeit und Nährstoffe kommen – und wissen so Jahrzehnte voraus, was sie brauchen werden.",
+      "Das bedeutet: Überleben ist nicht Passivität, sondern Planung. Diese Sporen verbrauchen keine Energie für Luxus, sondern akkumulieren gezielt die Werkzeuge für Wiedergeburt. Sie sind nicht wartend, sondern vorbereitend – winzige Bibliothekarinnen, die ihre Bauanleitungen schon mit sich führen, bevor die Gelegenheit kommt. Das macht Dormanz zur intelligentesten Überlebensstrategie und zeigt: Auch in den tiefsten Krisen plant die Natur bereits das Comeback."
+    ],
+    "schon_gewusst": "Bakteriensporen können Millionen von Jahren in trockenem Zustand überleben – 2000 Jahre alte Sporen aus ägyptischen Mumien konnten im Labor wieder zum Leben erweckt werden und keimten normal aus.",
+    "quelle": "Setlow P et al. (2015): Spore Dormancy and Germination. Microbiology Monographs.",
+    "quelle_url": "https://doi.org/10.1007/978-3-319-18099-3",
+    "datum": "2026-11-05"
   }
 ]
