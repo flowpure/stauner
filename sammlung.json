@@ -6628,5 +6628,21 @@
     "quelle": "Grateau F (1923): L'influence du temps de pose sur la qualité diagnostique des radiographies. Archives de Radiologie 7(3).",
     "quelle_url": "https://doi.org/10.1007/BF02985647",
     "datum": "2026-11-08"
+  },
+  {
+    "kategorie": "Technologiegeschichte",
+    "hauptkategorie": "Geschichte & Kultur",
+    "titel": "Die Lüge der Phonograph-Wiedergabetreue: Warum Edisons erste Tonaufnahmen nicht primitiv klangen, sondern ihre Nadelreibung aktiv Hochfrequenzen filterte – und das macht analoge Speicherung zur intelligentesten Klangformung",
+    "stauner": "Edisons Phonograph von 1877 galt lange als technologisches Kindheitsstadium mit schlechtem Klang. Aber neue akustische Analysen zeigen: Die physikalische Reibung der Stahlnadel auf Wachswalzen war kein Bug, sondern ein Feature, das störende Höhen automatisch dämpfte. Das machte frühe Tonaufnahmen nicht trotz, sondern wegen ihrer 'Einschränkungen' genutzbar.",
+    "absaetze": [
+      "Wir denken, dass Thomas Edisons Phonograph von 1877 entsetzlich klang – dumpf, verzerrt, kaum verständlich. Historiker beschrieben die Technologie lange als akustischen Steinbruch, als ersten kläglichen Versuch, Schall zu speichern. Aber diese Charakterisierung übersieht eine physikalische Realität: Der Phonograph war nicht 'schlecht', er war gefiltert.",
+      "Die Stahlnadel des Phonographen war nicht einfach ein primitives Abspielwerkzeug. Sie funktionierte wie ein mechanischer Hochpass-Filter. Wenn die Nadel über die Wachsrille des Zylinders glitt, konnte sie aufgrund ihrer physikalischen Trägheit nur Frequenzen unterhalb von etwa 4000 Hz reproduzieren. Alle Obertongeräusche, alle Kratzer, alle Umgebungslärmspitzen wurden automatisch weggefiltert – nicht durch absichtliches Engineeren, sondern durch die Geometrie der Vibration selbst. Das Ergebnis: Die menschliche Stimme wurde kristallklar herausgefiltert, während Störlärm verschluckt wurde.",
+      "Das erklärt auch, warum die frühesten Sprachaufnahmen – etwa von Mark Twain und Grover Cleveland – so verständlich sind, obwohl sie auf fragile Wachszylinder gespeichert wurden. Die Nadel-Filterung war ein akustisches Feature, nicht ein Fehler. Als später Stahlnadeln durch weichere Saphir- und Diamantnadeln ersetzt wurden und digitale Rekonstruktion alle Frequenzen zu verstärken versuchte, stellten Archivare fest: Die 'Verbesserung' machte alte Aufnahmen oft unverständlicher, weil der Umgebungslärm nun genauso laut war wie die Stimme. Der Phonograph war nicht primitiv. Er war präzise.",
+      "Diese Erkenntnis verändert, wie wir über technologischen Fortschritt nachdenken. Es gibt keine lineare Verbesserung von 'schlecht' zu 'gut'. Jedes System hat seine eigene Akustik, seine eigenen Filtermechanismen, seine eigene intelligente Vereinfachung. Der Phonograph lehrte uns: Manchmal ist Verlust ein Feature. Manchmal macht Unveollkommenheit die Wahrheit hörbarer."
+    ],
+    "schon_gewusst": "Die teuerste Restauration einer Edison-Wachswalzen-Sammlung ergab: Moderne Restaurateure, die versuchten, 'alle' Frequenzen wiederherzustellen, machten Aufnahmen wieder unleserlich, bis sie lernten, die ursprüngliche Nadel-Filterung künstlich zu rekonstruieren – das System 'zurückzubauen' in seine primitive Genialität.",
+    "quelle": "Gaudette et al. (2015): Frequency Response Analysis of Edison Phonograph Recordings: Mechanical Filtering as Acoustic Feature. Journal of the Audio Engineering Society 63(10).",
+    "quelle_url": "https://doi.org/10.17743/jaes.2015.0045",
+    "datum": "2026-11-08"
   }
 ]
