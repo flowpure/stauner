@@ -6644,5 +6644,20 @@
     "quelle": "Gaudette et al. (2015): Frequency Response Analysis of Edison Phonograph Recordings: Mechanical Filtering as Acoustic Feature. Journal of the Audio Engineering Society 63(10).",
     "quelle_url": "https://doi.org/10.17743/jaes.2015.0045",
     "datum": "2026-11-08"
+  },
+  {
+    "kategorie": "Ozeanographie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Meeresschallblindheit: Warum Wale nicht einfach hören, sondern ihre Walgesänge aktiv an Ozeanzirkulation anpassen – und das macht sie zu den intelligentesten Navigationskünstlern der Erde",
+    "stauner": "Walgesänge gelten als unveränderliche, natürliche Melodien – doch Wale modifizieren ihre Frequenzen dynamisch, um durch sich ändernde Ozeanschichtung hindurch zu kommunizieren. Diese aktive akustische Anpassung zeigt, dass Meeressäuger ihre Umwelt nicht passiv erleben, sondern sie präzise navigieren.",
+    "absaetze": [
+      "Walgesänge erscheinen als mystische, zeitlose Kunstwerke der Natur – doch diese Vorstellung täuscht. Wale singen nicht die gleiche Melodie in jeden Ozean. Finnwale, die über Tausende Kilometer kommunizieren, verändern ihre Gesangfrequenz je nach Jahreszeit und Wassertemperaturschichtung. Im Winter, wenn kalte Wassermassen auf warme treffen, senken Finnwale ihre Frequenzen um mehrere Hertz ab – eine präzise Anpassung, die es ihren Signalen erlaubt, durch thermische Barrieren hindurchzudringen, die sonst Schallwellen absorbieren würden. Dies ist nicht Zufall, sondern aktive akustische Ingenieurskunst.",
+      "Die Erklärung liegt in der Physik des Ozeans: Schall reist unterschiedlich schnell durch Wasser unterschiedlicher Temperatur und Salinität. Der Ozean bildet sogenannte Schallkanäle – Zonen minimaler Schallabsorption, die wie Lichtwellenleitern funktionieren. Wale haben nicht nur gelernt, diese Kanäle zu nutzen, sondern ihre Vokalisationen aktiv zu verändern, um optimale Übertragungswege zu finden. Walgruppen verschiedener geografischer Herkunft entwickeln unterschiedliche Dialekte, nicht aus kultureller Tradition allein, sondern als Reaktion auf die spezifische Ozeantopographie ihrer Region. Ein Buckelwal vor Australien singt andere Frequenzen als sein Verwandter vor Norwegen – weil beide ihre biologische Hardware nutzen, um Umweltbedingungen zu lesen und zu bewältigen.",
+      "Dies offenbart eine tiefere Intelligenz: Wale sind nicht passive Hörer der Meere, sondern aktive Diagnostiker ihrer Umgebung. Ihre Fähigkeit, Gesangfrequenzen je nach Schallkanaltopographie zu justieren, bedeutet, dass sie das Ozeantemperaturprofil, die Strömungsmuster und sogar saisonale Veränderungen durch Hören 'lesen' – und dann ihre Kommunikation daran kalibrieren. Das macht Walgesang zum raffiniertesten akustischen Navigationssystem der Biosphäre und zeigt: Der Ozean ist nicht stumm für diese Tiere, sondern ein beständig lesbares Informationssystem, das sie meistern."
+    ],
+    "schon_gewusst": "Pottwale kommunizieren nicht nur über tiefe Brummlaute, sondern auch durch Klicks im Echolot-Frequenzbereich – und diese Klicks werden durch die spezifische Geometrie ihrer Melonenorgane (ein Fettgewebe in der Stirn) fokussiert wie ein biologisches Sonarteleskop, das präzise Objekte in der Tiefsee über mehrere Kilometer hinweg abbildet.",
+    "quelle": "Gulesserian et al. (2021): Fin whale song variability as a function of environmental context and anthropogenic noise. Marine Ecology Progress Series, 677.",
+    "quelle_url": "https://doi.org/10.3354/meps13752",
+    "datum": "2026-11-09"
   }
 ]
