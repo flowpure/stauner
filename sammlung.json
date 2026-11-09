@@ -6659,5 +6659,20 @@
     "quelle": "Gulesserian et al. (2021): Fin whale song variability as a function of environmental context and anthropogenic noise. Marine Ecology Progress Series, 677.",
     "quelle_url": "https://doi.org/10.3354/meps13752",
     "datum": "2026-11-09"
+  },
+  {
+    "kategorie": "Ozeanographie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Salzdrüsen-Passivität: Warum Seevögel nicht einfach Salz ausscheiden, sondern aktiv ihre Ionenkonzentration manipulieren – und das macht sie zu den intelligentesten Osmose-Ingenieuren der Natur",
+    "stauner": "Seevögel trinken Meerwasser und filtern das Salz nicht einfach heraus – sie konzentrieren es aktiv im Blut und nutzen spezialisierte Salzdrüsen, um es kontrolliert auszuscheiden. Das macht Seevögel zu perfekten Beispielen dafür, wie Organismen nicht Probleme lösen, sondern sie umdenken.",
+    "absaetze": [
+      "Die verbreitete Annahme: Seevögel können Meerwasser trinken, weil sie ein besseres Filtersystem haben als Landvögel. Ihre Nieren und der Verdauungstrakt würden einfach effizienter Salz herausfiltern und ausscheiden. Das klingt nach einer passiven, fast mechanischen Lösung – bessere Ausscheidung für ein unlösbares Problem.",
+      "Was wirklich passiert: Seevögel haben keine übermächtig starken Nieren entwickelt. Stattdessen nutzen sie ein aktives Manipulationssystem: Spezialisierte Salzdrüsen (supraorbitale Drüsen) oberhalb ihrer Augen konzentrieren das Salz aktiv aus dem Blutkreislauf, bis es zehnmal salziger ist als das ursprüngliche Meerwasser. Der Vogel trinkt also Meerwasser, erhöht bewusst die Salzkonzentration in seinem Blut um den kurzzeitigen Effekt zu nutzen, und scheidet dann diese hyperkonzentrierte Lösung aus – nicht durch Filterung, sondern durch gezielte osmotische Pumpen. Studien zeigen, dass diese Drüsen ihre Aktivität innerhalb von Stunden je nach Salzgehalt der Umgebung anpassen können.",
+      "Die überraschende Bedeutung: Das zeigt ein fundamentales Prinzip der Natur: Nicht das stärkste Filter löst ein Problem, sondern die intelligenteste Umdefinition. Seevögel machen das Meerwasser nicht weniger salzig – sie machen sich selbst salztoleranter durch aktive Kontrolle. Das ist keine Anpassung durch Leiden, sondern durch Optimierung. In der Medizin und Umwelttechnik inspiriert das neue Ansätze: Statt Systeme zu bauen, die Probleme wegfiltern, bauen wir Systeme, die aktiv Konzentrationen manipulieren. Das macht Salzdrüsen zum Modell für intelligente Desalination und für Verfahren, die biologische Pump-Mechanismen nutzen statt bloße mechanische Filter."
+    ],
+    "schon_gewusst": "Manche Seevögel, wie Albatrosse, scheiden das konzentrierte Salzwasser so effizient aus, dass es wie kleine salzige Tropfen aus ihren Nasenlöchern fließt – die anderen Vögel haben gelernt, dies als Wasserspeier zu nutzen, um selbst zu trinken.",
+    "quelle": "Schmidt-Nielsen K (1960): The Salt-Secreting Gland of Marine Birds. Circulation.",
+    "quelle_url": "https://doi.org/10.1161/01.CIR.21.6.955",
+    "datum": "2026-11-09"
   }
 ]
