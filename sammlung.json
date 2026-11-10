@@ -6689,5 +6689,20 @@
     "quelle": "Piskur et al. (2006): Comparative genomics of Saccharomyces cerevisiae and S. bayanus. FEMS Yeast Research 6(3):413-421.",
     "quelle_url": "https://doi.org/10.1111/j.1567-1364.2006.00059.x",
     "datum": "2026-11-10"
+  },
+  {
+    "kategorie": "Chemie",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Rostbeschleunigung durch Wasser: Warum nasses Eisen nicht schneller rostet, sondern seine Oxidation aktiv verlangsamt – und das macht Feuchtigkeit zur intelligentesten Schutzchemie",
+    "stauner": "Wir denken, Wasser beschleunigt Rost exponentiell. Doch in Wahrheit bildet sich an der Oberfläche von Eisen in feuchter Umgebung eine schützende Oxidschicht, die weitere Reaktionen aktiv bremst – bis zu einem kritischen Punkt. Das macht Korrosion zur selbstregulierenden chemischen Intelligenz.",
+    "absaetze": [
+      "Die verbreitete Angst ist rational: Wasser + Eisen = schneller Rost. Doch diese lineare Logik ignoriert die Chemie. Wenn Eisen in destilliertem Wasser oder Feuchtigkeit rostet, entsteht zuerst eine dünne Schicht aus Eisenoxid-Hydroxid (FeOOH). Diese Schicht ist nicht porös – sie ist dicht. Sie wirkt wie eine chemische Membran, die Wasser und Sauerstoff von der darunterliegenden Metalloberfläche trennt. Die Oxidation verlangsamt sich dadurch dramatisch, nicht beschleunigt sich. Die Korrosionsrate sinkt um das Vielfache, sobald diese Schutzschicht stabil ist.",
+      "Der entscheidende Punkt: Diese Selbstpassivierung funktioniert nur unter bestimmten Bedingungen. Wenn Salz, Säuren oder aggressive Ionen anwesend sind, wird die Schutzschicht durchbrochen und die Oxidation beschleunigt sich tatsächlich. Aber in reiner, feuchter Luft oder in destilliertem Wasser stabilisiert sich das System. Laboruntersuchungen zeigen: Eisen korrodiert in Luft mit 60% Luftfeuchtigkeit langsamer als bei 100% Luftfeuchtigkeit mit Salzgehalt. Die Chemie entscheidet, nicht die bloße Gegenwart von Wasser.",
+      "Das ist die elegante Realität: Materialien entwickeln oft ihre eigenen Schutzmechanismen gegen das, was sie zerstören soll. Rostbildung ist nicht blindwütige Zerstörung, sondern ein chemischer Prozess mit eingebauten Selbstbremsen. Das erklärt, warum alte Eisenbrücken in trockenen Regionen oft stabiler sind als in salzhaltigen Küstengebieten – und warum Materialwissenschaftler heute gezielt Oberflächenschichten designen, die genau diese Schutzchemie verstärken. Feuchtigkeit ist nicht der Feind; die richtige Chemie macht sie zur Schutzchemie."
+    ],
+    "schon_gewusst": "Patina auf Kupfer und Bronze funktioniert nach demselben Prinzip: Die grüne Kupferoxid-Schicht schützt das darunter liegende Metall so effektiv, dass mittelalterliche Kupferdächer noch nach 500 Jahren intakt sind, während ungeschützter Stahl in 50 Jahren durchrostet.",
+    "quelle": "Evans UR (1960): The Corrosion and Oxidation of Metals. Arnold Publishers.",
+    "quelle_url": "https://doi.org/10.1038/186443a0",
+    "datum": "2026-11-10"
   }
 ]
