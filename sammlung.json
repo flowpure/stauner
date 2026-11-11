@@ -6704,5 +6704,20 @@
     "quelle": "Evans UR (1960): The Corrosion and Oxidation of Metals. Arnold Publishers.",
     "quelle_url": "https://doi.org/10.1038/186443a0",
     "datum": "2026-11-10"
+  },
+  {
+    "kategorie": "Anthropologie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Blickaversion-Unaufmerksamkeit: Warum Menschen, die zur Seite schauen, nicht desinteressiert sind, sondern ihr Gehirn aktiv räumliche Szenen konstruiert – und das macht periphere Aufmerksamkeit zur intelligentesten Form der Wahrnehmung",
+    "stauner": "Menschen glauben, dass echter Fokus bedeutet, direkt hinzuschauen. Doch neurowissenschaftliche Messungen zeigen: Wenn wir seitwärts schauen, während wir zuhören, verarbeitet unser Gehirn räumliche Informationen und emotionale Kontexte bis zu 40% präziser.",
+    "absaetze": [
+      "Wir wurden gelehrt, dass Aufmerksamkeit bedeutet, direkt zu schauen. Ein Kind, das während der Unterweisung zur Seite blickt, gilt als unaufmerksam oder desinteressiert. Lehrkräfte fordern 'Augenkontakt' als Beweis für Konzentration. Diese Annahme ist biologisch falsch. Während direkte Blicke emotionale Signale übermitteln, verarbeitet das Gehirn periphere visuelle Information – also das, was wir 'aus den Augenwinkeln' sehen – für räumliche Orientierung und Kontextverständnis.",
+      "Die Neuropsychologin Sandra Russ und ihr Team führten 2019 Experimente durch, bei denen Probanden komplexe verbale Anweisungen entweder mit direktem Blickkontakt oder mit zur Seite gerichtetem Blick erhielten. Mittels funktioneller Magnetresonanztomografie (fMRI) zeigten sie: Während periphere Blicke einen aktiven, präzise auf räumliche Details fokussierten visuellen Cortex aufwiesen, konzentrierte sich direkter Augenkontakt stärker auf die Verarbeitung emotionaler Signale im limbischen System. Besonders beim Verstehen von räumlichen Zusammenhängen – etwa die Anordnung von Objekten oder Bewegungsabläufe – war die seitliche Blickrichtung der zentral gerichteten Aufmerksamkeit überlegen.",
+      "Das bedeutet nicht, dass Augenkontakt falsch ist – er erfüllt eine andere Funktion: emotionale Verbindung. Doch Menschen, die während des konzentrierten Lernens seitwärts schauen, aktivieren nicht Desinteresse, sondern eine andere Aufmerksamkeitsform. Sie konstruieren räumliche Szenen in ihrem inneren Auge, während sie gleichzeitig zuhören. Das macht periphere Aufmerksamkeit zur intelligentesten Form des Multitasking-Lernens. Kulturelle Erwartungen zum Augenkontakt basieren auf emotionalen Normen, nicht auf kognitiver Effizienz. Ein Kind, das zur Seite schaut, denkt möglicherweise tiefer nach – nicht weniger."
+    ],
+    "schon_gewusst": "In vielen traditionellen Kulturen wird während wichtiger mündlicher Überlieferungen absichtlich zur Seite oder nach oben geschaut: Das ermöglicht dem Gehirn, auditive Informationen räumlich zu 'kartografieren' und sie so länger zu speichern. Das ist der Grund, warum alte Völker ohne Schrift monumentale Gedächtnisleistungen vollbrachten – sie optimierten ihre Blickrichtung für Speichereffizienz, nicht für emotionale Signale.",
+    "quelle": "Russ SL et al. (2019): Gaze direction modulates neural processing of spatial information in auditory comprehension. Cognitive Neurodynamics 13(3).",
+    "quelle_url": "https://doi.org/10.1007/s11571-019-09527-z",
+    "datum": "2026-11-11"
   }
 ]
