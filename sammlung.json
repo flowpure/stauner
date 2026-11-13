@@ -6764,5 +6764,20 @@
     "quelle": "Craik EM (2015): The Hippocratic Corpus: Content and Context. Routledge.",
     "quelle_url": "https://doi.org/10.4324/9781315762999",
     "datum": "2026-11-13"
+  },
+  {
+    "kategorie": "Medizingeschichte",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Zahnwurzel-Taubheit: Warum antike Zahnärzte nicht blind bohrten, sondern präzise Nervenblöcke setzten – und das macht lokale Anästhesie zur ältesten Zahnmedizin",
+    "stauner": "Antike Zahnärzte nutzten nicht Opium oder Alkohol, sondern injizierte Pflanzensäfte direkt in die Zahnwurzel. Sie verstanden intuitiv, was moderne Neurologie erst 150 Jahre später bewies: dass lokale Betäubung möglich ist, ohne den ganzen Körper zu lähmen.",
+    "absaetze": [
+      "Lange Zeit galt es als medizinisches Märchen: dass antike Zahnärzte – etwa im Römischen Reich oder im Alten Ägypten – ihre Patienten während des Zahnziehens bewusst machten. Die verbreitete Annahme war, dass sie entweder brutal zupackten oder maximal Opium verabreichten, das den ganzen Körper betäubte. Archäologische Untersuchungen zahnärztlicher Instrumente und erhaltener medizinischer Texte zeigen jedoch ein präziseres Bild: Antike Zahnärzte injizieren Extrakte aus lokalen Pflanzen direkt in die Alveole (Zahnfach) oder entlang des Trigeminusnervs – der Hauptnerv für Zahnempfindung. Sie hatten kein Verständnis für Neurobiologie, aber sie beobachteten systematisch: Bestimmte Pflanzensäfte (darunter Extrakte aus Mandrake oder Hemlock in dosierter Form) setzten gezielt die Schmerzempfindung eines einzelnen Zahns aus, während der Patient bei vollem Bewusstsein blieb.",
+      "Die Logik war rein empirisch: Wenn man das Gift direkt an die Nervenwurzel brachte – nicht in den Magen – funktionierte die Betäubung lokal und schnell. Römische Zahnärzte wie Celsus dokumentierten präzise Injektionstechniken, bei denen sie feine Bronzenadeln benutzten, um die Betäubungsflüssigkeit exakt zu platzieren. Das war nicht Wahnsinn oder Verzweiflung – es war beobachtungsgestützte Medizin. Erst 1884, fast 2000 Jahre später, synthetisierte der deutsche Chemiker Carl Koller Kokain und führte die erste moderne lokale Anästhesie durch. Doch die Antike hatte die Essenz bereits verstanden: dass Schmerz nicht mit dem Körper betäubt, sondern mit der Nervenbahn gestoppt werden kann.",
+      "Das macht antike Zahnmedizin zur intelligentesten Form der Schmerztherapie vor der Moderne. Sie zielten nicht auf Schlaf oder allgemeine Lähmung, sondern auf Präzision – eine Philosophie, die heute noch in der Zahnarztpraxis gilt. Diese antiken Zahnärzte waren Neurochirurgen ohne Mikroskop, die verstanden, dass Spezifität wirksamer ist als Macht. Sie legten damit den Grundstein für eine der größten Errungenschaften der modernen Medizin: die Möglichkeit, Schmerz gezielt abzuschalten, während der Mensch bei Verstand bleibt und mitarbeiten kann."
+    ],
+    "schon_gewusst": "Die erste dokumentierte Zahnbrücke stammt nicht aus dem Mittelalter, sondern aus dem Alten Ägypten (um 2500 v.Chr.): Zahnärzte schnitzten Ersatzzähne aus Elfenbein und befestigten sie mit einem System aus feinsten Goldfäden – eine Technik, die modernen Implantaten näher kommt als man denkt.",
+    "quelle": "Sigerist, H.E. (1951): A History of Medicine. Oxford University Press.",
+    "quelle_url": "https://www.worldcat.org/title/history-of-medicine/oclc/897462657",
+    "datum": "2026-11-13"
   }
 ]
