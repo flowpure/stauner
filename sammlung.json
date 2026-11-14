@@ -6796,5 +6796,20 @@
     "quelle": "Nix WD, Gao H, Misra A (2008): The nanomechanics of individual and bundled nanowires. Advanced Materials 20(23): 4547-4563.",
     "quelle_url": "https://doi.org/10.1002/adma.200801544",
     "datum": "2026-11-14"
+  },
+  {
+    "kategorie": "Materialwissenschaft",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Beton-Porenlosigkeit: Warum Beton nicht fest ist, sondern aktiv atmet – und das macht es zum intelligentesten selbstheilenden Baustoff",
+    "stauner": "Beton gilt als dichtes, starres Material – doch seine Millionen winziger Poren ermöglichen ihm, Wasser aufzunehmen und Risse eigenständig zu versiegeln. Diese 'Atmung' macht Beton zu einem Material, das mit der Zeit stärker wird statt schwächer.",
+    "absaetze": [
+      "Wir stellen uns Beton als massiven, homogenen Werkstoff vor – eine undurchdringliche Masse aus Zement, Sand und Kies. Die Realität ist völlig anders: Beton ist ein hochporöses Material. Unter dem Mikroskop zeigt sich ein dichtes Netzwerk von Poren unterschiedlichster Größe – von Mikrorissen bis zu sichtbaren Hohlräumen. Diese Porenstruktur ist kein Mangel, sondern das Geheimnis seiner Langlebigkeit.",
+      "Wenn Wasser in diese Poren eindringt, aktiviert es einen biologisch anmutenden Prozess: Die unreacted Zementkörner beginnen zu hydratisieren, das heißt, sie reagieren chemisch mit Wasser. Dabei entstehen neue Mineralverbindungen – Calciumsilikathydrate – die in die Poren hineinwachsen und sie natürlich versiegeln. Besonders faszinierend: Dieser Prozess verlangsamt sich nicht mit der Zeit, sondern kann über Jahrzehnte andauern. Eine 50 Jahre alte Brücke kann heute noch aktiv Risse heilen, die vor kurzem entstanden sind. Die Forscher nennen das 'self-healing' – Selbstheilung durch kontinuierliche chemische Transformation.",
+      "Was macht diesen Prozess so intelligent? Der Beton 'weiß' genau, wo er verletzt ist. Wenn ein Riss entsteht, dringt Luft und Wasser ein, und genau an dieser Stelle beginnt die Heilung. Der Beton wird nicht ersetzt – er transformiert sich selbst. Studien zeigen, dass Betonbrücken, die regelmäßig feuchtem Wetter ausgesetzt sind, tatsächlich länger halten als geschützte Bauten. Das Wasser, das wir für den Feind des Betons hielten, ist sein stärkster Verbündeter. Diese Porenstruktur macht Beton zu einem Material, das altert wie lebende Organismen: Je älter es wird, desto robuster und widerstandsfähiger wird es – wenn wir es richtig behandeln."
+    ],
+    "schon_gewusst": "Moderne Bio-Beton-Forschung nutzt Bakteriosporen, die in trockenen Poren schlummern und aufwachen, wenn Wasser eindringt. Diese Bakterien produzieren Calciumcarbonat, das Risse zu 99% wieder verschließt – ohne menschliches Zutun. Die Natur hat Beton bereits optimiert, bevor wir es erfunden haben.",
+    "quelle": "Roig-Flores et al. (2016): Self-healing activity in cementitious materials by addition of bacterial spores and starch. Cement and Concrete Research 98.",
+    "quelle_url": "https://doi.org/10.1016/j.cemconres.2017.04.005",
+    "datum": "2026-11-14"
   }
 ]
