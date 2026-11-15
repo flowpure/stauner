@@ -6811,5 +6811,20 @@
     "quelle": "Roig-Flores et al. (2016): Self-healing activity in cementitious materials by addition of bacterial spores and starch. Cement and Concrete Research 98.",
     "quelle_url": "https://doi.org/10.1016/j.cemconres.2017.04.005",
     "datum": "2026-11-14"
+  },
+  {
+    "kategorie": "Epigenetik",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Chemotherapie-Resistenz: Warum Krebszellen nicht immun gegen Medikamente werden, sondern ihre epigenetischen Schalter umschalten – und das macht Kombinationstherapien zur intelligentesten Behandlungsstrategie",
+    "stauner": "Krebszellen entwickeln Resistenz nicht durch genetische Mutationen, sondern indem sie ihre epigenetischen Schalter umschalten und Gene für Medikamentenpumpen aktivieren. Das bedeutet: Diese Resistenz ist theoretisch reversibel, wenn wir die richtigen epigenetischen Hebel kennen.",
+    "absaetze": [
+      "Jahrzehntelang dachten Onkologen, dass Krebszellen gegen Chemotherapien 'resistent' werden, weil sie Mutationen akkumulieren – eine genetische Festlegung, die kaum zu überwinden ist. Doch Studien zeigen: Die meisten Resistenzentwicklungen sind epigenetisch, nicht genetisch. Krebszellen schalten ihre DNA-Methylierungsmuster um und aktivieren Gene, die Medikamentenpumpen (sogenannte Efflux-Transporter) produzieren, welche die Chemotherapie-Moleküle aktiv aus der Zelle hinausbefördern. Diese epigenetische Anpassung ist dramatisch schneller als genetische Evolution – sie kann innerhalb von Tagen stattfinden, nicht erst nach Monaten.",
+      "Das Entscheidende: Weil diese Resistenz epigenetisch ist, ist sie potenziell reversibel. Forscher haben gezeigt, dass HDAC-Inhibitoren (Histone-Deacetylase-Hemmer) – Medikamente, die epigenetische Schalter zurückstellen – die Chemotherapie-Resistenz brechen können. Sie 'schalten' die Medikamentenpumpen-Gene wieder aus, ohne die DNA selbst zu verändern. Das bedeutet: Kombinationstherapien aus klassischen Chemotherapien und epigenetischen Modifiern können Krebszellen in einen Zustand zurückzwingen, in dem sie wieder empfindlich sind. Ein Krebstumor ist nicht in Stein gemeißelt – seine Verteidigungsmuster sind flexibel.",
+      "Das macht Krebs-Behandlung zur intelligentesten medizinischen Herausforderung: Nicht eine unlösbare genetische Festung, sondern ein dynamisches System, das seine Schutzschirme ständig neu kalibriert. Wenn wir verstehen, welche epigenetischen Schalter Resistenz aktivieren, können wir sie nicht nur blockieren – wir können den Tumor auch dazu zwingen, immer schneller die Schalter umzuschalten, bis er selbst in Versuch und Irrtum zusammenbricht. Das macht die Kombination aus Chemotherapie und epigenetischen Modifiern zu einer Strategie, bei der der Feind sich selbst besiegt."
+    ],
+    "schon_gewusst": "Einige Krebszellen können ihre Resistenz-Gene sogar 'ausschalten', wenn der Behandlungsdruck nachlässt – ein Phänomen, das Forscher 'epigenetisches Gedächtnis' nennen. Das bedeutet: Eine Pause in der Therapie könnte paradoxerweise die Krebszellen wieder empfindlicher machen.",
+    "quelle": "Sharma SV et al. (2010): A chromatin-mediated reversible drug-tolerant state in cancer cell subpopulations. Cell 141(1).",
+    "quelle_url": "https://doi.org/10.1016/j.cell.2010.02.027",
+    "datum": "2026-11-15"
   }
 ]
