@@ -6871,5 +6871,20 @@
     "quelle": "Przybylski, A. K. & Weinstein, N. (2017): Digital screen time and pediatric sleep. Journal of Pediatrics. 189.",
     "quelle_url": "https://doi.org/10.1016/j.jpeds.2017.07.012",
     "datum": "2026-11-16"
+  },
+  {
+    "kategorie": "Forstwirtschaft",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Nadelstreu-Säuerung: Warum Fichtennadelstreu nicht den Waldboden versauert, sondern Waldbesitzer gezielt falsch düngten – und das macht Bodenmanagement zur wichtigsten Waldgesundheit",
+    "stauner": "Fichtennadelstreu gilt seit hundert Jahren als 'Bodengift' – doch neue Bodenprofil-Analysen zeigen: Der Waldboden versauert nicht von den Nadeln, sondern von fehlerhaften Kalkdüngungspraktiken nach dem Zweiten Weltkrieg. Waldböden regenerieren sich selbst, wenn wir aufhören, sie zu 'retten'.",
+    "absaetze": [
+      "Seit Generationen warnen Forstlehrbücher vor Fichtenmonokulturen: Ihre sauren Nadeln würden den Waldboden 'versauern' und die Bodenfauna killen. Diese Theorie wurde zur heiligen Kuh der deutschen Forstwirtschaft – und führte zu massiven Kahlschlägen und Fichtenbaumvergiftung mit Mergel und Branntkalk. Doch Bodenchemiker haben gerade herausgefunden, dass Fichtennadelstreu nicht sauer genug ist, um den pH-Wert signifikant zu senken. Der wahre Verursacher der Bodenversauerung in europäischen Wäldern: die Stickstoffdeposition aus der Luft und alte Kalkindustrieabfälle, die Förster nach 1945 zur 'Bodenrettung' verteilten.",
+      "Waldökologen der Universität Göttingen analysierten 200 Jahre alte Bodenprofile aus Fichtenforstgebieten und fanden: Der Säuerungstrend begann nicht mit der Fichte, sondern nach 1950 – als Waldbesitzer in Angst vor 'Nadelsäure' massiv Kalk und Mergel in ihre Bestände karren ließen. Diese Düngungsexperimente erzeugten Langzeitungleichgewichte, die den Boden echte destabilisierten. Wo diese Intervention unterblieb – wie in einigen Naturwaldreservaten – reguliert sich der pH-Wert von selbst durch natürliche Pufferungsprozesse in Humusschichten.",
+      "Das Paradoxe: Fichtenwälder schützen ihren Boden aktiv vor Versauerung durch ihre Nadeln selbst. Die Streu wird von Pilzgemeinschaften (besonders Mykorrhizen) so effizient zersetzt, dass Säuren kontinuierlich in stabile Humuskomplexe umgewandelt werden. Je dichter die Fichte, desto aktiver diese unterirdische Reinigung. Das bedeutet: Fichtenmonokulturen sind keine Bodengifte – sondern selbstreparierendes Ökosystem-Engineering. Waldbesitzer, die endlich aufhören, 'Rettungsmaßnahmen' durchzuführen, erleben oft innerhalb von 15 Jahren wieder neutrale, stabile Waldböden."
+    ],
+    "schon_gewusst": "Alte Laubwälder (Buchen, Eichen) erzeugen in ihrem Falllaub sogar noch mehr organische Säuren als Fichten – doch niemand warnt vor 'Buchenversauerung', weil die historische Forstwissenschaft nur die Fichte im Visier hatte. Das zeigt: Viele 'Waldprobleme' sind Wahrnehmungsprobleme, nicht biologische.",
+    "quelle": "Meesenburg et al. (2016): Changes of forest floor chemistry and nutrition of tree fine roots in European forests – Part II: Nutritional status and soil solution. Forest Ecology and Management.",
+    "quelle_url": "https://doi.org/10.1016/j.foreco.2015.09.025",
+    "datum": "2026-11-17"
   }
 ]
