@@ -6901,5 +6901,20 @@
     "quelle": "Pretzsch H. et al. (2015): Mortality of Norway spruce trees in stands treated with structural diversity – results from a long-term experiment. Canadian Journal of Forest Research 45(10): 1314-1324.",
     "quelle_url": "https://doi.org/10.1139/cjfr-2015-0244",
     "datum": "2026-11-17"
+  },
+  {
+    "kategorie": "Spieltheorie",
+    "hauptkategorie": "Mensch & Gesellschaft",
+    "titel": "Die Lüge der Optimalstrategie-Bindung: Warum Menschen nicht die beste Strategie spielen, sondern ihre Strategie aktiv wechseln – und das macht adaptive Flexibilität zur intelligentesten Überlebensfähigkeit",
+    "stauner": "Wir denken, dass rationale Spieler ihre beste Strategie finden und dann spielen. Doch echte Menschen wechseln ihre Strategie ständig – und gewinnen damit mehr als Optimierer.",
+    "absaetze": [
+      "Die Spieltheorie lehrt uns, dass erfolgreiche Spieler ihre Optimalstrategie identifizieren und dann konsequent spielen. Doch das ist eine gefährliche Illusion. Menschen, die starr an einer Strategie festhalten – selbst wenn sie mathematisch optimal ist – werden von adaptiven Spielern systematisch geschlagen. Der Grund: In der echten Welt ändern sich die Gegner, ihre Strategien, ihre Stimmungen. Eine Strategie, die heute perfekt war, kann morgen katastrophal sein.",
+      "Forscher um Axelrod und Hamilton (1981) zeigten in ihren bahnbrechenden Turnieren etwas Verblüffendes: Die besten Strategien waren nicht die mathematisch komplexesten, sondern die flexibelsten. Sie kopierten die Gegner-Strategie mit Verzögerung, wechselten bei Bedarf, und vor allem – sie lernten aus jedem Zug. Spieler, die ihre Strategie starr beibehielten, wurden von Spielern geschlagen, die täglich ihre Herangehensweise anpassten. Nicht Perfektion war der Schlüssel, sondern Sensitivität für Veränderung.",
+      "Das macht adaptive Flexibilität zur intelligentesten Überlebensfähigkeit in der echten Spieltheorie. Menschen, die bereit sind, ihre Strategie zu wechseln – ihren Verhandlungsstil anzupassen, ihre Kommunikation neu zu kalibrieren, ihre Erwartungen zu revidieren – gewinnen nicht trotz ihrer Instabilität, sondern wegen ihr. Sie lesen die Spielsituation präzise. Sie reagieren auf subtile Signale. Sie sehen nicht Regeln, sondern Muster. Das ist die Kompetenz, die echte Spiele entscheidet: nicht Festigkeit, sondern Responsivität."
+    ],
+    "schon_gewusst": "In Turnieren mit wiederholten Spielen schlagen einfache Strategien wie 'Tit-for-Tat' (kopiere den letzten Zug des Gegners) komplexe Optimierungsalgorithmen – weil Einfachheit schnellere Anpassung ermöglicht.",
+    "quelle": "Axelrod, R. & Hamilton, W. D. (1981): The evolution of cooperation. Science 211(4489).",
+    "quelle_url": "https://doi.org/10.1126/science.7466396",
+    "datum": "2026-11-18"
   }
 ]
