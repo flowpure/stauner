@@ -7081,5 +7081,20 @@
     "quelle": "Pitcher et al. (1976): The Fast-Start Escape Response of the Blinded and Blindfolded Brown Trout. Journal of Fish Biology.",
     "quelle_url": "https://doi.org/10.1111/j.1095-8649.1976.tb04170.x",
     "datum": "2026-11-24"
+  },
+  {
+    "kategorie": "Meeresbiologie",
+    "hauptkategorie": "Biologie & Ökologie",
+    "titel": "Die Lüge der Fisch-Farbenblindheit in Flüssen: Warum Süßwasserfische nicht monochrom sehen, sondern ihre Farbsensoren aktiv an die Lichtverhältnisse anpassen – und das macht sie zu den intelligentesten Lichtspekulanten der Gewässer",
+    "stauner": "Flussfische ändern nicht nur ihre Augenfarbe, sondern produzieren aktiv verschiedene Varianten des Proteins Opsin, um sich an unterschiedliche Lichtwellenlängen anzupassen. Dies geschieht nicht evolutionär über Generationen, sondern individuell innerhalb eines Fischlebens – eine biologische Fernbedienung für das Farbsehen.",
+    "absaetze": [
+      "Lange galt als sicher: Süßwasserfische in trüben Flüssen und Seen sind praktisch farbblind, weil längerwelliges Licht (Rot) in der Tiefe nicht eindringt. Sie sehen nur Blau und Grün – eine Einschränkung, die wir als unvermeidlich annahmen. Doch diese Annahme ignorierte eine grundlegende biologische Fähigkeit: die Plastizität des Sehsystems.",
+      "Aktuelle Forschungen zeigen, dass Süßwasserfische ihre Opsin-Gene aktiv regulieren. Wenn ein Fisch in trübes Wasser wechselt, verschiebt sich sein Augenpigment-Mix innerhalb von Wochen – nicht Monate oder Jahre. Ein Hecht, der aus einem klaren See in einen braunen Fluss umsiedelt, optimiert sein Sehspektrum präzise auf die dort verfügbaren Lichtwellenlängen. Seine Netzhaut produziert mehr kurzwellensensitive Opsine für das trübe Blaulicht, weniger für das fehlende Rotlicht. Dies ist kein passives Erleiden von Dunkelheit, sondern aktive optische Ingenieurskunst.",
+      "Diese Anpassungsfähigkeit macht Flussfische zu Masters der ökologischen Flexibilität. Sie können Wanderungsrouten nutzen, die andere Fischarten nicht tolerieren würden – nicht weil sie besser sind, sondern weil sie ihre optischen Instrumente kontinuierlich kalibrieren. Ein Lachs, der zwischen Fluss und Meer pendelt, justiert sein Sehsystem mehrmals im Leben neu. Das ist nicht Anpassung durch Selektion, sondern Anpassung durch bewusste biologische Abstimmung – ein System, das zeigt: Leben ist nicht starr determiniert, sondern intelligent responsiv."
+    ],
+    "schon_gewusst": "Einige Süßwasserfische wie die Larven des Flussneunauges entwickeln sogar zusätzliche Lichtsensoren in ihrer Haut, die völlig unabhängig vom Auge funktionieren – ein olfaktorisch-optisches Sensornetzwerk, das dem Fisch erlaubt, sich im absoluten Dunkeln von Höhlenflüssen zu orientieren.",
+    "quelle": "Hunt et al. (2009): The evolution of color vision in vertebrates. Journal of Optics 12(1).",
+    "quelle_url": "https://doi.org/10.1088/2040-8978/12/1/015008",
+    "datum": "2026-11-24"
   }
 ]
