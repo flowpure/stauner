@@ -7096,5 +7096,20 @@
     "quelle": "Hunt et al. (2009): The evolution of color vision in vertebrates. Journal of Optics 12(1).",
     "quelle_url": "https://doi.org/10.1088/2040-8978/12/1/015008",
     "datum": "2026-11-24"
+  },
+  {
+    "kategorie": "Physik",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Schallgeschwindigkeit-Universalität: Warum Schall nicht überall gleich schnell ist, sondern seine Geschwindigkeit aktiv an die Materiedichte anpasst – und das macht Akustik zur intelligentesten Form der Stofferkennung",
+    "stauner": "Schall reist nicht mit einer festen Geschwindigkeit durchs Universum. In Stahl bewegt er sich fünfmal schneller als in Luft – nicht weil die Physik sich ändert, sondern weil die Moleküldichte aktiv bestimmt, wie schnell Vibrationen sich übertragen. Diese fundamentale Abhängigkeit macht Schallgeschwindigkeit zur Fingerabdruckmaschine jedes Materials.",
+    "absaetze": [
+      "Wir lernen: Schallgeschwindigkeit ist konstant. 343 Meter pro Sekunde – fertig. Doch diese Vereinfachung versteckt die elegante Wahrheit: Schall ist nicht schnell oder langsam – er ist angepasst. In Luft (0°C): 331 m/s. In Wasser: 1.480 m/s. In Stahl: 5.000 m/s. Schall bewegt sich in jedem Medium mit einer völlig anderen Geschwindigkeit, weil jedes Material eine andere Molekülpackung hat. Je dichter die Atome, desto schneller können Vibrationen von Atom zu Atom weitergeleitet werden. Schall ist kein universeller Sprinter – er ist ein intelligenter Handwerker, der seine Geschwindigkeit der lokalen Architektur anpasst.",
+      "Diese Variabilität ist kein Fehler der Natur – sie ist das Navigationsgeheimnis. Marine Biologen nutzen genau diesen Effekt: Wale und Delfine orten Objekte präzise, weil sie unbewusst Schallgeschwindigkeitsunterschiede nutzen. Wenn Schall durch verschiedene Wasserschichten unterschiedlicher Temperatur (und damit Dichte) reist, bricht er ab – genauso wie Licht durch Glas. Dieser Effekt erzeugt akustische Linsensysteme, die Meeressäuger wie ein biologisches Sonar verwenden. Menschliche Ingenieure haben dieses Prinzip erst in den 1940ern 'erfunden', als sie Ultraschall-Bildgebung entwickelten – Wale benutzen es seit Millionen Jahren.",
+      "Die tiefere Bedeutung ist revolutionär: Schallgeschwindigkeit wird zum universellen Stoff-Detektor. Mediziner nutzen Ultraschalluntersuchungen, weil verschiedene Körpergewebe unterschiedliche Schallgeschwindigkeiten haben – Fett, Muskel, Knochen reflektieren Schall unterschiedlich. Geologen bestimmen Erdschichten, indem sie Erdbebenwellen verfolgen und ihre Geschwindigkeitssprünge kartografieren. Die innere Struktur unseres Planeten wurde nicht durch Bohrungen offenbart, sondern durch das Vertrauen darauf, dass Schall jede verborgene Schicht mit ihrer eigenen Signatur durchquert. Das macht uns zu Lesern der Welt – nicht durch Augen, sondern durch die Sprache der Schwingungen, die überall unterschiedlich schnell erzählt wird."
+    ],
+    "schon_gewusst": "In Helium bewegt sich Schall schneller als in Luft (972 m/s bei 0°C), obwohl Helium viel leichter ist – weil Helium-Atome sich bei gleicher Temperatur viel schneller bewegen und die Vibrationen schneller weitergeben. Schallgeschwindigkeit hängt nicht von der Dichte ab, sondern von der Temperatur und der molekularen Bewegungsenergie.",
+    "quelle": "Kinsler et al. (2000): Fundamentals of Acoustics. Wiley-Interscience.",
+    "quelle_url": "https://doi.org/10.1002/9781119875529",
+    "datum": "2026-11-25"
   }
 ]
