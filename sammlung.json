@@ -7111,5 +7111,20 @@
     "quelle": "Kinsler et al. (2000): Fundamentals of Acoustics. Wiley-Interscience.",
     "quelle_url": "https://doi.org/10.1002/9781119875529",
     "datum": "2026-11-25"
+  },
+  {
+    "kategorie": "Physik",
+    "hauptkategorie": "Naturwissenschaften",
+    "titel": "Die Lüge der Spiegelbeschlag-Blindheit: Warum beschlagene Spiegel nicht weniger reflektieren, sondern ihre Reflexionen aktiv streuen – und das macht Feuchtigkeitsschichten zur intelligentesten Form der diffusen Lichtverteilung",
+    "stauner": "Ein mit Wasserdampf beschlagener Spiegel wirkt nutzlos – doch physikalisch passiert etwas Raffiniertes: Die mikroskopischen Wassertröpfchen erzeugen nicht weniger Reflexion, sondern verteilen das Licht in alle Richtungen. Das macht Beschlag zur intelligentesten Diffusionsschicht.",
+    "absaetze": [
+      "Wir kennen das: Der Badezimmerspiegel beschlägt nach einer heißen Dusche und wird plötzlich unbrauchbar. Die intuitives Erklärung lautet: Feuchtigkeit zerstört die Spiegelqualität. Doch die Physik zeigt ein subtileres Phänomen. Der Beschlag entsteht durch Millionen winziger Wassertröpfchen (typisch 1–10 Mikrometer Durchmesser), die auf der Spiegeloberfläche kondensieren. Diese Tropfen wirken nicht wie ein undurchsichtiger Film, der Licht verschluckt – sie funktionieren wie eine optische Schicht, die Licht aktiv umleitet.",
+      "Die Gesamtlichtmenge, die der Spiegel reflektiert, sinkt nicht dramatisch – sie wird nur räumlich neuverteilt. Jeder Wassertropfen bricht und streut einfallendes Licht in mehrere Richtungen (Mie-Streuung), statt es wie eine glatte Oberfläche in eine einzelne Reflexionsrichtung zu lenken. Messungen zeigen: Ein beschlagener Spiegel reflektiert noch 60–80% des Lichts, verliert aber die Kohärenz der Reflexion. Deshalb sehen wir verschwommen statt scharf – nicht weil weniger Photonen zurückkommen, sondern weil sie aus allen Winkeln kommen.",
+      "Diese Eigenschaft macht beschlagene Oberflächen zu natürlichen Diffusoren – exakt das Prinzip, das Fotografen, Lichttechniker und Displaydesigner künstlich nachbauen. Matte Displayschutzfolien funktionieren nach demselben Prinzip wie Badezimmerbeschlag: Sie zerstören nicht die Lichttransmission, sondern verteilen sie. Ein beschlagener Spiegel offenbart also eine fundamentale Wahrheit: Perfekte Schärfe und Nutzbarkeit sind nicht dasselbe. Manchmal ist diffuses Licht genau das, was wir brauchen – und die Natur zeigt uns das jeden Morgen im Bad."
+    ],
+    "schon_gewusst": "Anti-Beschlag-Beschichtungen auf Spiegeln funktionieren nicht durch Wasserdichte, sondern durch extrem hydrophile (wasserliebende) Nanostrukturen, die Wassertropfen in einen gleichmäßigen, durchsichtigen Film umwandeln – statt sie in Millionen Streuzentren zu zerlegen.",
+    "quelle": "van de Hulst HC (1981): Light Scattering by Small Particles. Dover Publications.",
+    "quelle_url": "https://doi.org/10.1119/1.12894",
+    "datum": "2026-11-25"
   }
 ]
